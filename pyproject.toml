@@ -1,6 +1,6 @@
 [project]
 name = "pipeline-medic"
-version = "0.1.0"
+version = "0.2.0"
 description = "Agentic CI/CD reliability copilot"
 readme = "README.md"
 requires-python = ">=3.14"
@@ -9,4 +9,21 @@ dependencies = [
     "fastapi==0.141.1",
     "uvicorn==0.52.4",
     "requests==2.34.2",
+    "chromadb==1.5.9",
+    "sentence-transformers==6.1.0",
+    "torch==2.14.1",
 ]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.16.9",
+    "httpx==0.28.1",
+]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["data/sample_logs"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

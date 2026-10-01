@@ -102,6 +102,10 @@ def main() -> None:
     queries = [r for r in records if counts[r.label] >= 2]
     query_labels = [r.label for r in queries]
     print(f"{len(records)} logs in corpus, {len(queries)} queries, {len(counts)} categories")
+    if len(queries) < 2:
+        hint = (" Set label_status to 'reviewed' in data/sample_logs/index.csv"
+                " for the labels you've checked." if args.reviewed_only else "")
+        raise SystemExit(f"Not enough labelled logs to evaluate.{hint}")
 
     embed = sentence_transformer_embedder()
     client = chromadb.EphemeralClient()

@@ -16,21 +16,21 @@
     "docs_check": 2,
     "timeout": 1
   },
-  "reviewed_only": false,
+  "reviewed_only": true,
   "chance@1": 0.15,
   "window": 15,
   "overlap": 5,
   "strategies": {
     "whole": {
       "chunks": 47,
-      "index_build_s": 1.5,
+      "index_build_s": 2.2,
       "same_repo_allowed": {
         "recall@1": 0.239,
         "recall@3": 0.413,
         "recall@5": 0.5,
         "mrr": 0.34,
-        "latency_ms_p50": 34.9,
-        "latency_ms_p95": 102.5,
+        "latency_ms_p50": 55.5,
+        "latency_ms_p95": 77.6,
         "queries": 46
       },
       "cross_repo": {
@@ -38,21 +38,21 @@
         "recall@3": 0.413,
         "recall@5": 0.435,
         "mrr": 0.312,
-        "latency_ms_p50": 66.8,
-        "latency_ms_p95": 91.4,
+        "latency_ms_p50": 56.6,
+        "latency_ms_p95": 72.1,
         "queries": 46
       }
     },
     "tail": {
       "chunks": 47,
-      "index_build_s": 1.9,
+      "index_build_s": 1.7,
       "same_repo_allowed": {
         "recall@1": 0.674,
         "recall@3": 0.717,
         "recall@5": 0.761,
         "mrr": 0.703,
-        "latency_ms_p50": 45.1,
-        "latency_ms_p95": 55.7,
+        "latency_ms_p50": 58.3,
+        "latency_ms_p95": 86.1,
         "queries": 46
       },
       "cross_repo": {
@@ -60,21 +60,21 @@
         "recall@3": 0.609,
         "recall@5": 0.652,
         "mrr": 0.496,
-        "latency_ms_p50": 38.6,
-        "latency_ms_p95": 58.3,
+        "latency_ms_p50": 51.7,
+        "latency_ms_p95": 60.0,
         "queries": 46
       }
     },
     "window": {
       "chunks": 1376,
-      "index_build_s": 37.9,
+      "index_build_s": 29.5,
       "same_repo_allowed": {
         "recall@1": 0.522,
         "recall@3": 0.587,
         "recall@5": 0.674,
         "mrr": 0.575,
-        "latency_ms_p50": 65.7,
-        "latency_ms_p95": 72.1,
+        "latency_ms_p50": 35.3,
+        "latency_ms_p95": 44.3,
         "queries": 46
       },
       "cross_repo": {
@@ -82,8 +82,8 @@
         "recall@3": 0.348,
         "recall@5": 0.478,
         "mrr": 0.282,
-        "latency_ms_p50": 51.6,
-        "latency_ms_p95": 67.3,
+        "latency_ms_p50": 35.7,
+        "latency_ms_p95": 44.2,
         "queries": 46
       }
     }

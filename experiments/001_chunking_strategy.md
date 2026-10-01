@@ -1,8 +1,8 @@
 # 001: Chunking strategy for the flat-RAG baseline (v0.2)
 
-**Status:** baseline measured on draft labels; rerun pending label review.
+**Status:** final for v0.2. Labels reviewed (accepted as drafted, no changes).
 **Result file:** `evaluation/results/v0.2_flat_rag_baseline.json`
-**Reproduce:** `python -m evaluation.run_eval`
+**Reproduce:** `python -m evaluation.run_eval --reviewed-only`
 
 ## Question
 
@@ -18,8 +18,8 @@ the same kind?
   collected with `data/collect_ci_logs.py`. Pipeline Medic's own CI has no
   failures yet, so there are no dogfooded logs in this run.
 - **Labels:** one failure category per log (taxonomy in
-  `data/sample_logs/README.md`). All labels are **draft**, still awaiting
-  human review.
+  `data/sample_logs/README.md`). All 51 labels were drafted from the error
+  lines and then reviewed; none were changed.
 - **Excluded:** 4 `aggregate_gate` logs ("alls-green" jobs that only report
   that another job failed). Their text contains no cause, so they can't be
   matched. The single `timeout` log stays in the corpus as a distractor but
@@ -77,13 +77,13 @@ Chance@1 (picking a random other log) = **0.15**.
 
 - **Small sample.** With n = 46, recall@1 has a 95% interval of roughly
   ±0.14. Treat `tail` > `whole` as solid and `tail` vs `window` as directional.
-- **Draft labels.** Labels are unreviewed, and a few are judgment calls
-  (e.g. a native build failure during dependency install was labelled
-  `build_compile`).
+- **Single labeller.** One person reviewed the labels, and a few are
+  judgment calls (e.g. a native build failure during dependency install was
+  labelled `build_compile`). There is no inter-annotator agreement figure.
 - **Only one model and one window size** (15 lines) were tested.
 
 ## Decision
 
 `tail` (15 lines) is the v0.2 default in `rag/ingest.py`. The number any
 v0.2.5 GraphRAG upgrade must beat is the **cross-repo `tail` MRR, 0.496**
-(recall@1 0.413), rerun on reviewed labels.
+(recall@1 0.413).

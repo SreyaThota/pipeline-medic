@@ -1,0 +1,12 @@
+[project]
+name = "pipeline-medic"
+version = "0.1.0"
+description = "Agentic CI/CD reliability copilot"
+readme = "README.md"
+requires-python = ">=3.14"
+authors = [{ name = "Sreya Thota" }]
+dependencies = [
+    "fastapi==0.141.1",
+    "uvicorn==0.52.4",
+    "requests==2.34.2",
+]

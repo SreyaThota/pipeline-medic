@@ -1,6 +1,6 @@
 # Pipeline Medic
 
-**Status: 🚧 Building — v0.2 retrieval baseline measured; label review pending**
+**Status: 🚧 Building — v0.2 retrieval baseline shipped; v0.2.5 (GraphRAG) next**
 
 An agentic CI/CD reliability copilot. It watches a build pipeline, diagnoses
 *why* a run failed, judges how risky the failure is, and either takes a safe
@@ -50,7 +50,7 @@ MCP · LoRA/PEFT (Hugging Face) · RAGAS · Streamlit · Docker · GitHub Action
 | Phase | Scope | Status |
 |---|---|---|
 | v0.1 | Local Ollama inference + FastAPI `/diagnose` endpoint | ✅ Shipped |
-| v0.2 | Flat RAG baseline over real CI failure logs (measured) | 🚧 Building — baseline measured, labels in review |
+| v0.2 | Flat RAG baseline over real CI failure logs (measured) | ✅ Shipped |
 | v0.2.5 | Knowledge-graph upgrade (GraphRAG), measured vs. v0.2 | 📋 Designed |
 | v0.3 | Action Agent + MCP tools, dry-run + guardrail tests | 📋 Designed |
 | v0.4 | Full agent graph, checkpointed | 📋 Designed |
@@ -58,7 +58,7 @@ MCP · LoRA/PEFT (Hugging Face) · RAGAS · Streamlit · Docker · GitHub Action
 | v0.6–v0.9 | Evaluation, observability, guardrail hardening (+ stretch: review console) | 📋 Designed |
 | v1.0+ | Polish, docs, demo | 📋 Designed |
 
-### Current baseline (v0.2, draft labels)
+### Current baseline (v0.2)
 
 Retrieving past failures of the same category, leave-one-out over 46 real
 GitHub Actions failure logs from 9 open-source repos:

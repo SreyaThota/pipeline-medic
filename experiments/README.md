@@ -1,6 +1,8 @@
 # experiments/
 
 One note per adopted technology, comparing it against the simpler baseline it
-replaces, with a number attached (e.g. `001_chunking_strategy.md`).
+replaces, with a number attached.
 
-Status: first note lands in Phase v0.2, not yet started.
+| Note | Question | Outcome |
+|---|---|---|
+| `001_chunking_strategy.md` | How should CI logs be chunked for flat RAG? | Last 15 lines wins; cross-repo MRR 0.496 is the bar for v0.2.5 |

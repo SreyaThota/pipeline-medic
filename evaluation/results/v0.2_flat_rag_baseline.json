@@ -1,0 +1,91 @@
+{
+  "corpus_logs": 47,
+  "queries": 46,
+  "excluded_labels": [
+    "aggregate_gate"
+  ],
+  "label_counts": {
+    "test_failure": 14,
+    "ci_config": 9,
+    "build_compile": 6,
+    "policy_check": 4,
+    "dependency_install": 3,
+    "infra_network": 3,
+    "lint_format": 3,
+    "type_check": 2,
+    "docs_check": 2,
+    "timeout": 1
+  },
+  "reviewed_only": false,
+  "chance@1": 0.15,
+  "window": 15,
+  "overlap": 5,
+  "strategies": {
+    "whole": {
+      "chunks": 47,
+      "index_build_s": 1.5,
+      "same_repo_allowed": {
+        "recall@1": 0.239,
+        "recall@3": 0.413,
+        "recall@5": 0.5,
+        "mrr": 0.34,
+        "latency_ms_p50": 34.9,
+        "latency_ms_p95": 102.5,
+        "queries": 46
+      },
+      "cross_repo": {
+        "recall@1": 0.217,
+        "recall@3": 0.413,
+        "recall@5": 0.435,
+        "mrr": 0.312,
+        "latency_ms_p50": 66.8,
+        "latency_ms_p95": 91.4,
+        "queries": 46
+      }
+    },
+    "tail": {
+      "chunks": 47,
+      "index_build_s": 1.9,
+      "same_repo_allowed": {
+        "recall@1": 0.674,
+        "recall@3": 0.717,
+        "recall@5": 0.761,
+        "mrr": 0.703,
+        "latency_ms_p50": 45.1,
+        "latency_ms_p95": 55.7,
+        "queries": 46
+      },
+      "cross_repo": {
+        "recall@1": 0.413,
+        "recall@3": 0.609,
+        "recall@5": 0.652,
+        "mrr": 0.496,
+        "latency_ms_p50": 38.6,
+        "latency_ms_p95": 58.3,
+        "queries": 46
+      }
+    },
+    "window": {
+      "chunks": 1376,
+      "index_build_s": 37.9,
+      "same_repo_allowed": {
+        "recall@1": 0.522,
+        "recall@3": 0.587,
+        "recall@5": 0.674,
+        "mrr": 0.575,
+        "latency_ms_p50": 65.7,
+        "latency_ms_p95": 72.1,
+        "queries": 46
+      },
+      "cross_repo": {
+        "recall@1": 0.174,
+        "recall@3": 0.348,
+        "recall@5": 0.478,
+        "mrr": 0.282,
+        "latency_ms_p50": 51.6,
+        "latency_ms_p95": 67.3,
+        "queries": 46
+      }
+    }
+  }
+}

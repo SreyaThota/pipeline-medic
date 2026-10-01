@@ -1,0 +1,400 @@
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4849686Z   git switch -c <new-branch-name>
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4849973Z 
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4850142Z Or undo this operation with:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4850383Z 
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4850518Z   git switch -
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4850727Z 
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4851077Z Turn off this advice by setting config variable advice.detachedHead to false
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4851514Z 
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4852056Z HEAD is now at 4f8db5b Merge c1e73124c5d24aa6d61f0413d217f5810f62eb00 into b5addb64f0161ff6bfe94c124ef76f6a1fba5254
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4855864Z ##[endgroup]
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4888695Z [command]/usr/bin/git log -1 --format=%H
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.4907084Z 4f8db5bf70268967f76d766bb30ebc0f90b17780
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5192944Z ##[group]Run actions/setup-python@v6
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5193292Z with:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5193556Z   python-version: 3.13
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5193832Z   allow-prereleases: true
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5194110Z   check-latest: false
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5196263Z   token: ***
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5196544Z   update-environment: true
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5196878Z   freethreaded: false
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.5197142Z ##[endgroup]
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6324454Z ##[group]Installed versions
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6467105Z Successfully set up CPython (3.13.15)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6467829Z ##[endgroup]
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6588992Z ##[group]Run scripts/install
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6589334Z ^[[36;1mscripts/install^[[0m
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6633221Z shell: /usr/bin/bash -e {0}
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6633486Z env:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6633761Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6634163Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6634543Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6634887Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6635404Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6635749Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6636046Z ##[endgroup]
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6756796Z + [ -z true ]
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6760056Z + PIP=pip
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:11.6760849Z + pip install -U pip
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:13.6487241Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages (26.2.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:13.8609755Z + pip install -r requirements.txt
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.1305889Z Obtaining file:///home/runner/work/httpx/httpx
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.1321737Z   Installing build dependencies: started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.7913721Z   Installing build dependencies: finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.7919081Z   Checking if build backend supports build_editable: started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.8300912Z   Checking if build backend supports build_editable: finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.8325947Z   Getting requirements to build editable: started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.9524936Z   Getting requirements to build editable: finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:14.9535276Z   Installing backend dependencies: started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.3904254Z   Installing backend dependencies: finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.3909845Z   Preparing editable metadata (pyproject.toml): started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.5883609Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.6633078Z Collecting chardet==5.2.0 (from -r requirements.txt (line 9))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.7214457Z   Downloading chardet-5.2.0-py3-none-any.whl.metadata (3.4 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.7336547Z Collecting mkdocs==1.6.1 (from -r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.7434044Z   Downloading mkdocs-1.6.1-py3-none-any.whl.metadata (6.0 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.7547902Z Collecting mkautodoc==0.2.0 (from -r requirements.txt (line 13))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.7648930Z   Downloading mkautodoc-0.2.0.tar.gz (4.8 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:15.7708255Z   Installing build dependencies: started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.3225372Z   Installing build dependencies: finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.3230290Z   Getting requirements to build wheel: started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.6192041Z   Getting requirements to build wheel: finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.6198690Z   Preparing metadata (pyproject.toml): started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.7814131Z   Preparing metadata (pyproject.toml): finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.8149459Z Collecting mkdocs-material==9.6.18 (from -r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.8255234Z   Downloading mkdocs_material-9.6.18-py3-none-any.whl.metadata (19 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.8434628Z Collecting build==1.3.0 (from -r requirements.txt (line 17))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.8537019Z   Downloading build-1.3.0-py3-none-any.whl.metadata (5.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.8713220Z Collecting twine==6.1.0 (from -r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:16.8818402Z   Downloading twine-6.1.0-py3-none-any.whl.metadata (3.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.1467319Z Collecting coverage==7.10.6 (from coverage[toml]==7.10.6->-r requirements.txt (line 21))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.1579617Z   Downloading coverage-7.10.6-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (8.9 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.2739724Z Collecting cryptography==45.0.7 (from -r requirements.txt (line 22))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.2839657Z   Downloading cryptography-45.0.7-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (5.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.3522755Z Collecting mypy==1.17.1 (from -r requirements.txt (line 23))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.3630678Z   Downloading mypy-1.17.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.3823531Z Collecting pytest==8.4.1 (from -r requirements.txt (line 24))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.3920612Z   Downloading pytest-8.4.1-py3-none-any.whl.metadata (7.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6041523Z Collecting ruff==0.12.11 (from -r requirements.txt (line 25))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6145024Z   Downloading ruff-0.12.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6290491Z Collecting trio==0.31.0 (from -r requirements.txt (line 26))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6386498Z   Downloading trio-0.31.0-py3-none-any.whl.metadata (8.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6490652Z Collecting trio-typing==0.10.0 (from -r requirements.txt (line 27))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6591143Z   Downloading trio_typing-0.10.0-py3-none-any.whl.metadata (10 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6698182Z Collecting trustme==1.2.1 (from -r requirements.txt (line 28))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6792900Z   Downloading trustme-1.2.1-py3-none-any.whl.metadata (5.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.6955464Z Collecting uvicorn==0.35.0 (from -r requirements.txt (line 29))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7052836Z   Downloading uvicorn-0.35.0-py3-none-any.whl.metadata (6.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7211158Z Collecting anyio (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7308722Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7515774Z Collecting certifi (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7611781Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7731016Z Collecting httpcore==1.* (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7827408Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.7967388Z Collecting idna (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.8064701Z   Downloading idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.8293747Z Collecting brotli (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.8391092Z   Downloading brotli-1.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.8515040Z Collecting click==8.* (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.8610815Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.8752850Z Collecting pygments==2.* (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.8850064Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.9072362Z Collecting rich<15,>=10 (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.9169621Z   Downloading rich-14.3.4-py3-none-any.whl.metadata (18 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.9298357Z Collecting h2<5,>=3 (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.9394180Z   Downloading h2-4.4.1-py3-none-any.whl.metadata (3.8 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.9595558Z Collecting socksio==1.* (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:17.9691536Z   Downloading socksio-1.0.0-py3-none-any.whl.metadata (6.1 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.0147263Z Collecting zstandard>=0.18.0 (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.0244334Z   Downloading zstandard-0.25.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.3 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.0366281Z Collecting ghp-import>=1.0 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.0462464Z   Downloading ghp_import-2.1.0-py3-none-any.whl.metadata (7.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.0580518Z Collecting jinja2>=2.11.1 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.0677677Z   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.0992783Z Collecting markdown>=3.3.6 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.1090726Z   Downloading markdown-3.10.3-py3-none-any.whl.metadata (5.1 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.1425710Z Collecting markupsafe>=2.0.1 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.1524985Z   Downloading markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.1612226Z Collecting mergedeep>=1.3.4 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.1708069Z   Downloading mergedeep-1.3.4-py3-none-any.whl.metadata (4.3 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.1796972Z Collecting mkdocs-get-deps>=0.2.0 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.1892971Z   Downloading mkdocs_get_deps-0.2.2-py3-none-any.whl.metadata (4.0 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2170950Z Collecting packaging>=20.5 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2180105Z   Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2224516Z Collecting pathspec>=0.11.1 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2233335Z   Using cached pathspec-1.1.1-py3-none-any.whl.metadata (14 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2311442Z Collecting pyyaml-env-tag>=0.1 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2409376Z   Downloading pyyaml_env_tag-1.1-py3-none-any.whl.metadata (5.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2660558Z Collecting pyyaml>=5.1 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.2757181Z   Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.3047069Z Collecting watchdog>=2.0 (from mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.3144318Z   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.3305941Z Collecting babel~=2.10 (from mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.3401445Z   Downloading babel-2.18.0-py3-none-any.whl.metadata (2.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.3676872Z Collecting backrefs~=5.7.post1 (from mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.3778462Z   Downloading backrefs-5.9-py313-none-any.whl.metadata (3.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.3942691Z Collecting click==8.* (from httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4040602Z   Downloading click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4151693Z Collecting colorama~=0.4 (from mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4249825Z   Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4379011Z Collecting mkdocs-material-extensions~=1.3 (from mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4474757Z   Downloading mkdocs_material_extensions-1.3.1-py3-none-any.whl.metadata (6.9 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4568586Z Collecting paginate~=0.5 (from mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4663816Z   Downloading paginate-0.5.7-py2.py3-none-any.whl.metadata (11 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.4899457Z Collecting pymdown-extensions~=10.2 (from mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.5002032Z   Downloading pymdown_extensions-10.21.3-py3-none-any.whl.metadata (3.1 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.5170107Z Collecting requests~=2.26 (from mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.5266467Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.5469366Z Collecting pyproject_hooks (from build==1.3.0->-r requirements.txt (line 17))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.5564780Z   Downloading pyproject_hooks-1.3.0-py3-none-any.whl.metadata (1.3 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.5811288Z Collecting readme-renderer>=35.0 (from twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.5907714Z   Downloading readme_renderer-46.0-py3-none-any.whl.metadata (3.0 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.6123716Z Collecting requests-toolbelt!=0.9.0,>=0.8.0 (from twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.6219453Z   Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.6472807Z Collecting urllib3>=1.26.0 (from twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.6570534Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.6832063Z Collecting keyring>=15.1 (from twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.6929030Z   Downloading keyring-25.7.0-py3-none-any.whl.metadata (21 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.7134188Z Collecting rfc3986>=1.4.0 (from twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.7230648Z   Downloading rfc3986-2.0.0-py2.py3-none-any.whl.metadata (6.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.7354013Z Collecting id (from twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.7451252Z   Downloading id-1.6.1-py3-none-any.whl.metadata (5.1 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.8157857Z Collecting cffi>=1.14 (from cryptography==45.0.7->-r requirements.txt (line 22))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.8256344Z   Downloading cffi-2.1.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.8555984Z Collecting typing_extensions>=4.6.0 (from mypy==1.17.1->-r requirements.txt (line 23))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.8652146Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.8850668Z Collecting mypy_extensions>=1.0.0 (from mypy==1.17.1->-r requirements.txt (line 23))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.8946665Z   Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9147539Z Collecting iniconfig>=1 (from pytest==8.4.1->-r requirements.txt (line 24))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9243808Z   Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9313823Z Collecting pluggy<2,>=1.5 (from pytest==8.4.1->-r requirements.txt (line 24))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9322910Z   Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9431673Z Collecting attrs>=23.2.0 (from trio==0.31.0->-r requirements.txt (line 26))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9528327Z   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9633013Z Collecting sortedcontainers (from trio==0.31.0->-r requirements.txt (line 26))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:18.9731463Z   Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata (10 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0015240Z Collecting outcome (from trio==0.31.0->-r requirements.txt (line 26))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0111029Z   Downloading outcome-1.3.0.post0-py2.py3-none-any.whl.metadata (2.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0215967Z Collecting sniffio>=1.3.0 (from trio==0.31.0->-r requirements.txt (line 26))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0313356Z   Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0436182Z Collecting async-generator (from trio-typing==0.10.0->-r requirements.txt (line 27))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0533279Z   Downloading async_generator-1.10-py3-none-any.whl.metadata (4.9 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0727883Z Collecting importlib-metadata (from trio-typing==0.10.0->-r requirements.txt (line 27))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.0824281Z   Downloading importlib_metadata-9.0.1-py3-none-any.whl.metadata (4.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.1155526Z Collecting h11>=0.8 (from uvicorn==0.35.0->-r requirements.txt (line 29))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.1251947Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.1380071Z Collecting hyperframe<7,>=6.1 (from h2<5,>=3->httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.1475726Z   Downloading hyperframe-6.1.0-py3-none-any.whl.metadata (4.3 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.1567352Z Collecting hpack<5,>=4.2 (from h2<5,>=3->httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.1663188Z   Downloading hpack-4.2.0-py3-none-any.whl.metadata (3.3 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.2727267Z Collecting charset_normalizer<4,>=2 (from requests~=2.26->mkdocs-material==9.6.18->-r requirements.txt (line 14))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.2828614Z   Downloading charset_normalizer-3.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (45 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3020942Z Collecting markdown-it-py>=2.2.0 (from rich<15,>=10->httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3117760Z   Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3267782Z Collecting pycparser (from cffi>=1.14->cryptography==45.0.7->-r requirements.txt (line 22))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3364034Z   Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3464704Z Collecting python-dateutil>=2.8.1 (from ghp-import>=1.0->mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3561555Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3670276Z Collecting SecretStorage>=3.2 (from keyring>=15.1->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3766810Z   Downloading secretstorage-3.5.0-py3-none-any.whl.metadata (4.0 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3860491Z Collecting jeepney>=0.4.2 (from keyring>=15.1->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.3957980Z   Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.4183542Z Collecting jaraco.classes (from keyring>=15.1->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.4281677Z   Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.4412557Z Collecting jaraco.functools (from keyring>=15.1->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.4516392Z   Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.4734803Z Collecting jaraco.context (from keyring>=15.1->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.4831683Z   Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.4924583Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<15,>=10->httpx==0.28.1)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5027362Z   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5183027Z Collecting platformdirs>=2.2.0 (from mkdocs-get-deps>=0.2.0->mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5280949Z   Downloading platformdirs-4.11.8-py3-none-any.whl.metadata (5.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5401726Z Collecting six>=1.5 (from python-dateutil>=2.8.1->ghp-import>=1.0->mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5498434Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5780534Z Collecting nh3>=0.2.14 (from readme-renderer>=35.0->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5878244Z   Downloading nh3-0.3.7-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.0 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.5983714Z Collecting docutils>=0.21.2 (from readme-renderer>=35.0->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.6079928Z   Downloading docutils-0.23-py3-none-any.whl.metadata (15 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.6546436Z Collecting zipp>=3.20 (from importlib-metadata->trio-typing==0.10.0->-r requirements.txt (line 27))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.7772432Z   Downloading zipp-4.1.0-py3-none-any.whl.metadata (3.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.7928373Z Collecting more-itertools (from jaraco.classes->keyring>=15.1->twine==6.1.0->-r requirements.txt (line 18))
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.8025431Z   Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.8218660Z Downloading chardet-5.2.0-py3-none-any.whl (199 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.8476481Z Downloading mkdocs-1.6.1-py3-none-any.whl (3.9 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.9157730Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 62.6 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:19.9268709Z Downloading mkdocs_material-9.6.18-py3-none-any.whl (9.2 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.0009397Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 124.7 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.0108520Z Downloading build-1.3.0-py3-none-any.whl (23 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.0227808Z Downloading twine-6.1.0-py3-none-any.whl (40 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.0344609Z Downloading coverage-7.10.6-cp313-cp313-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (251 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.0658110Z Downloading cryptography-45.0.7-cp311-abi3-manylinux_2_34_x86_64.whl (4.5 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.0962057Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 151.9 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.1068767Z Downloading mypy-1.17.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (12.7 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.2121532Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 120.8 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.2222233Z Downloading pytest-8.4.1-py3-none-any.whl (365 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.2349636Z Downloading ruff-0.12.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.2 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.3428494Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.2/13.2 MB 122.6 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.3532124Z Downloading trio-0.31.0-py3-none-any.whl (512 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.3664594Z Downloading trio_typing-0.10.0-py3-none-any.whl (42 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.3780028Z Downloading trustme-1.2.1-py3-none-any.whl (16 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.3894968Z Downloading uvicorn-0.35.0-py3-none-any.whl (66 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.4015460Z Downloading babel-2.18.0-py3-none-any.whl (10.2 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.4615953Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 171.7 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.4722280Z Downloading backrefs-5.9-py313-none-any.whl (399 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.4991284Z Downloading click-8.2.1-py3-none-any.whl (102 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5106538Z Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5220246Z Downloading h2-4.4.1-py3-none-any.whl (62 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5335261Z Downloading hpack-4.2.0-py3-none-any.whl (34 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5449410Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5565866Z Downloading hyperframe-6.1.0-py3-none-any.whl (13 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5680181Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5797199Z Downloading markdown-3.10.3-py3-none-any.whl (110 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.5914326Z Downloading mkdocs_material_extensions-1.3.1-py3-none-any.whl (8.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6027593Z Downloading paginate-0.5.7-py2.py3-none-any.whl (13 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6054189Z Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6153554Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6208732Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 269.9 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6303899Z Downloading pymdown_extensions-10.21.3-py3-none-any.whl (269 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6430028Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6545526Z Downloading charset_normalizer-3.5.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (250 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6662494Z Downloading idna-3.19-py3-none-any.whl (68 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.6777042Z Downloading rich-14.3.4-py3-none-any.whl (310 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7080081Z Downloading socksio-1.0.0-py3-none-any.whl (12 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7193147Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7308540Z Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7427205Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7544031Z Downloading cffi-2.1.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7662376Z Downloading ghp_import-2.1.0-py3-none-any.whl (11 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7774171Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7887158Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.7998989Z Downloading keyring-25.7.0-py3-none-any.whl (39 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.8131660Z Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.8243840Z Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.8360098Z Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.8530178Z Downloading markupsafe-3.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.8650975Z Downloading mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.8764774Z Downloading mkdocs_get_deps-0.2.2-py3-none-any.whl (9.6 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9159853Z Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9186491Z Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9195630Z Using cached pathspec-1.1.1-py3-none-any.whl (57 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9292983Z Downloading platformdirs-4.11.8-py3-none-any.whl (24 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9410060Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9530585Z Downloading pyyaml-6.0.3-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (801 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9592187Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.6/801.6 kB 125.1 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9689058Z Downloading pyyaml_env_tag-1.1-py3-none-any.whl (4.7 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9801022Z Downloading readme_renderer-46.0-py3-none-any.whl (14 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9913914Z Downloading docutils-0.23-py3-none-any.whl (634 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:20.9953991Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 634.7/634.7 kB 152.7 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0053331Z Downloading nh3-0.3.7-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (832 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0148103Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 832.2/832.2 kB 73.3 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0247541Z Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0362681Z Downloading rfc3986-2.0.0-py2.py3-none-any.whl (31 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0535824Z Downloading secretstorage-3.5.0-py3-none-any.whl (15 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0648755Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0761647Z Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.0952638Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.1274046Z Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.1391564Z Downloading zstandard-0.25.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.5 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.1705318Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 178.7 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.1804924Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.1927864Z Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2054691Z Downloading brotli-1.2.0-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2114129Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 282.9 MB/s  0:00:00
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2211308Z Downloading id-1.6.1-py3-none-any.whl (14 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2325649Z Downloading importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2438854Z Downloading zipp-4.1.0-py3-none-any.whl (10 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2551497Z Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2664904Z Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2779190Z Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.2894571Z Downloading more_itertools-11.1.0-py3-none-any.whl (72 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.3009461Z Downloading outcome-1.3.0.post0-py2.py3-none-any.whl (10 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.3124227Z Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.3387133Z Downloading pyproject_hooks-1.3.0-py3-none-any.whl (10 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.3508679Z Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.5806569Z Building wheels for collected packages: httpx, mkautodoc
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.5813370Z   Building editable for httpx (pyproject.toml): started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.6115324Z   Building editable for httpx (pyproject.toml): finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.6119589Z   Created wheel for httpx: filename=httpx-0.28.1-py3-none-any.whl size=4847 sha256=afd62c3a6cfcf076bca814d6c70a798f39679c6105f0667b58983b683c535a8f
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.6121193Z   Stored in directory: /tmp/pip-ephem-wheel-cache-lmeow5hu/wheels/2e/21/5c/e607d21e7579c12d12390ec0c2b3830da0fb517f0a9afe0dc9
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.6140755Z   Building wheel for mkautodoc (pyproject.toml): started
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.7914346Z   Building wheel for mkautodoc (pyproject.toml): finished with status 'done'
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.7918431Z   Created wheel for mkautodoc: filename=mkautodoc-0.2.0-py3-none-any.whl size=4347 sha256=393ca7d4207da53b06f55918da3ffd05951cc249a90e67a48522e23459130c3d
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.7919652Z   Stored in directory: /home/runner/.cache/pip/wheels/cf/12/d8/30e81ea29f806c515f054ad30e3bacc7d7b437dbcf1e788edd
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.7932411Z Successfully built httpx mkautodoc
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:21.9408840Z Installing collected packages: sortedcontainers, paginate, brotli, zstandard, zipp, watchdog, urllib3, typing_extensions, socksio, sniffio, six, ruff, rfc3986, pyyaml, pyproject_hooks, pygments, pycparser, pluggy, platformdirs, pathspec, packaging, nh3, mypy_extensions, more-itertools, mkdocs-material-extensions, mergedeep, mdurl, markupsafe, markdown, jeepney, jaraco.context, iniconfig, idna, hyperframe, hpack, h11, docutils, coverage, colorama, click, charset_normalizer, chardet, certifi, backrefs, babel, attrs, async-generator, uvicorn, requests, readme-renderer, pyyaml-env-tag, python-dateutil, pytest, pymdown-extensions, outcome, mypy, mkdocs-get-deps, mkautodoc, markdown-it-py, jinja2, jaraco.functools, jaraco.classes, importlib-metadata, id, httpcore, h2, cffi, build, anyio, trio, rich, requests-toolbelt, httpx, ghp-import, cryptography, trustme, trio-typing, SecretStorage, mkdocs, mkdocs-material, keyring, twine
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:28.9168643Z 
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:28.9229629Z Successfully installed SecretStorage-3.5.0 anyio-4.15.1 async-generator-1.10 attrs-26.1.0 babel-2.18.0 backrefs-5.9 brotli-1.2.0 build-1.3.0 certifi-2026.7.22 cffi-2.1.1 chardet-5.2.0 charset_normalizer-3.5.1 click-8.2.1 colorama-0.4.6 coverage-7.10.6 cryptography-45.0.7 docutils-0.23 ghp-import-2.1.0 h11-0.16.0 h2-4.4.1 hpack-4.2.0 httpcore-1.0.9 httpx-0.28.1 hyperframe-6.1.0 id-1.6.1 idna-3.19 importlib-metadata-9.0.1 iniconfig-2.3.0 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 jeepney-0.9.0 jinja2-3.1.6 keyring-25.7.0 markdown-3.10.3 markdown-it-py-4.2.0 markupsafe-3.0.3 mdurl-0.1.2 mergedeep-1.3.4 mkautodoc-0.2.0 mkdocs-1.6.1 mkdocs-get-deps-0.2.2 mkdocs-material-9.6.18 mkdocs-material-extensions-1.3.1 more-itertools-11.1.0 mypy-1.17.1 mypy_extensions-1.1.0 nh3-0.3.7 outcome-1.3.0.post0 packaging-26.3 paginate-0.5.7 pathspec-1.1.1 platformdirs-4.11.8 pluggy-1.6.0 pycparser-3.0 pygments-2.21.0 pymdown-extensions-10.21.3 pyproject_hooks-1.3.0 pytest-8.4.1 python-dateutil-2.9.0.post0 pyyaml-6.0.3 pyyaml-env-tag-1.1 readme-renderer-46.0 requests-2.34.2 requests-toolbelt-1.0.0 rfc3986-2.0.0 rich-14.3.4 ruff-0.12.11 six-1.17.0 sniffio-1.3.1 socksio-1.0.0 sortedcontainers-2.4.0 trio-0.31.0 trio-typing-0.10.0 trustme-1.2.1 twine-6.1.0 typing_extensions-4.16.0 urllib3-2.8.0 uvicorn-0.35.0 watchdog-6.0.0 zipp-4.1.0 zstandard-0.25.0
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0804685Z ##[group]Run scripts/check
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0804929Z ^[[36;1mscripts/check^[[0m
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0838141Z shell: /usr/bin/bash -e {0}
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0838372Z env:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0838604Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0838952Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0839284Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0839581Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0839869Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0840168Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0840427Z ##[endgroup]
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0927028Z + ./scripts/sync-version
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0942934Z grep: warning: ? at start of expression
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0943328Z grep: warning: ? at start of expression
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0943677Z grep: warning: ? at start of expression
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0960199Z grep: warning: ? at start of expression
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0960593Z grep: warning: ? at start of expression
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0960941Z grep: warning: ? at start of expression
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0964534Z CHANGELOG_VERSION: 0.28.1
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0964844Z VERSION: 0.28.1
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.0965818Z + ruff format httpx tests --diff
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.1129179Z 60 files already formatted
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:29.1134851Z + mypy httpx tests
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6237275Z Success: no issues found in 60 source files
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6396372Z + ruff check httpx tests
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6531738Z warning: Invalid `# noqa` directive on httpx/_transports/asgi.py:171: expected a comma-separated list of codes (e.g., `# noqa: F401, F841`).
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6536303Z All checks passed!
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6588254Z ##[group]Run scripts/build
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6588495Z ^[[36;1mscripts/build^[[0m
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6620190Z shell: /usr/bin/bash -e {0}
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6620393Z env:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6620611Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6620961Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6621296Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6621591Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6621884Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6622185Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6622437Z ##[endgroup]
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.6676424Z + python -m build
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.7432817Z * Creating isolated environment: venv+pip...
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:37.7628600Z * Installing packages in isolated environment:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:38.3630069Z   - hatch-fancy-pypi-readme
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:38.3630527Z   - hatchling
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:38.3630815Z * Getting build dependencies for sdist...
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:38.4830644Z * Building sdist...
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:38.7116172Z * Building wheel from sdist
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:38.7122018Z * Creating isolated environment: venv+pip...
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:38.7142031Z * Installing packages in isolated environment:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.2670737Z   - hatch-fancy-pypi-readme
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.2671025Z   - hatchling
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.2671227Z * Getting build dependencies for wheel...
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.3909072Z * Building wheel...
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.5559434Z Successfully built httpx-0.28.1.tar.gz and httpx-0.28.1-py3-none-any.whl
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.5686539Z + twine check dist/httpx-0.28.1-py3-none-any.whl dist/httpx-0.28.1.tar.gz
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.9537819Z Checking dist/httpx-0.28.1-py3-none-any.whl: ^[[31mERROR   ^[[0m InvalidDistribution: Invalid distribution metadata: '2.5' is not a     
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.9538471Z          valid metadata version                                                 
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.9832220Z ##[error]Process completed with exit code 1.
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.9950550Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:39.9951474Z Post job cleanup.
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0605535Z [command]/usr/bin/git version
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0636099Z git version 2.55.0
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0663837Z Temporarily overriding HOME='/home/runner/work/_temp/7e73e4bd-0ffd-4d34-a5b2-4134b6a897b8' before making global git config changes
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0665340Z Adding repository directory to the temporary git global config as a safe directory
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0668591Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/httpx/httpx
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0698563Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0725234Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0917943Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0941103Z http.https://github.com/.extraheader
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0949712Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.0976388Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.1164112Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.1191044Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.1492434Z Cleaning up orphan processes
+Python 3.13	UNKNOWN STEP	2026-09-16T07:59:40.1749928Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

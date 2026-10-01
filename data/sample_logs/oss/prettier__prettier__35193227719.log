@@ -1,0 +1,315 @@
+Check Sizes	UNKNOWN STEP	﻿2026-09-17T07:10:30.3666761Z Current runner version: '2.337.0'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3702782Z ##[group]Runner Image Provisioner
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3704229Z Hosted Compute Agent
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3705442Z Version: 20260828.587
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3706697Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3708182Z Build Date: 2026-08-28T16:44:25Z
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3709705Z Worker ID: {26dbe029-3626-4de9-a6e9-4cec86995551}
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3711043Z Azure Region: eastus2
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3712147Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3714829Z ##[group]Operating System
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3716066Z Ubuntu
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3716990Z 24.04.5
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3718219Z LTS
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3719137Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3720383Z ##[group]Runner Image
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3721636Z Image: ubuntu-24.04
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3722662Z Version: 20260907.300.1
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3724921Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3727751Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3729860Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3732332Z ##[group]GITHUB_TOKEN Permissions
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3735291Z Contents: read
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3736322Z Metadata: read
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3737271Z PullRequests: write
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3738214Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3741698Z Secret source: Actions
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3743308Z Cache mode: write
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.3745092Z Prepare workflow directory
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.4234862Z Prepare all required actions
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.4306771Z Getting action download info
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.6752850Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.7835763Z Download action repository 'actions/setup-node@820762786026740c76f36085b0efc47a31fe5020' (SHA:820762786026740c76f36085b0efc47a31fe5020)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:30.8762141Z Download action repository 'preactjs/compressed-size-action@f322c295dde06a1cb7ccaef105732dd8a726d1d9' (SHA:f322c295dde06a1cb7ccaef105732dd8a726d1d9)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1075167Z Complete job name: Check Sizes
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1816843Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1817918Z with:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1818385Z   repository: prettier/prettier
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1822326Z   token: ***
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1822774Z   ssh-strict: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1823217Z   ssh-user: git
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1823679Z   persist-credentials: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1824179Z   clean: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1824640Z   sparse-checkout-cone-mode: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1825183Z   fetch-depth: 1
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1825622Z   fetch-tags: false
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1826072Z   show-progress: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1826524Z   lfs: false
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1826940Z   submodules: false
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1827402Z   set-safe-directory: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1827946Z   allow-unsafe-pr-checkout: false
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.1828735Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2796812Z Syncing repository: prettier/prettier
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2798561Z ##[group]Getting Git version info
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2799385Z Working directory is '/home/runner/work/prettier/prettier'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2800820Z [command]/usr/bin/git version
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2861675Z git version 2.55.0
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2883401Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2895396Z Temporarily overriding HOME='/home/runner/work/_temp/b9252632-27df-4102-a7ba-2d64186172d6' before making global git config changes
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2897793Z Adding repository directory to the temporary git global config as a safe directory
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2901949Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.2996707Z Deleting the contents of '/home/runner/work/prettier/prettier'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3000696Z ##[group]Determining repository object format
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3002953Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3004271Z ##[group]Initializing the repository
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3006123Z [command]/usr/bin/git init /home/runner/work/prettier/prettier
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3111320Z hint: Using 'master' as the name for the initial branch. This default branch name
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3113490Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3115807Z hint: to use in all of your new repositories, which will suppress this warning,
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3117469Z hint: call:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3118388Z hint:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3120272Z hint: 	git config --global init.defaultBranch <name>
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3121348Z hint:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3121956Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3123115Z hint: 'development'. The just-created branch can be renamed via this command:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3124074Z hint:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3124778Z hint: 	git branch -m <name>
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3125453Z hint:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3126148Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3127225Z Initialized empty Git repository in /home/runner/work/prettier/prettier/.git/
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3128911Z [command]/usr/bin/git remote add origin https://github.com/prettier/prettier
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3203651Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3205152Z ##[group]Disabling automatic garbage collection
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3207091Z [command]/usr/bin/git config --local gc.auto 0
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3240470Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3241931Z ##[group]Setting up auth
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3243001Z Removing SSH command configuration
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3247727Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3279777Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3611941Z Removing HTTP extra header
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3617304Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3652778Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3888280Z Removing includeIf entries pointing to credentials config files
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3892947Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.3925664Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4167765Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4204988Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/prettier/prettier/.git.path /home/runner/work/_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4236046Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4273190Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4303756Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4331853Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4333497Z ##[group]Fetching the repository
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:31.4338302Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +d0d8f710faee244383ed4a2ea15bbbaa4219b4f3:refs/remotes/pull/20094/merge
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4397487Z From https://github.com/prettier/prettier
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4398843Z  * [new ref]         d0d8f710faee244383ed4a2ea15bbbaa4219b4f3 -> pull/20094/merge
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4402315Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4403499Z ##[group]Determining the checkout info
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4404513Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4417106Z [command]/usr/bin/git sparse-checkout disable
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4457308Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4488855Z ##[group]Checking out the ref
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.4491628Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/20094/merge
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9525940Z Note: switching to 'refs/remotes/pull/20094/merge'.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9527195Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9528351Z You are in 'detached HEAD' state. You can look around, make experimental
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9530645Z changes and commit them, and you can discard any commits you make in this
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9532950Z state without impacting any branches by switching back to a branch.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9533503Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9533910Z If you want to create a new branch to retain commits you create, you may
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9534722Z do so (now or later) by using -c with the switch command. Example:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9535177Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9535399Z   git switch -c <new-branch-name>
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9535994Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9536588Z Or undo this operation with:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9537052Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9537325Z   git switch -
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9537779Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9538361Z Turn off this advice by setting config variable advice.detachedHead to false
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9539429Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9540676Z HEAD is now at d0d8f71 Merge 92527a2a5987a7b061b10ae1f0ecdf678ef11cb4 into 2ee9998fc3423eb62b29267011a51eee8dca8773
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9552281Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9593803Z [command]/usr/bin/git log -1 --format=%H
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9618043Z d0d8f710faee244383ed4a2ea15bbbaa4219b4f3
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9964374Z ##[group]Run actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9964840Z with:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9965077Z   cache: yarn
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9965323Z   check-latest: false
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9967823Z   token: ***
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9968090Z   package-manager-cache: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:32.9968391Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:33.1139326Z ##[group]Environment details
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:33.7971636Z node: v22.23.2
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:33.7972328Z npm: 10.9.8
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:33.7972734Z yarn: 4.18.0
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:33.7973918Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:33.7993958Z [command]/usr/local/bin/yarn --version
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:34.1552588Z 4.18.0
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:34.1795413Z [command]/usr/local/bin/yarn config get cacheFolder
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:34.5396041Z /home/runner/.yarn/berry/cache
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:34.5673882Z [command]/usr/local/bin/yarn config get enableGlobalCache
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:34.9292994Z ^[[33mtrue^[[39m
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.0184359Z Cache hit for: node-cache-Linux-x64-yarn-882cc84647ede44e1e10aabb6a85d6583c523a35236d4a4054ee9191820f81ac
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.4358485Z Received 64437783 of 64437783 (100.0%), 161.3 MBs/sec
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.4359785Z Cache Size: ~61 MB (64437783 B)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.4467419Z [command]/usr/bin/tar -xf /home/runner/work/_temp/452c2c90-c1a2-4071-a309-dfe59ed033da/cache.tzst -P -C /home/runner/work/prettier/prettier --use-compress-program unzstd
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5689341Z Cache restored successfully
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5728169Z Cache restored from key: node-cache-Linux-x64-yarn-882cc84647ede44e1e10aabb6a85d6583c523a35236d4a4054ee9191820f81ac
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5939363Z ##[group]Run preactjs/compressed-size-action@f322c295dde06a1cb7ccaef105732dd8a726d1d9
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5940228Z with:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5942748Z   repo-token: ***
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5942993Z   pattern: ./dist/**/*
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5943429Z   compression: none
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5943659Z   build-script: build --clean
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5943911Z   show-total: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5944138Z   collapse-unchanged: true
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5944387Z   minimum-change-threshold: 1
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5944646Z   sort-by: Filename:asc
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.5944869Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.6482356Z PR #20094 is targeted at main (main)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.6482955Z ##[group][current] Install Dependencies
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.6483605Z Installing using yarn --frozen-lockfile
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:35.6495964Z [command]/usr/local/bin/yarn --frozen-lockfile
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.0218424Z ^[[93m➤^[[39m YN0050: The --frozen-lockfile option is deprecated; use --immutable and/or --immutable-cache instead
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.0219773Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.0989981Z ^[[93m➤^[[39m YN0000: Yarn detected that the current workflow is executed from a public pull request. For safety the hardened mode has been enabled.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.0993325Z ^[[93m➤^[[39m YN0000: It will prevent malicious lockfile manipulations, in exchange for a slower install time. You can opt-out if necessary; check our documentation for more details.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.0995091Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.0995988Z ^[[94m➤^[[39m YN0000: · Yarn 4.18.0
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.1116229Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Resolution step
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:36.1117379Z ##[group]Resolution step
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.2696359Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.2699283Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 5s 158ms
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.2710368Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Post-resolution validation
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.2711546Z ##[group]Post-resolution validation
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.2716070Z ^[[93m➤^[[39m YN0002: │ ^[[38;5;173mprettier^[[39m^[[38;5;111m@^[[39m^[[38;5;111mworkspace:.^[[39m doesn't provide ^[[38;5;173mrollup^[[39m (^[[38;5;111mpd38a67^[[39m), requested by ^[[38;5;173mrollup-plugin-license^[[39m.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.2719767Z ^[[93m➤^[[39m YN0086: │ Some peer dependencies are incorrectly met by your project; run ^[[38;5;111myarn explain peer-requirements <hash>^[[39m for details, where ^[[38;5;111m<hash>^[[39m is the six-letter p-prefixed code.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.3173353Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.3174769Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.3176007Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Fetch step
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.3177053Z ##[group]Fetch step
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.6651760Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.6653400Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 0s 347ms
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.7055362Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Link step
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:41.7057340Z ##[group]Link step
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:48.7616126Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;166m@parcel/^[[39m^[[38;5;173mwatcher^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:2.6.0^[[39m lists build scripts, but all build scripts have been disabled.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:48.7618571Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;173mesbuild^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:0.28.2^[[39m lists build scripts, but all build scripts have been disabled.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:48.7620925Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;173mpuppeteer^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:25.11.0^[[39m lists build scripts, but all build scripts have been disabled.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:48.7622962Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;173munrs-resolver^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:1.12.2^[[39m lists build scripts, but all build scripts have been disabled.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:48.7624294Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:48.7624902Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 7s 56ms
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:48.8234334Z Yarn plugin "prepare" running in "/home/runner/work/prettier/prettier".
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:51.1881946Z ^[[93m➤^[[39m YN0000: · Done with warnings in 15s 89ms
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:51.2590638Z ##[endgroup]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:51.2591310Z ##[group][current] Build using yarn
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:51.2594969Z Building using yarn run build --clean
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:51.2607892Z [command]/usr/local/bin/yarn run build --clean
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:51.9840767Z [1/4] Building package 'prettier'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:51.9848140Z Main
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1426474Z  index.mjs.....................✘ [ERROR] The requested module 'get-east-asian-width' does not provide an export named 'isFullwidth' [plugin replace-module]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1428565Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1451219Z     src/index.js:20:22:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1452271Z       20 │ import * as core from "./main/core.js";
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1452990Z          ╵                       ~~~~~~~~~~~~~~~~
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1453334Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1453711Z   This error came from the "onLoad" callback registered here:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1454163Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1454593Z     node_modules/esbuild/lib/main.js:1426:20:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1455248Z       1426 │       let promise = setup({
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1455841Z            ╵                     ^
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1456154Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1457059Z     at setupOnLoadListener (file:///home/runner/work/prettier/prettier/scripts/build/esbuild-plugins/replace-module.js:143:9)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1458720Z     at setup (file:///home/runner/work/prettier/prettier/scripts/build/esbuild-plugins/replace-module.js:194:7)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1460464Z     at handlePlugins (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1426:21)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1461903Z     at buildOrContextImpl (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1139:5)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1463353Z     at Object.buildOrContext (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:963:5)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1464627Z     at /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:2320:15
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1465447Z     at new Promise (<anonymous>)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1466376Z     at Object.build (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:2319:25)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1467702Z     at Object.build (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:2170:51)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.1468376Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3546661Z ✘ [ERROR] The requested module 'get-east-asian-width' does not provide an export named 'isFullwidth' [plugin replace-module]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3547870Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3548417Z     src/main/front-matter/index.js:3:58:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3549673Z       3 │ ...rt { isEmbedFrontMatter, printEmbedFrontMatter } from "./embed.js";
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3550787Z         ╵                                                          ~~~~~~~~~~~~
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3551218Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3551754Z   This error came from the "onLoad" callback registered here:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3552323Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3552781Z     node_modules/esbuild/lib/main.js:1426:20:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3553496Z       1426 │       let promise = setup({
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3554098Z            ╵                     ^
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3554401Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3555475Z     at setupOnLoadListener (file:///home/runner/work/prettier/prettier/scripts/build/esbuild-plugins/replace-module.js:143:9)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3557290Z     at setup (file:///home/runner/work/prettier/prettier/scripts/build/esbuild-plugins/replace-module.js:194:7)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3559047Z     at handlePlugins (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1426:21)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3560746Z     at buildOrContextImpl (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1139:5)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3580999Z     at Object.buildOrContext (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:963:5)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3582494Z     at /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:2320:15
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3583473Z     at new Promise (<anonymous>)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3584537Z     at Object.build (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:2319:25)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3586390Z     at Object.build (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:2170:51)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.3587182Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6455757Z    FAIL  
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6455944Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6458038Z Error: Build failed with 3 errors:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6459280Z src/index.js:20:22: ERROR: [plugin: replace-module] The requested module 'get-east-asian-width' does not provide an export named 'isFullwidth'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6461799Z src/main/front-matter/index.js:3:58: ERROR: [plugin: replace-module] The requested module 'get-east-asian-width' does not provide an export named 'isFullwidth'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6463352Z /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1602:32: ERROR: [plugin: shim-commonjs-objects] /home/runner/work/prettier/prettier/dist/prettier/index.mjs not exists
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6464535Z     at failureErrorWithLog (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1752:15)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6465288Z     at /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1211:25
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6465978Z     at /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1630:9
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6466660Z     at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6467145Z   errors: [Getter/Setter],
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6467412Z   warnings: [Getter/Setter]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6467662Z }
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6467935Z node:internal/modules/run_main:123
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6468244Z     triggerUncaughtException(
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6468507Z     ^
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6468620Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6468770Z Error: Build failed with 3 errors:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6469852Z src/index.js:20:22: ERROR: [plugin: replace-module] The requested module 'get-east-asian-width' does not provide an export named 'isFullwidth'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6471317Z src/main/front-matter/index.js:3:58: ERROR: [plugin: replace-module] The requested module 'get-east-asian-width' does not provide an export named 'isFullwidth'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6472755Z /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1602:32: ERROR: [plugin: shim-commonjs-objects] /home/runner/work/prettier/prettier/dist/prettier/index.mjs not exists
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6473827Z     at failureErrorWithLog (/home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1752:15)
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6474513Z     at /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1211:25
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6475107Z     at /home/runner/work/prettier/prettier/node_modules/esbuild/lib/main.js:1630:9
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6475711Z     at process.processTicksAndRejections (node:internal/process/task_queues:103:5) {
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6476149Z   errors: [Getter/Setter],
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6476409Z   warnings: [Getter/Setter]
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6476644Z }
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6476778Z 
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.6476869Z Node.js v22.23.2
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.7413253Z ##[error]The process '/usr/local/bin/yarn' failed with exit code 1
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.7561085Z Post job cleanup.
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8374229Z [command]/usr/bin/git version
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8410491Z git version 2.55.0
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8445447Z Temporarily overriding HOME='/home/runner/work/_temp/1817ea08-8f30-4f7d-92a2-5bbc7ec1b109' before making global git config changes
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8446725Z Adding repository directory to the temporary git global config as a safe directory
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8450183Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8480029Z Removing SSH command configuration
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8486277Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8518923Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8753324Z Removing HTTP extra header
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8758839Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.8792541Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9023869Z Removing includeIf entries pointing to credentials config files
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9030055Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9095187Z includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9096078Z includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9096651Z includeif.gitdir:/github/workspace/.git.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9097138Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9103870Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9124471Z /home/runner/work/_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9134899Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-ffcf0941\-f213\-4da0\-99f2\-f86508cf16eb\.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9182419Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9195415Z /home/runner/work/_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9204422Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-ffcf0941\-f213\-4da0\-99f2\-f86508cf16eb\.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9235008Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9255370Z /github/runner_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9263779Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-ffcf0941\-f213\-4da0\-99f2\-f86508cf16eb\.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9292916Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9312572Z /github/runner_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9320281Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-ffcf0941\-f213\-4da0\-99f2\-f86508cf16eb\.config
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9351536Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9597437Z Removing credentials config '/home/runner/work/_temp/git-credentials-ffcf0941-f213-4da0-99f2-f86508cf16eb.config'
+Check Sizes	UNKNOWN STEP	2026-09-17T07:10:52.9764560Z Cleaning up orphan processes

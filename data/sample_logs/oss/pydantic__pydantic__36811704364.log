@@ -1,0 +1,400 @@
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1856207Z   prune-cache: false
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1856887Z   cache-python: false
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1857596Z   ignore-nothing-to-cache: false
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1858428Z   ignore-empty-workdir: false
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1859318Z   download-from-astral-mirror: true
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1860137Z   add-problem-matchers: true
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1860868Z   quiet: false
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1861569Z   resolution-strategy: highest
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.1862332Z ##[endgroup]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.3080475Z Trying to find version for uv in: /home/runner/work/pydantic/pydantic/uv.toml
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.3082191Z Could not find file: /home/runner/work/pydantic/pydantic/uv.toml
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.3084058Z Trying to find version for uv in: /home/runner/work/pydantic/pydantic/pyproject.toml
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.3085893Z Found version for uv in /home/runner/work/pydantic/pydantic/pyproject.toml: >=0.8.4
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.3089110Z Found minimum version specifier, using latest version
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.3091281Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.3737795Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:02.6929028Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/6ce58945-08ea-4e34-b8dc-cb3c29eec007 -f /home/runner/work/_temp/7fdd4c51-e46a-4ad6-801a-ab53441189f4
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2679978Z Added /home/runner/.local/bin to the path
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2681832Z Added /opt/hostedtoolcache/uv/0.12.21/x86_64 to the path
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2682807Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2683311Z Added /home/runner/work/_temp/uv-python-dir to the path
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2683731Z Set UV_PYTHON to 3.15
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2701471Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2701862Z Successfully installed uv version 0.12.21
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2702999Z Searching files using cache dependency glob: /home/runner/work/pydantic/pydantic/**/*requirements*.txt,/home/runner/work/pydantic/pydantic/**/*requirements*.in,/home/runner/work/pydantic/pydantic/**/*constraints*.txt,/home/runner/work/pydantic/pydantic/**/*constraints*.in,/home/runner/work/pydantic/pydantic/**/pyproject.toml,/home/runner/work/pydantic/pydantic/**/uv.lock,/home/runner/work/pydantic/pydantic/**/*.py.lock
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2831873Z /home/runner/work/pydantic/pydantic/.github/actions/people/requirements.in
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.2849835Z /home/runner/work/pydantic/pydantic/.github/pyodide/requirements.in
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3184875Z /home/runner/work/pydantic/pydantic/pydantic-core/pyproject.toml
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3366567Z /home/runner/work/pydantic/pydantic/pydantic-core/uv.lock
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3379977Z /home/runner/work/pydantic/pydantic/pyproject.toml
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3458155Z /home/runner/work/pydantic/pydantic/tests/plugin/pyproject.toml
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3560758Z /home/runner/work/pydantic/pydantic/tests/typechecking/pyproject.toml
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3568534Z /home/runner/work/pydantic/pydantic/tests/typechecking/uv.lock
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3594122Z /home/runner/work/pydantic/pydantic/uv.lock
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3607160Z Found 9 files to hash.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.3650079Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.15-ff9661736ee6345cbf7b867fe38f5a2b2f121c26b21f267cf11cecd26b8bf4cd
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:03.5012492Z Cache hit for: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.15-ff9661736ee6345cbf7b867fe38f5a2b2f121c26b21f267cf11cecd26b8bf4cd
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.3650070Z Received 30922732 of 30922732 (100.0%), 41.3 MBs/sec
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.3650589Z Cache Size: ~29 MB (30922732 B)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.3672304Z [command]/usr/bin/tar -xf /home/runner/work/_temp/20fb5889-6ee6-4755-8e1b-f2cf4d2af719/cache.tzst -P -C /home/runner/work/pydantic/pydantic --use-compress-program unzstd
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.5393322Z Cache restored successfully
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.5407361Z cache restored from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.15-ff9661736ee6345cbf7b867fe38f5a2b2f121c26b21f267cf11cecd26b8bf4cd
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6514918Z ##[group]Run make test-pydantic-extra-types
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6515385Z ^[[36;1mmake test-pydantic-extra-types^[[0m
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6680290Z shell: /usr/bin/bash -e {0}
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6680616Z env:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6680961Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6681287Z   UV_PYTHON: 3.15
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6681555Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.6681854Z ##[endgroup]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.7135183Z uv 0.12.21 (x86_64-unknown-linux-gnu)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.7137750Z git clone https://github.com/pydantic/pydantic-extra-types.git --single-branch
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:04.7146358Z Cloning into 'pydantic-extra-types'...
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2808704Z bash ./tests/test_pydantic_extra_types.sh
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2820489Z + set -e
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2821019Z ++ dirname ./tests/test_pydantic_extra_types.sh
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2828681Z + pushd ./tests/../pydantic-extra-types
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2829412Z ~/work/pydantic/pydantic/pydantic-extra-types ~/work/pydantic/pydantic
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2830017Z + make install
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2840288Z make[1]: Entering directory '/home/runner/work/pydantic/pydantic/pydantic-extra-types'
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2888377Z uv 0.12.21 (x86_64-unknown-linux-gnu)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.2889741Z uv sync --frozen --all-groups --all-extras
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:05.4380100Z Downloading cpython-3.15.0rc2-linux-x86_64-gnu (download) (35.9MiB)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.3301098Z  Downloaded cpython-3.15.0rc2-linux-x86_64-gnu (download)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.4634472Z Using CPython 3.15.0rc2
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.4634926Z Creating virtual environment at: .venv
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.4710557Z    Building pydantic-extra-types @ file:///home/runner/work/pydantic/pydantic/pydantic-extra-types
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.5264349Z Downloading pygments (1.2MiB)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.5264826Z Downloading ruff (11.1MiB)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.5267102Z Downloading phonenumbers (2.5MiB)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.5268567Z Downloading pycountry (6.0MiB)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.5341264Z Downloading mypy (2.4MiB)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.5746003Z    Building rpds-py==0.30.0
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.5951466Z    Building librt==0.7.5
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.6835455Z  Downloaded pygments
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.6879027Z  Downloaded mypy
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.7151449Z  Downloaded phonenumbers
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.7530379Z  Downloaded pycountry
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.7594711Z    Building pydantic-core==2.46.4
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.7944935Z  Downloaded ruff
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:06.9780133Z    Building pymongo==4.17.0
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:07.0381083Z       Built pydantic-extra-types @ file:///home/runner/work/pydantic/pydantic/pydantic-extra-types
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2235604Z error: Failed to build `librt==0.7.5`
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2264955Z   cause: The build backend returned an error
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2288176Z   cause: Call to `setuptools.build_meta.build_wheel` failed (exit status: 1)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2289000Z make[1]: Leaving directory '/home/runner/work/pydantic/pydantic/pydantic-extra-types'
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2315340Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2324529Z          [stdout]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2344885Z          running bdist_wheel
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2374892Z          running build
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2404676Z          running build_py
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2405197Z          running egg_info
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2434072Z          writing librt.egg-info/PKG-INFO
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2474838Z          writing dependency_links to librt.egg-info/dependency_links.txt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2484936Z          writing top-level names to librt.egg-info/top_level.txt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2504673Z          reading manifest file 'librt.egg-info/SOURCES.txt'
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2532802Z          reading manifest template 'MANIFEST.in'
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2564576Z          adding license file 'LICENSE'
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2565060Z          writing manifest file 'librt.egg-info/SOURCES.txt'
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2594858Z          creating build/lib.linux-x86_64-cpython-315/librt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2625190Z          copying librt/__init__.pyi -> build/lib.linux-x86_64-cpython-315/librt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2626011Z          copying librt/base64.pyi -> build/lib.linux-x86_64-cpython-315/librt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2654929Z          copying librt/internal.pyi -> build/lib.linux-x86_64-cpython-315/librt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2684855Z          copying librt/py.typed -> build/lib.linux-x86_64-cpython-315/librt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2685870Z          copying librt/strings.pyi -> build/lib.linux-x86_64-cpython-315/librt
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2734628Z          running build_ext
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2744943Z          building 'librt.internal' extension
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2776838Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c exc_ops.c -o build/temp.linux-x86_64-cpython-315/exc_ops.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2781564Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c getargsfast.c -o build/temp.linux-x86_64-cpython-315/getargsfast.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2806476Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c init.c -o build/temp.linux-x86_64-cpython-315/init.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2836774Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c int_ops.c -o build/temp.linux-x86_64-cpython-315/int_ops.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2841997Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c librt_internal.c -o build/temp.linux-x86_64-cpython-315/librt_internal.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2886918Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c pythonsupport.c -o build/temp.linux-x86_64-cpython-315/pythonsupport.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2896464Z          cc -pthread -shared -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--build-id=sha1 -Wl,--exclude-libs,ALL build/temp.linux-x86_64-cpython-315/exc_ops.o build/temp.linux-x86_64-cpython-315/getargsfast.o build/temp.linux-x86_64-cpython-315/init.o build/temp.linux-x86_64-cpython-315/int_ops.o build/temp.linux-x86_64-cpython-315/librt_internal.o build/temp.linux-x86_64-cpython-315/pythonsupport.o -L/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/lib -o build/lib.linux-x86_64-cpython-315/librt/internal.cpython-315-x86_64-linux-gnu.so
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2924812Z          building 'librt.strings' extension
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2936368Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c exc_ops.c -o build/temp.linux-x86_64-cpython-315/exc_ops.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2976370Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c getargsfast.c -o build/temp.linux-x86_64-cpython-315/getargsfast.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.2996601Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c init.c -o build/temp.linux-x86_64-cpython-315/init.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3026563Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c int_ops.c -o build/temp.linux-x86_64-cpython-315/int_ops.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3036384Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c librt_strings.c -o build/temp.linux-x86_64-cpython-315/librt_strings.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3066518Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c pythonsupport.c -o build/temp.linux-x86_64-cpython-315/pythonsupport.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3089461Z          cc -pthread -shared -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--build-id=sha1 -Wl,--exclude-libs,ALL build/temp.linux-x86_64-cpython-315/exc_ops.o build/temp.linux-x86_64-cpython-315/getargsfast.o build/temp.linux-x86_64-cpython-315/init.o build/temp.linux-x86_64-cpython-315/int_ops.o build/temp.linux-x86_64-cpython-315/librt_strings.o build/temp.linux-x86_64-cpython-315/pythonsupport.o -L/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/lib -o build/lib.linux-x86_64-cpython-315/librt/strings.cpython-315-x86_64-linux-gnu.so
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3124674Z          building 'librt.base64' extension
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3156453Z          cc -pthread -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fno-strict-overflow -Wsign-compare -Wunreachable-code -DNDEBUG -g -O3 -Wall -O3 -fstack-protector -fstack-clash-protection -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fPIC -fPIC -I. -Ibase64 -I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include -I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15 -c base64/arch/avx/codec.c -o build/temp.linux-x86_64-cpython-315/base64/arch/avx/codec.o -O3 -Wno-unused-function
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3175638Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3214602Z          [stderr]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3245202Z          /home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/lib/python3.15/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3274579Z          !!
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3294178Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3304720Z                  ********************************************************************************
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3326263Z                  Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3354322Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3384906Z                  By 2027-Feb-18, you need to update your project and remove deprecated calls
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3414773Z                  or your builds will no longer be supported.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3424212Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3444978Z                  See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3474753Z                  ********************************************************************************
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3484397Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3504597Z          !!
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3534627Z            corresp(dist, value, root_dir)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3549746Z          /home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/lib/python3.15/site-packages/setuptools/config/_apply_pyprojecttoml.py:61: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3564501Z          !!
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3584435Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3594653Z                  ********************************************************************************
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3596152Z                  Please consider removing the following classifiers in favor of a SPDX license expression:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3596568Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3596810Z                  License :: OSI Approved :: MIT License
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3597038Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3597434Z                  See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3598081Z                  ********************************************************************************
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3598339Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3598465Z          !!
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3598808Z            dist._finalize_license_expression()
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3599874Z          /home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/lib/python3.15/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3600803Z          !!
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3600930Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3601132Z                  ********************************************************************************
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3601737Z                  Please consider removing the following classifiers in favor of a SPDX license expression:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3602194Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3602385Z                  License :: OSI Approved :: MIT License
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3602616Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3603024Z                  See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3603709Z                  ********************************************************************************
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3604206Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3604337Z          !!
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3604650Z            self._finalize_license_expression()
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3605029Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3605416Z                           from exc_ops.c:8:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3606348Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3607073Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3607754Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3608253Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3608839Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3609785Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3610427Z                           from pythoncapi_compat.h:21,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3610850Z                           from exc_ops.c:1:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3611530Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3612378Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3613164Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3613538Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3614097Z                           from getargsfast.c:19:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3614680Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3615628Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3616538Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3617013Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3617652Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3618435Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3619008Z                           from getargsfast.c:18:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3619672Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3620435Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3621006Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3621808Z          getargsfast.c: In function ‘skipitem_fast’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3622703Z          getargsfast.c:562:10: warning: unused variable ‘c’ [-Wunused-variable]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3623316Z            562 |     char c = *format++;
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3623638Z                |          ^
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3654753Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3655175Z                           from init.c:2:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3655862Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3656549Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3657290Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3657798Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3658394Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3659316Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3659901Z                           from init.c:1:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3660598Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3661487Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3662039Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3662450Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3662795Z                           from int_ops.c:6:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3663349Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3664186Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3664810Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3665247Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3665858Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3666719Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3667317Z                           from int_ops.c:5:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3668191Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3669021Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3669605Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3670021Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3670384Z                           from librt_internal.c:6:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3670897Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3671577Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3672227Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3672675Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3673235Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3674251Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3674971Z                           from pythoncapi_compat.h:21,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3675340Z                           from librt_internal.c:1:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3676035Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3677099Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3677723Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3678166Z          In file included from pythonsupport.c:6:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3678728Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3679423Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3680056Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3680523Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3681114Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3681911Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3682483Z                           from pythonsupport.h:10:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3683533Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3715212Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3715878Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3716314Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3716711Z                           from exc_ops.c:8:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3717280Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3718036Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3718704Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3719174Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3719809Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3720798Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3721548Z                           from pythoncapi_compat.h:21,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3722140Z                           from exc_ops.c:1:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3722838Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3723769Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3724792Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3725212Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3725586Z                           from getargsfast.c:19:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3726206Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3726892Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3727573Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3728061Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3728666Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3729726Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3730451Z                           from getargsfast.c:18:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3731307Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3732377Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3732934Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3733732Z          getargsfast.c: In function ‘skipitem_fast’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3734534Z          getargsfast.c:562:10: warning: unused variable ‘c’ [-Wunused-variable]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3735067Z            562 |     char c = *format++;
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3735423Z                |          ^
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3735769Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3736164Z                           from init.c:2:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3736606Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3737314Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3737997Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3738442Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3739097Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3740026Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3740685Z                           from init.c:1:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3741373Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3742249Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3742859Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3743242Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3743638Z                           from int_ops.c:6:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3764771Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3765618Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3766339Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3766771Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3767614Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3768538Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3769211Z                           from int_ops.c:5:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3769937Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3770848Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3771464Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3771862Z          In file included from CPy.h:12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3772284Z                           from librt_strings.c:6:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3772800Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3773511Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3774501Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3775041Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3775763Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3776802Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3777553Z                           from pythoncapi_compat.h:21,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3778094Z                           from librt_strings.c:1:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3779135Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3780088Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3780690Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3781121Z          In file included from pythonsupport.c:6:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3781691Z          pythonsupport.h: In function ‘init_subclass’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3782390Z          pythonsupport.h:125:5: warning: ‘_PyObject_GetAttrId’ is deprecated [-Wdeprecated-declarations]
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3783007Z            125 |     func = _PyObject_GetAttrId(super, &PyId___init_subclass__);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3783436Z                |     ^~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3784256Z          In file included from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/object.h:742,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3785159Z                           from /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/Python.h:79,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3785806Z                           from pythonsupport.h:10:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3786506Z          /home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15/cpython/object.h:310:43: note: declared here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3787286Z            310 | Py_DEPRECATED(3.15) PyAPI_FUNC(PyObject*) _PyObject_GetAttrId(PyObject *, _Py_Identifier *);
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3787793Z                |                                           ^~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3788304Z          In file included from /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h:37,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3788864Z                           from base64/arch/avx/codec.c:12:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3789491Z          /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h: In function ‘dec_reshuffle’:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3790489Z          /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:136:1: error: inlining failed in call to ‘always_inline’ ‘_mm_shuffle_epi8’: target specific option mismatch
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3791550Z            136 | _mm_shuffle_epi8 (__m128i __X, __m128i __Y)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3791909Z                | ^~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3792289Z          In file included from base64/arch/avx/codec.c:23:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3792825Z          base64/arch/avx/../ssse3/dec_reshuffle.c:23:17: note: called from here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3793348Z             23 |         return  _mm_shuffle_epi8(out, _mm_setr_epi8(
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3793842Z                |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3834878Z             24 |                  2,  1,  0,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3835385Z                |                  ~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3835770Z             25 |                  6,  5,  4,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3836176Z                |                  ~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3836559Z             26 |                 10,  9,  8,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3836888Z                |                 ~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3837266Z             27 |                 14, 13, 12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3837646Z                |                 ~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3838076Z             28 |                 -1, -1, -1, -1));
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3838460Z                |                 ~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3839506Z          /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:112:1: error: inlining failed in call to ‘always_inline’ ‘_mm_maddubs_epi16’: target specific option mismatch
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3840420Z            112 | _mm_maddubs_epi16 (__m128i __X, __m128i __Y)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3840824Z                | ^~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3841299Z          base64/arch/avx/../ssse3/dec_reshuffle.c:10:41: note: called from here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3842145Z             10 |         const __m128i merge_ab_and_bc = _mm_maddubs_epi16(in, _mm_set1_epi32(0x01400140));
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3842757Z                |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3843780Z          /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:112:1: error: inlining failed in call to ‘always_inline’ ‘_mm_maddubs_epi16’: target specific option mismatch
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3844793Z            112 | _mm_maddubs_epi16 (__m128i __X, __m128i __Y)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3845254Z                | ^~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3845671Z          base64/arch/avx/../ssse3/dec_reshuffle.c:10:41: note: called from here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3846294Z             10 |         const __m128i merge_ab_and_bc = _mm_maddubs_epi16(in, _mm_set1_epi32(0x01400140));
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3846919Z                |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3847943Z          /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h:136:1: error: inlining failed in call to ‘always_inline’ ‘_mm_shuffle_epi8’: target specific option mismatch
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3848757Z            136 | _mm_shuffle_epi8 (__m128i __X, __m128i __Y)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3849189Z                | ^~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3849633Z          base64/arch/avx/../ssse3/dec_reshuffle.c:23:17: note: called from here
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3850144Z             23 |         return  _mm_shuffle_epi8(out, _mm_setr_epi8(
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3850595Z                |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3851035Z             24 |                  2,  1,  0,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3851392Z                |                  ~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3851755Z             25 |                  6,  5,  4,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3852085Z                |                  ~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3852477Z             26 |                 10,  9,  8,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3852845Z                |                 ~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3853199Z             27 |                 14, 13, 12,
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3853550Z                |                 ~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3854109Z             28 |                 -1, -1, -1, -1));
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3854623Z                |                 ~~~~~~~~~~~~~~~~
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3885252Z          error: Command '['cc', '-pthread', '-fno-omit-frame-pointer', '-mno-omit-leaf-frame-pointer', '-fno-strict-overflow', '-Wsign-compare', '-Wunreachable-code', '-DNDEBUG', '-g', '-O3', '-Wall', '-O3', '-fstack-protector', '-fstack-clash-protection', '-U_FORTIFY_SOURCE', '-D_FORTIFY_SOURCE=2', '-fno-omit-frame-pointer', '-mno-omit-leaf-frame-pointer', '-fPIC', '-fPIC', '-I.', '-Ibase64', '-I/home/runner/work/_temp/setup-uv-cache/builds-v0/.tmpBiJnZz/include', '-I/home/runner/work/_temp/uv-python-dir/cpython-3.15.0rc2-linux-x86_64-gnu/include/python3.15', '-c', 'base64/arch/avx/codec.c', '-o', 'build/temp.linux-x86_64-cpython-315/base64/arch/avx/codec.o', '-O3', '-Wno-unused-function']' returned non-zero exit status 1.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3887839Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3888291Z hint: `librt` (v0.7.5) was included because `pydantic-extra-types:lint` depends on `mypy` (v1.19.1) which depends on `librt`
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3888936Z 
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3889229Z hint: Build failures usually indicate a problem with the package or the build environment
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3889828Z make[1]: *** [Makefile:10: install] Error 1
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3890333Z make: *** [Makefile:101: test-pydantic-extra-types] Error 2
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.3903476Z ##[error]Process completed with exit code 2.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.4245021Z Post job cleanup.
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5704654Z [command]/usr/bin/git version
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5764639Z git version 2.55.0
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5908149Z Temporarily overriding HOME='/home/runner/work/_temp/58c5c05e-b060-4044-b38c-f8d00841345b' before making global git config changes
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5909333Z Adding repository directory to the temporary git global config as a safe directory
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5910111Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5911467Z Removing SSH command configuration
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5912055Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.5981551Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.6490704Z Removing HTTP extra header
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.6505119Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.6507436Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.6670250Z Removing includeIf entries pointing to credentials config files
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.6675282Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.6701337Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7032463Z Cleaning up orphan processes
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7299712Z Terminate orphan process: pid (2290) (python)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7337887Z Terminate orphan process: pid (2291) (python)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7365216Z Terminate orphan process: pid (2292) (maturin)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7393227Z Terminate orphan process: pid (2294) (maturin)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7428567Z Terminate orphan process: pid (2357) (cargo)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7459137Z Terminate orphan process: pid (2406) (cargo)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7504219Z Terminate orphan process: pid (2841) (rustc)
+Test pydantic extra types (3.15)	UNKNOWN STEP	2026-10-01T03:42:13.7538739Z Terminate orphan process: pid (2902) (rustc)

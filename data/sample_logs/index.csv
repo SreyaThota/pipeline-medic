@@ -1,0 +1,52 @@
+log_id,source,repo,workflow,run_id,run_url,created_at,label,label_status
+astral-sh__ruff__33661538666,oss,astral-sh/ruff,Run typing conformance,33661538666,https://github.com/astral-sh/ruff/actions/runs/33661538666,2026-09-02T17:30:51Z,build_compile,draft
+astral-sh__ruff__33661538690,oss,astral-sh/ruff,Run memory report,33661538690,https://github.com/astral-sh/ruff/actions/runs/33661538690,2026-09-02T17:30:51Z,build_compile,draft
+astral-sh__ruff__33783519628,oss,astral-sh/ruff,Build binaries,33783519628,https://github.com/astral-sh/ruff/actions/runs/33783519628,2026-09-03T17:15:52Z,dependency_install,draft
+astral-sh__ruff__33784523740,oss,astral-sh/ruff,Release,33784523740,https://github.com/astral-sh/ruff/actions/runs/33784523740,2026-09-03T17:26:00Z,dependency_install,draft
+astral-sh__ruff__33785104533,oss,astral-sh/ruff,Build binaries,33785104533,https://github.com/astral-sh/ruff/actions/runs/33785104533,2026-09-03T17:31:50Z,infra_network,draft
+astral-sh__ruff__33829682997,oss,astral-sh/ruff,ty ecosystem-analyzer,33829682997,https://github.com/astral-sh/ruff/actions/runs/33829682997,2026-09-04T02:29:01Z,test_failure,draft
+astral-sh__ruff__33831722570,oss,astral-sh/ruff,CI,33831722570,https://github.com/astral-sh/ruff/actions/runs/33831722570,2026-09-04T03:02:18Z,test_failure,draft
+astral-sh__ruff__33831723431,oss,astral-sh/ruff,CI,33831723431,https://github.com/astral-sh/ruff/actions/runs/33831723431,2026-09-04T03:02:19Z,test_failure,draft
+encode__httpx__35071320524,oss,encode/httpx,Test Suite,35071320524,https://github.com/encode/httpx/actions/runs/35071320524,2026-09-16T07:59:05Z,build_compile,draft
+fastapi__fastapi__34949237522,oss,fastapi/fastapi,Guard Dependencies,34949237522,https://github.com/fastapi/fastapi/actions/runs/34949237522,2026-09-15T08:51:08Z,policy_check,draft
+fastapi__fastapi__35057129605,oss,fastapi/fastapi,Guard Dependencies,35057129605,https://github.com/fastapi/fastapi/actions/runs/35057129605,2026-09-16T04:50:03Z,policy_check,draft
+fastapi__fastapi__35167111410,oss,fastapi/fastapi,Test,35167111410,https://github.com/fastapi/fastapi/actions/runs/35167111410,2026-09-17T00:34:30Z,aggregate_gate,draft
+fastapi__fastapi__35298877314,oss,fastapi/fastapi,Test,35298877314,https://github.com/fastapi/fastapi/actions/runs/35298877314,2026-09-18T02:19:18Z,aggregate_gate,draft
+fastapi__fastapi__35448789239,oss,fastapi/fastapi,pre-commit,35448789239,https://github.com/fastapi/fastapi/actions/runs/35448789239,2026-09-19T14:27:22Z,aggregate_gate,draft
+fastapi__fastapi__35567132724,oss,fastapi/fastapi,pre-commit,35567132724,https://github.com/fastapi/fastapi/actions/runs/35567132724,2026-09-21T06:08:24Z,aggregate_gate,draft
+fastapi__fastapi__35567263837,oss,fastapi/fastapi,Test Redistribute,35567263837,https://github.com/fastapi/fastapi/actions/runs/35567263837,2026-09-21T06:09:49Z,test_failure,draft
+fastapi__fastapi__35571183172,oss,fastapi/fastapi,Test Redistribute,35571183172,https://github.com/fastapi/fastapi/actions/runs/35571183172,2026-09-21T07:03:58Z,test_failure,draft
+home-assistant__core__28701780680,oss,home-assistant/core,CI,28701780680,https://github.com/home-assistant/core/actions/runs/28701780680,2026-07-04T09:21:22Z,type_check,draft
+home-assistant__core__28702194167,oss,home-assistant/core,CI,28702194167,https://github.com/home-assistant/core/actions/runs/28702194167,2026-07-04T09:38:51Z,timeout,draft
+prettier__prettier__35087290201,oss,prettier/prettier,autofix.ci,35087290201,https://github.com/prettier/prettier/actions/runs/35087290201,2026-09-16T10:52:15Z,lint_format,draft
+prettier__prettier__35097774750,oss,prettier/prettier,Prod,35097774750,https://github.com/prettier/prettier/actions/runs/35097774750,2026-09-16T12:46:20Z,test_failure,draft
+prettier__prettier__35193227719,oss,prettier/prettier,Check Sizes,35193227719,https://github.com/prettier/prettier/actions/runs/35193227719,2026-09-17T07:10:27Z,build_compile,draft
+prettier__prettier__35193227738,oss,prettier/prettier,Dev Package Test,35193227738,https://github.com/prettier/prettier/actions/runs/35193227738,2026-09-17T07:10:27Z,test_failure,draft
+prettier__prettier__35193227878,oss,prettier/prettier,Dev,35193227878,https://github.com/prettier/prettier/actions/runs/35193227878,2026-09-17T07:10:27Z,test_failure,draft
+prettier__prettier__35193228050,oss,prettier/prettier,Prod,35193228050,https://github.com/prettier/prettier/actions/runs/35193228050,2026-09-17T07:10:27Z,build_compile,draft
+prettier__prettier__35273463576,oss,prettier/prettier,Dev,35273463576,https://github.com/prettier/prettier/actions/runs/35273463576,2026-09-17T20:53:04Z,test_failure,draft
+prettier__prettier__35273463673,oss,prettier/prettier,Lint,35273463673,https://github.com/prettier/prettier/actions/runs/35273463673,2026-09-17T20:53:04Z,ci_config,draft
+psf__black__30838063852,oss,psf/black,build and publish,30838063852,https://github.com/psf/black/actions/runs/30838063852,2026-08-03T17:43:56Z,ci_config,draft
+psf__black__31070601941,oss,psf/black,build and publish,31070601941,https://github.com/psf/black/actions/runs/31070601941,2026-08-06T04:12:25Z,infra_network,draft
+psf__black__31071706986,oss,psf/black,test,31071706986,https://github.com/psf/black/actions/runs/31071706986,2026-08-06T04:36:00Z,lint_format,draft
+psf__black__31071707016,oss,psf/black,lint and format,31071707016,https://github.com/psf/black/actions/runs/31071707016,2026-08-06T04:36:01Z,lint_format,draft
+psf__black__34023398343,oss,psf/black,changelog,34023398343,https://github.com/psf/black/actions/runs/34023398343,2026-09-06T09:00:09Z,policy_check,draft
+psf__black__34072879382,oss,psf/black,changelog,34072879382,https://github.com/psf/black/actions/runs/34072879382,2026-09-07T01:23:50Z,policy_check,draft
+psf__black__34076593565,oss,psf/black,diff-shades comment,34076593565,https://github.com/psf/black/actions/runs/34076593565,2026-09-07T02:31:56Z,ci_config,draft
+psf__black__34589296835,oss,psf/black,diff-shades comment,34589296835,https://github.com/psf/black/actions/runs/34589296835,2026-09-11T10:27:21Z,ci_config,draft
+pydantic__pydantic__36666298158,oss,pydantic/pydantic,Dependencies Check,36666298158,https://github.com/pydantic/pydantic/actions/runs/36666298158,2026-09-30T03:51:48Z,dependency_install,draft
+pydantic__pydantic__36712532115,oss,pydantic/pydantic,Third party tests,36712532115,https://github.com/pydantic/pydantic/actions/runs/36712532115,2026-09-30T12:05:08Z,ci_config,draft
+pydantic__pydantic__36779918080,oss,pydantic/pydantic,Upload previews,36779918080,https://github.com/pydantic/pydantic/actions/runs/36779918080,2026-09-30T21:30:55Z,ci_config,draft
+pydantic__pydantic__36785268604,oss,pydantic/pydantic,CI,36785268604,https://github.com/pydantic/pydantic/actions/runs/36785268604,2026-09-30T22:23:15Z,type_check,draft
+pydantic__pydantic__36811704364,oss,pydantic/pydantic,Pydantic Family Integration Tests,36811704364,https://github.com/pydantic/pydantic/actions/runs/36811704364,2026-10-01T03:41:55Z,build_compile,draft
+pydantic__pydantic__36859460178,oss,pydantic/pydantic,Third party tests,36859460178,https://github.com/pydantic/pydantic/actions/runs/36859460178,2026-10-01T12:05:16Z,test_failure,draft
+pydantic__pydantic__36859870036,oss,pydantic/pydantic,Pydantic people update,36859870036,https://github.com/pydantic/pydantic/actions/runs/36859870036,2026-10-01T12:09:09Z,infra_network,draft
+pydantic__pydantic__36868140759,oss,pydantic/pydantic,Upload previews,36868140759,https://github.com/pydantic/pydantic/actions/runs/36868140759,2026-10-01T13:21:52Z,ci_config,draft
+pytest-dev__pytest__35479449080,oss,pytest-dev/pytest,Doc Check Links,35479449080,https://github.com/pytest-dev/pytest/actions/runs/35479449080,2026-09-20T00:41:59Z,docs_check,draft
+pytest-dev__pytest__36283392425,oss,pytest-dev/pytest,Doc Check Links,36283392425,https://github.com/pytest-dev/pytest/actions/runs/36283392425,2026-09-27T00:44:11Z,docs_check,draft
+pytest-dev__pytest__36311103335,oss,pytest-dev/pytest,test,36311103335,https://github.com/pytest-dev/pytest/actions/runs/36311103335,2026-09-27T09:59:42Z,test_failure,draft
+pytest-dev__pytest__36312310362,oss,pytest-dev/pytest,test,36312310362,https://github.com/pytest-dev/pytest/actions/runs/36312310362,2026-09-27T10:22:10Z,test_failure,draft
+python-poetry__poetry__34606971513,oss,python-poetry/poetry,Documentation Preview,34606971513,https://github.com/python-poetry/poetry/actions/runs/34606971513,2026-09-11T13:54:10Z,ci_config,draft
+python-poetry__poetry__36297293924,oss,python-poetry/poetry,Documentation Preview,36297293924,https://github.com/python-poetry/poetry/actions/runs/36297293924,2026-09-27T05:28:18Z,ci_config,draft
+python-poetry__poetry__36312975783,oss,python-poetry/poetry,Tests,36312975783,https://github.com/python-poetry/poetry/actions/runs/36312975783,2026-09-27T10:34:35Z,test_failure,draft
+python-poetry__poetry__36335583674,oss,python-poetry/poetry,Tests,36335583674,https://github.com/python-poetry/poetry/actions/runs/36335583674,2026-09-27T17:04:44Z,test_failure,draft

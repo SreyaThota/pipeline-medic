@@ -1,0 +1,191 @@
+Build & Deploy	UNKNOWN STEP	﻿2026-09-27T05:28:22.4268456Z Current runner version: '2.337.0'
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4294850Z ##[group]Runner Image Provisioner
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4295950Z Hosted Compute Agent
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4296587Z Version: 20260828.587
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4297239Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4298095Z Build Date: 2026-08-28T16:44:25Z
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4298850Z Worker ID: {39f8a02d-e749-46b1-b9bf-773e3dcd699a}
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4299626Z Azure Region: westcentralus
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4300305Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4302144Z ##[group]Operating System
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4302887Z Ubuntu
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4303461Z 24.04.5
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4304070Z LTS
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4305026Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4305592Z ##[group]Runner Image
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4306293Z Image: ubuntu-24.04
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4306948Z Version: 20260920.314.1
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4308284Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4309950Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4310977Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4312257Z ##[group]GITHUB_TOKEN Permissions
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4314891Z Contents: read
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4315520Z Metadata: read
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4316217Z PullRequests: write
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4316882Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4319484Z Secret source: Actions
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4320461Z Cache mode: read
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4321240Z Prepare workflow directory
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4660251Z Prepare all required actions
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.4712282Z Getting action download info
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:22.8980274Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:23.0274556Z Download action repository 'actions/setup-node@820762786026740c76f36085b0efc47a31fe5020' (SHA:820762786026740c76f36085b0efc47a31fe5020)
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:23.1207632Z Download action repository 'python-poetry/poetry@94b6e35b9091991887aa54feeb3771a86d3bd692' (SHA:94b6e35b9091991887aa54feeb3771a86d3bd692)
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:24.2766413Z Download action repository 'amondnet/vercel-action@de09aeac2ace6599ec9b11ef87558759a496bac4' (SHA:de09aeac2ace6599ec9b11ef87558759a496bac4)
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.3747723Z Getting action download info
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.5207508Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.6237864Z Getting action download info
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.7645535Z Download action repository 'actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9' (SHA:55cc8345863c7cc4c66a329aec7e433d2d1c52a9)
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9070220Z Complete job name: Build & Deploy
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9837744Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9838960Z with:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9839427Z   persist-credentials: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9839997Z   repository: python-poetry/website
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9843070Z   token: ***
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9843344Z   ssh-strict: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9843612Z   ssh-user: git
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9843890Z   clean: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9844361Z   sparse-checkout-cone-mode: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9844715Z   fetch-depth: 1
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9844977Z   fetch-tags: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9845245Z   show-progress: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9845530Z   lfs: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9845784Z   submodules: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9846054Z   set-safe-directory: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9846371Z   allow-unsafe-pr-checkout: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:25.9847030Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.0907094Z Syncing repository: python-poetry/website
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.0908800Z ##[group]Getting Git version info
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.0909290Z Working directory is '/home/runner/work/poetry/poetry'
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.0909970Z [command]/usr/bin/git version
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.1018943Z git version 2.55.0
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.1040980Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.1053360Z Temporarily overriding HOME='/home/runner/work/_temp/3875a51a-7705-408b-a1e0-d0e94a9c6010' before making global git config changes
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.1055220Z Adding repository directory to the temporary git global config as a safe directory
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.1060722Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/poetry/poetry
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.1110367Z Deleting the contents of '/home/runner/work/poetry/poetry'
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.1113803Z ##[group]Determining repository object format
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.4965703Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.4967099Z ##[group]Initializing the repository
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.4978166Z [command]/usr/bin/git init /home/runner/work/poetry/poetry
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5146626Z hint: Using 'master' as the name for the initial branch. This default branch name
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5147659Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5148654Z hint: to use in all of your new repositories, which will suppress this warning,
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5149368Z hint: call:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5149709Z hint:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5150185Z hint: 	git config --global init.defaultBranch <name>
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5150755Z hint:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5151313Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5152285Z hint: 'development'. The just-created branch can be renamed via this command:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5153001Z hint:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5153400Z hint: 	git branch -m <name>
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5153819Z hint:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5154632Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5155997Z Initialized empty Git repository in /home/runner/work/poetry/poetry/.git/
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5166467Z [command]/usr/bin/git remote add origin https://github.com/python-poetry/website
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5226110Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5227177Z ##[group]Disabling automatic garbage collection
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5228807Z [command]/usr/bin/git config --local gc.auto 0
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5269092Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5269860Z ##[group]Setting up auth
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5270512Z Removing SSH command configuration
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5275994Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5313542Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5686250Z Removing HTTP extra header
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5691480Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5724860Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5938662Z Removing includeIf entries pointing to credentials config files
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5943295Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.5978839Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6199748Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6239310Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/poetry/poetry/.git.path /home/runner/work/_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6272305Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/poetry/poetry/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6308053Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6339713Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6368230Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6368716Z ##[group]Determining the default branch
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.6369868Z Retrieving the default branch name
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.9071755Z Default branch 'main'
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.9072654Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.9073124Z ##[group]Fetching the repository
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:26.9084037Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/main:refs/remotes/origin/main
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8712450Z From https://github.com/python-poetry/website
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8713158Z  * [new branch]      main       -> origin/main
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8718498Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8718915Z ##[group]Determining the checkout info
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8719417Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8725106Z [command]/usr/bin/git sparse-checkout disable
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8778904Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8812652Z ##[group]Checking out the ref
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8813953Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8992178Z Switched to a new branch 'main'
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.8998059Z branch 'main' set up to track 'origin/main'.
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9003922Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9049747Z [command]/usr/bin/git log -1 --format=%H
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9077114Z 94d129208a6f535853aa9ac6ad29410b03db46ae
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9150782Z ##[group]Removing auth
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9151242Z Removing SSH command configuration
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9151723Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9196922Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9435421Z Removing HTTP extra header
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9455468Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9477921Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9701607Z Removing includeIf entries pointing to credentials config files
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9706297Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9738653Z includeif.gitdir:/home/runner/work/poetry/poetry/.git.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9739925Z includeif.gitdir:/home/runner/work/poetry/poetry/.git/worktrees/*.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9741181Z includeif.gitdir:/github/workspace/.git.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9742093Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9748681Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/poetry/poetry/.git.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9774492Z /home/runner/work/_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9786077Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/poetry/poetry/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-9d6a74ab\-7ffa\-4c1e\-9792\-84a35a569656\.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9825761Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/poetry/poetry/.git/worktrees/*.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9851795Z /home/runner/work/_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9863151Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/poetry/poetry/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-9d6a74ab\-7ffa\-4c1e\-9792\-84a35a569656\.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9904867Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9930450Z /github/runner_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9938058Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-9d6a74ab\-7ffa\-4c1e\-9792\-84a35a569656\.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9976266Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:27.9999813Z /github/runner_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0007429Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-9d6a74ab\-7ffa\-4c1e\-9792\-84a35a569656\.config
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0040988Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0260313Z Removing credentials config '/home/runner/work/_temp/git-credentials-9d6a74ab-7ffa-4c1e-9792-84a35a569656.config'
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0270477Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0567760Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0568187Z with:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0568425Z   persist-credentials: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0568690Z   path: poetry-docs
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0568952Z   ref: 3e7c5ca16183002553d5cace2eb15cfa01331ea6
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0569260Z   sparse-checkout: docs
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0569513Z   repository: python-poetry/poetry
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0572337Z   token: ***
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0572564Z   ssh-strict: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0572796Z   ssh-user: git
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0573012Z   clean: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0573253Z   sparse-checkout-cone-mode: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0573521Z   fetch-depth: 1
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0573738Z   fetch-tags: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0573953Z   show-progress: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0574358Z   lfs: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0574562Z   submodules: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0574789Z   set-safe-directory: true
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0575094Z   allow-unsafe-pr-checkout: false
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.0575368Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.1469795Z ##[error]Refusing to check out fork pull request code from a 'pull_request_target' workflow. This workflow runs with the base repository's GITHUB_TOKEN, secrets, default-branch cache scope, and runner access. Fetching and executing a fork's code in that trusted context commonly leads to "pwn request" vulnerabilities. To opt in, review the risks at https://gh.io/securely-using-pull_request_target and set 'allow-unsafe-pr-checkout: true' on the actions/checkout step.
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.1667162Z Post job cleanup.
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.2651351Z Post job cleanup.
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3544880Z [command]/usr/bin/git version
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3599213Z git version 2.55.0
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3640971Z Temporarily overriding HOME='/home/runner/work/_temp/da4df1c6-f7d6-48e5-986e-5b808a3f02ea' before making global git config changes
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3642729Z Adding repository directory to the temporary git global config as a safe directory
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3649556Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/poetry/poetry
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3685619Z Removing SSH command configuration
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3692459Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3732251Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3957677Z Removing HTTP extra header
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.3963786Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.4000058Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.4218010Z Removing includeIf entries pointing to credentials config files
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.4224999Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.4258139Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Build & Deploy	UNKNOWN STEP	2026-09-27T05:28:28.4609509Z Cleaning up orphan processes

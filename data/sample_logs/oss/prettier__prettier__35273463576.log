@@ -1,0 +1,400 @@
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0153080Z PASS tests/format/vue/ts-expression/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0208710Z PASS tests/format/vue/interpolation/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0504100Z PASS tests/format/vue/html-vue/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0644590Z PASS tests/format/stylefmt-repo/vendor-prefix/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0670540Z PASS tests/format/stylefmt-repo/var-notation/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0703970Z PASS tests/format/stylefmt-repo/values/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0735200Z PASS tests/format/stylefmt-repo/shorthand-with-sass-variables/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0762260Z PASS tests/format/stylefmt-repo/pseudo-element/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0783850Z PASS tests/format/stylefmt-repo/non-nested-combinator/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0818330Z PASS tests/format/stylefmt-repo/nested-mixin-2/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0852230Z PASS tests/format/stylefmt-repo/nested-mixin/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0889040Z PASS tests/format/stylefmt-repo/nested-indention-2/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0919630Z PASS tests/format/stylefmt-repo/nested-indention/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0948390Z PASS tests/format/stylefmt-repo/nested-atrule/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0974270Z PASS tests/format/vue/event-binding/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0975960Z PASS tests/format/stylefmt-repo/nested-2/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.0995080Z PASS tests/format/stylefmt-repo/media-indent/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1000550Z PASS tests/format/stylefmt-repo/nested/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1119470Z PASS tests/format/stylefmt-repo/media-indent-with-import/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1144100Z PASS tests/format/stylefmt-repo/media-queries-ranges/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1144940Z PASS tests/format/stylefmt-repo/lowercase/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1145480Z PASS tests/format/stylefmt-repo/import/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1207270Z PASS tests/format/stylefmt-repo/ie-hacks/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1216000Z PASS tests/format/stylefmt-repo/important/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1259050Z PASS tests/format/stylefmt-repo/font-shorthand/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1263760Z PASS tests/format/stylefmt-repo/data-url/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1289750Z PASS tests/format/stylefmt-repo/custom-selectors/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1321440Z PASS tests/format/stylefmt-repo/font-face/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1337320Z PASS tests/format/stylefmt-repo/custom-media-queries/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1367710Z PASS tests/format/stylefmt-repo/custom-properties/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1430280Z PASS tests/format/stylefmt-repo/color-hex-lowercase/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1437950Z PASS tests/format/stylefmt-repo/cssnext-example/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1478070Z PASS tests/format/stylefmt-repo/comment-in-rules/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1499100Z PASS tests/format/stylefmt-repo/content/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1564600Z PASS tests/format/stylefmt-repo/charset-2/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1589320Z PASS tests/format/stylefmt-repo/comment/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1665710Z PASS tests/format/stylefmt-repo/charset/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1679600Z PASS tests/format/stylefmt-repo/at-media/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1781880Z PASS tests/format/stylefmt-repo/attr-selector/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1832400Z PASS tests/format/stylefmt-repo/at-apply/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1923620Z PASS tests/format/css/variables/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.1963340Z PASS tests/format/css/url/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2003150Z PASS tests/format/css/units/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2041630Z PASS tests/format/css/atword/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2046630Z PASS tests/format/css/yaml/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2080370Z PASS tests/format/css/trailing-comma/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2114940Z PASS tests/format/css/tailwind/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2115860Z PASS tests/format/css/selector-string/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2142890Z PASS tests/format/css/selector-call/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2235340Z PASS tests/format/css/range/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2317790Z PASS tests/format/css/selector-list/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2320080Z PASS tests/format/css/prefix/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2419750Z PASS tests/format/css/pseudo-call/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2514570Z PASS tests/format/css/postcss-8-improment/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2516050Z PASS tests/format/css/postcss-plugins/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2591600Z PASS tests/format/css/params/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2734090Z PASS tests/format/css/no-semicolon/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.2839920Z PASS tests/format/css/numbers/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3106070Z PASS tests/format/css/parens/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3220520Z PASS tests/format/css/modules/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3221710Z PASS tests/format/css/loose/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3373180Z PASS tests/format/css/long-rule/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3474200Z PASS tests/format/css/inline-url/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3575590Z PASS tests/format/css/important/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3648730Z PASS tests/format/css/indent/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3649540Z PASS tests/format/css/fill-value/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3649860Z PASS tests/format/css/grid/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3650160Z PASS tests/format/css/empty/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3650460Z PASS tests/format/css/cursor/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3650770Z PASS tests/format/css/composes/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3651080Z PASS tests/format/css/combinator/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3651400Z PASS tests/format/css/comments/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3651730Z PASS tests/format/css/colon/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3652020Z PASS tests/format/css/color/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3652300Z PASS tests/format/css/bom/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3652690Z PASS tests/format/css/character-escaping/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.3653070Z PASS tests/format/css/case/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.4675180Z PASS tests/format/css/atrule/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5265770Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5369280Z Summary of all failing tests
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5389180Z FAIL tests/format/js/babel-plugins/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5389820Z flow.js > [oxc] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5390330Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5390630Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5390850Z     Snapshot name: `flow.js [oxc] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5391090Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5391260Z     - Snapshot  - 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5391440Z     + Received  + 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5391980Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5392150Z     - "Expected `,` but found `:` (3:17)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5392420Z     + "Expected `,` or `)` but found `:` (3:17)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5392730Z         1 | // https://babeljs.io/docs/babel-preset-flow
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5392970Z         2 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5393220Z       > 3 | function foo(one: any, two: number, three?): string {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5393610Z           |                 ^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5393780Z         4 |"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5394290Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5394990Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5395650Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5396340Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5396720Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5396960Z FAIL tests/format/js/optional-chaining-assignment/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5397330Z invalid-fn-param-assign.js > [oxc] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5397670Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5397940Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5398190Z     Snapshot name: `invalid-fn-param-assign.js [oxc] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5398440Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5398570Z     - Snapshot  - 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5398720Z     + Received  + 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5398860Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5399030Z     - "Expected `,` but found `?.` (1:13)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5399290Z     + "Expected `,` or `)` but found `?.` (1:13)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5399540Z       > 1 | function f(a?.b = c) {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5399730Z           |             ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5399960Z         2 |"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5400520Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5401220Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5401780Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5402430Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5402800Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5402930Z invalid-fn-param.js > [oxc] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5403330Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5403610Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5403820Z     Snapshot name: `invalid-fn-param.js [oxc] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5404050Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5404180Z     - Snapshot  - 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5404330Z     + Received  + 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5404470Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5404640Z     - "Expected `,` but found `?.` (1:13)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5404900Z     + "Expected `,` or `)` but found `?.` (1:13)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5405230Z       > 1 | function f(a?.b) {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5405420Z           |             ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5405580Z         2 |"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5406150Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5406830Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5407400Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5408040Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5408410Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5408610Z FAIL tests/format/typescript/error-recovery/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5408900Z generic.ts > [oxc-ts] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5409210Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5409730Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5409980Z     Snapshot name: `generic.ts [oxc-ts] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5416580Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5416770Z     - Snapshot  - 8
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5416930Z     + Received  + 6
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5417070Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5417260Z     - "Type parameter list cannot be empty. (5:12)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5417660Z     -   3 | new f2<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5417830Z     -   4 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5418030Z     + "Type argument list cannot be empty. (1:3)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5418270Z     - > 5 | function f3<>() {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5418450Z     + > 1 | f1<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5418600Z     -     |            ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5418760Z     +     |   ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5418900Z     -   6 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5419020Z     +   2 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5419160Z     -   7 | class f4 {
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5419320Z     +   3 | new f2<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5419510Z     -   8 |     constructor<>() {}"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5419700Z     +   4 |"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5420190Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5420870Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5421440Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5422090Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5422520Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5422770Z generic.ts - {"trailingComma":"es5"} > [oxc-ts] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5423150Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5423420Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5423690Z     Snapshot name: `generic.ts - {"trailingComma":"es5"} [oxc-ts] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5423980Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5424110Z     - Snapshot  - 8
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5424270Z     + Received  + 6
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5424410Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5424600Z     - "Type parameter list cannot be empty. (5:12)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5425010Z     -   3 | new f2<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5425200Z     -   4 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5425400Z     + "Type argument list cannot be empty. (1:3)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5425650Z     - > 5 | function f3<>() {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5425850Z     + > 1 | f1<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5426030Z     -     |            ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5426230Z     +     |   ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5426360Z     -   6 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5426490Z     +   2 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5426620Z     -   7 | class f4 {
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5426780Z     +   3 | new f2<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5426980Z     -   8 |     constructor<>() {}"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5427170Z     +   4 |"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5427650Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5428330Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5428900Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5429560Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5429930Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5430110Z generic.ts - {"trailingComma":"all"} > [oxc-ts] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5430490Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5430760Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5431040Z     Snapshot name: `generic.ts - {"trailingComma":"all"} [oxc-ts] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5431320Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5431450Z     - Snapshot  - 8
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5431600Z     + Received  + 6
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5431740Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5431940Z     - "Type parameter list cannot be empty. (5:12)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5432370Z     -   3 | new f2<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5432530Z     -   4 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5432780Z     + "Type argument list cannot be empty. (1:3)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5433050Z     - > 5 | function f3<>() {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5433240Z     + > 1 | f1<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5433400Z     -     |            ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5433570Z     +     |   ^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5433740Z     -   6 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5434030Z     +   2 |
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5434170Z     -   7 | class f4 {
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5434330Z     +   3 | new f2<>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5434530Z     -   8 |     constructor<>() {}"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5434710Z     +   4 |"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5435190Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5435870Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5436430Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5437090Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5437450Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5437600Z FAIL tests/format/js/objects/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5437850Z expression.js > [oxc] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5438170Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5438450Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5438650Z     Snapshot name: `expression.js [oxc] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5438870Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5439000Z     - Snapshot  - 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5439150Z     + Received  + 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5439290Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5439410Z     @@ -1,6 +1,6 @@
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5439600Z     - "Expected `,` but found `:` (5:4)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5439860Z     + "Expected `,` or `)` but found `:` (5:4)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5440080Z         3 | a = () => ({}).x;
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5440260Z         4 | ({} && a, b);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5440610Z       > 5 | ({}::b, 0);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5440760Z           |    ^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5440970Z         6 | ({}::b()``[''].c++ && 0 ? 0 : 0, 0);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5441520Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5442200Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5442760Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5443410Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5443780Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5443890Z expression.js > [oxc-ts] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5444220Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5444560Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5444780Z     Snapshot name: `expression.js [oxc-ts] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5445010Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5445140Z     - Snapshot  - 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5445290Z     + Received  + 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5445420Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5445550Z     @@ -1,6 +1,6 @@
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5445740Z     - "Expected `,` but found `:` (5:4)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5446040Z     + "Expected `,` or `)` but found `:` (5:4)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5446310Z         3 | a = () => ({}).x;
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5446490Z         4 | ({} && a, b);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5446650Z       > 5 | ({}::b, 0);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5446800Z           |    ^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5447000Z         6 | ({}::b()``[''].c++ && 0 ? 0 : 0, 0);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5447540Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5448220Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5448980Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5449720Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5450150Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5450370Z FAIL tests/format/js/module-blocks/quote-props/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5450740Z worker.js > [oxc] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5451060Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5451330Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5451520Z     Snapshot name: `worker.js [oxc] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5451730Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5451850Z     - Snapshot  - 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5452010Z     + Received  + 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5452150Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5452320Z     - "Expected `,` but found `{` (1:28)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5452570Z     + "Expected `,` or `)` but found `{` (1:28)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5452830Z       > 1 | worker = new Worker(module {
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5453080Z           |                            ^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5453310Z         2 |   onmessage = function({data}) {
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5453560Z         3 |     let mod = import(data);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5453800Z         4 |     postMessage(mod.fn());"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5454340Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5455020Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5455580Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5456230Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5456630Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5456980Z FAIL tests/format/typescript/type-params/empty-parameters-with-arrow-function/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5457580Z issue-13817.ts - {"arrowParens":"avoid","trailingComma":"all"} > [oxc-ts] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5457980Z     SyntaxError: Type argument list cannot be empty. (1:73)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5459920Z     ^[[0m^[[31m^[[1m>^[[22m^[[39m^[[90m 1 |^[[39m ^[[36mconst^[[39m xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx1^[[33m:^[[39m xxxxxxxxxxxxxxxxxxxxxx^[[33m<^[[39m^[[33m>^[[39m ^[[33m=^[[39m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5460720Z      ^[[90m   |^[[39m                                                                         ^[[31m^[[1m^^[[22m^[[39m^[[31m^[[1m^^[[22m^[[39m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5461170Z      ^[[90m 2 |^[[39m   arg ^[[33m=>^[[39m ^[[36mnull^[[39m^[[33m;^[[39m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5461420Z      ^[[90m 3 |^[[39m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5462090Z      ^[[90m 4 |^[[39m ^[[36mconst^[[39m xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx2^[[33m:^[[39m xxxxxxxxxxxxxxxxxxxxxx^[[33m<^[[39m^[[90m/* comment */^[[39m^[[33m>^[[39m ^[[33m=^[[39m^[[0m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5462890Z         at createError (file:///Users/runner/work/prettier/prettier/src/common/parser-create-error.js:5:17)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5463540Z         at createParseError (file:///Users/runner/work/prettier/prettier/src/language-js/parse/oxc.js:28:10)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5464170Z         at parseWithOptions (file:///Users/runner/work/prettier/prettier/src/language-js/parse/oxc.js:60:11)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5464950Z         at async tryCombinationsAsync (file:///Users/runner/work/prettier/prettier/src/utils/try-combinations.js:30:14)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5465670Z         at async Object.parseTs [as parse] (file:///Users/runner/work/prettier/prettier/src/language-js/parse/oxc.js:109:14)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5466380Z         at async parse (file:///Users/runner/work/prettier/prettier/src/main/parse.js:13:11)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5466930Z         at async coreFormat (file:///Users/runner/work/prettier/prettier/src/main/core.js:29:25)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5467500Z         at async formatWithCursor (file:///Users/runner/work/prettier/prettier/src/main/core.js:350:14)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5468110Z         at async format (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:560:47)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5468920Z         at async runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:387:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5469240Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5469400Z FAIL tests/format/js/arrows-bind/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5469660Z arrows-bind.js > [oxc] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5470040Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5470310Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5470520Z     Snapshot name: `arrows-bind.js [oxc] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5470740Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5470870Z     - Snapshot  - 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5471030Z     + Received  + 1
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5471170Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5471330Z     - "Expected `,` but found `:` (1:9)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5471590Z     + "Expected `,` or `)` but found `:` (1:9)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5471880Z       > 1 | a => ({}::b()``[''].c++ && 0 ? 0 : 0);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5472100Z           |         ^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5472270Z         2 | (a => b)::c;
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5472440Z         3 | a::(b => c);
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5472590Z         4 |"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5473070Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5473780Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5474580Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5475400Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5475780Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5475990Z FAIL tests/format/typescript/comments/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5476310Z type-parameters.ts > [oxc-ts] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5476660Z     Error: expect(received).rejects.toThrowErrorMatchingSnapshot()
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5476950Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5477230Z     Snapshot name: `type-parameters.ts [oxc-ts] format 1`
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5477500Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5477780Z     - Snapshot  - 8
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5477970Z     + Received  + 7
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5478120Z     
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5478320Z     - "Type parameter list cannot be empty. (4:13)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5478610Z     + "Type argument list cannot be empty. (2:11)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5478880Z     -   2 | const a: T</* comment */> = 1;
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5479140Z     -   3 | functionName</* comment */>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5479390Z     +   1 | functionName<A /* A comment */>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5479660Z     - > 4 | function foo</* comment */>() {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5479900Z     + > 2 | const a: T</* comment */> = 1;
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5480130Z     -     |             ^^^^^^^^^^^^^^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5480350Z     +     |           ^^^^^^^^^^^^^^^
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5480550Z     -   5 | interface Foo {
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5480760Z     +   3 | functionName</* comment */>();
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5481020Z     -   6 |  </* comment */>(arg): any;
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5481320Z     +   4 | function foo</* comment */>() {}
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5481560Z     -   7 | }"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5481830Z     +   5 | interface Foo {"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5482430Z         at Object.toThrowErrorMatchingSnapshot (/Users/runner/work/prettier/prettier/node_modules/expect/build/index.js:2151:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5483230Z         at runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:381:41)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5483800Z         at file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:343:17
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5484450Z         at async onMessage (file:///Users/runner/work/prettier/prettier/node_modules/tinypool/dist/esm/entry/process.js:51:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5485850Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5486570Z FAIL tests/format/flow/type-parameters/format.test.js
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5487330Z empty_generic_break.js > [oxc-ts] format
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5487950Z     SyntaxError: Type argument list cannot be empty. (2:6)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5488430Z     ^[[0m ^[[90m 1 |^[[39m ^[[36mclass^[[39m ^[[33mX^[[39m {
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5489240Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 2 |^[[39m 	a^[[33m:^[[39m ^[[33mB^[[39m^[[33m<^[[39m^[[33m>^[[39m ^[[33m=^[[39m ^[[33mSuperSuperSuperSuperSuperSuperSuperSuperSuperSuperSuperSuperSuperLong^[[39m^[[33m;^[[39m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5490230Z      ^[[90m   |^[[39m 	    ^[[31m^[[1m^^[[22m^[[39m^[[31m^[[1m^^[[22m^[[39m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5490510Z      ^[[90m 3 |^[[39m }
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5490690Z      ^[[90m 4 |^[[39m^[[0m
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5491130Z         at createError (file:///Users/runner/work/prettier/prettier/src/common/parser-create-error.js:5:17)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5491780Z         at createParseError (file:///Users/runner/work/prettier/prettier/src/language-js/parse/oxc.js:28:10)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5492420Z         at parseWithOptions (file:///Users/runner/work/prettier/prettier/src/language-js/parse/oxc.js:60:11)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5493100Z         at async tryCombinationsAsync (file:///Users/runner/work/prettier/prettier/src/utils/try-combinations.js:30:14)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5493820Z         at async Object.parseTs [as parse] (file:///Users/runner/work/prettier/prettier/src/language-js/parse/oxc.js:109:14)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5494430Z         at async parse (file:///Users/runner/work/prettier/prettier/src/main/parse.js:13:11)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5494980Z         at async coreFormat (file:///Users/runner/work/prettier/prettier/src/main/core.js:29:25)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5495650Z         at async formatWithCursor (file:///Users/runner/work/prettier/prettier/src/main/core.js:350:14)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5496270Z         at async format (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:560:47)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5496890Z         at async runTest (file:///Users/runner/work/prettier/prettier/tests/config/run-format-test.js:387:20)
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5497240Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5497240Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5497310Z Snapshot Summary
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5497980Z  › 11 snapshots failed from 7 test suites. Inspect your code changes or re-run jest with `-u` to update them.
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5498300Z 
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5498470Z Test Suites: 9 failed, 1383 passed, 1392 total
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5498830Z Tests:       13 failed, 5 skipped, 27242 passed, 27260 total
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5499180Z Snapshots:   11 failed, 9038 passed, 9049 total
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5499420Z Time:        172.33 s
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.5499590Z Ran all test suites.
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.6659500Z ##[error]Process completed with exit code 1.
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.6989040Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:43.6990240Z Post job cleanup.
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.0953700Z [command]/opt/homebrew/bin/git version
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.1188870Z git version 2.55.0
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.1207970Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/7820fd1e-d369-463e-a73f-15a2ca0a8126/.gitconfig'
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.1216800Z Temporarily overriding HOME='/Users/runner/work/_temp/7820fd1e-d369-463e-a73f-15a2ca0a8126' before making global git config changes
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.1217650Z Adding repository directory to the temporary git global config as a safe directory
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.1219650Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/prettier/prettier
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.1685600Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.1695290Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.3280800Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.3343740Z http.https://github.com/.extraheader
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.3350970Z [command]/opt/homebrew/bin/git config --local --unset-all http.https://github.com/.extraheader
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.3428340Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.4388390Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.4462050Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:44.5635180Z Cleaning up orphan processes
+Node.js 20 on MacOS	UNKNOWN STEP	2026-09-17T20:56:48.5231050Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

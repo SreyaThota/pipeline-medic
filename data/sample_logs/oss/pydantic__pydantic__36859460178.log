@@ -1,0 +1,400 @@
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8534200Z test_filter_schema.py::test_q_is_a_list_deprecated[True]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8534524Z test_filter_schema.py::test_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8534915Z test_filter_schema.py::test_class_level_and_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8535723Z   /home/runner/work/pydantic/pydantic/ninja/filter_schema.py:211: DeprecationWarning: Using Pydantic Field with extra keyword arguments ('q') in field DummyFilterSchema.name is deprecated. Please use ninja.FilterLookup instead:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8536416Z     from typing import Annotated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8536745Z     from ninja import FilterLookup, FilterSchema
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8536965Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8537128Z     class DummyFilterSchema(FilterSchema):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8537410Z       name: Annotated[Optional[...], FilterLookup(q='...', ...)] = None
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8537702Z     field_q = self._resolve_field_expression(
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8537856Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8537986Z test_filter_schema.py::test_empty_q_when_none_ignored_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8538308Z test_filter_schema.py::test_q_expressions2_deprecated[False]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8538620Z test_filter_schema.py::test_q_expressions2_deprecated[True]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8538913Z test_filter_schema.py::test_q_expressions3_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8539195Z test_filter_schema.py::test_q_is_a_list_deprecated[False]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8539476Z test_filter_schema.py::test_q_is_a_list_deprecated[True]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8539795Z test_filter_schema.py::test_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8540277Z test_filter_schema.py::test_class_level_and_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8540634Z test_filter_schema.py::test_ignore_none_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8541347Z   /home/runner/work/pydantic/pydantic/ninja/filter_schema.py:211: DeprecationWarning: Using Pydantic Field with extra keyword arguments ('q') in field DummyFilterSchema.tag is deprecated. Please use ninja.FilterLookup instead:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8542030Z     from typing import Annotated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8542253Z     from ninja import FilterLookup, FilterSchema
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8542468Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8542630Z     class DummyFilterSchema(FilterSchema):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8542912Z       tag: Annotated[Optional[...], FilterLookup(q='...', ...)] = None
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8543230Z     field_q = self._resolve_field_expression(
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8543385Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8543507Z test_filter_schema.py::test_q_expressions2_deprecated[False]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8543822Z test_filter_schema.py::test_q_expressions2_deprecated[True]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8544861Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:99: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8545845Z     name: Optional[str] = Field(None, q=q)
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8545986Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8546114Z test_filter_schema.py::test_q_expressions2_deprecated[False]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8546418Z test_filter_schema.py::test_q_expressions2_deprecated[True]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8547537Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:100: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8548527Z     tag: Optional[str] = Field(None, q="tag")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8548680Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8548792Z test_filter_schema.py::test_q_expressions3_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8549787Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:128: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8550914Z     name: Optional[str] = Field(None, q="name__icontains")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8551098Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8551205Z test_filter_schema.py::test_q_expressions3_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8552201Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:129: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8553311Z     tag: Optional[str] = Field(None, q="tag")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8553459Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8553581Z test_filter_schema.py::test_q_is_a_list_deprecated[False]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8553873Z test_filter_schema.py::test_q_is_a_list_deprecated[True]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8554866Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:157: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8555907Z     name: Optional[str] = Field(None, q=[q__name, "user__username__icontains"])
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8556142Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8556279Z test_filter_schema.py::test_q_is_a_list_deprecated[False]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8556561Z test_filter_schema.py::test_q_is_a_list_deprecated[True]
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8557548Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:158: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8558515Z     tag: Optional[str] = Field(None, q="tag")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8558664Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8558822Z test_filter_schema.py::test_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8559932Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:192: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q', 'expression_connector'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8561044Z     name: Optional[str] = Field(
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8561178Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8561323Z test_filter_schema.py::test_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8562364Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:196: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8563352Z     tag: Optional[str] = Field(None, q="tag")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8563501Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8563648Z test_filter_schema.py::test_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8564045Z test_filter_schema.py::test_class_level_and_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8565019Z   /home/runner/work/pydantic/pydantic/ninja/filter_schema.py:211: DeprecationWarning: Using Pydantic Field with extra keyword arguments ('expression_connector') in field DummyFilterSchema.name is deprecated. Please use ninja.FilterLookup instead:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8565785Z     from typing import Annotated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8566007Z     from ninja import FilterLookup, FilterSchema
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8566229Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8566405Z     class DummyFilterSchema(FilterSchema):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8566686Z       name: Annotated[Optional[...], FilterLookup(q='...', ...)] = None
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8566975Z     field_q = self._resolve_field_expression(
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8567119Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8567270Z test_filter_schema.py::test_class_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8568319Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:229: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8569428Z     tag1: Optional[str] = Field(None, q="tag1")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8569589Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8569738Z test_filter_schema.py::test_class_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8570888Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:230: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8571881Z     tag2: Optional[str] = Field(None, q="tag2")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8572044Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8572191Z test_filter_schema.py::test_class_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8572540Z test_filter_schema.py::test_ignore_none_class_level_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8573289Z   /home/runner/work/pydantic/pydantic/ninja/filter_schema.py:211: DeprecationWarning: Using Pydantic Field with extra keyword arguments ('q') in field DummyFilterSchema.tag1 is deprecated. Please use ninja.FilterLookup instead:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8573980Z     from typing import Annotated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8574201Z     from ninja import FilterLookup, FilterSchema
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8574418Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8574587Z     class DummyFilterSchema(FilterSchema):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8574864Z       tag1: Annotated[Optional[...], FilterLookup(q='...', ...)] = None
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8575146Z     field_q = self._resolve_field_expression(
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8575298Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8575438Z test_filter_schema.py::test_class_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8575770Z test_filter_schema.py::test_ignore_none_class_level_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8576510Z   /home/runner/work/pydantic/pydantic/ninja/filter_schema.py:211: DeprecationWarning: Using Pydantic Field with extra keyword arguments ('q') in field DummyFilterSchema.tag2 is deprecated. Please use ninja.FilterLookup instead:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8577202Z     from typing import Annotated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8577414Z     from ninja import FilterLookup, FilterSchema
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8577629Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8577787Z     class DummyFilterSchema(FilterSchema):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8578055Z       tag2: Annotated[Optional[...], FilterLookup(q='...', ...)] = None
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8578330Z     field_q = self._resolve_field_expression(
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8578482Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8578665Z test_filter_schema.py::test_class_level_and_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8579930Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:257: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q', 'expression_connector'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8581085Z     name: Optional[str] = Field(
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8581210Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8581401Z test_filter_schema.py::test_class_level_and_field_level_expression_connector_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8582488Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:261: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8583467Z     tag: Optional[str] = Field(None, q="tag")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8583615Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8583722Z test_filter_schema.py::test_ignore_none_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8584762Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:298: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q', 'ignore_none'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8585927Z     tag: Optional[str] = Field(None, q="tag", ignore_none=False)
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8586123Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8586220Z test_filter_schema.py::test_ignore_none_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8586958Z   /home/runner/work/pydantic/pydantic/ninja/filter_schema.py:79: DeprecationWarning: Using Pydantic Field with extra keyword arguments ('ignore_none') in field DummyFilterSchema.tag is deprecated. Please use ninja.FilterLookup instead:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8587672Z     from typing import Annotated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8587888Z     from ninja import FilterLookup, FilterSchema
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8588109Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8588274Z     class DummyFilterSchema(FilterSchema):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8588560Z       tag: Annotated[Optional[...], FilterLookup(q='...', ...)] = None
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8588836Z     return self._connect_fields()
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8588967Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8589094Z test_filter_schema.py::test_ignore_none_class_level_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8590194Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:320: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8591188Z     tag1: Optional[str] = Field(None, q="tag1")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8591343Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8591473Z test_filter_schema.py::test_ignore_none_class_level_deprecated
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8592480Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:321: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8593458Z     tag2: Optional[str] = Field(None, q="tag2")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8593612Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8593733Z test_filter_schema.py::test_pydantic_field_with_extra_warns
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:08.8594739Z   /home/runner/work/pydantic/pydantic/tests/test_filter_schema.py:411: PydanticDeprecatedSince20: Using extra keyword arguments on `Field` is deprecated and will be removed. Use `json_schema_extra` instead. (Extra keys: 'q'). Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0115772Z     name: Optional[str] = Field(None, q="name__icontains")
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0116149Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0116355Z test_orm_metaclass.py::test_model_schema_with_old_config
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0118165Z   /home/runner/work/pydantic/pydantic/ninja/schema.py:181: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.14/migration/
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0119539Z     result = super().__new__(cls, name, bases, namespace, **kwargs)
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0119862Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0120349Z test_router_reuse.py::TestOperationClone::test_clone_copies_all_attributes
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0121275Z   /home/runner/work/pydantic/pydantic/tests/test_router_reuse.py:197: UserWarning: Field(s) ('id',) are in the view path, but were not found in the view signature.
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0122022Z     def dummy_view(request):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0122189Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0122447Z test_router_reuse.py::TestCloneCompleteness::test_clone_catches_new_attributes
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0123359Z   /home/runner/work/pydantic/pydantic/tests/test_router_reuse.py:369: UserWarning: Field(s) ('id',) are in the view path, but were not found in the view signature.
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0124310Z     def dummy_view(request):
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0124483Z 
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0124711Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0125535Z ^[[36m^[[1m=========================== short test summary info ============================^[[0m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0127137Z ^[[31mFAILED^[[0m tests/test_orm_schemas.py::^[[1mtest_all_fields^[[0m - AssertionError: assert {'properties'...pe': 'object'} == {'title': 'Al...efield', ...]}
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0127853Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0128084Z   Omitting 3 identical items, use -vv to show
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0128389Z   Differing items:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0137534Z   ^[[0m{^[[33m'^[[39;49;00m^[[33mproperties^[[39;49;00m^[[33m'^[[39;49;00m: {^[[33m'^[[39;49;00m^[[33mid^[[39;49;00m^[[33m'^[[39;49;00m: {^[[33m'^[[39;49;00m^[[33manyOf^[[39;49;00m^[[33m'^[[39;49;00m: [{^[[33m'^[[39;49;00m^[[33mtype^[[39;49;00m^[[33m'^[[39;49;00m: ^[[33m'^[[39;49;00m^[[33minteger^[[39;49;00m^[[33m'^[[39;49;00m}, {^[[33m'^[[39;49;00m^[[33mtype^[[39;49;00m^[[33m'^[[39;49;00m: ^[[33m'^[[39;49;00m^[[33mnull^[[39;49;00m^[[33m'^[[39;49;00m}], ^[[33m'^[[39;49;00m^[[33mtitle^[[39;49;00m^[[33m'^[[39;49;00m: ^[[33m'^[[39;49;00m^[[33mID^[[39;49;00m^[[33m'^[[39;49;00m}, ^[[33m'^[[39;49;00m^[[33mbigintegerfield^[[39;49;00m^[[33m'^[[39;49;00m: {^[[33m'^[[39;49;00m^[[33mtitle^[[39;49;00m^[[33m'^[[39;49;00m: ...binary^[[33m'^[[39;49;00m^[[33m, ^[[39;49;00m^[[33m'^[[39;49;00mtitle^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mBinaryfield^[[33m'^[[39;49;00m^[[33m, ^[[39;49;00m^[[33m'^[[39;49;00m^[[96mtype^[[39;49;00m^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mstring^[[33m'^[[39;49;00m^[[33m}, ^[[39;49;00m^[[33m'^[[39;49;00mbooleanfield^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m{^[[39;49;00m^[[33m'^[[39;49;00mtitle^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mBooleanfield^[[33m'^[[39;49;00m^[[33m, ^[[39;49;00m^[[33m'^[[39;49;00m^[[96mtype^[[39;49;00m^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mboolean^[[33m'^[[39;49;00m^[[33m}, ...}}^[[39;49;00m^[[90m^[[39;49;00m != ^[[0m{^[[33m'^[[39;49;00m^[[33mproperties^[[39;49;00m^[[33m'^[[39;49;00m: {^[[33m'^[[39;49;00m^[[33mid^[[39;49;00m^[[33m'^[[39;49;00m: {^[[33m'^[[39;49;00m^[[33manyOf^[[39;49;00m^[[33m'^[[39;49;00m: [{^[[33m'^[[39;49;00m^[[33mtype^[[39;49;00m^[[33m'^[[39;49;00m: ^[[33m'^[[39;49;00m^[[33minteger^[[39;49;00m^[[33m'^[[39;49;00m}, {^[[33m'^[[39;49;00m^[[33mtype^[[39;49;00m^[[33m'^[[39;49;00m: ^[[33m'^[[39;49;00m^[[33mnull^[[39;49;00m^[[33m'^[[39;49;00m}], ^[[33m'^[[39;49;00m^[[33mtitle^[[39;49;00m^[[33m'^[[39;49;00m: ^[[33m'^[[39;49;00m^[[33mID^[[39;49;00m^[[33m'^[[39;49;00m}, ^[[33m'^[[39;49;00m^[[33mbigintegerfield^[[39;49;00m^[[33m'^[[39;49;00m: {^[[33m'^[[39;49;00m^[[33mtitle^[[39;49;00m^[[33m'^[[39;49;00m: ...inaryfield^[[33m'^[[39;49;00m^[[33m, ^[[39;49;00m^[[33m'^[[39;49;00m^[[96mtype^[[39;49;00m^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mstring^[[33m'^[[39;49;00m^[[33m, ^[[39;49;00m^[[33m'^[[39;49;00m^[[96mformat^[[39;49;00m^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mbinary^[[33m'^[[39;49;00m^[[33m}, ^[[39;49;00m^[[33m'^[[39;49;00mbooleanfield^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m{^[[39;49;00m^[[33m'^[[39;49;00m^[[96mtype^[[39;49;00m^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mboolean^[[33m'^[[39;49;00m^[[33m, ^[[39;49;00m^[[33m'^[[39;49;00mtitle^[[33m'^[[39;49;00m^[[33m: ^[[39;49;00m^[[33m'^[[39;49;00mBooleanfield^[[33m'^[[39;49;00m^[[33m}, ...}}^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0145053Z   
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0145256Z   Full diff:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0145535Z   ^[[0m^[[90m ^[[39;49;00m {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0145935Z   ^[[91m-     'title': 'AllFields',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0146374Z   ^[[91m-     'type': 'object',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0146782Z   ^[[90m ^[[39;49;00m     'properties': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0147182Z   ^[[90m ^[[39;49;00m         'id': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0147579Z   ^[[90m ^[[39;49;00m             'anyOf': [^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0147970Z   ^[[90m ^[[39;49;00m                 {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0148577Z   ^[[90m ^[[39;49;00m                     'type': 'integer',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0149004Z   ^[[90m ^[[39;49;00m                 },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0149370Z   ^[[90m ^[[39;49;00m                 {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0149784Z   ^[[90m ^[[39;49;00m                     'type': 'null',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0150321Z   ^[[90m ^[[39;49;00m                 },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0150694Z   ^[[90m ^[[39;49;00m             ],^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0151094Z   ^[[90m ^[[39;49;00m             'title': 'ID',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0151465Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0151860Z   ^[[90m ^[[39;49;00m         'bigintegerfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0152340Z   ^[[90m ^[[39;49;00m             'title': 'Bigintegerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0152814Z   ^[[90m ^[[39;49;00m             'type': 'integer',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0153191Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0153577Z   ^[[90m ^[[39;49;00m         'binaryfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0154013Z   ^[[92m+             'format': 'binary',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0154463Z   ^[[90m ^[[39;49;00m             'title': 'Binaryfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0154921Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0155351Z   ^[[91m-             'format': 'binary',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0155730Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0156117Z   ^[[90m ^[[39;49;00m         'booleanfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0156562Z   ^[[92m+             'title': 'Booleanfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0157038Z   ^[[90m ^[[39;49;00m             'type': 'boolean',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0157483Z   ^[[91m-             'title': 'Booleanfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0157875Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0158245Z   ^[[90m ^[[39;49;00m         'charfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0158679Z   ^[[92m+             'title': 'Charfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0159123Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0159560Z   ^[[91m-             'title': 'Charfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0159950Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0160512Z   ^[[90m ^[[39;49;00m         'commaseparatedintegerfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0161069Z   ^[[90m ^[[39;49;00m             'title': 'Commaseparatedintegerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0161570Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0161945Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0162314Z   ^[[90m ^[[39;49;00m         'datefield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0162726Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0163380Z   ^[[90m ^[[39;49;00m             'format': 'date',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0163819Z   ^[[90m ^[[39;49;00m             'title': 'Datefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0164265Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0164663Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0165051Z   ^[[90m ^[[39;49;00m         'datetimefield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0165517Z   ^[[92m+             'format': 'date-time',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0165987Z   ^[[90m ^[[39;49;00m             'title': 'Datetimefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0166447Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0166898Z   ^[[91m-             'format': 'date-time',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0167287Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0167678Z   ^[[90m ^[[39;49;00m         'decimalfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0168236Z   ^[[90m ^[[39;49;00m             'anyOf': [^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0168615Z   ^[[90m ^[[39;49;00m                 {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0169036Z   ^[[90m ^[[39;49;00m                     'type': 'number',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0169451Z   ^[[90m ^[[39;49;00m                 },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0169816Z   ^[[90m ^[[39;49;00m                 {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0170331Z   ^[[90m ^[[39;49;00m                     'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0170874Z   ^[[91m-                     'pattern': '^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0171343Z   ^[[90m ^[[39;49;00m                 },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0171713Z   ^[[90m ^[[39;49;00m             ],^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0172145Z   ^[[90m ^[[39;49;00m             'title': 'Decimalfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0172538Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0172937Z   ^[[90m ^[[39;49;00m         'durationfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0173370Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0173801Z   ^[[90m ^[[39;49;00m             'format': 'duration',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0174269Z   ^[[90m ^[[39;49;00m             'title': 'Durationfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0174701Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0175068Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0175448Z   ^[[90m ^[[39;49;00m         'emailfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0175858Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0176268Z   ^[[90m ^[[39;49;00m             'maxLength': 254,^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0176697Z   ^[[90m ^[[39;49;00m             'title': 'Emailfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0177119Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0177502Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0177862Z   ^[[90m ^[[39;49;00m         'filefield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0178279Z   ^[[92m+             'title': 'Filefield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0178706Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0179138Z   ^[[91m-             'title': 'Filefield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0179519Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0179898Z   ^[[90m ^[[39;49;00m         'filepathfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0180442Z   ^[[92m+             'title': 'Filepathfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0180887Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0181334Z   ^[[91m-             'title': 'Filepathfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0181736Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0182227Z   ^[[90m ^[[39;49;00m         'floatfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0182664Z   ^[[92m+             'title': 'Floatfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0183098Z   ^[[90m ^[[39;49;00m             'type': 'number',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0183542Z   ^[[91m-             'title': 'Floatfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0183929Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0184337Z   ^[[90m ^[[39;49;00m         'genericipaddressfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0184775Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0185229Z   ^[[90m ^[[39;49;00m             'format': 'ipvanyaddress',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0185750Z   ^[[90m ^[[39;49;00m             'title': 'Genericipaddressfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0186277Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0186794Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0187208Z   ^[[90m ^[[39;49;00m         'ipaddressfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0187645Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0188085Z   ^[[90m ^[[39;49;00m             'format': 'ipvanyaddress',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0188555Z   ^[[90m ^[[39;49;00m             'title': 'Ipaddressfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0188993Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0189364Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0189737Z   ^[[90m ^[[39;49;00m         'imagefield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0190278Z   ^[[92m+             'title': 'Imagefield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0190710Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0191140Z   ^[[91m-             'title': 'Imagefield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0191529Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0191910Z   ^[[90m ^[[39;49;00m         'integerfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0192353Z   ^[[92m+             'title': 'Integerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0192800Z   ^[[90m ^[[39;49;00m             'type': 'integer',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0193231Z   ^[[91m-             'title': 'Integerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0193633Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0194009Z   ^[[90m ^[[39;49;00m         'nullbooleanfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0194472Z   ^[[92m+             'title': 'Nullbooleanfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0194940Z   ^[[90m ^[[39;49;00m             'type': 'boolean',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0195400Z   ^[[91m-             'title': 'Nullbooleanfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0195808Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0196230Z   ^[[90m ^[[39;49;00m         'positiveintegerfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0196740Z   ^[[92m+             'title': 'Positiveintegerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0197247Z   ^[[90m ^[[39;49;00m             'type': 'integer',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0197726Z   ^[[91m-             'title': 'Positiveintegerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0198148Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0198575Z   ^[[90m ^[[39;49;00m         'positivesmallintegerfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0199122Z   ^[[92m+             'title': 'Positivesmallintegerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0199628Z   ^[[90m ^[[39;49;00m             'type': 'integer',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0200255Z   ^[[91m-             'title': 'Positivesmallintegerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0200704Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0201076Z   ^[[90m ^[[39;49;00m         'slugfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0201635Z   ^[[92m+             'title': 'Slugfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0202079Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0202514Z   ^[[91m-             'title': 'Slugfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0202910Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0203296Z   ^[[90m ^[[39;49;00m         'smallintegerfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0203759Z   ^[[92m+             'title': 'Smallintegerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0204228Z   ^[[90m ^[[39;49;00m             'type': 'integer',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0204692Z   ^[[91m-             'title': 'Smallintegerfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0205112Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0205475Z   ^[[90m ^[[39;49;00m         'textfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0205888Z   ^[[92m+             'title': 'Textfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0206456Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0206891Z   ^[[91m-             'title': 'Textfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0207269Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0207629Z   ^[[90m ^[[39;49;00m         'timefield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0208037Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0208467Z   ^[[90m ^[[39;49;00m             'format': 'time',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0208905Z   ^[[90m ^[[39;49;00m             'title': 'Timefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0209334Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0209702Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0210175Z   ^[[90m ^[[39;49;00m         'urlfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0210591Z   ^[[92m+             'title': 'Urlfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0211044Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0211468Z   ^[[91m-             'title': 'Urlfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0211870Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0212227Z   ^[[90m ^[[39;49;00m         'uuidfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0212630Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0213044Z   ^[[90m ^[[39;49;00m             'format': 'uuid',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0213465Z   ^[[90m ^[[39;49;00m             'title': 'Uuidfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0213887Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0214256Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0214632Z   ^[[90m ^[[39;49;00m         'arrayfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0215056Z   ^[[91m-             'type': 'array',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0215486Z   ^[[90m ^[[39;49;00m             'items': {},^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0215909Z   ^[[90m ^[[39;49;00m             'title': 'Arrayfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0216350Z   ^[[92m+             'type': 'array',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0216719Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0217093Z   ^[[90m ^[[39;49;00m         'cicharfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0217528Z   ^[[92m+             'title': 'Cicharfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0217961Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0218398Z   ^[[91m-             'title': 'Cicharfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0218787Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0219151Z   ^[[90m ^[[39;49;00m         'ciemailfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0219574Z   ^[[91m-             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0220376Z   ^[[90m ^[[39;49;00m             'maxLength': 254,^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0220841Z   ^[[90m ^[[39;49;00m             'title': 'Ciemailfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0221275Z   ^[[92m+             'type': 'string',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0221639Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0222021Z   ^[[90m ^[[39;49;00m         'citextfield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0222452Z   ^[[92m+             'title': 'Citextfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0222892Z   ^[[90m ^[[39;49;00m             'type': 'string',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0223316Z   ^[[91m-             'title': 'Citextfield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0223697Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0224057Z   ^[[90m ^[[39;49;00m         'hstorefield': {^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0224520Z   ^[[92m+             'additionalProperties': True,^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0225149Z   ^[[92m+             'title': 'Hstorefield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0225582Z   ^[[90m ^[[39;49;00m             'type': 'object',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0226013Z   ^[[91m-             'title': 'Hstorefield',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0226509Z   ^[[91m-             'additionalProperties': True,^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0226933Z   ^[[90m ^[[39;49;00m         },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0227260Z   ^[[90m ^[[39;49;00m     },^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0227610Z   ^[[90m ^[[39;49;00m     'required': [^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0228011Z   ^[[90m ^[[39;49;00m         'bigintegerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0228430Z   ^[[90m ^[[39;49;00m         'binaryfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0228845Z   ^[[90m ^[[39;49;00m         'booleanfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0229249Z   ^[[90m ^[[39;49;00m         'charfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0229696Z   ^[[90m ^[[39;49;00m         'commaseparatedintegerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0230293Z   ^[[90m ^[[39;49;00m         'datefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0230691Z   ^[[90m ^[[39;49;00m         'datetimefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0231094Z   ^[[90m ^[[39;49;00m         'decimalfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0231502Z   ^[[90m ^[[39;49;00m         'durationfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0231900Z   ^[[90m ^[[39;49;00m         'emailfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0232280Z   ^[[90m ^[[39;49;00m         'filefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0232665Z   ^[[90m ^[[39;49;00m         'filepathfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0233048Z   ^[[90m ^[[39;49;00m         'floatfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0233469Z   ^[[90m ^[[39;49;00m         'genericipaddressfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0233896Z   ^[[90m ^[[39;49;00m         'ipaddressfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0234297Z   ^[[90m ^[[39;49;00m         'imagefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0234716Z   ^[[90m ^[[39;49;00m         'integerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0235144Z   ^[[90m ^[[39;49;00m         'nullbooleanfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0235593Z   ^[[90m ^[[39;49;00m         'positiveintegerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0236093Z   ^[[90m ^[[39;49;00m         'positivesmallintegerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0236532Z   ^[[90m ^[[39;49;00m         'slugfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0236943Z   ^[[90m ^[[39;49;00m         'smallintegerfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0237356Z   ^[[90m ^[[39;49;00m         'textfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0237735Z   ^[[90m ^[[39;49;00m         'timefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0238118Z   ^[[90m ^[[39;49;00m         'urlfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0238496Z   ^[[90m ^[[39;49;00m         'uuidfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0238870Z   ^[[90m ^[[39;49;00m         'arrayfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0239382Z   ^[[90m ^[[39;49;00m         'cicharfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0239784Z   ^[[90m ^[[39;49;00m         'ciemailfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0240292Z   ^[[90m ^[[39;49;00m         'citextfield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0240726Z   ^[[90m ^[[39;49;00m         'hstorefield',^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0240981Z   ^[[90m ^[[39;49;00m     ],^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0241257Z   ^[[92m+     'title': 'AllFields',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.0241551Z   ^[[92m+     'type': 'object',^[[39;49;00m^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.1285553Z   ^[[90m ^[[39;49;00m }^[[90m^[[39;49;00m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.1286312Z ^[[31m============ ^[[31m^[[1m1 failed^[[0m, ^[[32m832 passed^[[0m, ^[[33m3 skipped^[[0m, ^[[33m51 warnings^[[0m^[[31m in 3.52s^[[0m^[[31m =============^[[0m
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.4246388Z ##[error]Process completed with exit code 1.
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.4340856Z Post job cleanup.
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5100837Z Post job cleanup.
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5777258Z [command]/usr/bin/git version
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5809566Z git version 2.55.0
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5843230Z Temporarily overriding HOME='/home/runner/work/_temp/676cda19-2942-4853-b64f-9075442659e9' before making global git config changes
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5843916Z Adding repository directory to the temporary git global config as a safe directory
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5847397Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5875916Z Removing SSH command configuration
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5881274Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.5910275Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.6098874Z Removing HTTP extra header
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.6103801Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.6135190Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.6327750Z Removing includeIf entries pointing to credentials config files
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.6334097Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.6363252Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test Django Ninja (main branch) on Python 3.12	UNKNOWN STEP	2026-10-01T12:07:09.6704935Z Cleaning up orphan processes

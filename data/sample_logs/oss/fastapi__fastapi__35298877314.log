@@ -1,0 +1,400 @@
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9676092Z           "delete_branch_on_merge": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9676506Z           "deployments_url": "https://api.github.com/repos/FinalSunFlower/fastapi/deployments",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9677111Z           "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9677585Z           "disabled": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9677957Z           "downloads_url": "https://api.github.com/repos/FinalSunFlower/fastapi/downloads",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9678460Z           "events_url": "https://api.github.com/repos/FinalSunFlower/fastapi/events",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9678921Z           "fork": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9679161Z           "forks": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9679396Z           "forks_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9679740Z           "forks_url": "https://api.github.com/repos/FinalSunFlower/fastapi/forks",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9680141Z           "full_name": "FinalSunFlower/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9680735Z           "git_commits_url": "https://api.github.com/repos/FinalSunFlower/fastapi/git/commits{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9681289Z           "git_refs_url": "https://api.github.com/repos/FinalSunFlower/fastapi/git/refs{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9681821Z           "git_tags_url": "https://api.github.com/repos/FinalSunFlower/fastapi/git/tags{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9682278Z           "git_url": "git://github.com/FinalSunFlower/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9682621Z           "has_discussions": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9682893Z           "has_downloads": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9683160Z           "has_issues": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9683421Z           "has_pages": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9683676Z           "has_projects": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9683939Z           "has_pull_requests": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9684208Z           "has_wiki": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9684498Z           "homepage": "https://fastapi.tiangolo.com/",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9684911Z           "hooks_url": "https://api.github.com/repos/FinalSunFlower/fastapi/hooks",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9685346Z           "html_url": "https://github.com/FinalSunFlower/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9685682Z           "id": 1369702434,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9685931Z           "is_template": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9686361Z           "issue_comment_url": "https://api.github.com/repos/FinalSunFlower/fastapi/issues/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9686982Z           "issue_events_url": "https://api.github.com/repos/FinalSunFlower/fastapi/issues/events{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9687554Z           "issues_url": "https://api.github.com/repos/FinalSunFlower/fastapi/issues{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9688084Z           "keys_url": "https://api.github.com/repos/FinalSunFlower/fastapi/keys{/key_id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9688598Z           "labels_url": "https://api.github.com/repos/FinalSunFlower/fastapi/labels{/name}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9689094Z           "language": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9689466Z           "languages_url": "https://api.github.com/repos/FinalSunFlower/fastapi/languages",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9689864Z           "license": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9690098Z             "key": "mit",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9690347Z             "name": "MIT License",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9690692Z             "node_id": "MDc6TGljZW5zZTEz",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9690978Z             "spdx_id": "MIT",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9691263Z             "url": "https://api.github.com/licenses/mit"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9691565Z           },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9691798Z           "merge_commit_message": "PR_TITLE",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9692105Z           "merge_commit_title": "MERGE_MESSAGE",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9692504Z           "merges_url": "https://api.github.com/repos/FinalSunFlower/fastapi/merges",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9693041Z           "milestones_url": "https://api.github.com/repos/FinalSunFlower/fastapi/milestones{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9693486Z           "mirror_url": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9693743Z           "name": "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9694000Z           "node_id": "R_kgDOUaQAIg",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9694505Z           "notifications_url": "https://api.github.com/repos/FinalSunFlower/fastapi/notifications{?since,all,participating}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9695025Z           "open_issues": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9695279Z           "open_issues_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9695538Z           "owner": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9695865Z             "avatar_url": "https://avatars.githubusercontent.com/u/187966628?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9696353Z             "events_url": "https://api.github.com/users/FinalSunFlower/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9696925Z             "followers_url": "https://api.github.com/users/FinalSunFlower/followers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9745666Z             "following_url": "https://api.github.com/users/FinalSunFlower/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9746294Z             "gists_url": "https://api.github.com/users/FinalSunFlower/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9746730Z             "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9747032Z             "html_url": "https://github.com/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9747355Z             "id": 187966628,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9747615Z             "login": "FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9747899Z             "node_id": "U_kgDOCzQkpA",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9748279Z             "organizations_url": "https://api.github.com/users/FinalSunFlower/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9748797Z             "received_events_url": "https://api.github.com/users/FinalSunFlower/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9749292Z             "repos_url": "https://api.github.com/users/FinalSunFlower/repos",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9749660Z             "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9750049Z             "starred_url": "https://api.github.com/users/FinalSunFlower/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9750799Z             "subscriptions_url": "https://api.github.com/users/FinalSunFlower/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9751213Z             "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9751507Z             "url": "https://api.github.com/users/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9751844Z             "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9752109Z           },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9752327Z           "private": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9752596Z           "pull_request_creation_policy": "all",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9753011Z           "pulls_url": "https://api.github.com/repos/FinalSunFlower/fastapi/pulls{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9753429Z           "pushed_at": "2026-09-18T02:19:12Z",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9753839Z           "releases_url": "https://api.github.com/repos/FinalSunFlower/fastapi/releases{/id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9754248Z           "size": 53848,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9754525Z           "squash_merge_commit_message": "COMMIT_MESSAGES",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9754879Z           "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9755244Z           "ssh_url": "git@github.com:FinalSunFlower/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9755731Z           "stargazers_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9756118Z           "stargazers_url": "https://api.github.com/repos/FinalSunFlower/fastapi/stargazers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9756658Z           "statuses_url": "https://api.github.com/repos/FinalSunFlower/fastapi/statuses/{sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9757198Z           "subscribers_url": "https://api.github.com/repos/FinalSunFlower/fastapi/subscribers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9757749Z           "subscription_url": "https://api.github.com/repos/FinalSunFlower/fastapi/subscription",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9758221Z           "svn_url": "https://github.com/FinalSunFlower/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9758643Z           "tags_url": "https://api.github.com/repos/FinalSunFlower/fastapi/tags",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9759114Z           "teams_url": "https://api.github.com/repos/FinalSunFlower/fastapi/teams",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9759491Z           "topics": [],
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9759855Z           "trees_url": "https://api.github.com/repos/FinalSunFlower/fastapi/git/trees{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9760272Z           "updated_at": "2026-09-14T10:04:24Z",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9760692Z           "url": "https://api.github.com/repos/FinalSunFlower/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9761056Z           "use_squash_pr_title_as_default": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9761358Z           "visibility": "public",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9761621Z           "watchers": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9761867Z           "watchers_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9762140Z           "web_commit_signoff_required": false
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9762425Z         },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9762671Z         "sha": "f70621fc88823ba16d67979af67d25a9a6fcd650",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9762974Z         "user": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9763373Z           "avatar_url": "https://avatars.githubusercontent.com/u/187966628?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9763861Z           "events_url": "https://api.github.com/users/FinalSunFlower/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9764378Z           "followers_url": "https://api.github.com/users/FinalSunFlower/followers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9764890Z           "following_url": "https://api.github.com/users/FinalSunFlower/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9765402Z           "gists_url": "https://api.github.com/users/FinalSunFlower/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9765790Z           "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9766080Z           "html_url": "https://github.com/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9766396Z           "id": 187966628,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9766646Z           "login": "FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9766921Z           "node_id": "U_kgDOCzQkpA",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9767291Z           "organizations_url": "https://api.github.com/users/FinalSunFlower/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9767809Z           "received_events_url": "https://api.github.com/users/FinalSunFlower/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9768300Z           "repos_url": "https://api.github.com/users/FinalSunFlower/repos",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9768667Z           "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9769050Z           "starred_url": "https://api.github.com/users/FinalSunFlower/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9769583Z           "subscriptions_url": "https://api.github.com/users/FinalSunFlower/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9769991Z           "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9770279Z           "url": "https://api.github.com/users/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9770677Z           "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9770938Z         }
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9771142Z       },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9771408Z       "html_url": "https://github.com/fastapi/fastapi/pull/16351",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9771746Z       "id": 4525285539,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9772084Z       "issue_url": "https://api.github.com/repos/fastapi/fastapi/issues/16351",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9772455Z       "labels": [],
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9772681Z       "locked": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9772921Z       "maintainer_can_modify": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9773349Z       "merge_commit_sha": "2db784ca942efac5a4afb767d40593be8b211cae",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9773698Z       "mergeable": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9773945Z       "mergeable_state": "unknown",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9774211Z       "merged": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9774445Z       "merged_at": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9774682Z       "merged_by": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9774923Z       "milestone": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9775187Z       "node_id": "PR_kwDOCZduT88AAAABDbpgow",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9775477Z       "number": 16351,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9775786Z       "patch_url": "https://github.com/fastapi/fastapi/pull/16351.patch",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9776145Z       "rebaseable": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9776392Z       "requested_reviewers": [],
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9776657Z       "requested_teams": [],
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9777058Z       "review_comment_url": "https://api.github.com/repos/fastapi/fastapi/pulls/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9777492Z       "review_comments": 0,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9777886Z       "review_comments_url": "https://api.github.com/repos/fastapi/fastapi/pulls/16351/comments",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9778308Z       "state": "open",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9778761Z       "statuses_url": "https://api.github.com/repos/fastapi/fastapi/statuses/f70621fc88823ba16d67979af67d25a9a6fcd650",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9779424Z       "title": "fix(dependencies): preserve Query metadata for complex fields in BaseModel dependencies",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9779880Z       "updated_at": "2026-09-18T02:19:13Z",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9780258Z       "url": "https://api.github.com/repos/fastapi/fastapi/pulls/16351",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9780675Z       "user": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9780989Z         "avatar_url": "https://avatars.githubusercontent.com/u/187966628?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9781553Z         "events_url": "https://api.github.com/users/FinalSunFlower/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9782043Z         "followers_url": "https://api.github.com/users/FinalSunFlower/followers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9782556Z         "following_url": "https://api.github.com/users/FinalSunFlower/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9783064Z         "gists_url": "https://api.github.com/users/FinalSunFlower/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9783441Z         "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9783722Z         "html_url": "https://github.com/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9784035Z         "id": 187966628,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9784277Z         "login": "FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9784544Z         "node_id": "U_kgDOCzQkpA",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9784904Z         "organizations_url": "https://api.github.com/users/FinalSunFlower/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9785411Z         "received_events_url": "https://api.github.com/users/FinalSunFlower/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9785901Z         "repos_url": "https://api.github.com/users/FinalSunFlower/repos",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9786253Z         "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9786624Z         "starred_url": "https://api.github.com/users/FinalSunFlower/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9787156Z         "subscriptions_url": "https://api.github.com/users/FinalSunFlower/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9787561Z         "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9787839Z         "url": "https://api.github.com/users/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9788161Z         "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9788413Z       }
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9788606Z     },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9788808Z     "repository": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9789039Z       "allow_forking": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9789415Z       "archive_url": "https://api.github.com/repos/fastapi/fastapi/{archive_format}{/ref}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9789820Z       "archived": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9790176Z       "assignees_url": "https://api.github.com/repos/fastapi/fastapi/assignees{/user}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9790856Z       "blobs_url": "https://api.github.com/repos/fastapi/fastapi/git/blobs{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9791347Z       "branches_url": "https://api.github.com/repos/fastapi/fastapi/branches{/branch}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9791880Z       "clone_url": "https://github.com/fastapi/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9792371Z       "collaborators_url": "https://api.github.com/repos/fastapi/fastapi/collaborators{/collaborator}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9792931Z       "comments_url": "https://api.github.com/repos/fastapi/fastapi/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9793428Z       "commits_url": "https://api.github.com/repos/fastapi/fastapi/commits{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9793929Z       "compare_url": "https://api.github.com/repos/fastapi/fastapi/compare/{base}...{head}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9794445Z       "contents_url": "https://api.github.com/repos/fastapi/fastapi/contents/{+path}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9794955Z       "contributors_url": "https://api.github.com/repos/fastapi/fastapi/contributors",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9795363Z       "created_at": "2018-12-08T08:21:47Z",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9795646Z       "custom_properties": {},
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9795909Z       "default_branch": "master",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9796283Z       "deployments_url": "https://api.github.com/repos/fastapi/fastapi/deployments",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9796864Z       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9797342Z       "disabled": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9797681Z       "downloads_url": "https://api.github.com/repos/fastapi/fastapi/downloads",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9798136Z       "events_url": "https://api.github.com/repos/fastapi/fastapi/events",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9798490Z       "fork": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9798713Z       "forks": 9904,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9798941Z       "forks_count": 9904,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9799258Z       "forks_url": "https://api.github.com/repos/fastapi/fastapi/forks",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9799698Z       "full_name": "fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9800092Z       "git_commits_url": "https://api.github.com/repos/fastapi/fastapi/git/commits{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9800680Z       "git_refs_url": "https://api.github.com/repos/fastapi/fastapi/git/refs{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9801168Z       "git_tags_url": "https://api.github.com/repos/fastapi/fastapi/git/tags{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9801586Z       "git_url": "git://github.com/fastapi/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9801900Z       "has_discussions": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9802156Z       "has_downloads": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9802409Z       "has_issues": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9802649Z       "has_pages": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9802891Z       "has_projects": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9803147Z       "has_pull_requests": true,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9803403Z       "has_wiki": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9803674Z       "homepage": "https://fastapi.tiangolo.com/",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9804056Z       "hooks_url": "https://api.github.com/repos/fastapi/fastapi/hooks",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9804443Z       "html_url": "https://github.com/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9804747Z       "id": 160919119,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9804979Z       "is_template": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9805377Z       "issue_comment_url": "https://api.github.com/repos/fastapi/fastapi/issues/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9805945Z       "issue_events_url": "https://api.github.com/repos/fastapi/fastapi/issues/events{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9806467Z       "issues_url": "https://api.github.com/repos/fastapi/fastapi/issues{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9806941Z       "keys_url": "https://api.github.com/repos/fastapi/fastapi/keys{/key_id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9807414Z       "labels_url": "https://api.github.com/repos/fastapi/fastapi/labels{/name}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9807794Z       "language": "Python",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9808137Z       "languages_url": "https://api.github.com/repos/fastapi/fastapi/languages",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9808509Z       "license": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9808730Z         "key": "mit",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9808962Z         "name": "MIT License",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9809224Z         "node_id": "MDc6TGljZW5zZTEz",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9809587Z         "spdx_id": "MIT",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9809855Z         "url": "https://api.github.com/licenses/mit"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9810148Z       },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9810502Z       "merges_url": "https://api.github.com/repos/fastapi/fastapi/merges",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9810987Z       "milestones_url": "https://api.github.com/repos/fastapi/fastapi/milestones{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9811397Z       "mirror_url": null,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9811636Z       "name": "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9811909Z       "node_id": "MDEwOlJlcG9zaXRvcnkxNjA5MTkxMTk=",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9812423Z       "notifications_url": "https://api.github.com/repos/fastapi/fastapi/notifications{?since,all,participating}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9812910Z       "open_issues": 80,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9813154Z       "open_issues_count": 80,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9813400Z       "owner": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9813714Z         "avatar_url": "https://avatars.githubusercontent.com/u/156354296?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9814172Z         "events_url": "https://api.github.com/users/fastapi/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9814618Z         "followers_url": "https://api.github.com/users/fastapi/followers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9815083Z         "following_url": "https://api.github.com/users/fastapi/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9815554Z         "gists_url": "https://api.github.com/users/fastapi/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9815914Z         "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9816179Z         "html_url": "https://github.com/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9816475Z         "id": 156354296,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9816709Z         "login": "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9816960Z         "node_id": "O_kgDOCVHG-A",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9817381Z         "organizations_url": "https://api.github.com/users/fastapi/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9817847Z         "received_events_url": "https://api.github.com/users/fastapi/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9818291Z         "repos_url": "https://api.github.com/users/fastapi/repos",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9818630Z         "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9818981Z         "starred_url": "https://api.github.com/users/fastapi/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9819466Z         "subscriptions_url": "https://api.github.com/users/fastapi/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9819852Z         "type": "Organization",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9820136Z         "url": "https://api.github.com/users/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9820511Z         "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9820761Z       },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9820964Z       "private": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9821214Z       "pull_request_creation_policy": "all",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9821600Z       "pulls_url": "https://api.github.com/repos/fastapi/fastapi/pulls{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9821989Z       "pushed_at": "2026-09-14T18:49:48Z",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9822371Z       "releases_url": "https://api.github.com/repos/fastapi/fastapi/releases{/id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9822750Z       "size": 53807,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9823010Z       "ssh_url": "git@github.com:fastapi/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9823318Z       "stargazers_count": 102405,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9823680Z       "stargazers_url": "https://api.github.com/repos/fastapi/fastapi/stargazers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9824164Z       "statuses_url": "https://api.github.com/repos/fastapi/fastapi/statuses/{sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9824656Z       "subscribers_url": "https://api.github.com/repos/fastapi/fastapi/subscribers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9825158Z       "subscription_url": "https://api.github.com/repos/fastapi/fastapi/subscription",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9825587Z       "svn_url": "https://github.com/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9825957Z       "tags_url": "https://api.github.com/repos/fastapi/fastapi/tags",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9826378Z       "teams_url": "https://api.github.com/repos/fastapi/fastapi/teams",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9826720Z       "topics": [
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9826935Z         "api",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9827143Z         "async",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9827440Z         "asyncio",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9827652Z         "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9827867Z         "framework",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9828086Z         "json",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9828299Z         "json-schema",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9828527Z         "openapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9828744Z         "openapi3",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9828960Z         "pydantic",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9829176Z         "python",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9829394Z         "python-types",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9829623Z         "python3",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9829834Z         "redoc",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9830043Z         "rest",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9830253Z         "starlette",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9830622Z         "swagger",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9830863Z         "swagger-ui",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9831084Z         "uvicorn",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9831296Z         "web"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9831498Z       ],
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9831802Z       "trees_url": "https://api.github.com/repos/fastapi/fastapi/git/trees{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9832195Z       "updated_at": "2026-09-17T23:01:35Z",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9832517Z       "url": "https://api.github.com/repos/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9832841Z       "visibility": "public",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9833092Z       "watchers": 102405,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9833333Z       "watchers_count": 102405,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9833597Z       "web_commit_signoff_required": false
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9833866Z     },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9834064Z     "sender": {
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9834372Z       "avatar_url": "https://avatars.githubusercontent.com/u/187966628?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9834846Z       "events_url": "https://api.github.com/users/FinalSunFlower/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9835324Z       "followers_url": "https://api.github.com/users/FinalSunFlower/followers",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9835915Z       "following_url": "https://api.github.com/users/FinalSunFlower/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9836421Z       "gists_url": "https://api.github.com/users/FinalSunFlower/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9836796Z       "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9837069Z       "html_url": "https://github.com/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9837370Z       "id": 187966628,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9837604Z       "login": "FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9837866Z       "node_id": "U_kgDOCzQkpA",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9838215Z       "organizations_url": "https://api.github.com/users/FinalSunFlower/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9838718Z       "received_events_url": "https://api.github.com/users/FinalSunFlower/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9839197Z       "repos_url": "https://api.github.com/users/FinalSunFlower/repos",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9839546Z       "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9839912Z       "starred_url": "https://api.github.com/users/FinalSunFlower/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9840497Z       "subscriptions_url": "https://api.github.com/users/FinalSunFlower/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9840895Z       "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9841167Z       "url": "https://api.github.com/users/FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9841492Z       "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9841738Z     }
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9841932Z   },
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9842253Z   "workflow_ref": "fastapi/fastapi/.github/workflows/test.yml@refs/pull/16351/merge",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9842702Z   "workflow_sha": "c801281308e0a2ba2385818bde40aa3184bc2ffa",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9843034Z   "repository_id": "160919119",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9843299Z   "triggering_actor": "FinalSunFlower",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9843607Z   "workspace": "/home/runner/work/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9843907Z   "action": "__run"
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9844121Z }
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9950874Z ##[group]Run re-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9951271Z with:
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9951985Z   jobs: {
+test-alls-green	UNKNOWN STEP	  "test": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "coverage-combine": {
+test-alls-green	UNKNOWN STEP	    "result": "failure",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "benchmark": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "regression-test": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  }
+test-alls-green	UNKNOWN STEP	}
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9952919Z   allowed-skips: coverage-combine,test,benchmark
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9953222Z   allowed-failures: []
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9953446Z env:
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9953648Z   UV_NO_SYNC: true
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9953879Z   INLINE_SNAPSHOT_DEFAULT_FLAGS: review
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:06.9954155Z ##[endgroup]
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0007131Z ##[start-action display=Decide whether the input jobs succeeded or failed;id=__re-actors_alls-green.outcome]
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0027658Z ##[group]Run python -m normalize_needed_jobs_status \
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0028065Z ^[[36;1mpython -m normalize_needed_jobs_status \^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0028391Z ^[[36;1m  "$INPUT_ALLOWED_FAILURES" \^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0028677Z ^[[36;1m  "$INPUT_ALLOWED_SKIPS" \^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0028945Z ^[[36;1m  "$INPUT_JOBS"^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0058442Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0058772Z env:
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0058975Z   UV_NO_SYNC: true
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0059209Z   INLINE_SNAPSHOT_DEFAULT_FLAGS: review
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0059489Z   INPUT_ALLOWED_FAILURES: []
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0059782Z   INPUT_ALLOWED_SKIPS: coverage-combine,test,benchmark
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0060697Z   INPUT_JOBS: {
+test-alls-green	UNKNOWN STEP	  "test": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "coverage-combine": {
+test-alls-green	UNKNOWN STEP	    "result": "failure",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "benchmark": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "regression-test": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  }
+test-alls-green	UNKNOWN STEP	}
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0061675Z   PYTHONPATH: /home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.0062136Z ##[endgroup]
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1525188Z # ❌ Some of the required to succeed jobs failed 😢😢😢
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1525479Z 
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1525665Z 🛈 Some of the allowed to be skipped jobs did not succeed.
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1526006Z 🔮 Job statuses:
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1526705Z ^[[32m✓ test → 🟢 success [required to succeed or be skipped]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1527182Z ^[[31m❌ coverage-combine → 🔴 failure [required to succeed or be skipped]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1527662Z ^[[32m✓ benchmark → 🟢 success [required to succeed or be skipped]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1568137Z ^[[32m✓ regression-test → 🟢 success [required to succeed]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.1574165Z ##[error]Process completed with exit code 1.
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.2227550Z ##[end-action id=__re-actors_alls-green.outcome;outcome=failure;conclusion=failure;duration_ms=221]
+test-alls-green	UNKNOWN STEP	2026-09-18T02:24:07.2303989Z Cleaning up orphan processes

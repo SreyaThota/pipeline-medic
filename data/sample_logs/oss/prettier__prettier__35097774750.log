@@ -1,0 +1,400 @@
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.5234495Z PASS tests/format/flow/flow-repo/enums/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.5270012Z PASS tests/format/flow/flow-repo/encaps/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.5565586Z PASS tests/format/flow/flow-repo/duplicate_methods/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.5698833Z PASS tests/format/flow/flow-repo/dump-types/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.5985698Z PASS tests/format/flow/flow-repo/docblock_flow/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.6076268Z PASS tests/format/flow/flow-repo/es6modules/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.6344947Z PASS tests/format/flow/flow-repo/dom/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.6749790Z PASS tests/format/flow/flow-repo/dictionary/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.6992820Z PASS tests/format/flow/flow-repo/disjoint-union-perf/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7112455Z PASS tests/format/flow/flow-repo/deps/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7145391Z PASS tests/format/flow/flow-repo/declare_type/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7155686Z PASS tests/format/flow/flow-repo/destructuring/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7263958Z PASS tests/format/flow/flow-repo/def_site_variance/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7342051Z PASS tests/format/flow/flow-repo/declare_module_exports/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7392884Z PASS tests/format/flow/flow-repo/declare_fun/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7420057Z PASS tests/format/flow/flow-repo/declare_class/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7569760Z PASS tests/format/flow/flow-repo/declaration_files_node/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7587237Z PASS tests/format/flow/flow-repo/declaration_files_incremental_node/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7732766Z PASS tests/format/flow/flow-repo/declaration_files_incremental_haste_name_reducers/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7885159Z PASS tests/format/flow/flow-repo/declaration_files_incremental_haste/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7922035Z PASS tests/format/flow/flow-repo/declaration_files_haste/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7958037Z PASS tests/format/flow/flow-repo/date/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.7989505Z PASS tests/format/flow/flow-repo/cycle/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8040095Z PASS tests/format/flow/flow-repo/coverage/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8099639Z PASS tests/format/flow/flow-repo/covariance/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8197224Z PASS tests/format/flow/flow-repo/constructor/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8350052Z PASS tests/format/flow/flow-repo/constructor_annots/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8397807Z PASS tests/format/flow/flow-repo/const_params/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8459822Z PASS tests/format/flow/flow-repo/core_tests/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8470449Z PASS tests/format/flow/flow-repo/declare_export/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8497829Z PASS tests/format/flow/flow-repo/config_munging_underscores/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8547318Z PASS tests/format/flow/flow-repo/config_munging_underscores2/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8570104Z PASS tests/format/flow/flow-repo/config_module_system_node_resolve_dirname/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8635988Z PASS tests/format/flow/flow-repo/config_module_name_mapper_filetype/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8637027Z PASS tests/format/flow/flow-repo/config_module_name_rewrite_node/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8659906Z PASS tests/format/flow/flow-repo/config_module_name_rewrite_haste/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8689937Z PASS tests/format/flow/flow-repo/config_module_name_mapper_PROJECT_ROOT-1.0/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8691998Z PASS tests/format/flow/flow-repo/config_file_extensions/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8692808Z PASS tests/format/flow/flow-repo/config_ignore/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8693618Z PASS tests/format/flow/flow-repo/config_all_false/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8694395Z PASS tests/format/flow/flow-repo/config_all_weak/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8730692Z PASS tests/format/flow/flow-repo/conditional/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8749973Z PASS tests/format/flow/flow-repo/config_all/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8820134Z PASS tests/format/flow/flow-repo/commonjs/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.8969822Z PASS tests/format/flow/flow-repo/closure/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9059783Z PASS tests/format/flow/flow-repo/computed_props/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9082355Z PASS tests/format/flow/flow-repo/class_type/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9100530Z PASS tests/format/flow/flow-repo/classes/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9141280Z PASS tests/format/flow/flow-repo/class_statics/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9159824Z PASS tests/format/flow/flow-repo/class_munging/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9189655Z PASS tests/format/flow/flow-repo/class_method_default_parameters/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9221749Z PASS tests/format/flow/flow-repo/check-contents/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9299818Z PASS tests/format/flow/flow-repo/class_subtyping/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9439879Z PASS tests/format/flow/flow-repo/callable/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9515230Z PASS tests/format/flow/flow-repo/class_fields/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9546084Z PASS tests/format/flow/flow-repo/call_caching1/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9576625Z PASS tests/format/flow/flow-repo/call_caching2/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9684005Z PASS tests/format/flow/flow-repo/call_properties/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9729875Z PASS tests/format/flow/flow-repo/builtins/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9748467Z PASS tests/format/flow/flow-repo/break/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9762805Z PASS tests/format/flow/flow-repo/builtin_uses/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9809705Z PASS tests/format/flow/flow-repo/bounded_poly/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9853753Z PASS tests/format/flow/flow-repo/binary/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9878547Z PASS tests/format/flow/flow-repo/auxiliary/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:26.9971057Z PASS tests/format/flow/flow-repo/autocomplete/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0008789Z PASS tests/format/flow/flow-repo/async_iteration/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0026018Z PASS tests/format/flow/flow-repo/bom/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0129646Z PASS tests/format/flow/flow-repo/arrows/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0189789Z PASS tests/format/flow/flow-repo/arrays/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0249112Z PASS tests/format/flow/flow-repo/array_spread/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0348072Z PASS tests/format/flow/flow-repo/array-filter/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0658917Z PASS tests/format/flow/flow-repo/arraylib/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0730012Z PASS tests/format/flow/flow-repo/async/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.0908624Z PASS tests/format/flow/flow-repo/any/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1039662Z PASS tests/format/flow/flow-repo/arith/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1173401Z PASS tests/format/flow/flow-repo/annot2/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1228847Z PASS tests/format/flow/flow-repo/abnormal/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1263227Z PASS tests/format/flow/object-inexact/comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1267926Z PASS tests/format/flow/method-chain/18136-flow/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1300235Z PASS tests/format/flow/comments/normal-comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1322604Z PASS tests/format/flow/flow-repo/annot/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1330546Z PASS tests/format/flow/_errors_/import-reflection/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1333575Z PASS tests/format/flow/class/heritage-break/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1359872Z PASS tests/format/flow/_errors_/ambient/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1389890Z PASS tests/format/html/multiparser/unknown/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1416848Z PASS tests/format/html/tags/object-prototype-properties/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1417695Z PASS tests/format/html/multiparser/ts/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1418401Z PASS tests/format/html/multiparser/markdown/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1537183Z PASS tests/format/html/multiparser/css/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1609739Z PASS tests/format/html/multiparser/js/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1639800Z PASS tests/format/html/attributes/iframe-allow-attribute/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1669815Z PASS tests/format/yaml/inline-extend-syntax/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1694920Z PASS tests/format/yaml/prettier-ignore/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1773008Z PASS tests/format/yaml/home-assistant/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1793937Z PASS tests/format/yaml/directive/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1836321Z PASS tests/format/yaml/ansible/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1854479Z PASS tests/format/yaml/alias/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1865774Z PASS tests/format/yaml/document/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1872347Z PASS tests/format/yaml/_errors_/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1875335Z PASS tests/format/yaml/comment/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1927500Z PASS tests/format/scss/yaml/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.1965456Z PASS tests/format/scss/no-semicolon/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2069752Z PASS tests/format/scss/inline-url/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2119800Z PASS tests/format/scss/include/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2179653Z PASS tests/format/scss/variables/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2599659Z PASS tests/format/scss/parens/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2741431Z PASS tests/format/scss/case/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2850408Z PASS tests/format/scss/at-rule/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2900735Z PASS tests/format/scss/_errors_/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.2994915Z PASS tests/format/scss/atrule/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3031809Z PASS tests/format/mjml/mjml/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3168481Z PASS tests/format/less/yaml/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3171736Z PASS tests/format/scss/comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3199896Z PASS tests/format/mjml/mj-style/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3229862Z PASS tests/format/less/variables/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3259882Z PASS tests/format/less/no-semicolon/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3260808Z PASS tests/format/less/postcss-8-improment/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3312973Z PASS tests/format/less/lookup/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3396369Z PASS tests/format/less/interpolation/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3503592Z PASS tests/format/less/inline-javascript/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.3584922Z PASS tests/format/less/important/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4162709Z PASS tests/format/less/comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4257747Z PASS tests/format/less/function-selector/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4299611Z PASS tests/format/less/empty/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4300681Z PASS tests/format/less/parens/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4409826Z PASS tests/format/less/custom-properties/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4459700Z PASS tests/format/less/_errors_/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4829641Z PASS tests/format/json/range/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4859426Z PASS tests/format/less/case/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4881683Z PASS tests/format/less/less/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4929763Z PASS tests/format/flow/variance/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.4962598Z PASS tests/format/flow/union_intersection/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5005197Z PASS tests/format/flow/typeof/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5059649Z PASS tests/format/flow/typeapp-call/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5083358Z PASS tests/format/flow/type-spread/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5122460Z PASS tests/format/flow/type-guards/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5126380Z PASS tests/format/flow/union/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5178849Z PASS tests/format/flow/type-cast/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5212455Z PASS tests/format/flow/template/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5246819Z PASS tests/format/flow/tuples/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5257709Z PASS tests/format/flow/type-alias/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5394522Z PASS tests/format/flow/range/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5424688Z PASS tests/format/flow/records/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5427096Z PASS tests/format/flow/proto-props/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5479704Z PASS tests/format/flow/return-arrow/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5505250Z PASS tests/format/flow/optional-type-name/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5505767Z PASS tests/format/flow/parenthesis-return-type/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5506187Z PASS tests/format/flow/object-property-comment/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5516419Z PASS tests/format/flow/object-comment/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5573386Z PASS tests/format/flow/maybe/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5596894Z PASS tests/format/flow/mixins/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5620267Z PASS tests/format/flow/method/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5621624Z PASS tests/format/flow/match/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5651927Z PASS tests/format/flow/literal/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5678812Z PASS tests/format/flow/keyof/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5722825Z PASS tests/format/flow/intersection/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5754310Z PASS tests/format/flow/jsx/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5794564Z PASS tests/format/flow/last-argument-expansion/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5809901Z PASS tests/format/flow/internal-slot/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5810975Z PASS tests/format/flow/interface-types/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5828141Z PASS tests/format/flow/import-type-specifier/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5868407Z PASS tests/format/flow/implements/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5876735Z PASS tests/format/flow/import/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5899994Z PASS tests/format/flow/ignore/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5953580Z PASS tests/format/flow/function-type-param/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.5982088Z PASS tests/format/flow/function/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6010400Z PASS tests/format/flow/flow-intersection/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6020366Z PASS tests/format/flow/function-single-destructuring/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6036179Z PASS tests/format/flow/export/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6052924Z PASS tests/format/flow/exact-object/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6083485Z PASS tests/format/flow/declare-type/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6087751Z PASS tests/format/flow/declare-opaque-type/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6117200Z PASS tests/format/flow/declare-interface/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6182846Z PASS tests/format/flow/declare-class/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6259823Z PASS tests/format/flow/hook/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6260787Z PASS tests/format/flow/conditional-types-comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6278151Z PASS tests/format/flow/cursor/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6293430Z PASS tests/format/flow/class-field/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6315070Z PASS tests/format/flow/break-calls/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6412769Z PASS tests/format/flow/as-const/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6448264Z PASS tests/format/flow/annotation/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6455543Z PASS tests/format/flow/assignments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6497924Z PASS tests/format/flow/array-union/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6515036Z PASS tests/format/flow/all/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6539911Z PASS tests/format/flow/array-comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6593492Z PASS tests/format/flow/_errors_/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6649979Z PASS tests/format/html/yaml/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6668602Z PASS tests/format/html/text/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6675006Z PASS tests/format/html/svg/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6686522Z PASS tests/format/html/symbol_entities/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6702645Z PASS tests/format/html/srcset/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6782044Z PASS tests/format/flow/comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6810299Z PASS tests/format/html/next_empty_line/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.6828085Z PASS tests/format/html/prettier_ignore/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7029827Z PASS tests/format/html/script/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7081338Z PASS tests/format/html/magic_comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7135867Z PASS tests/format/html/js/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7139793Z PASS tests/format/html/interpolation/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7429809Z PASS tests/format/html/front-matter/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7546234Z PASS tests/format/html/doctype_declarations/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7552591Z PASS tests/format/html/basics/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7574363Z PASS tests/format/html/cdata/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7610663Z PASS tests/format/html/case/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7685385Z PASS tests/format/html/cursor/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7779673Z PASS tests/format/html/aurelia/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7780662Z PASS tests/format/css/stylefmt-repo/var-notation/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7869866Z PASS tests/format/css/stylefmt-repo/vendor-prefix/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7920083Z PASS tests/format/css/stylefmt-repo/values/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7948295Z PASS tests/format/css/stylefmt-repo/shorthand-with-sass-variables/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.7989909Z PASS tests/format/html/css/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8013593Z PASS tests/format/css/stylefmt-repo/non-nested-combinator/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8040168Z PASS tests/format/css/stylefmt-repo/pseudo-element/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8067687Z PASS tests/format/css/stylefmt-repo/nested-mixin/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8073194Z PASS tests/format/css/stylefmt-repo/nested-mixin-2/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8109754Z PASS tests/format/css/stylefmt-repo/nested-indention-2/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8139916Z PASS tests/format/css/stylefmt-repo/nested-atrule/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8169896Z PASS tests/format/css/stylefmt-repo/nested-indention/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8212472Z PASS tests/format/css/stylefmt-repo/nested-2/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8241330Z PASS tests/format/css/stylefmt-repo/nested/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8283148Z PASS tests/format/css/stylefmt-repo/media-queries-ranges/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8302189Z PASS tests/format/css/stylefmt-repo/media-indent-with-import/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8313040Z PASS tests/format/css/stylefmt-repo/media-indent/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8426830Z PASS tests/format/css/stylefmt-repo/font-shorthand/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8455579Z PASS tests/format/html/attributes/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8479975Z PASS tests/format/css/stylefmt-repo/lowercase/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8509832Z PASS tests/format/css/stylefmt-repo/important/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8539720Z PASS tests/format/css/stylefmt-repo/import/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8569649Z PASS tests/format/css/stylefmt-repo/ie-hacks/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8570555Z PASS tests/format/css/stylefmt-repo/font-face/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8629921Z PASS tests/format/css/stylefmt-repo/custom-properties/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8689720Z PASS tests/format/css/stylefmt-repo/data-url/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8690722Z PASS tests/format/css/stylefmt-repo/custom-selectors/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8749851Z PASS tests/format/css/stylefmt-repo/custom-media-queries/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8779850Z PASS tests/format/css/stylefmt-repo/comment-in-rules/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8826159Z PASS tests/format/css/stylefmt-repo/content/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8849816Z PASS tests/format/css/stylefmt-repo/comment/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8872962Z PASS tests/format/css/stylefmt-repo/charset/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8873940Z PASS tests/format/css/stylefmt-repo/color-hex-lowercase/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8874794Z PASS tests/format/css/stylefmt-repo/charset-2/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8875601Z PASS tests/format/css/stylefmt-repo/cssnext-example/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8876427Z PASS tests/format/css/stylefmt-repo/attr-selector/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8877215Z PASS tests/format/css/stylefmt-repo/at-media/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8877952Z PASS tests/format/css/stylefmt-repo/at-apply/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8959782Z PASS tests/format/vue/vue-3/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.8989852Z PASS tests/format/vue/style/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9019506Z PASS tests/format/vue/v-for/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9047741Z PASS tests/format/vue/range/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9135637Z PASS tests/format/vue/invalid/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9159657Z PASS tests/format/vue/ts-expression/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9299936Z PASS tests/format/vue/interpolation/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9392049Z PASS tests/format/vue/_errors_/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9505526Z PASS tests/format/vue/html-vue/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9573490Z PASS tests/format/css/variables/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9667875Z PASS tests/format/css/url/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9727131Z PASS tests/format/css/yaml/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9727827Z PASS tests/format/css/units/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9760952Z PASS tests/format/css/trailing-comma/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9789823Z PASS tests/format/css/type-function/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9818740Z PASS tests/format/css/selector-string/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9827510Z PASS tests/format/css/tailwind/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9851531Z PASS tests/format/css/selector-call/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:27.9879254Z PASS tests/format/css/range/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0039664Z PASS tests/format/css/pseudo-call/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0074293Z PASS tests/format/css/prefix/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0109738Z PASS tests/format/css/selector-list/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0159743Z PASS tests/format/vue/event-binding/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0359890Z PASS tests/format/css/postcss-8-improment/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0419736Z PASS tests/format/css/params/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0449720Z PASS tests/format/css/numbers/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0471814Z PASS tests/format/css/no-semicolon/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0472569Z PASS tests/format/css/postcss-plugins/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0473177Z PASS tests/format/css/long-rule/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0529763Z PASS tests/format/css/loose/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0597622Z PASS tests/format/css/parens/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0600560Z PASS tests/format/css/modules/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0689773Z PASS tests/format/css/indent/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0726074Z PASS tests/format/css/inline-url/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0757838Z PASS tests/format/css/fill-value/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0809737Z PASS tests/format/css/grid/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0869664Z PASS tests/format/css/escaped-attribute/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0871903Z PASS tests/format/css/empty/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0937167Z PASS tests/format/css/cursor/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0986905Z PASS tests/format/css/composes/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.0999915Z PASS tests/format/css/combinator/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.1001245Z PASS tests/format/css/character-escaping/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.1148518Z PASS tests/format/css/case/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.1171610Z PASS tests/format/css/bom/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.1189236Z PASS tests/format/css/atword/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.1224342Z PASS tests/format/css/color/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.1279754Z PASS tests/format/css/_errors_/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.1401793Z PASS tests/format/css/comments/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.2574022Z PASS tests/format/css/atrule/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3067590Z 
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3068706Z Summary of all failing tests
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3072081Z FAIL tests/format/angular/ng-non-bindable/embedded-language-formatting/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3073521Z ng-non-bindable.html - {"embeddedLanguageFormatting":"off"} > format
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3074245Z     Error: expect(received).toMatchSnapshot()
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3074597Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3076630Z     Snapshot name: `ng-non-bindable.html - {"embeddedLanguageFormatting":"off"} format 1`
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3077148Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3077384Z     - Snapshot  - 1
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3077656Z     + Received  + 1
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3077889Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3078111Z     @@ -4,8 +4,8 @@
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3080004Z                                                             printWidth: 80 (default) |
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3081987Z       =====================================input======================================
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3083079Z       <span ngNonBindable>{{foo   +bar}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3083426Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3085123Z       =====================================output=====================================
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3086148Z     - <span ngNonBindable>{{foo   +bar}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3087128Z     + <span ngNonBindable>{{foo +bar}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3087458Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3089445Z       ================================================================================
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3092202Z         at file:///home/runner/work/prettier/prettier/tests/config/format-test/test-format.js:47:7
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3096093Z         at async onMessage (file:///home/runner/work/prettier/prettier/node_modules/tinypool/dist/entry/process.js:39:18)
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3096695Z 
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3098177Z FAIL tests/format/angular/ng-non-bindable/format.test.js
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3099148Z ng-non-bindable.html > format
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3101153Z     Error: expect(received).toMatchSnapshot()
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3101513Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3102838Z     Snapshot name: `ng-non-bindable.html format 1`
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3103231Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3103478Z     - Snapshot  - 4
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3104448Z     + Received  + 4
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3104723Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3120122Z     @@ -24,22 +24,22 @@
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3130150Z       <pre ngNonBindable>@let   foo   =    bar+baz;</pre>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3130754Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3131201Z       <pre ngNonBindable>{{foo   +bar}}</pre>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3131695Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3132231Z       =====================================output=====================================
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3132880Z     - <span ngNonBindable>{{foo   +bar}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3133710Z     + <span ngNonBindable>{{foo +bar}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3134200Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3134578Z       <div ngNonBindable>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3135022Z     -   {{foo   +bar}}
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3135491Z     -   <span>{{baz   +qux}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3135961Z     +   {{foo +bar}}
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3136388Z     +   <span>{{baz +qux}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3136840Z       </div>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3137261Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3137748Z       <span>{{ foo + bar }}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3138216Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3138590Z       <span ngNonBindable>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3139127Z         @if (A) {
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3139551Z     -   <span>{{foo   +bar}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3140035Z     +   <span>{{foo +bar}}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3140465Z         }
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3140824Z       </span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3141184Z     
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3141679Z       <span ngNonBindable>@if(foo){bar}</span>
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3142395Z       ↵
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3143117Z         at file:///home/runner/work/prettier/prettier/tests/config/format-test/test-format.js:47:7
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3144239Z         at async onMessage (file:///home/runner/work/prettier/prettier/node_modules/tinypool/dist/entry/process.js:39:18)
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3144947Z 
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3145051Z 
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3145270Z Snapshot Summary
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3146158Z  › 2 snapshots failed from 2 test suites. Inspect your code changes or re-run jest with `-u` to update them.
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3146847Z 
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3147131Z Test Suites: 2 failed, 1537 passed, 1539 total
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3147661Z Tests:       2 failed, 5 skipped, 35302 passed, 35309 total
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3148178Z Snapshots:   2 failed, 13404 passed, 13406 total
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3148566Z Time:        61.862 s
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3148872Z Ran all test suites.
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3581350Z ^[[32mRemoving installed Prettier:^[[39m
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3618629Z ^[[32m - ^[[7m/tmp/465707265baf4b92cc30f61086d1f2bc^[[27m DONE^[[39m
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.3948684Z ##[error]Process completed with exit code 1.
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4050302Z Post job cleanup.
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4748803Z [command]/usr/bin/git version
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4777266Z git version 2.55.0
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4803425Z Temporarily overriding HOME='/home/runner/work/_temp/ea2bd33d-226a-4953-86fc-df3e834c1b90' before making global git config changes
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4804556Z Adding repository directory to the temporary git global config as a safe directory
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4807937Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4830084Z Removing SSH command configuration
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4834793Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.4859617Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5036258Z Removing HTTP extra header
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5040314Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5063568Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5229522Z Removing includeIf entries pointing to credentials config files
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5233244Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5251762Z includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5252518Z includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5253104Z includeif.gitdir:/github/workspace/.git.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5253604Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5258406Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5274174Z /home/runner/work/_temp/git-credentials-30fedaf0-411f-40fd-bb66-43fffae8a7b3.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5281329Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-30fedaf0\-411f\-40fd\-bb66\-43fffae8a7b3\.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5304275Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5351988Z /home/runner/work/_temp/git-credentials-30fedaf0-411f-40fd-bb66-43fffae8a7b3.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5358095Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-30fedaf0\-411f\-40fd\-bb66\-43fffae8a7b3\.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5380101Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5395402Z /github/runner_temp/git-credentials-30fedaf0-411f-40fd-bb66-43fffae8a7b3.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5399488Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-30fedaf0\-411f\-40fd\-bb66\-43fffae8a7b3\.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5420520Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5436324Z /github/runner_temp/git-credentials-30fedaf0-411f-40fd-bb66-43fffae8a7b3.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5440241Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-30fedaf0\-411f\-40fd\-bb66\-43fffae8a7b3\.config
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5461935Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5621912Z Removing credentials config '/home/runner/work/_temp/git-credentials-30fedaf0-411f-40fd-bb66-43fffae8a7b3.config'
+Node.js 18 on Linux	UNKNOWN STEP	2026-09-16T12:50:28.5729895Z Cleaning up orphan processes

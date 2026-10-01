@@ -1,0 +1,400 @@
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9282298Z   github-token: ***
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9282815Z   cache-dependency-glob: **/*requirements*.txt
+Compute memory usage diff	UNKNOWN STEP	**/*requirements*.in
+Compute memory usage diff	UNKNOWN STEP	**/*constraints*.txt
+Compute memory usage diff	UNKNOWN STEP	**/*constraints*.in
+Compute memory usage diff	UNKNOWN STEP	**/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	**/uv.lock
+Compute memory usage diff	UNKNOWN STEP	**/*.py.lock
+Compute memory usage diff	UNKNOWN STEP	
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9283401Z   restore-cache: true
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9283693Z   save-cache: true
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9283999Z   prune-cache: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9284306Z   cache-python: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9284583Z   ignore-nothing-to-cache: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9284897Z   ignore-empty-workdir: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9285319Z   download-from-astral-mirror: true
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9285679Z   add-problem-matchers: true
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9285985Z   quiet: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9286243Z   resolution-strategy: highest
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9286841Z env:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9287130Z   CARGO_INCREMENTAL: 0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9287433Z   CARGO_NET_RETRY: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9287708Z   CARGO_TERM_COLOR: always
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9288004Z   RUSTUP_MAX_RETRIES: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9288249Z   RUST_BACKTRACE: 1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9288770Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9289126Z   PYTHON_VERSION: 3.14
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9289437Z   CACHE_ON_FAILURE: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9289756Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9290221Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9290644Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9291031Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9291431Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9291871Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:51.9292224Z ##[endgroup]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.1537774Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.1812603Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.9/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.2971921Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/eddff762-50c0-4d21-99bf-15324212079e -f /home/runner/work/_temp/439a6e2b-7c88-4844-ae41-3eb82d4b4b6d
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.6814600Z Added /home/runner/.local/bin to the path
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.6819085Z Added /opt/hostedtoolcache/uv/0.12.9/x86_64 to the path
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.6819807Z Set UV_PYTHON_INSTALL_DIR to /home/runner/.local/share/uv/python
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.6820193Z Added /home/runner/.local/share/uv/python to the path
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.6825385Z Set UV_CACHE_DIR to /home/runner/.cache/uv
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:52.6825872Z Successfully installed uv version 0.12.9
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.3541798Z Searching files using cache dependency glob: /home/runner/work/ruff/ruff/**/*requirements*.txt,/home/runner/work/ruff/ruff/**/*requirements*.in,/home/runner/work/ruff/ruff/**/*constraints*.txt,/home/runner/work/ruff/ruff/**/*constraints*.in,/home/runner/work/ruff/ruff/**/pyproject.toml,/home/runner/work/ruff/ruff/**/uv.lock,/home/runner/work/ruff/ruff/**/*.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.5426887Z /home/runner/work/ruff/ruff/ruff/crates/ruff/resources/test/fixtures/include-test/nested-project/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.5437832Z /home/runner/work/ruff/ruff/ruff/crates/ruff/resources/test/fixtures/include-test/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.6414575Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/fixtures/isort/detect_same_package/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.6458965Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/fixtures/isort/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7089772Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/fixtures/ruff/pyproject_toml/bleach/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7095656Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/fixtures/ruff/pyproject_toml/invalid_author/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7100642Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/fixtures/ruff/pyproject_toml/maturin/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7109232Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/fixtures/ruff/pyproject_toml/pep639/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7113072Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/fixtures/ruff/pyproject_toml/various_invalid/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7156549Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/package/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7173945Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/project/examples/.dotfiles/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.7194776Z /home/runner/work/ruff/ruff/ruff/crates/ruff_linter/resources/test/project/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:54.9879959Z /home/runner/work/ruff/ruff/ruff/crates/ruff_python_ast/generate.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2493039Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/auto-import-includes-modules/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2502916Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/auto-import-includes-modules/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2510249Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/auto-import-skips-current-module/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2513926Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/auto-import-skips-current-module/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2526041Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/auto-import-skips-third-party-tests/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2542846Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/auto-import-skips-third-party-tests/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2557289Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/class-arg-completion/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2559960Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/class-arg-completion/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2565808Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/deprecated-deprioritized/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2568797Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/deprecated-deprioritized/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2573920Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/exact-over-fuzzy/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2576535Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/exact-over-fuzzy/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2586396Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/fstring-completions/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2594320Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/fstring-completions/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2606654Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/higher-level-symbols-preferred/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2615168Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/higher-level-symbols-preferred/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2624373Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-deprioritizes-dunder/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2627235Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-deprioritizes-dunder/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2635648Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-deprioritizes-sunder/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2642257Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-deprioritizes-sunder/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2674893Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-deprioritizes-type_check_only/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2679365Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-deprioritizes-type_check_only/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2681611Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-keyword-completion/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2685132Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/import-keyword-completion/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2687404Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/internal-typeshed-hidden/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2690121Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/internal-typeshed-hidden/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2694961Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/local-over-auto-import/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2700503Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/local-over-auto-import/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2711783Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/modules-over-other-symbols/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2721234Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/modules-over-other-symbols/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2737524Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/none-completion/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2740740Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/none-completion/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2747973Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/numpy-array/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2749102Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/numpy-array/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2754196Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/object-attr-instance-methods/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2756741Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/object-attr-instance-methods/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2764108Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/pass-keyword-completion/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2768696Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/pass-keyword-completion/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2781257Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/raise-uses-base-exception/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2788187Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/raise-uses-base-exception/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2795953Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/scope-existing-over-new-import/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2799066Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/scope-existing-over-new-import/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2804115Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/scope-prioritize-closer/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2806886Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/scope-prioritize-closer/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2811880Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/scope-simple-long-identifier/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2814530Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/scope-simple-long-identifier/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2823439Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/stdlib-over-third-party-same-name/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2830086Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/stdlib-over-third-party-same-name/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2847060Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/tighter-over-looser-scope/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2850932Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/tighter-over-looser-scope/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2858320Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/tstring-completions/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2859560Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/tstring-completions/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2866715Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/ty-extensions-lower-stdlib/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2867885Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/ty-extensions-lower-stdlib/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2873420Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/typing-gets-priority/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2880848Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/typing-gets-priority/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2895575Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/typing-only-auto-import-ranking/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.2902220Z /home/runner/work/ruff/ruff/ruff/crates/ty_completion_eval/truth/typing-only-auto-import-ranking/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.3049136Z /home/runner/work/ruff/ruff/ruff/crates/ty_python_semantic/mdtest.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5359397Z /home/runner/work/ruff/ruff/ruff/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5373155Z /home/runner/work/ruff/ruff/ruff/python/py-fuzzer/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5373899Z /home/runner/work/ruff/ruff/ruff/python/py-fuzzer/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5381330Z /home/runner/work/ruff/ruff/ruff/python/ruff-ecosystem/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5390230Z /home/runner/work/ruff/ruff/ruff/python/ruff-ecosystem/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5404140Z /home/runner/work/ruff/ruff/ruff/scripts/add_plugin.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5412625Z /home/runner/work/ruff/ruff/ruff/scripts/add_rule.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5429072Z /home/runner/work/ruff/ruff/ruff/scripts/benchmarks/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5435139Z /home/runner/work/ruff/ruff/ruff/scripts/benchmarks/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5442676Z /home/runner/work/ruff/ruff/ruff/scripts/build_ruff_pgo.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5448123Z /home/runner/work/ruff/ruff/ruff/scripts/bump-workspace-crate-versions.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5453722Z /home/runner/work/ruff/ruff/ruff/scripts/check_docs_formatted.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5459630Z /home/runner/work/ruff/ruff/ruff/scripts/collect_ty_ecosystem_run_metadata.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5465081Z /home/runner/work/ruff/ruff/ruff/scripts/conformance.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5468097Z /home/runner/work/ruff/ruff/ruff/scripts/ecosystem_all_check.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5473061Z /home/runner/work/ruff/ruff/ruff/scripts/generate-crate-readmes.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5475961Z /home/runner/work/ruff/ruff/ruff/scripts/generate_builtin_modules.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5478828Z /home/runner/work/ruff/ruff/ruff/scripts/generate_known_standard_library.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5483558Z /home/runner/work/ruff/ruff/ruff/scripts/generate_mkdocs.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5492920Z /home/runner/work/ruff/ruff/ruff/scripts/memory_report.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5501452Z /home/runner/work/ruff/ruff/ruff/scripts/publish-crates.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5522046Z /home/runner/work/ruff/ruff/ruff/scripts/setup-crates-io-publish.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5522877Z /home/runner/work/ruff/ruff/ruff/scripts/setup_primer_project.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5530543Z /home/runner/work/ruff/ruff/ruff/scripts/transform_readme.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5538028Z /home/runner/work/ruff/ruff/ruff/scripts/ty_benchmark/pyproject.toml
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5576486Z /home/runner/work/ruff/ruff/ruff/scripts/ty_benchmark/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5587543Z /home/runner/work/ruff/ruff/ruff/scripts/update_ambiguous_characters.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:55.5594287Z /home/runner/work/ruff/ruff/ruff/scripts/update_schemastore.py.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:56.2306585Z /home/runner/work/ruff/ruff/ruff/uv.lock
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:56.2316528Z Found 101 files to hash.
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:56.2388073Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-22.04-3.14.7-14a484fb2e0a7ced7573517504dc6a20c526dd209ceacc1c19d165a31ec4f75c
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:56.2569329Z Cache hit for: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-22.04-3.14.7-14a484fb2e0a7ced7573517504dc6a20c526dd209ceacc1c19d165a31ec4f75c
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.3957596Z Cache Size: ~29 MB (30703104 B)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.4018198Z [command]/usr/bin/tar -xf /home/runner/work/_temp/5b47a594-7f20-4228-85b4-db417aef4b3f/cache.tzst -P -C /home/runner/work/ruff/ruff --use-compress-program unzstd
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.5365022Z Cache restored successfully
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.5396297Z cache restored from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-22.04-3.14.7-14a484fb2e0a7ced7573517504dc6a20c526dd209ceacc1c19d165a31ec4f75c
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6487913Z ##[group]Run rustup show
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6488660Z ^[[36;1mrustup show^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6506034Z shell: /usr/bin/bash -e {0}
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6506401Z env:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6506619Z   CARGO_INCREMENTAL: 0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6506835Z   CARGO_NET_RETRY: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6507088Z   CARGO_TERM_COLOR: always
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6507314Z   RUSTUP_MAX_RETRIES: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6507534Z   RUST_BACKTRACE: 1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6507766Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6508030Z   PYTHON_VERSION: 3.14
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6508253Z   CACHE_ON_FAILURE: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6508662Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6509048Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6509404Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6509721Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6510093Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6510408Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6510726Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6511022Z   UV_CACHE_DIR: /home/runner/.cache/uv
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6511272Z ##[endgroup]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6610806Z Default host: x86_64-unknown-linux-gnu
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6611435Z rustup home:  /home/runner/.rustup
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.6611645Z 
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7889610Z installed toolchains
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7890314Z --------------------
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7890723Z stable-x86_64-unknown-linux-gnu (active, default)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7891052Z 1.98.0-x86_64-unknown-linux-gnu
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7891346Z 
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7891463Z active toolchain
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7891665Z ----------------
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7891924Z name: stable-x86_64-unknown-linux-gnu
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7892199Z active because: it's the default toolchain
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7892453Z installed targets:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7892671Z   x86_64-unknown-linux-gnu
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7942223Z ##[group]Run rui314/setup-mold@9c9c13bf4c3f1adef0cc596abc155580bcb04444
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7942816Z with:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7943044Z   mold-version: 2.41.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7943256Z   make-default: true
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7943454Z env:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7943667Z   CARGO_INCREMENTAL: 0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7943874Z   CARGO_NET_RETRY: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7944085Z   CARGO_TERM_COLOR: always
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7944294Z   RUSTUP_MAX_RETRIES: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7944509Z   RUST_BACKTRACE: 1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7944752Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7945021Z   PYTHON_VERSION: 3.14
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7945237Z   CACHE_ON_FAILURE: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7945488Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7945839Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7946190Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7946532Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7946844Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7947149Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7947492Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7947780Z   UV_CACHE_DIR: /home/runner/.cache/uv
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.7948015Z ##[endgroup]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8013172Z ##[start-action display=Run set -x;id=__rui314_setup-mold.__run]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8032356Z ##[group]Run set -x
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8032809Z ^[[36;1mset -x^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8033045Z ^[[36;1mecho "mold 2.41.0"^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8033359Z ^[[36;1mif [ "$(whoami)" = root ]; then SUDO=; else SUDO=sudo; fi^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8034176Z ^[[36;1mwget -O- --timeout=10 --waitretry=3 --retry-connrefused --progress=dot:mega https://github.com/rui314/mold/releases/download/v2.41.0/mold-2.41.0-$(uname -m)-linux.tar.gz | $SUDO tar -C /usr/local --strip-components=1 --no-overwrite-dir -xzf -^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8035078Z ^[[36;1mtest true = true -a "$(realpath /usr/bin/ld)" != /usr/local/bin/mold && $SUDO ln -sf /usr/local/bin/mold "$(realpath /usr/bin/ld)"; true^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8050557Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8051043Z env:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8051251Z   CARGO_INCREMENTAL: 0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8051462Z   CARGO_NET_RETRY: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8051674Z   CARGO_TERM_COLOR: always
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8052042Z   RUSTUP_MAX_RETRIES: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8052264Z   RUST_BACKTRACE: 1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8052488Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8052768Z   PYTHON_VERSION: 3.14
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8052981Z   CACHE_ON_FAILURE: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8053270Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8053603Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8053983Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8054296Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8054603Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8054925Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8055249Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8055526Z   UV_CACHE_DIR: /home/runner/.cache/uv
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8055761Z ##[endgroup]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8116547Z + echo 'mold 2.41.0'
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8117238Z mold 2.41.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8117540Z ++ whoami
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8155231Z + '[' runner = root ']'
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8155905Z + SUDO=sudo
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8160414Z + sudo tar -C /usr/local --strip-components=1 --no-overwrite-dir -xzf -
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8162403Z ++ uname -m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8170292Z + wget -O- --timeout=10 --waitretry=3 --retry-connrefused --progress=dot:mega https://github.com/rui314/mold/releases/download/v2.41.0/mold-2.41.0-x86_64-linux.tar.gz
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8968690Z --2026-09-02 17:31:57--  https://github.com/rui314/mold/releases/download/v2.41.0/mold-2.41.0-x86_64-linux.tar.gz
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.8999921Z Resolving github.com (github.com)... 140.82.112.4
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9011898Z Connecting to github.com (github.com)|140.82.112.4|:443... connected.
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9098907Z HTTP request sent, awaiting response... 302 Found
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9103872Z Location: https://release-assets.githubusercontent.com/github-production-release-asset/299510783/f4863e5d-1747-433e-8c26-b5a1c1950d2d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-09-02T18%3A14%3A34Z&rscd=attachment%3B+filename%3Dmold-2.41.0-x86_64-linux.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-09-02T17%3A13%3A35Z&ske=2026-09-02T18%3A14%3A34Z&sks=b&skv=2018-11-09&sig=6ze3%2F3Li3B0U1BvJ9zCvnBUiPOA4fH6Xlh2yATxwH1A%3D&jwt=*** [following]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9108735Z --2026-09-02 17:31:57--  https://release-assets.githubusercontent.com/github-production-release-asset/299510783/f4863e5d-1747-433e-8c26-b5a1c1950d2d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-09-02T18%3A14%3A34Z&rscd=attachment%3B+filename%3Dmold-2.41.0-x86_64-linux.tar.gz&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-09-02T17%3A13%3A35Z&ske=2026-09-02T18%3A14%3A34Z&sks=b&skv=2018-11-09&sig=6ze3%2F3Li3B0U1BvJ9zCvnBUiPOA4fH6Xlh2yATxwH1A%3D&jwt=***
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9110532Z Resolving release-assets.githubusercontent.com (release-assets.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.111.133, ...
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9114099Z Connecting to release-assets.githubusercontent.com (release-assets.githubusercontent.com)|185.199.109.133|:443... connected.
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9277278Z HTTP request sent, awaiting response... 200 OK
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9277903Z Length: 5119986 (4.9M) [application/octet-stream]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9278395Z Saving to: ‘STDOUT’
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9281782Z 
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:57.9901350Z      0K ........ ........ ........ ........ ........ ........ 61% 48.6M 0s
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0315270Z   3072K ........ ........ ........ ......                    100% 44.8M=0.1s
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0316907Z 
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0317356Z 2026-09-02 17:31:58 (47.1 MB/s) - written to stdout [5119986/5119986]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0317678Z 
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0446996Z ++ realpath /usr/bin/ld
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0481337Z + test true = true -a /usr/bin/x86_64-linux-gnu-ld.bfd '!=' /usr/local/bin/mold
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0482083Z ++ realpath /usr/bin/ld
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0488212Z + sudo ln -sf /usr/local/bin/mold /usr/bin/x86_64-linux-gnu-ld.bfd
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0630238Z + true
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0637364Z ##[end-action id=__rui314_setup-mold.__run;outcome=success;conclusion=success;duration_ms=262]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0658017Z ##[group]Run # Build the executable for the old and new commit
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0658850Z ^[[36;1m# Build the executable for the old and new commit^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0659188Z ^[[36;1m(^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0659407Z ^[[36;1m  cd ruff^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0659613Z ^[[36;1m^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0659812Z ^[[36;1m  echo "new commit"^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0660090Z ^[[36;1m  git rev-list --format=%s --max-count=1 "$GITHUB_SHA"^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0660414Z ^[[36;1m  cargo build --bin ty --profile profiling^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0660703Z ^[[36;1m  mv target/profiling/ty ty-new^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0661018Z ^[[36;1m^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0661352Z ^[[36;1m  # The first parent contains any preceding layers in a stacked pull request.^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0661800Z ^[[36;1m  MERGE_BASE="$(git rev-parse "${GITHUB_SHA}^1")"^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0662096Z ^[[36;1m  git checkout -b old_commit "$MERGE_BASE"^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0662409Z ^[[36;1m  echo "old commit (merge base)"^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0662700Z ^[[36;1m  git rev-list --format=%s --max-count=1 old_commit^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0663003Z ^[[36;1m  cargo build --bin ty --profile profiling^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0663271Z ^[[36;1m  mv target/profiling/ty ty-old^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0663509Z ^[[36;1m)^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0663713Z ^[[36;1m^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0663893Z ^[[36;1m(^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0664109Z ^[[36;1m  echo "Creating comment with memory comparison"^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0664372Z ^[[36;1m  cd ruff^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0664589Z ^[[36;1m  git switch - --detach^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0664844Z ^[[36;1m^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0665066Z ^[[36;1m  python "./scripts/memory_report.py" run \^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0665332Z ^[[36;1m    --old-ty "./ty-old" \^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0665622Z ^[[36;1m    --new-ty "./ty-new" \^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0665990Z ^[[36;1m    --projects-dir "${GITHUB_WORKSPACE}/memory_projects" \^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0666328Z ^[[36;1m    --output ../memory_report_diff.diff^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0666574Z ^[[36;1m)^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0679687Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0680098Z env:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0680304Z   CARGO_INCREMENTAL: 0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0680542Z   CARGO_NET_RETRY: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0680741Z   CARGO_TERM_COLOR: always
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0680962Z   RUSTUP_MAX_RETRIES: 10
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0681174Z   RUST_BACKTRACE: 1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0681406Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0681678Z   PYTHON_VERSION: 3.14
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0681881Z   CACHE_ON_FAILURE: false
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0682143Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0682478Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib/pkgconfig
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0682824Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0683146Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0683454Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.7/x64
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0683769Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.7/x64/lib
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0684095Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0684381Z   UV_CACHE_DIR: /home/runner/.cache/uv
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0684650Z   TY_MEMORY_REPORT: json
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0684858Z   TY_MAX_PARALLELISM: 1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0685066Z ##[endgroup]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0727842Z new commit
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0740578Z commit f7f704e0e8ed7c02af7f9a2887073e9c8a17e17e
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.0741190Z Merge 163d8457771ebc43b159b1518fa8a278b6cc67da into 321e8e4ef5e0a7460c587998d436b1230afc9a75
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.1236046Z ^[[1m^[[92m    Updating^[[0m crates.io index
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.3746648Z ^[[1m^[[92m Downloading^[[0m crates ...
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.7597919Z ^[[1m^[[92m  Downloaded^[[0m getopts v0.2.24
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.7603343Z ^[[1m^[[92m  Downloaded^[[0m get-size2 v0.11.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.7617642Z ^[[1m^[[92m  Downloaded^[[0m get-size-derive2 v0.11.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.7618679Z ^[[1m^[[92m  Downloaded^[[0m unicode_names2_generator v1.3.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.7622979Z ^[[1m^[[92m  Downloaded^[[0m unicode_names2 v1.3.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8747004Z ^[[1m^[[92m   Compiling^[[0m ruff_text_size v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_text_size)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8767968Z ^[[1m^[[92m   Compiling^[[0m get-size2 v0.10.3
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8787218Z ^[[1m^[[92m   Compiling^[[0m getopts v0.2.24
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8823302Z ^[[1m^[[92m   Compiling^[[0m ruff_annotate_snippets v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_annotate_snippets)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8828870Z ^[[1m^[[92m   Compiling^[[0m get-size-derive2 v0.11.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8861257Z ^[[1m^[[92m   Compiling^[[0m ruff_python_stdlib v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_python_stdlib)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8882288Z ^[[1m^[[92m   Compiling^[[0m ruff_options_metadata v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_options_metadata)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8895818Z ^[[1m^[[92m   Compiling^[[0m ty_vendored v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ty_vendored)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.8910204Z ^[[1m^[[92m   Compiling^[[0m ty v0.0.0 (/home/runner/work/ruff/ruff/ruff/crates/ty)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.9203506Z ^[[1m^[[92m   Compiling^[[0m ruff_source_file v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_source_file)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.9573349Z ^[[1m^[[92m   Compiling^[[0m char_str v0.0.2
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:58.9757747Z ^[[1m^[[92m   Compiling^[[0m unicode_names2_generator v1.3.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.0065309Z ^[[1m^[[92m   Compiling^[[0m ruff_python_trivia v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_python_trivia)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.1355218Z ^[[1m^[[92m   Compiling^[[0m ruff_macros v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_macros)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.1640644Z ^[[1m^[[92m   Compiling^[[0m unicode_names2 v1.3.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.1842723Z ^[[1m^[[92m   Compiling^[[0m ruff_cache v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_cache)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.4139486Z ^[[1m^[[92m   Compiling^[[0m get-size2 v0.11.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.5149534Z ^[[1m^[[92m   Compiling^[[0m ruff_memory_usage v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_memory_usage)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.5967967Z ^[[1m^[[92m   Compiling^[[0m ruff_diagnostics v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_diagnostics)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.6678833Z ^[[1m^[[92m   Compiling^[[0m ty_static v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ty_static)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.6680443Z ^[[1m^[[92m   Compiling^[[0m ruff_index v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_index)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.6681190Z ^[[1m^[[92m   Compiling^[[0m ruff_formatter v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_formatter)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.7869367Z ^[[1m^[[92m   Compiling^[[0m ruff_notebook v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_notebook)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:31:59.9187517Z ^[[1m^[[92m   Compiling^[[0m ruff_python_ast v0.0.11 (/home/runner/work/ruff/ruff/ruff/crates/ruff_python_ast)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7284184Z ^[[1m^[[91merror[E0277]^[[0m^[[1m: the trait bound `CharStr: GetSize` is not satisfied^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7286088Z   ^[[1m^[[94m--> ^[[0mcrates/ruff_python_ast/src/name.rs:40:41
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7286888Z    ^[[1m^[[94m|^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7288307Z ^[[1m^[[94m40^[[0m ^[[1m^[[94m|^[[0m #[cfg_attr(feature = "get-size", derive(get_size2::GetSize))]
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7289775Z    ^[[1m^[[94m|^[[0m                                         ^[[1m^[[91m^^^^^^^^^^^^^^^^^^^[[0m ^[[1m^[[91mthe trait `GetSize` is not implemented for `CharStr`^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7290439Z    ^[[1m^[[94m|^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7291012Z ^[[1m^[[92mnote^[[0m: there are multiple different versions of crate `get_size2` in the dependency graph
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7291891Z   ^[[1m^[[94m--> ^[[0m/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/get-size2-0.11.0/src/lib.rs:65:1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7292494Z    ^[[1m^[[94m|^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7292872Z ^[[1m^[[94m65^[[0m ^[[1m^[[94m|^[[0m pub trait GetSize: Sized {
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7293613Z    ^[[1m^[[94m|^[[0m ^[[1m^[[92m^^^^^^^^^^^^^^^^^^^^^^^^^[[0m ^[[1m^[[92mthis is the expected trait^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7294062Z    ^[[1m^[[94m|^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7294767Z   ^[[1m^[[94m::: ^[[0m/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/get-size2-0.10.3/src/lib.rs:20:1
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7295361Z    ^[[1m^[[94m|^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7295778Z ^[[1m^[[94m20^[[0m ^[[1m^[[94m|^[[0m pub trait GetSize: Sized {
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7296344Z    ^[[1m^[[94m|^[[0m ^[[1m^[[94m------------------------^[[0m ^[[1m^[[94mthis is the found trait^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7296963Z    ^[[1m^[[94m= ^[[0m^[[1mhelp^[[0m: you can use `cargo tree` to explore your dependency tree
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7297626Z    ^[[1m^[[94m= ^[[0m^[[1mhelp^[[0m: the following other types implement trait `GetSize`:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7298079Z              &T
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7298807Z              &mut T
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7299123Z              ()
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7299403Z              (V1, V2)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7299684Z              (V1, V2, V3)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7300016Z              (V1, V2, V3, V4)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7300343Z              (V1, V2, V3, V4, V5)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7300629Z              (V1, V2, V3, V4, V5, V6)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7300932Z            and 265 others
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7301737Z    ^[[1m^[[94m= ^[[0m^[[1mnote^[[0m: this error originates in the derive macro `get_size2::GetSize` (in Nightly builds, run with -Z macro-backtrace for more info)
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:00.7302167Z 
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.4586265Z ^[[1mFor more information about this error, try `rustc --explain E0277`.^[[0m
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.4633246Z ^[[1m^[[91merror^[[0m: could not compile `ruff_python_ast` (lib) due to 1 previous error
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.4933200Z ##[error]Process completed with exit code 101.
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5034902Z Post job cleanup.
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5720315Z [command]/usr/bin/git version
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5756755Z git version 2.55.0
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5783855Z Temporarily overriding HOME='/home/runner/work/_temp/e88eb575-2dff-4846-a38d-8fe261f61fb5' before making global git config changes
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5784800Z Adding repository directory to the temporary git global config as a safe directory
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5787393Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ruff/ruff/ruff
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5809137Z Removing SSH command configuration
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5814152Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.5841157Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.6027021Z Removing HTTP extra header
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.6030611Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.6054458Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.6228024Z Removing includeIf entries pointing to credentials config files
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.6232810Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.6257634Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Compute memory usage diff	UNKNOWN STEP	2026-09-02T17:32:01.6513579Z Cleaning up orphan processes

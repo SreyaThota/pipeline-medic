@@ -1,0 +1,35 @@
+Build & Deploy	UNKNOWN STEP	﻿2026-09-11T13:54:13.7989707Z Current runner version: '2.337.0'
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8014367Z ##[group]Runner Image Provisioner
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8015183Z Hosted Compute Agent
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8015773Z Version: 20260828.587
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8016404Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8017109Z Build Date: 2026-08-28T16:44:25Z
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8018048Z Worker ID: {07855680-cb44-4935-830d-0af05733c901}
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8018863Z Azure Region: westus3
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8019470Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8021372Z ##[group]Operating System
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8021982Z Ubuntu
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8022519Z 24.04.5
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8023024Z LTS
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8023544Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8024060Z ##[group]Runner Image
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8024646Z Image: ubuntu-24.04
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8025201Z Version: 20260907.300.1
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8026412Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8027996Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8028886Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8030058Z ##[group]GITHUB_TOKEN Permissions
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8032357Z Contents: read
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8032911Z Metadata: read
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8033484Z PullRequests: write
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8034043Z ##[endgroup]
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8036160Z Secret source: Actions
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8037110Z Cache mode: write
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8038120Z Prepare workflow directory
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8364948Z Prepare all required actions
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:13.8418307Z Getting action download info
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:14.2123258Z Download action repository 'actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:14.3332058Z Download action repository 'actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e' (SHA:48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e)
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:14.4324973Z Download action repository 'python-poetry/poetry@cd6b56c4ba9765f6e27804c653dd079215c652f1' (SHA:cd6b56c4ba9765f6e27804c653dd079215c652f1)
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:15.6243760Z Download action repository 'amondnet/vercel-action@de09aeac2ace6599ec9b11ef87558759a496bac4' (SHA:de09aeac2ace6599ec9b11ef87558759a496bac4)
+Build & Deploy	UNKNOWN STEP	2026-09-11T13:54:16.6422740Z ##[error]Can't find 'action.yml', 'action.yaml' or 'Dockerfile' for action 'python-poetry/poetry/poetry-github/.github/actions/bootstrap-poetry@cd6b56c4ba9765f6e27804c653dd079215c652f1'.

@@ -1,0 +1,400 @@
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1705347Z hint:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1705799Z hint: 	git branch -m <name>
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1710939Z hint:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1711709Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1713073Z Initialized empty Git repository in /home/runner/work/core/core/.git/
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1720343Z [command]/usr/bin/git remote add origin https://github.com/home-assistant/core
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1758640Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1759474Z ##[group]Disabling automatic garbage collection
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1762272Z [command]/usr/bin/git config --local gc.auto 0
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1792005Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1792912Z ##[group]Setting up auth
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1796065Z Removing SSH command configuration
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1797151Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.1834526Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2153951Z Removing HTTP extra header
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2159539Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2193550Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2419110Z Removing includeIf entries pointing to credentials config files
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2425301Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2458155Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2701930Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2740813Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/core/core/.git.path /home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2770384Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/core/core/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2803373Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2837211Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2865408Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2866201Z ##[group]Fetching the repository
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:20.2872624Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +79514a8eb4de90076fe9fbc73642692333bf1389:refs/remotes/pull/169596/merge
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3416412Z From https://github.com/home-assistant/core
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3417148Z  * [new ref]           79514a8eb4de90076fe9fbc73642692333bf1389 -> pull/169596/merge
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3452703Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3453407Z ##[group]Determining the checkout info
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3454131Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3459359Z [command]/usr/bin/git sparse-checkout disable
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3504318Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3538329Z ##[group]Checking out the ref
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:30.3541904Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/169596/merge
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.3801163Z Updating files:  69% (18460/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.3953364Z Updating files:  70% (18485/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.4090947Z Updating files:  71% (18749/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.4230147Z Updating files:  72% (19013/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.4401693Z Updating files:  73% (19277/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.4577435Z Updating files:  74% (19541/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.4789864Z Updating files:  75% (19805/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.4948242Z Updating files:  76% (20069/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.5099616Z Updating files:  77% (20333/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.5250404Z Updating files:  78% (20597/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.5418318Z Updating files:  79% (20861/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.5562782Z Updating files:  80% (21125/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.5703038Z Updating files:  81% (21389/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.5865979Z Updating files:  82% (21653/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.6015083Z Updating files:  83% (21917/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.6181192Z Updating files:  84% (22182/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.6325304Z Updating files:  85% (22446/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.6478287Z Updating files:  86% (22710/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.6628457Z Updating files:  87% (22974/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.6762612Z Updating files:  88% (23238/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.6929479Z Updating files:  89% (23502/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.7102287Z Updating files:  90% (23766/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.7281721Z Updating files:  91% (24030/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.7425090Z Updating files:  92% (24294/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.7585503Z Updating files:  93% (24558/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.7811940Z Updating files:  94% (24822/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.7966242Z Updating files:  95% (25086/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8113192Z Updating files:  96% (25350/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8295120Z Updating files:  97% (25614/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8506652Z Updating files:  98% (25878/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8676683Z Updating files:  99% (26142/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8677216Z Updating files: 100% (26406/26406)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8677644Z Updating files: 100% (26406/26406), done.
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8995815Z Note: switching to 'refs/remotes/pull/169596/merge'.
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8996340Z 
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8996947Z You are in 'detached HEAD' state. You can look around, make experimental
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8997864Z changes and commit them, and you can discard any commits you make in this
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8998571Z state without impacting any branches by switching back to a branch.
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8999041Z 
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.8999343Z If you want to create a new branch to retain commits you create, you may
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9000037Z do so (now or later) by using -c with the switch command. Example:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9000432Z 
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9000930Z   git switch -c <new-branch-name>
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9001594Z 
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9001758Z Or undo this operation with:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9002014Z 
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9002146Z   git switch -
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9002339Z 
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9002689Z Turn off this advice by setting config variable advice.detachedHead to false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9003199Z 
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9003787Z HEAD is now at 79514a8e Merge 33db39df896c979ceb8b5e2cb7faaf2479978bc0 into eed88e2c72357f7499a0770aa373128080c05e00
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9054578Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9106476Z [command]/usr/bin/git log -1 --format=%H
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9135920Z 79514a8eb4de90076fe9fbc73642692333bf1389
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9152919Z ##[group]Removing auth
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9153552Z Removing SSH command configuration
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9154434Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9251482Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9459638Z Removing HTTP extra header
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9463927Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9496384Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9755766Z Removing includeIf entries pointing to credentials config files
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9759197Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9786764Z includeif.gitdir:/home/runner/work/core/core/.git.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9787450Z includeif.gitdir:/home/runner/work/core/core/.git/worktrees/*.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9788089Z includeif.gitdir:/github/workspace/.git.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9789130Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9795991Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/core/core/.git.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9819815Z /home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9829324Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/core/core/.git.path /home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9861439Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/core/core/.git/worktrees/*.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9883196Z /home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9891851Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/core/core/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9926265Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9949139Z /github/runner_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:31.9963257Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0003266Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0026365Z /github/runner_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0033694Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0066730Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0325334Z Removing credentials config '/home/runner/work/_temp/git-credentials-e50cc9be-d6e0-416a-89ae-af164f00e87a.config'
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0333677Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0536513Z ##[group]Run mypy_version=$(cat requirements_test.txt | grep 'mypy.*=' | cut -d '=' -f 3)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0537292Z ^[[36;1mmypy_version=$(cat requirements_test.txt | grep 'mypy.*=' | cut -d '=' -f 3)^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0537791Z ^[[36;1mecho "version=${mypy_version}" >> $GITHUB_OUTPUT^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0538393Z ^[[36;1mecho "key=mypy-${MYPY_CACHE_VERSION}-${mypy_version}-${HA_SHORT_VERSION}-$(date -u '+%Y-%m-%dT%H:%M:%s')" >> $GITHUB_OUTPUT^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0683593Z shell: /usr/bin/bash -e {0}
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0683871Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0684073Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0684301Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0684532Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0684789Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0685283Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0685929Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0686261Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0686518Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0686746Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0686970Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0687187Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.0687377Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.1041075Z Prepare all required actions
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.1041533Z Getting action download info
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2568448Z ##[group]Run ./.github/actions/restore-or-build-venv
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2568779Z with:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2568992Z   uv-version: 0.11.25
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2569227Z   python-version: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2571215Z   python-cache-key: venv-4-2026.8-999b2d5f3de3df28b720b422bf24a4bf40fbfdaa488eb264af562bae02d09807-b0878078febf2511a81bc465a66a156e978fe141862e5994c97cb54bba2af66f-5b9a16cc1143fdd5bead56387baed620b16b1bd299bda795bcc3a7197cdc2a30-3fa7e44d7ee4f9bb4aaca1c1ce38abc7edd2fcb6a60c90e5fcb1e34767acec53-4c8ea92b91cbcceb01a921973195850443eddde9c4e78e9b7374cfd1652a6751
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2573059Z   uv-cache-dir: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2573312Z   apt-cache-version: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2573533Z   save: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2573726Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2573920Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2574136Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2574413Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2574674Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2575158Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2575704Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2576034Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2576275Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2576499Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2576733Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2576948Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2577146Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2677104Z Prepare all required actions
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.2677417Z Getting action download info
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:32.3966957Z Download action repository 'astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39' (SHA:fac544c07dec837d0ccb6301d7b5580bf5edae39)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2037355Z ##[group]Run ./.github/actions/setup-uv-python
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2037689Z with:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2037899Z   uv-version: 0.11.25
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2038129Z   python-version: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2038348Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2038537Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2038755Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2038980Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2039229Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2039704Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2040243Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2040934Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2041177Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2041398Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2041617Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2041833Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2042031Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2162986Z ##[group]Run astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2163389Z with:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2163588Z   version: 0.11.25
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2163882Z   python-version: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2164254Z   cache-python: true
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2164560Z   ignore-nothing-to-cache: true
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2164828Z   activate-environment: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2165084Z   no-project: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2165342Z   working-directory: /home/runner/work/core/core
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2168220Z   github-token: ***
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2168437Z   enable-cache: auto
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2169001Z   cache-dependency-glob: **/*requirements*.txt
+Check mypy	UNKNOWN STEP	**/*requirements*.in
+Check mypy	UNKNOWN STEP	**/*constraints*.txt
+Check mypy	UNKNOWN STEP	**/*constraints*.in
+Check mypy	UNKNOWN STEP	**/pyproject.toml
+Check mypy	UNKNOWN STEP	**/uv.lock
+Check mypy	UNKNOWN STEP	**/*.py.lock
+Check mypy	UNKNOWN STEP	
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2169607Z   restore-cache: true
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2169828Z   save-cache: true
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2170052Z   prune-cache: true
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2170273Z   ignore-empty-workdir: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2170719Z   download-from-astral-mirror: true
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2171227Z   add-problem-matchers: true
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2171466Z   quiet: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2171683Z   resolution-strategy: highest
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2171927Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2172122Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2172331Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2172561Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2172801Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2173277Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2173813Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2174149Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2174389Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2174612Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2174835Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2175048Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.2175246Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.3871856Z UV_CACHE_DIR is already set to /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.3999384Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:33.5400957Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.11.25/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.0999232Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/f3b3f4cc-1935-49bd-9198-155576112bfa -f /home/runner/work/_temp/74e0a7fb-aac9-48d8-9a54-e9f4beddd512
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6267445Z Added /home/runner/.local/bin to the path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6270708Z Added /opt/hostedtoolcache/uv/0.11.25/x86_64 to the path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6272487Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6273128Z Added /home/runner/work/_temp/uv-python-dir to the path
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6273622Z Set UV_PYTHON to 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6298536Z Set UV_CACHE_DIR to /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6299104Z Successfully installed uv version 0.11.25
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:34.6301216Z Searching files using cache dependency glob: /home/runner/work/core/core/**/*requirements*.txt,/home/runner/work/core/core/**/*requirements*.in,/home/runner/work/core/core/**/*constraints*.txt,/home/runner/work/core/core/**/*constraints*.in,/home/runner/work/core/core/**/pyproject.toml,/home/runner/work/core/core/**/uv.lock,/home/runner/work/core/core/**/*.py.lock
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9602561Z /home/runner/work/core/core/homeassistant/package_constraints.txt
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9822481Z /home/runner/work/core/core/pylint/plugins/pyproject.toml
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9831371Z /home/runner/work/core/core/pyproject.toml
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9836945Z /home/runner/work/core/core/requirements.txt
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9842529Z /home/runner/work/core/core/requirements_all.txt
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9849524Z /home/runner/work/core/core/requirements_test.txt
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9855158Z /home/runner/work/core/core/requirements_test_pre_commit.txt
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:35.9883752Z /home/runner/work/core/core/script/check_requirements/requirements.txt
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.2848725Z Found 8 files to hash.
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.2930055Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14.5-pruned-py-ea1054931ff041ac310dfb326d630fd3ec85aa3879ac2b42da6e3f4499956b54
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.4824623Z Cache hit for: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14.5-pruned-py-ea1054931ff041ac310dfb326d630fd3ec85aa3879ac2b42da6e3f4499956b54
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.9302005Z Received 1134 of 1134 (100.0%), 0.0 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.9302500Z Cache Size: ~0 MB (1134 B)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.9326804Z [command]/usr/bin/tar -xf /home/runner/work/_temp/c232d144-121b-4b2b-9f17-ea8d8d248bda/cache.tzst -P -C /home/runner/work/core/core --use-compress-program unzstd
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.9402346Z Cache restored successfully
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.9407238Z cache restored from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14.5-pruned-py-ea1054931ff041ac310dfb326d630fd3ec85aa3879ac2b42da6e3f4499956b54
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:37.9409678Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14.5-pruned-py-ea1054931ff041ac310dfb326d630fd3ec85aa3879ac2b42da6e3f4499956b54-python
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:38.1244683Z Cache hit for: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14.5-pruned-py-ea1054931ff041ac310dfb326d630fd3ec85aa3879ac2b42da6e3f4499956b54-python
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.1789093Z Received 30883006 of 35077310 (88.0%), 29.5 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.1897654Z Received 35077310 of 35077310 (100.0%), 33.1 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.1898240Z Cache Size: ~33 MB (35077310 B)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.1930328Z [command]/usr/bin/tar -xf /home/runner/work/_temp/7c6aa1a7-3a44-4fcb-9560-63e9429d38f9/cache.tzst -P -C /home/runner/work/core/core --use-compress-program unzstd
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.4941359Z Cache restored successfully
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.4964163Z cache restored from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14.5-pruned-py-ea1054931ff041ac310dfb326d630fd3ec85aa3879ac2b42da6e3f4499956b54-python
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6142461Z ##[group]Run uv python install "${PYTHON_VERSION}"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6142871Z ^[[36;1muv python install "${PYTHON_VERSION}"^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6179911Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6180280Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6180686Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6180921Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6181167Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6181434Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6181967Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6182535Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6182894Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6183169Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6183400Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6183655Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6183878Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6184174Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6184516Z   UV_PYTHON: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6184739Z   PYTHON_VERSION: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6184988Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6874913Z Installed Python 3.14.5 in 49ms
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6875670Z  + cpython-3.14.5-linux-x86_64-gnu (python3.14)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6984651Z ##[group]Run actions/cache/restore@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6985252Z with:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6985464Z   path: venv
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6987286Z   key: Linux-X64-3.14.5-venv-4-2026.8-999b2d5f3de3df28b720b422bf24a4bf40fbfdaa488eb264af562bae02d09807-b0878078febf2511a81bc465a66a156e978fe141862e5994c97cb54bba2af66f-5b9a16cc1143fdd5bead56387baed620b16b1bd299bda795bcc3a7197cdc2a30-3fa7e44d7ee4f9bb4aaca1c1ce38abc7edd2fcb6a60c90e5fcb1e34767acec53-4c8ea92b91cbcceb01a921973195850443eddde9c4e78e9b7374cfd1652a6751
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6989171Z   enableCrossOsArchive: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6989441Z   fail-on-cache-miss: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6989693Z   lookup-only: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6989922Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6990125Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6990348Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6990888Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6991153Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6991651Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6992222Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6992587Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6992855Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6993087Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6993325Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6993551Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6993847Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6994373Z   UV_PYTHON: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:39.6994598Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:40.0190924Z Cache hit for: Linux-X64-3.14.5-venv-4-2026.8-999b2d5f3de3df28b720b422bf24a4bf40fbfdaa488eb264af562bae02d09807-b0878078febf2511a81bc465a66a156e978fe141862e5994c97cb54bba2af66f-5b9a16cc1143fdd5bead56387baed620b16b1bd299bda795bcc3a7197cdc2a30-3fa7e44d7ee4f9bb4aaca1c1ce38abc7edd2fcb6a60c90e5fcb1e34767acec53-4c8ea92b91cbcceb01a921973195850443eddde9c4e78e9b7374cfd1652a6751
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:41.2411754Z Received 29360128 of 562417284 (5.2%), 28.0 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:42.2412717Z Received 201326592 of 562417284 (35.8%), 96.0 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:43.2434300Z Received 406847488 of 562417284 (72.3%), 129.2 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:43.9371903Z Received 562417284 of 562417284 (100.0%), 145.2 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:43.9382668Z Cache Size: ~536 MB (562417284 B)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:43.9441675Z [command]/usr/bin/tar -xf /home/runner/work/_temp/fc8c2da6-e1f7-4154-aa7a-67ad1fa7904b/cache.tzst -P -C /home/runner/work/core/core --use-compress-program unzstd
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.3378908Z Cache restored successfully
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.3842754Z Cache restored from key: Linux-X64-3.14.5-venv-4-2026.8-999b2d5f3de3df28b720b422bf24a4bf40fbfdaa488eb264af562bae02d09807-b0878078febf2511a81bc465a66a156e978fe141862e5994c97cb54bba2af66f-5b9a16cc1143fdd5bead56387baed620b16b1bd299bda795bcc3a7197cdc2a30-3fa7e44d7ee4f9bb4aaca1c1ce38abc7edd2fcb6a60c90e5fcb1e34767acec53-4c8ea92b91cbcceb01a921973195850443eddde9c4e78e9b7374cfd1652a6751
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4738714Z ##[group]Run actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4739111Z with:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4739331Z   path: .mypy_cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4739665Z   key: Linux-X64-3.14.5-mypy-1-2.1.0-2026.8-2026-07-04T09:22:1783156952
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4740099Z   restore-keys: Linux-X64-3.14.5-mypy-1-2.1.0-2026.8-
+Check mypy	UNKNOWN STEP	
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4740449Z   enableCrossOsArchive: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4740969Z   fail-on-cache-miss: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4741227Z   lookup-only: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4741467Z   save-always: false
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4741682Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4741890Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4742121Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4742365Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4742635Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4743138Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4743736Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4744354Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4744614Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4744863Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4745105Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4745335Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4745630Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4745974Z   UV_PYTHON: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.4746209Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:49.7943700Z Cache hit for restore-key: Linux-X64-3.14.5-mypy-1-2.1.0-2026.8-2026-07-04T08:50:1783155019
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.0362253Z Received 33589065 of 41977673 (80.0%), 32.0 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.1887253Z Received 41977673 of 41977673 (100.0%), 34.6 MBs/sec
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.1889880Z Cache Size: ~40 MB (41977673 B)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.1991645Z [command]/usr/bin/tar -xf /home/runner/work/_temp/2c495046-0578-420d-bea5-e66d14cb4190/cache.tzst -P -C /home/runner/work/core/core --use-compress-program unzstd
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6369972Z Cache restored successfully
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6472928Z Cache restored from key: Linux-X64-3.14.5-mypy-1-2.1.0-2026.8-2026-07-04T08:50:1783155019
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6582919Z ##[group]Run echo "::add-matcher::.github/workflows/matchers/mypy.json"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6583535Z ^[[36;1mecho "::add-matcher::.github/workflows/matchers/mypy.json"^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6618090Z shell: /usr/bin/bash -e {0}
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6618380Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6618600Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6618847Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6619100Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6619382Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6619901Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6620658Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6621062Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6621359Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6621611Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6621875Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6622123Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6622489Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6622852Z   UV_PYTHON: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6623095Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6721282Z ##[group]Run . venv/bin/activate
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6721621Z ^[[36;1m. venv/bin/activate^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6721907Z ^[[36;1mpython --version^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6722362Z ^[[36;1mmypy --num-workers=4 $(printf "homeassistant/components/%s " ${INTEGRATIONS_GLOB})^[[0m
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6752339Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6752718Z env:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6752942Z   CACHE_VERSION: 4
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6753196Z   MYPY_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6753447Z   HA_SHORT_VERSION: 2026.8
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6753731Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6754249Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.10.3','mariadb:10.11.2','mariadb:11.4.9','mysql:8.0.32']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6754853Z   POSTGRESQL_VERSIONS: ['postgres:12.14','postgres:15.2']
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6755227Z   UV_CACHE_DIR: /tmp/uv-cache
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6755510Z   APT_CACHE_VERSION: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6755808Z   SQLALCHEMY_WARN_20: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6756069Z   PYTHONASYNCIODEBUG: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6756323Z   HASS_CI: 1
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6756630Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6757004Z   UV_PYTHON: 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6757254Z   INTEGRATIONS_GLOB: miele
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6757523Z ##[endgroup]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:51.6847226Z Python 3.14.5
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.1223069Z ##[error]homeassistant/components/miele/sensor.py:1187: error: Method "native_value" is not using @override but is overriding a method in class "homeassistant.components.sensor.SensorEntity"  [explicit-override]
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.1925205Z Found 1 error in 1 file (checked 18 source files)
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.2027413Z ##[error]Process completed with exit code 1.
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.2177430Z Post job cleanup.
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.2262004Z Post job cleanup.
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3109109Z [command]/usr/bin/git version
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3187478Z git version 2.54.0
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3223117Z Temporarily overriding HOME='/home/runner/work/_temp/6df6f384-02b4-44ee-bc85-c6c1c26ea71c' before making global git config changes
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3224933Z Adding repository directory to the temporary git global config as a safe directory
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3228780Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/core/core
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3261658Z Removing SSH command configuration
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3267927Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3302093Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3564344Z Removing HTTP extra header
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3569168Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3603789Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3863552Z Removing includeIf entries pointing to credentials config files
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3869446Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.3900781Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check mypy	UNKNOWN STEP	2026-07-04T09:22:54.4309013Z Cleaning up orphan processes

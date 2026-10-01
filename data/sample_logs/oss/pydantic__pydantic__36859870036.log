@@ -1,0 +1,400 @@
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.3966660Z Metadata: read
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.3967084Z PullRequests: write
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.3967482Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.3968985Z Secret source: Actions
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.3969641Z Cache mode: write
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.3970507Z Prepare workflow directory
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.4234571Z Prepare all required actions
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.4270752Z Getting action download info
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:14.6833221Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0360695Z Complete job name: pydantic-people
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0897401Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0898327Z with:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0898762Z   persist-credentials: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0899252Z   repository: pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0902606Z   token: ***
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0903061Z   ssh-strict: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0903513Z   ssh-user: git
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0903933Z   clean: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0904349Z   sparse-checkout-cone-mode: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0904871Z   fetch-depth: 1
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0905301Z   fetch-tags: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0905727Z   show-progress: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0906198Z   lfs: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0906597Z   submodules: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0907061Z   set-safe-directory: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0907611Z   allow-unsafe-pr-checkout: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.0908254Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1655710Z Syncing repository: pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1657396Z ##[group]Getting Git version info
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1658189Z Working directory is '/home/runner/work/pydantic/pydantic'
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1659232Z [command]/usr/bin/git version
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1719195Z git version 2.55.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1732053Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1739910Z Temporarily overriding HOME='/home/runner/work/_temp/7617ffd5-8cde-4467-b8c4-306760052638' before making global git config changes
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1741270Z Adding repository directory to the temporary git global config as a safe directory
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.1743841Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3541795Z Deleting the contents of '/home/runner/work/pydantic/pydantic'
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3544269Z ##[group]Determining repository object format
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3548623Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3549567Z ##[group]Initializing the repository
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3556738Z [command]/usr/bin/git init /home/runner/work/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3822760Z hint: Using 'master' as the name for the initial branch. This default branch name
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3824004Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3825278Z hint: to use in all of your new repositories, which will suppress this warning,
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3826049Z hint: call:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3826514Z hint:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3827067Z hint: 	git config --global init.defaultBranch <name>
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3827724Z hint:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3828425Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3829269Z hint: 'development'. The just-created branch can be renamed via this command:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3829929Z hint:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3830335Z hint: 	git branch -m <name>
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3830840Z hint:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3831507Z hint: Disable this message with "git config set advice.defaultBranchName false"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3832822Z Initialized empty Git repository in /home/runner/work/pydantic/pydantic/.git/
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3834460Z [command]/usr/bin/git remote add origin https://github.com/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3877524Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3878280Z ##[group]Disabling automatic garbage collection
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3879606Z [command]/usr/bin/git config --local gc.auto 0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3907076Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3907929Z ##[group]Setting up auth
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3908500Z Removing SSH command configuration
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3911432Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.3934705Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4233564Z Removing HTTP extra header
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4238275Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4261184Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4411703Z Removing includeIf entries pointing to credentials config files
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4415626Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4437002Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4600924Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4624393Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/pydantic/pydantic/.git.path /home/runner/work/_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4648672Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4673826Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4696305Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4716981Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4718001Z ##[group]Fetching the repository
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:15.4723092Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e2ac21dcd66fc682f8a50f6e179dbd95fa4b44ac:refs/remotes/origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5344348Z From https://github.com/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5346178Z  * [new ref]         e2ac21dcd66fc682f8a50f6e179dbd95fa4b44ac -> origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5350124Z [command]/usr/bin/git branch --list --remote origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5371662Z   origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5376152Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5393305Z e2ac21dcd66fc682f8a50f6e179dbd95fa4b44ac
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5395904Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5397120Z ##[group]Determining the checkout info
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5398755Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5399682Z [command]/usr/bin/git sparse-checkout disable
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5438465Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5461126Z ##[group]Checking out the ref
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5463070Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5956729Z Switched to a new branch 'main'
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5959913Z branch 'main' set up to track 'origin/main'.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5967076Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.5998526Z [command]/usr/bin/git log -1 --format=%H
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6016548Z e2ac21dcd66fc682f8a50f6e179dbd95fa4b44ac
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6023490Z ##[group]Removing auth
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6024824Z Removing SSH command configuration
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6026976Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6049089Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6199567Z Removing HTTP extra header
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6202271Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6225093Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6371471Z Removing includeIf entries pointing to credentials config files
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6374182Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6391552Z includeif.gitdir:/home/runner/work/pydantic/pydantic/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6394113Z includeif.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6396310Z includeif.gitdir:/github/workspace/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6398169Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6402736Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pydantic/pydantic/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6413792Z /home/runner/work/_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6420924Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pydantic/pydantic/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-98c83d31\-5489\-4d2e\-a6aa\-57bd682dd270\.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6482427Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6497858Z /home/runner/work/_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6505805Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-98c83d31\-5489\-4d2e\-a6aa\-57bd682dd270\.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6532758Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6549205Z /github/runner_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6580980Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-98c83d31\-5489\-4d2e\-a6aa\-57bd682dd270\.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6631334Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6640521Z /github/runner_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6645622Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-98c83d31\-5489\-4d2e\-a6aa\-57bd682dd270\.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6669879Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6812277Z Removing credentials config '/home/runner/work/_temp/git-credentials-98c83d31-5489-4d2e-a6aa-57bd682dd270.config'
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.6822212Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.7125169Z Prepare all required actions
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.7126702Z Getting action download info
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.8876084Z Download action repository 'actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:16.9220335Z Download action repository 'astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57' (SHA:cec208311dfd045dd5311c1add060b2062131d57)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5621795Z ##[group]Run ./.github/actions/people
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5622435Z with:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5624674Z   token: ***
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5624955Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5677671Z ##[start-action display=Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd;id=__self.__actions_checkout]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5768199Z ##[group]Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5768686Z with:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5768979Z   persist-credentials: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5769366Z   repository: pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5771457Z   token: ***
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5771733Z   ssh-strict: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5772176Z   ssh-user: git
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5772452Z   clean: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5772746Z   sparse-checkout-cone-mode: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5773073Z   fetch-depth: 1
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5773384Z   fetch-tags: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5773707Z   show-progress: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5774008Z   lfs: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5774275Z   submodules: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5774569Z   set-safe-directory: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.5774882Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6448672Z Syncing repository: pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6449597Z ##[group]Getting Git version info
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6450225Z Working directory is '/home/runner/work/pydantic/pydantic'
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6460739Z [command]/usr/bin/git version
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6488040Z git version 2.55.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6502466Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6512508Z Temporarily overriding HOME='/home/runner/work/_temp/62d343ba-3752-4636-a337-62a6693b22cc' before making global git config changes
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6513537Z Adding repository directory to the temporary git global config as a safe directory
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6517342Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6545304Z [command]/usr/bin/git config --local --get remote.origin.url
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6563175Z https://github.com/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6572935Z ##[group]Removing previously created refs, to avoid conflicts
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6576511Z [command]/usr/bin/git rev-parse --symbolic-full-name --verify --quiet HEAD
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6592070Z refs/heads/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6598794Z [command]/usr/bin/git checkout --detach
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6892577Z HEAD is now at e2ac21d Bump urllib3 from 2.7.0 to 2.8.0 (#13907)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6925299Z [command]/usr/bin/git branch --delete --force main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6947550Z Deleted branch main (was e2ac21d).
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6972311Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.6974978Z [command]/usr/bin/git submodule status
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7124024Z ##[group]Cleaning the repository
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7127576Z [command]/usr/bin/git clean -ffdx
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7156757Z [command]/usr/bin/git reset --hard HEAD
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7197236Z HEAD is now at e2ac21d Bump urllib3 from 2.7.0 to 2.8.0 (#13907)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7199505Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7200833Z ##[group]Disabling automatic garbage collection
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7203909Z [command]/usr/bin/git config --local gc.auto 0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7224323Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7224789Z ##[group]Setting up auth
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7225392Z Removing SSH command configuration
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7229896Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7250610Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7391194Z Removing HTTP extra header
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7394828Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7414513Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7556491Z Removing includeIf entries pointing to credentials config files
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7561029Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7582691Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7732763Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7761063Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/pydantic/pydantic/.git.path /home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.7785601Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.8001689Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.8029097Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.8050330Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.8051034Z ##[group]Fetching the repository
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:17.8056880Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e2ac21dcd66fc682f8a50f6e179dbd95fa4b44ac:refs/remotes/origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1208583Z [command]/usr/bin/git branch --list --remote origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1230505Z   origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1240504Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1261882Z e2ac21dcd66fc682f8a50f6e179dbd95fa4b44ac
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1264197Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1264742Z ##[group]Determining the checkout info
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1265563Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1270718Z [command]/usr/bin/git sparse-checkout disable
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1324440Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1347898Z ##[group]Checking out the ref
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1351501Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1402738Z Switched to a new branch 'main'
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1403471Z branch 'main' set up to track 'origin/main'.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1411210Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1435561Z [command]/usr/bin/git log -1 --format=%H
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1452531Z e2ac21dcd66fc682f8a50f6e179dbd95fa4b44ac
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1534985Z ##[end-action id=__self.__actions_checkout;outcome=success;conclusion=success;duration_ms=585]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1538216Z ##[start-action display=Run astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57;id=__self.__astral-sh_setup-uv]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1612814Z ##[group]Run astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1613175Z with:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1613396Z   python-version: 3.14
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1613688Z   activate-environment: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1614008Z   working-directory: /home/runner/work/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1616028Z   github-token: ***
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1616281Z   enable-cache: auto
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1616915Z   cache-dependency-glob: **/*requirements*.txt
+pydantic-people	UNKNOWN STEP	**/*requirements*.in
+pydantic-people	UNKNOWN STEP	**/*constraints*.txt
+pydantic-people	UNKNOWN STEP	**/*constraints*.in
+pydantic-people	UNKNOWN STEP	**/pyproject.toml
+pydantic-people	UNKNOWN STEP	**/uv.lock
+pydantic-people	UNKNOWN STEP	**/*.py.lock
+pydantic-people	UNKNOWN STEP	
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1617460Z   restore-cache: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1617703Z   save-cache: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1618001Z   prune-cache: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1618239Z   cache-python: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1618477Z   ignore-nothing-to-cache: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1618778Z   ignore-empty-workdir: false
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1619082Z   add-problem-matchers: true
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1619349Z   resolution-strategy: highest
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.1619655Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.2852518Z Trying to find version for uv in: /home/runner/work/pydantic/pydantic/uv.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.2853346Z Could not find file: /home/runner/work/pydantic/pydantic/uv.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.2854001Z Trying to find version for uv in: /home/runner/work/pydantic/pydantic/pyproject.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.2857014Z Found version for uv in /home/runner/work/pydantic/pydantic/pyproject.toml: >=0.8.4
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.2858006Z Found minimum version specifier, using latest version
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.2858708Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.4171755Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.21/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:18.6172152Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/88158790-5c41-4f94-8912-b1c23e68a959 -f /home/runner/work/_temp/2719daad-dc0a-4a71-ae33-ae93a2732626
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.1614800Z Added /home/runner/.local/bin to the path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.1617310Z Added /opt/hostedtoolcache/uv/0.12.21/x86_64 to the path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.1617911Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.1618400Z Added /home/runner/work/_temp/uv-python-dir to the path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.1618853Z Set UV_PYTHON to 3.14
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.1619368Z Creating and activating python venv at /home/runner/work/pydantic/pydantic/.venv...
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.1631014Z [command]/opt/hostedtoolcache/uv/0.12.21/x86_64/uv venv /home/runner/work/pydantic/pydantic/.venv --directory /home/runner/work/pydantic/pydantic --clear
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:19.3357466Z Downloading cpython-3.14.7-linux-x86_64-gnu (download) (34.6MiB)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.1317784Z  Downloaded cpython-3.14.7-linux-x86_64-gnu (download)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.2709795Z Using CPython 3.14.7
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.2710381Z Creating virtual environment at: .venv
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.2713403Z Activate with: .venv/bin/activate
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.2759049Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.2759570Z Successfully installed uv version 0.12.21
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.2760810Z Searching files using cache dependency glob: /home/runner/work/pydantic/pydantic/**/*requirements*.txt,/home/runner/work/pydantic/pydantic/**/*requirements*.in,/home/runner/work/pydantic/pydantic/**/*constraints*.txt,/home/runner/work/pydantic/pydantic/**/*constraints*.in,/home/runner/work/pydantic/pydantic/**/pyproject.toml,/home/runner/work/pydantic/pydantic/**/uv.lock,/home/runner/work/pydantic/pydantic/**/*.py.lock
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.2990649Z /home/runner/work/pydantic/pydantic/.github/actions/people/requirements.in
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3006689Z /home/runner/work/pydantic/pydantic/.github/pyodide/requirements.in
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3292866Z /home/runner/work/pydantic/pydantic/pydantic-core/pyproject.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3516833Z /home/runner/work/pydantic/pydantic/pydantic-core/uv.lock
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3530488Z /home/runner/work/pydantic/pydantic/pyproject.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3629368Z /home/runner/work/pydantic/pydantic/tests/plugin/pyproject.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3807667Z /home/runner/work/pydantic/pydantic/tests/typechecking/pyproject.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3816444Z /home/runner/work/pydantic/pydantic/tests/typechecking/uv.lock
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3849831Z /home/runner/work/pydantic/pydantic/uv.lock
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3865058Z Found 9 files to hash.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.3915958Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14-pruned-ff9661736ee6345cbf7b867fe38f5a2b2f121c26b21f267cf11cecd26b8bf4cd
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.6652932Z No GitHub Actions cache found for key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14-pruned-ff9661736ee6345cbf7b867fe38f5a2b2f121c26b21f267cf11cecd26b8bf4cd
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.7226138Z ##[end-action id=__self.__astral-sh_setup-uv;outcome=success;conclusion=success;duration_ms=2568]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.7228532Z ##[start-action display=Install dependencies;id=__self.__run]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.7259120Z ##[group]Run uv pip install --requirements .github/actions/people/pylock.toml
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.7259651Z ^[[36;1muv pip install --requirements .github/actions/people/pylock.toml^[[0m
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9406586Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9407026Z env:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9407377Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9407719Z   UV_PYTHON: 3.14
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9407985Z   VIRTUAL_ENV: /home/runner/work/pydantic/pydantic/.venv
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9408308Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9408612Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:20.9557594Z warning: The `--pylock` option is experimental and may change without warning. Pass `--preview-features pylock` to disable this warning.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.1811412Z Downloading pynacl (1.3MiB)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.1812252Z Downloading pydantic-core (2.0MiB)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.1814293Z Downloading cryptography (4.3MiB)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.2815467Z  Downloaded pynacl
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.2879528Z  Downloaded pydantic-core
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3026352Z  Downloaded cryptography
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3027095Z Prepared 19 packages in 214ms
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3714798Z Installed 19 packages in 68ms
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3715402Z  + annotated-types==0.7.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3715765Z  + certifi==2026.2.25
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3716034Z  + cffi==2.0.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3716343Z  + charset-normalizer==3.4.7
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3716687Z  + cryptography==46.0.6
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3716953Z  + idna==3.11
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3717285Z  + pycparser==3.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3717571Z  + pydantic==2.12.5
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3717965Z  + pydantic-core==2.41.5
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3718366Z  + pydantic-settings==2.13.1
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3718685Z  + pygithub==2.9.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3719050Z  + pyjwt==2.12.1
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3719488Z  + pynacl==1.6.2
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3719726Z  + python-dotenv==1.2.2
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3720098Z  + pyyaml==6.0.3
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3720373Z  + requests==2.33.1
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3720710Z  + typing-extensions==4.15.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3721232Z  + typing-inspection==0.4.2
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3721795Z  + urllib3==2.6.3
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3747686Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=651]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3751876Z ##[start-action display=Update pydantic people;id=__self.__run_2]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3769795Z ##[group]Run uv run --no-sync .github/actions/people/people.py
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3770212Z ^[[36;1muv run --no-sync .github/actions/people/people.py^[[0m
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3805811Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3806200Z env:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3806543Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3806991Z   UV_PYTHON: 3.14
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3807250Z   VIRTUAL_ENV: /home/runner/work/pydantic/pydantic/.venv
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3807606Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3809771Z   INPUT_TOKEN: ***
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:21.3810007Z ##[endgroup]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:22.4536609Z INFO:root:Using config: {"input_token":"**********","github_repository":"pydantic/pydantic","request_timeout":30}
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:22.4538007Z /home/runner/work/pydantic/pydantic/.github/actions/people/people.py:676: DeprecationWarning: Argument login_or_token is deprecated, please use auth=github.Auth.Token(...) instead
+pydantic-people	UNKNOWN STEP	2026-10-01T12:09:22.4539175Z   g = Github(settings.input_token.get_secret_value())
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5722916Z ERROR:root:Response was not 200, after: Y3Vyc29yOnYyOpHO8gpSUw==
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5723459Z ERROR:root:{
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5724166Z   "documentation_url": "https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits",
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5725863Z   "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID A819:FDCA3:345D59:AC0B83:6ABE4E98."
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5727035Z }
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5727345Z Traceback (most recent call last):
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5748260Z   File "/home/runner/work/pydantic/pydantic/.github/actions/people/people.py", line 679, in <module>
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5753556Z     contributors, pr_commentors, reviewers, pr_authors = get_contributors(settings=settings)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5754134Z                                                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5754768Z   File "/home/runner/work/pydantic/pydantic/.github/actions/people/people.py", line 600, in get_contributors
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5755348Z     pr_edges = get_graphql_pr_edges(settings=settings, after=last_edge.cursor)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5755880Z   File "/home/runner/work/pydantic/pydantic/.github/actions/people/people.py", line 446, in get_graphql_pr_edges
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5756434Z     data = get_graphql_response(settings=settings, query=prs_query, after=after)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5756948Z   File "/home/runner/work/pydantic/pydantic/.github/actions/people/people.py", line 388, in get_graphql_response
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5757395Z     raise RuntimeError(response.text)
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5757705Z RuntimeError: {
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5758190Z   "documentation_url": "https://docs.github.com/graphql/overview/rate-limits-and-node-limits-for-the-graphql-api#secondary-rate-limits",
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5759418Z   "message": "You have exceeded a secondary rate limit. Please wait a few minutes before you try again. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) If you reach out to GitHub Support for help, please include the request ID A819:FDCA3:345D59:AC0B83:6ABE4E98."
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.5760429Z }
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.7656886Z ##[error]Process completed with exit code 1.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.7664806Z ##[end-action id=__self.__run_2;outcome=failure;conclusion=failure;duration_ms=295391]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.7752993Z Post job cleanup.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.7757355Z ##[start-action display=Run astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57;id=__caad685e-1573-45e4-b259-bba87044eb08.__astral-sh_setup-uv]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.7760757Z ##[end-action id=__caad685e-1573-45e4-b259-bba87044eb08.__astral-sh_setup-uv;outcome=skipped;conclusion=skipped;duration_ms=0]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.7763355Z ##[start-action display=Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd;id=__caad685e-1573-45e4-b259-bba87044eb08.__actions_checkout]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.7813433Z Post job cleanup.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8433539Z [command]/usr/bin/git version
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8460443Z git version 2.55.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8486977Z Temporarily overriding HOME='/home/runner/work/_temp/0fd2ac1f-a00c-4ed2-b060-55fd70841628' before making global git config changes
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8488293Z Adding repository directory to the temporary git global config as a safe directory
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8491297Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8513428Z Removing SSH command configuration
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8518278Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8542474Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8689934Z Removing HTTP extra header
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8693616Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8716751Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8857180Z Removing includeIf entries pointing to credentials config files
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8861398Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8876602Z includeif.gitdir:/home/runner/work/pydantic/pydantic/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8877177Z includeif.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8877526Z includeif.gitdir:/github/workspace/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8877927Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8882588Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pydantic/pydantic/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8896808Z /home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8903459Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pydantic/pydantic/.git.path /home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8930087Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8944367Z /home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8950999Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pydantic/pydantic/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8978604Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8992112Z /github/runner_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.8997314Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9019495Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9032668Z /github/runner_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9037209Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9066103Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9217234Z Removing credentials config '/home/runner/work/_temp/git-credentials-171208f2-9c92-4932-8035-506281463f9d.config'
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9286050Z ##[end-action id=__caad685e-1573-45e4-b259-bba87044eb08.__actions_checkout;outcome=success;conclusion=success;duration_ms=152]
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9346099Z Post job cleanup.
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:16.9970628Z [command]/usr/bin/git version
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0006648Z git version 2.55.0
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0029739Z Temporarily overriding HOME='/home/runner/work/_temp/de052b13-c34f-40a8-9449-467ade6f0778' before making global git config changes
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0030595Z Adding repository directory to the temporary git global config as a safe directory
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0035087Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0058355Z Removing SSH command configuration
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0063344Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0087044Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0235919Z Removing HTTP extra header
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0239583Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0260940Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0400137Z Removing includeIf entries pointing to credentials config files
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0405360Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0427924Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pydantic-people	UNKNOWN STEP	2026-10-01T12:14:17.0687510Z Cleaning up orphan processes

@@ -1,0 +1,400 @@
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4464130Z    ↳ tests/format/flow/last-argument-expansion/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4464250Z        • break.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4464460Z        • decorated-function.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4464630Z        • edge_case.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4464800Z    ↳ tests/format/flow/intersection/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4464920Z        • intersection.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4465080Z    ↳ tests/format/flow/jsx/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4465230Z        • func_inside_attr.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4465400Z        • generic-component.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4465520Z        • return_type.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4465700Z    ↳ tests/format/flow/internal-slot/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4465830Z        • comments.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4466050Z        • internal_slot.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4466310Z    ↳ tests/format/flow/interface-types/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4466480Z        • interface_types.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4466650Z    ↳ tests/format/flow/import/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4466860Z        • import-as-as.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4467100Z        • import-as-as2.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4467500Z        • type-import-as-as.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4467810Z    ↳ tests/format/flow/import-type-specifier/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4467980Z        • test.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4468180Z    ↳ tests/format/flow/implements/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4468490Z        • implements.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4468660Z    ↳ tests/format/flow/ignore/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4468760Z        • ignore.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4468940Z        • type-cast-expression.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4469120Z    ↳ tests/format/flow/hook/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4469270Z        • comments-before-arrow.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4469440Z        • dangling-comments.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4469580Z        • declare-hook.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4469710Z        • hook-declaration.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4469880Z        • hook-type-annotation.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4470170Z    ↳ tests/format/flow/function-single-destructuring/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4470310Z        • array.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4470440Z        • object.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4470630Z        • object-type-in-declare-function.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4470840Z    ↳ tests/format/flow/function-type-param/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4475020Z        • extends-bound.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4475230Z        • issue-5283.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4475390Z    ↳ tests/format/flow/function/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4475520Z        • function-predicate.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4475750Z    ↳ tests/format/flow/flow-intersection/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4475910Z        • intersection.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4476090Z    ↳ tests/format/flow/export/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4476190Z        • type.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4476570Z    ↳ tests/format/flow/exact-object/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4476710Z        • test.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4476880Z    ↳ tests/format/flow/declare-type/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4477020Z        • declare-type.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4477200Z    ↳ tests/format/flow/declare-interface/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4478580Z        • declare-interface.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4478900Z    ↳ tests/format/flow/declare-class/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4479010Z        • indexer.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4479220Z    ↳ tests/format/flow/declare-opaque-type/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4479350Z        • issue-13848.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4479470Z        • issue-13848-2.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4479710Z    ↳ tests/format/flow/conditional-types-comments/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4480000Z        • comments.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4480140Z    ↳ tests/format/flow/cursor/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4480290Z        • declare-module-exports.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4480490Z        • function-predicate.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4480640Z        • function-predicate-2.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4480770Z        • function-return-type.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4480960Z        • function-return-type-and-predicate.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4481200Z        • function-return-type-and-predicate-2.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4481420Z        • function-type-parameter-bound.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4481580Z        • type-cast-expression.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4481740Z    ↳ tests/format/flow/class-field/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4481890Z        • field_declare_modifier.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482180Z    ↳ tests/format/flow/comments/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482300Z        • arrow.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482420Z        • cast.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482510Z        • class.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482630Z        • functions.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482750Z        • functions2.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482850Z        • generics.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4482960Z        • interface.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4483210Z        • issues.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4483300Z        • let.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4483440Z        • object_type_annotation.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4483570Z        • object_type_indexer.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4483830Z        • type_annotations.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4483990Z        • type_annotations-2.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4484160Z        • type_annotations-3.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4484250Z        • union.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4484500Z    ↳ tests/format/flow/break-calls/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4484640Z        • type_args.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4484850Z    ↳ tests/format/flow/assignments/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4484990Z        • issue-10846.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4485110Z        • issue-10850.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4485220Z        • issue-12413.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4485390Z    ↳ tests/format/flow/array-union/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4485480Z        • test.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4485640Z    ↳ tests/format/flow/as-const/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4485730Z        • embedded.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4485910Z    ↳ tests/format/flow/array-comments/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4486000Z        • test.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4486130Z    ↳ tests/format/flow/all/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4486230Z        • generic.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4486390Z    ↳ tests/format/flow/annotation/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4486520Z        • array_of_functions.js format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4486740Z    ↳ tests/format/css/stylefmt-repo/vendor-prefix/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4486880Z        • vendor-prefix.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4487100Z    ↳ tests/format/css/stylefmt-repo/var-notation/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4487310Z        • var-notation.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4487510Z    ↳ tests/format/css/stylefmt-repo/values/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4487610Z        • values.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4487920Z    ↳ tests/format/css/stylefmt-repo/shorthand-with-sass-variables/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4488090Z        • shorthand-with-sass-variables.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4488310Z    ↳ tests/format/css/stylefmt-repo/pseudo-element/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4488440Z        • pseudo-element.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4488680Z    ↳ tests/format/css/stylefmt-repo/non-nested-combinator/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4488820Z        • non-nested-combinator.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4489030Z    ↳ tests/format/css/stylefmt-repo/nested-mixin-2/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4489160Z        • nested-mixin-2.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4489450Z    ↳ tests/format/css/stylefmt-repo/nested-mixin/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4489580Z        • nested-mixin.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4489840Z    ↳ tests/format/css/stylefmt-repo/nested-indention-2/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4489980Z        • nested-indention-2.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4490210Z    ↳ tests/format/css/stylefmt-repo/nested-indention/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4490340Z        • nested-indention.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4490550Z    ↳ tests/format/css/stylefmt-repo/nested-atrule/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4490680Z        • nested-atrule.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4490870Z    ↳ tests/format/css/stylefmt-repo/nested-2/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4490990Z        • nested-2.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4491210Z    ↳ tests/format/css/stylefmt-repo/nested/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4491320Z        • nested.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4491560Z    ↳ tests/format/css/stylefmt-repo/media-queries-ranges/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4491710Z        • media-queries-ranges.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4491930Z    ↳ tests/format/css/stylefmt-repo/media-indent/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4492050Z        • media-indent.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4492980Z    ↳ tests/format/css/stylefmt-repo/media-indent-with-import/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4493200Z        • media-indent-with-import.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4493420Z    ↳ tests/format/css/stylefmt-repo/lowercase/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4493570Z        • lowercase.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4493920Z    ↳ tests/format/css/stylefmt-repo/important/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4494060Z        • important.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4494240Z    ↳ tests/format/css/stylefmt-repo/import/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4494430Z        • import.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4494680Z    ↳ tests/format/css/stylefmt-repo/ie-hacks/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4494880Z        • ie-hacks.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4495100Z    ↳ tests/format/css/stylefmt-repo/font-shorthand/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4495230Z        • font-shorthand.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4495420Z    ↳ tests/format/css/stylefmt-repo/data-url/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4495540Z        • data-url.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4495760Z    ↳ tests/format/css/stylefmt-repo/custom-selectors/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4495890Z        • custom-selectors.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4496090Z    ↳ tests/format/css/stylefmt-repo/font-face/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4496210Z        • font-face.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4496440Z    ↳ tests/format/css/stylefmt-repo/custom-properties/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4496580Z        • custom-properties.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4496840Z    ↳ tests/format/css/stylefmt-repo/custom-media-queries/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4497010Z        • custom-media-queries.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4497230Z    ↳ tests/format/css/stylefmt-repo/cssnext-example/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4497370Z        • cssnext-example.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4497670Z    ↳ tests/format/css/stylefmt-repo/content/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4497780Z        • content.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4498010Z    ↳ tests/format/css/stylefmt-repo/comment-in-rules/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4498140Z        • comment-in-rules.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4498340Z    ↳ tests/format/css/stylefmt-repo/comment/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4498440Z        • comment.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4498690Z    ↳ tests/format/css/stylefmt-repo/color-hex-lowercase/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4498830Z        • color-hex-lowercase.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4499070Z    ↳ tests/format/css/stylefmt-repo/at-apply/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4499210Z        • at-apply.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4499450Z    ↳ tests/format/css/stylefmt-repo/charset-2/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4499570Z        • charset-2.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4500030Z    ↳ tests/format/css/stylefmt-repo/charset/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4500130Z        • charset.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4500370Z    ↳ tests/format/css/stylefmt-repo/attr-selector/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4500510Z        • attr-selector.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4500710Z    ↳ tests/format/css/stylefmt-repo/at-media/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4500830Z        • at-media.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4500970Z    ↳ tests/format/vue/vue-3/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501090Z        • script-generic.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501220Z        • script-setup.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501350Z        • style-variables.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501490Z    ↳ tests/format/vue/v-for/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501590Z        • invalid.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501680Z        • ts.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501850Z    ↳ tests/format/vue/ts-expression/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4501980Z        • attribute-expr.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4502070Z        • basic.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4502170Z        • comment.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4502270Z        • filter.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4502450Z        • not-working-with-non-ts-script.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4502790Z    ↳ tests/format/vue/style/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4502950Z        • mj-style.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4503090Z    ↳ tests/format/vue/range/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4503180Z        • example.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4503530Z    ↳ tests/format/vue/invalid/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4503620Z        • v-for.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4503800Z    ↳ tests/format/vue/interpolation/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4503970Z        • bitwise-or-operator.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4504180Z        • comment-after-interpolation.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4504330Z        • ng-non-bindable.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4504470Z        • parenthesized.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4504580Z        • template.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4504760Z    ↳ tests/format/vue/event-binding/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4504880Z        • assignment.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505000Z        • basic-ts.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505150Z        • function-expression-ts.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505300Z        • non-ascii-expression.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505440Z        • non-ascii-expression-ts.vue format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505590Z    ↳ tests/format/vue/html-vue/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505730Z        • elastic-header.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505860Z        • hello-world.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4505990Z        • upper-case-2.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4506130Z        • upper-case-html-tag.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4506280Z        • upper-case-html-tag-2.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4506420Z        • upper-case-html-tag-3.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4506570Z        • upper-case-html-tag-4.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4506700Z        • void-element.html format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507000Z    ↳ tests/format/css/units/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507140Z        • values.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507280Z    ↳ tests/format/css/yaml/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507410Z        • comment_after.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507490Z        • dirty.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507590Z        • empty.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507730Z        • empty_newlines.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507840Z        • ignore.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4507960Z        • malformed.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4508080Z        • malformed-2.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4508200Z        • only_comments.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4508320Z        • with_comments.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4508470Z        • without-newline-after.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4508560Z        • yaml.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4508890Z    ↳ tests/format/css/variables/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4509040Z        • apply-rule.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4509170Z        • variables.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4509300Z    ↳ tests/format/css/url/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4509410Z        • url.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4509620Z    ↳ tests/format/css/type-function/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4509730Z        • type.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4509920Z    ↳ tests/format/css/trailing-comma/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4510030Z        • var-func.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4510170Z    ↳ tests/format/css/params/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4510270Z        • params.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4510410Z    ↳ tests/format/css/tailwind/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4510700Z        • utility-directive.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4510910Z    ↳ tests/format/css/selector-call/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4511020Z        • call.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4511180Z    ↳ tests/format/css/selector-list/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4511300Z        • selectors.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4511470Z    ↳ tests/format/css/selector-string/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4511570Z        • string.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4511720Z    ↳ tests/format/css/range/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512000Z        • issue2267.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512210Z    ↳ tests/format/css/pseudo-call/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512320Z        • has.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512420Z        • indent.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512580Z        • is.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512700Z        • pseudo_call.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512790Z        • where.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4512970Z    ↳ tests/format/css/prefix/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4513080Z        • prefix.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4513310Z    ↳ tests/format/css/postcss-8-improment/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4513460Z        • empty-props.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4513580Z        • test.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4513750Z    ↳ tests/format/css/postcss-plugins/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4513910Z        • postcss-mixins.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4514060Z        • postcss-nested.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4514250Z        • postcss-nested-props.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4514380Z        • postcss-nesting.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4514530Z        • postcss-simple-vars.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4514680Z    ↳ tests/format/css/numbers/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4514800Z        • numbers.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4514980Z    ↳ tests/format/css/parens/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4515160Z        • empty-line-after-function.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4515310Z        • empty-lines.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4515430Z        • parens.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4515640Z    ↳ tests/format/css/no-semicolon/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4515730Z        • url.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4515880Z    ↳ tests/format/css/loose/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4515970Z        • loose.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4516210Z    ↳ tests/format/css/modules/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4516310Z        • modules.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4516470Z    ↳ tests/format/css/long-rule/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4516590Z        • long_rule.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4516730Z    ↳ tests/format/css/indent/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4516830Z        • indent.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4517610Z        • selectors.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4518490Z    ↳ tests/format/css/inline-url/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4518820Z        • empty.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4519470Z        • inline_url.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4519920Z    ↳ tests/format/css/grid/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4520260Z        • grid.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4520710Z    ↳ tests/format/css/fill-value/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4521870Z        • fill.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4522330Z    ↳ tests/format/css/empty/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4522620Z        • empty.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4523010Z    ↳ tests/format/css/cursor/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4523270Z        • test.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4523810Z    ↳ tests/format/css/escaped-attribute/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4524100Z        • test.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4524610Z    ↳ tests/format/css/composes/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4524930Z        • composes.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4525460Z    ↳ tests/format/css/combinator/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4525800Z        • an-plus-b.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4526130Z        • combinator.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4526400Z        • leading.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4526800Z    ↳ tests/format/css/comments/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4527050Z        • 15948.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4527300Z        • 17479.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4527580Z        • CRLF.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4527930Z        • at-rules.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4528210Z        • block.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4528500Z        • bug.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4528930Z        • custom-properties.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4529770Z        • declaration.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4530100Z        • nestled.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4530460Z        • prettier-ignore.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4530790Z        • selectors.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4531110Z        • source-map.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4531700Z        • types.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4532090Z    ↳ tests/format/css/color/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4532510Z        • color-adjuster.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4532850Z        • color-level-4.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4533210Z        • current-color.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4533580Z        • functional-syntax.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4533940Z        • hexcolor.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4534290Z        • whitespace-syntax.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4535240Z    ↳ tests/format/css/character-escaping/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4535480Z        • character_escaping.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4535630Z    ↳ tests/format/css/case/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4535720Z        • case.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4535860Z        • custom-selectors.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536000Z    ↳ tests/format/css/bom/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536090Z        • bom.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536230Z    ↳ tests/format/css/atword/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536340Z        • atword.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536490Z    ↳ tests/format/css/atrule/format.test.js
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536590Z        • at-root.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536680Z        • charset.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536810Z        • counter-style.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4536940Z        • custom-media.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4537070Z        • custom-selector.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4537170Z        • debug.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4537500Z        • each.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4537610Z        • extend.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4537730Z        • font-face.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4537880Z        • font-feature-values.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4537970Z        • for.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538090Z        • function.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538180Z        • if-else.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538290Z        • import.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538380Z        • include.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538500Z        • keyframes.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538590Z        • media.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538680Z        • mixin.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538800Z        • namespaces.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538900Z        • page.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4538990Z        • return.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4539230Z        • supports.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4539350Z        • viewport.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4539440Z        • while.css format 1
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4539460Z 
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4539630Z Test Suites: 1549 failed, 12 passed, 1561 total
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4539810Z Tests:       34221 failed, 80 passed, 34301 total
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4540040Z Snapshots:   3876 failed, 9248 obsolete, 36 passed, 3912 total
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4540120Z Time:        65.105 s
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4540210Z Ran all test suites.
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4540440Z Jest did not exit one second after the test run has completed.
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4540440Z 
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4541150Z 'This usually means that there are asynchronous operations that weren't stopped in your tests. Consider running Jest with `--detectOpenHandles` to troubleshoot this issue.
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4567630Z ##[error]Process completed with exit code 1.
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:33.4825500Z Post job cleanup.
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.0567200Z [command]/opt/homebrew/bin/git version
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.0945140Z git version 2.55.0
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.0991390Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/a5f8466b-f974-41b0-b253-93d4769744ec/.gitconfig'
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.1009150Z Temporarily overriding HOME='/Users/runner/work/_temp/a5f8466b-f974-41b0-b253-93d4769744ec' before making global git config changes
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.1010620Z Adding repository directory to the temporary git global config as a safe directory
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.1019480Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/prettier/prettier
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.1256780Z Removing SSH command configuration
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.1263850Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.1418130Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.2988380Z Removing HTTP extra header
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.2993060Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.3109590Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4539450Z Removing includeIf entries pointing to credentials config files
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4640590Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4740950Z includeif.gitdir:/Users/runner/work/prettier/prettier/.git.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4761370Z includeif.gitdir:/Users/runner/work/prettier/prettier/.git/worktrees/*.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4762160Z includeif.gitdir:/github/workspace/.git.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4762800Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4764230Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/prettier/prettier/.git.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4812360Z /Users/runner/work/_temp/git-credentials-75f09dfc-2e8a-44a7-8a07-f0ec3503c698.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4825890Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/prettier/prettier/.git.path \/Users\/runner\/work\/_temp\/git\-credentials\-75f09dfc\-2e8a\-44a7\-8a07\-f0ec3503c698\.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4828690Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/prettier/prettier/.git/worktrees/*.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4830750Z /Users/runner/work/_temp/git-credentials-75f09dfc-2e8a-44a7-8a07-f0ec3503c698.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4832460Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/prettier/prettier/.git/worktrees/*.path \/Users\/runner\/work\/_temp\/git\-credentials\-75f09dfc\-2e8a\-44a7\-8a07\-f0ec3503c698\.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4834040Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4876230Z /github/runner_temp/git-credentials-75f09dfc-2e8a-44a7-8a07-f0ec3503c698.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4881450Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-75f09dfc\-2e8a\-44a7\-8a07\-f0ec3503c698\.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.4976180Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.5053410Z /github/runner_temp/git-credentials-75f09dfc-2e8a-44a7-8a07-f0ec3503c698.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.5067360Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-75f09dfc\-2e8a\-44a7\-8a07\-f0ec3503c698\.config
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.5131920Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.6367750Z Removing credentials config '/Users/runner/work/_temp/git-credentials-75f09dfc-2e8a-44a7-8a07-f0ec3503c698.config'
+Node.js 22 on MacOS	UNKNOWN STEP	2026-09-17T07:12:34.6466770Z Cleaning up orphan processes

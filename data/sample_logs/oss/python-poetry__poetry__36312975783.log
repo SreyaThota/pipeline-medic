@@ -1,0 +1,400 @@
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.6774266Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.builtin-uninstall-POETRY_INSTALLER_BUILTIN_UNINSTALL-false-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.6808414Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_repository_from_single_repo_pool[2] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.6863761Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7007136Z tests/repositories/test_repository_pool.py::test_search_no_legacy_repositories 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7094815Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7146154Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_search_no_legacy_repositories 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7152631Z tests/config/test_config.py::test_config_get_from_environment_variable[system-git-client-POETRY_SYSTEM_GIT_CLIENT-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7212163Z tests/repositories/test_repository_pool.py::test_repository_supplemental_repositories_do_show 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7287830Z [gw2] [ 97%] PASSED tests/masonry/builders/test_editable_builder.py::test_builder_skips_directory_file_script 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7390340Z tests/masonry/builders/test_editable_builder.py::test_builder_installs_file_scripts 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7448993Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[system-git-client-POETRY_SYSTEM_GIT_CLIENT-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7451294Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_repository_supplemental_repositories_do_show 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7504730Z tests/repositories/test_repository_pool.py::test_pool_no_package_from_any_repository_raises_package_not_found 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.7729644Z tests/config/test_config.py::test_config_get_from_environment_variable_build_config_settings[{0: "hello"}-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8359462Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_pool_no_package_from_any_repository_raises_package_not_found 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8436582Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable_build_config_settings[{0: "hello"}-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8439950Z [gw0] [ 97%] PASSED tests/masonry/builders/test_editable_builder.py::test_builder_installs_proper_files_for_standard_packages[simple_project_legacy] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8676202Z tests/masonry/builders/test_editable_builder.py::test_builder_skips_file_script_missing_reference_field 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8683576Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.system-site-packages-POETRY_VIRTUALENVS_OPTIONS_SYSTEM_SITE_PACKAGES-false-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8735651Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.system-site-packages-POETRY_VIRTUALENVS_OPTIONS_SYSTEM_SITE_PACKAGES-false-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8795337Z tests/config/test_config.py::test_config_get_from_environment_variable[requests.max-retries-POETRY_REQUESTS_MAX_RETRIES-4-4] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.8960176Z tests/repositories/test_repository_pool.py::test_remove_existing_repository_successful 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9007107Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_remove_existing_repository_successful 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9014711Z tests/repositories/test_repository_pool.py::test_repository_explicit_repositories_do_not_show 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9044637Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_repository_explicit_repositories_do_not_show 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9056060Z tests/repositories/test_repository_pool.py::test_search_legacy_repositories_are_not_skipped[legacy_repository_json] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9062670Z [gw0] [ 97%] PASSED tests/masonry/builders/test_editable_builder.py::test_builder_skips_file_script_missing_reference_field 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9068627Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[requests.max-retries-POETRY_REQUESTS_MAX_RETRIES-4-4] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9072709Z tests/masonry/builders/test_editable_builder.py::test_builder_skips_missing_file_script 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9077872Z tests/config/test_config.py::test_config_get_from_environment_variable[keyring.enabled-POETRY_KEYRING_ENABLED-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9080215Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_search_legacy_repositories_are_not_skipped[legacy_repository_json] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9083456Z tests/repositories/test_repository_pool.py::test_repository_no_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9098693Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[keyring.enabled-POETRY_KEYRING_ENABLED-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9164484Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_repository_no_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9169617Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.system-site-packages-POETRY_VIRTUALENVS_OPTIONS_SYSTEM_SITE_PACKAGES-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9271194Z tests/repositories/test_repository_pool.py::test_log_age_filtered_versions_includes_explicit_repositories[info-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9354478Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.system-site-packages-POETRY_VIRTUALENVS_OPTIONS_SYSTEM_SITE_PACKAGES-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9386164Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_log_age_filtered_versions_includes_explicit_repositories[info-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9421627Z tests/config/test_config.py::test_disabled_keyring_is_unavailable 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9465206Z [gw2] [ 97%] PASSED tests/masonry/builders/test_editable_builder.py::test_builder_installs_file_scripts 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9529030Z tests/repositories/test_repository_pool.py::test_pool_get_package_in_specified_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9611217Z tests/masonry/builders/test_editable_builder.py::test_builder_installs_proper_files_when_packages_configured 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9694624Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_disabled_keyring_is_unavailable 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9714378Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_pool_get_package_in_specified_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9753636Z tests/config/test_config.py::test_config_get_from_environment_variable_build_config_settings[{"CC": "gcc", "--build-option": ["--one", "--two"]}-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:06.9971389Z tests/repositories/test_repository_pool.py::test_pool_get_package_in_any_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0066825Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable_build_config_settings[{"CC": "gcc", "--build-option": ["--one", "--two"]}-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0073091Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_pool_get_package_in_any_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0112563Z tests/config/test_config.py::test_config_process_resolves_falsy_values 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0188392Z tests/repositories/test_repository_pool.py::test_log_age_filtered_versions_includes_explicit_repositories[warning-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0286013Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_process_resolves_falsy_values 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0287759Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_log_age_filtered_versions_includes_explicit_repositories[warning-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0327039Z tests/config/test_config.py::test_config_expands_tilde_for_virtualenvs_path[~/.venvs-expected0] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0486560Z tests/repositories/test_repository_pool.py::test_remove_non_existing_repository_raises_indexerror 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0535680Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_expands_tilde_for_virtualenvs_path[~/.venvs-expected0] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0563573Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.no-pip-POETRY_VIRTUALENVS_OPTIONS_NO_PIP-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0662440Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_remove_non_existing_repository_raises_indexerror 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.0913938Z tests/repositories/test_repository_pool.py::test_pool_find_packages_only_considers_supplemental_when_needed 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1022761Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_pool_find_packages_only_considers_supplemental_when_needed 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1026825Z [gw3] [ 97%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.no-pip-POETRY_VIRTUALENVS_OPTIONS_NO_PIP-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1068905Z tests/repositories/test_repository_pool.py::test_pool 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1145315Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.system-site-packages-POETRY_VIRTUALENVS_OPTIONS_SYSTEM_SITE_PACKAGES-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1197475Z [gw1] [ 97%] PASSED tests/repositories/test_repository_pool.py::test_pool 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1300790Z [gw0] [ 97%] PASSED tests/masonry/builders/test_editable_builder.py::test_builder_skips_missing_file_script 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1376238Z tests/repositories/test_repository_pool.py::test_pool_no_package_from_specified_repository_raises_package_not_found 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1379182Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.system-site-packages-POETRY_VIRTUALENVS_OPTIONS_SYSTEM_SITE_PACKAGES-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1420686Z tests/repositories/test_repository_pool.py::test_repository_ordering 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1450523Z tests/config/test_config.py::test_config_get_from_environment_variable[system-git-client-POETRY_SYSTEM_GIT_CLIENT-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1524430Z [gw1] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_pool_no_package_from_specified_repository_raises_package_not_found 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1529818Z tests/repositories/test_repository_pool.py::test_pool_find_packages_in_specified_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1629547Z [gw0] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_repository_ordering 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1633261Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[system-git-client-POETRY_SYSTEM_GIT_CLIENT-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1714123Z tests/repositories/test_repository_pool.py::test_repository_with_all_prio_repositories 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1747362Z tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1803456Z [gw1] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_pool_find_packages_in_specified_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1873795Z tests/config/test_dict_config_source.py::test_dict_config_source_add_property 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.1978080Z [gw0] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_repository_with_all_prio_repositories 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2004895Z tests/repositories/test_repository_pool.py::test_repository_from_single_repo_pool[1] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2032257Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2075082Z [gw2] [ 98%] PASSED tests/masonry/builders/test_editable_builder.py::test_builder_installs_proper_files_when_packages_configured 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2092479Z [gw1] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_add_property 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2167218Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.always-copy-POETRY_VIRTUALENVS_OPTIONS_ALWAYS_COPY-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2355859Z tests/config/test_dict_config_source.py::test_dict_config_source_get_property 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2439276Z [gw0] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_repository_from_single_repo_pool[1] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2446540Z tests/repositories/test_repository_pool.py::test_pool_with_initial_repositories 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2452948Z tests/config/test_dict_config_source.py::test_dict_config_source_add_property_with_list_keys 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2484206Z [gw1] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_get_property 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2516714Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.always-copy-POETRY_VIRTUALENVS_OPTIONS_ALWAYS_COPY-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2518566Z [gw2] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_pool_with_initial_repositories 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2533984Z tests/config/test_dict_config_source.py::test_dict_config_source_get_property_with_list_keys 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2670961Z tests/repositories/test_repository_pool.py::test_search_legacy_repositories_are_not_skipped[legacy_repository_html] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2711660Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.always-copy-POETRY_VIRTUALENVS_OPTIONS_ALWAYS_COPY-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2770064Z [gw0] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_add_property_with_list_keys 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2812293Z tests/config/test_dict_config_source.py::test_dict_config_source_remove_property 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2827453Z [gw1] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_get_property_with_list_keys 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2865888Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.always-copy-POETRY_VIRTUALENVS_OPTIONS_ALWAYS_COPY-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2870296Z tests/config/test_dict_config_source.py::test_dict_config_source_add_property_with_periods_in_repo_name 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2895044Z [gw2] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_search_legacy_repositories_are_not_skipped[legacy_repository_html] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.2945606Z tests/repositories/test_repository_pool.py::test_pool_find_packages_in_any_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3020100Z tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-false-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3038363Z [gw0] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_remove_property 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3040493Z tests/config/test_dict_config_source.py::test_dict_config_source_get_property_should_raise_if_not_found 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3041964Z [gw1] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_add_property_with_periods_in_repo_name 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3043746Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-false-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3047426Z [gw2] [ 98%] PASSED tests/repositories/test_repository_pool.py::test_pool_find_packages_in_any_repository 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3048924Z tests/config/test_dict_config_source.py::test_dict_config_source_remove_property_with_list_keys 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3143419Z tests/console/commands/python/test_python_remove.py::test_remove_version_no_installation 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3161279Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3177932Z [gw0] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_get_property_should_raise_if_not_found 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3197893Z tests/console/commands/python/test_python_remove.py::test_remove_version_not_precise_enough 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3272247Z [gw1] [ 98%] PASSED tests/config/test_dict_config_source.py::test_dict_config_source_remove_property_with_list_keys 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3363146Z tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3479972Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3701259Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.create-POETRY_VIRTUALENVS_CREATE-false-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3838541Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.create-POETRY_VIRTUALENVS_CREATE-false-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.3896147Z [gw2] [ 98%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_no_installation 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4038306Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.create-POETRY_VIRTUALENVS_CREATE-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4048851Z tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[False-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4060838Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.create-POETRY_VIRTUALENVS_CREATE-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4133431Z [gw0] [ 98%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_not_precise_enough 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4135098Z tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4136711Z [gw1] [ 98%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4247534Z tests/console/commands/python/test_python_remove.py::test_remove_version 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4303108Z tests/console/commands/python/test_python_remove.py::test_remove_invalid_version 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4396937Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4602989Z tests/config/test_config.py::test_config_get_from_environment_variable_nested 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4733535Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable_nested 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4894063Z tests/config/test_config.py::test_config_get_default_value[requests.max-retries-0] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.4937473Z [gw2] [ 98%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[False-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5004299Z [gw3] [ 98%] PASSED tests/config/test_config.py::test_config_get_default_value[requests.max-retries-0] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5064680Z tests/console/commands/python/test_python_remove.py::test_remove_version_implementation[pypy] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5072842Z [gw1] [ 98%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_invalid_version 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5075661Z [gw0] [ 99%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5086799Z tests/config/test_config.py::test_config_get_from_environment_variable[installer.builtin-uninstall-POETRY_INSTALLER_BUILTIN_UNINSTALL-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5110255Z tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[True-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5274835Z tests/console/commands/python/test_python_remove.py::test_remove_version_implementation[cpython] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5374881Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.builtin-uninstall-POETRY_INSTALLER_BUILTIN_UNINSTALL-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5642715Z tests/config/test_config.py::test_config_get_from_environment_variable[solver.lazy-wheel-POETRY_SOLVER_LAZY_WHEEL-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5664090Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[solver.lazy-wheel-POETRY_SOLVER_LAZY_WHEEL-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5784424Z tests/config/test_config.py::test_config_get_default_value[solver.min-release-age-exclude-source-None] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5893559Z [gw2] [ 99%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_implementation[pypy] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5938152Z tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.5981856Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_default_value[solver.min-release-age-exclude-source-None] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6013151Z [gw1] [ 99%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[True-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6022047Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6035106Z [gw0] [ 99%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_implementation[cpython] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6116560Z tests/console/commands/python/test_python_remove.py::test_remove_multiple_versions 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6181417Z tests/config/test_config_source.py::test_config_source_migration_dry_run[rename-key] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6345767Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6357356Z [gw0] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_dry_run[rename-key] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6392610Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.in-project-POETRY_VIRTUALENVS_IN_PROJECT-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6702727Z tests/config/test_config_source.py::test_config_source_migration_dry_run[unset-value] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6717532Z [gw0] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_dry_run[unset-value] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6743411Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.in-project-POETRY_VIRTUALENVS_IN_PROJECT-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6834171Z tests/config/test_config_source.py::test_config_source_migration_dry_run[missing-key] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6932922Z [gw2] [ 99%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_version_free_threaded[False-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6944050Z [gw1] [ 99%] PASSED tests/console/commands/python/test_python_remove.py::test_remove_multiple_versions 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6993590Z tests/config/test_config.py::test_config_get_processes_depended_on_values 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6994910Z tests/config/test_config_source.py::test_config_source_migration_rename_key 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.6997954Z [gw0] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_dry_run[missing-key] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7054288Z tests/config/test_config_source.py::test_config_source_migration_dry_run[remove-key] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7082756Z tests/config/test_config_source.py::test_config_source_migration_remove_key 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7173361Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_processes_depended_on_values 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7185061Z [gw2] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_rename_key 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7203685Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.no-pip-POETRY_VIRTUALENVS_OPTIONS_NO_PIP-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7306290Z [gw1] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_dry_run[remove-key] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7328229Z tests/config/test_config_source.py::test_config_source_migration_unset_value 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7357780Z [gw0] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_remove_key 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7390511Z tests/config/test_config_source.py::test_config_source_migration_complex_migration 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7465139Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.options.no-pip-POETRY_VIRTUALENVS_OPTIONS_NO_PIP-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7471255Z [gw2] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_unset_value 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7511692Z [gw1] [ 99%] PASSED tests/config/test_config_source.py::test_config_source_migration_complex_migration 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7750838Z tests/config/test_config.py::test_config_get_from_environment_variable[solver.lazy-wheel-POETRY_SOLVER_LAZY_WHEEL-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.7843988Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[solver.lazy-wheel-POETRY_SOLVER_LAZY_WHEEL-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.8076480Z tests/config/test_config.py::test_config_get_from_environment_variable[solver.lazy-wheel-POETRY_SOLVER_LAZY_WHEEL-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.8183726Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[solver.lazy-wheel-POETRY_SOLVER_LAZY_WHEEL-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.8446028Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.create-POETRY_VIRTUALENVS_CREATE-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.8546328Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.create-POETRY_VIRTUALENVS_CREATE-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.8792675Z tests/config/test_config.py::test_config_get_from_environment_variable[keyring.enabled-POETRY_KEYRING_ENABLED-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.9079006Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[keyring.enabled-POETRY_KEYRING_ENABLED-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.9279354Z tests/config/test_config.py::test_config_get_from_environment_variable[installer.builtin-uninstall-POETRY_INSTALLER_BUILTIN_UNINSTALL-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.9395722Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.builtin-uninstall-POETRY_INSTALLER_BUILTIN_UNINSTALL-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.9610088Z tests/config/test_config.py::test_str_list_normalizer[-expected2] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.9705673Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_str_list_normalizer[-expected2] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:07.9994581Z tests/config/test_config.py::test_config_get_from_environment_variable[installer.re-resolve-POETRY_INSTALLER_RE_RESOLVE-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.0043782Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.re-resolve-POETRY_INSTALLER_RE_RESOLVE-True-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.0285818Z tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.0383981Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[installer.parallel-POETRY_INSTALLER_PARALLEL-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.0672814Z tests/config/test_config.py::test_package_filter_policy_normalizes_and_matches_packages 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.0713752Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_package_filter_policy_normalizes_and_matches_packages 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.1044070Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.1074823Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-1-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.1236471Z tests/config/test_config.py::test_config_get_from_environment_variable[system-git-client-POETRY_SYSTEM_GIT_CLIENT-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.1388193Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[system-git-client-POETRY_SYSTEM_GIT_CLIENT-0-False] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.1569489Z tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.1729134Z [gw3] [ 99%] PASSED tests/config/test_config.py::test_config_get_from_environment_variable[virtualenvs.use-poetry-python-POETRY_VIRTUALENVS_USE_POETRY_PYTHON-true-True] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:08.1933516Z tests/config/test_config.py::test_config_expands_tilde_for_virtualenvs_path[venv-expected1] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1926360Z [gw3] [100%] PASSED tests/config/test_config.py::test_config_expands_tilde_for_virtualenvs_path[venv-expected1] 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1927187Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1927414Z ================================== FAILURES ===================================
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1928151Z ____________ test_builder_setup_generation_runs_with_pip_editable _____________
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1929644Z [gw0] win32 -- Python 3.11.9 C:\Users\runneradmin\AppData\Local\pypoetry\Cache\virtualenvs\poetry-irm2WMyr-py3.11\Scripts\python.exe
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1930485Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1930926Z fixture_dir = <function fixture_dir.<locals>._fixture_dir at 0x0000025ECB837240>
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1931747Z tmp_path = WindowsPath('C:/Users/runneradmin/AppData/Local/Temp/pytest-of-runneradmin/pytest-0/popen-gw0/test_builder_setup_generation_0')
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1932663Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1932761Z     @pytest.mark.network
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1933069Z     def test_builder_setup_generation_runs_with_pip_editable(
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1933465Z         fixture_dir: FixtureDirGetter, tmp_path: Path
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1933761Z     ) -> None:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1933975Z         # create an isolated copy of the project
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1934282Z         fixture = fixture_dir("extended_project")
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1934755Z         extended_project = tmp_path / "extended_project"
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1935048Z     
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1935261Z >       shutil.copytree(fixture, extended_project)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1935470Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1935669Z D:\a\poetry\poetry\tests\masonry\builders\test_editable_builder.py:331: 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1936089Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1936527Z C:\hostedtoolcache\windows\Python\3.11.9\x64\Lib\shutil.py:573: in copytree
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1937010Z     return _copytree(entries=entries, src=src, dst=dst, symlinks=symlinks,
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1937414Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1937642Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1938049Z entries = [<DirEntry 'build.py'>, <DirEntry 'extended_project'>, <DirEntry 'pyproject.toml'>, <DirEntry 'README.rst'>, <DirEntry 'setup.py'>]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1938733Z src = WindowsPath('D:/a/poetry/poetry/tests/fixtures/extended_project')
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1939495Z dst = WindowsPath('C:/Users/runneradmin/AppData/Local/Temp/pytest-of-runneradmin/pytest-0/popen-gw0/test_builder_setup_generation_0/extended_project')
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1940151Z symlinks = False, ignore = None
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1940424Z copy_function = <function copy2 at 0x0000025EC57E8040>
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1940773Z ignore_dangling_symlinks = False, dirs_exist_ok = False
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1940999Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1941168Z     def _copytree(entries, src, dst, symlinks, ignore, copy_function,
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1941558Z                   ignore_dangling_symlinks, dirs_exist_ok=False):
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1941861Z         if ignore is not None:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1942186Z             ignored_names = ignore(os.fspath(src), [x.name for x in entries])
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1942523Z         else:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1942699Z             ignored_names = ()
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1942898Z     
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1943101Z         os.makedirs(dst, exist_ok=dirs_exist_ok)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1943362Z         errors = []
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1943658Z         use_srcentry = copy_function is copy2 or copy_function is copy
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1943977Z     
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1944146Z         for srcentry in entries:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1944391Z             if srcentry.name in ignored_names:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1944648Z                 continue
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1944895Z             srcname = os.path.join(src, srcentry.name)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1945200Z             dstname = os.path.join(dst, srcentry.name)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1945511Z             srcobj = srcentry if use_srcentry else srcname
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1945780Z             try:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1945982Z                 is_symlink = srcentry.is_symlink()
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1946274Z                 if is_symlink and os.name == 'nt':
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1946612Z                     # Special check for directory junctions, which appear as
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1946964Z                     # symlinks but we want to recurse.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1947275Z                     lstat = srcentry.stat(follow_symlinks=False)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1947649Z                     if lstat.st_reparse_tag == stat.IO_REPARSE_TAG_MOUNT_POINT:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1947994Z                         is_symlink = False
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1948233Z                 if is_symlink:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1948469Z                     linkto = os.readlink(srcname)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1950030Z                     if symlinks:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1950363Z                         # We can't just leave it to `copy_function` because legacy
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1950791Z                         # code with a custom `copy_function` may rely on copytree
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1951152Z                         # doing the right thing.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1951437Z                         os.symlink(linkto, dstname)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1951782Z                         copystat(srcobj, dstname, follow_symlinks=not symlinks)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1952239Z                     else:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1952507Z                         # ignore dangling symlink if the flag is on
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1952887Z                         if not os.path.exists(linkto) and ignore_dangling_symlinks:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1953230Z                             continue
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1953541Z                         # otherwise let the copy occur. copy2 will raise an error
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1953898Z                         if srcentry.is_dir():
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1960851Z                             copytree(srcobj, dstname, symlinks, ignore,
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1961495Z                                      copy_function, ignore_dangling_symlinks,
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1961848Z                                      dirs_exist_ok)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1962127Z                         else:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1962383Z                             copy_function(srcobj, dstname)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1962681Z                 elif srcentry.is_dir():
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1963018Z                     copytree(srcobj, dstname, symlinks, ignore, copy_function,
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1963420Z                              ignore_dangling_symlinks, dirs_exist_ok)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1963709Z                 else:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1963998Z                     # Will raise a SpecialFileError for unsupported file types
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1964360Z                     copy_function(srcobj, dstname)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1964717Z             # catch the Error from the recursive copytree so that we can
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1965058Z             # continue with other files
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1965307Z             except Error as err:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1965544Z                 errors.extend(err.args[0])
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1965803Z             except OSError as why:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1966075Z                 errors.append((srcname, dstname, str(why)))
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1966358Z         try:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1966540Z             copystat(src, dst)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1966761Z         except OSError as why:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1967022Z             # Copying file access times may fail on Windows
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1967339Z             if getattr(why, 'winerror', None) is None:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1967638Z                 errors.append((src, dst, str(why)))
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1967894Z         if errors:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1968079Z >           raise Error(errors)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1969775Z E           shutil.Error: [('D:\\a\\poetry\\poetry\\tests\\fixtures\\extended_project\\setup.py', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\pytest-of-runneradmin\\pytest-0\\popen-gw0\\test_builder_setup_generation_0\\extended_project\\setup.py', "[Errno 2] No such file or directory: 'D:\\\\a\\\\poetry\\\\poetry\\\\tests\\\\fixtures\\\\extended_project\\\\setup.py'")]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1971039Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1971227Z C:\hostedtoolcache\windows\Python\3.11.9\x64\Lib\shutil.py:527: Error
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1971655Z ============================== warnings summary ===============================
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1971989Z tests/vcs/git/test_backend.py: 6 warnings
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1972262Z tests/vcs/git/test_system.py: 3 warnings
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1972562Z tests/integration/test_utils_vcs_git.py: 24 warnings
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1973347Z   C:\Users\runneradmin\AppData\Local\pypoetry\Cache\virtualenvs\poetry-irm2WMyr-py3.11\Lib\site-packages\dulwich\repo.py:1920: EncodingWarning: 'encoding' argument not specified
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1974680Z     with open(fname, "w") as f:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1974841Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1974964Z tests/installation/test_installer.py: 1 warning
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1975302Z tests/repositories/test_pypi_repository.py: 1 warning
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1975670Z tests/repositories/test_legacy_repository.py: 7 warnings
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1975992Z tests/inspection/test_info.py: 4 warnings
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1976263Z tests/puzzle/test_solver.py: 3 warnings
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1977118Z   C:\Users\runneradmin\AppData\Local\pypoetry\Cache\virtualenvs\poetry-irm2WMyr-py3.11\Lib\site-packages\pkginfo\sdist.py:107: EncodingWarning: 'encoding' argument not specified
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1977891Z     with io.open(pkg_info, errors='ignore') as f:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1978094Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1978338Z tests/utils/env/test_env_manager.py::test_create_venv_finds_no_python_executable
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1978915Z tests/utils/env/test_env_manager.py::test_create_venv_does_not_keep_inconsistent_envs_entry[True]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1979551Z tests/utils/env/test_env_manager.py::test_activate_activates_non_existing_virtualenv_no_envs_file
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1980094Z tests/utils/test_python_manager.py::test_detect_active_python_with_bat
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1980561Z tests/utils/env/test_env.py::test_command_from_bin_preserves_relative_path
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1980977Z tests/utils/env/python/test_manager.py::test_find_all
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1981396Z tests/utils/env/python/test_manager.py::test_find_all_with_poetry_managed
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1982261Z   C:\Users\runneradmin\AppData\Local\pypoetry\Cache\virtualenvs\poetry-irm2WMyr-py3.11\Lib\site-packages\findpython\python.py:23: EncodingWarning: 'encoding' argument not specified.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1983013Z     return subprocess.run(
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1983159Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1983359Z tests/installation/test_executor.py::test_execute_works_with_ansi_output
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1984466Z   C:\Users\runneradmin\AppData\Local\pypoetry\Cache\virtualenvs\poetry-irm2WMyr-py3.11\Lib\site-packages\cleo\io\outputs\stream_output.py:53: EncodingWarning: UTF-8 Mode affects locale.getpreferredencoding(). Consider locale.getencoding() instead.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1985560Z     encoding = self._stream.encoding or locale.getpreferredencoding(False)
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1985850Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1985968Z tests/console/commands/test_init.py: 10 warnings
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1986732Z   C:\Users\runneradmin\AppData\Local\pypoetry\Cache\virtualenvs\poetry-irm2WMyr-py3.11\Lib\site-packages\cleo\ui\question.py:268: EncodingWarning: 'encoding' argument not specified
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1987485Z     with Path(os.devnull).open("w") as devnull:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1987683Z 
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1987882Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1988310Z =========================== short test summary info ===========================
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1988863Z SKIPPED [1] tests\installation\test_uninstaller.py:309: chmod does not prevent deletion on Windows and FreeBSD
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1989987Z SKIPPED [1] tests\console\commands\test_sync.py:26: Only relevant for `poetry install`
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1990498Z SKIPPED [1] tests\utils\env\test_env_manager.py:1412: requires darwin
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1990985Z SKIPPED [1] tests\utils\env\test_env.py:165: Symlinks are not support for Windows
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1991585Z SKIPPED [1] tests\installation\test_executor.py:513: https://github.com/python-poetry/poetry/issues/7983
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1992144Z SKIPPED [6] tests\utils\test_compat.py:27: non-Windows paths
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1992652Z SKIPPED [1] tests\console\commands\self\test_sync.py:26: Only relevant for `poetry self install`
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1993954Z XFAIL tests/puzzle/test_solver.py::test_solver_local_version_variant_is_not_wrongly_excluded_via_stale_lock - The dependencies of a plain release leak onto its local variants, because `==2.12.1` also matches `2.12.1+cpu`. Only the resulting orphan decisions are handled, not the leak itself.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1996244Z XFAIL tests/puzzle/test_solver.py::test_solver_local_version_variant_is_not_wrongly_excluded - The dependencies of a plain release leak onto its local variants, because `==2.12.1` also matches `2.12.1+cpu`. Only the resulting orphan decisions are handled, not the leak itself.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.1998795Z FAILED tests/masonry/builders/test_editable_builder.py::test_builder_setup_generation_runs_with_pip_editable - shutil.Error: [('D:\\a\\poetry\\poetry\\tests\\fixtures\\extended_project\\setup.py', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\pytest-of-runneradmin\\pytest-0\\popen-gw0\\test_builder_setup_generation_0\\extended_project\\setup.py', "[Errno 2] No such file or directory: 'D:\\\\a\\\\poetry\\\\poetry\\\\tests\\\\fixtures\\\\extended_project\\\\setup.py'")]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.2000583Z = 1 failed, 3362 passed, 12 skipped, 2 xfailed, 67 warnings in 141.71s (0:02:21) =
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.4483412Z ##[error]Process completed with exit code 1.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.5146399Z Post job cleanup.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.5216170Z ##[start-action display=Run actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9;id=__07a2ecfe-e7d2-4cda-976a-5efe78b66bfc.cache]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.5254850Z ##[end-action id=__07a2ecfe-e7d2-4cda-976a-5efe78b66bfc.cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.5799811Z Post job cleanup.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.5875616Z ##[start-action display=Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97;id=__183d9f7c-28e5-4c75-884f-df84b7f783a3.setup-python]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.5912212Z ##[end-action id=__183d9f7c-28e5-4c75-884f-df84b7f783a3.setup-python;outcome=skipped;conclusion=skipped;duration_ms=0]
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.7073142Z Post job cleanup.
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.9190413Z [command]"C:\Program Files\Git\bin\git.exe" version
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.9452237Z git version 2.55.0.windows.5
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.9514708Z Temporarily overriding HOME='D:\a\_temp\aed1f1e7-d754-4ba3-9338-f6b98fb6343a' before making global git config changes
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.9515571Z Adding repository directory to the temporary git global config as a safe directory
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.9524560Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\poetry\poetry
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.9820060Z Removing SSH command configuration
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:09.9830739Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:10.0128886Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:10.5626495Z Removing HTTP extra header
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:10.5642632Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:10.5975316Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:11.1521779Z Removing includeIf entries pointing to credentials config files
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:11.1533293Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:11.1846563Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:11.7127593Z Cleaning up orphan processes
+Windows (Python 3.11) / pytest	UNKNOWN STEP	2026-09-27T10:38:11.7261563Z Terminate orphan process: pid (8484) (vctip)
+Status	UNKNOWN STEP	﻿2026-09-27T10:41:48.0488376Z Current runner version: '2.337.0'
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0514519Z ##[group]Runner Image Provisioner
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0515375Z Hosted Compute Agent
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0516132Z Version: 20260828.587
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0516789Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0518006Z Build Date: 2026-08-28T16:44:25Z
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0518765Z Worker ID: {4a089142-1017-430d-a731-6e4835838a1e}
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0519483Z Azure Region: eastus2
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0520154Z ##[endgroup]
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0521668Z ##[group]Operating System
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0522401Z Ubuntu
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0522973Z 24.04.5
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0523563Z LTS
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0524101Z ##[endgroup]
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0524692Z ##[group]Runner Image
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0525367Z Image: ubuntu-24.04
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0525985Z Version: 20260920.314.1
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0527590Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0529247Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0530383Z ##[endgroup]
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0531437Z ##[group]GITHUB_TOKEN Permissions
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0533371Z Metadata: read
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0533980Z ##[endgroup]
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0536587Z Secret source: None
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0537878Z Cache mode: write
+Status	UNKNOWN STEP	2026-09-27T10:41:48.0538935Z Prepare workflow directory
+Status	UNKNOWN STEP	2026-09-27T10:41:48.2170611Z Prepare all required actions
+Status	UNKNOWN STEP	2026-09-27T10:41:48.2800360Z Complete job name: Status
+Status	UNKNOWN STEP	2026-09-27T10:41:48.4305742Z ##[group]Run false
+Status	UNKNOWN STEP	2026-09-27T10:41:48.4306317Z ^[[36;1mfalse^[[0m
+Status	UNKNOWN STEP	2026-09-27T10:41:48.5165904Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Status	UNKNOWN STEP	2026-09-27T10:41:48.5167686Z ##[endgroup]
+Status	UNKNOWN STEP	2026-09-27T10:41:48.5427435Z ##[error]Process completed with exit code 1.
+Status	UNKNOWN STEP	2026-09-27T10:41:48.5793134Z Cleaning up orphan processes

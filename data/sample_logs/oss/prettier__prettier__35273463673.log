@@ -1,0 +1,263 @@
+Lint	UNKNOWN STEP	﻿2026-09-17T20:53:07.7965306Z Current runner version: '2.337.0'
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7990885Z ##[group]Runner Image Provisioner
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7991793Z Hosted Compute Agent
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7992509Z Version: 20260828.587
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7993192Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7993920Z Build Date: 2026-08-28T16:44:25Z
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7995087Z Worker ID: {2ed3458a-dd45-4e6f-89e9-435518a770cf}
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7995829Z Azure Region: eastus2
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7996477Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7998454Z ##[group]Operating System
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7999140Z Ubuntu
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.7999866Z 24.04.5
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8000422Z LTS
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8001004Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8001606Z ##[group]Runner Image
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8002245Z Image: ubuntu-24.04
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8002932Z Version: 20260907.300.1
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8004249Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8005918Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8007205Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8008492Z ##[group]GITHUB_TOKEN Permissions
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8011295Z Contents: read
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8012332Z Metadata: read
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8013179Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8015632Z Secret source: Actions
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8017641Z Cache mode: write
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8019192Z Prepare workflow directory
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8464633Z Prepare all required actions
+Lint	UNKNOWN STEP	2026-09-17T20:53:07.8531029Z Getting action download info
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.0732066Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.1579574Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.2465585Z Download action repository 'actions/dependency-review-action@v4' (SHA:2031cfc080254a8a887f58cffee85186f0e49e48)
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.6394846Z Complete job name: Lint
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7190923Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7200024Z ##[group]Run actions/checkout@v4
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7200929Z with:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7201581Z   repository: prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7205568Z   token: ***
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7206212Z   ssh-strict: true
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7206945Z   ssh-user: git
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7207553Z   persist-credentials: true
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7208239Z   clean: true
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7208882Z   sparse-checkout-cone-mode: true
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7209613Z   fetch-depth: 1
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7210172Z   fetch-tags: false
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7210767Z   show-progress: true
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7211356Z   lfs: false
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7212103Z   submodules: false
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7212705Z   set-safe-directory: true
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7213329Z   allow-unsafe-pr-checkout: false
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.7214315Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8312733Z Syncing repository: prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8315445Z ##[group]Getting Git version info
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8317138Z Working directory is '/home/runner/work/prettier/prettier'
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8319133Z [command]/usr/bin/git version
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8335895Z git version 2.55.0
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8357721Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8371810Z Temporarily overriding HOME='/home/runner/work/_temp/5f87bb4a-e573-46ba-a2d9-71fbb3fc0533' before making global git config changes
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8374714Z Adding repository directory to the temporary git global config as a safe directory
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8377152Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8422877Z Deleting the contents of '/home/runner/work/prettier/prettier'
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8431699Z ##[group]Initializing the repository
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8441827Z [command]/usr/bin/git init /home/runner/work/prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8510185Z hint: Using 'master' as the name for the initial branch. This default branch name
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8512720Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8514277Z hint: to use in all of your new repositories, which will suppress this warning,
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8515831Z hint: call:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8516684Z hint:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8518042Z hint: 	git config --global init.defaultBranch <name>
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8519077Z hint:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8520301Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8521595Z hint: 'development'. The just-created branch can be renamed via this command:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8522587Z hint:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8523615Z hint: 	git branch -m <name>
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8524618Z hint:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8525583Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8527344Z Initialized empty Git repository in /home/runner/work/prettier/prettier/.git/
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8532045Z [command]/usr/bin/git remote add origin https://github.com/prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8579819Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8660411Z ##[group]Disabling automatic garbage collection
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8668044Z [command]/usr/bin/git config --local gc.auto 0
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8675463Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8676437Z ##[group]Setting up auth
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8677726Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8680763Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.8994502Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.9026562Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.9259039Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.9292239Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.9526211Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.9561285Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.9562093Z ##[group]Fetching the repository
+Lint	UNKNOWN STEP	2026-09-17T20:53:08.9569946Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +ed6f419197af98d00e9a0c5975428a8e454c7a5b:refs/remotes/origin/patch-release
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9358867Z From https://github.com/prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9368700Z  * [new ref]         ed6f419197af98d00e9a0c5975428a8e454c7a5b -> origin/patch-release
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9373088Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9374665Z ##[group]Determining the checkout info
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9376247Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9377626Z [command]/usr/bin/git sparse-checkout disable
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9429024Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9460708Z ##[group]Checking out the ref
+Lint	UNKNOWN STEP	2026-09-17T20:53:09.9472415Z [command]/usr/bin/git checkout --progress --force -B patch-release refs/remotes/origin/patch-release
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.3915109Z Switched to a new branch 'patch-release'
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.3917402Z branch 'patch-release' set up to track 'origin/patch-release'.
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.3930848Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.3975981Z [command]/usr/bin/git log -1 --format=%H
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4000302Z ed6f419197af98d00e9a0c5975428a8e454c7a5b
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4275488Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4277470Z ##[group]Run actions/setup-node@v4
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4277784Z with:
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4278035Z   cache: yarn
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4278300Z   always-auth: false
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4278582Z   check-latest: false
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4281364Z   token: ***
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.4281632Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.5657926Z ##[group]Environment details
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.5668961Z (node:2245) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Lint	UNKNOWN STEP	2026-09-17T20:53:10.5669772Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.1023873Z node: v22.23.2
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.1024347Z npm: 10.9.8
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.1024659Z yarn: 4.9.2
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.1025381Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.1065209Z [command]/usr/local/bin/yarn --version
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.4433127Z 4.9.2
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.4639268Z [command]/usr/local/bin/yarn config get cacheFolder
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.7963376Z /home/runner/.yarn/berry/cache
+Lint	UNKNOWN STEP	2026-09-17T20:53:11.8271403Z [command]/usr/local/bin/yarn config get enableGlobalCache
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.1902804Z ^[[33mtrue^[[39m
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.2866095Z yarn cache is not found
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.3014311Z ##[group]Run yarn install --immutable
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.3014694Z ^[[36;1myarn install --immutable^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.3058196Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.3058491Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.7425650Z ^[[94m➤^[[39m YN0000: · Yarn 4.9.2
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.7513673Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Resolution step
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.7514790Z ##[group]Resolution step
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9040316Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9041568Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9050084Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Post-resolution validation
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9051019Z ##[group]Post-resolution validation
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9053130Z ^[[93m➤^[[39m YN0002: │ ^[[38;5;173mprettier^[[39m^[[38;5;111m@^[[39m^[[38;5;111mworkspace:.^[[39m doesn't provide ^[[38;5;166m@types/^[[39m^[[38;5;173mnode^[[39m (^[[38;5;111mpd5d66^[[39m), requested by ^[[38;5;173mknip^[[39m.
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9056146Z ^[[93m➤^[[39m YN0002: │ ^[[38;5;173mprettier^[[39m^[[38;5;111m@^[[39m^[[38;5;111mworkspace:.^[[39m doesn't provide ^[[38;5;173mrollup^[[39m (^[[38;5;111mpd38a6^[[39m), requested by ^[[38;5;173mrollup-plugin-license^[[39m.
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9059182Z ^[[93m➤^[[39m YN0086: │ Some peer dependencies are incorrectly met by your project; run ^[[38;5;111myarn explain peer-requirements <hash>^[[39m for details, where ^[[38;5;111m<hash>^[[39m is the six-letter p-prefixed code.
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9061796Z ^[[93m➤^[[39m YN0086: │ Some peer dependencies are incorrectly met by dependencies; run ^[[38;5;111myarn explain peer-requirements^[[39m for details.
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9343997Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9344842Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9347371Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Fetch step
+Lint	UNKNOWN STEP	2026-09-17T20:53:12.9348171Z ##[group]Fetch step
+Lint	UNKNOWN STEP	2026-09-17T20:53:22.8785553Z ^[[94m➤^[[39m YN0013: │ ^[[38;5;220m879^[[39m packages were added to the project (^[[38;5;160m+ 52.62 MiB^[[39m).
+Lint	UNKNOWN STEP	2026-09-17T20:53:22.8786976Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:22.8787696Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 9s 944ms
+Lint	UNKNOWN STEP	2026-09-17T20:53:22.9085622Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Link step
+Lint	UNKNOWN STEP	2026-09-17T20:53:22.9086626Z ##[group]Link step
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.4076356Z ^[[94m➤^[[39m YN0007: │ ^[[38;5;173mesbuild^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:0.25.5^[[39m must be built because it never has been before or the last one failed
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.4080854Z ^[[94m➤^[[39m YN0007: │ ^[[38;5;173munrs-resolver^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:1.7.11^[[39m must be built because it never has been before or the last one failed
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.5683341Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.5709502Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 4s 660ms
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.6336688Z ^[[93m➤^[[39m YN0000: · Done with warnings in 14s 893ms
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.7750660Z ##[group]Run yarn lint:deps
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.7750962Z ^[[36;1myarn lint:deps^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.7791006Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:53:27.7791275Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3098762Z Checking '/package.json'...
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3113948Z ✅ All dependency versions are pinned.
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3114409Z 
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3114868Z Checking '/website/package.json'...
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3119560Z ✅ All dependency versions are pinned.
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3120225Z 
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3120945Z Checking '/scripts/release/package.json'...
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3124908Z ✅ All dependency versions are pinned.
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3125278Z 
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3128477Z Checking '/scripts/tools/bundle-test/package.json'...
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3132935Z ✅ All dependency versions are pinned.
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3133280Z 
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3133905Z Checking '/scripts/tools/eslint-plugin-prettier-internal-rules/package.json'...
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3143596Z ✅ All dependency versions are pinned.
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3441551Z ##[group]Run yarn lint:typecheck
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3441868Z ^[[36;1myarn lint:typecheck^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3483744Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:53:28.3484022Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:34.1225546Z ##[group]Run yarn lint:eslint
+Lint	UNKNOWN STEP	2026-09-17T20:53:34.1225861Z ^[[36;1myarn lint:eslint^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:53:34.1266044Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:53:34.1266339Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:37.3750583Z Browserslist: browsers data (caniuse-lite) is 16 months old. Please run:
+Lint	UNKNOWN STEP	2026-09-17T20:53:37.3751137Z   npx update-browserslist-db@latest
+Lint	UNKNOWN STEP	2026-09-17T20:53:37.3751640Z   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Lint	UNKNOWN STEP	2026-09-17T20:53:48.7950616Z ##[group]Run yarn lint:prettier
+Lint	UNKNOWN STEP	2026-09-17T20:53:48.7950937Z ^[[36;1myarn lint:prettier^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:53:48.7988940Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:53:48.7989206Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:53:49.3785825Z Checking formatting...
+Lint	UNKNOWN STEP	2026-09-17T20:54:01.3931750Z All matched files use Prettier code style!
+Lint	UNKNOWN STEP	2026-09-17T20:54:01.4473202Z ##[group]Run yarn lint:spellcheck
+Lint	UNKNOWN STEP	2026-09-17T20:54:01.4473525Z ^[[36;1myarn lint:spellcheck^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:54:01.4512127Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:54:01.4512402Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.2324400Z CSpell: Files checked: 2401, Issues found: 0 in 0 files.
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.3012473Z ##[group]Run yarn lint:changelog
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.3012799Z ^[[36;1myarn lint:changelog^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.3052160Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.3052431Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.9010264Z ##[group]Run yarn lint:format-test
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.9010798Z ^[[36;1myarn lint:format-test^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.9064064Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:54:09.9064489Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:54:10.5249767Z Pass.
+Lint	UNKNOWN STEP	2026-09-17T20:54:10.5573236Z ##[group]Run yarn prettier "{docs,website/versioned_docs/version-stable}/**/*.md" --check
+Lint	UNKNOWN STEP	2026-09-17T20:54:10.5573902Z ^[[36;1myarn prettier "{docs,website/versioned_docs/version-stable}/**/*.md" --check^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:54:10.5612600Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-09-17T20:54:10.5612873Z env:
+Lint	UNKNOWN STEP	2026-09-17T20:54:10.5613092Z   PRETTIER_DEBUG: true
+Lint	UNKNOWN STEP	2026-09-17T20:54:10.5613324Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:54:11.1374985Z Checking formatting...
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.5683474Z All matched files use Prettier code style!
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6129745Z ##[group]Run bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6130608Z ^[[36;1mbash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6131340Z ^[[36;1m./actionlint -color^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6173099Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6173470Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6309013Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6309848Z                                  Dload  Upload   Total   Spent    Left  Speed
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6310222Z 
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6684300Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6685025Z 100  4059  100  4059    0     0   105k      0 --:--:-- --:--:-- --:--:--  107k
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6709924Z Start downloading actionlint v1.7.12 to /home/runner/work/prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6728897Z Detected OS=linux ext=tar.gz arch=amd64
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6730986Z Downloading https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz with curl
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6790373Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6791271Z                                  Dload  Upload   Total   Spent    Left  Speed
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.6792260Z 
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.7280207Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.7367100Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.7367818Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.8066963Z actionlint
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.8516175Z 
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.8517888Z 100 2298k  100 2298k    0     0  12.9M      0 --:--:-- --:--:-- --:--:-- 12.9M
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.8613459Z Downloaded and unarchived executable: /home/runner/work/prettier/prettier/actionlint
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.8642443Z Done: 1.7.12
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.8642828Z installed by downloading from release page
+Lint	UNKNOWN STEP	2026-09-17T20:54:12.8643232Z built with go1.26.1 compiler for linux/amd64
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.6928456Z ^[[33m.github/workflows/prod-test.yml^[[0m^[[90m:^[[0m78^[[90m:^[[0m17^[[90m: ^[[0m^[[1mlabel "macos-13" is unknown. available labels are "windows-latest", "windows-latest-8-cores", "windows-2025", "windows-2025-vs2026", "windows-2022", "windows-11-arm", "ubuntu-slim", "ubuntu-latest", "ubuntu-latest-4-cores", "ubuntu-latest-8-cores", "ubuntu-latest-16-cores", "ubuntu-24.04", "ubuntu-24.04-arm", "ubuntu-22.04", "ubuntu-22.04-arm", "macos-latest", "macos-latest-xlarge", "macos-latest-large", "macos-26-intel", "macos-26-xlarge", "macos-26-large", "macos-26", "macos-15-intel", "macos-15-xlarge", "macos-15-large", "macos-15", "macos-14-xlarge", "macos-14-large", "macos-14", "self-hosted", "x64", "arm", "arm64", "linux", "macos", "windows". if it is a custom label for self-hosted runner, set list of labels in actionlint.yaml config file^[[0m^[[90m [runner-label]
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.6931572Z ^[[0m^[[90m   |
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.6932804Z ^[[0m^[[90m78 | ^[[0m          - os: "macos-13"
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.6933428Z ^[[90m   | ^[[0m^[[32m                ^~~~~~~~~~^[[0m
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.6950624Z ##[error]Process completed with exit code 1.
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.7132017Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.7133756Z Post job cleanup.
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.7997767Z [command]/usr/bin/git version
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8035156Z git version 2.55.0
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8071283Z Temporarily overriding HOME='/home/runner/work/_temp/99b6eff6-3bea-484d-bdad-bdddcb36e8f3' before making global git config changes
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8073193Z Adding repository directory to the temporary git global config as a safe directory
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8077305Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8112900Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8146088Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8433408Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8460199Z http.https://github.com/.extraheader
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8471122Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8505543Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8760914Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.8794298Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.9203831Z Cleaning up orphan processes
+Lint	UNKNOWN STEP	2026-09-17T20:54:13.9525928Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

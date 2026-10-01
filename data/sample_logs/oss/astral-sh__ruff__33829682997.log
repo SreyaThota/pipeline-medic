@@ -1,0 +1,309 @@
+Generate diagnostic diff report	UNKNOWN STEP	﻿2026-09-04T02:32:03.3731243Z Current runner version: '2.337.0'
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3755281Z ##[group]Runner Image Provisioner
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3756178Z Hosted Compute Agent
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3756772Z Version: 20260828.587
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3757511Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3758267Z Build Date: 2026-08-28T16:44:25Z
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3759126Z Worker ID: {57ebbaae-e8f3-4c8d-8dc4-27b4a8252940}
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3760345Z Azure Region: westus
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3760954Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3762879Z ##[group]Operating System
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3763553Z Ubuntu
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3764139Z 24.04.4
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3764725Z LTS
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3765255Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3765869Z ##[group]Runner Image
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3766512Z Image: ubuntu-24.04
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3767129Z Version: 20260831.293.1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3768447Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260831.293/images/ubuntu/Ubuntu2404-Readme.md
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3770382Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260831.293
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3771445Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3772526Z ##[group]GITHUB_TOKEN Permissions
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3774722Z Metadata: read
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3775423Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3777633Z Secret source: Actions
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.3778801Z Prepare workflow directory
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.4243644Z Prepare all required actions
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.4292624Z Getting action download info
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:03.7837414Z Download action repository 'astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d' (SHA:20cfd1bf945f4377ade1205e4dbc17946fc9a30d)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:04.3668806Z Download action repository 'actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c' (SHA:3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:04.7388897Z Download action repository 'actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a' (SHA:043fb46d1a93c77aae656e7c1c64a875d1fc6a0a)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:04.9207011Z Complete job name: Generate diagnostic diff report
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0047910Z ##[group]Run astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0049203Z with:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0050211Z   version: 0.12.9
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0050834Z   ignore-empty-workdir: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0051554Z   enable-cache: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0052228Z   activate-environment: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0052898Z   no-project: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0053731Z   working-directory: /home/runner/work/ruff/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0057931Z   github-token: ***
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0059233Z   cache-dependency-glob: **/*requirements*.txt
+Generate diagnostic diff report	UNKNOWN STEP	**/*requirements*.in
+Generate diagnostic diff report	UNKNOWN STEP	**/*constraints*.txt
+Generate diagnostic diff report	UNKNOWN STEP	**/*constraints*.in
+Generate diagnostic diff report	UNKNOWN STEP	**/pyproject.toml
+Generate diagnostic diff report	UNKNOWN STEP	**/uv.lock
+Generate diagnostic diff report	UNKNOWN STEP	**/*.py.lock
+Generate diagnostic diff report	UNKNOWN STEP	
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0060765Z   restore-cache: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0061407Z   save-cache: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0062298Z   prune-cache: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0062918Z   cache-python: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0063603Z   ignore-nothing-to-cache: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0064412Z   download-from-astral-mirror: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0065194Z   add-problem-matchers: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0065851Z   quiet: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0066432Z   resolution-strategy: highest
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0067505Z env:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0068084Z   UV_LOCKED: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0068691Z   CARGO_INCREMENTAL: 0
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0069373Z   CARGO_NET_RETRY: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0070182Z   CARGO_TERM_COLOR: always
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0070916Z   RUSTUP_MAX_RETRIES: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0071547Z   RUST_BACKTRACE: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0072229Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.0073064Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.1850750Z Empty workdir detected. Ignoring because ignore-empty-workdir is enabled
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.1948423Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.2393280Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.9/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.4094513Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/f752e23b-8bde-455b-8222-11ad8bd307f2 -f /home/runner/work/_temp/323cc3a1-0463-4093-b148-7a4c5cd4a61b
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.8040460Z Added /home/runner/.local/bin to the path
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.8043768Z Added /opt/hostedtoolcache/uv/0.12.9/x86_64 to the path
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.8045854Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.8047013Z Added /home/runner/work/_temp/uv-python-dir to the path
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.8155052Z Successfully installed uv version 0.12.9
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9920503Z ##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9921378Z with:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9921818Z   name: ty-build-dependencies
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9922360Z   merge-multiple: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9922856Z   repository: astral-sh/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9923386Z   run-id: 33829682997
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9923864Z   skip-decompress: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9924364Z   digest-mismatch: error
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9924829Z env:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9925238Z   UV_LOCKED: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9925682Z   CARGO_INCREMENTAL: 0
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9926159Z   CARGO_NET_RETRY: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9926630Z   CARGO_TERM_COLOR: always
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9927123Z   RUSTUP_MAX_RETRIES: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9927593Z   RUST_BACKTRACE: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9928109Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9928833Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:05.9929791Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:06.1273072Z Downloading single artifact
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:06.3847783Z Preparing to download the following artifacts:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:06.3851576Z - ty-build-dependencies (ID: 9921232851, Size: 104100, Expected Digest: sha256:662402ffb66b2e60493abb2cb5d9fdd5df2bd1144516ac18ff17d5224ed23930)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:06.9018808Z Redirecting to blob download url: https://productionresultssa17.blob.core.windows.net/actions-results/5ce8e721-3970-4177-aca0-dde7fbec62bf/workflow-job-run-b1463d98-33fd-589c-aebf-6bdf38db5ae8/artifacts/c5e9745581bd81b7aa36a4101909dea82860ed66cf8c89a2ca40f3e3af02320d.zip
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:06.9028034Z Starting download of artifact to: /home/runner/work/ruff/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.1620416Z (node:2096) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.1627360Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.2801672Z SHA256 digest of downloaded artifact is 662402ffb66b2e60493abb2cb5d9fdd5df2bd1144516ac18ff17d5224ed23930
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.2805709Z Artifact download completed successfully.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.2807926Z Total of 1 artifact(s) downloaded
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.2810275Z Download artifact has finished successfully
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3054265Z ##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3056070Z with:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3056939Z   pattern: diagnostics-shard-*
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3058051Z   merge-multiple: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3059059Z   repository: astral-sh/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3060568Z   run-id: 33829682997
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3061534Z   skip-decompress: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3062556Z   digest-mismatch: error
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3063504Z env:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3064306Z   UV_LOCKED: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3065206Z   CARGO_INCREMENTAL: 0
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3066150Z   CARGO_NET_RETRY: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3067098Z   CARGO_TERM_COLOR: always
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3068128Z   RUSTUP_MAX_RETRIES: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3069104Z   RUST_BACKTRACE: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3070303Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3071947Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.3073717Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.7252876Z Found 7 artifact(s)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.7254940Z Filtering artifacts by pattern 'diagnostics-shard-*'
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.7275712Z Preparing to download the following artifacts:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.7277862Z - diagnostics-shard-3 (ID: 9921264974, Size: 3933465, Expected Digest: sha256:05cb2120cc0f5c34d21cf986b252df25097a53028b3b012e68469d2b207f89ca)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.7280764Z - diagnostics-shard-1 (ID: 9921260833, Size: 1701058, Expected Digest: sha256:3b993986ce04c87b377d4bd27455192640e13ba898bfc677295ff3d38c16111a)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.7283295Z - diagnostics-shard-2 (ID: 9921260356, Size: 2989309, Expected Digest: sha256:8d9238d13148810043b5c62000c66913926c60639853a84ed98c9d458b624e7c)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:07.7285905Z - diagnostics-shard-0 (ID: 9921251754, Size: 748316, Expected Digest: sha256:602688e4fc4ec342f00468e980fd9883d710d3dae822426fc3da1a9d66aadae9)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2397509Z Redirecting to blob download url: https://productionresultssa17.blob.core.windows.net/actions-results/5ce8e721-3970-4177-aca0-dde7fbec62bf/workflow-job-run-7bffcab9-3ca7-5e99-9ad1-38b0d1a8317d/artifacts/b22a580ed17fbd555ea67edf623d60bd464b817a51181b7c2f9bc2cebafc2dc3.zip
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2400409Z Starting download of artifact to: /home/runner/work/ruff/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2418505Z Redirecting to blob download url: https://productionresultssa17.blob.core.windows.net/actions-results/5ce8e721-3970-4177-aca0-dde7fbec62bf/workflow-job-run-9dae79e8-b71d-5775-b2ce-49df8adc308d/artifacts/1121ad3a25f90c09dc7e1cc4ef930440161f3892fb1529b61e62247f7f3657e1.zip
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2420393Z Starting download of artifact to: /home/runner/work/ruff/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2483357Z Redirecting to blob download url: https://productionresultssa17.blob.core.windows.net/actions-results/5ce8e721-3970-4177-aca0-dde7fbec62bf/workflow-job-run-4c608714-dd9b-56a5-805c-f04d8a3482a4/artifacts/7496a3cf42dc8c9c3d0df85fa051a41bf6c9db00f9d1cfd288a2f1c7b0656673.zip
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2484776Z Starting download of artifact to: /home/runner/work/ruff/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2540209Z Redirecting to blob download url: https://productionresultssa17.blob.core.windows.net/actions-results/5ce8e721-3970-4177-aca0-dde7fbec62bf/workflow-job-run-2c29da4e-2ef5-54e8-bf5c-f791618c7397/artifacts/4116a07912d6ffd4534bc4ce6910f65dd5edac1d71be3c78dda7794f5ae98d41.zip
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.2543137Z Starting download of artifact to: /home/runner/work/ruff/ruff
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.5208533Z (node:2109) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.5211195Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.9420486Z SHA256 digest of downloaded artifact is 602688e4fc4ec342f00468e980fd9883d710d3dae822426fc3da1a9d66aadae9
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:08.9421195Z Artifact download completed successfully.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.2198702Z SHA256 digest of downloaded artifact is 3b993986ce04c87b377d4bd27455192640e13ba898bfc677295ff3d38c16111a
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.2200424Z Artifact download completed successfully.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5226825Z SHA256 digest of downloaded artifact is 8d9238d13148810043b5c62000c66913926c60639853a84ed98c9d458b624e7c
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5228316Z Artifact download completed successfully.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5789033Z SHA256 digest of downloaded artifact is 05cb2120cc0f5c34d21cf986b252df25097a53028b3b012e68469d2b207f89ca
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5790031Z Artifact download completed successfully.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5790435Z Total of 4 artifact(s) downloaded
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5796269Z Download artifact has finished successfully
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5926060Z ##[group]Run # Merge shard diagnostics
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5926520Z ^[[36;1m# Merge shard diagnostics^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5927056Z ^[[36;1mjq -s '{ outputs: [.[].outputs[]] }' diagnostics-base-*.json > diagnostics-base.json^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5927731Z ^[[36;1mjq -s '{ outputs: [.[].outputs[]] }' diagnostics-PR-*.json   > diagnostics-PR.json^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5928382Z ^[[36;1m^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5928615Z ^[[36;1mmkdir dist^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5928860Z ^[[36;1m^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5929214Z ^[[36;1m# Upload a structured JSON report alongside the HTML report to make^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5930118Z ^[[36;1m# ecosystem changes easier for agents to analyze.^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5930499Z ^[[36;1muv run \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5930755Z ^[[36;1m  --locked \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5931035Z ^[[36;1m  --only-group=ty-ecosystem \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5931379Z ^[[36;1m  ecosystem-analyzer \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5931682Z ^[[36;1m  generate-diff \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5932000Z ^[[36;1m  diagnostics-base.json \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5932312Z ^[[36;1m  diagnostics-PR.json \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5932668Z ^[[36;1m  --old-name "${BASE_REF_NAME} (merge base)" \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5933035Z ^[[36;1m  --new-name "$REF_NAME" \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5933357Z ^[[36;1m  --output-html dist/diff.html \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5933711Z ^[[36;1m  --output-json dist/diff.json^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5934023Z ^[[36;1m^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5934239Z ^[[36;1mset +e^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5934503Z ^[[36;1muv run \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5934754Z ^[[36;1m  --locked \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5935034Z ^[[36;1m  --only-group=ty-ecosystem \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5935358Z ^[[36;1m  ecosystem-analyzer \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5935670Z ^[[36;1m  generate-diff-statistics \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5936080Z ^[[36;1m  diagnostics-base.json \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5936440Z ^[[36;1m  diagnostics-PR.json \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5936761Z ^[[36;1m  --fail-on-new-abnormal-exits \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5937137Z ^[[36;1m  --old-name "${BASE_REF_NAME} (merge base)" \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5937494Z ^[[36;1m  --new-name "$REF_NAME" \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5937801Z ^[[36;1m  --output diff-statistics.md^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5938126Z ^[[36;1mDIFF_STATISTICS_EXIT_CODE=$?^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5938427Z ^[[36;1mset -e^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5938677Z ^[[36;1m^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5938896Z ^[[36;1muv run \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5939139Z ^[[36;1m  --locked \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5939411Z ^[[36;1m  --only-group=ty-ecosystem \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5940012Z ^[[36;1m  ecosystem-analyzer \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5940329Z ^[[36;1m  generate-timing-diff \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5940642Z ^[[36;1m  diagnostics-base.json \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5940960Z ^[[36;1m  diagnostics-PR.json \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5941306Z ^[[36;1m  --old-name "${BASE_REF_NAME} (merge base)" \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5941661Z ^[[36;1m  --new-name "$REF_NAME" \^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5941976Z ^[[36;1m  --output-html dist/timing.html^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5942288Z ^[[36;1m^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5942544Z ^[[36;1mcat diff-statistics.md >> comment.md^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5942865Z ^[[36;1m^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5943156Z ^[[36;1mcat diff-statistics.md >> "$GITHUB_STEP_SUMMARY"^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5943505Z ^[[36;1m^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5943895Z ^[[36;1mecho "diff_statistics_exit_code=$DIFF_STATISTICS_EXIT_CODE" >> "$GITHUB_OUTPUT"^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5985330Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5985732Z env:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5985961Z   UV_LOCKED: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5986213Z   CARGO_INCREMENTAL: 0
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5986471Z   CARGO_NET_RETRY: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5986741Z   CARGO_TERM_COLOR: always
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5987023Z   RUSTUP_MAX_RETRIES: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5987292Z   RUST_BACKTRACE: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5987592Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5988029Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5988637Z   REF_NAME: 28291/merge
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5988918Z   BASE_REF_NAME: main
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:09.5989173Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:16.0995927Z Downloading cpython-3.14.7-linux-x86_64-gnu (download) (34.3MiB)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:16.9398061Z  Downloaded cpython-3.14.7-linux-x86_64-gnu (download)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.1235232Z Using CPython 3.14.7
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.1235806Z Creating virtual environment at: .venv
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.1295496Z    Updating https://github.com/astral-sh/ecosystem-analyzer (HEAD)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.1303308Z    Updating https://github.com/hauntsaninja/mypy_primer (3058720299b812c393ad926bcca96eede20fa683)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.8732534Z     Updated https://github.com/astral-sh/ecosystem-analyzer (a31ef389f3cc304b59623df7fe4b068419a323a4)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.8751486Z    Building ecosystem-analyzer @ git+https://github.com/astral-sh/ecosystem-analyzer@a31ef389f3cc304b59623df7fe4b068419a323a4
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.8814394Z       Built ecosystem-analyzer @ git+https://github.com/astral-sh/ecosystem-analyzer@a31ef389f3cc304b59623df7fe4b068419a323a4
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.8874930Z     Updated https://github.com/hauntsaninja/mypy_primer (3058720299b812c393ad926bcca96eede20fa683)
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:17.8877342Z    Building mypy-primer @ git+https://github.com/hauntsaninja/mypy_primer@3058720299b812c393ad926bcca96eede20fa683
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:18.9462573Z       Built mypy-primer @ git+https://github.com/hauntsaninja/mypy_primer@3058720299b812c393ad926bcca96eede20fa683
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:18.9526086Z Installed 6 packages in 2ms
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:22.7493779Z HTML report generated at: dist/diff.html
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:22.7494297Z JSON diff saved to: dist/diff.json
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:26.2367189Z Error: New project failures introduced in: dd-trace-py, hydra-zen, optuna
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:26.2368233Z Markdown statistics report generated at: diff-statistics.md
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8522816Z Timing diff HTML report generated at: dist/timing.html
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8937986Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8938454Z with:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8938685Z   name: full-report
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8938938Z   path: dist/
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8939187Z   if-no-files-found: warn
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8939466Z   compression-level: 6
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8940071Z   overwrite: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8940354Z   include-hidden-files: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8940641Z   archive: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8940873Z env:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8941088Z   UV_LOCKED: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8941319Z   CARGO_INCREMENTAL: 0
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8941571Z   CARGO_NET_RETRY: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8941825Z   CARGO_TERM_COLOR: always
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8942091Z   RUSTUP_MAX_RETRIES: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8942352Z   RUST_BACKTRACE: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8942635Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8943064Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:29.8943472Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.0410916Z With the provided path, there will be 3 files uploaded
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.0411776Z Artifact name is valid!
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.0412176Z Root directory input is valid!
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.4400790Z Uploading artifact: full-report.zip
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.4442673Z Beginning upload of artifact content to blob storage
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.8263526Z Uploaded bytes 17234
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.8963039Z Finished uploading artifact content to blob storage!
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.8964671Z SHA256 digest of uploaded artifact is b72f7913139c005d8c40257cbe6113cb9699324dee6fff65a572ec72624dd96f
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:30.8965606Z Finalizing artifact upload
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3089940Z Artifact full-report successfully finalized. Artifact ID 9921277349
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3092636Z Artifact full-report has been successfully uploaded! Final size is 17234 bytes. Artifact ID is 9921277349
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3094544Z Artifact download URL: https://github.com/astral-sh/ruff/actions/runs/33829682997/artifacts/9921277349
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3242950Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3243429Z with:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3243671Z   name: comment.md
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3243929Z   path: comment.md
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3244193Z   if-no-files-found: warn
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3244479Z   compression-level: 6
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3244917Z   overwrite: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3245197Z   include-hidden-files: false
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3245490Z   archive: true
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3245729Z env:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3245948Z   UV_LOCKED: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3246192Z   CARGO_INCREMENTAL: 0
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3246456Z   CARGO_NET_RETRY: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3246719Z   CARGO_TERM_COLOR: always
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3246998Z   RUSTUP_MAX_RETRIES: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3247260Z   RUST_BACKTRACE: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3247554Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3247988Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.3248398Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.4680329Z With the provided path, there will be 1 file uploaded
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.4685996Z Artifact name is valid!
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.4687017Z Root directory input is valid!
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.8634873Z Uploading artifact: comment.md.zip
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:31.8678871Z Beginning upload of artifact content to blob storage
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.1560552Z Uploaded bytes 685
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.2268342Z Finished uploading artifact content to blob storage!
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.2269937Z SHA256 digest of uploaded artifact is aca4b06750ae87201eed04ef7b53bde73272f37fb63d521228b7d51b78699309
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.2271124Z Finalizing artifact upload
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6573815Z Artifact comment.md successfully finalized. Artifact ID 9921277861
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6574784Z Artifact comment.md has been successfully uploaded! Final size is 685 bytes. Artifact ID is 9921277861
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6578178Z Artifact download URL: https://github.com/astral-sh/ruff/actions/runs/33829682997/artifacts/9921277861
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6714077Z ##[group]Run exit 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6714399Z ^[[36;1mexit 1^[[0m
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6749930Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6750325Z env:
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6750556Z   UV_LOCKED: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6750809Z   CARGO_INCREMENTAL: 0
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6751081Z   CARGO_NET_RETRY: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6751360Z   CARGO_TERM_COLOR: always
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6751651Z   RUSTUP_MAX_RETRIES: 10
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6751932Z   RUST_BACKTRACE: 1
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6752235Z   CARGO_PROFILE_PROFILING_DEBUG: line-tables-only
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6752686Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6753077Z ##[endgroup]
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6820921Z ##[error]Process completed with exit code 1.
+Generate diagnostic diff report	UNKNOWN STEP	2026-09-04T02:32:32.6914914Z Cleaning up orphan processes

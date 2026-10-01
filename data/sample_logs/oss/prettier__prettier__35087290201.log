@@ -1,0 +1,284 @@
+Run automated fix / Run automated fix	UNKNOWN STEP	﻿2026-09-16T10:52:45.0336063Z Current runner version: '2.337.0'
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0371253Z ##[group]Runner Image Provisioner
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0372657Z Hosted Compute Agent
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0374001Z Version: 20260828.587
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0375071Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0376418Z Build Date: 2026-08-28T16:44:25Z
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0377716Z Worker ID: {a3ff535e-abfd-467c-89d1-f0f88c312701}
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0378954Z Azure Region: eastus
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0379994Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0383067Z ##[group]Operating System
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0384495Z Ubuntu
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0385334Z 24.04.5
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0386209Z LTS
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0387303Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0388225Z ##[group]Runner Image
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0389302Z Image: ubuntu-24.04
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0390372Z Version: 20260907.300.1
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0392534Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0395501Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0397363Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0399079Z ##[group]GITHUB_TOKEN Permissions
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0402204Z Metadata: read
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0403133Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0406693Z Secret source: None
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0408275Z Cache mode: write
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0410051Z Prepare workflow directory
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0894230Z Prepare all required actions
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.0965954Z Getting action download info
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.3351180Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.4754622Z Download action repository 'actions/setup-node@v6' (SHA:249970729cb0ef3589644e2896645e5dc5ba9c38)
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.5747273Z Download action repository 'autofix-ci/action@v1' (SHA:c5b2d67aa2274e7b5a18224e8171550871fc7e4a)
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.7913457Z Uses: prettier/shared-workflows/.github/workflows/automated-fix.yml@c3ac99dd39893c2592fc5e6029420a1b90ad647b
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.7918268Z ##[group] Inputs
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.7918844Z   repository: prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.7919414Z   script: yarn
+Run automated fix / Run automated fix	UNKNOWN STEP	yarn fix || true
+Run automated fix / Run automated fix	UNKNOWN STEP	
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.7919949Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.7920504Z Complete job name: Run automated fix / Run automated fix
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8702601Z ##[group]Run actions/checkout@v6
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8703866Z with:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8704349Z   repository: prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8708100Z   token: ***
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8708532Z   ssh-strict: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8708965Z   ssh-user: git
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8709412Z   persist-credentials: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8709916Z   clean: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8710369Z   sparse-checkout-cone-mode: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8710894Z   fetch-depth: 1
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8711332Z   fetch-tags: false
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8711776Z   show-progress: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8712227Z   lfs: false
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8712700Z   submodules: false
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8713155Z   set-safe-directory: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8713859Z   allow-unsafe-pr-checkout: false
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.8714704Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9708810Z Syncing repository: prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9710854Z ##[group]Getting Git version info
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9711705Z Working directory is '/home/runner/work/prettier/prettier'
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9712856Z [command]/usr/bin/git version
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9813406Z git version 2.55.0
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9837791Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9854528Z Temporarily overriding HOME='/home/runner/work/_temp/c277eef0-9283-4806-a47e-2659b1f05334' before making global git config changes
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9856975Z Adding repository directory to the temporary git global config as a safe directory
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9860739Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9916536Z Deleting the contents of '/home/runner/work/prettier/prettier'
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9922297Z ##[group]Determining repository object format
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9925996Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9927236Z ##[group]Initializing the repository
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:45.9932499Z [command]/usr/bin/git init /home/runner/work/prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0067047Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0068174Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0069169Z hint: to use in all of your new repositories, which will suppress this warning,
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0069960Z hint: call:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0070489Z hint:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0071371Z hint: 	git config --global init.defaultBranch <name>
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0072277Z hint:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0073055Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0074655Z hint: 'development'. The just-created branch can be renamed via this command:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0076082Z hint:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0076906Z hint: 	git branch -m <name>
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0077471Z hint:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0078147Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0079243Z Initialized empty Git repository in /home/runner/work/prettier/prettier/.git/
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0083221Z [command]/usr/bin/git remote add origin https://github.com/prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0143848Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0145351Z ##[group]Disabling automatic garbage collection
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0148799Z [command]/usr/bin/git config --local gc.auto 0
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0180255Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0181742Z ##[group]Setting up auth
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0182750Z Removing SSH command configuration
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0188759Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0227789Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0658207Z Removing HTTP extra header
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0665211Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0704824Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0975646Z Removing includeIf entries pointing to credentials config files
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.0982323Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1016012Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1260726Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1301063Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/prettier/prettier/.git.path /home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1331994Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1374826Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1405409Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1430312Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1431078Z ##[group]Fetching the repository
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:46.1441149Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +aa7a86e7051e89699de09b9ae99b09d109db0b51:refs/remotes/pull/20066/merge
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1342845Z From https://github.com/prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1345413Z  * [new ref]         aa7a86e7051e89699de09b9ae99b09d109db0b51 -> pull/20066/merge
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1350677Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1352779Z ##[group]Determining the checkout info
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1355151Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1359196Z [command]/usr/bin/git sparse-checkout disable
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1420812Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1454720Z ##[group]Checking out the ref
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.1461542Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/20066/merge
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6530086Z Note: switching to 'refs/remotes/pull/20066/merge'.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6530867Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6531464Z You are in 'detached HEAD' state. You can look around, make experimental
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6532495Z changes and commit them, and you can discard any commits you make in this
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6533965Z state without impacting any branches by switching back to a branch.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6534650Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6535132Z If you want to create a new branch to retain commits you create, you may
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6538100Z do so (now or later) by using -c with the switch command. Example:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6538744Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6539035Z   git switch -c <new-branch-name>
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6539483Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6539767Z Or undo this operation with:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6540135Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6540366Z   git switch -
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6540722Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6541206Z Turn off this advice by setting config variable advice.detachedHead to false
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6541974Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6542865Z HEAD is now at aa7a86e Merge 5e43b25a54b28c9fb6bae684db306f121bb49d83 into fe7fadc35e8d9b2f45572c5c9ee783422ebb5c70
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6571854Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6619795Z [command]/usr/bin/git log -1 --format=%H
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.6646764Z aa7a86e7051e89699de09b9ae99b09d109db0b51
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.7005616Z ##[group]Run actions/setup-node@v6
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.7006037Z with:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.7006345Z   check-latest: false
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.7009359Z   token: ***
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.7009690Z   package-manager-cache: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.7010044Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:47.8379006Z ##[group]Environment details
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.5959978Z node: v22.23.2
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.5960520Z npm: 10.9.8
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.5960770Z yarn: 4.18.0
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.5961759Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.6134859Z ##[group]Run yarn
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.6135256Z ^[[36;1myarn^[[0m
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.6135527Z ^[[36;1myarn fix || true^[[0m
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.6175902Z shell: /usr/bin/bash -e {0}
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:48.6176249Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:49.0979616Z ^[[93m➤^[[39m YN0000: Yarn detected that the current workflow is executed from a public pull request. For safety the hardened mode has been enabled.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:49.0982811Z ^[[93m➤^[[39m YN0000: It will prevent malicious lockfile manipulations, in exchange for a slower install time. You can opt-out if necessary; check our documentation for more details.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:49.0984387Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:49.0984862Z ^[[94m➤^[[39m YN0000: · Yarn 4.18.0
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:49.1102861Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Resolution step
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:49.1103952Z ##[group]Resolution step
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.5704676Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.5725559Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 5s 460ms
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.5740276Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Post-resolution validation
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.5754716Z ##[group]Post-resolution validation
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.5772383Z ^[[93m➤^[[39m YN0002: │ ^[[38;5;173mprettier^[[39m^[[38;5;111m@^[[39m^[[38;5;111mworkspace:.^[[39m doesn't provide ^[[38;5;173mrollup^[[39m (^[[38;5;111mpd38a67^[[39m), requested by ^[[38;5;173mrollup-plugin-license^[[39m.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.5781924Z ^[[93m➤^[[39m YN0086: │ Some peer dependencies are incorrectly met by your project; run ^[[38;5;111myarn explain peer-requirements <hash>^[[39m for details, where ^[[38;5;111m<hash>^[[39m is the six-letter p-prefixed code.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.6161164Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.6162758Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.6164118Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Fetch step
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:52:54.6165297Z ##[group]Fetch step
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:04.4223487Z ^[[94m➤^[[39m YN0013: │ ^[[38;5;220m921^[[39m packages were added to the project (^[[38;5;160m+ 67.14 MiB^[[39m).
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:04.4225027Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:04.4225596Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 9s 806ms
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:04.4714595Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: ┌ Link step
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:04.4716702Z ##[group]Link step
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:11.4480515Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;166m@parcel/^[[39m^[[38;5;173mwatcher^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:2.6.0^[[39m lists build scripts, but all build scripts have been disabled.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:11.4483110Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;173mesbuild^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:0.28.2^[[39m lists build scripts, but all build scripts have been disabled.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:11.4485717Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;173mpuppeteer^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:25.11.0^[[39m lists build scripts, but all build scripts have been disabled.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:11.4488535Z ^[[93m➤^[[39m YN0004: │ ^[[38;5;173munrs-resolver^[[39m^[[38;5;111m@^[[39m^[[38;5;111mnpm:1.12.2^[[39m lists build scripts, but all build scripts have been disabled.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:11.4490371Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:11.4491314Z ^[[94m➤^[[39m ^[[90mYN0000^[[39m: └ Completed in 6s 977ms
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:11.5133873Z Yarn plugin "prepare" running in "/home/runner/work/prettier/prettier".
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:13.9006744Z ^[[93m➤^[[39m YN0000: · Done with warnings in 24s 803ms
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:38.8384407Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:38.8385948Z /home/runner/work/prettier/prettier/src/language-html/print-preprocess.js
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:38.8428106Z ##[error]  164:16  error  Prefer a direct element replacement instead of `splice()`  unicorn/no-confusing-array-splice
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:38.8438979Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:38.8439628Z ✖ 1 problem (1 error, 0 warnings)
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:38.8439960Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:40.0820803Z Checking formatting...
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:53:45.5640604Z [^[[33mwarn^[[39m] src/language-html/print-preprocess.js
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.4364368Z [^[[33mwarn^[[39m] Code style issues fixed in the above file.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.5056963Z ERROR: "fix:eslint" exited with 1.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.5366146Z ##[group]Run autofix-ci/action@v1
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.5366430Z with:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.5366648Z   commit-message: Apply automated changes
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.5366923Z   fail-fast: true
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.5367124Z ##[endgroup]
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:01.7071172Z [command]/usr/bin/git reset
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.0119189Z Unstaged changes after reset:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.0119678Z M	src/language-html/print-preprocess.js
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.0164367Z [command]/usr/bin/git -c core.fileMode=false add --all
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.0915454Z [command]/usr/bin/git -c core.quotepath=false diff --name-only --staged --no-renames
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.0974644Z src/language-html/print-preprocess.js
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.0983084Z Need to update 1 files.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1001769Z [command]/usr/bin/git config user.name autofix.ci
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1061947Z [command]/usr/bin/git config user.email noreply@autofix.ci
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1125000Z [command]/usr/bin/git commit --no-verify -m autofix
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1365460Z [detached HEAD 7f7070f] autofix
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1366314Z  1 file changed, 1 insertion(+), 1 deletion(-)
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1384567Z [command]/usr/bin/git rev-parse HEAD
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1418904Z 7f7070fd190ae55833fed3124e96881089ea4261
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.1432288Z [command]/usr/bin/git fetch --depth=1 origin 5e43b25a54b28c9fb6bae684db306f121bb49d83
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4638458Z From https://github.com/prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4639026Z  * branch            5e43b25a54b28c9fb6bae684db306f121bb49d83 -> FETCH_HEAD
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4656430Z [command]/usr/bin/git checkout --force FETCH_HEAD
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4907072Z Warning: you are leaving 1 commit behind, not connected to
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4907891Z any of your branches:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4908135Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4908265Z   7f7070f autofix
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4908448Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4908851Z If you want to keep it by creating a new branch, this may be a good time
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4909390Z to do so with:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4909596Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4909783Z  git branch <new-branch-name> 7f7070f
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4910056Z 
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4910386Z HEAD is now at 5e43b25 Remove obsolete ngNonBindable helper
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.4929061Z [command]/usr/bin/git cherry-pick --no-commit 7f7070fd190ae55833fed3124e96881089ea4261
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.5235737Z Artifact name is valid!
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.5236445Z Root directory input is valid!
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.7186753Z Uploading artifact: autofix.ci.zip
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.7229035Z Beginning upload of artifact content to blob storage
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.7727268Z Uploaded bytes 5054
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.7842124Z Finished uploading artifact content to blob storage!
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.7843550Z SHA256 digest of uploaded artifact is f147d6730a5401e8e914d91ff4f780031337428fef59ade820ae0a7f0eb725ce
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:02.7845142Z Finalizing artifact upload
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.0096039Z Artifact autofix.ci successfully finalized. Artifact ID 10442917070
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8361093Z ##[error]✅ Autofix task started.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8364385Z [command]/usr/bin/git diff --staged
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8421628Z diff --git a/src/language-html/print-preprocess.js b/src/language-html/print-preprocess.js
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8422403Z index 90a5eb5..e688a61 100644
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8423126Z --- a/src/language-html/print-preprocess.js
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8424103Z +++ b/src/language-html/print-preprocess.js
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8425121Z @@ -129,7 +129,7 @@ function convertAngularNonBindableChildren(node, options) {
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8426132Z        convertAngularNonBindableChildren(child, options);
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8426827Z  
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8427261Z        const replacements = [];
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8427907Z -      let start = child.sourceSpan.start;
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8428675Z +      let { start } = child.sourceSpan;
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8429281Z        for (const blockChild of child.children) {
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8430374Z          if (start.offset < blockChild.sourceSpan.start.offset) {
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8431114Z            const sourceSpan = new ParseSourceSpan(
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.8637101Z Post job cleanup.
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9504552Z [command]/usr/bin/git version
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9543045Z git version 2.55.0
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9582716Z Temporarily overriding HOME='/home/runner/work/_temp/15ec98fb-9cd2-4ab8-8a1e-424c6f1b013d' before making global git config changes
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9584754Z Adding repository directory to the temporary git global config as a safe directory
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9588177Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9619705Z Removing SSH command configuration
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9627149Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9663591Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9907468Z Removing HTTP extra header
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9912825Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:03.9950907Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0190986Z Removing includeIf entries pointing to credentials config files
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0199756Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0230826Z includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0232021Z includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0239492Z includeif.gitdir:/github/workspace/.git.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0240867Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0249620Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0266065Z /home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0278508Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git.path /home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0314856Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0336611Z /home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0349459Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0385565Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0409121Z /github/runner_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0422097Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0478811Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0482096Z /github/runner_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0489200Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0531646Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0796621Z Removing credentials config '/home/runner/work/_temp/git-credentials-d743909a-9383-4ce1-860e-777d7a181046.config'
+Run automated fix / Run automated fix	UNKNOWN STEP	2026-09-16T10:54:04.0961795Z Cleaning up orphan processes

@@ -1,0 +1,400 @@
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0382644Z             "Cmd": null,
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0382793Z             "Image": "",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0383059Z             "Volumes": {
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0383325Z                 "/tmp": {}
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0383658Z             },
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0384011Z             "WorkingDir": "/",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0384219Z             "Entrypoint": [
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0384392Z                 "/usr/bin/binfmt"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0384594Z             ],
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0384738Z             "OnBuild": null,
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0384900Z             "Labels": null
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0385141Z         },
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0385292Z         "Architecture": "amd64",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0385453Z         "Os": "linux",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0385599Z         "Size": 85304497,
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0385754Z         "GraphDriver": {
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0385903Z             "Data": {
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0386203Z                 "LowerDir": "/var/lib/docker/overlay2/550bfd3bfe5b85c449c4b366c8a76a6ba9b270a043d1a27d4ced49ca5f2ad1b1/diff",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0386652Z                 "MergedDir": "/var/lib/docker/overlay2/4ee8ddd21a1791f1932835bd87aece0852108de5b1993397cb5dbfa247a76952/merged",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0387086Z                 "UpperDir": "/var/lib/docker/overlay2/4ee8ddd21a1791f1932835bd87aece0852108de5b1993397cb5dbfa247a76952/diff",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0387509Z                 "WorkDir": "/var/lib/docker/overlay2/4ee8ddd21a1791f1932835bd87aece0852108de5b1993397cb5dbfa247a76952/work"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0387805Z             },
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0387954Z             "Name": "overlay2"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0388113Z         },
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0388245Z         "RootFS": {
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0388392Z             "Type": "layers",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0388557Z             "Layers": [
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0388781Z                 "sha256:c747b796d990a647df062f87e24f1ef5e4a90a312cd9c4ae8b7d09667d57befb",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0389095Z                 "sha256:6d831b0f477d9df7afe18e5a65c97e8084fef8fe10c2930b65f728ab68d0bb5b"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0389327Z             ]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0389459Z         },
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0389598Z         "Metadata": {
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0389758Z             "LastTagTime": "0001-01-01T00:00:00Z"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0389934Z         }
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0390063Z     }
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0390193Z ]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0390579Z ##[endgroup]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0390803Z ##[group]Binfmt version
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.0395012Z [command]/usr/bin/docker run --rm --privileged tonistiigi/binfmt@sha256:400a4873b838d1b89194d982c45e5fb3cda4593fbfd7e08a02e76b03b21166f0 --version
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.1700402Z binfmt/e29e7d7 qemu/v10.2.3 go/1.26.4
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.2574686Z ##[endgroup]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.2575686Z ##[group]Installing QEMU static binaries
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.2581617Z [command]/usr/bin/docker run --rm --privileged tonistiigi/binfmt@sha256:400a4873b838d1b89194d982c45e5fb3cda4593fbfd7e08a02e76b03b21166f0 --install riscv64
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4496326Z installing: riscv64 OK
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4521937Z {
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4522506Z   "supported": [
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4522817Z     "linux/amd64",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4522978Z     "linux/amd64/v2",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4523135Z     "linux/amd64/v3",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4523281Z     "linux/amd64/v4",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4523433Z     "linux/riscv64",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4523576Z     "linux/386"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4523708Z   ],
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4523841Z   "emulators": [
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4523995Z     "llvm-16-runtime.binfmt",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4524175Z     "llvm-17-runtime.binfmt",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4524360Z     "llvm-18-runtime.binfmt",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4524529Z     "python3.12",
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4524671Z     "qemu-riscv64"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4524813Z   ]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4524938Z }
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4902897Z ##[endgroup]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.4903871Z ##[group]Extracting available platforms
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6853715Z linux/amd64,linux/amd64/v2,linux/amd64/v3,linux/amd64/v4,linux/riscv64,linux/386
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6854982Z ##[endgroup]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6916853Z ##[end-action id=__astral-sh_github-actions.__docker_setup-qemu-action;outcome=success;conclusion=success;duration_ms=5472]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6920539Z ##[start-action display=Test release artifact;id=__astral-sh_github-actions.__run]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6928425Z ##[group]Run toolchain_mount=()
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6928735Z ^[[36;1mtoolchain_mount=()^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6928967Z ^[[36;1mif [[ -n "$RUST_TOOLCHAIN" ]]; then^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6929381Z ^[[36;1m  toolchain_mount=(--mount "type=bind,source=$GITHUB_WORKSPACE/$RUST_TOOLCHAIN,target=/test/rust-toolchain.toml,readonly")^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6929777Z ^[[36;1m  # Run setup and tests in the same shell so the PATH update carries over.^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6930069Z ^[[36;1m  TEST_SCRIPT="$(cat "$ACTION_PATH/setup-rust.sh")"$'\n'"$TEST_SCRIPT"^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6930292Z ^[[36;1mfi^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6930432Z ^[[36;1m^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6930634Z ^[[36;1m# Test dependencies must not be able to change artifacts, subsequent builds,^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6930938Z ^[[36;1m# or the runner. Do not mount the workspace, runner files, or Docker socket.^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6931235Z ^[[36;1m# Installations and source builds write only to the disposable container.^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6931732Z ^[[36;1mdocker run --rm --platform "$PLATFORM" --workdir /test \^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6932039Z ^[[36;1m  --mount "type=bind,source=$GITHUB_WORKSPACE/$ARTIFACTS,target=/dist,readonly" \^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6932412Z ^[[36;1m  --mount "type=bind,source=$ACTION_PATH/pip-requirements.txt,target=/pip-requirements.txt,readonly" \^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6932759Z ^[[36;1m  "${toolchain_mount[@]}" \^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6933002Z ^[[36;1m  --env PACKAGE_NAME --env MODULE_NAME --env DEBIAN_FRONTEND=noninteractive \^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6933280Z ^[[36;1m  --entrypoint /bin/sh "$IMAGE" -euc "$TEST_SCRIPT"^[[0m
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6960093Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6960336Z env:
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6960471Z   UV_LOCKED: 1
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6960615Z   ACTIONS_CACHE_MODE: none
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6960783Z   PACKAGE_NAME: ruff
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6960929Z   MODULE_NAME: ruff
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6961070Z   PYTHON_VERSION: 3.13
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6961216Z   CARGO_INCREMENTAL: 0
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6961427Z   CARGO_NET_RETRY: 10
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6961579Z   CARGO_TERM_COLOR: always
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6961746Z   RUSTUP_MAX_RETRIES: 10
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6961933Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6962184Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6962502Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6962733Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6962970Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6963199Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6963549Z   ACTION_PATH: /home/runner/work/_actions/astral-sh/github-actions/e6a0d38509bf35a70619cb422858000b0fb2930c/release-smoke-test
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6963859Z   ARTIFACTS: dist
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6964113Z   IMAGE: riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e820c4e0b0f6c1d2843116b0a1ae754890951ac
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6964385Z   PLATFORM: linux/riscv64
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6964537Z   RUST_TOOLCHAIN: 
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6965059Z   TEST_SCRIPT: apt-get update
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	apt-get install -y --no-install-recommends python3 python3-pip libatomic1
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	pip3 install --upgrade --require-hashes -r /pip-requirements.txt
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	pip3 install "${PACKAGE_NAME}" --no-index --find-links /dist --force-reinstall
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	ruff --help
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.6965609Z ##[endgroup]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.7082518Z Unable to find image 'riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e820c4e0b0f6c1d2843116b0a1ae754890951ac' locally
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.8476205Z docker.io/riscv64/ubuntu@sha256:610bedb0c5d9aeae4b45e9064e820c4e0b0f6c1d2843116b0a1ae754890951ac: Pulling from riscv64/ubuntu
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:26.9247159Z 1b71767744c5: Pulling fs layer
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:27.1739435Z 1b71767744c5: Verifying Checksum
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:27.1740347Z 1b71767744c5: Download complete
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:27.4248878Z 1b71767744c5: Pull complete
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:27.4340872Z Digest: sha256:610bedb0c5d9aeae4b45e9064e820c4e0b0f6c1d2843116b0a1ae754890951ac
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:27.4379291Z Status: Downloaded newer image for riscv64/ubuntu@sha256:610bedb0c5d9aeae4b45e9064e820c4e0b0f6c1d2843116b0a1ae754890951ac
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:27.8041004Z Get:1 http://ports.ubuntu.com/ubuntu-ports focal InRelease [265 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:28.1722275Z Get:2 http://ports.ubuntu.com/ubuntu-ports focal-updates InRelease [128 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:28.1750006Z Get:3 http://ports.ubuntu.com/ubuntu-ports focal-backports InRelease [128 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:28.1981737Z Get:4 http://ports.ubuntu.com/ubuntu-ports focal-security InRelease [128 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:28.9408682Z Get:5 http://ports.ubuntu.com/ubuntu-ports focal/universe riscv64 Packages [10.4 MB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:29.5915293Z Get:6 http://ports.ubuntu.com/ubuntu-ports focal/restricted riscv64 Packages [1317 B]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:29.5942026Z Get:7 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 Packages [1147 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:29.6399662Z Get:8 http://ports.ubuntu.com/ubuntu-ports focal/multiverse riscv64 Packages [134 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:29.6591776Z Get:9 http://ports.ubuntu.com/ubuntu-ports focal-updates/multiverse riscv64 Packages [6430 B]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:29.6592735Z Get:10 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 Packages [1639 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:29.7252662Z Get:11 http://ports.ubuntu.com/ubuntu-ports focal-updates/universe riscv64 Packages [1159 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:29.7602301Z Get:12 http://ports.ubuntu.com/ubuntu-ports focal-updates/restricted riscv64 Packages [14.1 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:30.3649221Z Get:13 http://ports.ubuntu.com/ubuntu-ports focal-backports/main riscv64 Packages [45.2 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:30.3982457Z Get:14 http://ports.ubuntu.com/ubuntu-ports focal-backports/universe riscv64 Packages [20.0 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:31.0685850Z Get:15 http://ports.ubuntu.com/ubuntu-ports focal-security/universe riscv64 Packages [903 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:31.1283341Z Get:16 http://ports.ubuntu.com/ubuntu-ports focal-security/multiverse riscv64 Packages [4411 B]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:31.1288817Z Get:17 http://ports.ubuntu.com/ubuntu-ports focal-security/main riscv64 Packages [1304 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:31.1843113Z Get:18 http://ports.ubuntu.com/ubuntu-ports focal-security/restricted riscv64 Packages [13.6 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:32.5625096Z Fetched 17.5 MB in 5s (3623 kB/s)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:35.2759198Z Reading package lists...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.3985029Z Reading package lists...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.7328868Z Building dependency tree...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.7329973Z Reading state information...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9597870Z The following additional packages will be installed:
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9599104Z   ca-certificates libexpat1 libmpdec2 libpython3-stdlib libpython3.8-minimal
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9600214Z   libpython3.8-stdlib libreadline8 libsqlite3-0 libssl1.1 mime-support openssl
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9600971Z   python-pip-whl python3-distutils python3-lib2to3 python3-minimal
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9601296Z   python3-pkg-resources python3-setuptools python3-wheel python3.8
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9601715Z   python3.8-minimal readline-common
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9612794Z Suggested packages:
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9613124Z   python3-doc python3-tk python3-venv python-setuptools-doc python3.8-venv
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9613470Z   python3.8-doc binutils binfmt-support readline-doc
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9613674Z Recommended packages:
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:38.9613845Z   file xz-utils build-essential python3-dev
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.3138272Z The following NEW packages will be installed:
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.3140031Z   ca-certificates libatomic1 libexpat1 libmpdec2 libpython3-stdlib
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.3141515Z   libpython3.8-minimal libpython3.8-stdlib libreadline8 libsqlite3-0 libssl1.1
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.3142287Z   mime-support openssl python-pip-whl python3 python3-distutils
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.3151851Z   python3-lib2to3 python3-minimal python3-pip python3-pkg-resources
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.3152171Z   python3-setuptools python3-wheel python3.8 python3.8-minimal readline-common
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.5992362Z 0 upgraded, 24 newly installed, 0 to remove and 5 not upgraded.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.5993084Z Need to get 9503 kB of archives.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.5993337Z After this operation, 31.7 MB of additional disk space will be used.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:39.5993844Z Get:1 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 libssl1.1 riscv64 1.1.1f-1ubuntu2.24 [972 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.5255155Z Get:2 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 libpython3.8-minimal riscv64 3.8.10-0ubuntu1~20.04.18 [712 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.6654529Z Get:3 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 libexpat1 riscv64 2.2.9-1ubuntu0.8 [70.9 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.6737325Z Get:4 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 python3.8-minimal riscv64 3.8.10-0ubuntu1~20.04.18 [1451 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.8741754Z Get:5 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 python3-minimal riscv64 3.8.2-0ubuntu2 [23.6 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.8755451Z Get:6 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 mime-support all 3.64ubuntu1 [30.6 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.8773880Z Get:7 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 libmpdec2 riscv64 2.4.2-3 [79.2 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.8821099Z Get:8 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 readline-common all 8.0-4 [53.5 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.8851091Z Get:9 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 libreadline8 riscv64 8.0-4 [113 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.8915707Z Get:10 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 libsqlite3-0 riscv64 3.31.1-4ubuntu0.7 [487 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:40.9608021Z Get:11 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 libpython3.8-stdlib riscv64 3.8.10-0ubuntu1~20.04.18 [1565 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.0230085Z Get:12 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 python3.8 riscv64 3.8.10-0ubuntu1~20.04.18 [387 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.0756867Z Get:13 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 libpython3-stdlib riscv64 3.8.2-0ubuntu2 [7072 B]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.0764444Z Get:14 http://ports.ubuntu.com/ubuntu-ports focal/main riscv64 python3 riscv64 3.8.2-0ubuntu2 [47.6 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.0781982Z Get:15 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 openssl riscv64 1.1.1f-1ubuntu2.24 [595 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.1016050Z Get:16 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 ca-certificates all 20240203~20.04.1 [159 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.1080382Z Get:17 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 python3-pkg-resources all 45.2.0-1ubuntu0.3 [130 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.1134013Z Get:18 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 libatomic1 riscv64 10.5.0-1ubuntu1~20.04 [7488 B]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.1140226Z Get:19 http://ports.ubuntu.com/ubuntu-ports focal-updates/universe riscv64 python-pip-whl all 20.0.2-5ubuntu1.11 [1808 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.2063776Z Get:20 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 python3-lib2to3 all 3.8.10-0ubuntu1~20.04 [76.3 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.2112807Z Get:21 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 python3-distutils all 3.8.10-0ubuntu1~20.04 [141 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.2170280Z Get:22 http://ports.ubuntu.com/ubuntu-ports focal-updates/main riscv64 python3-setuptools all 45.2.0-1ubuntu0.3 [330 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.2299400Z Get:23 http://ports.ubuntu.com/ubuntu-ports focal-updates/universe riscv64 python3-wheel all 0.34.2-1ubuntu0.1 [23.9 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.2311619Z Get:24 http://ports.ubuntu.com/ubuntu-ports focal-updates/universe riscv64 python3-pip all 20.0.2-5ubuntu1.11 [231 kB]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.6583389Z debconf: delaying package configuration, since apt-utils is not installed
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.7228336Z Fetched 9503 kB in 2s (4962 kB/s)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8598564Z Selecting previously unselected package libssl1.1:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8614356Z (Reading database ... 
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8614898Z (Reading database ... 5%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8615131Z (Reading database ... 10%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8615299Z (Reading database ... 15%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8615489Z (Reading database ... 20%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8615683Z (Reading database ... 25%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8615929Z (Reading database ... 30%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8616093Z (Reading database ... 35%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8616240Z (Reading database ... 40%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8616390Z (Reading database ... 45%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8616546Z (Reading database ... 50%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8616693Z (Reading database ... 55%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8616840Z (Reading database ... 60%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8616990Z (Reading database ... 65%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8617657Z (Reading database ... 70%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8620363Z (Reading database ... 75%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8623075Z (Reading database ... 80%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8633462Z (Reading database ... 85%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8640847Z (Reading database ... 90%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8644921Z (Reading database ... 95%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8645228Z (Reading database ... 100%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8645785Z (Reading database ... 4112 files and directories currently installed.)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8648584Z Preparing to unpack .../libssl1.1_1.1.1f-1ubuntu2.24_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:41.8982343Z Unpacking libssl1.1:riscv64 (1.1.1f-1ubuntu2.24) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.2243068Z Selecting previously unselected package libpython3.8-minimal:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.2252846Z Preparing to unpack .../libpython3.8-minimal_3.8.10-0ubuntu1~20.04.18_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.2271148Z Unpacking libpython3.8-minimal:riscv64 (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.5093715Z Selecting previously unselected package libexpat1:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.5103731Z Preparing to unpack .../libexpat1_2.2.9-1ubuntu0.8_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.5122913Z Unpacking libexpat1:riscv64 (2.2.9-1ubuntu0.8) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.6458106Z Selecting previously unselected package python3.8-minimal.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.6469877Z Preparing to unpack .../python3.8-minimal_3.8.10-0ubuntu1~20.04.18_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:42.6848910Z Unpacking python3.8-minimal (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:43.1102782Z Setting up libssl1.1:riscv64 (1.1.1f-1ubuntu2.24) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:43.4538380Z Setting up libpython3.8-minimal:riscv64 (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:43.5095430Z Setting up libexpat1:riscv64 (2.2.9-1ubuntu0.8) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:43.5156370Z Setting up python3.8-minimal (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8346819Z Selecting previously unselected package python3-minimal.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8363798Z (Reading database ... 
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8364075Z (Reading database ... 5%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8364302Z (Reading database ... 10%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8364467Z (Reading database ... 15%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8364623Z (Reading database ... 20%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8364774Z (Reading database ... 25%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8364924Z (Reading database ... 30%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8365085Z (Reading database ... 35%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8365234Z (Reading database ... 40%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8365383Z (Reading database ... 45%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8365535Z (Reading database ... 50%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8365686Z (Reading database ... 55%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8365860Z (Reading database ... 60%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8366248Z (Reading database ... 65%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8367383Z (Reading database ... 70%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8370268Z (Reading database ... 75%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8373139Z (Reading database ... 80%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8383890Z (Reading database ... 85%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8391928Z (Reading database ... 90%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8396158Z (Reading database ... 95%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8397260Z (Reading database ... 100%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8397969Z (Reading database ... 4413 files and directories currently installed.)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8400809Z Preparing to unpack .../0-python3-minimal_3.8.2-0ubuntu2_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:50.8457106Z Unpacking python3-minimal (3.8.2-0ubuntu2) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.0253859Z Selecting previously unselected package mime-support.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.0262211Z Preparing to unpack .../1-mime-support_3.64ubuntu1_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.0282643Z Unpacking mime-support (3.64ubuntu1) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.1560752Z Selecting previously unselected package libmpdec2:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.1569354Z Preparing to unpack .../2-libmpdec2_2.4.2-3_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.1874419Z Unpacking libmpdec2:riscv64 (2.4.2-3) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.2919432Z Selecting previously unselected package readline-common.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.2930327Z Preparing to unpack .../3-readline-common_8.0-4_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.2947736Z Unpacking readline-common (8.0-4) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.4284045Z Selecting previously unselected package libreadline8:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.4296555Z Preparing to unpack .../4-libreadline8_8.0-4_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.4310824Z Unpacking libreadline8:riscv64 (8.0-4) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.5701459Z Selecting previously unselected package libsqlite3-0:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.5716173Z Preparing to unpack .../5-libsqlite3-0_3.31.1-4ubuntu0.7_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.5729772Z Unpacking libsqlite3-0:riscv64 (3.31.1-4ubuntu0.7) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.8239471Z Selecting previously unselected package libpython3.8-stdlib:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.8249567Z Preparing to unpack .../6-libpython3.8-stdlib_3.8.10-0ubuntu1~20.04.18_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:51.8261813Z Unpacking libpython3.8-stdlib:riscv64 (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:52.2366626Z Selecting previously unselected package python3.8.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:52.2377659Z Preparing to unpack .../7-python3.8_3.8.10-0ubuntu1~20.04.18_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:52.2429952Z Unpacking python3.8 (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:52.3713130Z Selecting previously unselected package libpython3-stdlib:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:52.3722981Z Preparing to unpack .../8-libpython3-stdlib_3.8.2-0ubuntu2_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:52.3765960Z Unpacking libpython3-stdlib:riscv64 (3.8.2-0ubuntu2) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:52.4644102Z Setting up python3-minimal (3.8.2-0ubuntu2) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1274254Z Selecting previously unselected package python3.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1292388Z (Reading database ... 
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1292770Z (Reading database ... 5%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1293100Z (Reading database ... 10%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1293260Z (Reading database ... 15%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1293413Z (Reading database ... 20%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1293562Z (Reading database ... 25%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1293711Z (Reading database ... 30%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1293865Z (Reading database ... 35%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1294014Z (Reading database ... 40%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1294164Z (Reading database ... 45%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1294315Z (Reading database ... 50%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1294462Z (Reading database ... 55%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1294612Z (Reading database ... 60%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1294769Z (Reading database ... 65%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1296263Z (Reading database ... 70%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1299173Z (Reading database ... 75%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1302133Z (Reading database ... 80%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1314315Z (Reading database ... 85%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1323086Z (Reading database ... 90%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1327007Z (Reading database ... 95%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1327257Z (Reading database ... 100%
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1327704Z (Reading database ... 4843 files and directories currently installed.)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1330450Z Preparing to unpack .../00-python3_3.8.2-0ubuntu2_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.1737051Z Unpacking python3 (3.8.2-0ubuntu2) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.3142477Z Selecting previously unselected package openssl.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.3152052Z Preparing to unpack .../01-openssl_1.1.1f-1ubuntu2.24_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.3173028Z Unpacking openssl (1.1.1f-1ubuntu2.24) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.5513707Z Selecting previously unselected package ca-certificates.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.5525465Z Preparing to unpack .../02-ca-certificates_20240203~20.04.1_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.5546925Z Unpacking ca-certificates (20240203~20.04.1) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.7244128Z Selecting previously unselected package python3-pkg-resources.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.7254196Z Preparing to unpack .../03-python3-pkg-resources_45.2.0-1ubuntu0.3_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.7273216Z Unpacking python3-pkg-resources (45.2.0-1ubuntu0.3) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.8873757Z Selecting previously unselected package libatomic1:riscv64.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.8883460Z Preparing to unpack .../04-libatomic1_10.5.0-1ubuntu1~20.04_riscv64.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:54.8915245Z Unpacking libatomic1:riscv64 (10.5.0-1ubuntu1~20.04) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.0165537Z Selecting previously unselected package python-pip-whl.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.0175232Z Preparing to unpack .../05-python-pip-whl_20.0.2-5ubuntu1.11_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.0192755Z Unpacking python-pip-whl (20.0.2-5ubuntu1.11) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.3871807Z Selecting previously unselected package python3-lib2to3.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.3882340Z Preparing to unpack .../06-python3-lib2to3_3.8.10-0ubuntu1~20.04_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.3932596Z Unpacking python3-lib2to3 (3.8.10-0ubuntu1~20.04) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.5152322Z Selecting previously unselected package python3-distutils.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.5163780Z Preparing to unpack .../07-python3-distutils_3.8.10-0ubuntu1~20.04_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.5207697Z Unpacking python3-distutils (3.8.10-0ubuntu1~20.04) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.6556354Z Selecting previously unselected package python3-setuptools.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.6566249Z Preparing to unpack .../08-python3-setuptools_45.2.0-1ubuntu0.3_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.6609078Z Unpacking python3-setuptools (45.2.0-1ubuntu0.3) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.8262901Z Selecting previously unselected package python3-wheel.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.8273071Z Preparing to unpack .../09-python3-wheel_0.34.2-1ubuntu0.1_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.8316254Z Unpacking python3-wheel (0.34.2-1ubuntu0.1) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.9704475Z Selecting previously unselected package python3-pip.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:55.9717644Z Preparing to unpack .../10-python3-pip_20.0.2-5ubuntu1.11_all.deb ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.0030775Z Unpacking python3-pip (20.0.2-5ubuntu1.11) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.1640995Z Setting up mime-support (3.64ubuntu1) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.3477236Z Setting up libsqlite3-0:riscv64 (3.31.1-4ubuntu0.7) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.3534282Z Setting up libatomic1:riscv64 (10.5.0-1ubuntu1~20.04) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.3589519Z Setting up libmpdec2:riscv64 (2.4.2-3) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.4022225Z Setting up openssl (1.1.1f-1ubuntu2.24) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.4211311Z Setting up readline-common (8.0-4) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.4841597Z Setting up libreadline8:riscv64 (8.0-4) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:20:56.4895608Z Setting up ca-certificates (20240203~20.04.1) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:00.6746052Z Updating certificates in /etc/ssl/certs...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:07.4566147Z 146 added, 0 removed; done.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:07.5721698Z Setting up python-pip-whl (20.0.2-5ubuntu1.11) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:07.5902090Z Setting up libpython3.8-stdlib:riscv64 (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:07.6251073Z Setting up python3.8 (3.8.10-0ubuntu1~20.04.18) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:15.8613054Z Setting up libpython3-stdlib:riscv64 (3.8.2-0ubuntu2) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:15.9022372Z Setting up python3 (3.8.2-0ubuntu2) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:16.8953544Z Setting up python3-wheel (0.34.2-1ubuntu0.1) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:18.3508207Z Setting up python3-lib2to3 (3.8.10-0ubuntu1~20.04) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:19.3397603Z Setting up python3-pkg-resources (45.2.0-1ubuntu0.3) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:21.3929425Z Setting up python3-distutils (3.8.10-0ubuntu1~20.04) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:22.7166571Z Setting up python3-setuptools (45.2.0-1ubuntu0.3) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:25.4542392Z Setting up python3-pip (20.0.2-5ubuntu1.11) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:27.9769424Z Processing triggers for libc-bin (2.31-0ubuntu9.17) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:28.0727173Z Processing triggers for ca-certificates (20240203~20.04.1) ...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:28.1567526Z Updating certificates in /etc/ssl/certs...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:33.6705830Z 0 added, 0 removed; done.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:33.6707012Z Running hooks in /etc/ca-certificates/update.d...
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:33.6824363Z done.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:47.1196586Z Collecting pip==25.0.1
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:47.2410674Z   Downloading pip-25.0.1-py3-none-any.whl (1.8 MB)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:48.3912562Z Installing collected packages: pip
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:48.3915850Z   Attempting uninstall: pip
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:48.3953350Z     Found existing installation: pip 20.0.2
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:48.4019027Z     Not uninstalling pip at /usr/lib/python3/dist-packages, outside environment /usr
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:48.4023539Z     Can't uninstall 'pip'. No files were found to uninstall.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:21:58.3025958Z Successfully installed pip-25.0.1
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.0973708Z Looking in links: /dist
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.1592137Z ERROR: Could not find a version that satisfies the requirement ruff (from versions: none)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.1615275Z ERROR: No matching distribution found for ruff
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.4616470Z ##[error]Process completed with exit code 1.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.4627770Z ##[end-action id=__astral-sh_github-actions.__run;outcome=failure;conclusion=failure;duration_ms=103770]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.4707123Z Post job cleanup.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.4709410Z ##[start-action display=Set up QEMU;id=__261fde5c-afe4-467a-b66f-31ad04654255.__docker_setup-qemu-action]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.4721185Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.4722119Z Post job cleanup.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.5985895Z ##[group]Post cache
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.5986816Z State not set
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.5988134Z (node:24451) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.5988788Z (Use `node --trace-deprecation ...` to show where the warning was created)
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.5989253Z ##[endgroup]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6044441Z ##[end-action id=__261fde5c-afe4-467a-b66f-31ad04654255.__docker_setup-qemu-action;outcome=success;conclusion=success;duration_ms=133]
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6080900Z Post job cleanup.
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6527647Z [command]/usr/bin/git version
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6549259Z git version 2.55.0
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6567656Z Temporarily overriding HOME='/home/runner/work/_temp/ba7b1965-d8fd-4c8a-9cdb-6b632f935456' before making global git config changes
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6568306Z Adding repository directory to the temporary git global config as a safe directory
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6574294Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ruff/ruff
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6589024Z Removing SSH command configuration
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6592367Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6607275Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6708482Z Removing HTTP extra header
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6711220Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6725423Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6823599Z Removing includeIf entries pointing to credentials config files
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6827598Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.6840859Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.7016499Z Cleaning up orphan processes
+linux-cross (riscv64gc-unknown-linux-gnu, riscv64/ubuntu:20.04@sha256:610bedb0c5d9aeae4b45e9064e8...	UNKNOWN STEP	2026-09-03T17:22:10.8017392Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

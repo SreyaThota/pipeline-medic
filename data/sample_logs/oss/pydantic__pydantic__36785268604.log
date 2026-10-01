@@ -1,0 +1,400 @@
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:17.5432036Z uv run ruff format --check pydantic tests docs/plugins release pydantic-core/python pydantic-core/tests pydantic-core/wasm-preview/run_tests.py
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:17.5432681Z 365 files already formatted
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:17.5432838Z 
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5832376Z Lint Rust................................................................^[[42mPassed^[[m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5833254Z ^[[2m- hook id: lint rust^[[m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5833823Z ^[[2m- duration: 17.02s^[[m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5834092Z 
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5834304Z /usr/bin/make -C pydantic-core lint-rust
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5835046Z make[1]: Entering directory '/home/runner/work/pydantic/pydantic/pydantic-core'
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5835502Z cargo fmt --version
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5835798Z rustfmt 1.9.0-stable (48a229ceae 2026-09-01)
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5836328Z cargo fmt --all -- --check
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5836589Z cargo clippy --version
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5836844Z clippy 0.1.98 (48a229ceae 2026-09-01)
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5837134Z cargo clippy --tests -- -D warnings
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5837525Z ^[[1m^[[92m    Checking^[[0m stable_deref_trait v1.2.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5837897Z ^[[1m^[[92m    Checking^[[0m litemap v0.7.3
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5838222Z ^[[1m^[[92m    Checking^[[0m zerofrom v0.1.4
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5838546Z ^[[1m^[[92m    Checking^[[0m writeable v0.5.5
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5838871Z ^[[1m^[[92m   Compiling^[[0m pyo3-ffi v0.29.2
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5839245Z ^[[1m^[[92m    Checking^[[0m yoke v0.7.4
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5839614Z ^[[1m^[[92m    Checking^[[0m icu_locid_transform_data v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5840403Z ^[[1m^[[92m    Checking^[[0m smallvec v1.15.2
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5840754Z ^[[1m^[[92m    Checking^[[0m libc v0.2.185
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5841075Z ^[[1m^[[92m   Compiling^[[0m pyo3 v0.29.2
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5841420Z ^[[1m^[[92m    Checking^[[0m zerovec v0.10.4
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5841782Z ^[[1m^[[92m    Checking^[[0m static_assertions v1.1.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5842162Z ^[[1m^[[92m    Checking^[[0m icu_properties_data v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5842537Z ^[[1m^[[92m    Checking^[[0m lexical-util v1.0.6
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5842884Z ^[[1m^[[92m    Checking^[[0m num-traits v0.2.19
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5843209Z ^[[1m^[[92m    Checking^[[0m tinystr v0.7.6
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5843558Z ^[[1m^[[92m    Checking^[[0m icu_collections v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5843904Z ^[[1m^[[92m    Checking^[[0m utf16_iter v1.0.5
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5844229Z ^[[1m^[[92m    Checking^[[0m icu_locid v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5844582Z ^[[1m^[[92m    Checking^[[0m icu_normalizer_data v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5844923Z ^[[1m^[[92m    Checking^[[0m write16 v1.0.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5845240Z ^[[1m^[[92m    Checking^[[0m utf8_iter v1.0.4
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5845555Z ^[[1m^[[92m    Checking^[[0m memchr v2.7.4
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5845910Z ^[[1m^[[92m    Checking^[[0m lexical-parse-integer v1.0.5
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5846480Z ^[[1m^[[92m    Checking^[[0m num-integer v0.1.46
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5846805Z ^[[1m^[[92m    Checking^[[0m cfg-if v1.0.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5847126Z ^[[1m^[[92m    Checking^[[0m once_cell v1.21.3
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5847444Z ^[[1m^[[92m    Checking^[[0m tap v1.0.1
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5847769Z ^[[1m^[[92m    Checking^[[0m num-bigint v0.4.6
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5848102Z ^[[1m^[[92m    Checking^[[0m wyz v0.5.1
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5848429Z ^[[1m^[[92m    Checking^[[0m icu_provider v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5848779Z ^[[1m^[[92m    Checking^[[0m aho-corasick v1.1.3
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5849117Z ^[[1m^[[92m    Checking^[[0m getrandom v0.3.3
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5849479Z ^[[1m^[[92m    Checking^[[0m lexical-parse-float v1.0.5
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5850140Z ^[[1m^[[92m    Checking^[[0m icu_locid_transform v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5850505Z ^[[1m^[[92m    Checking^[[0m zerocopy v0.8.25
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5850851Z ^[[1m^[[92m    Checking^[[0m icu_properties v1.5.1
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5851218Z ^[[1m^[[92m    Checking^[[0m serde_core v1.0.228
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5851553Z ^[[1m^[[92m    Checking^[[0m radium v0.7.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5851876Z ^[[1m^[[92m    Checking^[[0m foldhash v0.2.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5852192Z ^[[1m^[[92m    Checking^[[0m funty v2.0.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5852529Z ^[[1m^[[92m    Checking^[[0m regex-syntax v0.8.11
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5852899Z ^[[1m^[[92m    Checking^[[0m allocator-api2 v0.2.21
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5853250Z ^[[1m^[[92m    Checking^[[0m equivalent v1.0.2
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5853595Z ^[[1m^[[92m    Checking^[[0m icu_normalizer v1.5.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5853965Z ^[[1m^[[92m    Checking^[[0m percent-encoding v2.3.2
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5854327Z ^[[1m^[[92m    Checking^[[0m form_urlencoded v1.2.2
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5854672Z ^[[1m^[[92m    Checking^[[0m hashbrown v0.17.1
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5855013Z ^[[1m^[[92m    Checking^[[0m idna_adapter v1.2.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5855345Z ^[[1m^[[92m    Checking^[[0m bitvec v1.0.1
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5855665Z ^[[1m^[[92m    Checking^[[0m idna v1.1.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5855981Z ^[[1m^[[92m    Checking^[[0m ahash v0.8.12
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5856434Z ^[[1m^[[92m   Compiling^[[0m jiter v0.16.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5856746Z ^[[1m^[[92m    Checking^[[0m strum v0.27.2
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5857055Z ^[[1m^[[92m    Checking^[[0m zmij v1.0.6
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5857602Z ^[[1m^[[92m   Compiling^[[0m pydantic-core v2.49.0 (/home/runner/work/pydantic/pydantic/pydantic-core)
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5858145Z ^[[1m^[[92m    Checking^[[0m regex-automata v0.4.13
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5858492Z ^[[1m^[[92m    Checking^[[0m itoa v1.0.11
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5858826Z ^[[1m^[[92m   Compiling^[[0m enum_dispatch v0.3.13
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5859182Z ^[[1m^[[92m    Checking^[[0m serde_json v1.0.150
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5859518Z ^[[1m^[[92m    Checking^[[0m serde v1.0.228
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5860062Z ^[[1m^[[92m    Checking^[[0m regex v1.12.4
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5860395Z ^[[1m^[[92m    Checking^[[0m speedate v0.17.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5860719Z ^[[1m^[[92m    Checking^[[0m lru v0.18.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5861023Z ^[[1m^[[92m    Checking^[[0m url v2.5.8
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5861333Z ^[[1m^[[92m    Checking^[[0m hex v0.4.3
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5861638Z ^[[1m^[[92m    Checking^[[0m base64 v0.22.1
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5861946Z ^[[1m^[[92m    Checking^[[0m uuid v1.23.4
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5862402Z ^[[1m^[[92m    Finished^[[0m `dev` profile [unoptimized + debuginfo] target(s) in 15.68s
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5862942Z make[1]: Leaving directory '/home/runner/work/pydantic/pydantic/pydantic-core'
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:34.5863271Z 
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0567303Z Typecheck................................................................^[[41mFailed^[[m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0568164Z ^[[2m- hook id: typecheck^[[m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0568615Z ^[[2m- duration: 16.46s^[[m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0569037Z ^[[2m- exit code: 1^[[m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0569252Z 
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0569595Z WARNING: there is a new pyright version available (v1.1.411 -> v1.1.414).
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0570690Z Please install the new version or set PYRIGHT_PYTHON_FORCE_VERSION to `latest`
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0571213Z 
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0572108Z /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0573680Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0575155Z     "steps" is not a defined key in "InvalidSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0576706Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0578148Z     "steps" is not a defined key in "AnySchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0579704Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0581323Z     "steps" is not a defined key in "NoneSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0582788Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0584148Z     "steps" is not a defined key in "BoolSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0585570Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0586914Z     "steps" is not a defined key in "IntSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0588350Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0589732Z     "steps" is not a defined key in "FloatSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0591605Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0593016Z     "steps" is not a defined key in "DecimalSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0594509Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0595889Z     "steps" is not a defined key in "FractionSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0597333Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0598689Z     "steps" is not a defined key in "StringSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0600403Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0601838Z     "steps" is not a defined key in "BytesSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0603381Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0604888Z     "steps" is not a defined key in "DateSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0606479Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0607993Z     "steps" is not a defined key in "TimeSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0609691Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0611454Z     "steps" is not a defined key in "DatetimeSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0613325Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0614966Z     "steps" is not a defined key in "TimedeltaSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0616646Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0618096Z     "steps" is not a defined key in "LiteralSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0619678Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0621427Z     "steps" is not a defined key in "MissingSentinelSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0623000Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0624291Z     "steps" is not a defined key in "EllipsisSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0625852Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0627357Z     "steps" is not a defined key in "EnumSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0628933Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0630733Z     "steps" is not a defined key in "IsInstanceSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0632625Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0634269Z     "steps" is not a defined key in "IsSubclassSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0635972Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0637570Z     "steps" is not a defined key in "CallableSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0639317Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0641071Z     "steps" is not a defined key in "ListSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0642671Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0644449Z     "steps" is not a defined key in "DequeSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0646124Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0647701Z     "steps" is not a defined key in "TupleSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0649325Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0650964Z     "steps" is not a defined key in "SetSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0652441Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0653773Z     "steps" is not a defined key in "FrozenSetSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0655394Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0657039Z     "steps" is not a defined key in "GeneratorSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0658537Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0660273Z     "steps" is not a defined key in "DictSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0661934Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0663609Z     "steps" is not a defined key in "FrozenDictSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0665553Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0667047Z     "steps" is not a defined key in "OrderedDictSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0668479Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0670152Z     "steps" is not a defined key in "CounterSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0671790Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0673477Z     "steps" is not a defined key in "AfterValidatorFunctionSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0675253Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0676967Z     "steps" is not a defined key in "BeforeValidatorFunctionSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0678740Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0680717Z     "steps" is not a defined key in "WrapValidatorFunctionSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0682499Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0684179Z     "steps" is not a defined key in "PlainValidatorFunctionSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0685919Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0687764Z     "steps" is not a defined key in "WithDefaultSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0689507Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0691284Z     "steps" is not a defined key in "NullableSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0692978Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0694552Z     "steps" is not a defined key in "UnionSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0696151Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0697733Z     "steps" is not a defined key in "TaggedUnionSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0699390Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0701204Z     "steps" is not a defined key in "JsonOrPythonSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0702847Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0704483Z     "steps" is not a defined key in "TypedDictSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0706195Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0707830Z     "steps" is not a defined key in "ModelFieldsSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0709723Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0711374Z     "steps" is not a defined key in "ModelSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0713024Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0714661Z     "steps" is not a defined key in "DataclassArgsSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0716397Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0717804Z     "steps" is not a defined key in "DataclassSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0719500Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0721271Z     "steps" is not a defined key in "NamedTupleSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0722935Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0724525Z     "steps" is not a defined key in "ArgumentsSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0726206Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0727802Z     "steps" is not a defined key in "ArgumentsV3Schema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0729449Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0731465Z     "steps" is not a defined key in "CallSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0733046Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0734645Z     "steps" is not a defined key in "CustomErrorSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0736247Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0737798Z     "steps" is not a defined key in "JsonSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0739442Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0741242Z     "steps" is not a defined key in "UrlSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0742816Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0744353Z     "steps" is not a defined key in "MultiHostUrlSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0746077Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0747566Z     "steps" is not a defined key in "DefinitionsSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0749221Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0751198Z     "steps" is not a defined key in "DefinitionReferenceSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0752691Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0753805Z     "steps" is not a defined key in "UuidSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0754943Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m358^[[39m:^[[33m13^[[39m - ^[[31merror^[[39m: Could not assign item in TypedDict
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0756050Z     "steps" is not a defined key in "ComplexSchema"^[[90m (reportGeneralTypeIssues)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0757473Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m397^[[39m:^[[33m23^[[39m - ^[[31merror^[[39m: No overloads for "__getitem__" match the provided arguments^[[90m (reportCallIssue)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0760114Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m397^[[39m:^[[33m23^[[39m - ^[[31merror^[[39m: Argument of type "Literal['type']" cannot be assigned to parameter "key" of type "slice[SupportsIndex | None, SupportsIndex | None, SupportsIndex | None]" in function "__getitem__"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0762204Z     "Literal['type']" is not assignable to "slice[SupportsIndex | None, SupportsIndex | None, SupportsIndex | None]"^[[90m (reportArgumentType)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0764321Z   /home/runner/work/pydantic/pydantic/pydantic/_internal/_known_annotated_metadata.py:^[[33m397^[[39m:^[[33m111^[[39m - ^[[31merror^[[39m: Argument of type "Unknown | CoreSchema | tuple[CoreSchema, str] | Any" cannot be assigned to parameter "schema" of type "CoreSchema" in function "_apply_metadata_to_secret_field_branch"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0767965Z     Type "CoreSchema | Unknown | tuple[CoreSchema, str] | Any" is not assignable to type "CoreSchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0769076Z       Type "tuple[CoreSchema, str]" is not assignable to type "CoreSchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0770232Z         "tuple[CoreSchema, str]" is not assignable to "InvalidSchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0771375Z         "tuple[CoreSchema, str]" is not assignable to "AnySchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0772227Z         "tuple[CoreSchema, str]" is not assignable to "NoneSchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0773039Z         "tuple[CoreSchema, str]" is not assignable to "BoolSchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0773951Z         "tuple[CoreSchema, str]" is not assignable to "IntSchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0774844Z         "tuple[CoreSchema, str]" is not assignable to "FloatSchema"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0775609Z     ...^[[90m (reportArgumentType)^[[39m
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0776135Z 60 errors, 0 warnings, 0 informations
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0776400Z 
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0786223Z ##[error]Process completed with exit code 1.
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0793797Z ##[end-action id=__pre-commit_action.__run_3;outcome=failure;conclusion=failure;duration_ms=37662]
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0896716Z Post job cleanup.
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0900488Z ##[start-action display=Run actions/cache@v4;id=__a056e3cd-0538-48d3-a176-1333ea2831e3.__actions_cache]
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0903648Z ##[end-action id=__a056e3cd-0538-48d3-a176-1333ea2831e3.__actions_cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.0972398Z Post job cleanup.
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1785707Z [command]/usr/bin/git version
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1822588Z git version 2.55.0
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1858720Z Temporarily overriding HOME='/home/runner/work/_temp/e6b73c03-b267-43a2-8124-986b6950e0d4' before making global git config changes
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1860557Z Adding repository directory to the temporary git global config as a safe directory
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1864780Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1894339Z Removing SSH command configuration
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1900099Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.1933191Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.2149101Z Removing HTTP extra header
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.2154421Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.2186132Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.2398677Z Removing includeIf entries pointing to credentials config files
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.2404074Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.2432628Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.2786247Z Cleaning up orphan processes
+Lint 3.13	UNKNOWN STEP	2026-09-30T22:24:51.3080810Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+check	UNKNOWN STEP	﻿2026-09-30T22:29:43.5838053Z Current runner version: '2.337.0'
+check	UNKNOWN STEP	2026-09-30T22:29:43.5864253Z ##[group]Runner Image Provisioner
+check	UNKNOWN STEP	2026-09-30T22:29:43.5865197Z Hosted Compute Agent
+check	UNKNOWN STEP	2026-09-30T22:29:43.5865825Z Version: 20260828.587
+check	UNKNOWN STEP	2026-09-30T22:29:43.5866471Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+check	UNKNOWN STEP	2026-09-30T22:29:43.5867314Z Build Date: 2026-08-28T16:44:25Z
+check	UNKNOWN STEP	2026-09-30T22:29:43.5868015Z Worker ID: {431f1b09-be34-4286-8542-60b329ab159a}
+check	UNKNOWN STEP	2026-09-30T22:29:43.5868850Z Azure Region: westus
+check	UNKNOWN STEP	2026-09-30T22:29:43.5869447Z ##[endgroup]
+check	UNKNOWN STEP	2026-09-30T22:29:43.5870884Z ##[group]Operating System
+check	UNKNOWN STEP	2026-09-30T22:29:43.5871639Z Ubuntu
+check	UNKNOWN STEP	2026-09-30T22:29:43.5872175Z 24.04.5
+check	UNKNOWN STEP	2026-09-30T22:29:43.5872922Z LTS
+check	UNKNOWN STEP	2026-09-30T22:29:43.5873547Z ##[endgroup]
+check	UNKNOWN STEP	2026-09-30T22:29:43.5874098Z ##[group]Runner Image
+check	UNKNOWN STEP	2026-09-30T22:29:43.5874743Z Image: ubuntu-24.04
+check	UNKNOWN STEP	2026-09-30T22:29:43.5875394Z Version: 20260920.314.1
+check	UNKNOWN STEP	2026-09-30T22:29:43.5876713Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260920.314/images/ubuntu/Ubuntu2404-Readme.md
+check	UNKNOWN STEP	2026-09-30T22:29:43.5878356Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260920.314
+check	UNKNOWN STEP	2026-09-30T22:29:43.5879390Z ##[endgroup]
+check	UNKNOWN STEP	2026-09-30T22:29:43.5880580Z ##[group]GITHUB_TOKEN Permissions
+check	UNKNOWN STEP	2026-09-30T22:29:43.5883032Z Contents: read
+check	UNKNOWN STEP	2026-09-30T22:29:43.5883690Z Metadata: read
+check	UNKNOWN STEP	2026-09-30T22:29:43.5884252Z ##[endgroup]
+check	UNKNOWN STEP	2026-09-30T22:29:43.5886932Z Secret source: None
+check	UNKNOWN STEP	2026-09-30T22:29:43.5887844Z Cache mode: write
+check	UNKNOWN STEP	2026-09-30T22:29:43.5888685Z Prepare workflow directory
+check	UNKNOWN STEP	2026-09-30T22:29:43.6303431Z Prepare all required actions
+check	UNKNOWN STEP	2026-09-30T22:29:43.6353425Z Getting action download info
+check	UNKNOWN STEP	2026-09-30T22:29:44.0386285Z Download action repository 're-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe' (SHA:05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe)
+check	UNKNOWN STEP	2026-09-30T22:29:44.4071726Z Complete job name: check
+check	UNKNOWN STEP	2026-09-30T22:29:44.4804293Z ##[group]Run re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe
+check	UNKNOWN STEP	2026-09-30T22:29:44.4805529Z with:
+check	UNKNOWN STEP	2026-09-30T22:29:44.4808282Z   jobs: {
+check	UNKNOWN STEP	  "lint": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "docs-build": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "test": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "test-memray": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "test-mypy": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "test-plugin": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "core-test-os": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "core-test-debug": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "core-build-pyemscripten": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  }
+check	UNKNOWN STEP	}
+check	UNKNOWN STEP	2026-09-30T22:29:44.4811213Z   allowed-failures: []
+check	UNKNOWN STEP	2026-09-30T22:29:44.4811714Z   allowed-skips: []
+check	UNKNOWN STEP	2026-09-30T22:29:44.4812340Z env:
+check	UNKNOWN STEP	2026-09-30T22:29:44.4812950Z   COLUMNS: 150
+check	UNKNOWN STEP	2026-09-30T22:29:44.4813392Z   UV_FROZEN: true
+check	UNKNOWN STEP	2026-09-30T22:29:44.4813876Z   FORCE_COLOR: 1
+check	UNKNOWN STEP	2026-09-30T22:29:44.4814373Z ##[endgroup]
+check	UNKNOWN STEP	2026-09-30T22:29:44.4905364Z ##[start-action display=Decide whether the input jobs succeeded or failed;id=all-green.outcome]
+check	UNKNOWN STEP	2026-09-30T22:29:44.4958079Z ##[group]Run python -m normalize_needed_jobs_status \
+check	UNKNOWN STEP	2026-09-30T22:29:44.4958910Z ^[[36;1mpython -m normalize_needed_jobs_status \^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4959586Z ^[[36;1m"$(cat << EOM^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4960052Z ^[[36;1m  []^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4960467Z ^[[36;1mEOM^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4960868Z ^[[36;1m)" \^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4961293Z ^[[36;1m"$(cat << EOM^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4961811Z ^[[36;1m  []^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4962222Z ^[[36;1mEOM^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4962889Z ^[[36;1m)" \^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4963382Z ^[[36;1m"$(cat << EOM^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4964041Z ^[[36;1m  {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4964571Z ^[[36;1m  "lint": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4965044Z ^[[36;1m    "result": "failure",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4965577Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4966083Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4966512Z ^[[36;1m  "docs-build": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4967040Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4967575Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4968338Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4968773Z ^[[36;1m  "test": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4969239Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4969915Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4970419Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4970887Z ^[[36;1m  "test-memray": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4971428Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4971966Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4972449Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4973183Z ^[[36;1m  "test-mypy": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4973699Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4974248Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4974853Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4975299Z ^[[36;1m  "test-plugin": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4975830Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4976416Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4976956Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4977416Z ^[[36;1m  "core-test-os": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4977964Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4978492Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4978964Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4979394Z ^[[36;1m  "core-test-debug": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4979910Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4980494Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4980967Z ^[[36;1m  },^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4981420Z ^[[36;1m  "core-build-pyemscripten": {^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4981998Z ^[[36;1m    "result": "success",^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4982719Z ^[[36;1m    "outputs": {}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4983208Z ^[[36;1m  }^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4983618Z ^[[36;1m}^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4984013Z ^[[36;1mEOM^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.4984429Z ^[[36;1m)"^[[0m
+check	UNKNOWN STEP	2026-09-30T22:29:44.5255475Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+check	UNKNOWN STEP	2026-09-30T22:29:44.5256292Z env:
+check	UNKNOWN STEP	2026-09-30T22:29:44.5256746Z   COLUMNS: 150
+check	UNKNOWN STEP	2026-09-30T22:29:44.5257224Z   UV_FROZEN: true
+check	UNKNOWN STEP	2026-09-30T22:29:44.5257711Z   FORCE_COLOR: 1
+check	UNKNOWN STEP	2026-09-30T22:29:44.5258684Z   PYTHONPATH: /home/runner/work/_actions/re-actors/alls-green/05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe/src
+check	UNKNOWN STEP	2026-09-30T22:29:44.5259765Z ##[endgroup]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5721821Z # ❌ Some of the required to succeed jobs failed 😢😢😢
+check	UNKNOWN STEP	2026-09-30T22:29:44.5722432Z 
+check	UNKNOWN STEP	2026-09-30T22:29:44.5723020Z 📝 Job statuses:
+check	UNKNOWN STEP	2026-09-30T22:29:44.5723694Z 📝 lint → ❌ failure [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5724371Z 📝 docs-build → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5725040Z 📝 test → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5725694Z 📝 test-memray → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5726381Z 📝 test-mypy → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5727071Z 📝 test-plugin → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5727807Z 📝 core-test-os → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5728529Z 📝 core-test-debug → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5729308Z 📝 core-build-pyemscripten → ✓ success [required to succeed]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5767156Z ##[error]Process completed with exit code 1.
+check	UNKNOWN STEP	2026-09-30T22:29:44.5859847Z ##[end-action id=all-green.outcome;outcome=failure;conclusion=failure;duration_ms=95]
+check	UNKNOWN STEP	2026-09-30T22:29:44.5994445Z Evaluate and set job outputs
+check	UNKNOWN STEP	2026-09-30T22:29:44.5999744Z Set output 'result'
+check	UNKNOWN STEP	2026-09-30T22:29:44.6001905Z Cleaning up orphan processes

@@ -1,0 +1,75 @@
+check-author	UNKNOWN STEP	﻿2026-09-16T04:50:07.2617480Z Current runner version: '2.337.0'
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2642748Z ##[group]Runner Image Provisioner
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2643821Z Hosted Compute Agent
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2644534Z Version: 20260828.587
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2645518Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2646465Z Build Date: 2026-08-28T16:44:25Z
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2647343Z Worker ID: {743634f9-c3bf-48fe-92e8-3dc24694c24b}
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2648277Z Azure Region: westus3
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2648983Z ##[endgroup]
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2650740Z ##[group]Operating System
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2651652Z Ubuntu
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2652275Z 24.04.5
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2652911Z LTS
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2653554Z ##[endgroup]
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2654224Z ##[group]Runner Image
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2655169Z Image: ubuntu-24.04
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2655882Z Version: 20260907.300.1
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2657512Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2659460Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2660823Z ##[endgroup]
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2662477Z ##[group]GITHUB_TOKEN Permissions
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2664815Z Contents: read
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2665826Z Issues: write
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2666439Z Metadata: read
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2666927Z PullRequests: write
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2667401Z ##[endgroup]
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2669554Z Secret source: Actions
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2670289Z Cache mode: read
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2670907Z Prepare workflow directory
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2929666Z Prepare all required actions
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.2967804Z Getting action download info
+check-author	UNKNOWN STEP	2026-09-16T04:50:07.6109906Z Download action repository 'actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3' (SHA:3a2844b7e9c422d3c10d287c895573f7108da1b3)
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.3760835Z Complete job name: check-author
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4302358Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4303191Z with:
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4308684Z   script: const pr = context.payload.pull_request;
+check-author	UNKNOWN STEP	const author = pr.user.login;
+check-author	UNKNOWN STEP	const assoc = pr.author_association;
+check-author	UNKNOWN STEP	
+check-author	UNKNOWN STEP	const botAllowlist = new Set(['dependabot[bot]']);
+check-author	UNKNOWN STEP	const orgAuthorAssociations = new Set(['MEMBER', 'OWNER']);
+check-author	UNKNOWN STEP	
+check-author	UNKNOWN STEP	const allowed =
+check-author	UNKNOWN STEP	  botAllowlist.has(author) ||
+check-author	UNKNOWN STEP	  (assoc != null && orgAuthorAssociations.has(assoc));
+check-author	UNKNOWN STEP	
+check-author	UNKNOWN STEP	if (!allowed) {
+check-author	UNKNOWN STEP	  await github.rest.issues.createComment({
+check-author	UNKNOWN STEP	    owner: context.repo.owner,
+check-author	UNKNOWN STEP	    repo: context.repo.repo,
+check-author	UNKNOWN STEP	    issue_number: context.payload.pull_request.number,
+check-author	UNKNOWN STEP	    body: `This PR modifies dependency files (\`pyproject.toml\` or \`uv.lock\`), which is restricted to members of the **${context.repo.owner}** organization on GitHub.\n\nIf you need a dependency change, please [open a discussion](https://github.com/${context.repo.owner}/${context.repo.repo}/discussions/new) describing what you need and why.\n\nClosing this PR automatically.`
+check-author	UNKNOWN STEP	  });
+check-author	UNKNOWN STEP	
+check-author	UNKNOWN STEP	  await github.rest.pulls.update({
+check-author	UNKNOWN STEP	    owner: context.repo.owner,
+check-author	UNKNOWN STEP	    repo: context.repo.repo,
+check-author	UNKNOWN STEP	    pull_number: context.payload.pull_request.number,
+check-author	UNKNOWN STEP	    state: 'closed'
+check-author	UNKNOWN STEP	  });
+check-author	UNKNOWN STEP	
+check-author	UNKNOWN STEP	  core.setFailed('Dependency changes are restricted to organization members.');
+check-author	UNKNOWN STEP	} else {
+check-author	UNKNOWN STEP	  console.log(`Author ${author} (author_association=${assoc}) is allowed to make dependency changes.`);
+check-author	UNKNOWN STEP	}
+check-author	UNKNOWN STEP	
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4317127Z   github-token: ***
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4317492Z   debug: false
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4317856Z   user-agent: actions/github-script
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4318286Z   result-encoding: json
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4318654Z   retries: 0
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4319030Z   retry-exempt-status-codes: 400,401,403,404,422
+check-author	UNKNOWN STEP	2026-09-16T04:50:08.4319693Z ##[endgroup]
+check-author	UNKNOWN STEP	2026-09-16T04:50:10.3463685Z ##[error]Dependency changes are restricted to organization members.
+check-author	UNKNOWN STEP	2026-09-16T04:50:10.3636692Z Cleaning up orphan processes

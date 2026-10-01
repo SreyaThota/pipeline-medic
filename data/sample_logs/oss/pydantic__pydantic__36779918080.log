@@ -1,0 +1,141 @@
+upload-previews	UNKNOWN STEP	﻿2026-09-30T21:31:01.6068056Z Current runner version: '2.337.0'
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6089467Z ##[group]Runner Image Provisioner
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6090500Z Hosted Compute Agent
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6091049Z Version: 20260901.588
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6091581Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6092168Z Build Date: 2026-09-01T19:56:44Z
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6092815Z Worker ID: {38b2cddb-a8a3-4fff-ace0-c0a0930a3a45}
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6093425Z Azure Region: westus3
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6093922Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6095375Z ##[group]Operating System
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6095908Z Ubuntu
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6096408Z 24.04.5
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6096914Z LTS
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6097385Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6097866Z ##[group]Runner Image
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6098368Z Image: ubuntu-24.04
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6098958Z Version: 20260927.320.1
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6100198Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6101543Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6102327Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6103317Z ##[group]GITHUB_TOKEN Permissions
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6105129Z Metadata: read
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6105698Z Statuses: write
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6106160Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6107965Z Secret source: Actions
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6108793Z Cache mode: read
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6109569Z Prepare workflow directory
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6387857Z Prepare all required actions
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:01.6429019Z Getting action download info
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:02.0027416Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:02.1627271Z Download action repository 'dawidd6/action-download-artifact@d63b86af1b34672e53c440b1b83979861906bad7' (SHA:d63b86af1b34672e53c440b1b83979861906bad7)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.4499781Z Complete job name: upload-previews
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5070972Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5071606Z with:
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5071842Z   python-version: 3.10
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5072075Z   check-latest: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5074249Z   token: ***
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5074475Z   update-environment: true
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5074724Z   allow-prereleases: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5074956Z   freethreaded: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.5075309Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6085966Z ##[group]Installed versions
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6126739Z Successfully set up CPython (3.10.21)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6127554Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6306800Z ##[group]Run pip install smokeshow
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6307203Z ^[[36;1mpip install smokeshow^[[0m
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6567191Z shell: /usr/bin/bash -e {0}
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6567493Z env:
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6567774Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6568188Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.21/x64/lib/pkgconfig
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6568601Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6568959Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6569318Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6569671Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.21/x64/lib
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:06.6570125Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:08.6502551Z Collecting smokeshow
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:08.7085356Z   Downloading smokeshow-0.5.0-py3-none-any.whl.metadata (5.6 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:08.9256867Z Collecting httpx>=0.24 (from smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:08.9421282Z   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.2387810Z Collecting typer>=0.8.0 (from smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.2490587Z   Downloading typer-0.27.2-py3-none-any.whl.metadata (16 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.2865021Z Collecting anyio (from httpx>=0.24->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.2965485Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.3132883Z Collecting certifi (from httpx>=0.24->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.3233920Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.4250807Z Collecting httpcore==1.* (from httpx>=0.24->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.4360705Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.4609946Z Collecting idna (from httpx>=0.24->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.4713503Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.5079610Z Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.24->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.5183216Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.5310541Z Collecting shellingham>=1.3.0 (from typer>=0.8.0->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.5411165Z   Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.5729957Z Collecting rich>=13.8.0 (from typer>=0.8.0->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.5853203Z   Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.6005685Z Collecting annotated-doc>=0.0.2 (from typer>=0.8.0->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.6108212Z   Downloading annotated_doc-0.0.5-py3-none-any.whl.metadata (6.5 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.6337752Z Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer>=0.8.0->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.6444071Z   Downloading markdown_it_py-4.2.0-py3-none-any.whl.metadata (7.4 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.6642491Z Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.8.0->typer>=0.8.0->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.6752266Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.7219079Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer>=0.8.0->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.7321112Z   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.7438917Z Collecting exceptiongroup>=1.0.2 (from anyio->httpx>=0.24->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:09.7540710Z   Downloading exceptiongroup-1.3.1-py3-none-any.whl.metadata (6.7 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.1271515Z Collecting typing_extensions>=4.16.0 (from anyio->httpx>=0.24->smokeshow)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.1374840Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.1527975Z Downloading smokeshow-0.5.0-py3-none-any.whl (8.4 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.1649507Z Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.1856089Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.1988960Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.2107522Z Downloading typer-0.27.2-py3-none-any.whl (123 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.2311253Z Downloading annotated_doc-0.0.5-py3-none-any.whl (5.3 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.2433475Z Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.2653713Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3025803Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 29.4 MB/s  0:00:00
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3129431Z Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3249465Z Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3366921Z Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3486308Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3664156Z Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3784280Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.3904037Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.4030521Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:10.4880201Z Installing collected packages: typing_extensions, shellingham, pygments, mdurl, idna, h11, certifi, annotated-doc, markdown-it-py, httpcore, exceptiongroup, rich, anyio, typer, httpx, smokeshow
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.3614623Z 
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.3638085Z Successfully installed annotated-doc-0.0.5 anyio-4.15.1 certifi-2026.7.22 exceptiongroup-1.3.1 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-3.20 markdown-it-py-4.2.0 mdurl-0.1.2 pygments-2.21.0 rich-15.0.0 shellingham-1.5.4 smokeshow-0.5.0 typer-0.27.2 typing_extensions-4.16.0
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4281210Z ##[group]Run dawidd6/action-download-artifact@d63b86af1b34672e53c440b1b83979861906bad7
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4281571Z with:
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4281746Z   workflow: ci.yml
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4281944Z   commit: 64312ff498f8f3d9c8fe20bbaa628eca7c3af654
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4284087Z   github_token: ***
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4284286Z   workflow_search: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4284484Z   workflow_conclusion: success
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4284697Z   repo: pydantic/pydantic
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4284892Z   name_is_regexp: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4285081Z   path: ./
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4285238Z   allow_forks: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4285433Z   check_artifacts: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4285620Z   search_artifacts: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4285799Z   skip_unpack: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4285999Z   if_no_artifact_found: fail
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4286188Z   use_unzip: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4286356Z   merge_multiple: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4286533Z env:
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4286772Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4287110Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.21/x64/lib/pkgconfig
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4287445Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4287739Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4288030Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.21/x64
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4288333Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.21/x64/lib
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.4288594Z ##[endgroup]
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.7186677Z ==> Repository: pydantic/pydantic
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.7187231Z ==> Artifact name: 
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.7187529Z ==> Local path: ./
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.7187824Z ==> Workflow name: ci.yml
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.7188154Z ==> Workflow conclusion: success
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.7188586Z ==> Commit: 64312ff498f8f3d9c8fe20bbaa628eca7c3af654
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:12.7189016Z ==> Allow forks: false
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:13.4704549Z ##[error]no matching workflow run found with any artifacts?
+upload-previews	UNKNOWN STEP	2026-09-30T21:31:13.5108432Z Cleaning up orphan processes

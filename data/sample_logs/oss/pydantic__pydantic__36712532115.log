@@ -1,0 +1,400 @@
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8496150Z  ^[[32m+^[[39m ^[[1mbackoff^[[0m^[[2m==2.2.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8496695Z  ^[[32m+^[[39m ^[[1mbeautifulsoup4^[[0m^[[2m==4.15.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8497243Z  ^[[32m+^[[39m ^[[1mbidict^[[0m^[[2m==0.23.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8497770Z  ^[[32m+^[[39m ^[[1mblinker^[[0m^[[2m==1.9.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8498289Z  ^[[32m+^[[39m ^[[1mboto3^[[0m^[[2m==1.43.100^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8498841Z  ^[[32m+^[[39m ^[[1mboto3-stubs^[[0m^[[2m==1.43.69^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8499409Z  ^[[32m+^[[39m ^[[1mbotocore^[[0m^[[2m==1.43.100^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8499989Z  ^[[32m+^[[39m ^[[1mbotocore-stubs^[[0m^[[2m==1.43.67^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8500548Z  ^[[32m+^[[39m ^[[1mbrotli^[[0m^[[2m==1.2.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8501347Z  ^[[32m+^[[39m ^[[1mcertifi^[[0m^[[2m==2026.7.22^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8501897Z  ^[[32m+^[[39m ^[[1mcffi^[[0m^[[2m==2.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8502490Z  ^[[32m+^[[39m ^[[1mcharset-normalizer^[[0m^[[2m==3.4.9^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8503060Z  ^[[32m+^[[39m ^[[1mclick^[[0m^[[2m==8.4.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8503631Z  ^[[32m+^[[39m ^[[1mclickhouse-connect^[[0m^[[2m==1.7.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8504212Z  ^[[32m+^[[39m ^[[1mcolorama^[[0m^[[2m==0.4.6^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8504775Z  ^[[32m+^[[39m ^[[1mconfigargparse^[[0m^[[2m==1.7.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8505476Z  ^[[32m+^[[39m ^[[1mcourlan^[[0m^[[2m==1.4.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8506018Z  ^[[32m+^[[39m ^[[1mcoverage^[[0m^[[2m==7.16.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8506559Z  ^[[32m+^[[39m ^[[1mcramjam^[[0m^[[2m==2.11.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8507118Z  ^[[32m+^[[39m ^[[1mcryptography^[[0m^[[2m==50.0.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8507687Z  ^[[32m+^[[39m ^[[1mdateparser^[[0m^[[2m==1.4.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8508243Z  ^[[32m+^[[39m ^[[1mdebugpy^[[0m^[[2m==1.8.22^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8508785Z  ^[[32m+^[[39m ^[[1mdefusedxml^[[0m^[[2m==0.7.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8509314Z  ^[[32m+^[[39m ^[[1mdistro^[[0m^[[2m==1.9.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8509835Z  ^[[32m+^[[39m ^[[1mdnspython^[[0m^[[2m==2.8.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8511018Z  ^[[32m+^[[39m ^[[1mdramatiq^[[0m^[[2m==2.0.0 (from git+https://github.com/frankie567/dramatiq@63ea404e2204b2d2b3e644053b4b294cb1039ad4)^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8512046Z  ^[[32m+^[[39m ^[[1memail-validator^[[0m^[[2m==2.3.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8512612Z  ^[[32m+^[[39m ^[[1mexecnet^[[0m^[[2m==2.1.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8513141Z  ^[[32m+^[[39m ^[[1mexecuting^[[0m^[[2m==2.2.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8513737Z  ^[[32m+^[[39m ^[[1mexponent-server-sdk^[[0m^[[2m==2.2.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8514320Z  ^[[32m+^[[39m ^[[1mfakeredis^[[0m^[[2m==2.37.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8514873Z  ^[[32m+^[[39m ^[[1mfastapi^[[0m^[[2m==0.141.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8515561Z  ^[[32m+^[[39m ^[[1mfirecrawl-py^[[0m^[[2m==4.44.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8516104Z  ^[[32m+^[[39m ^[[1mflask^[[0m^[[2m==3.1.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8517168Z  ^[[32m+^[[39m ^[[1mflask-cors^[[0m^[[2m==6.0.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8517740Z  ^[[32m+^[[39m ^[[1mflask-login^[[0m^[[2m==0.6.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8518277Z  ^[[32m+^[[39m ^[[1mflupy^[[0m^[[2m==1.2.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8518812Z  ^[[32m+^[[39m ^[[1mfonttools^[[0m^[[2m==4.63.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8519329Z  ^[[32m+^[[39m ^[[1mfpdf2^[[0m^[[2m==2.8.8^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8519846Z  ^[[32m+^[[39m ^[[1mfreezegun^[[0m^[[2m==1.5.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8520377Z  ^[[32m+^[[39m ^[[1mfrozenlist^[[0m^[[2m==1.8.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8520940Z  ^[[32m+^[[39m ^[[1mgenai-prices^[[0m^[[2m==0.1.8^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8521486Z  ^[[32m+^[[39m ^[[1mgepa^[[0m^[[2m==0.1.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8521997Z  ^[[32m+^[[39m ^[[1mgevent^[[0m^[[2m==26.8.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8522575Z  ^[[32m+^[[39m ^[[1mgeventhttpclient^[[0m^[[2m==2.3.9^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8523139Z  ^[[32m+^[[39m ^[[1mgithubkit^[[0m^[[2m==0.16.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8523771Z  ^[[32m+^[[39m ^[[1mgithubkit-schemas^[[0m^[[2m==26.7.29^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8524485Z  ^[[32m+^[[39m ^[[1mgithubkit-schemas-2026-03-10^[[0m^[[2m==26.7.29^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8525149Z  ^[[32m+^[[39m ^[[1mgoogle-auth^[[0m^[[2m==2.56.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8525969Z  ^[[32m+^[[39m ^[[1mgoogleapis-common-protos^[[0m^[[2m==1.75.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8526629Z  ^[[32m+^[[39m ^[[1mgraphql-core^[[0m^[[2m==3.2.11^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8527192Z  ^[[32m+^[[39m ^[[1mgreenlet^[[0m^[[2m==3.5.6^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8527744Z  ^[[32m+^[[39m ^[[1mgriffelib^[[0m^[[2m==2.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8528252Z  ^[[32m+^[[39m ^[[1mh11^[[0m^[[2m==0.16.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8528744Z  ^[[32m+^[[39m ^[[1mh2^[[0m^[[2m==4.4.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8529236Z  ^[[32m+^[[39m ^[[1mhishel^[[0m^[[2m==1.3.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8529747Z  ^[[32m+^[[39m ^[[1mhpack^[[0m^[[2m==4.2.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8530275Z  ^[[32m+^[[39m ^[[1mhtmldate^[[0m^[[2m==1.10.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8530803Z  ^[[32m+^[[39m ^[[1mhttpcore^[[0m^[[2m==1.0.9^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8531346Z  ^[[32m+^[[39m ^[[1mhttpcore2^[[0m^[[2m==2.13.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8531888Z  ^[[32m+^[[39m ^[[1mhttptools^[[0m^[[2m==0.8.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8532419Z  ^[[32m+^[[39m ^[[1mhttpx^[[0m^[[2m==0.28.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8533150Z  ^[[32m+^[[39m ^[[1mhttpx-oauth^[[0m^[[2m==0.17.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8533701Z  ^[[32m+^[[39m ^[[1mhttpx2^[[0m^[[2m==2.13.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8534230Z  ^[[32m+^[[39m ^[[1mhypercorn^[[0m^[[2m==0.18.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8534772Z  ^[[32m+^[[39m ^[[1mhyperframe^[[0m^[[2m==6.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8535291Z  ^[[32m+^[[39m ^[[1midna^[[0m^[[2m==3.18^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8542296Z  ^[[32m+^[[39m ^[[1miniconfig^[[0m^[[2m==2.3.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8542907Z  ^[[32m+^[[39m ^[[1mipinfo-db^[[0m^[[2m==0.0.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8543470Z  ^[[32m+^[[39m ^[[1mitsdangerous^[[0m^[[2m==2.2.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8544022Z  ^[[32m+^[[39m ^[[1mjinja2^[[0m^[[2m==3.1.6^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8544538Z  ^[[32m+^[[39m ^[[1mjiter^[[0m^[[2m==0.16.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8545054Z  ^[[32m+^[[39m ^[[1mjmespath^[[0m^[[2m==1.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8545766Z  ^[[32m+^[[39m ^[[1mjoserfc^[[0m^[[2m==1.7.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8546279Z  ^[[32m+^[[39m ^[[1mjustext^[[0m^[[2m==3.0.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8546813Z  ^[[32m+^[[39m ^[[1mlangcodes^[[0m^[[2m==3.5.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8547336Z  ^[[32m+^[[39m ^[[1mlibrt^[[0m^[[2m==0.15.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8547886Z  ^[[32m+^[[39m ^[[1mlinkify-it-py^[[0m^[[2m==2.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8548463Z  ^[[32m+^[[39m ^[[1mlocust^[[0m^[[2m==2.46.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8549006Z  ^[[32m+^[[39m ^[[1mlogfire^[[0m^[[2m==4.40.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8549563Z  ^[[32m+^[[39m ^[[1mlogfire-api^[[0m^[[2m==4.40.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8550101Z  ^[[32m+^[[39m ^[[1mlupa^[[0m^[[2m==2.8^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8550591Z  ^[[32m+^[[39m ^[[1mlxml^[[0m^[[2m==6.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8551155Z  ^[[32m+^[[39m ^[[1mlxml-html-clean^[[0m^[[2m==0.4.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8551731Z  ^[[32m+^[[39m ^[[1mlz4^[[0m^[[2m==4.4.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8552255Z  ^[[32m+^[[39m ^[[1mmakefun^[[0m^[[2m==1.16.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8552778Z  ^[[32m+^[[39m ^[[1mmako^[[0m^[[2m==1.4.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8553324Z  ^[[32m+^[[39m ^[[1mmarkdown-it-py^[[0m^[[2m==4.2.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8553896Z  ^[[32m+^[[39m ^[[1mmarkupsafe^[[0m^[[2m==3.0.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8554724Z  ^[[32m+^[[39m ^[[1mmaxminddb^[[0m^[[2m==3.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8555481Z  ^[[32m+^[[39m ^[[1mmdit-py-plugins^[[0m^[[2m==0.6.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8556042Z  ^[[32m+^[[39m ^[[1mmdurl^[[0m^[[2m==0.1.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8556564Z  ^[[32m+^[[39m ^[[1mminio^[[0m^[[2m==7.2.20^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8557090Z  ^[[32m+^[[39m ^[[1mmsgpack^[[0m^[[2m==1.2.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8557638Z  ^[[32m+^[[39m ^[[1mmultidict^[[0m^[[2m==6.7.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8558170Z  ^[[32m+^[[39m ^[[1mmypy^[[0m^[[2m==2.3.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8558753Z  ^[[32m+^[[39m ^[[1mmypy-boto3-lambda^[[0m^[[2m==1.43.60^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8559373Z  ^[[32m+^[[39m ^[[1mmypy-boto3-s3^[[0m^[[2m==1.43.66^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8560003Z  ^[[32m+^[[39m ^[[1mmypy-boto3-scheduler^[[0m^[[2m==1.43.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8560625Z  ^[[32m+^[[39m ^[[1mmypy-boto3-sqs^[[0m^[[2m==1.43.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8561211Z  ^[[32m+^[[39m ^[[1mmypy-extensions^[[0m^[[2m==1.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8561785Z  ^[[32m+^[[39m ^[[1mnest-asyncio^[[0m^[[2m==1.6.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8562350Z  ^[[32m+^[[39m ^[[1mopenai^[[0m^[[2m==3.14.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8562902Z  ^[[32m+^[[39m ^[[1mopenapi-kit^[[0m^[[2m==0.3.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8563559Z  ^[[32m+^[[39m ^[[1mopenapi-pydantic^[[0m^[[2m==0.5.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8564204Z  ^[[32m+^[[39m ^[[1mopentelemetry-api^[[0m^[[2m==1.44.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8565050Z  ^[[32m+^[[39m ^[[1mopentelemetry-exporter-otlp-proto-common^[[0m^[[2m==1.44.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8566137Z  ^[[32m+^[[39m ^[[1mopentelemetry-exporter-otlp-proto-http^[[0m^[[2m==1.44.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8566999Z  ^[[32m+^[[39m ^[[1mopentelemetry-instrumentation^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8567734Z  ^[[32m+^[[39m ^[[1mopentelemetry-instrumentation-asgi^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8568301Z  ^[[32m+^[[39m ^[[1mopentelemetry-instrumentation-fastapi^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8568869Z  ^[[32m+^[[39m ^[[1mopentelemetry-instrumentation-httpx^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8569409Z  ^[[32m+^[[39m ^[[1mopentelemetry-instrumentation-redis^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8569983Z  ^[[32m+^[[39m ^[[1mopentelemetry-instrumentation-sqlalchemy^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8570667Z  ^[[32m+^[[39m ^[[1mopentelemetry-proto^[[0m^[[2m==1.44.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8571093Z  ^[[32m+^[[39m ^[[1mopentelemetry-sdk^[[0m^[[2m==1.44.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8571566Z  ^[[32m+^[[39m ^[[1mopentelemetry-semantic-conventions^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8572053Z  ^[[32m+^[[39m ^[[1mopentelemetry-util-http^[[0m^[[2m==0.65b0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8572462Z  ^[[32m+^[[39m ^[[1moutcome^[[0m^[[2m==1.3.0.post0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8572834Z  ^[[32m+^[[39m ^[[1mpackaging^[[0m^[[2m==26.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8573188Z  ^[[32m+^[[39m ^[[1mparse^[[0m^[[2m==1.22.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8573530Z  ^[[32m+^[[39m ^[[1mpathspec^[[0m^[[2m==1.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8573872Z  ^[[32m+^[[39m ^[[1mpillow^[[0m^[[2m==12.3.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8574230Z  ^[[32m+^[[39m ^[[1mplain-client^[[0m^[[2m==0.0.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8574601Z  ^[[32m+^[[39m ^[[1mplatformdirs^[[0m^[[2m==4.11.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8574955Z  ^[[32m+^[[39m ^[[1mpluggy^[[0m^[[2m==1.6.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8575308Z  ^[[32m+^[[39m ^[[1mpolar-sdk^[[0m^[[2m==1.0.0a22^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8575936Z  ^[[32m+^[[39m ^[[1mposthog^[[0m^[[2m==7.59.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8576273Z  ^[[32m+^[[39m ^[[1mpriority^[[0m^[[2m==2.0.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8576643Z  ^[[32m+^[[39m ^[[1mprometheus-client^[[0m^[[2m==0.26.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8577016Z  ^[[32m+^[[39m ^[[1mpropcache^[[0m^[[2m==0.5.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8577359Z  ^[[32m+^[[39m ^[[1mprotobuf^[[0m^[[2m==7.35.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8577692Z  ^[[32m+^[[39m ^[[1mpsutil^[[0m^[[2m==6.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8578055Z  ^[[32m+^[[39m ^[[1mpsycopg2-binary^[[0m^[[2m==2.9.13^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8578408Z  ^[[32m+^[[39m ^[[1mpyasn1^[[0m^[[2m==0.6.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8578764Z  ^[[32m+^[[39m ^[[1mpyasn1-modules^[[0m^[[2m==0.4.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8579148Z  ^[[32m+^[[39m ^[[1mpycountry^[[0m^[[2m==26.2.16^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8579503Z  ^[[32m+^[[39m ^[[1mpycparser^[[0m^[[2m==3.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8579859Z  ^[[32m+^[[39m ^[[1mpycryptodome^[[0m^[[2m==3.23.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8580353Z  ^[[32m+^[[39m ^[[1mpydantic^[[0m^[[2m==2.13.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8580727Z  ^[[32m+^[[39m ^[[1mpydantic-ai-slim^[[0m^[[2m==2.43.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8581101Z  ^[[32m+^[[39m ^[[1mpydantic-core^[[0m^[[2m==2.46.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8581479Z  ^[[32m+^[[39m ^[[1mpydantic-evals^[[0m^[[2m==2.43.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8581925Z  ^[[32m+^[[39m ^[[1mpydantic-extra-types^[[0m^[[2m==2.11.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8582320Z  ^[[32m+^[[39m ^[[1mpydantic-graph^[[0m^[[2m==2.43.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8582710Z  ^[[32m+^[[39m ^[[1mpydantic-settings^[[0m^[[2m==2.15.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8583078Z  ^[[32m+^[[39m ^[[1mpygments^[[0m^[[2m==2.20.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8583426Z  ^[[32m+^[[39m ^[[1mpyjwt^[[0m^[[2m==2.14.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8583752Z  ^[[32m+^[[39m ^[[1mpypdf^[[0m^[[2m==6.19.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8584077Z  ^[[32m+^[[39m ^[[1mpytest^[[0m^[[2m==9.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8584419Z  ^[[32m+^[[39m ^[[1mpytest-asyncio^[[0m^[[2m==1.4.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8584780Z  ^[[32m+^[[39m ^[[1mpytest-cov^[[0m^[[2m==7.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8585158Z  ^[[32m+^[[39m ^[[1mpytest-mock^[[0m^[[2m==3.15.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8585654Z  ^[[32m+^[[39m ^[[1mpytest-recording^[[0m^[[2m==0.13.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8586036Z  ^[[32m+^[[39m ^[[1mpytest-split^[[0m^[[2m==0.11.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8586420Z  ^[[32m+^[[39m ^[[1mpytest-subtests^[[0m^[[2m==0.15.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8586790Z  ^[[32m+^[[39m ^[[1mpytest-sugar^[[0m^[[2m==1.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8587157Z  ^[[32m+^[[39m ^[[1mpytest-xdist^[[0m^[[2m==3.8.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8587503Z  ^[[32m+^[[39m ^[[1mpython-bidi^[[0m^[[2m==0.6.11^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8587887Z  ^[[32m+^[[39m ^[[1mpython-dateutil^[[0m^[[2m==2.9.0.post0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8588276Z  ^[[32m+^[[39m ^[[1mpython-dotenv^[[0m^[[2m==1.2.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8588648Z  ^[[32m+^[[39m ^[[1mpython-engineio^[[0m^[[2m==4.13.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8589031Z  ^[[32m+^[[39m ^[[1mpython-multipart^[[0m^[[2m==0.0.32^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8589411Z  ^[[32m+^[[39m ^[[1mpython-slugify^[[0m^[[2m==9.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8589774Z  ^[[32m+^[[39m ^[[1mpython-snappy^[[0m^[[2m==0.7.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8590289Z  ^[[32m+^[[39m ^[[1mpython-socketio^[[0m^[[2m==5.16.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8590655Z  ^[[32m+^[[39m ^[[1mpython-stdnum^[[0m^[[2m==2.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8591016Z  ^[[32m+^[[39m ^[[1mpytz^[[0m^[[2m==2026.3.post1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8591378Z  ^[[32m+^[[39m ^[[1mpyyaml^[[0m^[[2m==6.0.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8591696Z  ^[[32m+^[[39m ^[[1mpyzmq^[[0m^[[2m==27.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8592017Z  ^[[32m+^[[39m ^[[1mreauth^[[0m^[[2m==0.4.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8592341Z  ^[[32m+^[[39m ^[[1mredis^[[0m^[[2m==6.4.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8592678Z  ^[[32m+^[[39m ^[[1mregex^[[0m^[[2m==2026.7.19^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8593021Z  ^[[32m+^[[39m ^[[1mrequests^[[0m^[[2m==2.34.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8593357Z  ^[[32m+^[[39m ^[[1mrespx^[[0m^[[2m==0.23.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8593688Z  ^[[32m+^[[39m ^[[1mrich^[[0m^[[2m==15.0.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8594009Z  ^[[32m+^[[39m ^[[1mruff^[[0m^[[2m==0.16.7^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8594356Z  ^[[32m+^[[39m ^[[1ms3transfer^[[0m^[[2m==0.19.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8594749Z  ^[[32m+^[[39m ^[[1msafe-redirect-url^[[0m^[[2m==0.1.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8595153Z  ^[[32m+^[[39m ^[[1msentry-sdk^[[0m^[[2m==2.67.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8595645Z  ^[[32m+^[[39m ^[[1mshellingham^[[0m^[[2m==1.5.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8596035Z  ^[[32m+^[[39m ^[[1msimple-websocket^[[0m^[[2m==1.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8596399Z  ^[[32m+^[[39m ^[[1msix^[[0m^[[2m==1.17.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8596744Z  ^[[32m+^[[39m ^[[1msniffio^[[0m^[[2m==1.3.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8597135Z  ^[[32m+^[[39m ^[[1msortedcontainers^[[0m^[[2m==2.4.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8597511Z  ^[[32m+^[[39m ^[[1msoupsieve^[[0m^[[2m==2.9.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8597871Z  ^[[32m+^[[39m ^[[1msqlalchemy^[[0m^[[2m==2.0.52^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8598245Z  ^[[32m+^[[39m ^[[1msqlalchemy-utils^[[0m^[[2m==0.42.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8613166Z  ^[[32m+^[[39m ^[[1msse-starlette^[[0m^[[2m==3.4.11^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8613722Z  ^[[32m+^[[39m ^[[1mstandardwebhooks^[[0m^[[2m==1.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8614138Z  ^[[32m+^[[39m ^[[1mstarlette^[[0m^[[2m==1.6.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8614694Z  ^[[32m+^[[39m ^[[1mstripe^[[0m^[[2m==14.4.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8615068Z  ^[[32m+^[[39m ^[[1mstructlog^[[0m^[[2m==26.1.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8615672Z  ^[[32m+^[[39m ^[[1mtagflow^[[0m^[[2m==0.12.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8616027Z  ^[[32m+^[[39m ^[[1mtaskipy^[[0m^[[2m==1.14.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8616367Z  ^[[32m+^[[39m ^[[1mtermcolor^[[0m^[[2m==3.3.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8616733Z  ^[[32m+^[[39m ^[[1mtext-unidecode^[[0m^[[2m==1.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8617097Z  ^[[32m+^[[39m ^[[1mtextual^[[0m^[[2m==8.2.8^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8617455Z  ^[[32m+^[[39m ^[[1mtiktoken^[[0m^[[2m==0.13.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8617794Z  ^[[32m+^[[39m ^[[1mtld^[[0m^[[2m==0.13.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8618131Z  ^[[32m+^[[39m ^[[1mtomli^[[0m^[[2m==2.4.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8618490Z  ^[[32m+^[[39m ^[[1mtrafilatura^[[0m^[[2m==2.2.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8618840Z  ^[[32m+^[[39m ^[[1mtrio^[[0m^[[2m==0.34.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8619179Z  ^[[32m+^[[39m ^[[1mtruststore^[[0m^[[2m==0.10.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8619532Z  ^[[32m+^[[39m ^[[1mtyper^[[0m^[[2m==0.27.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8619939Z  ^[[32m+^[[39m ^[[1mtypes-cffi^[[0m^[[2m==2.0.0.20260518^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8620386Z  ^[[32m+^[[39m ^[[1mtypes-pyopenssl^[[0m^[[2m==24.1.0.20240722^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8620857Z  ^[[32m+^[[39m ^[[1mtypes-python-slugify^[[0m^[[2m==8.0.2.20240310^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8621295Z  ^[[32m+^[[39m ^[[1mtypes-redis^[[0m^[[2m==4.6.0.20241004^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8621713Z  ^[[32m+^[[39m ^[[1mtypes-requests^[[0m^[[2m==2.33.0.20260906^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8622119Z  ^[[32m+^[[39m ^[[1mtypes-s3transfer^[[0m^[[2m==0.16.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8622545Z  ^[[32m+^[[39m ^[[1mtypes-setuptools^[[0m^[[2m==84.0.0.20260812^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8622968Z  ^[[32m+^[[39m ^[[1mtyping-extensions^[[0m^[[2m==4.16.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8623356Z  ^[[32m+^[[39m ^[[1mtyping-inspection^[[0m^[[2m==0.4.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8623714Z  ^[[32m+^[[39m ^[[1mtzdata^[[0m^[[2m==2026.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8624051Z  ^[[32m+^[[39m ^[[1mtzlocal^[[0m^[[2m==5.4.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8624400Z  ^[[32m+^[[39m ^[[1muc-micro-py^[[0m^[[2m==2.0.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8624760Z  ^[[32m+^[[39m ^[[1murllib3^[[0m^[[2m==2.7.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8625232Z  ^[[32m+^[[39m ^[[1muvicorn^[[0m^[[2m==0.52.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8625683Z  ^[[32m+^[[39m ^[[1muvloop^[[0m^[[2m==0.22.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8626005Z  ^[[32m+^[[39m ^[[1mvcrpy^[[0m^[[2m==8.3.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8626338Z  ^[[32m+^[[39m ^[[1mwatchdog^[[0m^[[2m==6.0.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8626711Z  ^[[32m+^[[39m ^[[1mwatchdog-gevent^[[0m^[[2m==0.2.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8627108Z  ^[[32m+^[[39m ^[[1mwatchfiles^[[0m^[[2m==1.2.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8627480Z  ^[[32m+^[[39m ^[[1mwebsocket-client^[[0m^[[2m==1.9.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8627848Z  ^[[32m+^[[39m ^[[1mwebsockets^[[0m^[[2m==17.0.1^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8628189Z  ^[[32m+^[[39m ^[[1mwerkzeug^[[0m^[[2m==3.1.8^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8628524Z  ^[[32m+^[[39m ^[[1mwrapt^[[0m^[[2m==2.3.0^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8628847Z  ^[[32m+^[[39m ^[[1mwsproto^[[0m^[[2m==1.3.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8629169Z  ^[[32m+^[[39m ^[[1myarl^[[0m^[[2m==1.24.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8629498Z  ^[[32m+^[[39m ^[[1mzope-event^[[0m^[[2m==6.2^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.8629849Z  ^[[32m+^[[39m ^[[1mzope-interface^[[0m^[[2m==8.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.9327211Z ^[[2mUninstalled ^[[1m1 package^[[0m ^[[2min 53ms^[[0m^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:39.9327973Z  ^[[31m-^[[39m ^[[1mpydantic^[[0m^[[2m==2.13.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:43.9178583Z ^[[2mResolved ^[[1m5 packages^[[0m ^[[2min 3.92s^[[0m^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:43.9186326Z    ^[[36m^[[1mBuilding^[[0m^[[39m pydantic^[[2m @ file:///home/runner/work/pydantic/pydantic/pydantic-latest^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:43.9188976Z    ^[[36m^[[1mBuilding^[[0m^[[39m pydantic-core^[[2m @ file:///home/runner/work/pydantic/pydantic/pydantic-latest/pydantic-core^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:06:44.0652470Z       ^[[32m^[[1mBuilt^[[0m^[[39m pydantic^[[2m @ file:///home/runner/work/pydantic/pydantic/pydantic-latest^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0184823Z       ^[[32m^[[1mBuilt^[[0m^[[39m pydantic-core^[[2m @ file:///home/runner/work/pydantic/pydantic/pydantic-latest/pydantic-core^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0196896Z ^[[2mPrepared ^[[1m3 packages^[[0m ^[[2min 39.10s^[[0m^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0208343Z ^[[2mUninstalled ^[[1m2 packages^[[0m ^[[2min 1ms^[[0m^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0218579Z ^[[2mInstalled ^[[1m3 packages^[[0m ^[[2min 0.95ms^[[0m^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0223357Z  ^[[32m+^[[39m ^[[1mpydantic^[[0m^[[2m==2.14.0b2 (from file:///home/runner/work/pydantic/pydantic/pydantic-latest)^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0225124Z  ^[[31m-^[[39m ^[[1mpydantic-core^[[0m^[[2m==2.46.5^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0226693Z  ^[[32m+^[[39m ^[[1mpydantic-core^[[0m^[[2m==2.49.0 (from file:///home/runner/work/pydantic/pydantic/pydantic-latest/pydantic-core)^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0227864Z  ^[[31m-^[[39m ^[[1mtyping-inspection^[[0m^[[2m==0.4.3^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.0228518Z  ^[[32m+^[[39m ^[[1mtyping-inspection^[[0m^[[2m==0.4.4^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.1876691Z could not find task "generate_dev_jwks"
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.2019717Z ##[error]Process completed with exit code 127.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.2145505Z Post job cleanup.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.2994987Z [command]/usr/bin/git version
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3042379Z git version 2.55.0
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3078128Z Temporarily overriding HOME='/home/runner/work/_temp/b0dace8e-2d71-40d4-bbb7-bb9378c0c441' before making global git config changes
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3079578Z Adding repository directory to the temporary git global config as a safe directory
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3084486Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic/pydantic-latest
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3119302Z Removing SSH command configuration
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3125949Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3161229Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3406005Z Removing HTTP extra header
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3412114Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3448090Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3682783Z Removing includeIf entries pointing to credentials config files
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3689673Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.3721676Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.4114737Z Post job cleanup.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.5660304Z Pruning is unnecessary.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.5809463Z Post job cleanup.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6703126Z [command]/usr/bin/git version
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6750337Z git version 2.55.0
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6818506Z Temporarily overriding HOME='/home/runner/work/_temp/36faa6d2-e1e4-48a4-812e-21fede63927f' before making global git config changes
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6819947Z Adding repository directory to the temporary git global config as a safe directory
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6824583Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pydantic/pydantic
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6858953Z Removing SSH command configuration
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6865468Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.6898998Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7145834Z Removing HTTP extra header
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7151675Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7186993Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7434289Z Removing includeIf entries pointing to credentials config files
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7441758Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7477390Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7838954Z Print service container logs: cbb57e4444804235b2a9e3215bdf62f0_postgres151bullseye_f0faf2
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7843774Z ##[command]/usr/bin/docker logs --details 7e96fd0f4c12ac51701be6ac5c85c15dfe9471d7ef4446f675977fae75b3c9ee
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7979376Z  initdb: warning: enabling "trust" authentication for local connections
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7980132Z  The files belonging to this database system will be owned by user "postgres".
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7981286Z  initdb: hint: You can change this by editing pg_hba.conf or using the option -A, or --auth-local and --auth-host, the next time you run initdb.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7982171Z  This user must also own the server process.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7982452Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7982765Z  The database cluster will be initialized with locale "en_US.utf8".
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7983207Z  The default database encoding has accordingly been set to "UTF8".
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7983672Z  The default text search configuration will be set to "english".
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7984003Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7984204Z  Data page checksums are disabled.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7984566Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7984866Z  fixing permissions on existing directory /var/lib/postgresql/data ... ok
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7985270Z  creating subdirectories ... ok
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7985923Z  selecting dynamic shared memory implementation ... posix
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7986474Z  selecting default max_connections ... 100
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7986972Z  selecting default shared_buffers ... 128MB
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7987419Z  selecting default time zone ... Etc/UTC
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7987852Z  creating configuration files ... ok
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7988273Z  running bootstrap script ... ok
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7988637Z  performing post-bootstrap initialization ... ok
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7989320Z  syncing data to disk ... ok
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7989559Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7989739Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7989975Z  Success. You can now start the database server using:
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7990282Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7990524Z      pg_ctl -D /var/lib/postgresql/data -l logfile start
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7990815Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7991476Z  waiting for server to start....2026-09-30 12:05:26.726 UTC [49] LOG:  starting PostgreSQL 15.1 (Debian 15.1-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7992373Z  2026-09-30 12:05:26.727 UTC [49] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7992941Z  2026-09-30 12:05:26.730 UTC [52] LOG:  database system was shut down at 2026-09-30 12:05:26 UTC
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7993442Z  2026-09-30 12:05:26.733 UTC [49] LOG:  database system is ready to accept connections
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7993809Z   done
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7994001Z  server started
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7994205Z  CREATE DATABASE
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7994401Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7994576Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7994901Z  /usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7995315Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7995879Z  2026-09-30 12:05:26.929 UTC [49] LOG:  received fast shutdown request
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7996398Z  waiting for server to shut down....2026-09-30 12:05:26.929 UTC [49] LOG:  aborting any active transactions
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7997069Z  2026-09-30 12:05:26.931 UTC [49] LOG:  background worker "logical replication launcher" (PID 55) exited with exit code 1
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7997608Z  2026-09-30 12:05:26.931 UTC [50] LOG:  shutting down
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7998014Z  2026-09-30 12:05:26.932 UTC [50] LOG:  checkpoint starting: shutdown immediate
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7998763Z  2026-09-30 12:05:27.054 UTC [1] LOG:  starting PostgreSQL 15.1 (Debian 15.1-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.7999466Z  2026-09-30 12:05:27.054 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8000140Z  2026-09-30 12:05:27.054 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8000652Z  2026-09-30 12:05:27.055 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8001188Z  2026-09-30 12:05:27.059 UTC [65] LOG:  database system was shut down at 2026-09-30 12:05:26 UTC
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8001667Z  2026-09-30 12:05:27.064 UTC [1] LOG:  database system is ready to accept connections
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8002084Z  2026-09-30 12:05:36.149 UTC [76] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8002460Z  2026-09-30 12:05:46.212 UTC [84] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8002818Z  2026-09-30 12:05:56.277 UTC [92] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8003192Z  2026-09-30 12:06:06.341 UTC [101] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8003568Z  2026-09-30 12:06:16.407 UTC [109] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8003941Z  2026-09-30 12:06:26.479 UTC [117] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8004307Z  2026-09-30 12:06:36.560 UTC [126] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8004675Z  2026-09-30 12:06:46.628 UTC [134] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8005043Z  2026-09-30 12:06:56.734 UTC [142] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8005672Z  2026-09-30 12:07:06.823 UTC [151] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8006241Z  2026-09-30 12:07:16.890 UTC [159] FATAL:  role "root" does not exist
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8025953Z  2026-09-30 12:05:26.947 UTC [50] LOG:  checkpoint complete: wrote 918 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.013 s, sync=0.002 s, total=0.016 s; sync files=250, longest=0.001 s, average=0.001 s; distance=4217 kB, estimate=4217 kB
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8027665Z  2026-09-30 12:05:26.954 UTC [49] LOG:  database system is shut down
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8028176Z   done
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8028374Z  server stopped
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8028578Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8028846Z  PostgreSQL init process complete; ready for start up.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8029175Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8034211Z Stop and remove container: cbb57e4444804235b2a9e3215bdf62f0_postgres151bullseye_f0faf2
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:23.8039678Z ##[command]/usr/bin/docker rm --force 7e96fd0f4c12ac51701be6ac5c85c15dfe9471d7ef4446f675977fae75b3c9ee
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4714542Z 7e96fd0f4c12ac51701be6ac5c85c15dfe9471d7ef4446f675977fae75b3c9ee
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4738417Z Print service container logs: dc779477eb83462b95459698e12499e4_redis74alpine_c3f577
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4739675Z ##[command]/usr/bin/docker logs --details 85c4903a1341c7fda5061fbd13d684a95908bba0304ce4712093778e6a8bb3e4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4870144Z  1:C 30 Sep 2026 12:05:27.712 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4871896Z  1:C 30 Sep 2026 12:05:27.712 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4872463Z  1:C 30 Sep 2026 12:05:27.712 * Redis version=7.4.11, bits=64, commit=00000000, modified=0, pid=1, just started
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4873258Z  1:C 30 Sep 2026 12:05:27.712 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4873916Z  1:M 30 Sep 2026 12:05:27.712 * monotonic clock: POSIX clock_gettime
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4874316Z  1:M 30 Sep 2026 12:05:27.713 * Running mode=standalone, port=6379.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4874672Z  1:M 30 Sep 2026 12:05:27.713 * Server initialized
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4875031Z  1:M 30 Sep 2026 12:05:27.713 * Ready to accept connections tcp
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4892180Z Stop and remove container: dc779477eb83462b95459698e12499e4_redis74alpine_c3f577
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.4893332Z ##[command]/usr/bin/docker rm --force 85c4903a1341c7fda5061fbd13d684a95908bba0304ce4712093778e6a8bb3e4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6022570Z 85c4903a1341c7fda5061fbd13d684a95908bba0304ce4712093778e6a8bb3e4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6038688Z Print service container logs: d4235c735c364c168b125781581adf82_bitnamilegacyminio2024528_5e8ac4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6039861Z ##[command]/usr/bin/docker logs --details 9889ff54a711e13f761a7550f24aff9cfd24fbc2dc8d240eca51b957eaff619e
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6176841Z  ^[[38;5;6m ^[[38;5;5m12:05:32.13 ^[[0m^[[38;5;2mINFO ^[[0m ==> 
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6177379Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6177916Z  ^[[38;5;6m ^[[38;5;5m12:05:32.13 ^[[0m^[[38;5;2mINFO ^[[0m ==> ^[[1mWelcome to the Bitnami minio container^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6178998Z  ^[[38;5;6m ^[[38;5;5m12:05:32.14 ^[[0m^[[38;5;2mINFO ^[[0m ==> Subscribe to project updates by watching ^[[1mhttps://github.com/bitnami/containers^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6179890Z  ^[[38;5;6m ^[[38;5;5m12:05:32.14 ^[[0m^[[38;5;2mINFO ^[[0m ==> Submit issues and feature requests at ^[[1mhttps://github.com/bitnami/containers/issues^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6181375Z  ^[[38;5;6m ^[[38;5;5m12:05:32.14 ^[[0m^[[38;5;2mINFO ^[[0m ==> Upgrade to Tanzu Application Catalog for production environments to access custom-configured and pre-packaged software components. Gain enhanced features, including Software Bill of Materials (SBOM), CVE scan result reports, and VEX documents. To learn more, visit ^[[1mhttps://bitnami.com/enterprise^[[0m
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6182686Z  ^[[38;5;6m ^[[38;5;5m12:05:32.14 ^[[0m^[[38;5;2mINFO ^[[0m ==> 
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6183079Z  ^[[38;5;6m ^[[38;5;5m12:05:32.14 ^[[0m^[[38;5;2mINFO ^[[0m ==> ** Starting MinIO setup **
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6183572Z  ^[[38;5;6mminio ^[[38;5;5m12:05:32.17 ^[[0m^[[38;5;2mINFO ^[[0m ==> Starting MinIO in background...
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6184477Z  ^[[38;5;6mminio ^[[38;5;5m12:05:37.20 ^[[0m^[[38;5;2mINFO ^[[0m ==> Adding local Minio host to 'mc' configuration...
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6184999Z  ^[[38;5;6mminio ^[[38;5;5m12:05:37.27 ^[[0m^[[38;5;2mINFO ^[[0m ==> Stopping MinIO...
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6185690Z  ^[[38;5;6m ^[[38;5;5m12:05:37.31 ^[[0m^[[38;5;2mINFO ^[[0m ==> ** MinIO setup finished! **
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6186182Z  ^[[38;5;6mminio ^[[38;5;5m12:05:37.32 ^[[0m^[[38;5;2mINFO ^[[0m ==> ** Starting MinIO **
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6186547Z  MinIO Object Storage Server
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6186824Z  Copyright: 2015-2026 MinIO, Inc.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6187208Z  License: GNU AGPLv3 - https://www.gnu.org/licenses/agpl-3.0.html
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6187661Z  Version: DEVELOPMENT.2024-05-28T17-19-04Z (go1.21.10 linux/amd64)
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6187999Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6188210Z  API: http://localhost:9000 
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6188515Z  WebUI: http://172.18.0.4:9001 http://127.0.0.1:9001  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6188821Z  
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6189060Z  Docs: https://min.io/docs/minio/linux/index.html
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6189377Z  Status:         1 Online, 0 Offline. 
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6189636Z  STARTUP WARNINGS:
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6189937Z  - The standard parity is set to 0. This can lead to data loss.
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6205269Z Stop and remove container: d4235c735c364c168b125781581adf82_bitnamilegacyminio2024528_5e8ac4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.6206223Z ##[command]/usr/bin/docker rm --force 9889ff54a711e13f761a7550f24aff9cfd24fbc2dc8d240eca51b957eaff619e
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.7889122Z 9889ff54a711e13f761a7550f24aff9cfd24fbc2dc8d240eca51b957eaff619e
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.7913821Z Remove container network: github_network_2c1187a5120b493fab979f79ba6022c4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.7919616Z ##[command]/usr/bin/docker network rm github_network_2c1187a5120b493fab979f79ba6022c4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.8841210Z github_network_2c1187a5120b493fab979f79ba6022c4
+Test Polar (main branch) on Python 3.13	UNKNOWN STEP	2026-09-30T12:07:25.8917438Z Cleaning up orphan processes

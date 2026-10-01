@@ -1,0 +1,400 @@
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1777730Z           "delete_branch_on_merge": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1778441Z           "deployments_url": "https://api.github.com/repos/Shridharrrr/fastapi/deployments",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1779427Z           "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1780270Z           "disabled": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1780924Z           "downloads_url": "https://api.github.com/repos/Shridharrrr/fastapi/downloads",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1781951Z           "events_url": "https://api.github.com/repos/Shridharrrr/fastapi/events",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1782605Z           "fork": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1783025Z           "forks": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1783486Z           "forks_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1784103Z           "forks_url": "https://api.github.com/repos/Shridharrrr/fastapi/forks",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1784777Z           "full_name": "Shridharrrr/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1785538Z           "git_commits_url": "https://api.github.com/repos/Shridharrrr/fastapi/git/commits{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1786461Z           "git_refs_url": "https://api.github.com/repos/Shridharrrr/fastapi/git/refs{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1787387Z           "git_tags_url": "https://api.github.com/repos/Shridharrrr/fastapi/git/tags{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1788172Z           "git_url": "git://github.com/Shridharrrr/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1788766Z           "has_discussions": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1789275Z           "has_downloads": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1789764Z           "has_issues": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1790243Z           "has_pages": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1791091Z           "has_projects": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1791597Z           "has_pull_requests": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1792159Z           "has_wiki": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1792679Z           "homepage": "https://fastapi.tiangolo.com/",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1793390Z           "hooks_url": "https://api.github.com/repos/Shridharrrr/fastapi/hooks",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1794142Z           "html_url": "https://github.com/Shridharrrr/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1794709Z           "id": 1373747845,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1795197Z           "is_template": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1795932Z           "issue_comment_url": "https://api.github.com/repos/Shridharrrr/fastapi/issues/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1797056Z           "issue_events_url": "https://api.github.com/repos/Shridharrrr/fastapi/issues/events{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1798065Z           "issues_url": "https://api.github.com/repos/Shridharrrr/fastapi/issues{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1798903Z           "keys_url": "https://api.github.com/repos/Shridharrrr/fastapi/keys{/key_id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1799776Z           "labels_url": "https://api.github.com/repos/Shridharrrr/fastapi/labels{/name}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1800468Z           "language": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1801388Z           "languages_url": "https://api.github.com/repos/Shridharrrr/fastapi/languages",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1802129Z           "license": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1802581Z             "key": "mit",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1803047Z             "name": "MIT License",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1803578Z             "node_id": "MDc6TGljZW5zZTEz",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1804117Z             "spdx_id": "MIT",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1804644Z             "url": "https://api.github.com/licenses/mit"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1805183Z           },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1805628Z           "merge_commit_message": "PR_TITLE",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1806180Z           "merge_commit_title": "MERGE_MESSAGE",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1806839Z           "merges_url": "https://api.github.com/repos/Shridharrrr/fastapi/merges",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1807761Z           "milestones_url": "https://api.github.com/repos/Shridharrrr/fastapi/milestones{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1808498Z           "mirror_url": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1809019Z           "name": "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1809488Z           "node_id": "R_kgDOUeG6hQ",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1810400Z           "notifications_url": "https://api.github.com/repos/Shridharrrr/fastapi/notifications{?since,all,participating}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1811650Z           "open_issues": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1812136Z           "open_issues_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1812625Z           "owner": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1813225Z             "avatar_url": "https://avatars.githubusercontent.com/u/180032175?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1814062Z             "events_url": "https://api.github.com/users/Shridharrrr/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1814997Z             "followers_url": "https://api.github.com/users/Shridharrrr/followers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1815844Z             "following_url": "https://api.github.com/users/Shridharrrr/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1816699Z             "gists_url": "https://api.github.com/users/Shridharrrr/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1817381Z             "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1817929Z             "html_url": "https://github.com/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1818500Z             "id": 180032175,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1818967Z             "login": "Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1819450Z             "node_id": "U_kgDOCrsSrw",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1820144Z             "organizations_url": "https://api.github.com/users/Shridharrrr/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1821301Z             "received_events_url": "https://api.github.com/users/Shridharrrr/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1822153Z             "repos_url": "https://api.github.com/users/Shridharrrr/repos",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1822775Z             "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1823419Z             "starred_url": "https://api.github.com/users/Shridharrrr/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1824333Z             "subscriptions_url": "https://api.github.com/users/Shridharrrr/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1825058Z             "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1825579Z             "url": "https://api.github.com/users/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1826206Z             "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1826688Z           },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1827125Z           "private": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1827634Z           "pull_request_creation_policy": "all",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1828349Z           "pulls_url": "https://api.github.com/repos/Shridharrrr/fastapi/pulls{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1829140Z           "pushed_at": "2026-09-17T00:19:51Z",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1829844Z           "releases_url": "https://api.github.com/repos/Shridharrrr/fastapi/releases{/id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1830573Z           "size": 53807,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1831189Z           "squash_merge_commit_message": "COMMIT_MESSAGES",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1831845Z           "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1832484Z           "ssh_url": "git@github.com:Shridharrrr/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1833062Z           "stargazers_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1833763Z           "stargazers_url": "https://api.github.com/repos/Shridharrrr/fastapi/stargazers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1834654Z           "statuses_url": "https://api.github.com/repos/Shridharrrr/fastapi/statuses/{sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1835534Z           "subscribers_url": "https://api.github.com/repos/Shridharrrr/fastapi/subscribers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1836470Z           "subscription_url": "https://api.github.com/repos/Shridharrrr/fastapi/subscription",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1837283Z           "svn_url": "https://github.com/Shridharrrr/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1838011Z           "tags_url": "https://api.github.com/repos/Shridharrrr/fastapi/tags",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1838786Z           "teams_url": "https://api.github.com/repos/Shridharrrr/fastapi/teams",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1839413Z           "topics": [],
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1840056Z           "trees_url": "https://api.github.com/repos/Shridharrrr/fastapi/git/trees{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1840763Z           "updated_at": "2026-09-17T00:06:05Z",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1841573Z           "url": "https://api.github.com/repos/Shridharrrr/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1842304Z           "use_squash_pr_title_as_default": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1842879Z           "visibility": "public",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1843400Z           "watchers": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1843857Z           "watchers_count": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1844376Z           "web_commit_signoff_required": false
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1844902Z         },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1845367Z         "sha": "0a6b344a2c950af11946718210202cb458cb485c",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1845928Z         "user": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1846488Z           "avatar_url": "https://avatars.githubusercontent.com/u/180032175?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1847351Z           "events_url": "https://api.github.com/users/Shridharrrr/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1848166Z           "followers_url": "https://api.github.com/users/Shridharrrr/followers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1849006Z           "following_url": "https://api.github.com/users/Shridharrrr/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1850241Z           "gists_url": "https://api.github.com/users/Shridharrrr/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1850904Z           "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1851728Z           "html_url": "https://github.com/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1852314Z           "id": 180032175,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1852789Z           "login": "Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1853283Z           "node_id": "U_kgDOCrsSrw",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1853970Z           "organizations_url": "https://api.github.com/users/Shridharrrr/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1854824Z           "received_events_url": "https://api.github.com/users/Shridharrrr/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1855662Z           "repos_url": "https://api.github.com/users/Shridharrrr/repos",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1856280Z           "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1856932Z           "starred_url": "https://api.github.com/users/Shridharrrr/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1857815Z           "subscriptions_url": "https://api.github.com/users/Shridharrrr/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1858535Z           "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1859095Z           "url": "https://api.github.com/users/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1859677Z           "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1860176Z         }
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1860669Z       },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1861299Z       "html_url": "https://github.com/fastapi/fastapi/pull/16370",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1861933Z       "id": 4553401858,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1862527Z       "issue_url": "https://api.github.com/repos/fastapi/fastapi/issues/16370",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1863163Z       "labels": [],
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1863642Z       "locked": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1864094Z       "maintainer_can_modify": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1864643Z       "merge_commit_sha": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1865121Z       "mergeable": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1865569Z       "mergeable_state": "unknown",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1866100Z       "merged": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1866536Z       "merged_at": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1866986Z       "merged_by": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1867455Z       "milestone": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1867934Z       "node_id": "PR_kwDOCZduT88AAAABD2dmAg",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1868506Z       "number": 16370,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1869068Z       "patch_url": "https://github.com/fastapi/fastapi/pull/16370.patch",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1869746Z       "rebaseable": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1870221Z       "requested_reviewers": [],
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1870715Z       "requested_teams": [],
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1871539Z       "review_comment_url": "https://api.github.com/repos/fastapi/fastapi/pulls/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1872304Z       "review_comments": 0,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1872975Z       "review_comments_url": "https://api.github.com/repos/fastapi/fastapi/pulls/16370/comments",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1873733Z       "state": "open",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1874501Z       "statuses_url": "https://api.github.com/repos/fastapi/fastapi/statuses/0a6b344a2c950af11946718210202cb458cb485c",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1875828Z       "title": "📝 Add warning for duplicate OpenAPI path converters and tests",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1876504Z       "updated_at": "2026-09-17T00:34:26Z",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1877120Z       "url": "https://api.github.com/repos/fastapi/fastapi/pulls/16370",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1877779Z       "user": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1878339Z         "avatar_url": "https://avatars.githubusercontent.com/u/180032175?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1879167Z         "events_url": "https://api.github.com/users/Shridharrrr/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1879979Z         "followers_url": "https://api.github.com/users/Shridharrrr/followers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1880834Z         "following_url": "https://api.github.com/users/Shridharrrr/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1881917Z         "gists_url": "https://api.github.com/users/Shridharrrr/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1882582Z         "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1883113Z         "html_url": "https://github.com/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1883679Z         "id": 180032175,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1884143Z         "login": "Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1884633Z         "node_id": "U_kgDOCrsSrw",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1885257Z         "organizations_url": "https://api.github.com/users/Shridharrrr/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1886112Z         "received_events_url": "https://api.github.com/users/Shridharrrr/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1886968Z         "repos_url": "https://api.github.com/users/Shridharrrr/repos",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1887584Z         "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1888235Z         "starred_url": "https://api.github.com/users/Shridharrrr/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1889110Z         "subscriptions_url": "https://api.github.com/users/Shridharrrr/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1889794Z         "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1890322Z         "url": "https://api.github.com/users/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1890896Z         "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1891678Z       }
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1892118Z     },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1892524Z     "repository": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1892986Z       "allow_forking": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1893652Z       "archive_url": "https://api.github.com/repos/fastapi/fastapi/{archive_format}{/ref}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1894440Z       "archived": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1895094Z       "assignees_url": "https://api.github.com/repos/fastapi/fastapi/assignees{/user}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1895933Z       "blobs_url": "https://api.github.com/repos/fastapi/fastapi/git/blobs{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1896779Z       "branches_url": "https://api.github.com/repos/fastapi/fastapi/branches{/branch}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1897627Z       "clone_url": "https://github.com/fastapi/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1898475Z       "collaborators_url": "https://api.github.com/repos/fastapi/fastapi/collaborators{/collaborator}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1899452Z       "comments_url": "https://api.github.com/repos/fastapi/fastapi/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1900310Z       "commits_url": "https://api.github.com/repos/fastapi/fastapi/commits{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1901316Z       "compare_url": "https://api.github.com/repos/fastapi/fastapi/compare/{base}...{head}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1902215Z       "contents_url": "https://api.github.com/repos/fastapi/fastapi/contents/{+path}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1903073Z       "contributors_url": "https://api.github.com/repos/fastapi/fastapi/contributors",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1903858Z       "created_at": "2018-12-08T08:21:47Z",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1904377Z       "custom_properties": {},
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1904866Z       "default_branch": "master",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1905519Z       "deployments_url": "https://api.github.com/repos/fastapi/fastapi/deployments",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1906483Z       "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1907327Z       "disabled": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1907931Z       "downloads_url": "https://api.github.com/repos/fastapi/fastapi/downloads",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1908829Z       "events_url": "https://api.github.com/repos/fastapi/fastapi/events",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1909487Z       "fork": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1909907Z       "forks": 9899,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1910368Z       "forks_count": 9899,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1911006Z       "forks_url": "https://api.github.com/repos/fastapi/fastapi/forks",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1911686Z       "full_name": "fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1912381Z       "git_commits_url": "https://api.github.com/repos/fastapi/fastapi/git/commits{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1913223Z       "git_refs_url": "https://api.github.com/repos/fastapi/fastapi/git/refs{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1914096Z       "git_tags_url": "https://api.github.com/repos/fastapi/fastapi/git/tags{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1914856Z       "git_url": "git://github.com/fastapi/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1915433Z       "has_discussions": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1915911Z       "has_downloads": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1916366Z       "has_issues": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1916871Z       "has_pages": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1917321Z       "has_projects": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1917789Z       "has_pull_requests": true,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1918281Z       "has_wiki": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1918790Z       "homepage": "https://fastapi.tiangolo.com/",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1919489Z       "hooks_url": "https://api.github.com/repos/fastapi/fastapi/hooks",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1920195Z       "html_url": "https://github.com/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1920738Z       "id": 160919119,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1921394Z       "is_template": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1922124Z       "issue_comment_url": "https://api.github.com/repos/fastapi/fastapi/issues/comments{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1923101Z       "issue_events_url": "https://api.github.com/repos/fastapi/fastapi/issues/events{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1923989Z       "issues_url": "https://api.github.com/repos/fastapi/fastapi/issues{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1924848Z       "keys_url": "https://api.github.com/repos/fastapi/fastapi/keys{/key_id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1925727Z       "labels_url": "https://api.github.com/repos/fastapi/fastapi/labels{/name}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1926414Z       "language": "Python",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1927112Z       "languages_url": "https://api.github.com/repos/fastapi/fastapi/languages",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1927763Z       "license": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1928168Z         "key": "mit",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1928631Z         "name": "MIT License",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1929136Z         "node_id": "MDc6TGljZW5zZTEz",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1929650Z         "spdx_id": "MIT",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1930154Z         "url": "https://api.github.com/licenses/mit"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1930681Z       },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1931329Z       "merges_url": "https://api.github.com/repos/fastapi/fastapi/merges",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1932198Z       "milestones_url": "https://api.github.com/repos/fastapi/fastapi/milestones{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1932919Z       "mirror_url": null,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1933390Z       "name": "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1933890Z       "node_id": "MDEwOlJlcG9zaXRvcnkxNjA5MTkxMTk=",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1934775Z       "notifications_url": "https://api.github.com/repos/fastapi/fastapi/notifications{?since,all,participating}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1935627Z       "open_issues": 81,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1936069Z       "open_issues_count": 81,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1936585Z       "owner": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1937151Z         "avatar_url": "https://avatars.githubusercontent.com/u/156354296?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1937951Z         "events_url": "https://api.github.com/users/fastapi/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1938731Z         "followers_url": "https://api.github.com/users/fastapi/followers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1939515Z         "following_url": "https://api.github.com/users/fastapi/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1940343Z         "gists_url": "https://api.github.com/users/fastapi/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1941056Z         "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1941646Z         "html_url": "https://github.com/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1942248Z         "id": 156354296,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1942682Z         "login": "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1943179Z         "node_id": "O_kgDOCVHG-A",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1943789Z         "organizations_url": "https://api.github.com/users/fastapi/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1944592Z         "received_events_url": "https://api.github.com/users/fastapi/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1945394Z         "repos_url": "https://api.github.com/users/fastapi/repos",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1945990Z         "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1946621Z         "starred_url": "https://api.github.com/users/fastapi/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1947483Z         "subscriptions_url": "https://api.github.com/users/fastapi/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1948167Z         "type": "Organization",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1948717Z         "url": "https://api.github.com/users/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1949278Z         "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1949759Z       },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1950155Z       "private": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1950607Z       "pull_request_creation_policy": "all",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1951404Z       "pulls_url": "https://api.github.com/repos/fastapi/fastapi/pulls{/number}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1952082Z       "pushed_at": "2026-09-14T18:49:48Z",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1952802Z       "releases_url": "https://api.github.com/repos/fastapi/fastapi/releases{/id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1953468Z       "size": 53807,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1953935Z       "ssh_url": "git@github.com:fastapi/fastapi.git",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1954541Z       "stargazers_count": 102369,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1955185Z       "stargazers_url": "https://api.github.com/repos/fastapi/fastapi/stargazers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1956013Z       "statuses_url": "https://api.github.com/repos/fastapi/fastapi/statuses/{sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1956874Z       "subscribers_url": "https://api.github.com/repos/fastapi/fastapi/subscribers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1957730Z       "subscription_url": "https://api.github.com/repos/fastapi/fastapi/subscription",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1958535Z       "svn_url": "https://github.com/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1959260Z       "tags_url": "https://api.github.com/repos/fastapi/fastapi/tags",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1959987Z       "teams_url": "https://api.github.com/repos/fastapi/fastapi/teams",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1960618Z       "topics": [
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1961201Z         "api",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1961671Z         "async",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1962081Z         "asyncio",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1962481Z         "fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1962934Z         "framework",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1963407Z         "json",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1963835Z         "json-schema",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1964260Z         "openapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1964656Z         "openapi3",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1965103Z         "pydantic",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1965532Z         "python",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1965966Z         "python-types",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1966406Z         "python3",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1966817Z         "redoc",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1967232Z         "rest",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1967658Z         "starlette",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1968115Z         "swagger",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1968536Z         "swagger-ui",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1968961Z         "uvicorn",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1969380Z         "web"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1969796Z       ],
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1970335Z       "trees_url": "https://api.github.com/repos/fastapi/fastapi/git/trees{/sha}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1971257Z       "updated_at": "2026-09-16T21:40:51Z",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1971869Z       "url": "https://api.github.com/repos/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1972452Z       "visibility": "public",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1972987Z       "watchers": 102369,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1973438Z       "watchers_count": 102369,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1973956Z       "web_commit_signoff_required": false
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1974456Z     },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1974924Z     "sender": {
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1975518Z       "avatar_url": "https://avatars.githubusercontent.com/u/180032175?v=4",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1976317Z       "events_url": "https://api.github.com/users/Shridharrrr/events{/privacy}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1977129Z       "followers_url": "https://api.github.com/users/Shridharrrr/followers",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1977962Z       "following_url": "https://api.github.com/users/Shridharrrr/following{/other_user}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1978835Z       "gists_url": "https://api.github.com/users/Shridharrrr/gists{/gist_id}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1979519Z       "gravatar_id": "",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1980014Z       "html_url": "https://github.com/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1980566Z       "id": 180032175,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1981068Z       "login": "Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1981551Z       "node_id": "U_kgDOCrsSrw",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1982214Z       "organizations_url": "https://api.github.com/users/Shridharrrr/orgs",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1983050Z       "received_events_url": "https://api.github.com/users/Shridharrrr/received_events",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1983899Z       "repos_url": "https://api.github.com/users/Shridharrrr/repos",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1984504Z       "site_admin": false,
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1985121Z       "starred_url": "https://api.github.com/users/Shridharrrr/starred{/owner}{/repo}",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1986029Z       "subscriptions_url": "https://api.github.com/users/Shridharrrr/subscriptions",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1986706Z       "type": "User",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1987195Z       "url": "https://api.github.com/users/Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1987772Z       "user_view_type": "public"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1988231Z     }
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1988651Z   },
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1989259Z   "workflow_ref": "fastapi/fastapi/.github/workflows/test.yml@refs/pull/16370/merge",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1990046Z   "workflow_sha": "e626abc47beee0ec6589b4a945e928c58eed111f",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1990651Z   "repository_id": "160919119",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1991220Z   "triggering_actor": "Shridharrrr",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1991818Z   "workspace": "/home/runner/work/fastapi/fastapi",
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1992365Z   "action": "__run"
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.1992765Z }
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2155078Z ##[group]Run re-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2155928Z with:
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2157215Z   jobs: {
+test-alls-green	UNKNOWN STEP	  "test": {
+test-alls-green	UNKNOWN STEP	    "result": "failure",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "coverage-combine": {
+test-alls-green	UNKNOWN STEP	    "result": "skipped",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "benchmark": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "regression-test": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  }
+test-alls-green	UNKNOWN STEP	}
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2158580Z   allowed-skips: coverage-combine,test,benchmark
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2159143Z   allowed-failures: []
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2159613Z env:
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2160011Z   UV_NO_SYNC: true
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2160475Z   INLINE_SNAPSHOT_DEFAULT_FLAGS: review
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2161136Z ##[endgroup]
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2241577Z ##[start-action display=Decide whether the input jobs succeeded or failed;id=__re-actors_alls-green.outcome]
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2275514Z ##[group]Run python -m normalize_needed_jobs_status \
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2276304Z ^[[36;1mpython -m normalize_needed_jobs_status \^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2276895Z ^[[36;1m  "$INPUT_ALLOWED_FAILURES" \^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2277439Z ^[[36;1m  "$INPUT_ALLOWED_SKIPS" \^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2277958Z ^[[36;1m  "$INPUT_JOBS"^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2300353Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2301119Z env:
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2301630Z   UV_NO_SYNC: true
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2302157Z   INLINE_SNAPSHOT_DEFAULT_FLAGS: review
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2302663Z   INPUT_ALLOWED_FAILURES: []
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2303239Z   INPUT_ALLOWED_SKIPS: coverage-combine,test,benchmark
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2304632Z   INPUT_JOBS: {
+test-alls-green	UNKNOWN STEP	  "test": {
+test-alls-green	UNKNOWN STEP	    "result": "failure",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "coverage-combine": {
+test-alls-green	UNKNOWN STEP	    "result": "skipped",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "benchmark": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  },
+test-alls-green	UNKNOWN STEP	  "regression-test": {
+test-alls-green	UNKNOWN STEP	    "result": "success",
+test-alls-green	UNKNOWN STEP	    "outputs": {}
+test-alls-green	UNKNOWN STEP	  }
+test-alls-green	UNKNOWN STEP	}
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2306302Z   PYTHONPATH: /home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2307120Z ##[endgroup]
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2665771Z # ❌ Some of the required to succeed jobs failed 😢😢😢
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2666451Z 
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2666983Z 🛈 Some of the allowed to be skipped jobs did not succeed.
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2667966Z 🔮 Job statuses:
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2669443Z ^[[31m❌ test → 🔴 failure [required to succeed or be skipped]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2670548Z ^[[32m✓ coverage-combine → ⬜ skipped [required to succeed or be skipped]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2672006Z ^[[32m✓ benchmark → 🟢 success [required to succeed or be skipped]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2673201Z ^[[32m✓ regression-test → 🟢 success [required to succeed]^[[0m
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2731692Z ##[error]Process completed with exit code 1.
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2773651Z ##[end-action id=__re-actors_alls-green.outcome;outcome=failure;conclusion=failure;duration_ms=53]
+test-alls-green	UNKNOWN STEP	2026-09-17T00:38:20.2889033Z Cleaning up orphan processes

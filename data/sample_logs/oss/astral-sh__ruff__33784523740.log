@@ -1,0 +1,368 @@
+generate-checksum-manifest	UNKNOWN STEP	﻿2026-09-03T17:39:51.0006709Z Current runner version: '2.335.1'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0135582Z Runner name: 'depot-c27hr41bsf'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0136531Z Runner group name: 'default'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0137188Z Machine name: 'depot-machine'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0138604Z ##[group]GITHUB_TOKEN Permissions
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0139949Z Contents: read
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0140422Z Metadata: read
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0140777Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0141171Z Secret source: Actions
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0141570Z Prepare workflow directory
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0350132Z Prepare all required actions
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.0373384Z Getting action download info
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:51.2087481Z Download action repository 'actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd' (SHA:de0fac2e4500dabe0009e67214ff5f5447ce83dd)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:52.3522876Z Download action repository 'astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d' (SHA:20cfd1bf945f4377ade1205e4dbc17946fc9a30d)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:52.4806373Z Download action repository 'actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c' (SHA:3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:52.5938575Z Download action repository 'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f' (SHA:bbbca2ddaa5d8feaa63e36b76fdaad77386f024f)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:52.9389648Z Complete job name: generate-checksum-manifest
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0143377Z ##[group]Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0145157Z with:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0145856Z   persist-credentials: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0146624Z   submodules: recursive
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0147310Z   repository: astral-sh/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0152608Z   token: ***
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0153264Z   ssh-strict: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0153894Z   ssh-user: git
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0154541Z   clean: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0155189Z   sparse-checkout-cone-mode: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0155946Z   fetch-depth: 1
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0156587Z   fetch-tags: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0157234Z   show-progress: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0157886Z   lfs: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0158506Z   set-safe-directory: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0159292Z env:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0159900Z   ACTIONS_CACHE_MODE: none
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0160600Z   CARGO_DIST_VERSION: 0.31.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0161612Z   CARGO_DIST_CHECKSUM: cd355dab0b4c02fb59038fef87655550021d07f45f1d82f947a34ef98560abb8
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:53.0162770Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:56.9105786Z Syncing repository: astral-sh/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:56.9108212Z ##[group]Getting Git version info
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:56.9108706Z Working directory is '/home/runner/work/ruff/ruff'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:56.9109192Z [command]/usr/bin/git version
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.1897637Z git version 2.55.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.1910867Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.1919560Z Temporarily overriding HOME='/home/runner/work/_temp/31a09a4f-ce12-4d41-9c01-c8a56c88953a' before making global git config changes
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.1920266Z Adding repository directory to the temporary git global config as a safe directory
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.1923136Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ruff/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2652003Z Deleting the contents of '/home/runner/work/ruff/ruff'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2654070Z ##[group]Initializing the repository
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2656079Z [command]/usr/bin/git init /home/runner/work/ruff/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2889845Z hint: Using 'master' as the name for the initial branch. This default branch name
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2890595Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2891190Z hint: to use in all of your new repositories, which will suppress this warning,
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2891734Z hint: call:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2892132Z hint:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2892896Z hint: 	git config --global init.defaultBranch <name>
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2893190Z hint:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2893466Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2893931Z hint: 'development'. The just-created branch can be renamed via this command:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2894199Z hint:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2894374Z hint: 	git branch -m <name>
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2894593Z hint:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2894844Z hint: Disable this message with "git config set advice.defaultBranchName false"
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2897925Z Initialized empty Git repository in /home/runner/work/ruff/ruff/.git/
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.2902098Z [command]/usr/bin/git remote add origin https://github.com/astral-sh/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3209728Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3210335Z ##[group]Disabling automatic garbage collection
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3210918Z [command]/usr/bin/git config --local gc.auto 0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3222359Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3223083Z ##[group]Setting up auth
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3223370Z Removing SSH command configuration
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3226183Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.3239358Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6490036Z Removing HTTP extra header
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6494125Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6509559Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6596444Z Removing includeIf entries pointing to credentials config files
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6599936Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6612900Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6702239Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6717954Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/ruff/ruff/.git.path /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6729705Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/ruff/ruff/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6751695Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6764904Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6809560Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6810079Z ##[group]Fetching the repository
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:39:57.6814459Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +0e7b427ba2ef867e874d68f4222ca91f6a217a10:refs/remotes/origin/zsol/installer-archive-checksums
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2869697Z From https://github.com/astral-sh/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2870855Z  * [new ref]         0e7b427ba2ef867e874d68f4222ca91f6a217a10 -> origin/zsol/installer-archive-checksums
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2877519Z [command]/usr/bin/git branch --list --remote origin/zsol/installer-archive-checksums
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2889401Z   origin/zsol/installer-archive-checksums
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2893384Z [command]/usr/bin/git rev-parse refs/remotes/origin/zsol/installer-archive-checksums
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2902571Z 0e7b427ba2ef867e874d68f4222ca91f6a217a10
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2903966Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2904264Z ##[group]Determining the checkout info
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2904773Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2906903Z [command]/usr/bin/git sparse-checkout disable
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2959252Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2970407Z ##[group]Checking out the ref
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.2972291Z [command]/usr/bin/git checkout --progress --force -B zsol/installer-archive-checksums refs/remotes/origin/zsol/installer-archive-checksums
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5626886Z Switched to a new branch 'zsol/installer-archive-checksums'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5640448Z branch 'zsol/installer-archive-checksums' set up to track 'origin/zsol/installer-archive-checksums'.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5648585Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5649209Z ##[group]Setting up auth for fetching submodules
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5653533Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5677203Z [command]/usr/bin/git config --global include.path /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5691591Z [command]/usr/bin/git config --global --unset-all url.https://github.com/.insteadOf
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5707200Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5721039Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf org-115962839@github.com:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5731793Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5732094Z ##[group]Fetching submodules
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5734260Z [command]/usr/bin/git submodule sync --recursive
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5833789Z [command]/usr/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.5955037Z [command]/usr/bin/git submodule foreach --recursive git config --local gc.auto 0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6048947Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6076394Z [command]/usr/bin/git log -1 --format=%H
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6086346Z 0e7b427ba2ef867e874d68f4222ca91f6a217a10
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6095368Z ##[group]Removing auth
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6095727Z Removing SSH command configuration
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6097786Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6110415Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6203675Z Removing HTTP extra header
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6206053Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6221639Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6313679Z Removing includeIf entries pointing to credentials config files
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6315542Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6333520Z includeif.gitdir:/home/runner/work/ruff/ruff/.git.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6333837Z includeif.gitdir:/home/runner/work/ruff/ruff/.git/worktrees/*.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6334137Z includeif.gitdir:/github/workspace/.git.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6334368Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6337612Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/ruff/ruff/.git.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6345972Z /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6350564Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/ruff/ruff/.git.path /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6364398Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/ruff/ruff/.git/worktrees/*.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6373203Z /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6377095Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/ruff/ruff/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6390439Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6398862Z /github/runner_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6401609Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6413956Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6422056Z /github/runner_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6425110Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6439058Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6533105Z Removing credentials config '/home/runner/work/_temp/git-credentials-57ebb4fe-2bda-4d69-8e66-be9315478e6d.config'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6538031Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6724724Z ##[group]Run astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6725185Z with:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6725348Z   version: 0.12.6
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6725502Z   enable-cache: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6725663Z   activate-environment: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6725835Z   no-project: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6726008Z   working-directory: /home/runner/work/ruff/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6727617Z   github-token: ***
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6727958Z   cache-dependency-glob: **/*requirements*.txt
+generate-checksum-manifest	UNKNOWN STEP	**/*requirements*.in
+generate-checksum-manifest	UNKNOWN STEP	**/*constraints*.txt
+generate-checksum-manifest	UNKNOWN STEP	**/*constraints*.in
+generate-checksum-manifest	UNKNOWN STEP	**/pyproject.toml
+generate-checksum-manifest	UNKNOWN STEP	**/uv.lock
+generate-checksum-manifest	UNKNOWN STEP	**/*.py.lock
+generate-checksum-manifest	UNKNOWN STEP	
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6728314Z   restore-cache: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6728465Z   save-cache: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6728616Z   prune-cache: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6728765Z   cache-python: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6728921Z   ignore-nothing-to-cache: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6729096Z   ignore-empty-workdir: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6729309Z   download-from-astral-mirror: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6729490Z   add-problem-matchers: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6729645Z   quiet: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6729790Z   resolution-strategy: highest
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6729948Z env:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6730095Z   ACTIONS_CACHE_MODE: none
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6730251Z   CARGO_DIST_VERSION: 0.31.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6730492Z   CARGO_DIST_CHECKSUM: cd355dab0b4c02fb59038fef87655550021d07f45f1d82f947a34ef98560abb8
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.6730747Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.8158827Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:02.8990409Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.6/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.2688085Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/aaee5289-65b3-4c9f-80a7-9eb6a02ab084 -f /home/runner/work/_temp/5d215915-6247-4c7b-a15c-a78a759f1864
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.5365940Z Added /home/runner/.local/bin to the path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.5367039Z Added /opt/hostedtoolcache/uv/0.12.6/x86_64 to the path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.5367512Z Set UV_PYTHON_INSTALL_DIR to /home/runner/.local/share/uv/python
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.5367769Z Added /home/runner/.local/share/uv/python to the path
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.5384089Z Successfully installed uv version 0.12.6
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7164411Z ##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7165103Z with:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7165284Z   name: cargo-dist-cache
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7165447Z   path: ~/.cargo/bin/
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7165600Z   merge-multiple: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7165758Z   repository: astral-sh/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7165914Z   run-id: 33784523740
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7166067Z   skip-decompress: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7166222Z   digest-mismatch: error
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7166372Z env:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7166512Z   ACTIONS_CACHE_MODE: none
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7166675Z   CARGO_DIST_VERSION: 0.31.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7166917Z   CARGO_DIST_CHECKSUM: cd355dab0b4c02fb59038fef87655550021d07f45f1d82f947a34ef98560abb8
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7167208Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7167414Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.7965059Z Downloading single artifact
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.8807696Z Preparing to download the following artifacts:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:04.8808713Z - cargo-dist-cache (ID: 9904898427, Size: 9612738, Expected Digest: sha256:a34af4718b2409b4bb94b10c8f76f111e2c351593171118d62bd4280da14fbbe)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.0161549Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-bdc567b0-16be-5864-aee4-4136b5b55d60/artifacts/0f9fc08fccfda3ba9b8c3e8cd47abb5312e08267e1eb81ce0826e9f2a865332a.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.0162841Z Starting download of artifact to: /home/runner/.cargo/bin
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.0957811Z (node:2528) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.0958860Z (Use `node --trace-deprecation ...` to show where the warning was created)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.4489922Z SHA256 digest of downloaded artifact is a34af4718b2409b4bb94b10c8f76f111e2c351593171118d62bd4280da14fbbe
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.4491057Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.4491344Z Total of 1 artifact(s) downloaded
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.4491759Z Download artifact has finished successfully
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6934925Z ##[group]Run chmod +x ~/.cargo/bin/dist
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6935548Z ^[[36;1mchmod +x ~/.cargo/bin/dist^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6964740Z shell: /usr/bin/bash -e {0}
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6965083Z env:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6965249Z   ACTIONS_CACHE_MODE: none
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6965423Z   CARGO_DIST_VERSION: 0.31.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6965681Z   CARGO_DIST_CHECKSUM: cd355dab0b4c02fb59038fef87655550021d07f45f1d82f947a34ef98560abb8
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6965990Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.6966212Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7048605Z ##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7048979Z with:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7049145Z   pattern: artifacts-*
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7049306Z   path: target/distrib/
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7049491Z   merge-multiple: true
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7049661Z   repository: astral-sh/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7049822Z   run-id: 33784523740
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7049975Z   skip-decompress: false
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7050142Z   digest-mismatch: error
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7050295Z env:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7050439Z   ACTIONS_CACHE_MODE: none
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7050601Z   CARGO_DIST_VERSION: 0.31.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7050845Z   CARGO_DIST_CHECKSUM: cd355dab0b4c02fb59038fef87655550021d07f45f1d82f947a34ef98560abb8
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7051148Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.7051356Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8484947Z Found 44 artifact(s)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8486107Z Filtering artifacts by pattern 'artifacts-*'
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8495524Z Preparing to download the following artifacts:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8496048Z - artifacts-x86_64-pc-windows-msvc (ID: 9905363206, Size: 9641912, Expected Digest: sha256:67e9258bd5a1caec6b5565df8a27edbf4dae1e43161ca6d8e106478ed5009ea1)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8496657Z - artifacts-aarch64-unknown-linux-gnu (ID: 9905327209, Size: 9387448, Expected Digest: sha256:1739d5db7db270b4d462de85f50818f9c568fffc83a5f0937e9f144ab0b19a58)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8497386Z - artifacts-x86_64-unknown-linux-gnu (ID: 9905212680, Size: 9867631, Expected Digest: sha256:c53f92014c8b6fd47795a662a60f73e1967915b0c3b107b1d6eacf541d2c168f)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8497957Z - artifacts-aarch64-pc-windows-msvc (ID: 9905171311, Size: 9497898, Expected Digest: sha256:d1ad6426fb7bbe309eb4166276f63915f3b064c6092cfd67df8c328d0bdb2c83)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8498551Z - artifacts-riscv64gc-unknown-linux-gnu (ID: 9905155003, Size: 10113470, Expected Digest: sha256:e278770379b7a81c6c4c5321c1544f4c7801229c06ce7fb2b755c24ee02caa53)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8499126Z - artifacts-aarch64-apple-darwin (ID: 9905148713, Size: 9276026, Expected Digest: sha256:e61e6f5648ab8c21c8208906c2afb2c8a732e0da4564c0fa5a0eb2587fb966cb)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8499674Z - artifacts-i686-pc-windows-msvc (ID: 9905139100, Size: 9387820, Expected Digest: sha256:24733ccd12137507060176c4109642bdb31a7811d5c9ea2660d1ad2077bc4e9a)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8500246Z - artifacts-s390x-unknown-linux-gnu (ID: 9905133965, Size: 10392314, Expected Digest: sha256:5279edf9e31861b545be4d15fab09da1a9ccf34f4e46ccd6e81abc4acea97a32)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8500839Z - artifacts-i686-unknown-linux-gnu (ID: 9905129505, Size: 10078222, Expected Digest: sha256:29249e677e967fef4262362d742480dd3523aadde7daf1061e9c719e70cb500a)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8501418Z - artifacts-arm-unknown-linux-musleabihf (ID: 9905124182, Size: 9526649, Expected Digest: sha256:7c953f84fd134c7218ffe879ad2975e1f82ef20d2814c866b127d011f2fa28fb)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8502012Z - artifacts-armv7-unknown-linux-gnueabihf (ID: 9905118046, Size: 9320575, Expected Digest: sha256:497c9e37a3527496331b262b62bd51a32de984c3dbe5823d657857e3b8ae79ac)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8502699Z - artifacts-aarch64-unknown-linux-musl (ID: 9905102633, Size: 9526462, Expected Digest: sha256:046082ec587dab5a276b992309f841de54948dd54f920c00f7a598e7f6762d27)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8503306Z - artifacts-powerpc64le-unknown-linux-gnu (ID: 9905084547, Size: 10790494, Expected Digest: sha256:50f89614b471bc9e6eec740347aa93aca0502f99cfcb6ea383349e7fd36d0d01)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8503912Z - artifacts-armv7-unknown-linux-musleabihf (ID: 9905083160, Size: 9356274, Expected Digest: sha256:388cba4cbd665f76b11d1f321bf994c5d4fab60aabe672b3b734612b12272d69)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8504501Z - artifacts-i686-unknown-linux-musl (ID: 9905072184, Size: 9836181, Expected Digest: sha256:db348d409d688dab16c64df4160373ab7d4af2c6d50ac8431ef06b7ee5292257)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8505184Z - artifacts-x86_64-unknown-linux-musl (ID: 9905071485, Size: 10251431, Expected Digest: sha256:e1c047f078b32eea5eb5ae50863e728527e6e83a3f98f94cbcfffebfb50b3776)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8505741Z - artifacts-macos-x86_64 (ID: 9905022220, Size: 9792262, Expected Digest: sha256:17e7e01ab791de9b1f8f508a2f70288503be36ed40a9cf5a0ec16deac8f1b7d1)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.8506277Z - artifacts-plan-dist-manifest (ID: 9904904026, Size: 4287, Expected Digest: sha256:dae11f7fb4e9b4c00d9cd7516546511de732360f363b3720602332d37c407b1b)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.9858036Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-4da6c20d-4f6c-5c90-bb46-52cf4df7438d/artifacts/8e77800e56def106f6d3e26117def910d90e76ed373f107151e7d671ad6e01e7.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:05.9859251Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0141702Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-3d48e3ee-67b3-5bfb-8c00-74812ea235da/artifacts/b90c23c546a78219f9c2bf06ab8521636cac4e4a16ea6e390f5aff8d489ef28e.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0142823Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0156452Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-18157241-3cd3-585c-963e-247222b276c8/artifacts/bd0369affc957a0a65bbecad3ad53ee0de0e4fddf290e72c6a5761812e5a0959.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0157432Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0199775Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-57d6d20c-61bc-5d7d-8ad3-e4c5ae2c30f6/artifacts/588d070a2212b17e52468c62248eaf7fdbbad8ff6cb362da2a613e17b271ecd2.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0200706Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0202149Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-c779049c-6040-5092-933f-854ef8e87d7d/artifacts/c03aef38a14023beb3a5681dfd37dd71e22e63c464979f60f18e40a6c8cae5ad.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0203337Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0205836Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-34226a6e-5f3a-5842-9751-3b848d32f1b2/artifacts/6e8585a43467bbbd74c368c5ebf74a89ba4b9cf4fb5ae05fbab4779bcdb0974e.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0206602Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0254017Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-84b1692c-f500-5ef8-82f2-fdae99af55be/artifacts/26c1119452c9e14a6b5e609b84e7f39d24a33f8101bd3cf3b6e08f0fdf97a19f.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0254859Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0282716Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-dca1abc2-a92f-5c13-af49-524c96e21fe7/artifacts/2e5af9dd1ae8679cbc8a545bc42c03759ab829104e78428b926d42c420e65c8a.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0283694Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0289476Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-96d5f44b-e52a-5396-8309-d3c858156be5/artifacts/ceb8e14979d808d4fb294483c499a391663fefc1b9336ec39b29268c04e437ff.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0290325Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0305136Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-63abb1a3-c5e3-5129-8af1-a01cc4a4f54a/artifacts/3e60aeda252d6c4245fa47e071c8e58caa5216bf0e122e1142b8c3c766d2baa6.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0305966Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0318158Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-463eb601-0773-5316-852f-779ff265178c/artifacts/7a1aa292ee046f9bcbcf52ee4230402df44289bad44b458e9d76d9e63ef24dd6.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0319043Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0320675Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-ab2f8201-5286-51b1-8b59-e85913a5ba9c/artifacts/a7f3ea710d21d65415d0d6acd2224a3bae8752180a71b428bf8a741eb2b45b0c.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0321546Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0323909Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-cb423125-3c5b-5d38-a5b2-88678fd00045/artifacts/3a0ab117da2bd014e2b1cb113b454f677ec2999e58f2a2f3e57a7c6e8ebb207a.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0324811Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0339666Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-bdc567b0-16be-5864-aee4-4136b5b55d60/artifacts/df7ed1f4fa5d247257f11cf6bef2ceca59d58e372ecd92c424df2261d6942f64.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0340470Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0357989Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-9f086f79-c635-5fb2-a04c-87e7581d3804/artifacts/ede3755110efe1e88b15dde6e7f58a68cb740b2b9fe2409cebabf6f417fbf2ba.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0358962Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0378255Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-06999a0f-3f7c-5b74-a29d-509fff6b1676/artifacts/01ddfd2effc67d99769d8c69b31d3de983172941e2dc2bd45844e695ddec4b41.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0379102Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0399619Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-0b9b2a02-1fc6-5ff6-9fbc-62ff771ca911/artifacts/2fdaddc2a63e95831f254ea1c1b10f8e13da1a563dc4f38f9c35947100510ebc.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0400537Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0409416Z Redirecting to blob download url: https://productionresultssa15.blob.core.windows.net/actions-results/ea17b64a-0c0a-40e5-adaa-5f2f64e652cd/workflow-job-run-916530f2-c46d-5173-b304-2f04e239a010/artifacts/b7b87c6e90401ded99cee7bfe0859011599ef62284e9186dce9456485b4d5db6.zip
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0410282Z Starting download of artifact to: /home/runner/work/ruff/ruff/target/distrib
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0740985Z (node:2547) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0741724Z (Use `node --trace-deprecation ...` to show where the warning was created)
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0759786Z SHA256 digest of downloaded artifact is dae11f7fb4e9b4c00d9cd7516546511de732360f363b3720602332d37c407b1b
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.0760244Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.5793044Z SHA256 digest of downloaded artifact is 67e9258bd5a1caec6b5565df8a27edbf4dae1e43161ca6d8e106478ed5009ea1
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.5794187Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6187528Z SHA256 digest of downloaded artifact is e61e6f5648ab8c21c8208906c2afb2c8a732e0da4564c0fa5a0eb2587fb966cb
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6188674Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6205151Z SHA256 digest of downloaded artifact is 1739d5db7db270b4d462de85f50818f9c568fffc83a5f0937e9f144ab0b19a58
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6205800Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6374089Z SHA256 digest of downloaded artifact is 388cba4cbd665f76b11d1f321bf994c5d4fab60aabe672b3b734612b12272d69
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6375176Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6499287Z SHA256 digest of downloaded artifact is 24733ccd12137507060176c4109642bdb31a7811d5c9ea2660d1ad2077bc4e9a
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6500395Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6504812Z SHA256 digest of downloaded artifact is e278770379b7a81c6c4c5321c1544f4c7801229c06ce7fb2b755c24ee02caa53
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6505337Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6540382Z SHA256 digest of downloaded artifact is e1c047f078b32eea5eb5ae50863e728527e6e83a3f98f94cbcfffebfb50b3776
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6541106Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6612994Z SHA256 digest of downloaded artifact is 7c953f84fd134c7218ffe879ad2975e1f82ef20d2814c866b127d011f2fa28fb
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6613828Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6670707Z SHA256 digest of downloaded artifact is c53f92014c8b6fd47795a662a60f73e1967915b0c3b107b1d6eacf541d2c168f
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6671450Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6685008Z SHA256 digest of downloaded artifact is 17e7e01ab791de9b1f8f508a2f70288503be36ed40a9cf5a0ec16deac8f1b7d1
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6685570Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6688812Z SHA256 digest of downloaded artifact is db348d409d688dab16c64df4160373ab7d4af2c6d50ac8431ef06b7ee5292257
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6689179Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6725499Z SHA256 digest of downloaded artifact is d1ad6426fb7bbe309eb4166276f63915f3b064c6092cfd67df8c328d0bdb2c83
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6726047Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6733962Z SHA256 digest of downloaded artifact is 29249e677e967fef4262362d742480dd3523aadde7daf1061e9c719e70cb500a
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6734367Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6746738Z SHA256 digest of downloaded artifact is 497c9e37a3527496331b262b62bd51a32de984c3dbe5823d657857e3b8ae79ac
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6747127Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6871173Z SHA256 digest of downloaded artifact is 046082ec587dab5a276b992309f841de54948dd54f920c00f7a598e7f6762d27
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6871886Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6884778Z SHA256 digest of downloaded artifact is 5279edf9e31861b545be4d15fab09da1a9ccf34f4e46ccd6e81abc4acea97a32
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6885274Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6904945Z SHA256 digest of downloaded artifact is 50f89614b471bc9e6eec740347aa93aca0502f99cfcb6ea383349e7fd36d0d01
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6905561Z Artifact download completed successfully.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6905855Z Total of 18 artifact(s) downloaded
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6908627Z Download artifact has finished successfully
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6999550Z ##[group]Run dist_args=()
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.6999995Z ^[[36;1mdist_args=()^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7000270Z ^[[36;1mif [[ -n "$DIST_TAG_FLAG" ]]; then^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7000538Z ^[[36;1m  dist_args+=("$DIST_TAG_FLAG")^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7000772Z ^[[36;1mfi^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7001034Z ^[[36;1mtemp_manifest=target/local-dist-manifest.json.tmp^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7001466Z ^[[36;1mdist manifest "${dist_args[@]}" --output-format=json --no-local-paths --artifacts=local > "$temp_manifest"^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7001994Z ^[[36;1muv run --locked scripts/patch-dist-manifest-checksums.py --manifest "$temp_manifest" --artifacts-dir target/distrib^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7002564Z ^[[36;1mmv "$temp_manifest" target/distrib/local-dist-manifest.json^[[0m
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7030232Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7030586Z env:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7030824Z   ACTIONS_CACHE_MODE: none
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7031080Z   CARGO_DIST_VERSION: 0.31.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7031400Z   CARGO_DIST_CHECKSUM: cd355dab0b4c02fb59038fef87655550021d07f45f1d82f947a34ef98560abb8
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7031769Z   UV_PYTHON_INSTALL_DIR: /home/runner/.local/share/uv/python
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7032035Z   DIST_TAG_FLAG: 
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:06.7032253Z ##[endgroup]
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4018618Z Resolving despite existing lockfile due to removal of exclude newer for package `astral-dev-toolchain-hyperfine`
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4023586Z error: The lockfile at `uv.lock` needs to be updated, but `--locked` was provided.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4024191Z 
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4024360Z hint: To update the lockfile, run `uv lock`.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4035259Z ##[error]Process completed with exit code 2.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4123999Z Post job cleanup.
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4559189Z [command]/usr/bin/git version
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4578497Z git version 2.55.0
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4597253Z Temporarily overriding HOME='/home/runner/work/_temp/cd504359-ae70-4fd2-85b6-4026343c8fd5' before making global git config changes
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4597928Z Adding repository directory to the temporary git global config as a safe directory
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4599870Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ruff/ruff
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4615279Z Removing SSH command configuration
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4618525Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4632512Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4729735Z Removing HTTP extra header
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4732133Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4746107Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4836008Z Removing includeIf entries pointing to credentials config files
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4839851Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.4851791Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+generate-checksum-manifest	UNKNOWN STEP	2026-09-03T17:40:15.5029690Z Cleaning up orphan processes

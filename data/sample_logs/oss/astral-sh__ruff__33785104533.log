@@ -1,0 +1,400 @@
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3887269Z   -s, --silent
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3887531Z           Disable all logging (but still exit with status code "1" upon detecting diagnostics)
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3888491Z 
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3888611Z Global options:
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3888804Z       --config <CONFIG_OPTION>
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3889089Z           Either a path to a TOML configuration file (`pyproject.toml` or `ruff.toml`), or a TOML
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3889445Z           `<KEY> = <VALUE>` pair (such as you might find in a `ruff.toml` configuration file)
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3889803Z           overriding a specific configuration option (e.g., `--config "lint.line-length = 100"` or
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3890480Z           `--config "format.quote-style = 'single'"`). Overrides of individual settings using this
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3890860Z           option always take precedence over all configuration files, including configuration files
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3891164Z           that were also specified using `--config`
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3891328Z 
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3891452Z       --isolated
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3891717Z           Ignore all configuration files
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3891825Z 
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3891879Z       --color <WHEN>
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3892021Z           Control when colored output is used
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3892128Z 
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3892194Z           Possible values:
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3892382Z           - auto:   Display colors if the output goes to an interactive terminal
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3892590Z           - always: Always display colors
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3893068Z           - never:  Never display colors
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3893244Z 
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3893393Z For help with a specific command, see: `ruff help <command>`.
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3943526Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3943732Z with:
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3943834Z   name: wheels-x86_64-pc-windows-msvc
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3943956Z   path: dist
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944045Z   if-no-files-found: warn
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944148Z   compression-level: 6
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944242Z   overwrite: false
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944342Z   include-hidden-files: false
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944444Z   archive: true
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944526Z env:
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944602Z   UV_LOCKED: 1
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944691Z   ACTIONS_CACHE_MODE: none
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944790Z   PACKAGE_NAME: ruff
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944878Z   MODULE_NAME: ruff
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3944968Z   PYTHON_VERSION: 3.13
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3945062Z   CARGO_INCREMENTAL: 0
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3945152Z   CARGO_NET_RETRY: 10
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3945244Z   CARGO_TERM_COLOR: always
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3945360Z   RUSTUP_MAX_RETRIES: 10
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3945494Z   pythonLocation: c:\hostedtoolcache\windows\Python\3.13.13\x64
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3945695Z   PKG_CONFIG_PATH: c:\hostedtoolcache\windows\Python\3.13.13\x64/lib/pkgconfig
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3945893Z   Python_ROOT_DIR: c:\hostedtoolcache\windows\Python\3.13.13\x64
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3946071Z   Python2_ROOT_DIR: c:\hostedtoolcache\windows\Python\3.13.13\x64
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3946248Z   Python3_ROOT_DIR: c:\hostedtoolcache\windows\Python\3.13.13\x64
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3946487Z   RUSTFLAGS: -C target-feature=+crt-static -Cprofile-use=D:\a\ruff\ruff/target/ruff-pgo/ruff.profdata
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.3946702Z ##[endgroup]
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.4873098Z With the provided path, there will be 1 file uploaded
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.4875914Z Artifact name is valid!
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:42:42.4876072Z Root directory input is valid!
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.5197231Z ##[error]Failed to CreateArtifact: Unable to make request: ETIMEDOUT
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	If you are using self-hosted runners, please make sure your runner has access to all GitHub endpoints: https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners#communication-between-self-hosted-runners-and-github
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.5340095Z Post job cleanup.
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6157486Z [command]"C:\Program Files\Git\bin\git.exe" version
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6286668Z git version 2.54.0.windows.1
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6314916Z Temporarily overriding HOME='D:\a\_temp\df04604a-5b74-4ecd-a794-09299de54f51' before making global git config changes
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6315265Z Adding repository directory to the temporary git global config as a safe directory
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6319859Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\ruff\ruff
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6445221Z Removing SSH command configuration
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6450132Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.6574334Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.9225878Z Removing HTTP extra header
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.9231933Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:03.9372996Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:04.1697037Z Removing includeIf entries pointing to credentials config files
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:04.1704426Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:04.1820503Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:04.4166586Z Cleaning up orphan processes
+windows (x86_64-pc-windows-msvc, x64)	UNKNOWN STEP	2026-09-03T17:43:04.4422350Z Terminate orphan process: pid (9536) (vctip)
+macos-x86_64	UNKNOWN STEP	﻿2026-09-03T17:33:40.0046860Z Current runner version: '2.336.0'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0063880Z Runner name: 'nsc-runner-sjnj9tm7k8omq'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0064220Z Runner group name: 'Default'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0064600Z Machine name: 'sjnj9tm7k8omq'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0084740Z ##[group]Namespace Runner Details
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0085020Z ID: sjnj9tm7k8omq
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0085240Z Operating System: macOS
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0085460Z Machine Type: 12x28
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0085680Z Architecture: arm64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0085980Z Instance URL: https://cloud.namespace.so/djdtscuhckfte/instance/sjnj9tm7k8omq
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0086310Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0086530Z ##[group]Namespace Runner Profile Info
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0086790Z Tag: namespace-profile-macos-15
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0087150Z Profile URL: https://cloud.namespace.so/djdtscuhckfte/actions/profile/namespace-profile-macos-15
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0087530Z Remote Builder: Disabled.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0087870Z User Bundled Cache: github-namespace-profile-macos-15-astral-sh-ruff with 50GB.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0088220Z Git Mirror Cache: Enabled.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0088450Z GitHub Actions Cache: Enabled.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0088680Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0089060Z ##[group]GITHUB_TOKEN Permissions
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0089570Z Metadata: read
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0089780Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0090520Z Secret source: Actions
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0090880Z Prepare workflow directory
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0295490Z Prepare all required actions
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:40.0318040Z Getting action download info
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:45.0829940Z Failed to resolve action download info. Error: Connection refused (launch.actions.githubusercontent.com:443)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:33:45.0857710Z Retrying in 21.536 seconds
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:06.8074660Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:06.9222830Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:07.0833610Z Download action repository 'PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b' (SHA:e83996d129638aa358a18fbd1dfb82f0b0fb5d3b)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:12.1039540Z ##[warning]Failed to download action 'https://codeload.github.com/PyO3/maturin-action/tar.gz/e83996d129638aa358a18fbd1dfb82f0b0fb5d3b'. Error: Connection refused (codeload.github.com:443) 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:12.1048950Z ##[warning]Back off 11.505 seconds before retry.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:23.7642370Z Download action repository 'actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a' (SHA:043fb46d1a93c77aae656e7c1c64a875d1fc6a0a)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:23.9664630Z Complete job name: macos-x86_64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0402150Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0402440Z with:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0402560Z   submodules: recursive
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0402690Z   persist-credentials: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0402820Z   repository: astral-sh/ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0403960Z   token: ***
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404080Z   ssh-strict: true
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404190Z   ssh-user: git
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404290Z   clean: true
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404410Z   sparse-checkout-cone-mode: true
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404550Z   fetch-depth: 1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404650Z   fetch-tags: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404760Z   show-progress: true
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404870Z   lfs: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0404970Z   set-safe-directory: true
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405090Z   allow-unsafe-pr-checkout: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405280Z env:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405380Z   UV_LOCKED: 1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405480Z   ACTIONS_CACHE_MODE: none
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405620Z   PACKAGE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405730Z   MODULE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405840Z   PYTHON_VERSION: 3.13
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0405950Z   CARGO_INCREMENTAL: 0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0406060Z   CARGO_NET_RETRY: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0406170Z   CARGO_TERM_COLOR: always
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0407900Z   RUSTUP_MAX_RETRIES: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.0408020Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1679550Z Syncing repository: astral-sh/ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1680200Z ##[group]Getting Git version info
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1680410Z Working directory is '/Users/runner/work/ruff/ruff'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1680690Z [command]/opt/homebrew/bin/git version
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1822410Z git version 2.53.0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1829300Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1836910Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/8270e46e-b672-41ac-a6f9-559985ec8542/.gitconfig'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1839050Z Temporarily overriding HOME='/Users/runner/work/_temp/8270e46e-b672-41ac-a6f9-559985ec8542' before making global git config changes
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1839510Z Adding repository directory to the temporary git global config as a safe directory
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1841440Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/ruff/ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1893390Z Deleting the contents of '/Users/runner/work/ruff/ruff'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1895290Z ##[group]Determining repository object format
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1895860Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1896070Z ##[group]Initializing the repository
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.1898450Z [command]/opt/homebrew/bin/git init /Users/runner/work/ruff/ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2011300Z hint: Using 'master' as the name for the initial branch. This default branch name
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2011680Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2011990Z hint: to use in all of your new repositories, which will suppress this warning,
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2012230Z hint: call:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2012360Z hint:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2012550Z hint: 	git config --global init.defaultBranch <name>
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2012790Z hint:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2012990Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2013340Z hint: 'development'. The just-created branch can be renamed via this command:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2013600Z hint:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2013730Z hint: 	git branch -m <name>
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2013870Z hint:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2014090Z hint: Disable this message with "git config set advice.defaultBranchName false"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2014380Z Initialized empty Git repository in /Users/runner/work/ruff/ruff/.git/
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2017530Z [command]/opt/homebrew/bin/git remote add origin https://github.com/astral-sh/ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2055090Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2055350Z ##[group]Disabling automatic garbage collection
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2059900Z [command]/opt/homebrew/bin/git config --local gc.auto 0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2094370Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2098250Z ##[group]Setting up auth
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2098510Z Removing SSH command configuration
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2098870Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2129180Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2633240Z Removing HTTP extra header
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2636730Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.2670460Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3083720Z Removing includeIf entries pointing to credentials config files
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3086840Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3116550Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3533320Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3574160Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/Users/runner/work/ruff/ruff/.git.path /Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3605850Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/Users/runner/work/ruff/ruff/.git/worktrees/*.path /Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3640890Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3673100Z [command]/opt/homebrew/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3703910Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3704170Z ##[group]Fetching the repository
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.3707660Z [command]/opt/homebrew/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +021c37e153500753ae9eead99172a887d4ce5687:refs/remotes/pull/28288/merge
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.8922790Z From https://github.com/astral-sh/ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.8923120Z  * [new ref]         021c37e153500753ae9eead99172a887d4ce5687 -> pull/28288/merge
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.8983330Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.8983610Z ##[group]Determining the checkout info
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.8983950Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.8986680Z [command]/opt/homebrew/bin/git sparse-checkout disable
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.9029410Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.9060910Z ##[group]Checking out the ref
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:24.9063280Z [command]/opt/homebrew/bin/git checkout --progress --force refs/remotes/pull/28288/merge
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6184280Z Note: switching to 'refs/remotes/pull/28288/merge'.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6184490Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6184600Z You are in 'detached HEAD' state. You can look around, make experimental
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6184840Z changes and commit them, and you can discard any commits you make in this
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6185090Z state without impacting any branches by switching back to a branch.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6185280Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6185420Z If you want to create a new branch to retain commits you create, you may
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6185660Z do so (now or later) by using -c with the switch command. Example:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6185820Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6191860Z   git switch -c <new-branch-name>
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192100Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192170Z Or undo this operation with:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192250Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192290Z   git switch -
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192370Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192470Z Turn off this advice by setting config variable advice.detachedHead to false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192640Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6192800Z HEAD is now at 021c37e Merge 968cb182e5ea62b701b7bf341cb2101eea8b3e9c into ec7e6d82d40377c454f622bd2e65c676c9b47aa7
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6193470Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6193680Z ##[group]Setting up auth for fetching submodules
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6195730Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6244200Z [command]/opt/homebrew/bin/git config --global include.path /Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6280770Z [command]/opt/homebrew/bin/git config --global --unset-all url.https://github.com/.insteadOf
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6315330Z [command]/opt/homebrew/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6349930Z [command]/opt/homebrew/bin/git config --global --add url.https://github.com/.insteadOf org-115962839@github.com:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6388260Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6388490Z ##[group]Fetching submodules
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6392190Z [command]/opt/homebrew/bin/git submodule sync --recursive
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.6906790Z [command]/opt/homebrew/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7315580Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local gc.auto 0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7706550Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7751040Z [command]/opt/homebrew/bin/git log -1 --format=%H
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7782050Z 021c37e153500753ae9eead99172a887d4ce5687
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7786570Z ##[group]Removing auth
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7787020Z Removing SSH command configuration
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7788270Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.7816890Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8191990Z Removing HTTP extra header
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8194010Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8221730Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8611210Z Removing includeIf entries pointing to credentials config files
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8615790Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8647620Z includeif.gitdir:/Users/runner/work/ruff/ruff/.git.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8647870Z includeif.gitdir:/Users/runner/work/ruff/ruff/.git/worktrees/*.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8648080Z includeif.gitdir:/github/workspace/.git.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8648270Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8651780Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/ruff/ruff/.git.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8678370Z /Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8681730Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/ruff/ruff/.git.path \/Users\/runner\/work\/_temp\/git\-credentials\-d068df9c\-7943\-487b\-983f\-7358a34a9c8e\.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8725210Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/ruff/ruff/.git/worktrees/*.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8748220Z /Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8751550Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/ruff/ruff/.git/worktrees/*.path \/Users\/runner\/work\/_temp\/git\-credentials\-d068df9c\-7943\-487b\-983f\-7358a34a9c8e\.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8780600Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8804470Z /github/runner_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8808090Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-d068df9c\-7943\-487b\-983f\-7358a34a9c8e\.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8838310Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8863800Z /github/runner_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8866250Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-d068df9c\-7943\-487b\-983f\-7358a34a9c8e\.config
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.8897630Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9283240Z Removing credentials config '/Users/runner/work/_temp/git-credentials-d068df9c-7943-487b-983f-7358a34a9c8e.config'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9290360Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9612040Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9612290Z with:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9612380Z   python-version: 3.13
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9612470Z   architecture: x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9612560Z   check-latest: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9613590Z   token: ***
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9613670Z   update-environment: true
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9613770Z   allow-prereleases: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9613860Z   freethreaded: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9613940Z env:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614020Z   UV_LOCKED: 1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614100Z   ACTIONS_CACHE_MODE: none
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614200Z   PACKAGE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614280Z   MODULE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614360Z   PYTHON_VERSION: 3.13
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614450Z   CARGO_INCREMENTAL: 0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614530Z   CARGO_NET_RETRY: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614610Z   CARGO_TERM_COLOR: always
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614700Z   RUSTUP_MAX_RETRIES: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:25.9614810Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:26.0277580Z ##[group]Installed versions
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:26.0284140Z Version 3.13 was not found in the local cache
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:44.6091710Z Version 3.13 is available for downloading
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:44.6092660Z Download from "https://github.com/actions/python-versions/releases/download/3.13.15-31064747964/python-3.13.15-darwin-x64.tar.gz"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:49.6195700Z connect ECONNREFUSED 140.82.112.3:443
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:34:49.6196650Z Waiting 11 seconds before trying again
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:05.6417710Z connect ECONNREFUSED 140.82.112.3:443
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:05.6418350Z Waiting 17 seconds before trying again
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:23.2224790Z Extract downloaded archive
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:23.2295310Z [command]/usr/bin/tar xz -C /Users/runner/work/_temp/941e8d26-f129-4ec6-9066-926f862287fb -f /Users/runner/work/_temp/ee793f39-cc79-4739-98e0-03cba603ad93
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:23.2829480Z Execute installation script
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:23.3044640Z Check if Python hostedtoolcache folder exist...
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:23.3044870Z Creating Python hostedtoolcache folder...
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:35:23.3098250Z Install Python binaries from prebuilt package
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7812100Z installer: Package name is Python
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7813040Z installer: choices changes file '/var/folders/1m/wsmgmjkx6k59p3sx1z3wpn9w0000gn/T/tmp.xPKwRBt7Sp' applied
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7815130Z installer: Installing at base path /
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7815330Z installer: The install was successful.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7826220Z Create hostedtoolcach symlinks (Required for the backward compatibility)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7826460Z Create Python 3.13.15 folder
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7890390Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:08.7943520Z Upgrading pip...
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.0568980Z Collecting pip
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.0756830Z Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.0809310Z Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.0987820Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 146.6 MB/s  0:00:00
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.0988020Z 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.1069430Z Installing collected packages: pip
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.1070210Z Attempting uninstall: pip
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.1077900Z Found existing installation: pip 26.2.1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.1171480Z Uninstalling pip-26.2.1:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.1757370Z Successfully uninstalled pip-26.2.1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.5683810Z Successfully installed pip-26.2.1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:09.5887820Z Install OpenSSL certificates
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.8057060Z Collecting certifi
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.8328430Z Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.8402480Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.8652270Z Installing collected packages: certifi
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.8704880Z Successfully installed certifi-2026.7.22
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9026150Z -- pip install --upgrade certifi
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9032400Z  -- removing any existing file or link
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9032590Z  -- creating symlink to certifi certificate bundle
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9063880Z  -- setting permissions
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9064030Z  -- update complete
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9064130Z Create complete file
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9098650Z Successfully set up CPython (3.13.15)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9098940Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9317950Z ##[group]Run python scripts/transform_readme.py --target pypi
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9318210Z ^[[36;1mpython scripts/transform_readme.py --target pypi^[[0m
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336240Z shell: /opt/homebrew/bin/bash -e {0}
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336380Z env:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336460Z   UV_LOCKED: 1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336550Z   ACTIONS_CACHE_MODE: none
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336660Z   PACKAGE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336750Z   MODULE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336840Z   PYTHON_VERSION: 3.13
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9336930Z   CARGO_INCREMENTAL: 0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9337020Z   CARGO_NET_RETRY: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9337120Z   CARGO_TERM_COLOR: always
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9337220Z   RUSTUP_MAX_RETRIES: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9337360Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9337590Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9337840Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9338040Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9338240Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9338410Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9996810Z ##[group]Run PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9997050Z with:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9997140Z   sccache: false
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9997250Z   maturin-version: v1.14.1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9997360Z   target: x86_64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9997480Z   args: --release --locked --out dist --compatibility pypi
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9998710Z   token: ***
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9998800Z   command: build
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9998900Z env:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9998980Z   UV_LOCKED: 1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999110Z   ACTIONS_CACHE_MODE: none
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999230Z   PACKAGE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999320Z   MODULE_NAME: ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999420Z   PYTHON_VERSION: 3.13
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999520Z   CARGO_INCREMENTAL: 0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999610Z   CARGO_NET_RETRY: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999700Z   CARGO_TERM_COLOR: always
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:24.9999810Z   RUSTUP_MAX_RETRIES: 10
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0000040Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0000270Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0000490Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0000710Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0000920Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.13.15/x64
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0001140Z   RUSTFLAGS: -C linker=rust-lld -C linker-flavor=ld64.lld -C link-arg=--icf=safe
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0001340Z ##[endgroup]
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0585630Z Found Rust toolchain 1.98.0 in rust-toolchain.toml 
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0586550Z ##[group]Install Rust target
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0586690Z Installing Rust toolchain 1.98.0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0604180Z [command]/Users/runner/.cargo/bin/rustup update --no-self-update 1.98.0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:25.0774600Z info: syncing channel updates for 1.98.0-aarch64-apple-darwin
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.0921840Z error: could not download file from 'https://static.rust-lang.org/dist/channel-rust-1.98.0.toml.sha256' to '/Users/runner/.rustup/tmp/bgn2dtaucikhcv_9_file': error downloading file: error sending request for url (https://static.rust-lang.org/dist/channel-rust-1.98.0.toml.sha256): client error (Connect): tcp connect error: Connection refused (os error 61)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1001320Z Error: The process '/Users/runner/.cargo/bin/rustup' failed with exit code 1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1002470Z     at ExecState._setResult (file:///Users/runner/work/_actions/PyO3/maturin-action/e83996d129638aa358a18fbd1dfb82f0b0fb5d3b/dist/index.js:45748:25)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1003830Z     at ExecState.CheckComplete (file:///Users/runner/work/_actions/PyO3/maturin-action/e83996d129638aa358a18fbd1dfb82f0b0fb5d3b/dist/index.js:45731:18)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1005180Z     at ChildProcess.<anonymous> (file:///Users/runner/work/_actions/PyO3/maturin-action/e83996d129638aa358a18fbd1dfb82f0b0fb5d3b/dist/index.js:45627:27)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1006090Z     at ChildProcess.emit (node:events:509:28)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1006530Z     at maybeClose (node:internal/child_process:1124:16)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1006990Z     at Socket.<anonymous> (node:internal/child_process:481:11)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1007410Z     at Socket.emit (node:events:509:28)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1007770Z     at Pipe.<anonymous> (node:net:351:12)
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1029440Z ##[error]The process '/Users/runner/.cargo/bin/rustup' failed with exit code 1
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.1555460Z Post job cleanup.
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2095120Z [command]/opt/homebrew/bin/git version
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2133910Z git version 2.53.0
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2146200Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/f39f6219-f57e-4968-896d-fc90c6918c53/.gitconfig'
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2151990Z Temporarily overriding HOME='/Users/runner/work/_temp/f39f6219-f57e-4968-896d-fc90c6918c53' before making global git config changes
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2152400Z Adding repository directory to the temporary git global config as a safe directory
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2154520Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/ruff/ruff
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2187220Z Removing SSH command configuration
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2190360Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2227190Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2627140Z Removing HTTP extra header
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2629330Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.2662140Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.3040460Z Removing includeIf entries pointing to credentials config files
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.3043990Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.3071200Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+macos-x86_64	UNKNOWN STEP	2026-09-03T17:36:30.3571630Z Cleaning up orphan processes

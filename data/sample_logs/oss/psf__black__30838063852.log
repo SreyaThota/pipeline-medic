@@ -1,0 +1,400 @@
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0400853Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0435389Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0643888Z Removing includeIf entries pointing to credentials config files
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0648028Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0680374Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0902275Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0939585Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/black/black/.git.path /home/runner/work/_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.0968984Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/black/black/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.1001686Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.1031976Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.1059063Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.1064322Z ##[group]Fetching the repository
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.1067153Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c7f5858a36fec6343bc8438ef3a7b83292d6af85:refs/remotes/pull/5264/merge
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5455713Z From https://github.com/psf/black
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5457464Z  * [new ref]         c7f5858a36fec6343bc8438ef3a7b83292d6af85 -> pull/5264/merge
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5489195Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5490275Z ##[group]Determining the checkout info
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5491643Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5496017Z [command]/usr/bin/git sparse-checkout disable
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5541237Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5568745Z ##[group]Checking out the ref
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.5572528Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/5264/merge
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6006012Z Note: switching to 'refs/remotes/pull/5264/merge'.
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6006729Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6007292Z You are in 'detached HEAD' state. You can look around, make experimental
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6008496Z changes and commit them, and you can discard any commits you make in this
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6010091Z state without impacting any branches by switching back to a branch.
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6010673Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6011041Z If you want to create a new branch to retain commits you create, you may
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6011846Z do so (now or later) by using -c with the switch command. Example:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6012266Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6012525Z   git switch -c <new-branch-name>
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6013085Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6013453Z Or undo this operation with:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6013862Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6014279Z   git switch -
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6014670Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6015064Z Turn off this advice by setting config variable advice.detachedHead to false
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6015569Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6016081Z HEAD is now at c7f5858 Merge be9991e0090ea3d2f2ac5cfcff4ce7f869af0a47 into 18684ccb3edd702d8398c0fffd9a6416028c976c
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6017986Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6053596Z [command]/usr/bin/git log -1 --format=%H
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6077931Z c7f5858a36fec6343bc8438ef3a7b83292d6af85
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6088056Z ##[group]Removing auth
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6089238Z Removing SSH command configuration
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6093542Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6124926Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6367478Z Removing HTTP extra header
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6368433Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6406040Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6645775Z Removing includeIf entries pointing to credentials config files
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6648178Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6675077Z includeif.gitdir:/home/runner/work/black/black/.git.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6676695Z includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6678376Z includeif.gitdir:/github/workspace/.git.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6680024Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6684721Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/black/black/.git.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6709810Z /home/runner/work/_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6729792Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/black/black/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-5ce7c5a5\-dfc7\-4b74\-8a41\-bb3d59561b62\.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6758461Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6780718Z /home/runner/work/_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6789965Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-5ce7c5a5\-dfc7\-4b74\-8a41\-bb3d59561b62\.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6820534Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6842120Z /github/runner_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6885750Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-5ce7c5a5\-dfc7\-4b74\-8a41\-bb3d59561b62\.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6931204Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6952737Z /github/runner_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6969662Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-5ce7c5a5\-dfc7\-4b74\-8a41\-bb3d59561b62\.config
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.6994077Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7278037Z Removing credentials config '/home/runner/work/_temp/git-credentials-5ce7c5a5-dfc7-4b74-8a41-bb3d59561b62.config'
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7280383Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7507390Z ##[warning]Unexpected input(s) 'pip-install', valid inputs are ['python-version', 'python-version-file', 'cache', 'architecture', 'check-latest', 'token', 'cache-dependency-path', 'update-environment', 'allow-prereleases', 'freethreaded', 'pip-version']
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7523190Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7523694Z with:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7523993Z   python-version: 3.15
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7524319Z   allow-prereleases: true
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7524645Z   pip-version: 26.1
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7524970Z   pip-install: --group hatch
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7525302Z   check-latest: false
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7527943Z   token: ***
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7528252Z   update-environment: true
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7528632Z   freethreaded: false
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7528928Z env:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7529222Z   PROJECT: https://pypi.org/p/black
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.7529740Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.8688293Z ##[group]Installed versions
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:03.9110932Z Version ~3.15.0-0 was not found in the local cache
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:04.7213323Z Version ~3.15.0-0 is available for downloading
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:04.7214787Z Download from "https://github.com/actions/python-versions/releases/download/3.15.0-beta.4-29712574371/python-3.15.0-beta.4-linux-24.04-x64.tar.gz"
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:05.4145713Z Extract downloaded archive
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:05.4255888Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/121b9764-4dc0-42e7-980f-3175f0a85545 -f /home/runner/work/_temp/b68e9c5b-a101-4b79-bc81-a496c9a67254
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:07.7718084Z Execute installation script
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:07.7810062Z Check if Python hostedtoolcache folder exist...
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:07.7811056Z Create Python 3.15.0-beta.4 folder
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:07.7822619Z Copy Python binaries to hostedtoolcache folder
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:08.3274725Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:08.3318909Z Upgrading pip...
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.6945196Z Collecting pip
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.7465161Z Downloading pip-26.2-py3-none-any.whl.metadata (4.6 kB)
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.7930313Z Downloading pip-26.2-py3-none-any.whl (1.8 MB)
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.8363412Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 125.3 MB/s  0:00:00
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.8363837Z 
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.8754461Z Installing collected packages: pip
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.8756075Z Attempting uninstall: pip
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.8779758Z Found existing installation: pip 26.1.2
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.9089641Z Uninstalling pip-26.1.2:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:11.9144195Z Successfully uninstalled pip-26.1.2
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:12.9939569Z Successfully installed pip-26.2
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:13.0590363Z Create complete file
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:13.0651051Z pip-version input is specified. Installing pip version 26.1
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:13.0653565Z [command]/opt/hostedtoolcache/Python/3.15.0-beta.4/x64/bin/python -m pip install --upgrade pip==26.1 --disable-pip-version-check --no-warn-script-location
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:13.8820234Z Collecting pip==26.1
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:13.9273109Z   Downloading pip-26.1-py3-none-any.whl.metadata (4.6 kB)
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:13.9405419Z Downloading pip-26.1-py3-none-any.whl (1.8 MB)
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:13.9822250Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 122.3 MB/s  0:00:00
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:14.0119775Z Installing collected packages: pip
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:14.0142008Z   Attempting uninstall: pip
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:14.0159059Z     Found existing installation: pip 26.2
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:14.0504398Z     Uninstalling pip-26.2:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:14.0560353Z       Successfully uninstalled pip-26.2
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.1695230Z Successfully installed pip-26.1
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2236811Z Successfully set up CPython (3.15.0-beta.4)
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2237966Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2398172Z ##[group]Run python -m hatch build
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2398536Z ^[[36;1mpython -m hatch build^[[0m
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2449758Z shell: /usr/bin/bash -e {0}
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2450025Z env:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2450253Z   PROJECT: https://pypi.org/p/black
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2450613Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2451102Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64/lib/pkgconfig
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2451582Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2452043Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2452451Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2452856Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64/lib
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2453192Z ##[endgroup]
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2657077Z /opt/hostedtoolcache/Python/3.15.0-beta.4/x64/bin/python: No module named hatch
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2689257Z ##[error]Process completed with exit code 1.
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.2815783Z Post job cleanup.
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3613786Z [command]/usr/bin/git version
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3649027Z git version 2.54.0
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3684313Z Temporarily overriding HOME='/home/runner/work/_temp/873bb5ff-a143-403c-91c5-5da1a79d51fe' before making global git config changes
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3685573Z Adding repository directory to the temporary git global config as a safe directory
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3690707Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/black/black
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3727554Z Removing SSH command configuration
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3734227Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3763170Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3981777Z Removing HTTP extra header
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.3986328Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.4015844Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.4228525Z Removing includeIf entries pointing to credentials config files
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.4235499Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.4295219Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+sdist + pure wheel	UNKNOWN STEP	2026-08-03T17:44:15.4633577Z Cleaning up orphan processes
+generate wheels matrix	UNKNOWN STEP	﻿2026-08-03T17:44:07.0440627Z Current runner version: '2.336.0'
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0466653Z ##[group]Runner Image Provisioner
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0467724Z Hosted Compute Agent
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0468455Z Version: 20260707.563
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0469125Z Commit: 02667638d2b423fbc733a8e32a88b44996a3ba6e
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0469881Z Build Date: 2026-07-07T19:33:50Z
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0470649Z Worker ID: {2c9f3cf3-ed65-46cc-b004-ed7cce2a9cdd}
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0471354Z Azure Region: westus3
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0472003Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0473489Z ##[group]Operating System
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0474191Z Ubuntu
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0474759Z 24.04.4
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0475254Z LTS
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0475816Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0476359Z ##[group]Runner Image
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0476927Z Image: ubuntu-24.04
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0477941Z Version: 20260720.247.2
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0479232Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260720.247/images/ubuntu/Ubuntu2404-Readme.md
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0480830Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260720.247
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0481768Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0482833Z ##[group]GITHUB_TOKEN Permissions
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0484791Z Metadata: read
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0485483Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0487935Z Secret source: Dependabot
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0489181Z Prepare workflow directory
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0927971Z Prepare all required actions
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.0994412Z Getting action download info
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:07.4349795Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:08.4395396Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.5475688Z Complete job name: generate wheels matrix
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6362767Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6363650Z with:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6363942Z   persist-credentials: false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6364266Z   repository: psf/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6367318Z   token: ***
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6367831Z   ssh-strict: true
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6368103Z   ssh-user: git
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6368380Z   clean: true
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6368648Z   sparse-checkout-cone-mode: true
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6368975Z   fetch-depth: 1
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6369226Z   fetch-tags: false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6369498Z   show-progress: true
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6369775Z   lfs: false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6370041Z   submodules: false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6370314Z   set-safe-directory: true
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6370626Z   allow-unsafe-pr-checkout: false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6371238Z env:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6371532Z   PROJECT: https://pypi.org/p/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.6371869Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.7442850Z Syncing repository: psf/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.7444425Z ##[group]Getting Git version info
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.7444935Z Working directory is '/home/runner/work/black/black'
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.7445603Z [command]/usr/bin/git version
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8376927Z git version 2.54.0
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8400081Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8412254Z Temporarily overriding HOME='/home/runner/work/_temp/40b25c6e-c9ba-42bb-b8ad-13a7a6f37435' before making global git config changes
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8413790Z Adding repository directory to the temporary git global config as a safe directory
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8419707Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/black/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8608467Z Deleting the contents of '/home/runner/work/black/black'
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8612665Z ##[group]Determining repository object format
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8614339Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8615180Z ##[group]Initializing the repository
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.8620549Z [command]/usr/bin/git init /home/runner/work/black/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9006289Z hint: Using 'master' as the name for the initial branch. This default branch name
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9008547Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9009517Z hint: to use in all of your new repositories, which will suppress this warning,
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9010619Z hint: call:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9011127Z hint:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9011743Z hint: 	git config --global init.defaultBranch <name>
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9012559Z hint:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9013252Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9014408Z hint: 'development'. The just-created branch can be renamed via this command:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9015323Z hint:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9015850Z hint: 	git branch -m <name>
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9016375Z hint:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9017083Z hint: Disable this message with "git config set advice.defaultBranchName false"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9018527Z Initialized empty Git repository in /home/runner/work/black/black/.git/
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9025036Z [command]/usr/bin/git remote add origin https://github.com/psf/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9213632Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9214539Z ##[group]Disabling automatic garbage collection
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9216584Z [command]/usr/bin/git config --local gc.auto 0
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9251244Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9252338Z ##[group]Setting up auth
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9253077Z Removing SSH command configuration
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9258790Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:09.9298087Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.0907318Z Removing HTTP extra header
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.0913859Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.0954764Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1220221Z Removing includeIf entries pointing to credentials config files
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1226684Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1268797Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1545752Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1588333Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/black/black/.git.path /home/runner/work/_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1624027Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/black/black/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1703286Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1738859Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1774093Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1774851Z ##[group]Fetching the repository
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:10.1781900Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +c7f5858a36fec6343bc8438ef3a7b83292d6af85:refs/remotes/pull/5264/merge
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.0778623Z From https://github.com/psf/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.0779626Z  * [new ref]         c7f5858a36fec6343bc8438ef3a7b83292d6af85 -> pull/5264/merge
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.0922854Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.0924333Z ##[group]Determining the checkout info
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.0926405Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.0928364Z [command]/usr/bin/git sparse-checkout disable
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1014323Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1046954Z ##[group]Checking out the ref
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1053736Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/5264/merge
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1501218Z Note: switching to 'refs/remotes/pull/5264/merge'.
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1502183Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1503310Z You are in 'detached HEAD' state. You can look around, make experimental
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1504552Z changes and commit them, and you can discard any commits you make in this
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1505734Z state without impacting any branches by switching back to a branch.
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1506438Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1506872Z If you want to create a new branch to retain commits you create, you may
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1508173Z do so (now or later) by using -c with the switch command. Example:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1508856Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1509136Z   git switch -c <new-branch-name>
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1509573Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1509841Z Or undo this operation with:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1510282Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1510473Z   git switch -
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1510984Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1511441Z Turn off this advice by setting config variable advice.detachedHead to false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1512104Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1512858Z HEAD is now at c7f5858 Merge be9991e0090ea3d2f2ac5cfcff4ce7f869af0a47 into 18684ccb3edd702d8398c0fffd9a6416028c976c
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1527741Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1574856Z [command]/usr/bin/git log -1 --format=%H
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1605110Z c7f5858a36fec6343bc8438ef3a7b83292d6af85
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1624853Z ##[group]Removing auth
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1626020Z Removing SSH command configuration
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1628881Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1668844Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1922584Z Removing HTTP extra header
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1928705Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.1972249Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2218295Z Removing includeIf entries pointing to credentials config files
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2220937Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2249869Z includeif.gitdir:/home/runner/work/black/black/.git.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2251465Z includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2253002Z includeif.gitdir:/github/workspace/.git.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2254210Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2261324Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/black/black/.git.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2287892Z /home/runner/work/_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2298850Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/black/black/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-f8659ee7\-2510\-4567\-a34a\-e7ab1ff5ce44\.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2338094Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2364531Z /home/runner/work/_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2374852Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-f8659ee7\-2510\-4567\-a34a\-e7ab1ff5ce44\.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2409290Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2432041Z /github/runner_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2441766Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-f8659ee7\-2510\-4567\-a34a\-e7ab1ff5ce44\.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2483050Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2540838Z /github/runner_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2554891Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-f8659ee7\-2510\-4567\-a34a\-e7ab1ff5ce44\.config
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2602493Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2829975Z Removing credentials config '/home/runner/work/_temp/git-credentials-f8659ee7-2510-4567-a34a-e7ab1ff5ce44.config'
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.2839562Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3183980Z ##[warning]Unexpected input(s) 'pip-install', valid inputs are ['python-version', 'python-version-file', 'cache', 'architecture', 'check-latest', 'token', 'cache-dependency-path', 'update-environment', 'allow-prereleases', 'freethreaded', 'pip-version']
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3197833Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3198240Z with:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3198449Z   python-version: 3.15
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3198698Z   allow-prereleases: true
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3198932Z   pip-version: 26.1
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3199155Z   pip-install: --group cibw
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3199413Z   check-latest: false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3202224Z   token: ***
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3202463Z   update-environment: true
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3202701Z   freethreaded: false
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3202907Z env:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3203115Z   PROJECT: https://pypi.org/p/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.3203376Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.4458160Z ##[group]Installed versions
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:11.4828369Z Version ~3.15.0-0 was not found in the local cache
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:12.5923389Z Version ~3.15.0-0 is available for downloading
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:12.5925309Z Download from "https://github.com/actions/python-versions/releases/download/3.15.0-beta.4-29712574371/python-3.15.0-beta.4-linux-24.04-x64.tar.gz"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:13.4163875Z Extract downloaded archive
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:13.4290933Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/9fae18f0-8ebd-43d0-889b-8d35ccfd811a -f /home/runner/work/_temp/802f1c68-e37c-48bb-ba44-71861300206f
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:15.7933710Z Execute installation script
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:15.8029405Z Check if Python hostedtoolcache folder exist...
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:15.8034354Z Create Python 3.15.0-beta.4 folder
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:15.8045030Z Copy Python binaries to hostedtoolcache folder
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:16.3438654Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:16.3479274Z Upgrading pip...
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:18.8746345Z Collecting pip
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:18.9488740Z Downloading pip-26.2-py3-none-any.whl.metadata (4.6 kB)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.0039763Z Downloading pip-26.2-py3-none-any.whl (1.8 MB)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.1635572Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 13.2 MB/s  0:00:00
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.1636143Z 
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.2133376Z Installing collected packages: pip
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.2133811Z Attempting uninstall: pip
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.2158326Z Found existing installation: pip 26.1.2
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.2481559Z Uninstalling pip-26.1.2:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:19.2538289Z Successfully uninstalled pip-26.1.2
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:20.3822347Z Successfully installed pip-26.2
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:20.4657993Z Create complete file
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:20.4709854Z pip-version input is specified. Installing pip version 26.1
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:20.4712831Z [command]/opt/hostedtoolcache/Python/3.15.0-beta.4/x64/bin/python -m pip install --upgrade pip==26.1 --disable-pip-version-check --no-warn-script-location
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.3187374Z Collecting pip==26.1
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.3892347Z   Downloading pip-26.1-py3-none-any.whl.metadata (4.6 kB)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.4125344Z Downloading pip-26.1-py3-none-any.whl (1.8 MB)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.5951043Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 10.9 MB/s  0:00:00
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.6264850Z Installing collected packages: pip
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.6268750Z   Attempting uninstall: pip
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.6288100Z     Found existing installation: pip 26.2
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.6607450Z     Uninstalling pip-26.2:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:21.6667294Z       Successfully uninstalled pip-26.2
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.0591117Z Successfully installed pip-26.1
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1374078Z Successfully set up CPython (3.15.0-beta.4)
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1376061Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1581591Z ##[group]Run {
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1581889Z ^[[36;1m{^[[0m
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1582467Z ^[[36;1m  CIBW_BUILD="cp310-*" cibuildwheel --print-build-identifiers --platform linux | pyp 'json.dumps({"only": x, "os": "ubuntu-latest"})'^[[0m
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1583441Z ^[[36;1m  CIBW_BUILD="cp314-*" cibuildwheel --print-build-identifiers --platform windows | pyp 'json.dumps({"only": x, "os": "windows-latest"})'^[[0m
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1584171Z ^[[36;1m} | pyp 'json.dumps(list(map(json.loads, lines)))' > /tmp/matrix^[[0m
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1632669Z shell: /usr/bin/bash -e {0}
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1632938Z env:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1633163Z   PROJECT: https://pypi.org/p/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1633540Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1634044Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64/lib/pkgconfig
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1634504Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1634959Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1635374Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1635789Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0-beta.4/x64/lib
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1636141Z   CIBW_ARCHS_LINUX: x86_64
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1636359Z ##[endgroup]
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1908577Z /home/runner/work/_temp/7ebb9e72-2d76-4f74-9839-6490c93b181a.sh: line 2: cibuildwheel: command not found
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1910116Z /home/runner/work/_temp/7ebb9e72-2d76-4f74-9839-6490c93b181a.sh: line 4: pyp: command not found
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1911270Z /home/runner/work/_temp/7ebb9e72-2d76-4f74-9839-6490c93b181a.sh: line 2: pyp: command not found
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.1921967Z ##[error]Process completed with exit code 127.
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.2074326Z Post job cleanup.
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3019825Z [command]/usr/bin/git version
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3060881Z git version 2.54.0
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3096781Z Temporarily overriding HOME='/home/runner/work/_temp/fdcdb222-6b76-4b41-af43-c5a7be2c11b3' before making global git config changes
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3098379Z Adding repository directory to the temporary git global config as a safe directory
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3102432Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/black/black
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3380353Z Removing SSH command configuration
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3390409Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3449070Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3714416Z Removing HTTP extra header
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3726071Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.3762417Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.4006124Z Removing includeIf entries pointing to credentials config files
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.4013259Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.4049407Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.4434724Z Evaluate and set job outputs
+generate wheels matrix	UNKNOWN STEP	2026-08-03T17:44:23.4442699Z Cleaning up orphan processes

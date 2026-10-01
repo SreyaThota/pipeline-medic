@@ -1,0 +1,400 @@
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:53.9674745Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:53.9676272Z ##[group]Determining the checkout info
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:53.9677704Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:53.9681041Z [command]/usr/bin/git sparse-checkout disable
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:53.9728248Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:53.9757086Z ##[group]Checking out the ref
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:53.9762127Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0165208Z Switched to a new branch 'main'
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0167885Z branch 'main' set up to track 'origin/main'.
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0177218Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0225260Z [command]/usr/bin/git log -1 --format=%H
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0252654Z 928f50354512b3857ca07c1085076286035e4a56
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0261580Z ##[group]Removing auth
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0262443Z Removing SSH command configuration
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0265764Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0300985Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0524932Z Removing HTTP extra header
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0529196Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0564935Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0784206Z Removing includeIf entries pointing to credentials config files
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0788241Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0818006Z includeif.gitdir:/home/runner/work/black/black/.git.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0818902Z includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0819711Z includeif.gitdir:/github/workspace/.git.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0820416Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0827977Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/black/black/.git.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0857045Z /home/runner/work/_temp/git-credentials-697e7258-5035-4e7a-9f40-0a2675e095bb.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0868084Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/black/black/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-697e7258\-5035\-4e7a\-9f40\-0a2675e095bb\.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0903219Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0937036Z /home/runner/work/_temp/git-credentials-697e7258-5035-4e7a-9f40-0a2675e095bb.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0948523Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/black/black/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-697e7258\-5035\-4e7a\-9f40\-0a2675e095bb\.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.0984711Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1014431Z /github/runner_temp/git-credentials-697e7258-5035-4e7a-9f40-0a2675e095bb.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1041473Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-697e7258\-5035\-4e7a\-9f40\-0a2675e095bb\.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1127068Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1152147Z /github/runner_temp/git-credentials-697e7258-5035-4e7a-9f40-0a2675e095bb.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1173781Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-697e7258\-5035\-4e7a\-9f40\-0a2675e095bb\.config
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1205794Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1452390Z Removing credentials config '/home/runner/work/_temp/git-credentials-697e7258-5035-4e7a-9f40-0a2675e095bb.config'
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1458316Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1883186Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1884989Z with:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1886241Z   python-version: 3.15
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1887348Z   allow-prereleases: true
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1888459Z   check-latest: false
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1899359Z   token: ***
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1900352Z   update-environment: true
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1901468Z   freethreaded: false
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1902470Z env:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1903391Z   PIP_UPLOADED_PRIOR_TO: P2D
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1904584Z   PROJECT: https://pypi.org/p/black
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.1905796Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.3108906Z ##[group]Installed versions
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:54.3199474Z Version ~3.15.0-0 was not found in the local cache
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:55.2007393Z Version ~3.15.0-0 is available for downloading
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:55.2010590Z Download from "https://github.com/actions/python-versions/releases/download/3.15.0-rc.1-30966273682/python-3.15.0-rc.1-linux-24.04-x64.tar.gz"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:56.0748810Z Extract downloaded archive
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:56.0910174Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/46bf8dc5-774c-41ee-986d-6137945417b2 -f /home/runner/work/_temp/2f2c3ab4-f070-415a-aba5-86bac9f39804
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:58.5371112Z Execute installation script
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:58.5472778Z Check if Python hostedtoolcache folder exist...
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:58.5476407Z Create Python 3.15.0-rc.1 folder
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:58.5487067Z Copy Python binaries to hostedtoolcache folder
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:59.0957555Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:12:59.0999507Z Upgrading pip...
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.1136688Z Collecting pip
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.1907494Z Downloading pip-26.2-py3-none-any.whl.metadata (4.6 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.2472692Z Downloading pip-26.2-py3-none-any.whl (1.8 MB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.4162135Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 12.7 MB/s  0:00:00
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.4162812Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.5614581Z Installing collected packages: pip
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.5615386Z Attempting uninstall: pip
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.5637858Z Found existing installation: pip 26.2
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.5954825Z Uninstalling pip-26.2:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:01.6014001Z Successfully uninstalled pip-26.2
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.7005212Z Successfully installed pip-26.2
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.7765807Z Create complete file
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.7827651Z Successfully set up CPython (3.15.0-rc.1)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.7828515Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.7995691Z ##[group]Run python -m pip install --group cibw
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.7996484Z ^[[36;1mpython -m pip install --group cibw^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8047439Z shell: /usr/bin/bash -e {0}
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8047717Z env:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8047928Z   PIP_UPLOADED_PRIOR_TO: P2D
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8048321Z   PROJECT: https://pypi.org/p/black
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8048684Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8049190Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64/lib/pkgconfig
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8049924Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8050362Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8050785Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8051211Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64/lib
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:02.8051556Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:04.4218402Z Collecting cibuildwheel==4.1.0
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:04.5067415Z   Downloading cibuildwheel-4.1.0-py3-none-any.whl.metadata (33 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:04.6633581Z Collecting pypyp
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:04.6752123Z   Downloading pypyp-1.3.0-py3-none-any.whl.metadata (11 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:04.9126902Z Collecting bashlex!=0.13 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:04.9243295Z   Downloading bashlex-0.18-py2.py3-none-any.whl.metadata (1.1 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.0248299Z Collecting bracex (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.0357366Z   Downloading bracex-3.0.1-py3-none-any.whl.metadata (3.3 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.1250457Z Collecting build>=1.0.0 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.1360157Z   Downloading build-1.5.0-py3-none-any.whl.metadata (5.7 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.2669351Z Collecting certifi (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.2779363Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.4228854Z Collecting dependency-groups>=1.2 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.4346534Z   Downloading dependency_groups-1.3.1-py3-none-any.whl.metadata (2.3 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.6163025Z Collecting filelock (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.6268612Z   Downloading filelock-3.32.2-py3-none-any.whl.metadata (2.0 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.6869107Z Collecting humanize (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.6974803Z   Downloading humanize-4.16.0-py3-none-any.whl.metadata (8.0 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.7560430Z Collecting packaging>=20.9 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.7667015Z   Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.8274075Z Collecting platformdirs (from cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.8384521Z   Downloading platformdirs-4.11.0-py3-none-any.whl.metadata (5.5 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.8913375Z Collecting pyproject_hooks (from build>=1.0.0->cibuildwheel==4.1.0)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.9021769Z   Downloading pyproject_hooks-1.2.0-py3-none-any.whl.metadata (1.3 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.9202755Z Downloading cibuildwheel-4.1.0-py3-none-any.whl (164 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.9526904Z Downloading pypyp-1.3.0-py3-none-any.whl (15 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.9649855Z Downloading bashlex-0.18-py2.py3-none-any.whl (69 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.9774779Z Downloading build-1.5.0-py3-none-any.whl (26 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:05.9910580Z Downloading dependency_groups-1.3.1-py3-none-any.whl (8.7 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.0032053Z Downloading packaging-26.2-py3-none-any.whl (100 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.0168102Z Downloading bracex-3.0.1-py3-none-any.whl (11 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.0289105Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.0441443Z Downloading filelock-3.32.2-py3-none-any.whl (98 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.0648448Z Downloading humanize-4.16.0-py3-none-any.whl (137 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.0780012Z Downloading platformdirs-4.11.0-py3-none-any.whl (23 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.0903827Z Downloading pyproject_hooks-1.2.0-py3-none-any.whl (10 kB)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.1475016Z Installing collected packages: pypyp, pyproject_hooks, platformdirs, packaging, humanize, filelock, certifi, bracex, bashlex, dependency-groups, build, cibuildwheel
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.6544799Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.6559392Z Successfully installed bashlex-0.18 bracex-3.0.1 build-1.5.0 certifi-2026.7.22 cibuildwheel-4.1.0 dependency-groups-1.3.1 filelock-3.32.2 humanize-4.16.0 packaging-26.2 platformdirs-4.11.0 pyproject_hooks-1.2.0 pypyp-1.3.0
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.6567396Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.6567716Z [notice] A new release of pip is available: 26.2 -> 26.2.1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.6568347Z [notice] To update, run: pip install --upgrade pip
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7317739Z ##[group]Run cibuildwheel . --only cp314-manylinux_x86_64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7318226Z ^[[36;1mcibuildwheel . --only cp314-manylinux_x86_64^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7361783Z shell: /usr/bin/bash -e {0}
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7362037Z env:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7362242Z   PIP_UPLOADED_PRIOR_TO: P2D
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7362532Z   PROJECT: https://pypi.org/p/black
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7362900Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7363360Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64/lib/pkgconfig
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7363822Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7364221Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7364621Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7365035Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0-rc.1/x64/lib
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.7365383Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8475270Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8475734Z      _ _       _ _   _       _           _
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8476484Z  ___|_| |_ _ _|_| |_| |_ _ _| |_ ___ ___| |
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8476897Z |  _| | . | | | | | . | | | |   | -_| -_| |
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8477258Z |___|_|___|___|_|_|___|_____|_|_|___|___|_|
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8477490Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8477623Z cibuildwheel version 4.1.0
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8477833Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8477948Z Build options:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.8478226Z   platform: linux
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9645850Z   ^[[38;5;244mallow_empty: False^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9647148Z   architectures: aarch64, armv7l, i686, ppc64le, riscv64, s390x, x86_64^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9647916Z   build_selector: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9648314Z     build_config: cp314-manylinux_x86_64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9648775Z     skip_config: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9649140Z     requires_python: >=3.10
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9650145Z     enable: ['cpython-prerelease', 'graalpy', 'pyodide-eol', 'pyodide-prerelease', 'pypy', 'pypy-eol']^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9651311Z   output_dir: /home/runner/work/black/black/wheelhouse^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9652099Z   package_dir: /home/runner/work/black/black^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9652648Z   test_selector: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9653283Z     skip_config: *-macosx_arm64 *-macosx_universal2:arm64^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9653963Z   ^[[38;5;244maudit_command: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9654603Z ^[[38;5;244m    abi3audit --strict --report {abi3_wheel}^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9655263Z   ^[[38;5;244maudit_requires: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9655759Z ^[[38;5;244m    abi3audit^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9656512Z   ^[[38;5;244mbefore_all: ^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9657070Z   before_build: yum install -y clang^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9657658Z   ^[[38;5;244mbefore_test: ^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9658201Z   ^[[38;5;244mbuild_frontend: build^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9658751Z   build_verbosity: 1^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9659248Z   ^[[38;5;244mconfig_settings: ^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9659812Z   ^[[38;5;244mcontainer_engine: docker^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9660470Z   ^[[38;5;244mdependency_constraints: pinned^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9660993Z   environment: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9661375Z     HATCH_BUILD_HOOKS_ENABLE="1"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9661832Z     MYPYC_OPT_LEVEL="3"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9662229Z     MYPYC_DEBUG_LEVEL="0"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9662689Z     CC="clang"^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9663142Z   ^[[38;5;244mmanylinux_images: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9663835Z ^[[38;5;244m    x86_64: quay.io/pypa/manylinux_2_28_x86_64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9664692Z ^[[38;5;244m    i686: quay.io/pypa/manylinux_2_28_i686:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9665573Z ^[[38;5;244m    pypy_x86_64: quay.io/pypa/manylinux_2_28_x86_64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9666716Z ^[[38;5;244m    aarch64: quay.io/pypa/manylinux_2_28_aarch64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9667650Z ^[[38;5;244m    ppc64le: quay.io/pypa/manylinux_2_28_ppc64le:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9668541Z ^[[38;5;244m    s390x: quay.io/pypa/manylinux_2_28_s390x:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9670208Z ^[[38;5;244m    armv7l: quay.io/pypa/manylinux_2_31_armv7l:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9671171Z ^[[38;5;244m    riscv64: quay.io/pypa/manylinux_2_39_riscv64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9672146Z ^[[38;5;244m    pypy_aarch64: quay.io/pypa/manylinux_2_28_aarch64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9673121Z ^[[38;5;244m    pypy_i686: quay.io/pypa/manylinux_2_28_i686:2026.06.04-1^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9673856Z   ^[[38;5;244mmusllinux_images: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9674532Z ^[[38;5;244m    x86_64: quay.io/pypa/musllinux_1_2_x86_64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9675362Z ^[[38;5;244m    i686: quay.io/pypa/musllinux_1_2_i686:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9676428Z ^[[38;5;244m    aarch64: quay.io/pypa/musllinux_1_2_aarch64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9677357Z ^[[38;5;244m    ppc64le: quay.io/pypa/musllinux_1_2_ppc64le:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9678229Z ^[[38;5;244m    s390x: quay.io/pypa/musllinux_1_2_s390x:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9679088Z ^[[38;5;244m    armv7l: quay.io/pypa/musllinux_1_2_armv7l:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9680011Z ^[[38;5;244m    riscv64: quay.io/pypa/musllinux_1_2_riscv64:2026.06.04-1^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9680775Z   ^[[38;5;244mpyodide_version: None^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9681551Z   ^[[38;5;244mrepair_command: auditwheel repair -w {dest_dir} {wheel}^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9682590Z   test_command: pytest {project} -k "not incompatible_with_mypyc" -n auto^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9683396Z   ^[[38;5;244mtest_environment: ^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9683945Z   test_extras: [d,jupyter]^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9684379Z   test_groups: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9684772Z     tests^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9685110Z   test_requires: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9685459Z     pytest>=7
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9686080Z     pytest-xdist>=3.0.2^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9686601Z   ^[[38;5;244mtest_runtime: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9687126Z ^[[38;5;244m    args: ()^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9687733Z   ^[[38;5;244mtest_sources: ^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9688233Z   ^[[38;5;244mxbuild_files: 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9689758Z ^[[38;5;244m    numpy: ['numpy/_core/include/numpy/_numpyconfig.h', 'numpy/_core/include/numpy/numpyconfig.h', 'numpy/_core/lib/libnpymath.a', 'numpy/random/lib/libnpyrandom.a']^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9691218Z   ^[[38;5;244mxbuild_tools: None^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9691543Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9691779Z Cache folder: /home/runner/.cache/cibuildwheel
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9692171Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9729943Z 1 build selected:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9730323Z cp314-manylinux_x86_64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9730569Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9730696Z Here we go!
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:06.9730884Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:07.0457364Z ##[group]Starting container image quay.io/pypa/manylinux_2_28_x86_64:2026.06.04-1...
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:07.0458016Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:07.0458383Z info: This container will host the build for cp314-manylinux_x86_64...
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:07.0469438Z + docker version -f '{{json .}}'
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:07.0769109Z + docker image inspect quay.io/pypa/manylinux_2_28_x86_64:2026.06.04-1 --format '{{.Os}}/{{.Architecture}}'
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:07.0904579Z Error response from daemon: No such image: quay.io/pypa/manylinux_2_28_x86_64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1401287Z 2026.06.04-1: Pulling from pypa/manylinux_2_28_x86_64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1406342Z a0ca16fa6f59: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1406937Z 9610e47b346c: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1407379Z b401ac796ddc: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1407806Z 4f4fb700ef54: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1408228Z 97166e286f69: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1408625Z bfb035e1719d: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1409027Z cd664c80c595: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1409466Z 9dc4df1c985b: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1409904Z 4e471e8f0ebe: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1410344Z ad6daa1d5082: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1410784Z 21ae3b5afd39: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1411272Z db7700451ff3: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1411746Z 084805bf1793: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1412972Z b3003ba0d296: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1413444Z d79386695bd8: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1413906Z eed37ddccda8: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1414464Z 5075988f8895: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1414974Z df9c170bcaa5: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1415394Z 69725c18b30a: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1416749Z d78847690352: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1417202Z 2654ef445203: Pulling fs layer
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1417555Z 084805bf1793: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1417960Z b3003ba0d296: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1418610Z d79386695bd8: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1418831Z eed37ddccda8: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1419038Z 5075988f8895: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1419237Z df9c170bcaa5: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1419668Z 69725c18b30a: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1420042Z d78847690352: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1420440Z 2654ef445203: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1421131Z 4f4fb700ef54: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1421352Z 97166e286f69: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1421577Z bfb035e1719d: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1421781Z cd664c80c595: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1421980Z 9dc4df1c985b: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1422176Z 4e471e8f0ebe: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1422486Z ad6daa1d5082: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1422695Z 21ae3b5afd39: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.1422895Z db7700451ff3: Waiting
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.4189893Z 9610e47b346c: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.4190684Z 9610e47b346c: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.6419768Z 4f4fb700ef54: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.6420801Z 4f4fb700ef54: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.7551913Z b401ac796ddc: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.7553770Z b401ac796ddc: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.9165188Z 97166e286f69: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.9166335Z 97166e286f69: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.9789639Z bfb035e1719d: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:08.9790161Z bfb035e1719d: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.2023219Z 9dc4df1c985b: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.4153200Z a0ca16fa6f59: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.4153843Z a0ca16fa6f59: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.5176366Z 4e471e8f0ebe: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.5177470Z 4e471e8f0ebe: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.6549718Z ad6daa1d5082: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.6550265Z ad6daa1d5082: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.7947186Z 21ae3b5afd39: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.7947742Z 21ae3b5afd39: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.8961418Z db7700451ff3: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:09.8962482Z db7700451ff3: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.0431332Z 084805bf1793: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.1519755Z b3003ba0d296: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.1521455Z b3003ba0d296: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.2992774Z d79386695bd8: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.2993635Z d79386695bd8: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.4238623Z eed37ddccda8: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.5782608Z 5075988f8895: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.8361484Z 69725c18b30a: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:10.8363816Z 69725c18b30a: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:11.2934844Z df9c170bcaa5: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:11.2935660Z df9c170bcaa5: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:11.5312610Z 2654ef445203: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:11.5313125Z 2654ef445203: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:12.1268761Z a0ca16fa6f59: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:12.7087136Z 9610e47b346c: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:12.7172692Z cd664c80c595: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:12.7173119Z cd664c80c595: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:13.7134822Z b401ac796ddc: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:13.7703275Z 4f4fb700ef54: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:13.7863413Z 97166e286f69: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:13.7971173Z bfb035e1719d: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:16.5480652Z d78847690352: Verifying Checksum
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:16.5481178Z d78847690352: Download complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.2109924Z cd664c80c595: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.2360727Z 9dc4df1c985b: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.2807204Z 4e471e8f0ebe: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.2902144Z ad6daa1d5082: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.3420221Z 21ae3b5afd39: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.3538432Z db7700451ff3: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.3938067Z 084805bf1793: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.4021071Z b3003ba0d296: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.4267644Z d79386695bd8: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.4400811Z eed37ddccda8: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.4785146Z 5075988f8895: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.6827213Z df9c170bcaa5: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:21.7043510Z 69725c18b30a: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.6778191Z d78847690352: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.6927401Z 2654ef445203: Pull complete
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.6961906Z Digest: sha256:d3f051574f040b4c1d23b18fd06741cd7288c6f537faa0a76b1c7edf048bfa62
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.6972630Z Status: Downloaded newer image for quay.io/pypa/manylinux_2_28_x86_64:2026.06.04-1
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.7150746Z 84015674fe7db223ff924790148c80fade462a2e01f56419dcf6bcfd0a0c1505
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.7171126Z     + /bin/true
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.8898688Z     + mkdir -p /project
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:33.8938582Z     + manylinux-interpreters --help
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.1227094Z     + manylinux-interpreters ensure cp314-cp314
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.1656437Z 'cp314-cp314' already installed at '/opt/python/cp314-cp314'
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.1714143Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.1714992Z                                                              ^[[32m✓ ^[[0m27.13s
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.1716144Z ##[group]Copying project into container...
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.1716566Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.1716759Z     + mkdir -p /project
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2752859Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2753824Z                                                               ^[[32m✓ ^[[0m0.10s
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2754287Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2754654Z ^[[1m^[[34mBuilding cp314-manylinux_x86_64 wheel^[[0m
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2755290Z CPython 3.14 manylinux x86_64
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2755596Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2756951Z ##[group]Setting up build environment...
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2757688Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.2757845Z     + mkdir -p /
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.3348772Z     + /opt/python/cp39-cp39/bin/python -c 'import sys, json, os; json.dump(os.environ.copy(), sys.stdout)'
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4387314Z     + which python
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4428961Z     + python -V -V
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4467608Z Python 3.14.5 (main, Jun  4 2026, 13:38:53) [GCC 14.2.1 20250110 (Red Hat 14.2.1-11)]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4471089Z     + which pip
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4507104Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4507906Z                                                               ^[[32m✓ ^[[0m0.18s
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4509364Z ##[group]Running before_build...
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4509566Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:34.4511724Z     + sh -c 'yum install -y clang'
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:35.5846585Z AlmaLinux 8 - BaseOS                            102 MB/s |  88 MB     00:00    
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:46.9302991Z AlmaLinux 8 - AppStream                          60 MB/s |  30 MB     00:00    
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:52.2134641Z AlmaLinux 8 - Extras                             45 kB/s |  14 kB     00:00    
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:13:52.6863174Z AlmaLinux 8 - PowerTools                         16 MB/s | 6.5 MB     00:00    
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7120286Z Extra Packages for Enterprise Linux 8 - x86_64   20 kB/s | 3.5 MB     03:04    
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7132454Z Errors during downloading metadata for repository 'epel':
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7136131Z   - Status code: 404 for https://pubmirror1.math.uh.edu/fedora-buffet/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz (IP: 129.7.128.189)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7140000Z   - Status code: 500 for https://mirror.fcix.net/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz (IP: 23.152.160.16)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7142933Z   - Status code: 404 for https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz (IP: 38.145.32.23)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7162992Z   - Status code: 404 for http://pubmirror1.math.uh.edu/fedora-buffet/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz (IP: 129.7.128.189)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7164702Z   - Curl error (28): Timeout was reached for http://mirror.fcix.net/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz [Operation too slow. Less than 1000 bytes/sec transferred the last 30 seconds]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7166610Z   - Status code: 404 for https://mirror.dst.ca/fedora-linux/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz (IP: 208.89.84.55)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7168147Z   - Status code: 404 for https://d2lzkl7pfhq30w.cloudfront.net/pub/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz (IP: 18.173.117.208)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7169585Z   - Status code: 404 for http://mirror.dst.ca/fedora-linux/epel/8/Everything/x86_64/repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz (IP: 208.89.84.55)
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.7208766Z Error: Failed to download metadata for repo 'epel': Yum repo downloading error: Downloading error(s): repodata/daad44077b66bbe4b73f67aacc975fa0bc17e19de5482b15c8f9f2f4ac99fb74-filelists.xml.xz - Cannot download, all mirrors were already tried without success
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.8841242Z ##[error]cibuildwheel: Command ['sh', '-c', 'yum install -y clang'] failed with code 1. 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.8852314Z 
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.8852871Z ##[endgroup]
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.8853617Z                                                             ^[[31m✕ ^[[0m204.43s
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.9033941Z ##[error]Process completed with exit code 1.
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:58.9176317Z Post job cleanup.
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0002646Z [command]/usr/bin/git version
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0040076Z git version 2.54.0
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0082662Z Temporarily overriding HOME='/home/runner/work/_temp/03e7ea4f-0bd5-4b04-9361-287eccd7aece' before making global git config changes
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0083472Z Adding repository directory to the temporary git global config as a safe directory
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0089595Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/black/black
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0121174Z Removing SSH command configuration
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0127974Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0161945Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0382722Z Removing HTTP extra header
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0388253Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0420770Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0640500Z Removing includeIf entries pointing to credentials config files
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0647255Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.0680623Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+mypyc wheels cp314-manylinux_x86_64	UNKNOWN STEP	2026-08-06T04:16:59.1050588Z Cleaning up orphan processes

@@ -1,0 +1,400 @@
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8806720Z        • babel.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8806840Z        • legacy.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8806948Z        • module.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8807095Z        • module-attributes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8807209Z        • script.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8807386Z    ↳ tests/format/html/next_empty_line/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8807532Z        • standalone-end-marker.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8807770Z    ↳ tests/format/html/prettier_ignore/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8807888Z        • cases.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8808010Z        • document.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8808148Z        • issue-15738.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8808282Z        • long_lines.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8808410Z        • unclosed.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8808535Z        • unclosed2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8808716Z    ↳ tests/format/html/magic_comments/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8808843Z        • display.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809036Z    ↳ tests/format/html/js/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809159Z        • empty.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809271Z        • js.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809384Z        • simple.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809517Z        • single-script.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809659Z        • something-else.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809803Z        • template-literal.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8809938Z        • typescript.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8810123Z    ↳ tests/format/html/interpolation/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8810252Z        • example.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8810419Z    ↳ tests/format/html/front-matter/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8810561Z        • custom-parser.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8810682Z        • empty.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8810800Z        • empty2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8810930Z        • issue-9042.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8811102Z        • issue-9042-no-empty-line.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8811239Z        • unicode.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8811439Z    ↳ tests/format/html/doctype_declarations/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8811594Z        • html4.01_frameset.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8811741Z        • html4.01_strict.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8811902Z        • html4.01_transitional.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8812073Z        • html5.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8812220Z        • ibm_system.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8812364Z        • legacy_string.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8812507Z        • xhtml1.0_frameset.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8812656Z        • xhtml1.0_strict.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8812809Z        • xhtml1.0_transitional.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8812937Z        • xhtml1.1.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8813082Z    ↳ tests/format/html/cursor/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8813302Z        • cursor-0.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8813431Z        • cursor-1.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8813556Z        • cursor-2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8813740Z        • cursor-3.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8813869Z        • cursor-4.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8813993Z        • cursor-5.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8814112Z        • cursor-6.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8814239Z        • cursor-7.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8814375Z        • cursor-8.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8814520Z    ↳ tests/format/html/cdata/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8814648Z        • example.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8814794Z    ↳ tests/format/html/css/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8814898Z        • empty.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815012Z        • less.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815141Z        • mj-style.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815271Z        • postcss.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815376Z        • scss.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815491Z        • simple.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815636Z        • single-style.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815782Z    ↳ tests/format/html/case/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8815894Z        • case.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8816053Z    ↳ tests/format/html/aurelia/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8816165Z        • basic.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8816374Z    ↳ tests/format/css/stylefmt-repo/vendor-prefix/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8816523Z        • vendor-prefix.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8816733Z    ↳ tests/format/html/basics/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8816862Z        • broken-html.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8816992Z        • comment.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8817103Z        • empty.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8817235Z        • empty-doc.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8817339Z        • form.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8817479Z        • hello-world.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8817621Z        • html-comments.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8817763Z        • html5-boilerplate.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8817969Z        • issue-9368.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8818121Z        • issue-9368-2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8818263Z        • issue-9368-3.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8818394Z        • more-html.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8818539Z        • void-elements.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8818694Z        • void-elements-2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8818828Z        • with-colon.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8819063Z    ↳ tests/format/css/stylefmt-repo/var-notation/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8819208Z        • var-notation.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8819409Z    ↳ tests/format/css/stylefmt-repo/values/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8819522Z        • values.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8819700Z    ↳ tests/format/html/attributes/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8819840Z        • attributes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8819964Z        • boolean.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8820113Z        • case-sensitive.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8820262Z        • class-bem1.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8820395Z        • class-bem2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8820539Z        • class-colon.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8820698Z        • class-leading-dashes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8820865Z        • class-many-short-names.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8820994Z        • class-names.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8821213Z        • class-print-width-edge.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8821364Z        • dobule-quotes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8821493Z        • duplicate.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8821639Z        • event-attributes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8821774Z        • single-quotes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8821906Z        • smart-quotes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8822012Z        • srcset.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8822123Z        • style.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8822262Z        • without-quotes.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8822545Z    ↳ tests/format/css/stylefmt-repo/shorthand-with-sass-variables/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8822780Z        • shorthand-with-sass-variables.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8823000Z    ↳ tests/format/css/stylefmt-repo/pseudo-element/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8823282Z        • pseudo-element.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8823555Z    ↳ tests/format/css/stylefmt-repo/non-nested-combinator/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8823711Z        • non-nested-combinator.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8823930Z    ↳ tests/format/css/stylefmt-repo/nested-mixin-2/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8824065Z        • nested-mixin-2.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8824295Z    ↳ tests/format/css/stylefmt-repo/nested-indention-2/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8824441Z        • nested-indention-2.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8824674Z    ↳ tests/format/css/stylefmt-repo/nested-indention/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8824808Z        • nested-indention.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8825031Z    ↳ tests/format/css/stylefmt-repo/nested-mixin/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8825171Z        • nested-mixin.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8825371Z    ↳ tests/format/css/stylefmt-repo/nested-2/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8825491Z        • nested-2.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8825685Z    ↳ tests/format/css/stylefmt-repo/nested/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8825806Z        • nested.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8826134Z    ↳ tests/format/css/stylefmt-repo/media-indent-with-import/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8826312Z        • media-indent-with-import.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8826539Z    ↳ tests/format/css/stylefmt-repo/nested-atrule/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8826691Z        • nested-atrule.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8826930Z    ↳ tests/format/css/stylefmt-repo/media-queries-ranges/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8827104Z        • media-queries-ranges.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8827316Z    ↳ tests/format/css/stylefmt-repo/lowercase/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8827506Z        • lowercase.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8827701Z    ↳ tests/format/css/stylefmt-repo/important/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8827831Z        • important.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8828049Z    ↳ tests/format/css/stylefmt-repo/media-indent/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8828190Z        • media-indent.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8828411Z    ↳ tests/format/css/stylefmt-repo/font-shorthand/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8828554Z        • font-shorthand.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8828744Z    ↳ tests/format/css/stylefmt-repo/import/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8828854Z        • import.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8829049Z    ↳ tests/format/css/stylefmt-repo/ie-hacks/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8829177Z        • ie-hacks.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8829364Z    ↳ tests/format/css/stylefmt-repo/data-url/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8829493Z        • data-url.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8829719Z    ↳ tests/format/css/stylefmt-repo/custom-selectors/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8829869Z        • custom-selectors.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8830058Z    ↳ tests/format/css/stylefmt-repo/font-face/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8830191Z        • font-face.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8830435Z    ↳ tests/format/css/stylefmt-repo/custom-properties/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8830578Z        • custom-properties.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8830945Z    ↳ tests/format/css/stylefmt-repo/custom-media-queries/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8831104Z        • custom-media-queries.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8831341Z    ↳ tests/format/css/stylefmt-repo/cssnext-example/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8831480Z        • cssnext-example.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8831689Z    ↳ tests/format/css/stylefmt-repo/comment/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8831816Z        • comment.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8832010Z    ↳ tests/format/css/stylefmt-repo/content/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8832124Z        • content.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8832407Z    ↳ tests/format/css/stylefmt-repo/comment-in-rules/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8832550Z        • comment-in-rules.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8832785Z    ↳ tests/format/css/stylefmt-repo/color-hex-lowercase/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8832943Z        • color-hex-lowercase.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8833229Z    ↳ tests/format/css/stylefmt-repo/charset/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8833364Z        • charset.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8833577Z    ↳ tests/format/css/stylefmt-repo/attr-selector/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8833728Z        • attr-selector.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8833939Z    ↳ tests/format/css/stylefmt-repo/charset-2/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8834070Z        • charset-2.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8834278Z    ↳ tests/format/css/stylefmt-repo/at-media/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8834421Z        • at-media.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8834629Z    ↳ tests/format/css/stylefmt-repo/at-apply/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8834768Z        • at-apply.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8834926Z    ↳ tests/format/vue/v-for/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8835051Z        • invalid.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8835163Z        • ts.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8835324Z    ↳ tests/format/vue/style/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8835466Z        • mj-style.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8835718Z    ↳ tests/format/vue/ts-expression/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8835857Z        • attribute-expr.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8835984Z        • basic.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8836110Z        • comment.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8836224Z        • filter.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8836417Z        • not-working-with-non-ts-script.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8836575Z    ↳ tests/format/vue/range/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8836698Z        • example.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8836845Z    ↳ tests/format/vue/vue-3/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8837066Z        • script-generic.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8837219Z        • script-setup.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8837360Z        • style-variables.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8837521Z    ↳ tests/format/vue/invalid/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8837635Z        • v-for.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8837805Z    ↳ tests/format/vue/interpolation/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8837956Z        • bitwise-or-operator.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8838136Z        • comment-after-interpolation.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8838284Z        • ng-non-bindable.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8838421Z        • parenthesized.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8838560Z        • template.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8838728Z    ↳ tests/format/vue/html-vue/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8838879Z        • elastic-header.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8839016Z        • hello-world.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8839164Z        • upper-case-2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8839329Z        • upper-case-html-tag.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8839490Z        • upper-case-html-tag-2.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8839654Z        • upper-case-html-tag-3.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8839816Z        • upper-case-html-tag-4.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8839961Z        • void-element.html format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8840182Z    ↳ tests/format/vue/event-binding/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8840325Z        • assignment.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8840457Z        • basic-ts.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8840605Z        • function-expression-ts.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8840754Z        • non-ascii-expression.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8840913Z        • non-ascii-expression-ts.vue format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841054Z    ↳ tests/format/css/yaml/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841191Z        • comment_after.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841304Z        • dirty.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841416Z        • empty.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841549Z        • empty_newlines.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841719Z        • ignore.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841854Z        • malformed.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8841982Z        • malformed-2.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8842116Z        • only_comments.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8842251Z        • with_comments.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8842408Z        • without-newline-after.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8842519Z        • yaml.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8842667Z    ↳ tests/format/css/url/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8842777Z        • url.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8842915Z    ↳ tests/format/css/units/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8843032Z        • values.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8843354Z    ↳ tests/format/css/type-function/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8843467Z        • type.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8843635Z    ↳ tests/format/css/trailing-comma/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8843767Z        • var-func.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8843930Z    ↳ tests/format/css/tailwind/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8844074Z        • utility-directive.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8844254Z    ↳ tests/format/css/selector-string/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8844370Z        • string.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8844529Z    ↳ tests/format/css/variables/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8844661Z        • apply-rule.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8844856Z        • variables.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845024Z    ↳ tests/format/css/selector-list/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845147Z        • selectors.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845330Z    ↳ tests/format/css/selector-call/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845442Z        • call.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845588Z    ↳ tests/format/css/range/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845712Z        • issue2267.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845866Z    ↳ tests/format/css/prefix/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8845979Z        • prefix.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8846192Z    ↳ tests/format/css/pseudo-call/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8846311Z        • has.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8846425Z        • indent.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8846528Z        • is.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8846665Z        • pseudo_call.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8846777Z        • where.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8846986Z    ↳ tests/format/css/postcss-8-improment/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8847119Z        • empty-props.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8847242Z        • test.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8847400Z    ↳ tests/format/css/parens/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8847565Z        • empty-line-after-function.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8847711Z        • empty-lines.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8847837Z        • parens.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8847999Z    ↳ tests/format/css/params/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8848114Z        • params.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8848286Z    ↳ tests/format/css/numbers/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8848416Z        • numbers.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8848581Z    ↳ tests/format/css/no-semicolon/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8848701Z        • url.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8848858Z    ↳ tests/format/css/loose/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8848984Z        • loose.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8849194Z    ↳ tests/format/css/long-rule/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8849340Z        • long_rule.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8849514Z    ↳ tests/format/css/inline-url/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8849627Z        • empty.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8849768Z        • inline_url.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8849922Z    ↳ tests/format/css/modules/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8850034Z        • modules.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8850205Z    ↳ tests/format/css/postcss-plugins/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8850345Z        • postcss-mixins.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8850491Z        • postcss-nested.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8850642Z        • postcss-nested-props.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8850836Z        • postcss-nesting.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8850988Z        • postcss-simple-vars.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8851134Z    ↳ tests/format/css/grid/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8851243Z        • grid.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8851396Z    ↳ tests/format/css/indent/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8851512Z        • indent.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8851641Z        • selectors.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8851826Z    ↳ tests/format/css/escaped-attribute/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8851941Z        • test.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8852104Z    ↳ tests/format/css/fill-value/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8852207Z        • fill.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8852354Z    ↳ tests/format/css/empty/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8852464Z        • empty.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8852607Z    ↳ tests/format/css/cursor/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8852724Z        • test.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8852889Z    ↳ tests/format/css/combinator/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8853014Z        • an-plus-b.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8853241Z        • combinator.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8853360Z        • leading.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8853517Z    ↳ tests/format/css/composes/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8853646Z        • composes.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8853854Z    ↳ tests/format/css/color/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8853996Z        • color-adjuster.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8854129Z        • color-level-4.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8854267Z        • current-color.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8854417Z        • functional-syntax.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8854548Z        • hexcolor.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8854685Z        • whitespace-syntax.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8854844Z    ↳ tests/format/css/comments/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855012Z        • 15948.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855116Z        • 17479.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855233Z        • CRLF.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855361Z        • at-rules.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855472Z        • block.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855575Z        • bug.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855718Z        • custom-properties.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855856Z        • declaration.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8855970Z        • nestled.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8856116Z        • prettier-ignore.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8856252Z        • selectors.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8856379Z        • source-map.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8856493Z        • types.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8856643Z    ↳ tests/format/css/case/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8856752Z        • case.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8856894Z        • custom-selectors.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8857087Z    ↳ tests/format/css/character-escaping/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8857242Z        • character_escaping.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8857382Z    ↳ tests/format/css/bom/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8857495Z        • bom.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8857644Z    ↳ tests/format/css/atword/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8857756Z        • atword.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8857898Z    ↳ tests/format/css/atrule/format.test.js
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858071Z        • at-root.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858192Z        • charset.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858322Z        • counter-style.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858458Z        • custom-media.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858599Z        • custom-selector.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858711Z        • debug.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858813Z        • each.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8858930Z        • extend.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859063Z        • font-face.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859202Z        • font-feature-values.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859320Z        • for.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859502Z        • function.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859614Z        • if-else.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859722Z        • import.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859834Z        • include.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8859962Z        • keyframes.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860065Z        • media.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860181Z        • mixin.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860314Z        • namespaces.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860419Z        • page.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860532Z        • return.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860659Z        • supports.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860786Z        • viewport.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860891Z        • while.css format 1
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8860904Z 
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8861070Z Test Suites: 1549 failed, 12 passed, 1561 total
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8861224Z Tests:       34208 failed, 80 passed, 34288 total
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8861425Z Snapshots:   3876 failed, 9239 obsolete, 36 passed, 3912 total
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8861527Z Time:        83.274 s
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8861625Z Ran all test suites.
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.8861845Z ^[[32mRemoving installed Prettier:^[[39m
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.9170848Z ^[[32m - ^[[7m/tmp/4457179e65aabf725bbf91c4d9edb823^[[27m DONE^[[39m
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.9865190Z ##[error]Process completed with exit code 1.
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:20.9989044Z Post job cleanup.
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0701904Z [command]/usr/bin/git version
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0736185Z git version 2.55.0
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0764578Z Temporarily overriding HOME='/home/runner/work/_temp/75081b35-6ef9-43b0-a2bb-118fc28b0f91' before making global git config changes
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0765633Z Adding repository directory to the temporary git global config as a safe directory
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0769106Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/prettier/prettier
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0797872Z Removing SSH command configuration
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0803228Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.0833493Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1054237Z Removing HTTP extra header
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1058491Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1088932Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1298516Z Removing includeIf entries pointing to credentials config files
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1304142Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1328439Z includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1329327Z includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1330042Z includeif.gitdir:/github/workspace/.git.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1330637Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1336394Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1356204Z /home/runner/work/_temp/git-credentials-263466e9-2699-4b49-9b20-dd12592cbc37.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1364212Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-263466e9\-2699\-4b49\-9b20\-dd12592cbc37\.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1394460Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1421623Z /home/runner/work/_temp/git-credentials-263466e9-2699-4b49-9b20-dd12592cbc37.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1428721Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/prettier/prettier/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-263466e9\-2699\-4b49\-9b20\-dd12592cbc37\.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1455775Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1474567Z /github/runner_temp/git-credentials-263466e9-2699-4b49-9b20-dd12592cbc37.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1480156Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-263466e9\-2699\-4b49\-9b20\-dd12592cbc37\.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1506283Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1524421Z /github/runner_temp/git-credentials-263466e9-2699-4b49-9b20-dd12592cbc37.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1531706Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-263466e9\-2699\-4b49\-9b20\-dd12592cbc37\.config
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1559806Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1764798Z Removing credentials config '/home/runner/work/_temp/git-credentials-263466e9-2699-4b49-9b20-dd12592cbc37.config'
+Test with pnpm	UNKNOWN STEP	2026-09-17T07:12:21.1925555Z Cleaning up orphan processes

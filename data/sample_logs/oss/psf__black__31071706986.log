@@ -1,0 +1,400 @@
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:37:59.6949809Z ##[endgroup]
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:00.9674819Z Obtaining file:///C:/a/black/black
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:00.9783413Z   Installing build dependencies: started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:06.6137351Z   Installing build dependencies: finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:06.6156214Z   Checking if build backend supports build_editable: started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:06.6947326Z   Checking if build backend supports build_editable: finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:06.6970083Z   Getting requirements to build editable: started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:07.0412452Z   Getting requirements to build editable: finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:07.0440444Z   Installing backend dependencies: started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:08.2741089Z   Installing backend dependencies: finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:08.2762595Z   Preparing editable metadata (pyproject.toml): started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.0832887Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.1789212Z Collecting click>=8.0.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.2140301Z   Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.2593489Z Collecting mypy-extensions>=0.4.3 (from black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.2635387Z   Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.2909161Z Collecting packaging>=22.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.2929079Z   Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.2994242Z Collecting pathspec>=1.0.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.3014332Z   Using cached pathspec-1.1.1-py3-none-any.whl.metadata (14 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.3343194Z Collecting platformdirs>=2 (from black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.3395536Z   Downloading platformdirs-4.11.0-py3-none-any.whl.metadata (5.5 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.3860289Z Collecting pytokens~=0.4.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.3912370Z   Downloading pytokens-0.4.1-py3-none-any.whl.metadata (3.8 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.4511261Z Collecting winloop>=0.5.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.4566253Z   Downloading winloop-0.6.3.tar.gz (2.6 MB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:09.5293828Z      ---------------------------------------- 2.6/2.6 MB 40.7 MB/s  0:00:00
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:10.1965680Z   Installing build dependencies: started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:12.6030464Z   Installing build dependencies: finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:12.6047994Z   Getting requirements to build wheel: started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:17.9579318Z   Getting requirements to build wheel: finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:17.9613470Z   Preparing metadata (pyproject.toml): started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.7706252Z   Preparing metadata (pyproject.toml): finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.8007566Z Collecting colorama (from click>=8.0.0->black==0.1.dev1+g58be83141)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.8050826Z   Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.8329856Z Downloading pytokens-0.4.1-py3-none-any.whl (13 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.8572905Z Downloading click-8.4.2-py3-none-any.whl (119 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.8846945Z Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.9137529Z Using cached packaging-26.2-py3-none-any.whl (100 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.9157466Z Using cached pathspec-1.1.1-py3-none-any.whl (57 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.9197195Z Downloading platformdirs-4.11.0-py3-none-any.whl (23 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:18.9600357Z Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:19.0298930Z Building wheels for collected packages: black, winloop
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:19.0324877Z   Building editable for black (pyproject.toml): started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:19.1052778Z   Building editable for black (pyproject.toml): finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:19.1090136Z   Created wheel for black: filename=black-0.1.dev1+g58be83141-py3-none-any.whl size=37726 sha256=d2d59ce34521d9b1d98858915c101a09c0c6be67583394b3fb889fcf2989c339
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:19.1091518Z   Stored in directory: C:\Users\runneradmin\AppData\Local\Temp\pip-ephem-wheel-cache-8uzny341\wheels\c5\db\03\f728417befc027814776b21a802db6c9ba8b600e9d0151de2f
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:19.1215236Z   Building wheel for winloop (pyproject.toml): started
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:55.9947338Z   Building wheel for winloop (pyproject.toml): finished with status 'done'
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:55.9989896Z   Created wheel for winloop: filename=winloop-0.6.3-cp315-cp315-win_arm64.whl size=547084 sha256=a976f5db62cc898cbff85fe34e8150d5d20d935f299e628ee13f0444c3feb747
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:55.9991345Z   Stored in directory: c:\users\runneradmin\appdata\local\pip\cache\wheels\c6\d3\5d\2e2fdc86dd6188e4a94d74831d2a5ae50129b330a0643b9ebf
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:56.0056696Z Successfully built black winloop
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:56.0412655Z Installing collected packages: winloop, pytokens, platformdirs, pathspec, packaging, mypy-extensions, colorama, click, black
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:56.7488442Z 
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:56.7503126Z Successfully installed black-0.1.dev1+g58be83141 click-8.4.2 colorama-0.4.6 mypy-extensions-1.1.0 packaging-26.2 pathspec-1.1.1 platformdirs-4.11.0 pytokens-0.4.1 winloop-0.6.3
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:56.7518463Z 
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:56.7519879Z [notice] A new release of pip is available: 26.2 -> 26.2.1
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:56.7520774Z [notice] To update, run: python.exe -m pip install --upgrade pip
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5450058Z ##[group]Run python -m black --check .
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5450632Z ^[[36;1mpython -m black --check .^[[0m
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5505443Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5505962Z env:
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5506195Z   PIP_UPLOADED_PRIOR_TO: P2D
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5506882Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\arm64
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5507431Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\arm64/lib/pkgconfig
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5507936Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\arm64
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5508405Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\arm64
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5508888Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\arm64
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:57.5509260Z ##[endgroup]
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:38:59.2555609Z would reformat C:\a\black\black\src\black\parsing.py
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:00.4890858Z 
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:00.4892709Z Oh no! 💥 💔 💥
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:00.4893185Z 1 file would be reformatted, 68 files would be left unchanged.
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:00.6287554Z ##[error]Process completed with exit code 1.
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:00.6671487Z Post job cleanup.
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:00.9527337Z [command]"C:\Program Files\Git\bin\git.exe" version
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:00.9977425Z git version 2.55.0.windows.3
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:01.0053213Z Temporarily overriding HOME='C:\a\_temp\bd737b21-3da7-47ae-b23c-345e890a7eaf' before making global git config changes
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:01.0054023Z Adding repository directory to the temporary git global config as a safe directory
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:01.0062562Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory C:\a\black\black
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:01.0544713Z Removing SSH command configuration
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:01.0555464Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:01.1031909Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:02.2108404Z Removing HTTP extra header
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:02.2118180Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:02.2605978Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:03.8149593Z Removing includeIf entries pointing to credentials config files
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:03.8161337Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:03.8647228Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:05.0061563Z Cleaning up orphan processes
+uvloop (windows-11-arm)	UNKNOWN STEP	2026-08-06T04:39:05.0858973Z Terminate orphan process: pid (11248) (vctip)
+uvloop (windows-latest)	UNKNOWN STEP	﻿2026-08-06T04:36:22.7072874Z Current runner version: '2.336.0'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7102965Z ##[group]Runner Image Provisioner
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7103857Z Hosted Compute Agent
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7104410Z Version: 20260707.563
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7105069Z Commit: 02667638d2b423fbc733a8e32a88b44996a3ba6e
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7105778Z Build Date: 2026-07-07T19:33:50Z
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7106442Z Worker ID: {18538a1e-3a7a-410b-8c48-29c864857f69}
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7107162Z Azure Region: westus
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7107704Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7109237Z ##[group]Operating System
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7109888Z Microsoft Windows Server 2025
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7110954Z 10.0.26100
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7111623Z Datacenter
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7112121Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7112658Z ##[group]Runner Image
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7113259Z Image: windows-2025-vs2026
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7113855Z Version: 20260728.188.1
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7115481Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20260728.188/images/windows/Windows2025-VS2026-Readme.md
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7117195Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20260728.188
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7118190Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7119294Z ##[group]GITHUB_TOKEN Permissions
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7121293Z Contents: read
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7121937Z Metadata: read
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7122479Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7124692Z Secret source: None
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7125703Z Prepare workflow directory
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7579008Z Prepare all required actions
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:22.7630375Z Getting action download info
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.1225192Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.2563263Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.5323079Z Complete job name: uvloop (windows-latest)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6841476Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6842890Z with:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6843348Z   persist-credentials: false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6843892Z   repository: psf/black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6849511Z   token: ***
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6849963Z   ssh-strict: true
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6850405Z   ssh-user: git
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6850825Z   clean: true
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6851277Z   sparse-checkout-cone-mode: true
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6851819Z   fetch-depth: 1
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6852264Z   fetch-tags: false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6852715Z   show-progress: true
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6853170Z   lfs: false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6853628Z   submodules: false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6854091Z   set-safe-directory: true
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6854623Z   allow-unsafe-pr-checkout: false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6855478Z env:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6855914Z   PIP_UPLOADED_PRIOR_TO: P2D
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.6856418Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.8482627Z Syncing repository: psf/black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.8484469Z ##[group]Getting Git version info
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.8485176Z Working directory is 'D:\a\black\black'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:23.9316807Z [command]"C:\Program Files\Git\bin\git.exe" version
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.0679127Z git version 2.55.0.windows.3
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.0735960Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.0755162Z Temporarily overriding HOME='D:\a\_temp\eb356624-ebdc-4a56-bdc8-63a72ae22949' before making global git config changes
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.0756512Z Adding repository directory to the temporary git global config as a safe directory
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.0766330Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\black\black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.1095068Z Deleting the contents of 'D:\a\black\black'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.1101382Z ##[group]Determining repository object format
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.1103860Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.1104668Z ##[group]Initializing the repository
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.1112869Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\black\black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.1624357Z Initialized empty Git repository in D:/a/black/black/.git/
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.1672030Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/psf/black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2006635Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2007417Z ##[group]Disabling automatic garbage collection
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2016185Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2343051Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2344286Z ##[group]Setting up auth
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2345185Z Removing SSH command configuration
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2354836Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:24.2690377Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:25.1137943Z Removing HTTP extra header
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:25.1149616Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:25.1503979Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:25.7356088Z Removing includeIf entries pointing to credentials config files
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:25.7368171Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:25.7692184Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.3308236Z [command]"C:\Program Files\Git\bin\git.exe" config --file D:\a\_temp\git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.3650766Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/black/black/.git.path D:\a\_temp\git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.3977361Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/black/black/.git/worktrees/*.path D:\a\_temp\git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.4332292Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.4723821Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.5060414Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.5061065Z ##[group]Fetching the repository
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:26.5079290Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +58be83141ed56d93a127d535c9139cd0b8ae6b1c:refs/remotes/pull/5237/merge
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.3690061Z From https://github.com/psf/black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.3691223Z  * [new ref]         58be83141ed56d93a127d535c9139cd0b8ae6b1c -> pull/5237/merge
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.3733838Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.3734384Z ##[group]Determining the checkout info
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.3735520Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.3744499Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.4113503Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.4428827Z ##[group]Checking out the ref
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.4437887Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force refs/remotes/pull/5237/merge
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6148995Z Note: switching to 'refs/remotes/pull/5237/merge'.
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6149999Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6150716Z You are in 'detached HEAD' state. You can look around, make experimental
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6151835Z changes and commit them, and you can discard any commits you make in this
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6152831Z state without impacting any branches by switching back to a branch.
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6153432Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6153859Z If you want to create a new branch to retain commits you create, you may
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6154778Z do so (now or later) by using -c with the switch command. Example:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6155293Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6155561Z   git switch -c <new-branch-name>
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6155964Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6156175Z Or undo this operation with:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6156534Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6156709Z   git switch -
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6157063Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6157588Z Turn off this advice by setting config variable advice.detachedHead to false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6158272Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6158926Z HEAD is now at 58be831 Merge 2a2ded82f618c77e2859c727f5016775c374d870 into 928f50354512b3857ca07c1085076286035e4a56
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6219209Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6601085Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6911193Z 58be83141ed56d93a127d535c9139cd0b8ae6b1c
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6958079Z ##[group]Removing auth
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6958430Z Removing SSH command configuration
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.6971622Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:27.7310533Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:28.3300434Z Removing HTTP extra header
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:28.3310872Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:28.3664653Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0295222Z Removing includeIf entries pointing to credentials config files
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0307190Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0603961Z includeif.gitdir:D:/a/black/black/.git.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0604746Z includeif.gitdir:D:/a/black/black/.git/worktrees/*.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0605298Z includeif.gitdir:/github/workspace/.git.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0605859Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0661558Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/black/black/.git.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.0965602Z D:\a\_temp\git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.1011346Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/black/black/.git.path D\:\\a\\_temp\\git\-credentials\-eddedbb6\-3fa9\-4cc2\-954c\-a2e5a588d864\.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.1371026Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/black/black/.git/worktrees/*.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.1709969Z D:\a\_temp\git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.1761033Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/black/black/.git/worktrees/*.path D\:\\a\\_temp\\git\-credentials\-eddedbb6\-3fa9\-4cc2\-954c\-a2e5a588d864\.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.2159603Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.2458625Z /github/runner_temp/git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.2515214Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-eddedbb6\-3fa9\-4cc2\-954c\-a2e5a588d864\.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.2890588Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.3191376Z /github/runner_temp/git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.3249024Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-eddedbb6\-3fa9\-4cc2\-954c\-a2e5a588d864\.config
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.3607836Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.9800715Z Removing credentials config 'D:\a\_temp\git-credentials-eddedbb6-3fa9-4cc2-954c-a2e5a588d864.config'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:29.9815775Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0280743Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0281229Z with:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0281411Z   python-version: 3.15
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0340479Z   allow-prereleases: true
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0340840Z   check-latest: false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0346000Z   token: ***
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0346344Z   update-environment: true
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0346711Z   freethreaded: false
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0347040Z env:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0347321Z   PIP_UPLOADED_PRIOR_TO: P2D
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.0347686Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.2069335Z ##[group]Installed versions
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:30.2138812Z Version ~3.15.0-0 was not found in the local cache
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:31.1624494Z Version ~3.15.0-0 is available for downloading
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:31.1625751Z Download from "https://github.com/actions/python-versions/releases/download/3.15.0-rc.1-30966273682/python-3.15.0-rc.1-win32-x64.zip"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:31.7713344Z Extract downloaded archive
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:32.0999636Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command "$ErrorActionPreference = 'Stop' ; try { Add-Type -AssemblyName System.IO.Compression.ZipFile } catch { } ; try { [System.IO.Compression.ZipFile]::ExtractToDirectory('D:\a\_temp\python-3.15.0-rc.1-win32-x64.zip', 'D:\a\_temp\7ffe8d08-d3aa-47f4-a3f7-830331966c8a', $true) } catch { if (($_.Exception.GetType().FullName -eq 'System.Management.Automation.MethodException') -or ($_.Exception.GetType().FullName -eq 'System.Management.Automation.RuntimeException') ){ Expand-Archive -LiteralPath 'D:\a\_temp\python-3.15.0-rc.1-win32-x64.zip' -DestinationPath 'D:\a\_temp\7ffe8d08-d3aa-47f4-a3f7-830331966c8a' -Force } else { throw $_ } } ;"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:32.6950153Z Execute installation script
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7377194Z Check if Python hostedtoolcache folder exist...
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7380486Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7611060Z Check if current Python version is installed...
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7611856Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7829038Z No Python3.15.* found
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7829547Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7837647Z Remove registry entries for Python 3.15(x64)...
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:52.7839640Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:53.5343049Z Create Python 3.15.0-rc.1 folder in C:\hostedtoolcache\windows\Python
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:53.5343904Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:53.5400532Z Copy Python binaries to C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:53.5401911Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:53.5577098Z Install Python 3.15.0-rc.1 in C:\hostedtoolcache\windows\Python...
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:36:53.5577823Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2045509Z Create python3 symlink
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2046006Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2972425Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2974383Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2980202Z Directory: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2981175Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2981457Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2993403Z Mode                 LastWriteTime         Length Name
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.2998957Z ----                 -------------         ------ ----
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.3011973Z -a---l          8/6/2026   4:37 AM              0 python3.exe
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.3020759Z Install and upgrade Pip
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:24.3021965Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:25.4983559Z Collecting pip
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:25.6529591Z Downloading pip-26.2-py3-none-any.whl.metadata (4.6 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:25.7263583Z Downloading pip-26.2-py3-none-any.whl (1.8 MB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:25.9918027Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:25.9919584Z ---------------------------------------- 1.8/1.8 MB 11.7 MB/s  0:00:00
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:25.9921148Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:26.0538676Z Installing collected packages: pip
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:26.0539238Z Attempting uninstall: pip
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:26.0565294Z Found existing installation: pip 26.2
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:26.1329898Z Uninstalling pip-26.2:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:26.1536749Z Successfully uninstalled pip-26.2
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.3805742Z Successfully installed pip-26.2
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.4588092Z Create complete file
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.4588359Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.4598916Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.4599191Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5038785Z Successfully set up CPython (3.15.0-rc.1)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5039675Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5355831Z ##[group]Run python -m pip install -e ".[uvloop]"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5356407Z ^[[36;1mpython -m pip install -e ".[uvloop]"^[[0m
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5440493Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5440864Z env:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5441059Z   PIP_UPLOADED_PRIOR_TO: P2D
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5441392Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5441899Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64/lib/pkgconfig
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5442375Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5442815Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5443230Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:28.5443555Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:29.8510720Z Obtaining file:///D:/a/black/black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:29.8603358Z   Installing build dependencies: started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:34.4687833Z   Installing build dependencies: finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:34.4711137Z   Checking if build backend supports build_editable: started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:34.5574408Z   Checking if build backend supports build_editable: finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:34.5602136Z   Getting requirements to build editable: started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:35.7038350Z   Getting requirements to build editable: finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:35.7070770Z   Installing backend dependencies: started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:37.1784221Z   Installing backend dependencies: finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:37.1808838Z   Preparing editable metadata (pyproject.toml): started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:38.7780498Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:38.9787109Z Collecting click>=8.0.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.1279550Z   Downloading click-8.4.2-py3-none-any.whl.metadata (2.6 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.2415987Z Collecting mypy-extensions>=0.4.3 (from black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.2857408Z   Downloading mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.3192179Z Collecting packaging>=22.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.3222287Z   Using cached packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.3369505Z Collecting pathspec>=1.0.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.3396162Z   Using cached pathspec-1.1.1-py3-none-any.whl.metadata (14 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.4513365Z Collecting platformdirs>=2 (from black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.4972285Z   Downloading platformdirs-4.11.0-py3-none-any.whl.metadata (5.5 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.6126085Z Collecting pytokens~=0.4.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.6593843Z   Downloading pytokens-0.4.1-py3-none-any.whl.metadata (3.8 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.9253637Z Collecting winloop>=0.5.0 (from black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:39.9685803Z   Downloading winloop-0.6.3.tar.gz (2.6 MB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:40.2290580Z      ---------------------------------------- 2.6/2.6 MB 15.3 MB/s  0:00:00
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:41.2437633Z   Installing build dependencies: started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:54.2700468Z   Installing build dependencies: finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:37:54.2718186Z   Getting requirements to build wheel: started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:01.9126014Z   Getting requirements to build wheel: finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:01.9161468Z   Preparing metadata (pyproject.toml): started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:02.7873713Z   Preparing metadata (pyproject.toml): finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:02.8512043Z Collecting colorama (from click>=8.0.0->black==0.1.dev1+g58be83141)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:02.8946016Z   Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:02.9949090Z Downloading pytokens-0.4.1-py3-none-any.whl (13 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.0807418Z Downloading click-8.4.2-py3-none-any.whl (119 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.1799200Z Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.2261828Z Using cached packaging-26.2-py3-none-any.whl (100 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.2281121Z Using cached pathspec-1.1.1-py3-none-any.whl (57 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.2711480Z Downloading platformdirs-4.11.0-py3-none-any.whl (23 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.3640387Z Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.4474229Z Building wheels for collected packages: black, winloop
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.4504016Z   Building editable for black (pyproject.toml): started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.5231840Z   Building editable for black (pyproject.toml): finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.5311939Z   Created wheel for black: filename=black-0.1.dev1+g58be83141-py3-none-any.whl size=37726 sha256=d13d89d14cdf51deb5d232e56c612a2e1ec7d46b3536675908bf53d5fcd67b85
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.5317638Z   Stored in directory: C:\Users\runneradmin\AppData\Local\Temp\pip-ephem-wheel-cache-tq44bsom\wheels\5f\c0\e5\ffee14b5124dc8f53bada9c151e16a1b5418e9798e75d05a7c
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:03.5467413Z   Building wheel for winloop (pyproject.toml): started
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:38.9302021Z   Building wheel for winloop (pyproject.toml): finished with status 'done'
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:38.9330768Z   Created wheel for winloop: filename=winloop-0.6.3-cp315-cp315-win_amd64.whl size=644148 sha256=5ba39f1785b38cd13718e7de783ccd2a93946d911d994d78cfc92c02131b9cb3
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:38.9332944Z   Stored in directory: c:\users\runneradmin\appdata\local\pip\cache\wheels\c6\d3\5d\2e2fdc86dd6188e4a94d74831d2a5ae50129b330a0643b9ebf
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:38.9409589Z Successfully built black winloop
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:38.9752600Z Installing collected packages: winloop, pytokens, platformdirs, pathspec, packaging, mypy-extensions, colorama, click, black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:39.6479757Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:39.6495227Z Successfully installed black-0.1.dev1+g58be83141 click-8.4.2 colorama-0.4.6 mypy-extensions-1.1.0 packaging-26.2 pathspec-1.1.1 platformdirs-4.11.0 pytokens-0.4.1 winloop-0.6.3
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:39.6509456Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:39.6511869Z [notice] A new release of pip is available: 26.2 -> 26.2.1
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:39.6512553Z [notice] To update, run: python.exe -m pip install --upgrade pip
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5575232Z ##[group]Run python -m black --check .
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5575635Z ^[[36;1mpython -m black --check .^[[0m
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5654430Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5654792Z env:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5654978Z   PIP_UPLOADED_PRIOR_TO: P2D
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5655512Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5655991Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64/lib/pkgconfig
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5656471Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5656896Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5657344Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0-rc.1\x64
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:40.5657679Z ##[endgroup]
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:43.1644860Z would reformat D:\a\black\black\src\black\parsing.py
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.1225720Z 
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.1226844Z Oh no! 💥 💔 💥
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.1227406Z 1 file would be reformatted, 68 files would be left unchanged.
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.2601462Z ##[error]Process completed with exit code 1.
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.2876694Z Post job cleanup.
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.4978060Z [command]"C:\Program Files\Git\bin\git.exe" version
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.5322239Z git version 2.55.0.windows.3
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.5368431Z Temporarily overriding HOME='D:\a\_temp\2a4c379a-0382-4cee-9036-58cc29d808cd' before making global git config changes
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.5369553Z Adding repository directory to the temporary git global config as a safe directory
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.5380737Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\black\black
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.5736763Z Removing SSH command configuration
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.5752368Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:46.6086593Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:47.1674883Z Removing HTTP extra header
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:47.1685241Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:47.1998240Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:47.7608847Z Removing includeIf entries pointing to credentials config files
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:47.7620046Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:47.7934590Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:48.3511211Z Cleaning up orphan processes
+uvloop (windows-latest)	UNKNOWN STEP	2026-08-06T04:38:48.3989216Z Terminate orphan process: pid (5244) (vctip)

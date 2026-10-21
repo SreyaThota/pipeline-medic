@@ -2,9 +2,10 @@ from typing import Annotated, Any
 
 from fastapi import APIRouter, Depends, Query
 
+from app.api.limits import check_log
 from app.config import Settings, get_settings
 from app.diagnosis import ollama
-from app.errors import EmptyLog, LogTooLarge
+from app.redaction import redact_lines
 from app.schemas.common import ErrorResponse
 from app.schemas.diagnose import DiagnoseRequest, DiagnoseResponse
 
@@ -23,13 +24,10 @@ _ERRORS: dict[int | str, dict[str, Any]] = {
 
 
 def _summarize(log_text: str, settings: Settings) -> str:
-    if not log_text.strip():
-        raise EmptyLog("log_text must contain non-whitespace characters.")
-    if len(log_text) > settings.max_log_chars:
-        raise LogTooLarge(
-            f"Log is {len(log_text):,} characters; the limit is {settings.max_log_chars:,}."
-        )
-    return ollama.generate(ollama.SUMMARY_PROMPT.format(log_text=log_text), settings)
+    check_log(log_text, settings)
+    # Secrets never reach the model: redact first, line by line.
+    redacted = "\n".join(redact_lines(log_text.splitlines()).lines)
+    return ollama.generate(ollama.SUMMARY_PROMPT.format(log_text=redacted), settings)
 
 
 @router.post("/v1/diagnose", response_model=DiagnoseResponse, responses=_ERRORS)

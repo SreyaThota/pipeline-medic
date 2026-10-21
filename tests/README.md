@@ -1,16 +1,17 @@
 # tests/
 
-Each phase ships with a passing test for its new piece. Run with
-`python -m pytest`.
+Run everything with `python -m pytest`. No test needs a model download, an
+LLM, network access or real credentials: Ollama is faked and embeddings use a
+deterministic bag-of-words embedder from `conftest.py`.
 
-- `test_diagnose.py`: v0.1 `/diagnose` endpoint, with Ollama mocked.
-- `test_ingest.py`: log cleaning and chunking.
-- `test_retrieve.py`: retrieval ranking and leave-one-out filters.
-- `test_eval_metrics.py`: recall@k, MRR, chance baseline.
-- `test_entities.py`: the entity extraction rules.
-- `test_hybrid.py`: graph-first and reciprocal-rank fusion.
-- `test_graph.py`: the Neo4j graph store. Needs Neo4j; skipped locally
-  without it, required in CI (`REQUIRE_NEO4J=1`).
+| Folder | What it covers |
+|---|---|
+| `unit/` | Settings validation, log cleaning and chunking, retrieval ranking, entity rules, fusion, eval metrics |
+| `integration/` | The HTTP API (`/health`, `/health/ready`, `/diagnose`, `/v1/diagnose`) and the Neo4j graph store |
+| `failure_modes/` | Model provider unreachable, timing out, or returning unusable output |
 
-The retrieval tests use a deterministic bag-of-words embedder from
-`conftest.py`, so they never download a model.
+`integration/test_graph.py` needs Neo4j (`docker compose up -d`): it is
+skipped locally without it and required in CI (`REQUIRE_NEO4J=1`).
+
+Shared fixtures in `conftest.py`: `client` (API with test settings),
+`fake_ollama` (records calls, returns or raises what you set), `fake_embed`.

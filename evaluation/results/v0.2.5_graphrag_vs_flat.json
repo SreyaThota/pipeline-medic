@@ -1,0 +1,146 @@
+{
+  "selected_on_dev": {
+    "method": "hybrid",
+    "expand_weight": 0.25
+  },
+  "dev_expand_weight_sweep": {
+    "0.25": {
+      "graph_multihop": 0.451,
+      "hybrid_multihop": 0.505
+    },
+    "0.5": {
+      "graph_multihop": 0.394,
+      "hybrid_multihop": 0.449
+    },
+    "1.0": {
+      "graph_multihop": 0.23,
+      "hybrid_multihop": 0.285
+    }
+  },
+  "dev": {
+    "corpus_logs": 47,
+    "queries": 46,
+    "label_counts": {
+      "test_failure": 14,
+      "ci_config": 9,
+      "build_compile": 6,
+      "policy_check": 4,
+      "dependency_install": 3,
+      "infra_network": 3,
+      "lint_format": 3,
+      "type_check": 2,
+      "docs_check": 2,
+      "timeout": 1
+    },
+    "chance@1": 0.15,
+    "graph": {
+      "Run": 47,
+      "Repo": 9,
+      "Entity": 77,
+      "Tool": 27,
+      "ErrorSignature": 39,
+      "Package": 6,
+      "ExitCode": 5,
+      "relationships": 258
+    },
+    "expand_weight": 0.25,
+    "methods": {
+      "flat": {
+        "cross_repo": {
+          "recall@1": 0.413,
+          "recall@3": 0.609,
+          "recall@5": 0.652,
+          "mrr": 0.496,
+          "latency_ms_p50": 44.8
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.674,
+          "recall@3": 0.717,
+          "recall@5": 0.761,
+          "mrr": 0.703,
+          "latency_ms_p50": 42.8
+        }
+      },
+      "graph": {
+        "cross_repo": {
+          "recall@1": 0.5,
+          "recall@3": 0.587,
+          "recall@5": 0.652,
+          "mrr": 0.559,
+          "latency_ms_p50": 34.0
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.739,
+          "recall@3": 0.804,
+          "recall@5": 0.826,
+          "mrr": 0.772,
+          "latency_ms_p50": 8.9
+        }
+      },
+      "graph_multihop": {
+        "cross_repo": {
+          "recall@1": 0.326,
+          "recall@3": 0.609,
+          "recall@5": 0.63,
+          "mrr": 0.451,
+          "latency_ms_p50": 17.7
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.696,
+          "recall@3": 0.826,
+          "recall@5": 0.826,
+          "mrr": 0.757,
+          "latency_ms_p50": 14.6
+        }
+      },
+      "hybrid_rrf": {
+        "cross_repo": {
+          "recall@1": 0.435,
+          "recall@3": 0.587,
+          "recall@5": 0.696,
+          "mrr": 0.527,
+          "latency_ms_p50": 110.8
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.652,
+          "recall@3": 0.761,
+          "recall@5": 0.804,
+          "mrr": 0.707,
+          "latency_ms_p50": 117.3
+        }
+      },
+      "hybrid": {
+        "cross_repo": {
+          "recall@1": 0.565,
+          "recall@3": 0.674,
+          "recall@5": 0.761,
+          "mrr": 0.641,
+          "latency_ms_p50": 114.4
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.761,
+          "recall@3": 0.848,
+          "recall@5": 0.891,
+          "mrr": 0.806,
+          "latency_ms_p50": 119.1
+        }
+      },
+      "hybrid_multihop": {
+        "cross_repo": {
+          "recall@1": 0.37,
+          "recall@3": 0.652,
+          "recall@5": 0.717,
+          "mrr": 0.505,
+          "latency_ms_p50": 144.5
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.717,
+          "recall@3": 0.87,
+          "recall@5": 0.87,
+          "mrr": 0.786,
+          "latency_ms_p50": 117.0
+        }
+      }
+    }
+  }
+}

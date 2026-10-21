@@ -40,6 +40,7 @@ class LogRecord:
     repo: str
     label: str
     text: str
+    split: str = "dev"  # "dev" = used to design rules and settings, "test" = held out
 
 
 def clean_log(raw: str) -> str:
@@ -108,7 +109,10 @@ def load_records(labelled_only: bool = False) -> list[LogRecord]:
                 continue
             path = LOG_DIR / row["source"] / f"{row['log_id']}.log"
             raw = path.read_text(encoding="utf-8")
-            records.append(LogRecord(row["log_id"], row["repo"], row["label"], clean_log(raw)))
+            records.append(LogRecord(
+                row["log_id"], row["repo"], row["label"], clean_log(raw),
+                row.get("split") or "dev",
+            ))
     return records
 
 

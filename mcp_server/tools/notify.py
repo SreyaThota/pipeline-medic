@@ -55,7 +55,7 @@ def _redact(model: BaseModel) -> BaseModel:
 
 def notify(
     args: dict[str, Any], *, dry_run: bool = True, settings: Settings, audit: AuditLog,
-    action_id: str | None = None,
+    action_id: str | None = None, trace_id: str | None = None,
 ) -> ToolResult:
     outbox = Path(settings.runtime_dir) / "outbox.jsonl"
 
@@ -70,4 +70,5 @@ def notify(
         return {"delivered_to": model.model_dump()["channel"], "backend": "local_outbox"}
 
     return run_tool("notify", validate, args, dry_run=dry_run, settings=settings, audit=audit,
-                    execute=execute, redact=_redact, action_id=action_id)
+                    execute=execute, redact=_redact, action_id=action_id,
+                    trace_id=trace_id)

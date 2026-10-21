@@ -60,7 +60,7 @@ def _redact(model: BaseModel) -> BaseModel:
 
 def create_ticket(
     args: dict[str, Any], *, dry_run: bool = True, settings: Settings, audit: AuditLog,
-    action_id: str | None = None,
+    action_id: str | None = None, trace_id: str | None = None,
 ) -> ToolResult:
     store = Path(settings.runtime_dir) / "tickets.jsonl"
 
@@ -74,4 +74,5 @@ def create_ticket(
         return {"ticket_id": ticket_id, "backend": "local_file"}
 
     return run_tool("create_ticket", TicketInput.model_validate, args, dry_run=dry_run, settings=settings,
-                    audit=audit, execute=execute, redact=_redact, action_id=action_id)
+                    audit=audit, execute=execute, redact=_redact, action_id=action_id,
+                    trace_id=trace_id)

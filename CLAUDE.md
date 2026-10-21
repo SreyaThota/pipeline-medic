@@ -106,7 +106,8 @@ producing a pile of code to review.
 | v0.4 | Full LangGraph agent graph (Parser → Diagnosis → Classifier → Action), checkpointed. Built: `app/graph_orchestrator.py`, `agents/` (parser, diagnosis = flat-RAG vote, prompted risk classifier with rubric fallback), `interrupt()` before any tool call, per-stage trace entries | **Shipped** |
 | v0.5 | LoRA-tuned risk/escalation classifier vs. prompted-LLM baseline. Measured on draft labels (`experiments/003`): LoRA acc 0.52–0.59 vs prompted 0.50, gain not proven (+0.047, CI -0.125 to +0.214); prompted LLM missed all 12 high-risk logs; a model-free rubric on the retrieved category scored best (0.609). **LoRA not adopted**; classifier choice is NEEDS_DECISION.md #3 | **Shipped** (as a measured experiment) |
 | v0.6 | Trajectory evaluation of the full graph (`evaluation/run_trajectory_eval.py`, `experiments/004`): 27.8% of held-out trajectories fully right with the rubric, 11.1% with the prompted LLM; diagnosis is the first error in 48/72; safety and grounding 100%. LLM-as-judge built but unreliable (caught 8/20 planted fabrications) | **Shipped** (draft labels) |
-| v0.7–v0.9 | Observability (tracing), guardrail/security hardening (prompt-injection fixtures), polish; stretch: Streamlit review console | Designed |
+| v0.7 | Observability: `app/observability/tracing.py` — one span per graph stage (keyed by run id) and per tool call (linked to the audit log by action_id, outcome = executed/dry_run/rejected/failed), JSONL export, p50/p95 latency and tool success-rate summary. Spans carry no log text | **Shipped** |
+| v0.8–v0.9 | Guardrail/security hardening (prompt-injection fixtures), polish; stretch: Streamlit review console | Designed |
 | v1.0+ | Polish, docs handbook, demo recording | Designed |
 
 Each phase ships with: working code, a passing test, an updated README

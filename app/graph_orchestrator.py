@@ -39,6 +39,7 @@ from agents.parser_agent import ParserAgent
 from agents.risk_classifier import PromptedRiskClassifier
 from app.config import Settings
 from app.graph import Approval, PipelineMedicState, ToolResult, TraceEntry
+from app.observability.tracing import Tracer, get_tracer
 from app.redaction import redact_lines
 from rag.retrieve import Retriever
 
@@ -47,22 +48,28 @@ Node = Any
 StageFn = Callable[[PipelineMedicState], tuple[dict[str, Any], str, dict[str, Any]]]
 
 
-def _traced(stage: str, node: StageFn) -> Node:
-    """Wrap a node so it appends one TraceEntry. The node returns
-    (state update, status, detail); exceptions are recorded, then re-raised."""
+def _traced(stage: str, node: StageFn, tracer: Tracer) -> Node:
+    """Wrap a node so it appends one TraceEntry to the state and exports one
+    tracing span (v0.7). The node returns (state update, status, detail);
+    exceptions are recorded, then re-raised. The span is keyed by run id and
+    carries only the detail dict (counts, labels, line numbers, never log text)."""
 
     def wrapped(state: PipelineMedicState) -> dict[str, Any]:
         started = datetime.now(UTC).isoformat()
         t0 = time.perf_counter()
-        try:
-            update, status, detail = node(state)
-        except GraphBubbleUp:
-            raise  # LangGraph control flow (e.g. interrupt() pausing for approval)
-        except Exception as exc:
-            entry = TraceEntry(stage=stage, status="error", started_at=started,
-                               duration_ms=round((time.perf_counter() - t0) * 1000, 2),
-                               detail={"error": type(exc).__name__})
-            raise _StageFailed(entry) from exc
+        with tracer.span(stage, "stage", trace_id=state["run_id"]) as span:
+            try:
+                update, status, detail = node(state)
+            except GraphBubbleUp:
+                span.status = "paused"  # interrupt(): waiting for a human, not an error
+                raise  # LangGraph control flow
+            except Exception as exc:
+                entry = TraceEntry(stage=stage, status="error", started_at=started,
+                                   duration_ms=round((time.perf_counter() - t0) * 1000, 2),
+                                   detail={"error": type(exc).__name__})
+                raise _StageFailed(entry) from exc
+            span.status = status
+            span.attrs.update(detail)
         entry = TraceEntry(stage=stage, status=status, started_at=started,  # type: ignore[arg-type]
                            duration_ms=round((time.perf_counter() - t0) * 1000, 2), detail=detail)
         return {**update, "trace": [entry]}
@@ -106,6 +113,7 @@ class PipelineMedicGraph:
         self.classifier = classifier
         self.actor = actor
         self.checkpointer = checkpointer or make_checkpointer()
+        self.tracer = get_tracer(actor.settings.runtime_dir)
         self.graph = self._build()
 
     @classmethod
@@ -159,7 +167,7 @@ class PipelineMedicGraph:
         results: list[ToolResult] = []
         for action in state["proposed_actions"]:
             if approval.approved:
-                results.append(self.actor.execute(action, approved=True))
+                results.append(self.actor.execute(action, approved=True, trace_id=state["run_id"]))
             else:
                 self.actor.audit.record(action.action_id, action.tool, "rejected_by_human",
                                         approver=approval.approver, note=approval.note)
@@ -173,12 +181,12 @@ class PipelineMedicGraph:
 
     def _build(self) -> Any:
         builder = StateGraph(PipelineMedicState)
-        builder.add_node("parse", _traced("parse", self._parse))
-        builder.add_node("diagnose", _traced("diagnose", self._diagnose))
-        builder.add_node("classify_risk", _traced("classify_risk", self._classify))
-        builder.add_node("propose_actions", _traced("propose_actions", self._propose))
-        builder.add_node("human_approval", _traced("human_approval", self._approve))
-        builder.add_node("execute_actions", _traced("execute_actions", self._execute))
+        builder.add_node("parse", _traced("parse", self._parse, self.tracer))
+        builder.add_node("diagnose", _traced("diagnose", self._diagnose, self.tracer))
+        builder.add_node("classify_risk", _traced("classify_risk", self._classify, self.tracer))
+        builder.add_node("propose_actions", _traced("propose_actions", self._propose, self.tracer))
+        builder.add_node("human_approval", _traced("human_approval", self._approve, self.tracer))
+        builder.add_node("execute_actions", _traced("execute_actions", self._execute, self.tracer))
         builder.add_edge(START, "parse")
         builder.add_edge("parse", "diagnose")
         builder.add_edge("diagnose", "classify_risk")

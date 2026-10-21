@@ -29,6 +29,7 @@ run that is in the repo and reproducible, including a negative result.
 | LangGraph agent graph: parse → diagnose (flat RAG) → risk (prompted LLM, rubric fallback) → propose → human approval → execute; checkpointed | ✅ Shipped (v0.4), draft risk rubric |
 | LoRA risk classifier (MiniLM + LoRA) vs prompted LLM, measured on held-out logs | 🚧 Built and measured, not adopted (v0.5, draft labels) |
 | Trajectory evaluation of the whole graph, stage by stage, with first-error attribution | ✅ Shipped (v0.6), draft labels |
+| Tracing: span per graph stage and per tool call (`var/traces.jsonl`), latency and tool success-rate summary | ✅ Shipped (v0.7) |
 
 ## Architecture
 

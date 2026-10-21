@@ -49,7 +49,7 @@ class LookupInput(BaseModel):
 
 def lookup_log(
     args: dict[str, Any], *, settings: Settings, audit: AuditLog,
-    log_dir: Path = LOG_DIR, action_id: str | None = None,
+    log_dir: Path = LOG_DIR, action_id: str | None = None, trace_id: str | None = None,
 ) -> ToolResult:
     root = log_dir.resolve()
 
@@ -72,4 +72,5 @@ def lookup_log(
         }
 
     return run_tool("lookup_log", LookupInput.model_validate, args, dry_run=False, settings=settings,
-                    audit=audit, execute=execute, read_only=True, action_id=action_id)
+                    audit=audit, execute=execute, read_only=True, action_id=action_id,
+                    trace_id=trace_id)

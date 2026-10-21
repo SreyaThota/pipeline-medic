@@ -96,13 +96,14 @@ class ActionAgent:
             ))
         return actions
 
-    def execute(self, action: ProposedAction, approved: bool = False) -> ToolResult:
+    def execute(self, action: ProposedAction, approved: bool = False,
+                trace_id: str | None = None) -> ToolResult:
         """Run one proposed action. Without approval it is always a dry run."""
         dry_run = not approved
         if action.tool == "create_ticket":
             return create_ticket(action.arguments, dry_run=dry_run, settings=self.settings,
-                                 audit=self.audit, action_id=action.action_id)
+                                 audit=self.audit, action_id=action.action_id, trace_id=trace_id)
         if action.tool == "notify":
             return notify(action.arguments, dry_run=dry_run, settings=self.settings,
-                          audit=self.audit, action_id=action.action_id)
+                          audit=self.audit, action_id=action.action_id, trace_id=trace_id)
         raise ValueError(f"the Action Agent does not execute {action.tool!r}")

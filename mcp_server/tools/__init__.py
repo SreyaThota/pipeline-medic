@@ -16,6 +16,7 @@ from pydantic import BaseModel, ValidationError
 
 from app.config import Settings
 from app.graph import ToolName, ToolResult
+from app.observability.tracing import get_tracer
 from mcp_server.audit import AuditLog
 
 MAX_ARGUMENT_CHARS = 20_000  # whole serialised call; field limits are tighter
@@ -39,8 +40,34 @@ def run_tool(
     redact: Callable[[BaseModel], BaseModel] = lambda model: model,
     read_only: bool = False,
     action_id: str | None = None,
+    trace_id: str | None = None,
 ) -> ToolResult:
+    """Run one tool call inside a tracing span (v0.7). The span records only
+    the tool, the action_id (which links to the audit log) and the outcome."""
     action_id = action_id or uuid.uuid4().hex
+    tracer = get_tracer(settings.runtime_dir)
+    with tracer.span(tool, "tool", trace_id=trace_id or action_id, action_id=action_id,
+                     requested_dry_run=dry_run) as span:
+        result = _run_tool(tool, validate, raw_args, dry_run=dry_run, settings=settings,
+                           audit=audit, execute=execute, redact=redact, read_only=read_only,
+                           action_id=action_id)
+        span.status = result.status
+    return result
+
+
+def _run_tool(
+    tool: ToolName,
+    validate: Callable[[dict[str, Any]], BaseModel],
+    raw_args: dict[str, Any],
+    *,
+    dry_run: bool,
+    settings: Settings,
+    audit: AuditLog,
+    execute: Callable[[BaseModel], dict[str, Any]],
+    redact: Callable[[BaseModel], BaseModel],
+    read_only: bool,
+    action_id: str,
+) -> ToolResult:
     size = len(repr(raw_args))
     if size > MAX_ARGUMENT_CHARS:
         error = f"arguments are {size:,} characters; the limit is {MAX_ARGUMENT_CHARS:,}"

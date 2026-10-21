@@ -6,3 +6,4 @@ sentence-transformers==6.1.0
 torch==2.14.1
 neo4j==6.4.0
 mcp==2.3.0
+langgraph==1.2.16

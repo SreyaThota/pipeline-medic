@@ -23,3 +23,26 @@ credentials, has different permission scopes, and would publish content.
 
 **Needs from you:** which backend(s), and confirmation that a token may be
 used in this repo's local `.env`.
+
+## 2. Is the draft risk rubric right? (v0.4, v0.5)
+
+**Built tonight:** `agents/risk_rubric.py` defines low / medium / high:
+- **high:** the project cannot build, install or ship (compile/bundle errors,
+  dependency resolution, out of memory/disk, any failure in a
+  release/publish/deploy workflow)
+- **medium:** correctness is red (failing tests, type errors, timeouts,
+  broken CI configuration)
+- **low:** hygiene or transient (lint/format, docs, repo policy such as a
+  missing changelog entry, network/rate-limit blips)
+
+It drives three things at once: the prompted classifier's instructions, the
+rules fallback when the model fails, and the v0.5 risk labels. It is my
+draft, written from the failure categories, not something CLAUDE.md defines.
+
+**Options:** accept as is; change the level of specific categories (e.g.
+`infra_network` low → medium, `ci_config` medium → high); or add signals
+beyond category (branch name, how many jobs failed, first failure vs
+repeat), which would need data the logs do not carry today.
+
+**Needs from you:** accept or edit the three level definitions. Every
+risk number reported tonight is relative to this draft.

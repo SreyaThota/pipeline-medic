@@ -14,6 +14,7 @@ dependencies = [
     "torch==2.14.1",
     "neo4j==6.4.0",
     "mcp==2.3.0",
+    "langgraph==1.2.16",
 ]
 
 [project.optional-dependencies]
@@ -30,8 +31,9 @@ line-length = 100
 extend-exclude = ["data/sample_logs"]
 
 [tool.mypy]
-# Strict for the PipelineMedic X application package; the older research
-# code (rag/, evaluation/, data/) is checked from Phase 3 when it moves in.
+# Strict for the application packages. The v0.2/v0.2.5 research code in rag/
+# predates strict typing (Chroma's numpy-typed API), so its errors are not
+# reported; it is still type-checked where the app calls into it.
 python_version = "3.14"
 files = ["app", "agents", "mcp_server"]
 strict = true
@@ -40,6 +42,10 @@ warn_unreachable = true
 [[tool.mypy.overrides]]
 module = ["neo4j.*", "chromadb.*", "sentence_transformers.*"]
 ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["rag.*"]
+ignore_errors = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

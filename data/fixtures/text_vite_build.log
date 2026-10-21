@@ -1,0 +1,10 @@
+> shop-web@1.4.0 build
+> vite build
+
+vite v6.3.0 building for production...
+✓ 412 modules transformed.
+error during build:
+Error: [vite]: Rollup failed to resolve import "date-fns/locale" from "src/i18n.ts".
+    at viteWarn (node_modules/vite/dist/node/chunks/dep.js:65:17)
+    at onwarn (node_modules/vite/dist/node/chunks/dep.js:120:9)
+Build exited with code 1

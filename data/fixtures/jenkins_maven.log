@@ -1,0 +1,19 @@
+Started by user build-bot
+[Pipeline] Start of Pipeline
+[Pipeline] node
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Checkout)
+[2026-10-20T11:00:01.000Z] Cloning repository https://git.example.test/shop/api.git
+[Pipeline] }
+[Pipeline] stage
+[Pipeline] { (Test)
+[2026-10-20T11:02:10.000Z] + mvn -B test
+[2026-10-20T11:03:40.000Z] [ERROR] Tests run: 120, Failures: 2, Errors: 0, Skipped: 1
+[2026-10-20T11:03:40.100Z] [ERROR] CartServiceTest.applyDiscount:57 expected:<90> but was:<100>
+[2026-10-20T11:03:40.200Z] [INFO] BUILD FAILURE
+[2026-10-20T11:03:40.300Z] [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.0:test
+[Pipeline] }
+[Pipeline] // stage
+ERROR: script returned exit code 1
+Finished: FAILURE

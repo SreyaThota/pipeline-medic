@@ -8,7 +8,7 @@ import logging
 from fastapi import FastAPI
 
 from app import __version__
-from app.api import diagnose, health
+from app.api import diagnose, health, parse
 from app.config import get_settings
 from app.errors import install_error_handlers
 from app.observability.requests import install_request_middleware
@@ -25,6 +25,7 @@ def create_app() -> FastAPI:
     install_request_middleware(application)
     install_error_handlers(application)
     application.include_router(health.router)
+    application.include_router(parse.router)
     application.include_router(diagnose.router)
     return application
 

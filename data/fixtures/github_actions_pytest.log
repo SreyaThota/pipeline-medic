@@ -1,0 +1,18 @@
+test (3.12)	Run tests	2026-10-20T09:15:01.1000000Z ##[group]Run python -m pytest -q
+test (3.12)	Run tests	2026-10-20T09:15:01.2000000Z python -m pytest -q
+test (3.12)	Run tests	2026-10-20T09:15:01.3000000Z shell: /usr/bin/bash -e {0}
+test (3.12)	Run tests	2026-10-20T09:15:01.4000000Z ##[endgroup]
+test (3.12)	Run tests	2026-10-20T09:15:09.0000000Z ....F...
+test (3.12)	Run tests	2026-10-20T09:15:09.1000000Z =================================== FAILURES ===================================
+test (3.12)	Run tests	2026-10-20T09:15:09.2000000Z ________________________________ test_login _________________________________
+test (3.12)	Run tests	2026-10-20T09:15:09.3000000Z Traceback (most recent call last):
+test (3.12)	Run tests	2026-10-20T09:15:09.4000000Z   File "tests/test_api.py", line 42, in test_login
+test (3.12)	Run tests	2026-10-20T09:15:09.5000000Z     assert resp.status_code == 200
+test (3.12)	Run tests	2026-10-20T09:15:09.6000000Z AssertionError: expected 200, got 401
+test (3.12)	Run tests	2026-10-20T09:15:09.7000000Z =========================== short test summary info ============================
+test (3.12)	Run tests	2026-10-20T09:15:09.8000000Z FAILED tests/test_api.py::test_login - AssertionError: expected 200, got 401
+test (3.12)	Run tests	2026-10-20T09:15:09.9000000Z ========================= 1 failed, 7 passed in 8.12s ==========================
+test (3.12)	Run tests	2026-10-20T09:15:10.0000000Z ##[error]Process completed with exit code 1.
+test (3.12)	Post Run actions/checkout@v5	2026-10-20T09:15:10.1000000Z Post job cleanup.
+test (3.12)	Post Run actions/checkout@v5	2026-10-20T09:15:10.2000000Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+test (3.12)	Post Run actions/checkout@v5	2026-10-20T09:15:10.3000000Z Cleaning up orphan processes

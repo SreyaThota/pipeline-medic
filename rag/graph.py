@@ -96,7 +96,7 @@ class GraphStore:
     @classmethod
     def from_settings(cls, namespace: str = "main") -> GraphStore:
         s = get_settings()
-        return cls(s.neo4j_uri, s.neo4j_user, s.neo4j_password, namespace)
+        return cls(s.neo4j_uri, s.neo4j_user, s.neo4j_password.get_secret_value(), namespace)
 
     def close(self) -> None:
         self.driver.close()

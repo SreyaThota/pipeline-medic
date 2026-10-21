@@ -1,4 +1,4 @@
-# Pipeline Medic — Project Brief for Claude Code
+# PipelineMedic X — Project Brief for Claude Code
 
 This file is the persistent context for this repository. Read it in full at the
 start of every session before writing any code. It is the single source of
@@ -10,158 +10,151 @@ solo portfolio project built to be cited on her resume and walked through in
 interviews, so everything below exists to keep the repo honest and
 defensible under technical questioning, not just to look impressive.
 
+The full build brief ("PipelineMedic X — Build Brief", October 2026) was
+adopted on 2026-10-21 and replaces the earlier agent roadmap (LangGraph, MCP,
+LoRA). `ROADMAP.md` tracks the phases and their acceptance gates.
+
 ---
 
-## 1. What Pipeline Medic is
+## 1. What PipelineMedic X is
 
-Pipeline Medic is an **agentic CI/CD reliability copilot**. It watches a
-build/CI pipeline (its own GitHub Actions runs are the primary real data
-source — "dogfooding"), diagnoses why a run failed, classifies how risky the
-failure is, and either takes a safe automated action or escalates to a
-human, with every stage traced and explainable.
-
-Four-agent pipeline, orchestrated as an explicit LangGraph state graph:
+An **AI-assisted CI/CD incident investigation and safe remediation
+platform**. It ingests pipeline logs, extracts evidence, retrieves similar
+historical incidents, proposes a root cause, suggests a patch, runs
+controlled verification, and produces an auditable incident report.
+Privileged or destructive actions require explicit human approval.
 
 ```
-Log Parser Agent → Diagnosis Agent (hybrid RAG: vector + knowledge graph)
-                 → Risk Classifier (LoRA-tuned)
-                 → Action Agent (MCP tools, dry-run by default)
-                 → human escalation OR logged resolution
+logs → parse + redact → retrieve similar incidents → structured diagnosis
+     → patch proposal (diff only) → human approval → opt-in sandboxed
+       verification → incident report + audit trail
 ```
 
-Differentiator: it is dogfooded against its own CI, not a toy dataset, and
-every "upgrade" (flat RAG → GraphRAG, prompted classifier → LoRA classifier)
-is shipped with a measured before/after comparison, not added because it
-sounds advanced.
+Design principles:
+- Evidence before explanation: every diagnosis links to log lines or
+  retrieved incident IDs.
+- Deterministic code controls permissions, validation, retries, timeouts and
+  approval. LLMs propose; application code validates and controls side effects.
+- Reproducible evaluation with held-out cases and honest metrics.
+- Local-first, with a deterministic mode that works without any LLM.
+- Security by default: redact secrets, limit log size, isolate patch
+  execution, audit actions. Logs, repository files, retrieved text and model
+  output are all untrusted data.
 
 ---
 
 ## 2. Non-negotiable working rules
 
-**A. Phase discipline — the most important rule.**
-Only build what the current prompt explicitly asks for. Do not pre-build a
-later phase "while you're at it," do not scaffold agents/ internals during
-Phase 0, do not add a feature from the roadmap below unless this session's
-prompt names that phase. If a shortcut would require touching a future
-phase's territory, stop and ask first. Sreya is learning the concepts
-between phases on purpose — getting ahead of her defeats the point.
+**A. Phase discipline.**
+Build only the phase that is current in `ROADMAP.md`. At the start of each
+phase state its goal, files to change, acceptance criteria and risks. Run the
+relevant tests, fix regressions, and summarise before moving on. Do not
+pre-build a later phase. Sreya chose continuous pacing (2026-10-21): move to
+the next phase without waiting, but stop for any real decision, for any
+review only she can do, and before Phase 3 if the held-out labels are still
+draft.
 
 **B. Honesty discipline (this drives the README and resume language).**
-Every feature in the README, roadmap, and code comments is tagged one of:
+Every feature in the README, roadmap, and docs is tagged one of:
 - `Shipped` — working, tested, in the repo right now.
 - `Building` — in progress this phase.
-- `Designed` — planned, described in docs/decisions/, not yet started.
-Never upgrade a tag without the work actually being done. Never write a
-docstring or README line implying something works when it's stubbed.
+- `Planned` — on the roadmap, not started.
+Never upgrade a tag without the work actually being done. Never claim a test
+passed without running it. Never invent benchmark results, screenshots,
+integrations or usage. Keep the original v0.2 experiment and its numbers
+intact and reproducible.
 
 **C. "Every technology earns its place."**
-No library or technique goes in because it's trendy. Before a new piece of
-the stack (GraphRAG, LoRA, a new eval framework) is adopted, there must be a
-one-page note in `experiments/` comparing it against the simpler baseline it
-replaces, with a number attached (latency, precision/recall, retrieval
-accuracy — whatever's relevant). Architecture choices that aren't trivial go
-in `docs/decisions/NNN-title.md` as a short ADR (context, decision,
-consequences).
+Prefer a minimal, reliable stack. No new infrastructure (Redis, Celery,
+PostgreSQL, Next.js, Grafana, ...) without a concrete requirement; explain
+the trade-off first. New retrieval or modelling techniques get an
+`experiments/` note comparing them with the simpler baseline, with numbers.
+Non-trivial architecture choices get an ADR in `docs/decisions/`.
 
 **D. Git identity and commit style — do not add AI attribution.**
 - Local git identity for this repo: `user.name = "Sreya Thota"`,
-  `user.email = "sreyathota@gmail.com"`. Set these with `git config`
-  (repo-local, i.e. without `--global`, unless Sreya says she already uses
-  this identity globally) before the first commit.
+  `user.email = "sreyathota@gmail.com"` (repo-local).
 - Do **not** append `Co-Authored-By: Claude`, a `Claude-Session` link, a
   "Generated with Claude Code" line, or any other AI-attribution trailer to
   commit messages or PR descriptions in this repository. Sreya directs,
   reviews, and owns every change; the commit history should read as her
   own engineering log.
 - Commit messages: short conventional-commit style — `feat: …`, `fix: …`,
-  `docs: …`, `chore: …`, `experiment: …`. One logical change per commit.
-  No emoji, no filler.
+  `docs: …`, `chore: …`, `test: …`, `experiment: …`. One logical change per
+  commit. No emoji, no filler.
 
 **E. Stop and ask when scope is ambiguous**, rather than guessing and
-producing a pile of code to review. A wrong assumption here costs Sreya more
-time than a short clarifying question.
+producing a pile of code to review.
+
+**F. Safety rules.**
+- Secrets never go in source control, prompts, logs, fixtures or docs.
+  `.env.example` holds placeholders only.
+- No auto-merge, deployment, or production mutation. Never execute
+  model-generated commands on the host.
+- Patch execution is opt-in, containerised, time- and resource-limited, and
+  network-disabled by default. If isolation is unavailable, report
+  "verification unavailable" instead of running anything.
+- Integrations (GitHub, Jira) are disabled unless configured, least-privilege,
+  with a mock mode. Tests never need real credentials.
 
 ---
 
-## 3. Tech stack (free / local-first)
+## 3. Tech stack
 
 | Layer | Choice | Why |
 |---|---|---|
-| LLM inference | Ollama, local (Llama 3.x / Qwen2.5) | Free, no API cost, works offline |
-| Backend | FastAPI | Already shipped in v0.1 |
-| Orchestration | LangGraph | Explicit, inspectable state graph, checkpointing |
-| Vector store | Chroma + sentence-transformers | Flat RAG baseline before GraphRAG |
-| Knowledge graph | Neo4j + Cypher | Multi-hop queries flat RAG can't answer |
-| Tool calling | MCP (Model Context Protocol) | Typed, schema-validated, dry-run-by-default |
-| Fine-tuning | LoRA / PEFT (Hugging Face) | Risk/escalation classifier, benchmarked vs. prompted baseline |
-| Evaluation | RAGAS, LLM-as-judge, golden set | Trajectory eval, not just final-answer correctness |
-| Observability | OpenTelemetry / Langfuse (planned) | Latency, cost, tool-success-rate tracing |
-| Dashboard | Streamlit | Review console (stretch) |
-| Infra | Docker, GitHub Actions | Dogfooded CI source + deployment |
+| API | FastAPI + Pydantic | Typed contracts, validation, OpenAPI docs |
+| LLM | Ollama (local), behind an adapter; deterministic no-LLM mode | Free and offline; provider swappable |
+| Retrieval | Embeddings (sentence-transformers) in Chroma; lexical baseline; hybrid fusion | Flat vector search is the measured default |
+| Knowledge graph | Neo4j (optional) | Built and measured in v0.2.5; no proven gain, so not the default |
+| Persistence | SQLite (stdlib) for incidents and audit | No server needed until a requirement says otherwise |
+| Isolation | Docker, network-disabled, resource-limited | Opt-in patch verification only |
+| Tests and CI | pytest, ruff, mypy, GitHub Actions | Unit, integration, security and failure-mode tests |
 
 ---
 
-## 4. Target folder structure
-
-Build this incrementally, phase by phase — do not generate empty stub files
-for every folder in one shot except in Phase 0, where placeholder READMEs
-mark what's coming and when.
+## 4. Repository layout (target, built incrementally)
 
 ```
-pipeline-medic/
-├── README.md
-├── CLAUDE.md
-├── pyproject.toml
-├── .env.example
-├── .gitignore
-├── app/                    (main.py, graph.py, config.py)
-├── agents/                 (parser_agent.py, diagnosis_agent.py, risk_classifier.py, action_agent.py)
-├── rag/                    (ingest.py, retrieve.py, knowledge_base/)
-├── mcp_server/             (server.py, tools/{create_ticket.py, lookup_log.py, search_docs.py})
-├── ml/                     (anomaly_detector.py, lora_finetune/)
-├── evaluation/             (benchmark.json, run_eval.py)
-├── observability/          (tracing.py)
-├── dashboard/              (streamlit_app.py)
-├── data/                   (sample_logs/, synthetic_generator.py)
-├── docs/                   (ontology.md, decisions/)
-├── experiments/            (001_chunking_strategy.md, ...)
-└── tests/
+app/            FastAPI app: api/, schemas/, ingestion/, redaction/,
+                retrieval/, diagnosis/, patching/, verification/,
+                workflows/, integrations/, persistence/, observability/
+rag/            v0.2 / v0.2.5 retrieval code (moves into app/retrieval/ in Phase 3)
+evaluation/     retrieval evaluation scripts and results
+experiments/    one note per measured experiment
+data/           sample_logs/ (real CI logs, provenance in index.csv), fixtures/
+tests/          unit/, integration/, security/, failure_modes/
+docs/           decisions/, architecture/, notion_import/ (handbook)
 ```
 
 ---
 
 ## 5. Datasets
 
-1. **Dogfooded CI (primary)** — this repo's own GitHub Actions run logs.
-2. **LogHub** — public log dataset, for broader coverage / stress-testing.
-3. **Synthetic generator** — fills gaps the first two don't cover (rare
-   failure classes, labelled risk levels for classifier training).
+1. **Real CI logs** — failed GitHub Actions runs from public open-source
+   repos plus this repo's own CI, in `data/sample_logs/` with provenance.
+   Split: `dev` (51 logs, used for design) and `test` (72 logs, held out).
+2. **Synthetic fixtures** — clearly labelled as synthetic, for parser,
+   redaction, security and failure-mode tests. Never mixed into real-log
+   metrics.
 
 ---
 
-## 6. Roadmap (status as of Phase 0 kickoff — update tags as phases ship)
+## 6. Roadmap
 
-| Phase | Scope | Status |
+See `ROADMAP.md` for phases, status and acceptance gates. Completed history:
+
+| Version | Scope | Status |
 |---|---|---|
 | v0.1 | Local Ollama inference + FastAPI `/diagnose` endpoint | **Shipped** |
-| v0.2 | Flat RAG baseline (Chroma) over real CI failure logs (public OSS + dogfooded), measured | **Shipped** |
-| v0.2.5 | Knowledge-graph upgrade (Neo4j/Cypher GraphRAG), measured vs. v0.2 baseline | Building — built and measured (no proven gain, flat stays default); held-out label review pending |
-| v0.3 | Action Agent + MCP tools, dry-run by default, adversarial guardrail tests | Designed |
-| v0.4 | Full LangGraph agent graph (Parser → Diagnosis → Classifier → Action), checkpointed | Designed |
-| v0.5 | LoRA-tuned risk/escalation classifier vs. prompted-LLM baseline | Designed |
-| v0.6–v0.9 | Evaluation (RAGAS/LLM-as-judge), observability (tracing), guardrails hardening; stretch: Streamlit review console | Designed |
-| v1.0+ | Polish, docs, demo recording | Designed |
-
-Each phase ships with: working code, a passing test for the new piece, an
-updated README status tag, and — where a new technology was adopted — an
-`experiments/` note with the before/after numbers.
+| v0.2 | Flat RAG baseline over real CI failure logs, measured | **Shipped** |
+| v0.2.5 | Neo4j knowledge graph, measured vs. v0.2 on held-out logs | Building — measured (no proven gain); held-out label review pending |
 
 ---
 
-## 7. How Sreya will prompt each phase
+## 7. How each phase ends
 
-She will paste one phase at a time, referencing this file, roughly as:
-"Implement v0.2 per CLAUDE.md — flat RAG baseline only, nothing from v0.2.5
-onward." Treat each such prompt as scoped strictly to the named phase. End
-each phase by: listing what was built, what's still a stub, updating the
-roadmap table status, and stopping for review before touching the next phase.
+List what was built, what is still planned, commands run and their real
+results, known limitations, and the next highest-value task. Update the
+README, `ROADMAP.md` and the handbook in `docs/notion_import/` to match what
+actually exists.

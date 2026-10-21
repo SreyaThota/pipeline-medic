@@ -8,19 +8,7 @@ import pytest
 
 from app.ingestion import parse_log
 from app.redaction import redact_line, redact_lines
-
-ALNUM = "Ab3dEf6hIj9kLm2nOp5qRs8tUv1wXy4zAb7dEf0h"
-
-SECRETS = {
-    "github_token": "ghp_" + ALNUM[:36],
-    "github_pat": "github_pat_" + ALNUM[:22] + "_" + ALNUM[:20],
-    "aws_access_key_id": "AKIA" + "Q7ZK3LMN5PRS2TUV",
-    "slack_token": "xoxb-" + "1234567890-abcdefghij",
-    "openai_key": "sk-proj-" + ALNUM[:30],
-    "google_api_key": "AIza" + ALNUM[:35],
-    "npm_token": "npm_" + ALNUM[:36],
-    "jwt": "eyJ" + "hbGciOiJIUzI1" + "." + "eyJzdWIiOiIxMjM0" + "." + "SflKxwRJSMeKKF2QT4",
-}
+from tests.security.fixtures import ALNUM, SECRETS
 
 
 @pytest.mark.parametrize("name", sorted(SECRETS))

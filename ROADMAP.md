@@ -15,7 +15,8 @@ technology was adopted, an `experiments/` note with the honest verdict.
 | v0.5 | LoRA-tuned risk/escalation classifier vs. prompted-LLM baseline | Shipped as an experiment: LoRA not adopted (gain not proven); draft labels |
 | v0.6 | Trajectory evaluation of the full graph, LLM-as-judge with a negative control | Shipped (draft labels; judge unreliable) |
 | v0.7 | Tracing: per-stage latency, tool-call outcomes linked to the audit log | Shipped |
-| v0.8–v0.9 | Guardrail hardening, polish; stretch: Streamlit console | Designed |
+| v0.8 | Security suite across the whole graph, threat model | Shipped |
+| v0.9 | Polish pass on what shipped; stretch: Streamlit console | Designed |
 | v1.0+ | Polish, docs handbook, demo recording | Designed |
 
 Not in scope (decided, see `CLAUDE.md` section 4): patch drafting or

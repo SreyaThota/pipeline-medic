@@ -38,6 +38,7 @@ from agents.diagnosis_agent import DiagnosisAgent
 from agents.parser_agent import ParserAgent
 from agents.risk_classifier import PromptedRiskClassifier
 from app.config import Settings
+from app.errors import LogTooLarge
 from app.graph import Approval, PipelineMedicState, ToolResult, TraceEntry
 from app.observability.tracing import Tracer, get_tracer
 from app.redaction import redact_lines
@@ -211,6 +212,9 @@ class PipelineMedicGraph:
         run_id: str | None = None,
     ) -> PipelineMedicState:
         """Run until the human-approval pause (or the end, if nothing to do)."""
+        limit = self.actor.settings.max_log_chars
+        if len(log_text) > limit:  # same limit as the API, enforced before anything runs
+            raise LogTooLarge(f"Log is {len(log_text):,} characters; the limit is {limit:,}.")
         run_id = run_id or uuid.uuid4().hex
         redacted = "\n".join(redact_lines(log_text.splitlines()).lines)
         initial: PipelineMedicState = {

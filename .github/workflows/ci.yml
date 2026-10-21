@@ -41,5 +41,7 @@ jobs:
         run: ruff check .
       - name: Type-check
         run: mypy
+      - name: Security suite
+        run: python -m pytest -q -m security
       - name: Test
         run: python -m pytest -q

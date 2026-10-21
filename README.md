@@ -30,6 +30,7 @@ run that is in the repo and reproducible, including a negative result.
 | LoRA risk classifier (MiniLM + LoRA) vs prompted LLM, measured on held-out logs | 🚧 Built and measured, not adopted (v0.5, draft labels) |
 | Trajectory evaluation of the whole graph, stage by stage, with first-error attribution | ✅ Shipped (v0.6), draft labels |
 | Tracing: span per graph stage and per tool call (`var/traces.jsonl`), latency and tool success-rate summary | ✅ Shipped (v0.7) |
+| Security suite (80 tests, `pytest -m security`) and threat model ([`docs/security.md`](docs/security.md)) | ✅ Shipped (v0.8) |
 
 ## Architecture
 

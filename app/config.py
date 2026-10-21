@@ -39,6 +39,18 @@ class Settings(BaseModel):
     neo4j_uri: str = "bolt://localhost:7687"
     neo4j_user: str = "neo4j"
     neo4j_password: SecretStr = SecretStr("")
+    # Action Agent (v0.3). Real actions need ACTIONS_ENABLED=true *and* a
+    # caller that asks for dry_run=False; everything else is a dry run.
+    actions_enabled: bool = False
+    runtime_dir: str = "var"  # audit log, local ticket store, notification outbox
+    notify_channels: tuple[str, ...] = ("ci-alerts", "oncall")
+
+    @field_validator("notify_channels", mode="before")
+    @classmethod
+    def _split_channels(cls, value: object) -> object:
+        if isinstance(value, str):
+            return tuple(part.strip() for part in value.split(",") if part.strip())
+        return value
 
     @field_validator("ollama_url")
     @classmethod

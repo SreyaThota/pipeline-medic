@@ -1,14 +1,15 @@
 # tests/
 
 Run everything with `python -m pytest`. No test needs a model download, an
-LLM, network access or real credentials: Ollama is faked and embeddings use a
-deterministic bag-of-words embedder from `conftest.py`.
+LLM, network access or real credentials: Ollama is faked, embeddings use a
+deterministic bag-of-words embedder from `conftest.py`, and every tool writes
+to a temporary directory.
 
 | Folder | What it covers |
 |---|---|
-| `unit/` | Settings validation, log parsing and failure regions, log cleaning and chunking, retrieval ranking, entity rules, fusion, eval metrics |
-| `integration/` | The HTTP API (`/health`, `/health/ready`, `/v1/parse`, `/diagnose`, `/v1/diagnose`), the Neo4j graph store, and a parse of every real log in the dataset |
-| `security/` | Secret redaction: token formats, partial replacement, false positives, nothing reaching the model or the API response |
+| `unit/` | Settings, log parsing and failure regions, chunking, retrieval, entity rules, fusion, MCP tools, Action Agent policy, Diagnosis Agent vote, risk classifier parsing and fallback, tracing, v0.5/v0.6 evaluation logic |
+| `integration/` | The HTTP API, the MCP server over the real protocol, the full LangGraph graph (pause, resume from checkpoint, reject, no-action path), tracing end to end, the Neo4j graph store, a parse of every real log |
+| `security/` | `pytest -m security`: redaction, tool guardrails (malformed, oversized, path traversal, channel allowlist), prompt injection via the log and via the model's answer, hostile run metadata, malformed approvals; shared fixtures in `fixtures.py`; threat model in `docs/security.md` |
 | `failure_modes/` | Model provider unreachable, timing out, or returning unusable output |
 
 `integration/test_graph.py` needs Neo4j (`docker compose up -d`): it is

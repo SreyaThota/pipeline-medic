@@ -108,7 +108,7 @@ producing a pile of code to review.
 | v0.6 | Trajectory evaluation of the full graph (`evaluation/run_trajectory_eval.py`, `experiments/004`): 27.8% of held-out trajectories fully right with the rubric, 11.1% with the prompted LLM; diagnosis is the first error in 48/72; safety and grounding 100%. LLM-as-judge built but unreliable (caught 8/20 planted fabrications) | **Shipped** (draft labels) |
 | v0.7 | Observability: `app/observability/tracing.py` — one span per graph stage (keyed by run id) and per tool call (linked to the audit log by action_id, outcome = executed/dry_run/rejected/failed), JSONL export, p50/p95 latency and tool success-rate summary. Spans carry no log text | **Shipped** |
 | v0.8 | Security suite (`pytest -m security`, own CI step, 80 tests): shared injection/traversal/secret fixtures; graph-level tests for redaction, injection via log and via model answer, hostile run metadata, oversized logs, malformed approvals; size limit in `graph.start()`; threat model in `docs/security.md` | **Shipped** |
-| v0.9 | Polish: README status tags match what shipped; stretch: Streamlit review console | Designed |
+| v0.9 | Polish pass: README rewritten to match exactly what shipped (architecture shows the real default path; LoRA/GraphRAG marked evaluated-not-adopted; draft-label caveat; runnable, verified usage examples). Streamlit console not built | **Shipped** |
 | v1.0+ | Polish, docs handbook, demo recording | Designed |
 
 Each phase ships with: working code, a passing test, an updated README

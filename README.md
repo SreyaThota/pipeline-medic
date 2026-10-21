@@ -1,16 +1,16 @@
 # Pipeline Medic
 
-**Status: 🚧 Building — v0.2.6 foundation shipped; v0.2.5 held-out labels in review; v0.3 (MCP Action Agent) next**
+**Status: 🚧 Building — v0.3–v0.8 shipped (some measured on draft labels); open decisions in [`NEEDS_DECISION.md`](NEEDS_DECISION.md)**
 
 An agentic CI/CD reliability copilot. It takes a failed pipeline run,
-diagnoses *why* it failed, judges how risky the failure is, and either takes a
-safe action (open a ticket, notify someone) or escalates to a human, with
-every step traced and explainable.
+diagnoses *why* it failed, judges how risky the failure is, and proposes a
+safe action (open a ticket, notify someone) that a human approves before
+anything happens, with every step traced and audited.
 
 It is built and measured on real GitHub Actions failure logs from public
-open-source projects plus its own CI, not a toy dataset. Every claim here is
-tagged ✅ Shipped, 🚧 Building or 📋 Designed, and every number comes from a
-run that is in the repo and reproducible, including a negative result.
+open-source projects, not a toy dataset. Every claim here is tagged ✅ Shipped,
+🚧 Building or 📋 Designed, and every number comes from a run that is in the
+repo and reproducible, including the negative results.
 
 ## What works today
 
@@ -24,42 +24,51 @@ run that is in the repo and reproducible, including a negative result.
 | `POST /diagnose`: the original v0.1 endpoint, kept for compatibility | ✅ Shipped, deprecated |
 | Retrieval of similar past failures (flat vector search) | ✅ Shipped, measured (v0.2) |
 | Neo4j knowledge graph and hybrid retrieval | 🚧 Built and measured, not adopted (v0.2.5) |
-| MCP server: `create_ticket`, `notify`, read-only `lookup_log`; dry-run by default, every call audited | ✅ Shipped (v0.3), local backends only |
+| MCP server: `create_ticket`, `notify`, read-only `lookup_log`; dry-run by default, every call audited | ✅ Shipped (v0.3), local file backends only |
 | Action Agent: fixed ticket/notify policy from risk level; tool choice never taken from log text | ✅ Shipped (v0.3) |
-| LangGraph agent graph: parse → diagnose (flat RAG) → risk (prompted LLM, rubric fallback) → propose → human approval → execute; checkpointed | ✅ Shipped (v0.4), draft risk rubric |
+| LangGraph agent graph: parse → diagnose → risk → propose → ⏸ human approval → execute; checkpointed | ✅ Shipped (v0.4), draft risk rubric |
 | LoRA risk classifier (MiniLM + LoRA) vs prompted LLM, measured on held-out logs | 🚧 Built and measured, not adopted (v0.5, draft labels) |
 | Trajectory evaluation of the whole graph, stage by stage, with first-error attribution | ✅ Shipped (v0.6), draft labels |
 | Tracing: span per graph stage and per tool call (`var/traces.jsonl`), latency and tool success-rate summary | ✅ Shipped (v0.7) |
 | Security suite (80 tests, `pytest -m security`) and threat model ([`docs/security.md`](docs/security.md)) | ✅ Shipped (v0.8) |
+| Real ticket / notification backends (GitHub Issues, Slack, ...) | 📋 Undecided ([`NEEDS_DECISION.md`](NEEDS_DECISION.md) #1) |
 
 ## Architecture
 
-The target design; the roadmap shows which parts exist.
+What runs today (`app/graph_orchestrator.py`):
 
 ```
-Log Parser Agent → Diagnosis Agent (retrieval: flat RAG default,
-                     GraphRAG evaluated and not adopted)
-                 → Risk Classifier (LoRA-tuned)
-                 → Action Agent (MCP tools: ticket + notify only, dry-run by default)
-                 → human escalation OR logged resolution
+Log Parser Agent     redact secrets, parse, extract line-referenced evidence (deterministic)
+  → Diagnosis Agent  flat-RAG retrieval over reviewed past failures, category by weighted vote
+  → Risk Classifier  prompted llama3.2 with a rubric; rubric fallback if the model fails
+  → Action Agent     fixed policy → proposed create_ticket / notify (MCP tools)
+  → ⏸ human approval (LangGraph interrupt, checkpointed)
+  → execute          dry-run unless approved AND ACTIONS_ENABLED; audited and traced
 ```
 
-Orchestrated as an explicit LangGraph state graph. Safety rules: logs,
-retrieved text and model output are untrusted; secrets are redacted before
-any model call; the system recommends and a human approves; nothing it does
-is irreversible; every tool call is audited.
+GraphRAG (v0.2.5) and the LoRA classifier (v0.5) are built and measured but
+not in the default path: neither proved a gain on held-out logs. Safety
+rules: logs, retrieved text and model output are untrusted; the model never
+chooses a tool, channel or file; secrets are redacted before any model call;
+nothing runs without a human's approval.
 
 ## Tech stack
 
-Ollama · FastAPI · Pydantic · Chroma + sentence-transformers · Neo4j/Cypher
-(evaluated) · LangGraph, MCP, LoRA/PEFT (designed) · Docker · pytest ·
-GitHub Actions
+Ollama (llama3.2) · FastAPI · Pydantic · LangGraph · MCP (Python SDK) ·
+Chroma + sentence-transformers · Neo4j/Cypher (evaluated) · PEFT/LoRA
+(evaluated) · Docker · pytest · mypy · GitHub Actions
 
 ## Results
 
+All held-out numbers below use labels that are still **drafts**: the 72
+held-out failure categories await review, and risk levels come from a draft
+rubric (`NEEDS_DECISION.md` #2).
+
+### Retrieval
+
 The task: given a failed CI log, return past failures of the same category.
-Scored leave-one-out on real GitHub Actions failure logs, excluding results
-from the query's own repo ("cross-repo").
+Scored leave-one-out, excluding results from the query's own repo
+("cross-repo").
 
 **v0.2: flat vector search.** 46 logs from 9 open-source repos:
 
@@ -69,14 +78,10 @@ from the query's own repo ("cross-repo").
 | **Last 15 lines** | **0.413** | **0.496** |
 | 15-line windows | 0.174 | 0.282 |
 
-Chance@1 is 0.15. Method, caveats and the same-repo numbers are in
-[`experiments/001_chunking_strategy.md`](experiments/001_chunking_strategy.md).
+Chance@1 is 0.15. Details: [`experiments/001`](experiments/001_chunking_strategy.md).
 
-**v0.2.5: knowledge graph (Neo4j).** Rule-based entities (tools, error
-signatures, packages, exit codes) in a graph, alone and combined with flat
-search. Every choice was made on the 46 original logs; the comparison that
-counts is on 64 logs from 20 repos collected afterwards and held out
-(draft labels):
+**v0.2.5: knowledge graph (Neo4j).** Every choice was made on the original
+logs; the comparison that counts is on 64 later logs from 20 repos:
 
 | Method | MRR on dev logs | MRR on held-out logs | Gain over flat, held-out (95% interval) |
 |---|---|---|---|
@@ -86,8 +91,36 @@ counts is on 64 logs from 20 repos collected afterwards and held out
 | Multi-hop graph | 0.451 | 0.419 | -0.058 (-0.187 to +0.067) |
 
 The dev gain mostly came from fitting the rules to the logs they were written
-against, and it does not hold up on new logs. Flat search stays the default.
-Details: [`experiments/002_graphrag_vs_flat.md`](experiments/002_graphrag_vs_flat.md).
+against. Flat search stays the default. Details: [`experiments/002`](experiments/002_graphrag_vs_flat.md).
+
+### Risk classification (v0.5)
+
+64 held-out logs; 52 of them from repos never seen in training.
+
+| Classifier | Accuracy | Macro-F1 | High-risk recall |
+|---|---|---|---|
+| LoRA MiniLM (3 seeds) | 0.52–0.59 | 0.50–0.57 | 0.58 |
+| Prompted llama3.2 (graph default) | 0.500 | 0.365 | **0.00** |
+| Rubric on retrieved category (no model) | 0.609 | 0.544 | 0.67 |
+
+LoRA minus prompted LLM: +0.047 accuracy (95% interval -0.125 to +0.214),
+not proven, so LoRA is not adopted. The prompted LLM missed every high-risk
+failure. Details: [`experiments/003`](experiments/003_lora_risk_classifier.md).
+
+### Whole-graph trajectories (v0.6)
+
+72 held-out logs through the full graph, stage by stage:
+
+| | Rubric risk stage | Prompted LLM risk stage |
+|---|---|---|
+| Fully correct trajectory | **27.8%** | 11.1% |
+| Diagnosis correct | 33.3% | 33.3% |
+| Evidence cites real log lines | 100% | 100% |
+| Safety invariants held | 100% | 100% |
+
+Diagnosis is the first wrong stage in 48 of 72 runs. An LLM-as-judge was
+built, but it caught a planted fabrication in only 8 of 20 controls, so its
+faithfulness verdicts are not trusted. Details: [`experiments/004`](experiments/004_trajectory_eval.md).
 
 Design decisions are in [`docs/decisions/`](docs/decisions/) and the roadmap in
 [`ROADMAP.md`](ROADMAP.md).
@@ -100,15 +133,45 @@ python -m venv .venv
 # .venv\Scripts\Activate.ps1  # Windows PowerShell
 pip install -r requirements-dev.txt
 ollama pull llama3.2
+copy .env.example .env           # optional: every setting has a safe default
 uvicorn app.main:app --reload    # API docs at http://localhost:8000/docs
+```
 
-copy .env.example .env           # local settings (Neo4j password)
-docker compose up -d              # Neo4j for the knowledge graph
+Tests and checks:
 
-python -m pytest                  # tests (graph tests skip without Neo4j)
-python -m evaluation.run_eval     # flat retrieval baseline
-python -m evaluation.run_graph_eval   # graph vs flat (needs Neo4j)
-python data/collect_ci_logs.py    # collect more failed CI logs (needs gh auth)
+```bash
+python -m pytest                  # everything (Neo4j tests skip without Docker)
+python -m pytest -m security      # the security suite only
+ruff check . && mypy
+```
+
+The agents:
+
+```bash
+python -m mcp_server.server       # MCP server over stdio (dry-run by default)
+python -m app.observability.tracing var/traces.jsonl   # latency / tool summary
+```
+
+```python
+from app.config import get_settings
+from app.graph import Approval
+from app.graph_orchestrator import PipelineMedicGraph
+from agents.diagnosis_agent import build_retriever
+
+graph = PipelineMedicGraph.default(get_settings(), retriever=build_retriever())
+paused = graph.start(open("failed_run.log").read(), workflow="CI")
+print(paused["diagnosis"], paused["risk"], paused["proposed_actions"])
+done = graph.resume(paused["run_id"], Approval(approved=True, approver="you"))
+```
+
+Experiments:
+
+```bash
+python -m evaluation.run_eval --split dev                  # v0.2 baseline
+docker compose up -d && python -m evaluation.run_graph_eval   # v0.2.5 (Neo4j)
+python -m evaluation.run_risk_eval --stage lora            # v0.5, then --stage prompted, --stage report
+python -m evaluation.run_trajectory_eval --risk rules      # v0.6 (add --risk prompted --judge 20)
+python data/collect_ci_logs.py                             # collect more failed CI logs (gh auth)
 ```
 
 ## API examples
@@ -117,8 +180,7 @@ python data/collect_ci_logs.py    # collect more failed CI logs (needs gh auth)
 curl http://localhost:8000/health/ready
 ```
 ```bash
-curl -X POST http://localhost:8000/v1/parse -H "Content-Type: application/json" -d "{\"log_text\": \"export API_KEY=abcd1234efgh
-FAILED tests/test_x.py::test_y\"}"
+curl -X POST http://localhost:8000/v1/parse -H "Content-Type: application/json" -d "{\"log_text\": \"export API_KEY=abcd1234efgh\nFAILED tests/test_x.py::test_y\"}"
 ```
 ```bash
 curl -X POST http://localhost:8000/v1/diagnose -H "Content-Type: application/json" -d "{\"log_text\": \"FAILED tests/test_api.py::test_login - AssertionError\"}"

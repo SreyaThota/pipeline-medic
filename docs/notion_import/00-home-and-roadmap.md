@@ -26,9 +26,14 @@ built; the full roadmap is in `ROADMAP.md`.
 | v0.2.5 | Neo4j GraphRAG, evaluated not adopted | Building (labels in review) | `experiments/002_graphrag_vs_flat.md` |
 | v0.2.6 | API foundation | Shipped | [10 – API, FastAPI and Pydantic](10-api-fastapi-pydantic.md) |
 | v0.2.6 | Log parsing and redaction | Shipped | [04 – Log parsing and redaction](04-log-parsing-and-redaction.md) |
-| v0.3 | MCP Action Agent: ticket + notify | Designed | — |
-| v0.4 | LangGraph agent graph | Designed | — |
-| v0.5 | LoRA risk classifier | Designed | — |
+| v0.3 | MCP Action Agent: ticket + notify | Shipped | `docs/security.md` |
+| v0.4 | LangGraph agent graph | Shipped | — |
+| v0.5 | LoRA risk classifier, not adopted | Shipped (experiment) | `experiments/003_lora_risk_classifier.md` |
+| v0.6 | Trajectory evaluation | Shipped | `experiments/004_trajectory_eval.md` |
+| v0.7 | Tracing | Shipped | — |
+| v0.8 | Security suite | Shipped | `docs/security.md` |
+
+Handbook chapters for v0.3–v0.8 are part of v1.0, which needs a running-system review first.
 
 ## Earlier results
 

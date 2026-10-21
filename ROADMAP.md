@@ -6,7 +6,7 @@ when its acceptance gate is met with tests that were actually run.
 | Phase | Scope | Acceptance gate | Status |
 |---|---|---|---|
 | 0 | Repository reconnaissance and plan | Inventory and phased plan approved | Shipped |
-| 1 | Foundation: validated settings, typed schemas, `/health`, structured errors, versioned API, type-checking, regression tests | Core API runs; existing behaviour preserved; deterministic tests pass | Planned |
+| 1 | Foundation: validated settings, typed schemas, `/health`, structured errors, versioned API, type-checking, regression tests | Core API runs; existing behaviour preserved; deterministic tests pass | Shipped |
 | 2 | Ingestion and evidence: GitHub Actions / Jenkins / text parsers, line references, secret redaction, size limits, synthetic fixtures | Parsing and redaction have unit and security tests | Planned |
 | 3 | Retrieval experiments: lexical baseline, semantic, hybrid fusion, optional graph; one evaluation harness with saved raw results | Baselines reproducible; every method measured on the same held-out set | Planned (needs reviewed held-out labels) |
 | 4 | Structured diagnosis: provider adapter, validated output, evidence grounding, bounded retries, deterministic fallback | Outputs validate against schemas and cite real evidence | Planned |

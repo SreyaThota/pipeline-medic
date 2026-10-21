@@ -1,6 +1,6 @@
 # PipelineMedic X
 
-**Status: 🚧 Building — PipelineMedic X, Phase 1 (foundation)**
+**Status: 🚧 Building — PipelineMedic X: Phase 1 (foundation) shipped, Phase 2 next**
 
 AI-assisted CI/CD failure diagnosis and safe remediation. It takes a failed
 pipeline log, finds the evidence in it, retrieves similar past failures,
@@ -16,7 +16,10 @@ is in the repo and reproducible.
 
 | Capability | Status |
 |---|---|
-| `POST /diagnose`: Ollama summary of a pasted log | ✅ Shipped (v0.1) |
+| `POST /v1/diagnose`: Ollama summary of a log, typed request and response | ✅ Shipped (Phase 1) |
+| `GET /health` (liveness) and `GET /health/ready` (checks Ollama) | ✅ Shipped (Phase 1) |
+| One JSON error shape with a request ID; size limit; validated settings | ✅ Shipped (Phase 1) |
+| `POST /diagnose`: the original v0.1 endpoint, kept for compatibility | ✅ Shipped, deprecated |
 | Retrieval of similar past failures (flat vector search) | ✅ Shipped, measured (v0.2) |
 | Neo4j knowledge graph and hybrid retrieval | 🚧 Built and measured, not the default (v0.2.5) |
 | Parsing, redaction, structured diagnosis, patch proposals, approval and audit, UI | 📋 Planned, see [`ROADMAP.md`](ROADMAP.md) |
@@ -87,7 +90,7 @@ python -m venv .venv
 # .venv\Scripts\Activate.ps1  # Windows PowerShell
 pip install -r requirements-dev.txt
 ollama pull llama3.2
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload    # API docs at http://localhost:8000/docs
 
 copy .env.example .env           # local settings (Neo4j password)
 docker compose up -d              # Neo4j for the knowledge graph
@@ -97,6 +100,20 @@ python -m evaluation.run_eval     # flat retrieval baseline
 python -m evaluation.run_graph_eval   # graph vs flat (needs Neo4j)
 python data/collect_ci_logs.py    # collect more failed CI logs (needs gh auth)
 ```
+
+## API examples
+
+```bash
+curl http://localhost:8000/health/ready
+```
+```bash
+curl -X POST http://localhost:8000/v1/diagnose -H "Content-Type: application/json" -d "{\"log_text\": \"FAILED tests/test_api.py::test_login - AssertionError\"}"
+```
+
+Errors always look like
+`{"error": {"code": "provider_unavailable", "message": "...", "request_id": "..."}}`.
+Codes: `validation_error` (422), `log_too_large` (413), `provider_bad_response`
+(502), `provider_unavailable` (503), `provider_timeout` (504), `internal_error` (500).
 
 ## Author
 

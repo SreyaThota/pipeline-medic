@@ -1,6 +1,6 @@
 [project]
 name = "pipeline-medic"
-version = "0.2.5"
+version = "0.3.0"
 description = "Agentic CI/CD reliability copilot"
 readme = "README.md"
 requires-python = ">=3.14"
@@ -20,11 +20,25 @@ dev = [
     "pytest==9.1.1",
     "ruff==0.16.9",
     "httpx==0.28.1",
+    "mypy==2.4.0",
+    "types-requests==2.33.0.20261006",
 ]
 
 [tool.ruff]
 line-length = 100
 extend-exclude = ["data/sample_logs"]
+
+[tool.mypy]
+# Strict for the PipelineMedic X application package; the older research
+# code (rag/, evaluation/, data/) is checked from Phase 3 when it moves in.
+python_version = "3.14"
+files = ["app"]
+strict = true
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+module = ["neo4j.*", "chromadb.*", "sentence_transformers.*"]
+ignore_missing_imports = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

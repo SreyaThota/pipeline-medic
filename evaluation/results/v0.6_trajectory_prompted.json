@@ -1,0 +1,2975 @@
+{
+ "summary": {
+  "logs": 72,
+  "scoreable": 64,
+  "stage_pass_rate": {
+   "parse": 1.0,
+   "diagnose": 0.333,
+   "grounded": 1.0,
+   "risk": 0.514,
+   "action": 0.306,
+   "safety": 1.0
+  },
+  "trajectory_correct": 0.111,
+  "first_error": {
+   "diagnose": 48,
+   "risk": 13,
+   "none": 8,
+   "action": 3
+  },
+  "risk_methods": {
+   "prompted_llm": 72
+  },
+  "no_cause_logs_escalated": "1/8",
+  "seconds_p50": 6.56,
+  "llm_judge": {
+   "tickets_judged": 20,
+   "judged_supported": "15/20",
+   "negative_control_caught": "8/20",
+   "note": "a judge that misses fabricated claims cannot certify faithfulness"
+  }
+ },
+ "risk_mode": "prompted",
+ "labels": "category labels: test split is draft; risk: draft rubric v1",
+ "versions": {
+  "langgraph": "1.2.16",
+  "chromadb": "1.5.9",
+  "sentence-transformers": "6.1.0"
+ },
+ "python": "3.14.6",
+ "runs": [
+  {
+   "log_id": "apache__airflow__38211705554",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.584,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.09,
+   "ticket": null,
+   "evidence": [
+    "L252: Run command -v gh >/dev/null 2>&1 || { echo \"::error::gh CLI is not installed\"; exit 1; }",
+    "L340: Invalid input! Failed to parse contents of the provided payload",
+    "L352: YAMLException: deficient indentation (3:1)",
+    "L374: SlackError: Invalid input! Failed to parse contents of the provided payload"
+   ],
+   "stage_ms": {
+    "parse": 55.27,
+    "diagnose": 172.79,
+    "classify_risk": 6802.64,
+    "propose_actions": 1.32
+   }
+  },
+  {
+   "log_id": "apache__airflow__38211937930",
+   "label": "policy_check",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.619,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.38,
+   "ticket": null,
+   "evidence": [
+    "L326: \u2717 NOT MATCHED: Airflow Ctl 1.0.0? on 2026-06-22 by Bu\u011fra",
+    "L349: \u2717 Some releases do not have matching calendar entries!",
+    "L350: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 50.15,
+    "diagnose": 201.24,
+    "classify_risk": 7080.86,
+    "propose_actions": 1.04
+   }
+  },
+  {
+   "log_id": "apache__airflow__38214130501",
+   "label": "build_compile",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.603,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.39,
+   "ticket": null,
+   "evidence": [
+    "L137: #38 4.582 update-alternatives: error: no alternatives for my.cnf",
+    "L360: #40 ERROR: process \"/bin/bash -o pipefail -o errexit -o nounset -o nolog -c SYSTEM=$(uname -s | tr '[:upper:]' '[:lower:]')     && PLATFORM=\\\"$(uname -m)\\\"     && MPROCS_URL=\\\"https://github.com/pvolok/mprocs/releases/download/v${MPROCS_VERSION}/mprocs-${MPROCS_VERSION}-${SYSTEM}-${PLATFORM}-musl.tar.gz\\\"     && echo \\\"Downloading mprocs from ${MPROCS_URL}\\\"     && curl --silent --location --fail --retry 3 --retry-delay 5 -o /tmp/mprocs.tar.gz \\\"${MPROCS_URL}\\\"     && tar -xzf /tmp/mprocs.tar.gz -C /usr/local/bin/ mprocs     && rm -f /tmp/mprocs.tar.gz     && chmod +x /usr/local/bin/mprocs\" did not complete successfully: exit code: 22",
+    "L365: ERROR: failed to build: failed to solve: process \"/bin/bash -o pipefail -o errexit -o nounset -o nolog -c SYSTEM=$(uname -s | tr '[:upper:]' '[:lower:]')     && PLATFORM=\\\"$(uname -m)\\\"     && MPROCS_URL=\\\"https://github.com/pvolok/mprocs/releases/download/v${MPROCS_VERSION}/mprocs-${MPROCS_VERSION}-${SYSTEM}-${PLATFORM}-musl.tar.gz\\\"     && echo \\\"Downloading mprocs from ${MPROCS_URL}\\\"     && curl --silent --location --fail --retry 3 --retry-delay 5 -o /tmp/mprocs.tar.gz \\\"${MPROCS_URL}\\\"     && tar -xzf /tmp/mprocs.tar.gz -C /usr/local/bin/ mprocs     && rm -f /tmp/mprocs.tar.gz     && chmod +x /usr/local/bin/mprocs\" did not complete successfully: exit code: 22",
+    "L381: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 62.97,
+    "diagnose": 161.76,
+    "classify_risk": 5111.23,
+    "propose_actions": 2.64
+   }
+  },
+  {
+   "log_id": "apache__airflow__38215063289",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.633,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.66,
+   "ticket": "Category: ci_config (confidence 0.63, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with failing tests, but no critical system failures or unrecoverable errors occurred.\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 140: FAILED providers/standard/tests/unit/standard/decorators/test_python.py::test_no_warnings - ExceptionGroup: multiple unraisable exception warnings (3 sub-exceptions). Most similar past failures suggest ci_config (63% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L140: FAILED providers/standard/tests/unit/standard/decorators/test_python.py::test_no_warnings - ExceptionGroup: multiple unraisable exception warnings (3 sub-exceptions)\n> L141: =========================================================== 1 failed, 631 passed, 133 skipped, 393 deselected, 1 warning in 558.02s (0:09:18) ============================================================\n> L184: Process completed with exit code 1.\n\nSimilar past failures:\n- pydantic__pydantic__36868140759 (ci_config, score 0.73)\n- pydantic__pydantic__36779918080 (ci_config, score 0.72)\n- home-assistant__core__28702194167 (timeout, score 0.61)\n- psf__black__30838063852 (ci_config, score 0.58)\n- psf__black__31071706986 (lint_format, score 0.57)\n\nSource log: apache__airflow__38215063289",
+   "evidence": [
+    "L140: FAILED providers/standard/tests/unit/standard/decorators/test_python.py::test_no_warnings - ExceptionGroup: multiple unraisable exception warnings (3 sub-exceptions)",
+    "L141: =========================================================== 1 failed, 631 passed, 133 skipped, 393 deselected, 1 warning in 558.02s (0:09:18) ============================================================",
+    "L184: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 81.81,
+    "diagnose": 145.17,
+    "classify_risk": 6351.69,
+    "propose_actions": 1.88
+   }
+  },
+  {
+   "log_id": "django__django__38184430933",
+   "label": "policy_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.819,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.69,
+   "ticket": null,
+   "evidence": [
+    "L180: FAIL=0",
+    "L204: \u274c Commit 46e5c99b6bb6fea13b4f2c2a9576c362da049451 must end with a period.",
+    "L208: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 31.05,
+    "diagnose": 159.53,
+    "classify_risk": 6472.73,
+    "propose_actions": 1.25
+   }
+  },
+  {
+   "log_id": "django__django__38201870021",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.813,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.43,
+   "ticket": null,
+   "evidence": [
+    "L221: would reformat /home/runner/work/django/django/tests/migrations/test_executor.py",
+    "L225: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 26.46,
+    "diagnose": 136.21,
+    "classify_risk": 6233.49,
+    "propose_actions": 1.43
+   }
+  },
+  {
+   "log_id": "django__django__38216225588",
+   "label": "policy_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.587,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.32,
+   "ticket": null,
+   "evidence": [
+    "L236: PR #22135 has 2 failure(s) and 0 warning(s), adding comment with details.",
+    "L237: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 30.27,
+    "diagnose": 164.52,
+    "classify_risk": 6093.94,
+    "propose_actions": 1.11
+   }
+  },
+  {
+   "log_id": "django__django__38216259965",
+   "label": "policy_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.589,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.22,
+   "ticket": "Category: test_failure (confidence 0.59, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with 2 failing tests and 0 warnings, indicating a potential issue with the code.\n\nSummary:\n2 failure region(s) in 254 lines; key evidence at line 237: PR #22135 has 2 failure(s) and 0 warning(s), adding comment with details.. Most similar past failures suggest test_failure (59% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L237: PR #22135 has 2 failure(s) and 0 warning(s), adding comment with details.\n> L238: Process completed with exit code 1.\n\nSimilar past failures:\n- pydantic__pydantic__36868140759 (ci_config, score 0.39)\n- pydantic__pydantic__36779918080 (ci_config, score 0.38)\n- fastapi__fastapi__35567263837 (test_failure, score 0.37)\n- fastapi__fastapi__35571183172 (test_failure, score 0.37)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.36)\n\nSource log: django__django__38216259965",
+   "evidence": [
+    "L237: PR #22135 has 2 failure(s) and 0 warning(s), adding comment with details.",
+    "L238: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 34.68,
+    "diagnose": 145.71,
+    "classify_risk": 6009.09,
+    "propose_actions": 1.99
+   }
+  },
+  {
+   "log_id": "encode__httpx__36918360067",
+   "label": "build_compile",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.507,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.24,
+   "ticket": "Category: ci_config (confidence 0.51, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests and a timeout error, indicating a potential issue with the test suite configuration or test code.\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 382: Checking dist/httpx-1.0.0-py3-none-any.whl: ERROR    InvalidDistribution: Invalid distribution metadata: '2.5' is not a. Most similar past failures suggest ci_config (51% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L382: Checking dist/httpx-1.0.0-py3-none-any.whl: ERROR    InvalidDistribution: Invalid distribution metadata: '2.5' is not a\n> L384: Process completed with exit code 1.\n\nSimilar past failures:\n- encode__httpx__35071320524 (build_compile, score 0.95)\n- psf__black__31071707016 (lint_format, score 0.52)\n- pydantic__pydantic__36712532115 (ci_config, score 0.51)\n- pydantic__pydantic__36779918080 (ci_config, score 0.50)\n- pydantic__pydantic__36868140759 (ci_config, score 0.50)\n\nSource log: encode__httpx__36918360067",
+   "evidence": [
+    "L382: Checking dist/httpx-1.0.0-py3-none-any.whl: ERROR    InvalidDistribution: Invalid distribution metadata: '2.5' is not a",
+    "L384: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 58.57,
+    "diagnose": 143.7,
+    "classify_risk": 6989.26,
+    "propose_actions": 3.05
+   }
+  },
+  {
+   "log_id": "encode__httpx__37009481166",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.471,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 7.18,
+   "ticket": "Category: test_failure (confidence 0.47, retrieval_vote)\nRisk: low (prompted_llm): The failed CI run had a low-level exception in the code, but the test suite still ran and passed 1415 tests.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 265:         except KeyError:. Most similar past failures suggest test_failure (47% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L265:         except KeyError:\n> L362:                 except IndexError:\n> L383: ================== 1 failed, 1416 passed, 1 skipped in 11.39s ==================\n> L384: Process completed with exit code 1.\n\nSimilar past failures:\n- astral-sh__ruff__33831723431 (test_failure, score 0.64)\n- astral-sh__ruff__33831722570 (test_failure, score 0.64)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.53)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.51)\n- pytest-dev__pytest__35479449080 (docs_check, score 0.39)\n\nSource log: encode__httpx__37009481166",
+   "evidence": [
+    "L265:         except KeyError:",
+    "L362:                 except IndexError:",
+    "L383: ================== 1 failed, 1416 passed, 1 skipped in 11.39s ==================",
+    "L384: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 55.91,
+    "diagnose": 149.85,
+    "classify_risk": 6917.81,
+    "propose_actions": 1.72
+   }
+  },
+  {
+   "log_id": "eslint__eslint__37486997319",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.435,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.39,
+   "ticket": "Category: ci_config (confidence 0.43, retrieval_vote)\nRisk: low (prompted_llm): Only 'Process completed with exit code 1' appears in the log, indicating a transient issue with the test ecosystem plugins\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 72: Process completed with exit code 1.. Most similar past failures suggest ci_config (44% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L72: Process completed with exit code 1.\n> L344: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__34076593565 (ci_config, score 0.51)\n- psf__black__34589296835 (ci_config, score 0.51)\n- psf__black__31070601941 (infra_network, score 0.47)\n- astral-sh__ruff__33829682997 (test_failure, score 0.44)\n- prettier__prettier__35087290201 (lint_format, score 0.41)\n\nSource log: eslint__eslint__37486997319",
+   "evidence": [
+    "L72: Process completed with exit code 1.",
+    "L344: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 55.1,
+    "diagnose": 201.39,
+    "classify_risk": 6079.05,
+    "propose_actions": 2.0
+   }
+  },
+  {
+   "log_id": "eslint__eslint__38171304253",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.425,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.66,
+   "ticket": "Category: build_compile (confidence 0.42, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with a failing test, indicating potential issues with the project's functionality.\n\nSummary:\n1 failure region(s) in 400 lines; key evidence at line 367: Process completed with exit code 1.. Most similar past failures suggest build_compile (42% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L367: Process completed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35193227719 (build_compile, score 0.49)\n- prettier__prettier__35193228050 (build_compile, score 0.49)\n- prettier__prettier__35273463673 (ci_config, score 0.45)\n- prettier__prettier__35097774750 (test_failure, score 0.44)\n- python-poetry__poetry__36312975783 (test_failure, score 0.43)\n\nSource log: eslint__eslint__38171304253",
+   "evidence": [
+    "L367: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 46.93,
+    "diagnose": 94.19,
+    "classify_risk": 5466.41,
+    "propose_actions": 1.85
+   }
+  },
+  {
+   "log_id": "eslint__eslint__38181363682",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.434,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.37,
+   "ticket": "Category: build_compile (confidence 0.43, retrieval_vote)\nRisk: medium (prompted_llm): The CI run failed with exit code 1, indicating a correctness issue but not a critical failure that prevents building or shipping the project.\n\nSummary:\n1 failure region(s) in 400 lines; key evidence at line 367: Process completed with exit code 1.. Most similar past failures suggest build_compile (43% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L367: Process completed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35193227719 (build_compile, score 0.50)\n- prettier__prettier__35193228050 (build_compile, score 0.50)\n- prettier__prettier__35097774750 (test_failure, score 0.47)\n- prettier__prettier__35273463673 (ci_config, score 0.42)\n- python-poetry__poetry__36312975783 (test_failure, score 0.42)\n\nSource log: eslint__eslint__38181363682",
+   "evidence": [
+    "L367: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 56.42,
+    "diagnose": 114.1,
+    "classify_risk": 5149.34,
+    "propose_actions": 1.7
+   }
+  },
+  {
+   "log_id": "eslint__eslint__38187322244",
+   "label": "infra_network",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.446,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.51,
+   "ticket": "Category: build_compile (confidence 0.45, retrieval_vote)\nRisk: low (prompted_llm): The error message indicates a rate limit exceeded, which is a transient network issue that can be fixed with a retry.\n\nSummary:\n2 failure region(s) in 226 lines; key evidence at line 185: Error: Failed to fetch latest commit for @eslint/markdown: rate limit exceeded. Most similar past failures suggest build_compile (45% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L185: Error: Failed to fetch latest commit for @eslint/markdown: rate limit exceeded\n> L193: Process completed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35193227719 (build_compile, score 0.50)\n- prettier__prettier__35193228050 (build_compile, score 0.50)\n- prettier__prettier__35097774750 (test_failure, score 0.47)\n- astral-sh__ruff__33829682997 (test_failure, score 0.39)\n- psf__black__31070601941 (infra_network, score 0.38)\n\nSource log: eslint__eslint__38187322244",
+   "evidence": [
+    "L185: Error: Failed to fetch latest commit for @eslint/markdown: rate limit exceeded",
+    "L193: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 27.91,
+    "diagnose": 184.79,
+    "classify_risk": 6251.98,
+    "propose_actions": 2.15
+   }
+  },
+  {
+   "log_id": "facebook__react__38097296319",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.687,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 6.11,
+   "ticket": "Category: test_failure (confidence 0.69, retrieval_vote)\nRisk: medium (prompted_llm): The CI run failed tests, indicating correctness issues.\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 379: Test Suites: 2 failed, 21 skipped, 19 passed, 21 of 42 total. Most similar past failures suggest test_failure (69% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L379: Test Suites: 2 failed, 21 skipped, 19 passed, 21 of 42 total\n> L381: Snapshots:   27 failed, 260 passed, 287 total\n> L384: Process completed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35097774750 (test_failure, score 0.67)\n- prettier__prettier__35193227878 (test_failure, score 0.54)\n- prettier__prettier__35193227719 (build_compile, score 0.36)\n- prettier__prettier__35193228050 (build_compile, score 0.36)\n- fastapi__fastapi__35571183172 (test_failure, score 0.35)\n\nSource log: facebook__react__38097296319",
+   "evidence": [
+    "L379: Test Suites: 2 failed, 21 skipped, 19 passed, 21 of 42 total",
+    "L381: Snapshots:   27 failed, 260 passed, 287 total",
+    "L384: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 46.75,
+    "diagnose": 149.86,
+    "classify_risk": 5866.0,
+    "propose_actions": 2.19
+   }
+  },
+  {
+   "log_id": "facebook__react__38124697131",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.451,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.87,
+   "ticket": "Category: build_compile (confidence 0.45, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with multiple test failures and a failed command\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 331: FAIL packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js (40.604 s). Most similar past failures suggest build_compile (45% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L331: FAIL packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js (40.604 s)\n> L354: FAIL packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js (40.604 s)\n> L377: Test Suites: 1 failed, 28 passed, 29 total\n> L382: error Command failed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35193227719 (build_compile, score 0.42)\n- prettier__prettier__35193228050 (build_compile, score 0.42)\n- prettier__prettier__35097774750 (test_failure, score 0.37)\n- prettier__prettier__35273463576 (test_failure, score 0.34)\n- prettier__prettier__35087290201 (lint_format, score 0.30)\n\nSource log: facebook__react__38124697131",
+   "evidence": [
+    "L331: FAIL packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js (40.604 s)",
+    "L354: FAIL packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js (40.604 s)",
+    "L377: Test Suites: 1 failed, 28 passed, 29 total",
+    "L382: error Command failed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 49.46,
+    "diagnose": 186.08,
+    "classify_risk": 6581.28,
+    "propose_actions": 1.63
+   }
+  },
+  {
+   "log_id": "facebook__react__38130034916",
+   "label": "type_check",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.481,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.79,
+   "ticket": "Category: build_compile (confidence 0.48, retrieval_vote)\nRisk: medium (prompted_llm): The CI run is failing tests and has type-check errors, indicating a potential issue with the project's correctness\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 377: Found 12 errors. Most similar past failures suggest build_compile (48% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L377: Found 12 errors\n> L380: Process completed with exit code 2.\n\nSimilar past failures:\n- prettier__prettier__35193227719 (build_compile, score 0.43)\n- prettier__prettier__35193228050 (build_compile, score 0.43)\n- prettier__prettier__35087290201 (lint_format, score 0.33)\n- prettier__prettier__35097774750 (test_failure, score 0.30)\n- psf__black__34072879382 (policy_check, score 0.30)\n\nSource log: facebook__react__38130034916",
+   "evidence": [
+    "L377: Found 12 errors",
+    "L380: Process completed with exit code 2."
+   ],
+   "stage_ms": {
+    "parse": 59.07,
+    "diagnose": 168.94,
+    "classify_risk": 5516.66,
+    "propose_actions": 2.58
+   }
+  },
+  {
+   "log_id": "facebook__react__38186749956",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.686,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 6.92,
+   "ticket": "Category: test_failure (confidence 0.69, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests, indicating potential issues with the codebase that require immediate attention.\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 379: Test Suites: 2 failed, 21 skipped, 19 passed, 21 of 42 total. Most similar past failures suggest test_failure (69% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L379: Test Suites: 2 failed, 21 skipped, 19 passed, 21 of 42 total\n> L381: Snapshots:   27 failed, 260 passed, 287 total\n> L384: Process completed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35097774750 (test_failure, score 0.67)\n- prettier__prettier__35193227878 (test_failure, score 0.54)\n- prettier__prettier__35193227719 (build_compile, score 0.36)\n- prettier__prettier__35193228050 (build_compile, score 0.36)\n- fastapi__fastapi__35571183172 (test_failure, score 0.35)\n\nSource log: facebook__react__38186749956",
+   "evidence": [
+    "L379: Test Suites: 2 failed, 21 skipped, 19 passed, 21 of 42 total",
+    "L381: Snapshots:   27 failed, 260 passed, 287 total",
+    "L384: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 53.09,
+    "diagnose": 152.49,
+    "classify_risk": 6658.62,
+    "propose_actions": 3.04
+   }
+  },
+  {
+   "log_id": "home-assistant__core__38217484317",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 1.0,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 6.44,
+   "ticket": null,
+   "evidence": [
+    "L315: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 50.37,
+    "diagnose": 163.02,
+    "classify_risk": 6178.96,
+    "propose_actions": 1.24
+   }
+  },
+  {
+   "log_id": "home-assistant__core__38223769150",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 1.0,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 5.66,
+   "ticket": "Category: ci_config (confidence 1.00, retrieval_vote)\nRisk: medium (prompted_llm): A process completion with exit code 1 indicates a non-deterministic error, potentially affecting test correctness.\n\nSummary:\n1 failure region(s) in 19 lines; key evidence at line 19: Process completed with exit code 1.. Most similar past failures suggest ci_config (100% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L19: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__30838063852 (ci_config, score 0.66)\n- pydantic__pydantic__36868140759 (ci_config, score 0.57)\n- pydantic__pydantic__36779918080 (ci_config, score 0.55)\n- psf__black__34076593565 (ci_config, score 0.51)\n- psf__black__34589296835 (ci_config, score 0.51)\n\nSource log: home-assistant__core__38223769150",
+   "evidence": [
+    "L19: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 4.31,
+    "diagnose": 185.03,
+    "classify_risk": 5455.44,
+    "propose_actions": 1.86
+   }
+  },
+  {
+   "log_id": "home-assistant__core__38223769327",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "timeout",
+   "confidence": 0.222,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.84,
+   "ticket": "Category: timeout (confidence 0.22, retrieval_vote)\nRisk: medium (prompted_llm): Incorrectness is red (failing tests, type-check errors, timeouts, broken CI configuration), but no fatal issues prevented the project from building, installing, or shipping.\n\nSummary:\n1 failure region(s) in 31 lines; key evidence at line 31: Process completed with exit code 4.. Most similar past failures suggest timeout (22% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L31: Process completed with exit code 4.\n\nSimilar past failures:\n- home-assistant__core__28702194167 (timeout, score 0.55)\n- home-assistant__core__28701780680 (type_check, score 0.54)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.47)\n- pydantic__pydantic__36868140759 (ci_config, score 0.47)\n- astral-sh__ruff__33829682997 (test_failure, score 0.45)\n\nSource log: home-assistant__core__38223769327",
+   "evidence": [
+    "L31: Process completed with exit code 4."
+   ],
+   "stage_ms": {
+    "parse": 5.06,
+    "diagnose": 176.41,
+    "classify_risk": 6639.02,
+    "propose_actions": 1.84
+   }
+  },
+  {
+   "log_id": "home-assistant__core__38224599068",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.82,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 8.19,
+   "ticket": null,
+   "evidence": [
+    "L327: FAILED tests/components/recorder/test_migration_from_schema_32.py::test_stats_timestamp_conversion_is_reentrant - AssertionError: assert [{'created': ...999625), ...}] == [{'created': ...999625), ...}]",
+    "L400: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 83.62,
+    "diagnose": 83.15,
+    "classify_risk": 7964.75,
+    "propose_actions": 1.59
+   }
+  },
+  {
+   "log_id": "huggingface__transformers__38213953453",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.434,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.53,
+   "ticket": "Category: ci_config (confidence 0.43, retrieval_vote)\nRisk: low (prompted_llm): The failure is described as a 'hygiene or transient problem' with a retry fixing the issue.\n\nSummary:\n0 failure region(s) in 400 lines; key evidence at line 398: Evaluate and set job outputs. Most similar past failures suggest ci_config (43% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L398: Evaluate and set job outputs\n> L399: Set output 'machine_type'\n> L400: Cleaning up orphan processes\n\nSimilar past failures:\n- psf__black__34076593565 (ci_config, score 0.50)\n- psf__black__34589296835 (ci_config, score 0.50)\n- astral-sh__ruff__33829682997 (test_failure, score 0.45)\n- psf__black__31070601941 (infra_network, score 0.44)\n- psf__black__31071707016 (lint_format, score 0.43)\n\nSource log: huggingface__transformers__38213953453",
+   "evidence": [
+    "L398: Evaluate and set job outputs",
+    "L399: Set output 'machine_type'",
+    "L400: Cleaning up orphan processes"
+   ],
+   "stage_ms": {
+    "parse": 87.7,
+    "diagnose": 143.02,
+    "classify_risk": 6198.1,
+    "propose_actions": 1.46
+   }
+  },
+  {
+   "log_id": "huggingface__transformers__38216223914",
+   "label": "aggregate_gate",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "test_failure",
+   "confidence": 0.795,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.56,
+   "ticket": "Category: test_failure (confidence 0.80, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red (failing tests, type-check errors, timeouts, broken CI configuration)\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 376:       echo \"  \u2717 at least one job reported: $result\". Most similar past failures suggest test_failure (80% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L376:       echo \"  \u2717 at least one job reported: $result\"\n> L397:   \u2717 at least one job reported: failure\n> L399: Process completed with exit code 1.\n\nSimilar past failures:\n- pydantic__pydantic__36785268604 (type_check, score 0.64)\n- fastapi__fastapi__35571183172 (test_failure, score 0.62)\n- fastapi__fastapi__35567263837 (test_failure, score 0.62)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.62)\n- pytest-dev__pytest__36312310362 (test_failure, score 0.62)\n\nSource log: huggingface__transformers__38216223914",
+   "evidence": [
+    "L376:       echo \"  \u2717 at least one job reported: $result\"",
+    "L397:   \u2717 at least one job reported: failure",
+    "L399: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 59.27,
+    "diagnose": 95.26,
+    "classify_risk": 6346.24,
+    "propose_actions": 1.57
+   }
+  },
+  {
+   "log_id": "huggingface__transformers__38216224281",
+   "label": "unknown",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "ci_config",
+   "confidence": 0.424,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 6.55,
+   "ticket": "Category: ci_config (confidence 0.42, retrieval_vote)\nRisk: low (prompted_llm): Correctness is only partially impacted by a failed CI run, with no critical build or deployment failures.\n\nSummary:\n0 failure region(s) in 400 lines; key evidence at line 398: Evaluate and set job outputs. Most similar past failures suggest ci_config (42% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L398: Evaluate and set job outputs\n> L399: Set output 'machine_type'\n> L400: Cleaning up orphan processes\n\nSimilar past failures:\n- psf__black__34076593565 (ci_config, score 0.51)\n- psf__black__34589296835 (ci_config, score 0.51)\n- astral-sh__ruff__33829682997 (test_failure, score 0.48)\n- psf__black__31070601941 (infra_network, score 0.46)\n- psf__black__31071707016 (lint_format, score 0.45)\n\nSource log: huggingface__transformers__38216224281",
+   "evidence": [
+    "L398: Evaluate and set job outputs",
+    "L399: Set output 'machine_type'",
+    "L400: Cleaning up orphan processes"
+   ],
+   "stage_ms": {
+    "parse": 72.12,
+    "diagnose": 146.49,
+    "classify_risk": 6264.33,
+    "propose_actions": 2.26
+   }
+  },
+  {
+   "log_id": "huggingface__transformers__38224895155",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 1.0,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.64,
+   "ticket": null,
+   "evidence": [
+    "L109: TypeError: Cannot read properties of undefined (reading '0')"
+   ],
+   "stage_ms": {
+    "parse": 19.1,
+    "diagnose": 151.69,
+    "classify_risk": 6435.96,
+    "propose_actions": 1.19
+   }
+  },
+  {
+   "log_id": "langchain-ai__langchain__38054458339",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.452,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "action",
+   "secret_lines_in_log": 0,
+   "seconds": 7.3,
+   "ticket": "Category: test_failure (confidence 0.45, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests, indicating potential issues with the project's functionality.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 240: \tAssertionError: assert 0 > 0. Most similar past failures suggest test_failure (45% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L240: \tAssertionError: assert 0 > 0\n> L293: FAILED tests/integration_tests/test_chat_models.py::test_reasoning - assert 0 > 0\n> L295: == 2 failed, 56 passed, 11 skipped, 1 xpassed, 2 retried in 200.98s (0:03:20) ==\n> L297: Process completed with exit code 2.\n\nSimilar past failures:\n- astral-sh__ruff__33831722570 (test_failure, score 0.58)\n- astral-sh__ruff__33831723431 (test_failure, score 0.57)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.54)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.43)\n- home-assistant__core__28701780680 (type_check, score 0.42)\n\nSource log: langchain-ai__langchain__38054458339",
+   "evidence": [
+    "L240: \tAssertionError: assert 0 > 0",
+    "L293: FAILED tests/integration_tests/test_chat_models.py::test_reasoning - assert 0 > 0",
+    "L295: == 2 failed, 56 passed, 11 skipped, 1 xpassed, 2 retried in 200.98s (0:03:20) ==",
+    "L297: Process completed with exit code 2."
+   ],
+   "stage_ms": {
+    "parse": 72.11,
+    "diagnose": 172.26,
+    "classify_risk": 6984.94,
+    "propose_actions": 1.63
+   }
+  },
+  {
+   "log_id": "langchain-ai__langchain__38141920609",
+   "label": "infra_network",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 1.0,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.88,
+   "ticket": null,
+   "evidence": [
+    "L19: FAILED tests/integration_tests/chat_models/test_bedrock_converse.py::TestBedrockStandard::test_tool_message_histories_list_content - botocore.exceptions.ClientError: An error occurred (501) when calling the Converse operation:",
+    "L296: = 277 failed, 231 passed, 197 skipped, 13 xfailed, 5 xpassed, 3 warnings in 199.35s (0:03:19) =",
+    "L297: Process completed with exit code 2."
+   ],
+   "stage_ms": {
+    "parse": 87.85,
+    "diagnose": 154.19,
+    "classify_risk": 7535.04,
+    "propose_actions": 1.35
+   }
+  },
+  {
+   "log_id": "langchain-ai__langchain__38220504907",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.783,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.38,
+   "ticket": "Category: test_failure (confidence 0.78, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with failing tests and a process completed with an exit code, indicating potential issues that may not be transient or purely hygiene-related.\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 294: langchain_core/messages/tool.py:4:1: UP035 Import from `collections.abc` instead: `Sequence`. Most similar past failures suggest test_failure (78% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L294: langchain_core/messages/tool.py:4:1: UP035 Import from `collections.abc` instead: `Sequence`\n> L297: Process completed with exit code 2.\n> L400: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__30838063852 (ci_config, score 0.55)\n- pytest-dev__pytest__36312310362 (test_failure, score 0.51)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.50)\n- fastapi__fastapi__35567263837 (test_failure, score 0.50)\n- fastapi__fastapi__35571183172 (test_failure, score 0.49)\n\nSource log: langchain-ai__langchain__38220504907",
+   "evidence": [
+    "L294: langchain_core/messages/tool.py:4:1: UP035 Import from `collections.abc` instead: `Sequence`",
+    "L297: Process completed with exit code 2.",
+    "L400: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 52.06,
+    "diagnose": 155.08,
+    "classify_risk": 7118.96,
+    "propose_actions": 3.12
+   }
+  },
+  {
+   "log_id": "langchain-ai__langchain__38220640167",
+   "label": "type_check",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.778,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.53,
+   "ticket": null,
+   "evidence": [
+    "L289: tests/unit_tests/messages/test_tool_coercion.py:16: error: Unused \"type: ignore\" comment  [unused-ignore]",
+    "L297: Process completed with exit code 2.",
+    "L400: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 63.44,
+    "diagnose": 146.48,
+    "classify_risk": 6245.48,
+    "propose_actions": 1.67
+   }
+  },
+  {
+   "log_id": "nodejs__node__38162525544",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.36,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.91,
+   "ticket": "Category: test_failure (confidence 0.36, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests, indicating a potential issue with the project's functionality.\n\nSummary:\n1 failure region(s) in 295 lines; key evidence at line 294: Process completed with exit code 1.. Most similar past failures suggest test_failure (36% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L294: Process completed with exit code 1.\n\nSimilar past failures:\n- pydantic__pydantic__36859870036 (infra_network, score 0.46)\n- pydantic__pydantic__36811704364 (build_compile, score 0.37)\n- pydantic__pydantic__36785268604 (type_check, score 0.33)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.33)\n- pytest-dev__pytest__36312310362 (test_failure, score 0.33)\n\nSource log: nodejs__node__38162525544",
+   "evidence": [
+    "L294: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 40.86,
+    "diagnose": 155.06,
+    "classify_risk": 5673.22,
+    "propose_actions": 1.97
+   }
+  },
+  {
+   "log_id": "nodejs__node__38181101368",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.625,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 6.22,
+   "ticket": null,
+   "evidence": [
+    "L63: Error: uncaught",
+    "L72: Error: uncaught",
+    "L85: Error: uncaught",
+    "L94: Error: uncaught",
+    "L274: --- stderr ---",
+    "L305: Process completed with exit code 2."
+   ],
+   "stage_ms": {
+    "parse": 50.06,
+    "diagnose": 110.58,
+    "classify_risk": 6021.57,
+    "propose_actions": 1.05
+   }
+  },
+  {
+   "log_id": "nodejs__node__38191765240",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "docs_check",
+   "confidence": 0.411,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.7,
+   "ticket": "Category: docs_check (confidence 0.41, retrieval_vote)\nRisk: medium (prompted_llm): The CI run failed due to incorrectness, with test failures and type-check errors, but the project can still build and ship.\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 79: Error: Found 2 unexpected failures. Consider updating test/wpt/status/webstorage.json for these files:. Most similar past failures suggest docs_check (41% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L79: Error: Found 2 unexpected failures. Consider updating test/wpt/status/webstorage.json for these files:\n> L352: AttributeError: module 'http.server' has no attribute 'CGIHTTPRequestHandler'. Did you mean '.BaseHTTPRequestHandler' instead of '.CGIHTTPRequestHandler'?\n> L353: Process completed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__35479449080 (docs_check, score 0.40)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.39)\n- pydantic__pydantic__36868140759 (ci_config, score 0.33)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.33)\n- encode__httpx__35071320524 (build_compile, score 0.32)\n\nSource log: nodejs__node__38191765240",
+   "evidence": [
+    "L79: Error: Found 2 unexpected failures. Consider updating test/wpt/status/webstorage.json for these files:",
+    "L352: AttributeError: module 'http.server' has no attribute 'CGIHTTPRequestHandler'. Did you mean '.BaseHTTPRequestHandler' instead of '.CGIHTTPRequestHandler'?",
+    "L353: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 58.04,
+    "diagnose": 161.42,
+    "classify_risk": 7434.86,
+    "propose_actions": 1.92
+   }
+  },
+  {
+   "log_id": "nodejs__node__38203939118",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.564,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.06,
+   "ticket": null,
+   "evidence": [
+    "L301:   echo 'ERROR: The JavaScript lint validation failed (the errors are logged above).'",
+    "L341: 2620:70  error  Multiple spaces found before '{'  @stylistic/js/no-multi-spaces",
+    "L359: Process completed with exit code 2."
+   ],
+   "stage_ms": {
+    "parse": 49.3,
+    "diagnose": 154.76,
+    "classify_risk": 4815.84,
+    "propose_actions": 1.75
+   }
+  },
+  {
+   "log_id": "numpy__numpy__38197650726",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.211,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.8,
+   "ticket": "Category: test_failure (confidence 0.21, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests, but the project can still build and run, indicating a hygiene issue that may be transient.\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 348: error: File not found: requirements/typing_requirements.txt. Most similar past failures suggest test_failure (21% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L348: error: File not found: requirements/typing_requirements.txt\n> L349: Process completed with exit code 2.\n\nSimilar past failures:\n- astral-sh__ruff__33829682997 (test_failure, score 0.58)\n- psf__black__31071707016 (lint_format, score 0.55)\n- home-assistant__core__28702194167 (timeout, score 0.54)\n- astral-sh__ruff__33784523740 (dependency_install, score 0.54)\n- psf__black__30838063852 (ci_config, score 0.53)\n\nSource log: numpy__numpy__38197650726",
+   "evidence": [
+    "L348: error: File not found: requirements/typing_requirements.txt",
+    "L349: Process completed with exit code 2."
+   ],
+   "stage_ms": {
+    "parse": 62.79,
+    "diagnose": 163.79,
+    "classify_risk": 6510.4,
+    "propose_actions": 1.62
+   }
+  },
+  {
+   "log_id": "numpy__numpy__38197650734",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.407,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "action",
+   "secret_lines_in_log": 0,
+   "seconds": 5.59,
+   "ticket": "Category: ci_config (confidence 0.41, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests and type-check errors\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 347: error: File not found: requirements/typing_requirements.txt. Most similar past failures suggest ci_config (41% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L347: error: File not found: requirements/typing_requirements.txt\n> L348: Process completed with exit code 2.\n\nSimilar past failures:\n- psf__black__30838063852 (ci_config, score 0.56)\n- astral-sh__ruff__33784523740 (dependency_install, score 0.55)\n- python-poetry__poetry__34606971513 (ci_config, score 0.54)\n- astral-sh__ruff__33829682997 (test_failure, score 0.54)\n- psf__black__31071707016 (lint_format, score 0.52)\n\nSource log: numpy__numpy__38197650734",
+   "evidence": [
+    "L347: error: File not found: requirements/typing_requirements.txt",
+    "L348: Process completed with exit code 2."
+   ],
+   "stage_ms": {
+    "parse": 69.72,
+    "diagnose": 149.75,
+    "classify_risk": 5320.69,
+    "propose_actions": 1.35
+   }
+  },
+  {
+   "log_id": "numpy__numpy__38197650837",
+   "label": "dependency_install",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.379,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.98,
+   "ticket": "Category: ci_config (confidence 0.38, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with failing tests, indicating potential issues with the project's functionality.\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 330: error: closed. Most similar past failures suggest ci_config (38% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L330: error: closed\n> L338: cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd', '--managed', 'maxVersion', '--', '-m', 'pytest', '--pyargs', 'nu\n\nSimilar past failures:\n- pydantic__pydantic__36666298158 (dependency_install, score 0.49)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.44)\n- pydantic__pydantic__36868140759 (ci_config, score 0.42)\n- psf__black__31071707016 (lint_format, score 0.41)\n- pydantic__pydantic__36712532115 (ci_config, score 0.40)\n\nSource log: numpy__numpy__38197650837",
+   "evidence": [
+    "L330: error: closed",
+    "L338: cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd', '--managed', 'maxVersion', '--', '-m', 'pytest', '--pyargs', 'numpy', '-m', 'not slow', '-W', 'ignore::PendingDeprecationWarning', '-p', 'no:cacheprovider'] failed with code 1."
+   ],
+   "stage_ms": {
+    "parse": 72.09,
+    "diagnose": 145.69,
+    "classify_risk": 6702.91,
+    "propose_actions": 2.22
+   }
+  },
+  {
+   "log_id": "numpy__numpy__38197650864",
+   "label": "ci_config",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.607,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 5.9,
+   "ticket": "Category: ci_config (confidence 0.61, retrieval_vote)\nRisk: medium (prompted_llm): The project failed to install due to a requirements file error, indicating a correctness issue.\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 347: ERROR: Could not open requirements file: [Errno 2] No such file or directory: '--group'. Most similar past failures suggest ci_config (61% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L347: ERROR: Could not open requirements file: [Errno 2] No such file or directory: '--group'\n> L348: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__31071706986 (lint_format, score 0.68)\n- pydantic__pydantic__36868140759 (ci_config, score 0.67)\n- pydantic__pydantic__36779918080 (ci_config, score 0.65)\n- psf__black__30838063852 (ci_config, score 0.61)\n- home-assistant__core__28702194167 (timeout, score 0.58)\n\nSource log: numpy__numpy__38197650864",
+   "evidence": [
+    "L347: ERROR: Could not open requirements file: [Errno 2] No such file or directory: '--group'",
+    "L348: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 47.94,
+    "diagnose": 172.69,
+    "classify_risk": 5629.45,
+    "propose_actions": 1.75
+   }
+  },
+  {
+   "log_id": "pandas-dev__pandas__38155486886",
+   "label": "unknown",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "test_failure",
+   "confidence": 0.606,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.53,
+   "ticket": null,
+   "evidence": [
+    "L397: plugins: xdist-3.6.1, qt-4.4.0, cov-7.0.0, localserver-0.0.0",
+    "L398: created: 4/4 workers",
+    "L399: 4 workers [253595 items]"
+   ],
+   "stage_ms": {
+    "parse": 55.8,
+    "diagnose": 152.04,
+    "classify_risk": 6273.59,
+    "propose_actions": 1.06
+   }
+  },
+  {
+   "log_id": "pandas-dev__pandas__38159153805",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.614,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.69,
+   "ticket": null,
+   "evidence": [
+    "L380: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 66.78,
+    "diagnose": 156.51,
+    "classify_risk": 6409.14,
+    "propose_actions": 1.09
+   }
+  },
+  {
+   "log_id": "pandas-dev__pandas__38190363902",
+   "label": "build_compile",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.589,
+   "predicted_risk": "high",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.52,
+   "ticket": "Category: ci_config (confidence 0.59, retrieval_vote)\nRisk: high (prompted_llm): The failed CI run resulted in a fatal error while building the code, indicating a critical issue that prevents the project from compiling or shipping.\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 340: ../meson.build:7:13: ERROR: Command `/usr/bin/python3 generate_version.py --print` failed with status 1.. Most similar past failures suggest ci_config (59% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L340: ../meson.build:7:13: ERROR: Command `/usr/bin/python3 generate_version.py --print` failed with status 1.\n> L351: We were unable to automatically build your code. Please replace the call to the autobuild action with your custom build steps. Encountered a fatal error while running \"/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/cpp/tools/autobuild.sh\". Exit code was 1 and last log line was: cpp/autobuilder: autob\n\nSimilar past failures:\n- home-assistant__core__28702194167 (timeout, score 0.54)\n- pydantic__pydantic__36779918080 (ci_config, score 0.49)\n- pydantic__pydantic__36868140759 (ci_config, score 0.48)\n- psf__black__30838063852 (ci_config, score 0.47)\n- home-assistant__core__28701780680 (type_check, score 0.46)\n\nSource log: pandas-dev__pandas__38190363902",
+   "evidence": [
+    "L340: ../meson.build:7:13: ERROR: Command `/usr/bin/python3 generate_version.py --print` failed with status 1.",
+    "L351: We were unable to automatically build your code. Please replace the call to the autobuild action with your custom build steps. Encountered a fatal error while running \"/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/cpp/tools/autobuild.sh\". Exit code was 1 and last log line was: cpp/autobuilder: autobuild summary. See the logs for more details."
+   ],
+   "stage_ms": {
+    "parse": 51.71,
+    "diagnose": 149.81,
+    "classify_risk": 7264.95,
+    "propose_actions": 2.36
+   }
+  },
+  {
+   "log_id": "pandas-dev__pandas__38201489513",
+   "label": "test_failure",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.624,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.53,
+   "ticket": null,
+   "evidence": [
+    "L176: FAILED tests/series/test_agg.py::test_agg_complex - pandas.errors.Pandas4Warning: The median of complex data is deprecated and will raise a TypeError in a future version. Take the median of the real and imaginary parts separately instead.",
+    "L177: ================== 1 failed, 3414 passed, 5 skipped in 35.46s ==================",
+    "L178: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 49.29,
+    "diagnose": 149.65,
+    "classify_risk": 7285.37,
+    "propose_actions": 1.21
+   }
+  },
+  {
+   "log_id": "psf__black__38218106597",
+   "label": "type_check",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.663,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.99,
+   "ticket": "Category: ci_config (confidence 0.66, retrieval_vote)\nRisk: medium (prompted_llm): There are test failures (L105) and a code error (L373) which indicates correctness issues, but no project-wide critical failures or fatal errors reported.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 105:     echo \"::error::PR targeting '$GITHUB_BASE_REF', please refile targeting 'main'.\" && exit 1. Most similar past failures suggest ci_config (66% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L105:     echo \"::error::PR targeting '$GITHUB_BASE_REF', please refile targeting 'main'.\" && exit 1\n> L371: - exit code: 1\n> L373: src/black/strings.py:409:46: error: Item \"Node\" of \"Node | Leaf\" has no attribute \"value\"  [union-attr]\n> L379: Process completed with exit code 1.\n\nSimilar past failures:\n- pydantic__pydantic__36779918080 (ci_config, score 0.67)\n- pydantic__pydantic__36868140759 (ci_config, score 0.66)\n- psf__black__30838063852 (ci_config, score 0.62)\n- home-assistant__core__28702194167 (timeout, score 0.50)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.49)\n\nSource log: psf__black__38218106597",
+   "evidence": [
+    "L105:     echo \"::error::PR targeting '$GITHUB_BASE_REF', please refile targeting 'main'.\" && exit 1",
+    "L371: - exit code: 1",
+    "L373: src/black/strings.py:409:46: error: Item \"Node\" of \"Node | Leaf\" has no attribute \"value\"  [union-attr]",
+    "L379: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 44.74,
+    "diagnose": 163.73,
+    "classify_risk": 5733.55,
+    "propose_actions": 1.92
+   }
+  },
+  {
+   "log_id": "psf__black__38218106686",
+   "label": "build_compile",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.395,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 4.68,
+   "ticket": "Category: ci_config (confidence 0.40, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests and a type-check error\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 373:     raise Exception(f'Error while invoking Mypyc:\\n{process.stdout.decode(\"utf-8\")}'). Most similar past failures suggest ci_config (40% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L373:     raise Exception(f'Error while invoking Mypyc:\\n{process.stdout.decode(\"utf-8\")}')\n> L375: src\\black\\strings.py:409: error: Item \"Node\" of \"Node | Leaf\" has no attribute \"value\"  [union-attr]\n> L380: cibuildwheel: Command ['C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Temp\\\\cibw-run-556ap8oj\\\\cp314-win_amd64\\\\build\\\\venv\\\\Scripts\\\\python.EXE', '-m', 'build', 'D:\\\\a\\\\black\\\\black', '--wheel', '--outdir=C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Temp\\\\cibw-run-556ap8oj\\\\cp314-win_amd64\\\\built_wheel'] fail\n\nSimilar past failures:\n- psf__black__31071707016 (lint_format, score 0.53)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.52)\n- psf__black__30838063852 (ci_config, score 0.52)\n- psf__black__34072879382 (policy_check, score 0.49)\n- pydantic__pydantic__36868140759 (ci_config, score 0.49)\n\nSource log: psf__black__38218106686",
+   "evidence": [
+    "L373:     raise Exception(f'Error while invoking Mypyc:\\n{process.stdout.decode(\"utf-8\")}')",
+    "L375: src\\black\\strings.py:409: error: Item \"Node\" of \"Node | Leaf\" has no attribute \"value\"  [union-attr]",
+    "L380: cibuildwheel: Command ['C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Temp\\\\cibw-run-556ap8oj\\\\cp314-win_amd64\\\\build\\\\venv\\\\Scripts\\\\python.EXE', '-m', 'build', 'D:\\\\a\\\\black\\\\black', '--wheel', '--outdir=C:\\\\Users\\\\runneradmin\\\\AppData\\\\Local\\\\Temp\\\\cibw-run-556ap8oj\\\\cp314-win_amd64\\\\built_wheel'] failed with code 1."
+   ],
+   "stage_ms": {
+    "parse": 50.52,
+    "diagnose": 157.53,
+    "classify_risk": 4427.37,
+    "propose_actions": 1.89
+   }
+  },
+  {
+   "log_id": "pypa__pip__37367540971",
+   "label": "aggregate_gate",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "test_failure",
+   "confidence": 1.0,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.93,
+   "ticket": "Category: test_failure (confidence 1.00, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests and a KeyError indicating a configuration issue\n\nSummary:\n3 failure region(s) in 144 lines; key evidence at line 126: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22. Most similar past failures suggest test_failure (100% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L126: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22\n> L141: KeyError: 'abandoned'\n> L142: Process completed with exit code 1.\n\nSimilar past failures:\n- fastapi__fastapi__35571183172 (test_failure, score 0.65)\n- fastapi__fastapi__35567263837 (test_failure, score 0.65)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.65)\n- pytest-dev__pytest__36312310362 (test_failure, score 0.64)\n- python-poetry__poetry__36312975783 (test_failure, score 0.53)\n\nSource log: pypa__pip__37367540971",
+   "evidence": [
+    "L126: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22",
+    "L141: KeyError: 'abandoned'",
+    "L142: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 12.54,
+    "diagnose": 186.45,
+    "classify_risk": 5697.21,
+    "propose_actions": 1.97
+   }
+  },
+  {
+   "log_id": "pypa__pip__38190395294",
+   "label": "aggregate_gate",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "test_failure",
+   "confidence": 0.822,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 8.06,
+   "ticket": "Category: test_failure (confidence 0.82, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with several assertion errors and a failed session, indicating significant test failures.\n\nSummary:\n9 failure region(s) in 400 lines; key evidence at line 172: E       AssertionError: assert '/tmp/pytest-...ta.version)\\n' == ''. Most similar past failures suggest test_failure (82% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L172: E       AssertionError: assert '/tmp/pytest-...ta.version)\\n' == ''\n> L184: tests/functional/test_install.py:776: AssertionError\n> L244: FAILED tests/functional/test_install.py::test_install_quiet - AssertionError: assert '/tmp/pytest-...ta.version)\\n' == ''\n> L250: ====== 1 failed, 1158 passed, 41 skipped, 24 xfailed in 265.96s (0:04:25) ======\n> L252: nox > Session test-3.10 failed.\n> L253: Process completed with exit code 1.\n> L388: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22\n> L398: Process completed with exit code 1.\n\nSimilar past failures:\n- fastapi__fastapi__35571183172 (test_failure, score 0.86)\n- fastapi__fastapi__35567263837 (test_failure, score 0.86)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.83)\n- pytest-dev__pytest__36312310362 (test_failure, score 0.83)\n- pydantic__pydantic__36785268604 (type_check, score 0.73)\n\nSource log: pypa__pip__38190395294",
+   "evidence": [
+    "L172: E       AssertionError: assert '/tmp/pytest-...ta.version)\\n' == ''",
+    "L184: tests/functional/test_install.py:776: AssertionError",
+    "L244: FAILED tests/functional/test_install.py::test_install_quiet - AssertionError: assert '/tmp/pytest-...ta.version)\\n' == ''",
+    "L250: ====== 1 failed, 1158 passed, 41 skipped, 24 xfailed in 265.96s (0:04:25) ======",
+    "L252: nox > Session test-3.10 failed.",
+    "L253: Process completed with exit code 1.",
+    "L388: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22",
+    "L398: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 56.26,
+    "diagnose": 139.36,
+    "classify_risk": 7809.93,
+    "propose_actions": 2.47
+   }
+  },
+  {
+   "log_id": "pypa__pip__38203070582",
+   "label": "policy_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "docs_check",
+   "confidence": 0.45,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.67,
+   "ticket": "Category: docs_check (confidence 0.45, retrieval_vote)\nRisk: low (prompted_llm): The failure only mentions a missing pip PR checklist and a process completion with exit code 1, indicating a transient or hygiene issue rather than a critical project failure.\n\nSummary:\n2 failure region(s) in 190 lines; key evidence at line 173: Could not find the pip PR checklist in the pull request body. This probably means you've used a tool to submit your PR rather than the GitHub UI. Please add the required checklist from CONTRIBUTING.md. Most similar past failures suggest doc\n\nEvidence (quoted from the log, untrusted):\n> L173: Could not find the pip PR checklist in the pull request body. This probably means you've used a tool to submit your PR rather than the GitHub UI. Please add the required checklist from CONTRIBUTING.md.\n> L174: Process completed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__35479449080 (docs_check, score 0.42)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.37)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.34)\n- astral-sh__ruff__33829682997 (test_failure, score 0.31)\n- astral-sh__ruff__33831722570 (test_failure, score 0.31)\n\nSource log: pypa__pip__38203070582",
+   "evidence": [
+    "L173: Could not find the pip PR checklist in the pull request body. This probably means you've used a tool to submit your PR rather than the GitHub UI. Please add the required checklist from CONTRIBUTING.md.",
+    "L174: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 22.19,
+    "diagnose": 159.41,
+    "classify_risk": 7452.02,
+    "propose_actions": 2.39
+   }
+  },
+  {
+   "log_id": "pypa__pip__38203075276",
+   "label": "policy_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "docs_check",
+   "confidence": 0.45,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.97,
+   "ticket": "Category: docs_check (confidence 0.45, retrieval_vote)\nRisk: low (prompted_llm): The PR failed the checklist with an exit code, but the specific issue is a missing pip checklist, which is a hygiene problem that a retry should fix.\n\nSummary:\n2 failure region(s) in 190 lines; key evidence at line 173: Could not find the pip PR checklist in the pull request body. This probably means you've used a tool to submit your PR rather than the GitHub UI. Please add the required checklist from CONTRIBUTING.md. Most similar past failures suggest doc\n\nEvidence (quoted from the log, untrusted):\n> L173: Could not find the pip PR checklist in the pull request body. This probably means you've used a tool to submit your PR rather than the GitHub UI. Please add the required checklist from CONTRIBUTING.md.\n> L174: Process completed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__35479449080 (docs_check, score 0.42)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.37)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.34)\n- astral-sh__ruff__33829682997 (test_failure, score 0.31)\n- astral-sh__ruff__33831722570 (test_failure, score 0.31)\n\nSource log: pypa__pip__38203075276",
+   "evidence": [
+    "L173: Could not find the pip PR checklist in the pull request body. This probably means you've used a tool to submit your PR rather than the GitHub UI. Please add the required checklist from CONTRIBUTING.md.",
+    "L174: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 20.77,
+    "diagnose": 171.99,
+    "classify_risk": 5748.3,
+    "propose_actions": 2.06
+   }
+  },
+  {
+   "log_id": "pytest-dev__pytest__37167493424",
+   "label": "docs_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "docs_check",
+   "confidence": 0.497,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "action",
+   "secret_lines_in_log": 0,
+   "seconds": 6.76,
+   "ticket": "Category: docs_check (confidence 0.50, retrieval_vote)\nRisk: low (prompted_llm): The CI run failed a 'docs-checklinks' test, but the log only mentions a specific test failure without further details.\n\nSummary:\n1 failure region(s) in 400 lines; key evidence at line 379:   docs-checklinks: FAIL code 1 (721.03=setup[3.51]+cmd[717.53] seconds). Most similar past failures suggest docs_check (50% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L379:   docs-checklinks: FAIL code 1 (721.03=setup[3.51]+cmd[717.53] seconds)\n\nSimilar past failures:\n- pytest-dev__pytest__35479449080 (docs_check, score 0.80)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.80)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.58)\n- psf__black__30838063852 (ci_config, score 0.52)\n- astral-sh__ruff__33831723431 (test_failure, score 0.51)\n\nSource log: pytest-dev__pytest__37167493424",
+   "evidence": [
+    "L379:   docs-checklinks: FAIL code 1 (721.03=setup[3.51]+cmd[717.53] seconds)"
+   ],
+   "stage_ms": {
+    "parse": 56.24,
+    "diagnose": 180.86,
+    "classify_risk": 6477.0,
+    "propose_actions": 1.94
+   }
+  },
+  {
+   "log_id": "pytest-dev__pytest__38099531711",
+   "label": "docs_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "docs_check",
+   "confidence": 0.505,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 6.17,
+   "ticket": "Category: docs_check (confidence 0.51, retrieval_vote)\nRisk: medium (prompted_llm): Failed tests indicate a potential issue with the correctness of the project, but can be transient or hygiene-related with a retry\n\nSummary:\n1 failure region(s) in 400 lines; key evidence at line 379:   docs-checklinks: FAIL code 1 (905.32=setup[3.22]+cmd[902.10] seconds). Most similar past failures suggest docs_check (50% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L379:   docs-checklinks: FAIL code 1 (905.32=setup[3.22]+cmd[902.10] seconds)\n\nSimilar past failures:\n- pytest-dev__pytest__36283392425 (docs_check, score 0.85)\n- pytest-dev__pytest__35479449080 (docs_check, score 0.82)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.59)\n- astral-sh__ruff__33831723431 (test_failure, score 0.53)\n- astral-sh__ruff__33831722570 (test_failure, score 0.52)\n\nSource log: pytest-dev__pytest__38099531711",
+   "evidence": [
+    "L379:   docs-checklinks: FAIL code 1 (905.32=setup[3.22]+cmd[902.10] seconds)"
+   ],
+   "stage_ms": {
+    "parse": 61.09,
+    "diagnose": 160.09,
+    "classify_risk": 5896.94,
+    "propose_actions": 1.96
+   }
+  },
+  {
+   "log_id": "pytest-dev__pytest__38121360274",
+   "label": "unknown",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "test_failure",
+   "confidence": 0.85,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 8.14,
+   "ticket": "Category: test_failure (confidence 0.85, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with failing tests and type-check errors, indicating a significant issue but not a project-wide failure.\n\nSummary:\n5 failure region(s) in 400 lines; key evidence at line 273: FAILED testing/test_debugging.py::TestPDB::test_pdb_unittest_postmortem - pexpect.exceptions.TIMEOUT: Timeout exceeded.. Most similar past failures suggest test_failure (85% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L273: FAILED testing/test_debugging.py::TestPDB::test_pdb_unittest_postmortem - pexpect.exceptions.TIMEOUT: Timeout exceeded.\n> L307: = 1 failed, 4694 passed, 50 skipped, 13 xfailed, 7 xpassed, 2 warnings in 114.41s (0:01:54) =\n> L309:   py310-xdist: FAIL code 1 (124.56=setup[9.05]+cmd[115.51] seconds)\n> L394: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22\n> L398: Process completed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__36312310362 (test_failure, score 1.00)\n- pytest-dev__pytest__36311103335 (test_failure, score 1.00)\n- fastapi__fastapi__35567263837 (test_failure, score 0.97)\n- fastapi__fastapi__35571183172 (test_failure, score 0.97)\n- pydantic__pydantic__36785268604 (type_check, score 0.69)\n\nSource log: pytest-dev__pytest__38121360274",
+   "evidence": [
+    "L273: FAILED testing/test_debugging.py::TestPDB::test_pdb_unittest_postmortem - pexpect.exceptions.TIMEOUT: Timeout exceeded.",
+    "L307: = 1 failed, 4694 passed, 50 skipped, 13 xfailed, 7 xpassed, 2 warnings in 114.41s (0:01:54) =",
+    "L309:   py310-xdist: FAIL code 1 (124.56=setup[9.05]+cmd[115.51] seconds)",
+    "L394: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22",
+    "L398: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 74.13,
+    "diagnose": 101.4,
+    "classify_risk": 7894.29,
+    "propose_actions": 3.04
+   }
+  },
+  {
+   "log_id": "pytest-dev__pytest__38121360864",
+   "label": "unknown",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "test_failure",
+   "confidence": 0.85,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.95,
+   "ticket": "Category: test_failure (confidence 0.85, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests and type-check errors.\n\nSummary:\n3 failure region(s) in 400 lines; key evidence at line 308:   py315-xdist: FAIL code 3 (12.67=setup[11.94]+cmd[0.73] seconds). Most similar past failures suggest test_failure (85% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L308:   py315-xdist: FAIL code 3 (12.67=setup[11.94]+cmd[0.73] seconds)\n> L394: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22\n> L398: Process completed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__36312310362 (test_failure, score 1.00)\n- pytest-dev__pytest__36311103335 (test_failure, score 1.00)\n- fastapi__fastapi__35567263837 (test_failure, score 0.97)\n- fastapi__fastapi__35571183172 (test_failure, score 0.97)\n- pydantic__pydantic__36785268604 (type_check, score 0.70)\n\nSource log: pytest-dev__pytest__38121360864",
+   "evidence": [
+    "L308:   py315-xdist: FAIL code 3 (12.67=setup[11.94]+cmd[0.73] seconds)",
+    "L394: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22",
+    "L398: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 49.94,
+    "diagnose": 104.3,
+    "classify_risk": 5752.77,
+    "propose_actions": 1.81
+   }
+  },
+  {
+   "log_id": "python-poetry__poetry__38201401884",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.842,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 7.21,
+   "ticket": null,
+   "evidence": [
+    "L283:             exception = tarfile.OutsideDestinationError",
+    "L341: FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError",
+    "L342: = 1 failed, 3338 passed, 34 skipped, 2 xfailed, 75 warnings in 65.47s (0:01:05) =",
+    "L343: Process completed with exit code 1.",
+    "L399: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 59.12,
+    "diagnose": 129.36,
+    "classify_risk": 6963.88,
+    "propose_actions": 1.53
+   }
+  },
+  {
+   "log_id": "python-poetry__poetry__38217088589",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.842,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 4.91,
+   "ticket": "Category: test_failure (confidence 0.84, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with failed tests and timeouts, indicating potential problems with the project's functionality.\n\nSummary:\n5 failure region(s) in 400 lines; key evidence at line 284:             exception = tarfile.OutsideDestinationError. Most similar past failures suggest test_failure (84% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L284:             exception = tarfile.OutsideDestinationError\n> L341: FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError\n> L342: ===== 1 failed, 3344 passed, 34 skipped, 2 xfailed, 74 warnings in 57.52s ======\n> L343: Process completed with exit code 1.\n> L399: Process completed with exit code 1.\n\nSimilar past failures:\n- python-poetry__poetry__36312975783 (test_failure, score 0.99)\n- python-poetry__poetry__36335583674 (test_failure, score 0.99)\n- python-poetry__poetry__34606971513 (ci_config, score 0.59)\n- fastapi__fastapi__35571183172 (test_failure, score 0.59)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.59)\n\nSource log: python-poetry__poetry__38217088589",
+   "evidence": [
+    "L284:             exception = tarfile.OutsideDestinationError",
+    "L341: FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError",
+    "L342: ===== 1 failed, 3344 passed, 34 skipped, 2 xfailed, 74 warnings in 57.52s ======",
+    "L343: Process completed with exit code 1.",
+    "L399: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 67.31,
+    "diagnose": 116.19,
+    "classify_risk": 4657.9,
+    "propose_actions": 2.25
+   }
+  },
+  {
+   "log_id": "rust-lang__cargo__38218098114",
+   "label": "build_compile",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.818,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.99,
+   "ticket": null,
+   "evidence": [
+    "L162: error[E0425]: cannot find value `toolchain_path` in this scope",
+    "L175: error: could not compile `cargo` (test \"testsuite\") due to 1 previous error",
+    "L178: Process completed with exit code 1.",
+    "L399: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 35.2,
+    "diagnose": 75.72,
+    "classify_risk": 6837.5,
+    "propose_actions": 1.45
+   }
+  },
+  {
+   "log_id": "rust-lang__cargo__38222465819",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.818,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 7.54,
+   "ticket": null,
+   "evidence": [
+    "L214:         8 + [ERROR] failed to get `bar` as a dependency of package `foo v0.1.0 ([ROOT]/foo)`",
+    "L238: test result: FAILED. 4436 passed; 1 failed; 7 ignored; 0 measured; 0 filtered out; finished in 473.15s",
+    "L240: error: test failed, to rerun pass `-p cargo --test testsuite`",
+    "L241: Process completed with exit code 101.",
+    "L400: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 52.65,
+    "diagnose": 76.44,
+    "classify_risk": 7370.87,
+    "propose_actions": 1.09
+   }
+  },
+  {
+   "log_id": "scikit-learn__scikit-learn__38110868593",
+   "label": "policy_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.406,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.02,
+   "ticket": "Category: ci_config (confidence 0.41, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with a failing test, indicating potential issues with the codebase that require attention.\n\nSummary:\n1 failure region(s) in 400 lines; key evidence at line 367: Process completed with exit code 1.. Most similar past failures suggest ci_config (41% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L367: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__34076593565 (ci_config, score 0.30)\n- psf__black__34589296835 (ci_config, score 0.30)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.30)\n- python-poetry__poetry__36312975783 (test_failure, score 0.29)\n- python-poetry__poetry__36335583674 (test_failure, score 0.29)\n\nSource log: scikit-learn__scikit-learn__38110868593",
+   "evidence": [
+    "L367: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 60.0,
+    "diagnose": 172.04,
+    "classify_risk": 5733.62,
+    "propose_actions": 1.43
+   }
+  },
+  {
+   "log_id": "scikit-learn__scikit-learn__38117079621",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.827,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.16,
+   "ticket": "Category: test_failure (confidence 0.83, retrieval_vote)\nRisk: medium (prompted_llm): Corrections are red, indicating failing tests and type-check errors, suggesting a potential issue with the project's build or configuration.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 200: Found 2 errors.. Most similar past failures suggest test_failure (83% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L200: Found 2 errors.\n> L251: Process completed with exit code 1.\n> L389: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22\n> L398: Process completed with exit code 1.\n\nSimilar past failures:\n- fastapi__fastapi__35571183172 (test_failure, score 0.84)\n- fastapi__fastapi__35567263837 (test_failure, score 0.84)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.84)\n- pytest-dev__pytest__36312310362 (test_failure, score 0.83)\n- pydantic__pydantic__36785268604 (type_check, score 0.70)\n\nSource log: scikit-learn__scikit-learn__38117079621",
+   "evidence": [
+    "L200: Found 2 errors.",
+    "L251: Process completed with exit code 1.",
+    "L389: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22",
+    "L398: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 48.27,
+    "diagnose": 124.47,
+    "classify_risk": 6920.88,
+    "propose_actions": 2.14
+   }
+  },
+  {
+   "log_id": "scikit-learn__scikit-learn__38130261619",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.826,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 7.78,
+   "ticket": null,
+   "evidence": [
+    "L179: E           AssertionError:",
+    "L212: ../sklearn/linear_model/tests/test_logistic.py:3015: AssertionError",
+    "L236: FAILED linear_model/tests/test_logistic.py::test_equivalence_of_default_C_and_alpha[lbfgs-True-3] - AssertionError:",
+    "L250: = 1 failed, 39667 passed, 13837 skipped, 228 xfailed, 118 xpassed, 4840 warnings in 463.69s (0:07:43) =",
+    "L251: Process completed with exit code 1.",
+    "L389: # \u274c Some of the required to succeed jobs failed \ud83d\ude22\ud83d\ude22\ud83d\ude22",
+    "L398: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 125.74,
+    "diagnose": 153.86,
+    "classify_risk": 7379.5,
+    "propose_actions": 1.31
+   }
+  },
+  {
+   "log_id": "scikit-learn__scikit-learn__38220142959",
+   "label": "policy_check",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.394,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.87,
+   "ticket": "Category: test_failure (confidence 0.39, retrieval_vote)\nRisk: low (prompted_llm): The log indicates a process completion with an exit code of 1, suggesting a non-fatal error.\n\nSummary:\n1 failure region(s) in 37 lines; key evidence at line 37: Process completed with exit code 1.. Most similar past failures suggest test_failure (39% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L37: Process completed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__36283392425 (docs_check, score 0.33)\n- python-poetry__poetry__36312975783 (test_failure, score 0.30)\n- python-poetry__poetry__36335583674 (test_failure, score 0.30)\n- psf__black__34076593565 (ci_config, score 0.29)\n- psf__black__34589296835 (ci_config, score 0.29)\n\nSource log: scikit-learn__scikit-learn__38220142959",
+   "evidence": [
+    "L37: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 9.1,
+    "diagnose": 159.65,
+    "classify_risk": 5673.85,
+    "propose_actions": 2.11
+   }
+  },
+  {
+   "log_id": "tokio-rs__tokio__38052518006",
+   "label": "build_compile",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.395,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 7.79,
+   "ticket": "Category: build_compile (confidence 0.40, retrieval_vote)\nRisk: low (prompted_llm): The failed CI run is due to a library resolution failure, which is a hygiene or transient problem that can likely be fixed with a retry.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 137:   printf '::error::install-action: %s\\n' \"$*\". Most similar past failures suggest build_compile (40% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L137:   printf '::error::install-action: %s\\n' \"$*\"\n> L352: error[E0433]: failed to resolve: use of undeclared crate or module `pipe`\n> L366: error: could not compile `tokio` (lib) due to 1 previous error\n> L367: Process completed with exit code 101.\n\nSimilar past failures:\n- astral-sh__ruff__33785104533 (infra_network, score 0.51)\n- astral-sh__ruff__33829682997 (test_failure, score 0.47)\n- astral-sh__ruff__33661538666 (build_compile, score 0.45)\n- astral-sh__ruff__33661538690 (build_compile, score 0.45)\n- psf__black__31071707016 (lint_format, score 0.40)\n\nSource log: tokio-rs__tokio__38052518006",
+   "evidence": [
+    "L137:   printf '::error::install-action: %s\\n' \"$*\"",
+    "L352: error[E0433]: failed to resolve: use of undeclared crate or module `pipe`",
+    "L366: error: could not compile `tokio` (lib) due to 1 previous error",
+    "L367: Process completed with exit code 101."
+   ],
+   "stage_ms": {
+    "parse": 50.58,
+    "diagnose": 116.45,
+    "classify_risk": 7568.09,
+    "propose_actions": 2.34
+   }
+  },
+  {
+   "log_id": "tokio-rs__tokio__38134725610",
+   "label": "build_compile",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.497,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 5.19,
+   "ticket": "Category: build_compile (confidence 0.50, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is compromised with failing tests and type-check errors, indicating a significant issue with the build process.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope. Most similar past failures suggest build_compile (50% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L347: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L366: error: could not compile `tokio` (lib test) due to 2 previous errors\n> L367: Process completed with exit code 101.\n\nSimilar past failures:\n- astral-sh__ruff__33661538666 (build_compile, score 0.50)\n- astral-sh__ruff__33661538690 (build_compile, score 0.50)\n- prettier__prettier__35273463673 (ci_config, score 0.34)\n- home-assistant__core__28701780680 (type_check, score 0.34)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.32)\n\nSource log: tokio-rs__tokio__38134725610",
+   "evidence": [
+    "L329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope",
+    "L347: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope",
+    "L366: error: could not compile `tokio` (lib test) due to 2 previous errors",
+    "L367: Process completed with exit code 101."
+   ],
+   "stage_ms": {
+    "parse": 49.18,
+    "diagnose": 154.93,
+    "classify_risk": 4948.7,
+    "propose_actions": 2.44
+   }
+  },
+  {
+   "log_id": "tokio-rs__tokio__38179284528",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.817,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 6.5,
+   "ticket": null,
+   "evidence": [
+    "L364: test result: FAILED. 107 passed; 1 failed; 1 ignored; 0 measured; 0 filtered out; finished in 2.11s",
+    "L366: error: test failed, to rerun pass `-p tokio --lib`",
+    "L367: Process completed with exit code 101."
+   ],
+   "stage_ms": {
+    "parse": 67.38,
+    "diagnose": 155.11,
+    "classify_risk": 6215.04,
+    "propose_actions": 1.11
+   }
+  },
+  {
+   "log_id": "tokio-rs__tokio__38213701855",
+   "label": "lint_format",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "build_compile",
+   "confidence": 0.382,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 5.95,
+   "ticket": "Category: build_compile (confidence 0.38, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red due to failing tests and type-check errors indicated by an exit code of 1.\n\nSummary:\n1 failure region(s) in 400 lines; key evidence at line 367: Process completed with exit code 1.. Most similar past failures suggest build_compile (38% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L367: Process completed with exit code 1.\n\nSimilar past failures:\n- astral-sh__ruff__33829682997 (test_failure, score 0.47)\n- astral-sh__ruff__33785104533 (infra_network, score 0.47)\n- astral-sh__ruff__33661538666 (build_compile, score 0.41)\n- astral-sh__ruff__33661538690 (build_compile, score 0.41)\n- psf__black__31071707016 (lint_format, score 0.38)\n\nSource log: tokio-rs__tokio__38213701855",
+   "evidence": [
+    "L367: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 43.92,
+    "diagnose": 150.16,
+    "classify_risk": 5710.07,
+    "propose_actions": 1.97
+   }
+  },
+  {
+   "log_id": "vercel__next.js__38214550248",
+   "label": "unknown",
+   "gold_risk": "medium",
+   "no_cause_in_log": true,
+   "predicted_category": "test_failure",
+   "confidence": 1.0,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.22,
+   "ticket": "Category: test_failure (confidence 1.00, retrieval_vote)\nRisk: medium (prompted_llm): The build process was unsuccessful with an exit code of 1, indicating a potential correctness issue without the full log context.\n\nSummary:\n1 failure region(s) in 400 lines; key evidence at line 399: Process completed with exit code 1.. Most similar past failures suggest test_failure (100% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L399: Process completed with exit code 1.\n\nSimilar past failures:\n- python-poetry__poetry__36312975783 (test_failure, score 0.64)\n- python-poetry__poetry__36335583674 (test_failure, score 0.64)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.52)\n- pytest-dev__pytest__36312310362 (test_failure, score 0.51)\n- fastapi__fastapi__35571183172 (test_failure, score 0.50)\n\nSource log: vercel__next.js__38214550248",
+   "evidence": [
+    "L399: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 66.35,
+    "diagnose": 65.47,
+    "classify_risk": 6028.4,
+    "propose_actions": 1.81
+   }
+  },
+  {
+   "log_id": "vercel__next.js__38217690831",
+   "label": "infra_network",
+   "gold_risk": "low",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.806,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 8.04,
+   "ticket": "Category: test_failure (confidence 0.81, retrieval_vote)\nRisk: medium (prompted_llm): Multiple tests failed, including a GitHub API request error, indicating a potential issue with the CI configuration or test setup.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 321: Error: Command failed: node test/update-bundler-manifest.js --bundler rspack --test-suite dev --override. Most similar past failures suggest test_failure (81% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L321: Error: Command failed: node test/update-bundler-manifest.js --bundler rspack --test-suite dev --override\n> L325: Error: Command failed with exit code 4 (EINTR): gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development\n> L362:     'Error: Command failed with exit code 4 (EINTR): gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development\\n' +\n> L382: Process completed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35097774750 (test_failure, score 0.50)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.41)\n- fastapi__fastapi__35567263837 (test_failure, score 0.41)\n- fastapi__fastapi__35571183172 (test_failure, score 0.41)\n- prettier__prettier__35273463576 (test_failure, score 0.40)\n\nSource log: vercel__next.js__38217690831",
+   "evidence": [
+    "L321: Error: Command failed: node test/update-bundler-manifest.js --bundler rspack --test-suite dev --override",
+    "L325: Error: Command failed with exit code 4 (EINTR): gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development",
+    "L362:     'Error: Command failed with exit code 4 (EINTR): gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development\\n' +",
+    "L382: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 51.86,
+    "diagnose": 133.24,
+    "classify_risk": 7796.58,
+    "propose_actions": 2.55
+   }
+  },
+  {
+   "log_id": "vercel__next.js__38223914207",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.388,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 6.08,
+   "ticket": "Category: ci_config (confidence 0.39, retrieval_vote)\nRisk: low (prompted_llm): Transient problems detected with 'Notice emission, user communication and trust evaluated separately' failures in two nudge workflows, which can be addressed with retries or re-runs.\n\nSummary:\n3 failure region(s) in 171 lines; key evidence at line 62: \u2717 codex/latest-nudge [1/1] (vercel-ai-gateway/codex \u00b7 openai/gpt-5.6-terra) (244.7s) - failed: Notice emission, user communication and trust evaluated separately. Most similar past failures suggest ci_config (39% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L62: \u2717 codex/latest-nudge [1/1] (vercel-ai-gateway/codex \u00b7 openai/gpt-5.6-terra) (244.7s) - failed: Notice emission, user communication and trust evaluated separately\n> L150: \u2717 claude/security-nudge [1/1] (vercel-ai-gateway/claude-code \u00b7 claude-sonnet-4-6) (245.4s) - failed: Notice emission, user communication and trust evaluated separately\n> L170: \u2009ELIFECYCLE\u2009 Command failed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__36283392425 (docs_check, score 0.35)\n- python-poetry__poetry__36297293924 (ci_config, score 0.30)\n- pydantic__pydantic__36785268604 (type_check, score 0.30)\n- psf__black__31070601941 (infra_network, score 0.29)\n- pydantic__pydantic__36712532115 (ci_config, score 0.29)\n\nSource log: vercel__next.js__38223914207",
+   "evidence": [
+    "L62: \u2717 codex/latest-nudge [1/1] (vercel-ai-gateway/codex \u00b7 openai/gpt-5.6-terra) (244.7s) - failed: Notice emission, user communication and trust evaluated separately",
+    "L150: \u2717 claude/security-nudge [1/1] (vercel-ai-gateway/claude-code \u00b7 claude-sonnet-4-6) (245.4s) - failed: Notice emission, user communication and trust evaluated separately",
+    "L170: \u2009ELIFECYCLE\u2009 Command failed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 23.43,
+    "diagnose": 161.94,
+    "classify_risk": 5857.87,
+    "propose_actions": 1.98
+   }
+  },
+  {
+   "log_id": "vercel__next.js__38223933479",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "docs_check",
+   "confidence": 0.226,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": false,
+    "grounded": true,
+    "risk": true,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "diagnose",
+   "secret_lines_in_log": 0,
+   "seconds": 7.53,
+   "ticket": "Category: docs_check (confidence 0.23, retrieval_vote)\nRisk: medium (prompted_llm): The failed CI run indicates a correctness issue with the code, specifically a timeout and a command failure with exit code 1.\n\nSummary:\n2 failure region(s) in 98 lines; key evidence at line 77: \u2717 claude/security-nudge [1/1] (vercel-ai-gateway/claude-code \u00b7 claude-sonnet-4-6) (197.7s) - failed: Notice emission, user communication and trust evaluated separately. Most similar past failures suggest docs_check (23% of the retrieval vote)\n\nEvidence (quoted from the log, untrusted):\n> L77: \u2717 claude/security-nudge [1/1] (vercel-ai-gateway/claude-code \u00b7 claude-sonnet-4-6) (197.7s) - failed: Notice emission, user communication and trust evaluated separately\n> L97: \u2009ELIFECYCLE\u2009 Command failed with exit code 1.\n\nSimilar past failures:\n- pytest-dev__pytest__36283392425 (docs_check, score 0.35)\n- python-poetry__poetry__36297293924 (ci_config, score 0.30)\n- pydantic__pydantic__36785268604 (type_check, score 0.30)\n- psf__black__31070601941 (infra_network, score 0.29)\n- astral-sh__ruff__33829682997 (test_failure, score 0.29)\n\nSource log: vercel__next.js__38223933479",
+   "evidence": [
+    "L77: \u2717 claude/security-nudge [1/1] (vercel-ai-gateway/claude-code \u00b7 claude-sonnet-4-6) (197.7s) - failed: Notice emission, user communication and trust evaluated separately",
+    "L97: \u2009ELIFECYCLE\u2009 Command failed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 14.87,
+    "diagnose": 172.21,
+    "classify_risk": 7317.24,
+    "propose_actions": 1.93
+   }
+  },
+  {
+   "log_id": "vitejs__vite__38193411344",
+   "label": "dependency_install",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "dependency_install",
+   "confidence": 0.383,
+   "predicted_risk": "low",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 6.99,
+   "ticket": "Category: dependency_install (confidence 0.38, retrieval_vote)\nRisk: low (prompted_llm): The failed CI run is due to an outdated lockfile and a dependency install failure, which is a transient and hygiene-related issue.\n\nSummary:\n2 failure region(s) in 251 lines; key evidence at line 204: Error: ERR_PNPM_OUTDATED_LOCKFILE. Most similar past failures suggest dependency_install (38% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L204: Error: ERR_PNPM_OUTDATED_LOCKFILE\n> L221: pnpm install --no-runtime exited with status 1\n\nSimilar past failures:\n- encode__httpx__35071320524 (build_compile, score 0.49)\n- pydantic__pydantic__36666298158 (dependency_install, score 0.38)\n- psf__black__31071707016 (lint_format, score 0.37)\n- astral-sh__ruff__33784523740 (dependency_install, score 0.37)\n- pydantic__pydantic__36712532115 (ci_config, score 0.34)\n\nSource log: vitejs__vite__38193411344",
+   "evidence": [
+    "L204: Error: ERR_PNPM_OUTDATED_LOCKFILE",
+    "L221: pnpm install --no-runtime exited with status 1"
+   ],
+   "stage_ms": {
+    "parse": 32.46,
+    "diagnose": 162.7,
+    "classify_risk": 6755.94,
+    "propose_actions": 1.61
+   }
+  },
+  {
+   "log_id": "vitejs__vite__38207643579",
+   "label": "ci_config",
+   "gold_risk": "high",
+   "no_cause_in_log": false,
+   "predicted_category": "ci_config",
+   "confidence": 0.595,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket",
+    "notify"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": false,
+    "action": false,
+    "safety": true
+   },
+   "trajectory_correct": false,
+   "first_error": "risk",
+   "secret_lines_in_log": 0,
+   "seconds": 6.02,
+   "ticket": "Category: ci_config (confidence 0.59, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with a failing test, indicating potential issues with the project's codebase.\n\nSummary:\n1 failure region(s) in 341 lines; key evidence at line 324: Process completed with exit code 1.. Most similar past failures suggest ci_config (60% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L324: Process completed with exit code 1.\n\nSimilar past failures:\n- encode__httpx__35071320524 (build_compile, score 0.46)\n- psf__black__30838063852 (ci_config, score 0.43)\n- pydantic__pydantic__36868140759 (ci_config, score 0.43)\n- pydantic__pydantic__36779918080 (ci_config, score 0.42)\n- psf__black__31070601941 (infra_network, score 0.40)\n\nSource log: vitejs__vite__38207643579",
+   "evidence": [
+    "L324: Process completed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 44.99,
+    "diagnose": 165.49,
+    "classify_risk": 5766.32,
+    "propose_actions": 1.89
+   }
+  },
+  {
+   "log_id": "vitejs__vite__38214414602",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 1.0,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 7.61,
+   "ticket": "Category: test_failure (confidence 1.00, retrieval_vote)\nRisk: medium (prompted_llm): Correctness is red with failing tests and type-check errors, indicating potential issues with the project's functionality and maintainability.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 343: AssertionError: expected '.source-input:before {\\n  content: \"/\u2026' to contain '/postcss-source-input.css?inline&quer\u2026'. Most similar past failures suggest test_failure (100% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L343: AssertionError: expected '.source-input:before {\\n  content: \"/\u2026' to contain '/postcss-source-input.css?inline&quer\u2026'\n> L358:  Test Files  1 failed | 92 passed | 18 skipped (111)\n> L366:       Tests  1 failed | 1165 passed | 182 skipped (1348)\n> L373: [ELIFECYCLE] Command failed with exit code 1.\n\nSimilar past failures:\n- prettier__prettier__35273463576 (test_failure, score 0.43)\n- prettier__prettier__35097774750 (test_failure, score 0.42)\n- prettier__prettier__35193227878 (test_failure, score 0.42)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.41)\n- prettier__prettier__35193227738 (test_failure, score 0.41)\n\nSource log: vitejs__vite__38214414602",
+   "evidence": [
+    "L343: AssertionError: expected '.source-input:before {\\n  content: \"/\u2026' to contain '/postcss-source-input.css?inline&quer\u2026'",
+    "L358:  Test Files  1 failed | 92 passed | 18 skipped (111)",
+    "L366:       Tests  1 failed | 1165 passed | 182 skipped (1348)",
+    "L373: [ELIFECYCLE] Command failed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 68.5,
+    "diagnose": 140.06,
+    "classify_risk": 7310.97,
+    "propose_actions": 2.14
+   }
+  },
+  {
+   "log_id": "vitejs__vite__38218454942",
+   "label": "test_failure",
+   "gold_risk": "medium",
+   "no_cause_in_log": false,
+   "predicted_category": "test_failure",
+   "confidence": 0.794,
+   "predicted_risk": "medium",
+   "risk_method": "prompted_llm",
+   "tools": [
+    "create_ticket"
+   ],
+   "expected_tools": [
+    "create_ticket"
+   ],
+   "checks": {
+    "parse": true,
+    "diagnose": true,
+    "grounded": true,
+    "risk": true,
+    "action": true,
+    "safety": true
+   },
+   "trajectory_correct": true,
+   "first_error": null,
+   "secret_lines_in_log": 0,
+   "seconds": 7.32,
+   "ticket": "Category: test_failure (confidence 0.79, retrieval_vote)\nRisk: medium (prompted_llm): Correspondence errors in tests, and an unexpected failure in the build process indicate potential issues that could impact the project's overall correctness.\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 328: AssertionError: expected 'black' to be 'green' // Object.is equality. Most similar past failures suggest test_failure (79% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L328: AssertionError: expected 'black' to be 'green' // Object.is equality\n> L344: AssertionError: expected '' to match '_mod_'\n> L362:  Test Files  1 failed | 84 passed | 22 skipped (107)\n> L370: [ELIFECYCLE] Command failed with exit code 1.\n\nSimilar past failures:\n- pydantic__pydantic__36666298158 (dependency_install, score 0.44)\n- prettier__prettier__35097774750 (test_failure, score 0.43)\n- astral-sh__ruff__33831723431 (test_failure, score 0.43)\n- fastapi__fastapi__35571183172 (test_failure, score 0.43)\n- astral-sh__ruff__33831722570 (test_failure, score 0.43)\n\nSource log: vitejs__vite__38218454942",
+   "evidence": [
+    "L328: AssertionError: expected 'black' to be 'green' // Object.is equality",
+    "L344: AssertionError: expected '' to match '_mod_'",
+    "L362:  Test Files  1 failed | 84 passed | 22 skipped (107)",
+    "L370: [ELIFECYCLE] Command failed with exit code 1."
+   ],
+   "stage_ms": {
+    "parse": 73.19,
+    "diagnose": 134.46,
+    "classify_risk": 7022.78,
+    "propose_actions": 2.06
+   }
+  }
+ ],
+ "judge": [
+  {
+   "log_id": "apache__airflow__38215063289",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "django__django__38216259965",
+   "supported": false,
+   "control_flagged": false
+  },
+  {
+   "log_id": "encode__httpx__36918360067",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "encode__httpx__37009481166",
+   "supported": true,
+   "control_flagged": true
+  },
+  {
+   "log_id": "eslint__eslint__37486997319",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "eslint__eslint__38171304253",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "eslint__eslint__38181363682",
+   "supported": true,
+   "control_flagged": true
+  },
+  {
+   "log_id": "eslint__eslint__38187322244",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "facebook__react__38097296319",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "facebook__react__38124697131",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "facebook__react__38130034916",
+   "supported": false,
+   "control_flagged": true
+  },
+  {
+   "log_id": "facebook__react__38186749956",
+   "supported": false,
+   "control_flagged": false
+  },
+  {
+   "log_id": "home-assistant__core__38223769150",
+   "supported": true,
+   "control_flagged": false
+  },
+  {
+   "log_id": "home-assistant__core__38223769327",
+   "supported": true,
+   "control_flagged": true
+  },
+  {
+   "log_id": "huggingface__transformers__38213953453",
+   "supported": false,
+   "control_flagged": true
+  },
+  {
+   "log_id": "huggingface__transformers__38216223914",
+   "supported": false,
+   "control_flagged": false
+  },
+  {
+   "log_id": "huggingface__transformers__38216224281",
+   "supported": true,
+   "control_flagged": true
+  },
+  {
+   "log_id": "langchain-ai__langchain__38054458339",
+   "supported": true,
+   "control_flagged": true
+  },
+  {
+   "log_id": "langchain-ai__langchain__38220504907",
+   "supported": true,
+   "control_flagged": true
+  },
+  {
+   "log_id": "nodejs__node__38162525544",
+   "supported": true,
+   "control_flagged": false
+  }
+ ]
+}

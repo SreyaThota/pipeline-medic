@@ -1,12 +1,12 @@
 # 10 – API, FastAPI and Pydantic
 
-**Status: implemented in Phase 1.** Source: `app/main.py`, `app/api/`,
+**Status: implemented in v0.2.6.** Source: `app/main.py`, `app/api/`,
 `app/schemas/`, `app/errors.py`, `app/config.py`,
 `app/observability/requests.py`, `app/diagnosis/ollama.py`.
 
 ## What it is, in plain language
 
-The API is the front door of PipelineMedic X. Clients send it a CI log over
+The API is the front door of Pipeline Medic. Clients send it a CI log over
 HTTP and get JSON back. **FastAPI** is the web framework: it maps URLs to
 Python functions. **Pydantic** checks that data has the right shape: if a
 request is missing a field or has the wrong type, Pydantic rejects it before
@@ -110,8 +110,9 @@ assert resp.json() == {"error": {
 | Bug in our code | 500 `internal_error`, no stack trace sent to the client |
 
 - **Still missing (planned):** secrets in logs are not yet redacted before
-  the model call (Phase 2); the summary is not checked against the log, so
-  the model can paraphrase or embellish (Phase 4).
+  the model call (since added, see chapter 04); the summary is not checked
+  against the log, so the model can paraphrase or embellish (planned: the
+  Diagnosis Agent, v0.4).
 - **Legacy endpoint.** `POST /diagnose` takes the log as a query parameter,
   which puts it in URLs and server logs. It is kept, marked deprecated, for
   compatibility.

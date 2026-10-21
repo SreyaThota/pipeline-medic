@@ -9,4 +9,4 @@
   plain text) for parser and API tests. Never mixed into real-log metrics.
 
 Status:
-- **Shipped:** CI log collection (v0.2); synthetic parser fixtures (Phase 2).
+- **Shipped:** CI log collection (v0.2); synthetic parser fixtures (v0.2.6).

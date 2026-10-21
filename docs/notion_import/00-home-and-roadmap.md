@@ -1,6 +1,6 @@
-# PipelineMedic X: engineering handbook
+# Pipeline Medic: engineering handbook
 
-This handbook explains how PipelineMedic X works, why it was built this way,
+This handbook explains how Pipeline Medic works, why it was built this way,
 and how to defend each decision in an interview. It is plain Markdown so it
 can be imported into Notion (Import → Markdown) or read on GitHub.
 
@@ -14,21 +14,23 @@ similar past failures, and (as it grows) proposes a root cause and a patch for
 a human to approve. It is built and measured on real GitHub Actions failure
 logs from open-source projects.
 
-## Status by phase
+## Status
 
-| Phase | Topic | Status | Handbook chapter |
+The handbook is a v1.0+ stretch goal. It has chapters for the parts that are
+built; the full roadmap is in `ROADMAP.md`.
+
+| Version | Topic | Status | Chapter |
 |---|---|---|---|
-| 0 | Reconnaissance and plan | Shipped | this page |
-| 1 | Foundation: API, schemas, errors, health, config | Shipped | [10 – API, FastAPI and Pydantic](10-api-fastapi-pydantic.md) |
-| 2 | Log parsing and redaction | Shipped | [04 – Log parsing and redaction](04-log-parsing-and-redaction.md) |
-| 3 | Retrieval: lexical, semantic, hybrid | Planned (v0.2 baseline exists) | 05, 06 (planned) |
-| 4 | Structured diagnosis | Planned | 07 (planned) |
-| 5 | Patch proposals | Planned | 09 (planned) |
-| 6 | Verification and audit | Planned | 08, 11 (planned) |
-| 7 | UI and integrations | Planned | (planned) |
-| 8 | Polish, threat model, demo | Planned | 13, 16, 19 (planned) |
+| v0.1 | Ollama + FastAPI `/diagnose` | Shipped | — |
+| v0.2 | Flat retrieval baseline | Shipped | `experiments/001_chunking_strategy.md` |
+| v0.2.5 | Neo4j GraphRAG, evaluated not adopted | Building (labels in review) | `experiments/002_graphrag_vs_flat.md` |
+| v0.2.6 | API foundation | Shipped | [10 – API, FastAPI and Pydantic](10-api-fastapi-pydantic.md) |
+| v0.2.6 | Log parsing and redaction | Shipped | [04 – Log parsing and redaction](04-log-parsing-and-redaction.md) |
+| v0.3 | MCP Action Agent: ticket + notify | Designed | — |
+| v0.4 | LangGraph agent graph | Designed | — |
+| v0.5 | LoRA risk classifier | Designed | — |
 
-## What already existed before PipelineMedic X
+## Earlier results
 
 - **v0.1:** `POST /diagnose`, a FastAPI endpoint that sends a log to a local
   Ollama model and returns a two-sentence summary. Still available.

@@ -1,24 +1,20 @@
-# PipelineMedic X roadmap
+# Pipeline Medic roadmap
 
-Adopted 2026-10-21 from the PipelineMedic X build brief. Each phase ends only
-when its acceptance gate is met with tests that were actually run.
+Mirrors section 3 of `CLAUDE.md`, which is the source of truth. Each phase
+ships with working code, a passing test, an updated README tag and, where a
+technology was adopted, an `experiments/` note with the honest verdict.
 
-| Phase | Scope | Acceptance gate | Status |
-|---|---|---|---|
-| 0 | Repository reconnaissance and plan | Inventory and phased plan approved | Shipped |
-| 1 | Foundation: validated settings, typed schemas, `/health`, structured errors, versioned API, type-checking, regression tests | Core API runs; existing behaviour preserved; deterministic tests pass | Shipped |
-| 2 | Ingestion and evidence: GitHub Actions / Jenkins / text parsers, line references, secret redaction, size limits, synthetic fixtures | Parsing and redaction have unit and security tests | Shipped |
-| 3 | Retrieval experiments: lexical baseline, semantic, hybrid fusion, optional graph; one evaluation harness with saved raw results | Baselines reproducible; every method measured on the same held-out set | Planned (needs reviewed held-out labels) |
-| 4 | Structured diagnosis: provider adapter, validated output, evidence grounding, bounded retries, deterministic fallback | Outputs validate against schemas and cite real evidence | Planned |
-| 5 | Patch proposals: diffs only, path validation, preview, approval gate | Unsafe patches rejected; nothing applied without approval | Planned |
-| 6 | Verification and audit: SQLite persistence, state machine, idempotency, opt-in network-less sandbox | Security and failure-mode tests pass or limits documented | Planned |
-| 7 | UI and integrations: incident workspace, read-only GitHub, mock Jira | Works on real API data; no fake metrics | Planned |
-| 8 | Portfolio polish: diagrams, handbook, demo script, threat model, clean-setup check | Docs match the implementation | Planned |
-
-## History before PipelineMedic X
-
-| Version | Scope | Result |
+| Phase | Scope | Status |
 |---|---|---|
-| v0.1 | Ollama + FastAPI `/diagnose` | Shipped |
-| v0.2 | Flat vector retrieval, chunking experiment | Last 15 lines: cross-repo MRR 0.496 on 46 queries (`experiments/001`) |
-| v0.2.5 | Neo4j knowledge graph and hybrid | No proven gain on held-out logs (`experiments/002`); labels in review |
+| v0.1 | Local Ollama inference + FastAPI `/diagnose` | Shipped |
+| v0.2 | Flat RAG baseline: last 15 lines beats whole log (cross-repo Recall@1 0.413 vs 0.217, 46 logs, 9 repos) | Shipped |
+| v0.2.5 | Neo4j GraphRAG vs flat RAG: +0.028 MRR on held-out logs, not proven; flat stays default | Building — held-out labels in review |
+| v0.2.6 | Foundation: typed API, health checks, structured errors, request IDs, log parsing with line-referenced evidence, secret redaction | Shipped |
+| v0.3 | Action Agent + MCP tools: ticket + notify only, dry-run by default, audit trail | Designed |
+| v0.4 | LangGraph agent graph (Parser → Diagnosis → Classifier → Action), checkpointed | Designed |
+| v0.5 | LoRA-tuned risk/escalation classifier vs. prompted-LLM baseline | Designed |
+| v0.6–v0.9 | Evaluation (RAGAS / LLM-as-judge), tracing, guardrail hardening; stretch: Streamlit console | Designed |
+| v1.0+ | Polish, docs handbook, demo recording | Designed |
+
+Not in scope (decided, see `CLAUDE.md` section 4): patch drafting or
+application, sandboxed code execution, Jira/PR integrations, an incident UI.

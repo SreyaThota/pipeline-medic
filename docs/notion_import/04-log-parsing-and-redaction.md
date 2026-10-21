@@ -1,6 +1,6 @@
 # 04 – Log parsing and redaction
 
-**Status: implemented in Phase 2.** Source: `app/redaction/__init__.py`,
+**Status: implemented in v0.2.6.** Source: `app/redaction/__init__.py`,
 `app/ingestion/` (`formats.py`, `regions.py`, `__init__.py`),
 `app/schemas/logs.py`, `app/api/parse.py`. Endpoint: `POST /v1/parse`.
 

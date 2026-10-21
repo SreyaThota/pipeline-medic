@@ -1,53 +1,55 @@
-# PipelineMedic X
+# Pipeline Medic
 
-**Status: 🚧 Building — PipelineMedic X: Phases 1–2 shipped; Phase 3 waits for held-out label review**
+**Status: 🚧 Building — v0.2.6 foundation shipped; v0.2.5 held-out labels in review; v0.3 (MCP Action Agent) next**
 
-AI-assisted CI/CD failure diagnosis and safe remediation. It takes a failed
-pipeline log, finds the evidence in it, retrieves similar past failures,
-proposes a root cause and a patch, and records every step for audit. Anything
-privileged or destructive needs explicit human approval.
+An agentic CI/CD reliability copilot. It takes a failed pipeline run,
+diagnoses *why* it failed, judges how risky the failure is, and either takes a
+safe action (open a ticket, notify someone) or escalates to a human, with
+every step traced and explainable.
 
 It is built and measured on real GitHub Actions failure logs from public
-open-source projects, not a toy dataset. Every claim in this README is tagged
-✅ Shipped, 🚧 Building or 📋 Planned, and every number comes from a run that
-is in the repo and reproducible.
+open-source projects plus its own CI, not a toy dataset. Every claim here is
+tagged ✅ Shipped, 🚧 Building or 📋 Designed, and every number comes from a
+run that is in the repo and reproducible, including a negative result.
 
 ## What works today
 
 | Capability | Status |
 |---|---|
-| `POST /v1/diagnose`: Ollama summary of a log, typed request and response | ✅ Shipped (Phase 1) |
-| `GET /health` (liveness) and `GET /health/ready` (checks Ollama) | ✅ Shipped (Phase 1) |
-| One JSON error shape with a request ID; size limit; validated settings | ✅ Shipped (Phase 1) |
-| `POST /v1/parse`: GitHub Actions / Jenkins / text parsing into line-referenced evidence | ✅ Shipped (Phase 2) |
-| Secret redaction before parsing, storage or any model call | ✅ Shipped (Phase 2) |
+| `POST /v1/parse`: GitHub Actions / Jenkins / text logs into line-referenced failure evidence | ✅ Shipped (v0.2.6) |
+| Secret redaction before parsing, storage or any model call | ✅ Shipped (v0.2.6) |
+| `POST /v1/diagnose`: Ollama summary of a log, typed request and response | ✅ Shipped (v0.2.6) |
+| `GET /health` (liveness) and `GET /health/ready` (checks Ollama) | ✅ Shipped (v0.2.6) |
+| One JSON error shape with a request ID; size limit; validated settings | ✅ Shipped (v0.2.6) |
 | `POST /diagnose`: the original v0.1 endpoint, kept for compatibility | ✅ Shipped, deprecated |
 | Retrieval of similar past failures (flat vector search) | ✅ Shipped, measured (v0.2) |
-| Neo4j knowledge graph and hybrid retrieval | 🚧 Built and measured, not the default (v0.2.5) |
-| Structured diagnosis, patch proposals, approval and audit, UI | 📋 Planned, see [`ROADMAP.md`](ROADMAP.md) |
+| Neo4j knowledge graph and hybrid retrieval | 🚧 Built and measured, not adopted (v0.2.5) |
+| MCP Action Agent (ticket + notify), LangGraph orchestration, LoRA risk classifier | 📋 Designed, see [`ROADMAP.md`](ROADMAP.md) |
 
-## Target architecture
+## Architecture
 
-This is the planned design, not a claim that every box exists yet.
+The target design; the roadmap shows which parts exist.
 
 ```
-log → parse + redact → retrieve similar incidents → structured diagnosis
-    → patch proposal (diff only) → human approval
-    → opt-in sandboxed verification → incident report + audit trail
+Log Parser Agent → Diagnosis Agent (retrieval: flat RAG default,
+                     GraphRAG evaluated and not adopted)
+                 → Risk Classifier (LoRA-tuned)
+                 → Action Agent (MCP tools: ticket + notify only, dry-run by default)
+                 → human escalation OR logged resolution
 ```
 
-Design rules: every diagnosis cites log lines or retrieved incident IDs; the
-LLM only proposes, and application code validates and controls side effects;
-a deterministic mode works with no LLM at all; logs and model output are
-treated as untrusted; nothing is merged, deployed or executed on the host
-automatically.
+Orchestrated as an explicit LangGraph state graph. Safety rules: logs,
+retrieved text and model output are untrusted; secrets are redacted before
+any model call; the system recommends and a human approves; nothing it does
+is irreversible; every tool call is audited.
 
 ## Tech stack
 
-FastAPI · Pydantic · Ollama · sentence-transformers · Chroma · Neo4j
-(optional) · SQLite (planned) · Docker · pytest · GitHub Actions
+Ollama · FastAPI · Pydantic · Chroma + sentence-transformers · Neo4j/Cypher
+(evaluated) · LangGraph, MCP, LoRA/PEFT (designed) · Docker · pytest ·
+GitHub Actions
 
-### Retrieval results
+## Results
 
 The task: given a failed CI log, return past failures of the same category.
 Scored leave-one-out on real GitHub Actions failure logs, excluding results
@@ -81,7 +83,7 @@ The dev gain mostly came from fitting the rules to the logs they were written
 against, and it does not hold up on new logs. Flat search stays the default.
 Details: [`experiments/002_graphrag_vs_flat.md`](experiments/002_graphrag_vs_flat.md).
 
-Design decisions are in [`docs/decisions/`](docs/decisions/) and the build plan in
+Design decisions are in [`docs/decisions/`](docs/decisions/) and the roadmap in
 [`ROADMAP.md`](ROADMAP.md).
 
 ## Running it locally

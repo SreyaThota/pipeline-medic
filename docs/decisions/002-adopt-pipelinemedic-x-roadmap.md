@@ -1,6 +1,6 @@
 # 002: Adopt the PipelineMedic X roadmap
 
-**Status:** accepted
+**Status:** superseded by 003 (same day)
 **Date:** 2026-10-21
 
 ## Context

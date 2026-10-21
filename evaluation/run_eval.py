@@ -32,9 +32,10 @@ from rag.ingest import INDEX_CSV, build_collection, load_records, sentence_trans
 from rag.retrieve import Retriever
 
 RESULTS_DIR = Path(__file__).parent / "results"
-# Gate jobs (e.g. "alls-green") only say that another job failed; the cause is
-# not in their text, so no retriever can match them. Kept out of the eval.
-EXCLUDED_LABELS = {"aggregate_gate"}
+# Logs whose text holds no cause can't be matched by any retriever, so they
+# are kept out of the eval: gate jobs (e.g. "alls-green") only say that another
+# job failed, and "unknown" logs had the cause cut off or never printed it.
+EXCLUDED_LABELS = {"aggregate_gate", "unknown"}
 STRATEGIES = ["whole", "tail", "window"]
 KS = (1, 3, 5)
 

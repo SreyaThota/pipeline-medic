@@ -1,0 +1,2294 @@
+{
+ "lora": {
+  "config": {
+   "epochs": 20,
+   "batch_size": 8,
+   "learning_rate": 0.001,
+   "max_tokens": 256,
+   "lora_r": 8,
+   "lora_alpha": 16,
+   "lora_dropout": 0.1
+  },
+  "runs": {
+   "0": {
+    "stats": {
+     "train_examples": 77,
+     "reused_adapter": true,
+     "predict_ms_per_log": 71.9
+    },
+    "predictions": {
+     "apache__airflow__38211705554": {
+      "pred": "medium",
+      "probs": [
+       0.0506,
+       0.9449,
+       0.0045
+      ]
+     },
+     "apache__airflow__38211937930": {
+      "pred": "medium",
+      "probs": [
+       0.0052,
+       0.9608,
+       0.0341
+      ]
+     },
+     "apache__airflow__38214130501": {
+      "pred": "low",
+      "probs": [
+       0.5564,
+       0.4182,
+       0.0254
+      ]
+     },
+     "apache__airflow__38215063289": {
+      "pred": "medium",
+      "probs": [
+       0.005,
+       0.9895,
+       0.0056
+      ]
+     },
+     "django__django__38184430933": {
+      "pred": "medium",
+      "probs": [
+       0.1166,
+       0.8787,
+       0.0047
+      ]
+     },
+     "django__django__38201870021": {
+      "pred": "medium",
+      "probs": [
+       0.005,
+       0.9913,
+       0.0037
+      ]
+     },
+     "django__django__38216225588": {
+      "pred": "medium",
+      "probs": [
+       0.0148,
+       0.981,
+       0.0043
+      ]
+     },
+     "django__django__38216259965": {
+      "pred": "medium",
+      "probs": [
+       0.0114,
+       0.9845,
+       0.0042
+      ]
+     },
+     "encode__httpx__36918360067": {
+      "pred": "high",
+      "probs": [
+       0.0026,
+       0.0066,
+       0.9908
+      ]
+     },
+     "encode__httpx__37009481166": {
+      "pred": "medium",
+      "probs": [
+       0.0054,
+       0.9897,
+       0.0049
+      ]
+     },
+     "eslint__eslint__37486997319": {
+      "pred": "medium",
+      "probs": [
+       0.0037,
+       0.988,
+       0.0084
+      ]
+     },
+     "eslint__eslint__38171304253": {
+      "pred": "low",
+      "probs": [
+       0.9879,
+       0.0085,
+       0.0036
+      ]
+     },
+     "eslint__eslint__38181363682": {
+      "pred": "low",
+      "probs": [
+       0.9867,
+       0.0096,
+       0.0036
+      ]
+     },
+     "eslint__eslint__38187322244": {
+      "pred": "medium",
+      "probs": [
+       0.028,
+       0.6646,
+       0.3074
+      ]
+     },
+     "facebook__react__38097296319": {
+      "pred": "medium",
+      "probs": [
+       0.0045,
+       0.9906,
+       0.0049
+      ]
+     },
+     "facebook__react__38124697131": {
+      "pred": "medium",
+      "probs": [
+       0.0044,
+       0.892,
+       0.1036
+      ]
+     },
+     "facebook__react__38130034916": {
+      "pred": "high",
+      "probs": [
+       0.0027,
+       0.0054,
+       0.9918
+      ]
+     },
+     "facebook__react__38186749956": {
+      "pred": "medium",
+      "probs": [
+       0.0045,
+       0.9906,
+       0.0049
+      ]
+     },
+     "home-assistant__core__38217484317": {
+      "pred": "high",
+      "probs": [
+       0.4066,
+       0.0238,
+       0.5696
+      ]
+     },
+     "home-assistant__core__38223769150": {
+      "pred": "high",
+      "probs": [
+       0.3493,
+       0.0262,
+       0.6245
+      ]
+     },
+     "home-assistant__core__38223769327": {
+      "pred": "medium",
+      "probs": [
+       0.0045,
+       0.9909,
+       0.0046
+      ]
+     },
+     "home-assistant__core__38224599068": {
+      "pred": "medium",
+      "probs": [
+       0.026,
+       0.9693,
+       0.0047
+      ]
+     },
+     "huggingface__transformers__38213953453": {
+      "pred": "medium",
+      "probs": [
+       0.0116,
+       0.9807,
+       0.0077
+      ]
+     },
+     "huggingface__transformers__38224895155": {
+      "pred": "medium",
+      "probs": [
+       0.0035,
+       0.965,
+       0.0315
+      ]
+     },
+     "langchain-ai__langchain__38054458339": {
+      "pred": "medium",
+      "probs": [
+       0.0042,
+       0.9907,
+       0.0051
+      ]
+     },
+     "langchain-ai__langchain__38141920609": {
+      "pred": "medium",
+      "probs": [
+       0.0035,
+       0.9807,
+       0.0158
+      ]
+     },
+     "langchain-ai__langchain__38220504907": {
+      "pred": "medium",
+      "probs": [
+       0.0393,
+       0.9552,
+       0.0055
+      ]
+     },
+     "langchain-ai__langchain__38220640167": {
+      "pred": "medium",
+      "probs": [
+       0.015,
+       0.9703,
+       0.0147
+      ]
+     },
+     "nodejs__node__38162525544": {
+      "pred": "medium",
+      "probs": [
+       0.0739,
+       0.9202,
+       0.0059
+      ]
+     },
+     "nodejs__node__38181101368": {
+      "pred": "medium",
+      "probs": [
+       0.0028,
+       0.9498,
+       0.0474
+      ]
+     },
+     "nodejs__node__38191765240": {
+      "pred": "low",
+      "probs": [
+       0.7753,
+       0.2173,
+       0.0073
+      ]
+     },
+     "nodejs__node__38203939118": {
+      "pred": "high",
+      "probs": [
+       0.2525,
+       0.0045,
+       0.743
+      ]
+     },
+     "numpy__numpy__38197650726": {
+      "pred": "high",
+      "probs": [
+       0.0039,
+       0.0142,
+       0.9819
+      ]
+     },
+     "numpy__numpy__38197650734": {
+      "pred": "high",
+      "probs": [
+       0.004,
+       0.019,
+       0.9771
+      ]
+     },
+     "numpy__numpy__38197650837": {
+      "pred": "medium",
+      "probs": [
+       0.0126,
+       0.9526,
+       0.0348
+      ]
+     },
+     "numpy__numpy__38197650864": {
+      "pred": "high",
+      "probs": [
+       0.0057,
+       0.0191,
+       0.9752
+      ]
+     },
+     "pandas-dev__pandas__38159153805": {
+      "pred": "medium",
+      "probs": [
+       0.0088,
+       0.9839,
+       0.0073
+      ]
+     },
+     "pandas-dev__pandas__38190363902": {
+      "pred": "high",
+      "probs": [
+       0.0029,
+       0.0274,
+       0.9697
+      ]
+     },
+     "pandas-dev__pandas__38201489513": {
+      "pred": "low",
+      "probs": [
+       0.954,
+       0.0338,
+       0.0122
+      ]
+     },
+     "psf__black__38218106597": {
+      "pred": "low",
+      "probs": [
+       0.9198,
+       0.0733,
+       0.0069
+      ]
+     },
+     "psf__black__38218106686": {
+      "pred": "high",
+      "probs": [
+       0.0026,
+       0.0088,
+       0.9886
+      ]
+     },
+     "pypa__pip__38203070582": {
+      "pred": "medium",
+      "probs": [
+       0.1653,
+       0.8139,
+       0.0208
+      ]
+     },
+     "pypa__pip__38203075276": {
+      "pred": "medium",
+      "probs": [
+       0.1653,
+       0.8139,
+       0.0208
+      ]
+     },
+     "pytest-dev__pytest__37167493424": {
+      "pred": "low",
+      "probs": [
+       0.9846,
+       0.0061,
+       0.0093
+      ]
+     },
+     "pytest-dev__pytest__38099531711": {
+      "pred": "low",
+      "probs": [
+       0.9864,
+       0.0037,
+       0.0098
+      ]
+     },
+     "python-poetry__poetry__38201401884": {
+      "pred": "medium",
+      "probs": [
+       0.0032,
+       0.9905,
+       0.0063
+      ]
+     },
+     "python-poetry__poetry__38217088589": {
+      "pred": "medium",
+      "probs": [
+       0.0032,
+       0.9905,
+       0.0063
+      ]
+     },
+     "rust-lang__cargo__38218098114": {
+      "pred": "medium",
+      "probs": [
+       0.0052,
+       0.9911,
+       0.0037
+      ]
+     },
+     "rust-lang__cargo__38222465819": {
+      "pred": "medium",
+      "probs": [
+       0.0053,
+       0.9912,
+       0.0035
+      ]
+     },
+     "scikit-learn__scikit-learn__38110868593": {
+      "pred": "low",
+      "probs": [
+       0.8544,
+       0.1391,
+       0.0064
+      ]
+     },
+     "scikit-learn__scikit-learn__38117079621": {
+      "pred": "medium",
+      "probs": [
+       0.0042,
+       0.9916,
+       0.0042
+      ]
+     },
+     "scikit-learn__scikit-learn__38130261619": {
+      "pred": "medium",
+      "probs": [
+       0.0041,
+       0.9916,
+       0.0043
+      ]
+     },
+     "scikit-learn__scikit-learn__38220142959": {
+      "pred": "low",
+      "probs": [
+       0.9158,
+       0.0786,
+       0.0056
+      ]
+     },
+     "tokio-rs__tokio__38052518006": {
+      "pred": "high",
+      "probs": [
+       0.0033,
+       0.0041,
+       0.9925
+      ]
+     },
+     "tokio-rs__tokio__38134725610": {
+      "pred": "high",
+      "probs": [
+       0.0214,
+       0.0193,
+       0.9593
+      ]
+     },
+     "tokio-rs__tokio__38179284528": {
+      "pred": "medium",
+      "probs": [
+       0.0038,
+       0.989,
+       0.0072
+      ]
+     },
+     "tokio-rs__tokio__38213701855": {
+      "pred": "high",
+      "probs": [
+       0.017,
+       0.0096,
+       0.9734
+      ]
+     },
+     "vercel__next.js__38217690831": {
+      "pred": "medium",
+      "probs": [
+       0.0124,
+       0.9719,
+       0.0157
+      ]
+     },
+     "vercel__next.js__38223914207": {
+      "pred": "high",
+      "probs": [
+       0.1645,
+       0.0226,
+       0.8129
+      ]
+     },
+     "vercel__next.js__38223933479": {
+      "pred": "low",
+      "probs": [
+       0.5196,
+       0.1001,
+       0.3803
+      ]
+     },
+     "vitejs__vite__38193411344": {
+      "pred": "high",
+      "probs": [
+       0.0035,
+       0.0039,
+       0.9926
+      ]
+     },
+     "vitejs__vite__38207643579": {
+      "pred": "high",
+      "probs": [
+       0.0285,
+       0.0025,
+       0.969
+      ]
+     },
+     "vitejs__vite__38214414602": {
+      "pred": "medium",
+      "probs": [
+       0.0062,
+       0.9904,
+       0.0033
+      ]
+     },
+     "vitejs__vite__38218454942": {
+      "pred": "medium",
+      "probs": [
+       0.0055,
+       0.9906,
+       0.0039
+      ]
+     }
+    }
+   },
+   "1": {
+    "stats": {
+     "train_examples": 77,
+     "trainable_params": 74883,
+     "total_params": 22789254,
+     "train_seconds": 737.5,
+     "predict_ms_per_log": 128.9
+    },
+    "predictions": {
+     "apache__airflow__38211705554": {
+      "pred": "low",
+      "probs": [
+       0.8448,
+       0.1521,
+       0.0031
+      ]
+     },
+     "apache__airflow__38211937930": {
+      "pred": "medium",
+      "probs": [
+       0.1617,
+       0.8308,
+       0.0076
+      ]
+     },
+     "apache__airflow__38214130501": {
+      "pred": "low",
+      "probs": [
+       0.4513,
+       0.338,
+       0.2106
+      ]
+     },
+     "apache__airflow__38215063289": {
+      "pred": "medium",
+      "probs": [
+       0.0103,
+       0.9876,
+       0.0021
+      ]
+     },
+     "django__django__38184430933": {
+      "pred": "low",
+      "probs": [
+       0.9422,
+       0.0548,
+       0.003
+      ]
+     },
+     "django__django__38201870021": {
+      "pred": "medium",
+      "probs": [
+       0.012,
+       0.9858,
+       0.0022
+      ]
+     },
+     "django__django__38216225588": {
+      "pred": "medium",
+      "probs": [
+       0.0531,
+       0.9442,
+       0.0027
+      ]
+     },
+     "django__django__38216259965": {
+      "pred": "medium",
+      "probs": [
+       0.0565,
+       0.9407,
+       0.0028
+      ]
+     },
+     "encode__httpx__36918360067": {
+      "pred": "high",
+      "probs": [
+       0.0035,
+       0.0035,
+       0.993
+      ]
+     },
+     "encode__httpx__37009481166": {
+      "pred": "medium",
+      "probs": [
+       0.0038,
+       0.9923,
+       0.0039
+      ]
+     },
+     "eslint__eslint__37486997319": {
+      "pred": "medium",
+      "probs": [
+       0.0094,
+       0.9881,
+       0.0025
+      ]
+     },
+     "eslint__eslint__38171304253": {
+      "pred": "low",
+      "probs": [
+       0.9793,
+       0.01,
+       0.0107
+      ]
+     },
+     "eslint__eslint__38181363682": {
+      "pred": "low",
+      "probs": [
+       0.9815,
+       0.0121,
+       0.0064
+      ]
+     },
+     "eslint__eslint__38187322244": {
+      "pred": "high",
+      "probs": [
+       0.04,
+       0.0413,
+       0.9187
+      ]
+     },
+     "facebook__react__38097296319": {
+      "pred": "medium",
+      "probs": [
+       0.0084,
+       0.9884,
+       0.0033
+      ]
+     },
+     "facebook__react__38124697131": {
+      "pred": "medium",
+      "probs": [
+       0.0066,
+       0.945,
+       0.0484
+      ]
+     },
+     "facebook__react__38130034916": {
+      "pred": "high",
+      "probs": [
+       0.0031,
+       0.0038,
+       0.993
+      ]
+     },
+     "facebook__react__38186749956": {
+      "pred": "medium",
+      "probs": [
+       0.0081,
+       0.9886,
+       0.0033
+      ]
+     },
+     "home-assistant__core__38217484317": {
+      "pred": "high",
+      "probs": [
+       0.0375,
+       0.0035,
+       0.959
+      ]
+     },
+     "home-assistant__core__38223769150": {
+      "pred": "high",
+      "probs": [
+       0.0654,
+       0.0038,
+       0.9308
+      ]
+     },
+     "home-assistant__core__38223769327": {
+      "pred": "medium",
+      "probs": [
+       0.0069,
+       0.9904,
+       0.0027
+      ]
+     },
+     "home-assistant__core__38224599068": {
+      "pred": "medium",
+      "probs": [
+       0.1454,
+       0.8525,
+       0.0021
+      ]
+     },
+     "huggingface__transformers__38213953453": {
+      "pred": "medium",
+      "probs": [
+       0.0053,
+       0.9917,
+       0.003
+      ]
+     },
+     "huggingface__transformers__38224895155": {
+      "pred": "medium",
+      "probs": [
+       0.0036,
+       0.9925,
+       0.0039
+      ]
+     },
+     "langchain-ai__langchain__38054458339": {
+      "pred": "medium",
+      "probs": [
+       0.0037,
+       0.9925,
+       0.0038
+      ]
+     },
+     "langchain-ai__langchain__38141920609": {
+      "pred": "medium",
+      "probs": [
+       0.0037,
+       0.9924,
+       0.0039
+      ]
+     },
+     "langchain-ai__langchain__38220504907": {
+      "pred": "medium",
+      "probs": [
+       0.0084,
+       0.9894,
+       0.0021
+      ]
+     },
+     "langchain-ai__langchain__38220640167": {
+      "pred": "medium",
+      "probs": [
+       0.0075,
+       0.99,
+       0.0025
+      ]
+     },
+     "nodejs__node__38162525544": {
+      "pred": "low",
+      "probs": [
+       0.6605,
+       0.3365,
+       0.003
+      ]
+     },
+     "nodejs__node__38181101368": {
+      "pred": "medium",
+      "probs": [
+       0.0031,
+       0.9894,
+       0.0075
+      ]
+     },
+     "nodejs__node__38191765240": {
+      "pred": "medium",
+      "probs": [
+       0.0326,
+       0.9653,
+       0.0022
+      ]
+     },
+     "nodejs__node__38203939118": {
+      "pred": "high",
+      "probs": [
+       0.0056,
+       0.0024,
+       0.992
+      ]
+     },
+     "numpy__numpy__38197650726": {
+      "pred": "high",
+      "probs": [
+       0.0034,
+       0.0527,
+       0.9439
+      ]
+     },
+     "numpy__numpy__38197650734": {
+      "pred": "high",
+      "probs": [
+       0.0082,
+       0.362,
+       0.6298
+      ]
+     },
+     "numpy__numpy__38197650837": {
+      "pred": "medium",
+      "probs": [
+       0.004,
+       0.9931,
+       0.0029
+      ]
+     },
+     "numpy__numpy__38197650864": {
+      "pred": "medium",
+      "probs": [
+       0.0104,
+       0.5533,
+       0.4363
+      ]
+     },
+     "pandas-dev__pandas__38159153805": {
+      "pred": "medium",
+      "probs": [
+       0.0784,
+       0.9124,
+       0.0092
+      ]
+     },
+     "pandas-dev__pandas__38190363902": {
+      "pred": "high",
+      "probs": [
+       0.0035,
+       0.0053,
+       0.9912
+      ]
+     },
+     "pandas-dev__pandas__38201489513": {
+      "pred": "low",
+      "probs": [
+       0.7902,
+       0.2066,
+       0.0032
+      ]
+     },
+     "psf__black__38218106597": {
+      "pred": "low",
+      "probs": [
+       0.9795,
+       0.007,
+       0.0135
+      ]
+     },
+     "psf__black__38218106686": {
+      "pred": "high",
+      "probs": [
+       0.0073,
+       0.0022,
+       0.9905
+      ]
+     },
+     "pypa__pip__38203070582": {
+      "pred": "low",
+      "probs": [
+       0.9546,
+       0.0415,
+       0.0039
+      ]
+     },
+     "pypa__pip__38203075276": {
+      "pred": "low",
+      "probs": [
+       0.9546,
+       0.0415,
+       0.0039
+      ]
+     },
+     "pytest-dev__pytest__37167493424": {
+      "pred": "low",
+      "probs": [
+       0.9914,
+       0.0037,
+       0.0048
+      ]
+     },
+     "pytest-dev__pytest__38099531711": {
+      "pred": "low",
+      "probs": [
+       0.9913,
+       0.0034,
+       0.0053
+      ]
+     },
+     "python-poetry__poetry__38201401884": {
+      "pred": "medium",
+      "probs": [
+       0.0038,
+       0.9926,
+       0.0036
+      ]
+     },
+     "python-poetry__poetry__38217088589": {
+      "pred": "medium",
+      "probs": [
+       0.0038,
+       0.9926,
+       0.0036
+      ]
+     },
+     "rust-lang__cargo__38218098114": {
+      "pred": "medium",
+      "probs": [
+       0.0038,
+       0.9926,
+       0.0036
+      ]
+     },
+     "rust-lang__cargo__38222465819": {
+      "pred": "medium",
+      "probs": [
+       0.0038,
+       0.9926,
+       0.0036
+      ]
+     },
+     "scikit-learn__scikit-learn__38110868593": {
+      "pred": "low",
+      "probs": [
+       0.5987,
+       0.3984,
+       0.0029
+      ]
+     },
+     "scikit-learn__scikit-learn__38117079621": {
+      "pred": "medium",
+      "probs": [
+       0.0043,
+       0.9925,
+       0.0031
+      ]
+     },
+     "scikit-learn__scikit-learn__38130261619": {
+      "pred": "medium",
+      "probs": [
+       0.0042,
+       0.9926,
+       0.0032
+      ]
+     },
+     "scikit-learn__scikit-learn__38220142959": {
+      "pred": "low",
+      "probs": [
+       0.8159,
+       0.1811,
+       0.003
+      ]
+     },
+     "tokio-rs__tokio__38052518006": {
+      "pred": "high",
+      "probs": [
+       0.0039,
+       0.0028,
+       0.9933
+      ]
+     },
+     "tokio-rs__tokio__38134725610": {
+      "pred": "high",
+      "probs": [
+       0.0227,
+       0.0279,
+       0.9494
+      ]
+     },
+     "tokio-rs__tokio__38179284528": {
+      "pred": "medium",
+      "probs": [
+       0.0035,
+       0.9925,
+       0.004
+      ]
+     },
+     "tokio-rs__tokio__38213701855": {
+      "pred": "low",
+      "probs": [
+       0.7408,
+       0.1121,
+       0.1471
+      ]
+     },
+     "vercel__next.js__38217690831": {
+      "pred": "medium",
+      "probs": [
+       0.0222,
+       0.9732,
+       0.0046
+      ]
+     },
+     "vercel__next.js__38223914207": {
+      "pred": "high",
+      "probs": [
+       0.0093,
+       0.0045,
+       0.9862
+      ]
+     },
+     "vercel__next.js__38223933479": {
+      "pred": "high",
+      "probs": [
+       0.019,
+       0.0049,
+       0.9761
+      ]
+     },
+     "vitejs__vite__38193411344": {
+      "pred": "high",
+      "probs": [
+       0.0046,
+       0.0027,
+       0.9928
+      ]
+     },
+     "vitejs__vite__38207643579": {
+      "pred": "high",
+      "probs": [
+       0.0193,
+       0.0022,
+       0.9784
+      ]
+     },
+     "vitejs__vite__38214414602": {
+      "pred": "medium",
+      "probs": [
+       0.0144,
+       0.9832,
+       0.0024
+      ]
+     },
+     "vitejs__vite__38218454942": {
+      "pred": "medium",
+      "probs": [
+       0.0072,
+       0.9902,
+       0.0027
+      ]
+     }
+    }
+   },
+   "2": {
+    "stats": {
+     "train_examples": 77,
+     "trainable_params": 74883,
+     "total_params": 22789254,
+     "train_seconds": 735.7,
+     "predict_ms_per_log": 131.9
+    },
+    "predictions": {
+     "apache__airflow__38211705554": {
+      "pred": "medium",
+      "probs": [
+       0.2539,
+       0.743,
+       0.0031
+      ]
+     },
+     "apache__airflow__38211937930": {
+      "pred": "medium",
+      "probs": [
+       0.1944,
+       0.5845,
+       0.2211
+      ]
+     },
+     "apache__airflow__38214130501": {
+      "pred": "medium",
+      "probs": [
+       0.345,
+       0.4017,
+       0.2532
+      ]
+     },
+     "apache__airflow__38215063289": {
+      "pred": "medium",
+      "probs": [
+       0.0205,
+       0.974,
+       0.0055
+      ]
+     },
+     "django__django__38184430933": {
+      "pred": "medium",
+      "probs": [
+       0.0489,
+       0.9467,
+       0.0044
+      ]
+     },
+     "django__django__38201870021": {
+      "pred": "medium",
+      "probs": [
+       0.0043,
+       0.9927,
+       0.0031
+      ]
+     },
+     "django__django__38216225588": {
+      "pred": "medium",
+      "probs": [
+       0.2617,
+       0.7336,
+       0.0047
+      ]
+     },
+     "django__django__38216259965": {
+      "pred": "medium",
+      "probs": [
+       0.205,
+       0.7904,
+       0.0046
+      ]
+     },
+     "encode__httpx__36918360067": {
+      "pred": "high",
+      "probs": [
+       0.0037,
+       0.0029,
+       0.9934
+      ]
+     },
+     "encode__httpx__37009481166": {
+      "pred": "medium",
+      "probs": [
+       0.008,
+       0.9893,
+       0.0027
+      ]
+     },
+     "eslint__eslint__37486997319": {
+      "pred": "medium",
+      "probs": [
+       0.0036,
+       0.9849,
+       0.0114
+      ]
+     },
+     "eslint__eslint__38171304253": {
+      "pred": "low",
+      "probs": [
+       0.9458,
+       0.0488,
+       0.0054
+      ]
+     },
+     "eslint__eslint__38181363682": {
+      "pred": "low",
+      "probs": [
+       0.958,
+       0.0365,
+       0.0055
+      ]
+     },
+     "eslint__eslint__38187322244": {
+      "pred": "high",
+      "probs": [
+       0.0038,
+       0.0059,
+       0.9903
+      ]
+     },
+     "facebook__react__38097296319": {
+      "pred": "medium",
+      "probs": [
+       0.0034,
+       0.9918,
+       0.0048
+      ]
+     },
+     "facebook__react__38124697131": {
+      "pred": "high",
+      "probs": [
+       0.0041,
+       0.2029,
+       0.793
+      ]
+     },
+     "facebook__react__38130034916": {
+      "pred": "high",
+      "probs": [
+       0.0037,
+       0.0029,
+       0.9935
+      ]
+     },
+     "facebook__react__38186749956": {
+      "pred": "medium",
+      "probs": [
+       0.0034,
+       0.9918,
+       0.0049
+      ]
+     },
+     "home-assistant__core__38217484317": {
+      "pred": "high",
+      "probs": [
+       0.0579,
+       0.0038,
+       0.9383
+      ]
+     },
+     "home-assistant__core__38223769150": {
+      "pred": "high",
+      "probs": [
+       0.0815,
+       0.0034,
+       0.9151
+      ]
+     },
+     "home-assistant__core__38223769327": {
+      "pred": "medium",
+      "probs": [
+       0.0028,
+       0.9906,
+       0.0066
+      ]
+     },
+     "home-assistant__core__38224599068": {
+      "pred": "medium",
+      "probs": [
+       0.4174,
+       0.5785,
+       0.0041
+      ]
+     },
+     "huggingface__transformers__38213953453": {
+      "pred": "medium",
+      "probs": [
+       0.0061,
+       0.9904,
+       0.0036
+      ]
+     },
+     "huggingface__transformers__38224895155": {
+      "pred": "medium",
+      "probs": [
+       0.0029,
+       0.9765,
+       0.0206
+      ]
+     },
+     "langchain-ai__langchain__38054458339": {
+      "pred": "medium",
+      "probs": [
+       0.0032,
+       0.9916,
+       0.0052
+      ]
+     },
+     "langchain-ai__langchain__38141920609": {
+      "pred": "medium",
+      "probs": [
+       0.0049,
+       0.5813,
+       0.4138
+      ]
+     },
+     "langchain-ai__langchain__38220504907": {
+      "pred": "medium",
+      "probs": [
+       0.0105,
+       0.9808,
+       0.0087
+      ]
+     },
+     "langchain-ai__langchain__38220640167": {
+      "pred": "medium",
+      "probs": [
+       0.0051,
+       0.9848,
+       0.0101
+      ]
+     },
+     "nodejs__node__38162525544": {
+      "pred": "low",
+      "probs": [
+       0.9838,
+       0.0139,
+       0.0023
+      ]
+     },
+     "nodejs__node__38181101368": {
+      "pred": "high",
+      "probs": [
+       0.0048,
+       0.0671,
+       0.9281
+      ]
+     },
+     "nodejs__node__38191765240": {
+      "pred": "low",
+      "probs": [
+       0.8236,
+       0.1702,
+       0.0062
+      ]
+     },
+     "nodejs__node__38203939118": {
+      "pred": "high",
+      "probs": [
+       0.0112,
+       0.0017,
+       0.9872
+      ]
+     },
+     "numpy__numpy__38197650726": {
+      "pred": "high",
+      "probs": [
+       0.0036,
+       0.1363,
+       0.86
+      ]
+     },
+     "numpy__numpy__38197650734": {
+      "pred": "high",
+      "probs": [
+       0.0035,
+       0.1254,
+       0.8711
+      ]
+     },
+     "numpy__numpy__38197650837": {
+      "pred": "medium",
+      "probs": [
+       0.0101,
+       0.9876,
+       0.0023
+      ]
+     },
+     "numpy__numpy__38197650864": {
+      "pred": "high",
+      "probs": [
+       0.0035,
+       0.0041,
+       0.9924
+      ]
+     },
+     "pandas-dev__pandas__38159153805": {
+      "pred": "medium",
+      "probs": [
+       0.0061,
+       0.9882,
+       0.0057
+      ]
+     },
+     "pandas-dev__pandas__38190363902": {
+      "pred": "high",
+      "probs": [
+       0.0026,
+       0.0042,
+       0.9932
+      ]
+     },
+     "pandas-dev__pandas__38201489513": {
+      "pred": "low",
+      "probs": [
+       0.9552,
+       0.0267,
+       0.0181
+      ]
+     },
+     "psf__black__38218106597": {
+      "pred": "low",
+      "probs": [
+       0.9474,
+       0.0483,
+       0.0043
+      ]
+     },
+     "psf__black__38218106686": {
+      "pred": "high",
+      "probs": [
+       0.0043,
+       0.0024,
+       0.9933
+      ]
+     },
+     "pypa__pip__38203070582": {
+      "pred": "medium",
+      "probs": [
+       0.3795,
+       0.6032,
+       0.0173
+      ]
+     },
+     "pypa__pip__38203075276": {
+      "pred": "medium",
+      "probs": [
+       0.3795,
+       0.6032,
+       0.0173
+      ]
+     },
+     "pytest-dev__pytest__37167493424": {
+      "pred": "low",
+      "probs": [
+       0.9874,
+       0.0021,
+       0.0104
+      ]
+     },
+     "pytest-dev__pytest__38099531711": {
+      "pred": "low",
+      "probs": [
+       0.9888,
+       0.0022,
+       0.009
+      ]
+     },
+     "python-poetry__poetry__38201401884": {
+      "pred": "medium",
+      "probs": [
+       0.0028,
+       0.9922,
+       0.005
+      ]
+     },
+     "python-poetry__poetry__38217088589": {
+      "pred": "medium",
+      "probs": [
+       0.0028,
+       0.9922,
+       0.005
+      ]
+     },
+     "rust-lang__cargo__38218098114": {
+      "pred": "medium",
+      "probs": [
+       0.0037,
+       0.9927,
+       0.0036
+      ]
+     },
+     "rust-lang__cargo__38222465819": {
+      "pred": "medium",
+      "probs": [
+       0.0042,
+       0.9927,
+       0.003
+      ]
+     },
+     "scikit-learn__scikit-learn__38110868593": {
+      "pred": "low",
+      "probs": [
+       0.9724,
+       0.0249,
+       0.0027
+      ]
+     },
+     "scikit-learn__scikit-learn__38117079621": {
+      "pred": "medium",
+      "probs": [
+       0.0031,
+       0.9928,
+       0.0042
+      ]
+     },
+     "scikit-learn__scikit-learn__38130261619": {
+      "pred": "medium",
+      "probs": [
+       0.0031,
+       0.9928,
+       0.0041
+      ]
+     },
+     "scikit-learn__scikit-learn__38220142959": {
+      "pred": "low",
+      "probs": [
+       0.9898,
+       0.0027,
+       0.0075
+      ]
+     },
+     "tokio-rs__tokio__38052518006": {
+      "pred": "high",
+      "probs": [
+       0.0043,
+       0.0026,
+       0.9931
+      ]
+     },
+     "tokio-rs__tokio__38134725610": {
+      "pred": "high",
+      "probs": [
+       0.0122,
+       0.0111,
+       0.9768
+      ]
+     },
+     "tokio-rs__tokio__38179284528": {
+      "pred": "medium",
+      "probs": [
+       0.0027,
+       0.9879,
+       0.0093
+      ]
+     },
+     "tokio-rs__tokio__38213701855": {
+      "pred": "low",
+      "probs": [
+       0.7929,
+       0.0122,
+       0.195
+      ]
+     },
+     "vercel__next.js__38217690831": {
+      "pred": "low",
+      "probs": [
+       0.769,
+       0.2215,
+       0.0095
+      ]
+     },
+     "vercel__next.js__38223914207": {
+      "pred": "high",
+      "probs": [
+       0.3089,
+       0.0049,
+       0.6861
+      ]
+     },
+     "vercel__next.js__38223933479": {
+      "pred": "high",
+      "probs": [
+       0.398,
+       0.008,
+       0.594
+      ]
+     },
+     "vitejs__vite__38193411344": {
+      "pred": "high",
+      "probs": [
+       0.0062,
+       0.0021,
+       0.9917
+      ]
+     },
+     "vitejs__vite__38207643579": {
+      "pred": "high",
+      "probs": [
+       0.0231,
+       0.0016,
+       0.9753
+      ]
+     },
+     "vitejs__vite__38214414602": {
+      "pred": "medium",
+      "probs": [
+       0.0059,
+       0.9902,
+       0.004
+      ]
+     },
+     "vitejs__vite__38218454942": {
+      "pred": "medium",
+      "probs": [
+       0.005,
+       0.991,
+       0.004
+      ]
+     }
+    }
+   }
+  }
+ },
+ "prompted_llm": {
+  "predictions": {
+   "apache__airflow__38211705554": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 16483,
+    "category": "test_failure"
+   },
+   "apache__airflow__38211937930": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6837,
+    "category": "ci_config"
+   },
+   "apache__airflow__38214130501": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 8749,
+    "category": "ci_config"
+   },
+   "apache__airflow__38215063289": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6185,
+    "category": "ci_config"
+   },
+   "django__django__38184430933": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7359,
+    "category": "test_failure"
+   },
+   "django__django__38201870021": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6932,
+    "category": "test_failure"
+   },
+   "django__django__38216225588": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7208,
+    "category": "test_failure"
+   },
+   "django__django__38216259965": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5603,
+    "category": "test_failure"
+   },
+   "encode__httpx__36918360067": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6784,
+    "category": "ci_config"
+   },
+   "encode__httpx__37009481166": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6233,
+    "category": "test_failure"
+   },
+   "eslint__eslint__37486997319": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6225,
+    "category": "ci_config"
+   },
+   "eslint__eslint__38171304253": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5861,
+    "category": "build_compile"
+   },
+   "eslint__eslint__38181363682": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 4204,
+    "category": "build_compile"
+   },
+   "eslint__eslint__38187322244": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6812,
+    "category": "build_compile"
+   },
+   "facebook__react__38097296319": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6897,
+    "category": "test_failure"
+   },
+   "facebook__react__38124697131": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7286,
+    "category": "build_compile"
+   },
+   "facebook__react__38130034916": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6908,
+    "category": "build_compile"
+   },
+   "facebook__react__38186749956": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6108,
+    "category": "test_failure"
+   },
+   "home-assistant__core__38217484317": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5914,
+    "category": "ci_config"
+   },
+   "home-assistant__core__38223769150": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6162,
+    "category": "ci_config"
+   },
+   "home-assistant__core__38223769327": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6184,
+    "category": "timeout"
+   },
+   "home-assistant__core__38224599068": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6663,
+    "category": "test_failure"
+   },
+   "huggingface__transformers__38213953453": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6201,
+    "category": "ci_config"
+   },
+   "huggingface__transformers__38224895155": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5994,
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38054458339": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6422,
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38141920609": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6992,
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38220504907": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7269,
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38220640167": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7518,
+    "category": "test_failure"
+   },
+   "nodejs__node__38162525544": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5672,
+    "category": "test_failure"
+   },
+   "nodejs__node__38181101368": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6342,
+    "category": "test_failure"
+   },
+   "nodejs__node__38191765240": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7220,
+    "category": "docs_check"
+   },
+   "nodejs__node__38203939118": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 8418,
+    "category": "test_failure"
+   },
+   "numpy__numpy__38197650726": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6024,
+    "category": "test_failure"
+   },
+   "numpy__numpy__38197650734": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6681,
+    "category": "ci_config"
+   },
+   "numpy__numpy__38197650837": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7783,
+    "category": "ci_config"
+   },
+   "numpy__numpy__38197650864": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5939,
+    "category": "ci_config"
+   },
+   "pandas-dev__pandas__38159153805": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5901,
+    "category": "test_failure"
+   },
+   "pandas-dev__pandas__38190363902": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7020,
+    "category": "ci_config"
+   },
+   "pandas-dev__pandas__38201489513": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6735,
+    "category": "ci_config"
+   },
+   "psf__black__38218106597": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7711,
+    "category": "ci_config"
+   },
+   "psf__black__38218106686": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7998,
+    "category": "ci_config"
+   },
+   "pypa__pip__38203070582": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6550,
+    "category": "docs_check"
+   },
+   "pypa__pip__38203075276": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 4875,
+    "category": "docs_check"
+   },
+   "pytest-dev__pytest__37167493424": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6762,
+    "category": "docs_check"
+   },
+   "pytest-dev__pytest__38099531711": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5217,
+    "category": "docs_check"
+   },
+   "python-poetry__poetry__38201401884": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7827,
+    "category": "test_failure"
+   },
+   "python-poetry__poetry__38217088589": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6662,
+    "category": "test_failure"
+   },
+   "rust-lang__cargo__38218098114": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6562,
+    "category": "test_failure"
+   },
+   "rust-lang__cargo__38222465819": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 8379,
+    "category": "test_failure"
+   },
+   "scikit-learn__scikit-learn__38110868593": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5937,
+    "category": "ci_config"
+   },
+   "scikit-learn__scikit-learn__38117079621": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6674,
+    "category": "test_failure"
+   },
+   "scikit-learn__scikit-learn__38130261619": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7034,
+    "category": "test_failure"
+   },
+   "scikit-learn__scikit-learn__38220142959": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5779,
+    "category": "test_failure"
+   },
+   "tokio-rs__tokio__38052518006": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6939,
+    "category": "build_compile"
+   },
+   "tokio-rs__tokio__38134725610": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7308,
+    "category": "build_compile"
+   },
+   "tokio-rs__tokio__38179284528": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6999,
+    "category": "test_failure"
+   },
+   "tokio-rs__tokio__38213701855": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 5868,
+    "category": "build_compile"
+   },
+   "vercel__next.js__38217690831": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7790,
+    "category": "test_failure"
+   },
+   "vercel__next.js__38223914207": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7240,
+    "category": "ci_config"
+   },
+   "vercel__next.js__38223933479": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7669,
+    "category": "docs_check"
+   },
+   "vitejs__vite__38193411344": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6624,
+    "category": "dependency_install"
+   },
+   "vitejs__vite__38207643579": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 6123,
+    "category": "ci_config"
+   },
+   "vitejs__vite__38214414602": {
+    "pred": "medium",
+    "method": "prompted_llm",
+    "error": "invalid_model_output",
+    "ms": 11216,
+    "category": "test_failure"
+   },
+   "vitejs__vite__38218454942": {
+    "pred": "low",
+    "method": "prompted_llm",
+    "error": null,
+    "ms": 7273,
+    "category": "test_failure"
+   }
+  }
+ },
+ "rubric_on_retrieved": {
+  "predictions": {
+   "apache__airflow__38211705554": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "apache__airflow__38211937930": {
+    "pred": "high",
+    "category": "ci_config"
+   },
+   "apache__airflow__38214130501": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "apache__airflow__38215063289": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "django__django__38184430933": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "django__django__38201870021": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "django__django__38216225588": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "django__django__38216259965": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "encode__httpx__36918360067": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "encode__httpx__37009481166": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "eslint__eslint__37486997319": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "eslint__eslint__38171304253": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "eslint__eslint__38181363682": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "eslint__eslint__38187322244": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "facebook__react__38097296319": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "facebook__react__38124697131": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "facebook__react__38130034916": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "facebook__react__38186749956": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "home-assistant__core__38217484317": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "home-assistant__core__38223769150": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "home-assistant__core__38223769327": {
+    "pred": "medium",
+    "category": "timeout"
+   },
+   "home-assistant__core__38224599068": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "huggingface__transformers__38213953453": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "huggingface__transformers__38224895155": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38054458339": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38141920609": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38220504907": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "langchain-ai__langchain__38220640167": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "nodejs__node__38162525544": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "nodejs__node__38181101368": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "nodejs__node__38191765240": {
+    "pred": "low",
+    "category": "docs_check"
+   },
+   "nodejs__node__38203939118": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "numpy__numpy__38197650726": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "numpy__numpy__38197650734": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "numpy__numpy__38197650837": {
+    "pred": "high",
+    "category": "ci_config"
+   },
+   "numpy__numpy__38197650864": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "pandas-dev__pandas__38159153805": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "pandas-dev__pandas__38190363902": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "pandas-dev__pandas__38201489513": {
+    "pred": "high",
+    "category": "ci_config"
+   },
+   "psf__black__38218106597": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "psf__black__38218106686": {
+    "pred": "high",
+    "category": "ci_config"
+   },
+   "pypa__pip__38203070582": {
+    "pred": "low",
+    "category": "docs_check"
+   },
+   "pypa__pip__38203075276": {
+    "pred": "low",
+    "category": "docs_check"
+   },
+   "pytest-dev__pytest__37167493424": {
+    "pred": "low",
+    "category": "docs_check"
+   },
+   "pytest-dev__pytest__38099531711": {
+    "pred": "low",
+    "category": "docs_check"
+   },
+   "python-poetry__poetry__38201401884": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "python-poetry__poetry__38217088589": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "rust-lang__cargo__38218098114": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "rust-lang__cargo__38222465819": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "scikit-learn__scikit-learn__38110868593": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "scikit-learn__scikit-learn__38117079621": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "scikit-learn__scikit-learn__38130261619": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "scikit-learn__scikit-learn__38220142959": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "tokio-rs__tokio__38052518006": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "tokio-rs__tokio__38134725610": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "tokio-rs__tokio__38179284528": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "tokio-rs__tokio__38213701855": {
+    "pred": "high",
+    "category": "build_compile"
+   },
+   "vercel__next.js__38217690831": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "vercel__next.js__38223914207": {
+    "pred": "medium",
+    "category": "ci_config"
+   },
+   "vercel__next.js__38223933479": {
+    "pred": "low",
+    "category": "docs_check"
+   },
+   "vitejs__vite__38193411344": {
+    "pred": "high",
+    "category": "dependency_install"
+   },
+   "vitejs__vite__38207643579": {
+    "pred": "high",
+    "category": "ci_config"
+   },
+   "vitejs__vite__38214414602": {
+    "pred": "medium",
+    "category": "test_failure"
+   },
+   "vitejs__vite__38218454942": {
+    "pred": "medium",
+    "category": "test_failure"
+   }
+  }
+ }
+}

@@ -46,3 +46,26 @@ repeat), which would need data the logs do not carry today.
 
 **Needs from you:** accept or edit the three level definitions. Every
 risk number reported tonight is relative to this draft.
+
+## 3. Which risk classifier should the graph use? (v0.5 finding)
+
+**Measured tonight** (`experiments/003_lora_risk_classifier.md`, 64 held-out
+logs, draft labels):
+
+| Classifier | Accuracy | Macro-F1 | High-risk recall |
+|---|---|---|---|
+| Prompted llama3.2 (current graph default) | 0.500 | 0.365 | **0.00** |
+| LoRA MiniLM, 3 seeds | 0.52–0.59 | 0.50–0.57 | 0.58 |
+| Rubric on retrieved category (no model) | 0.609 | 0.544 | 0.67 |
+
+The current default never predicted "high" for any of the 12 high-risk logs.
+
+**Not changed tonight**, because every number rests on the draft rubric (#2)
+and unreviewed test categories.
+
+**Options:** keep the prompted LLM; switch to the rubric on the retrieved
+category (fast, no model, but it inherits every retrieval error); use LoRA
+(best macro-F1, gain over the LLM not proven); or combine them, e.g. the
+rubric by default with the LLM only to explain.
+
+**Needs from you:** a choice. Ideally after #2 and the held-out label review.

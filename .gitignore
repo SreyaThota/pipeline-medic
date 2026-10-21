@@ -32,3 +32,6 @@ Thumbs.db
 
 # Runtime state written by the Action Agent (audit log, local tickets, outbox)
 var/
+
+# LoRA adapters are rebuilt by ml/lora_finetune/train.py
+ml/lora_finetune/artifacts/

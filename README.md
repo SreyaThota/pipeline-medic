@@ -27,7 +27,7 @@ run that is in the repo and reproducible, including a negative result.
 | MCP server: `create_ticket`, `notify`, read-only `lookup_log`; dry-run by default, every call audited | ✅ Shipped (v0.3), local backends only |
 | Action Agent: fixed ticket/notify policy from risk level; tool choice never taken from log text | ✅ Shipped (v0.3) |
 | LangGraph agent graph: parse → diagnose (flat RAG) → risk (prompted LLM, rubric fallback) → propose → human approval → execute; checkpointed | ✅ Shipped (v0.4), draft risk rubric |
-| LoRA risk classifier | 📋 Designed, see [`ROADMAP.md`](ROADMAP.md) |
+| LoRA risk classifier (MiniLM + LoRA) vs prompted LLM, measured on held-out logs | 🚧 Built and measured, not adopted (v0.5, draft labels) |
 
 ## Architecture
 

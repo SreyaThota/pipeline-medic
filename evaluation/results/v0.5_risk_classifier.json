@@ -1,0 +1,535 @@
+{
+  "labels": "draft rubric v1 on category labels (test category labels are draft)",
+  "train": "dev split + 30 synthetic",
+  "subsets": {
+    "all_test": {
+      "lora_seed0": {
+        "n": 64,
+        "accuracy": 0.531,
+        "macro_f1": 0.498,
+        "per_class": {
+          "low": {
+            "precision": 0.545,
+            "recall": 0.286,
+            "f1": 0.375,
+            "support": 21
+          },
+          "medium": {
+            "precision": 0.568,
+            "recall": 0.677,
+            "f1": 0.618,
+            "support": 31
+          },
+          "high": {
+            "precision": 0.438,
+            "recall": 0.583,
+            "f1": 0.5,
+            "support": 12
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 13,
+            "low": 6,
+            "high": 2
+          },
+          "medium": {
+            "medium": 21,
+            "high": 7,
+            "low": 3
+          },
+          "high": {
+            "medium": 3,
+            "low": 2,
+            "high": 7
+          }
+        }
+      },
+      "lora_seed1": {
+        "n": 64,
+        "accuracy": 0.594,
+        "macro_f1": 0.571,
+        "per_class": {
+          "low": {
+            "precision": 0.667,
+            "recall": 0.476,
+            "f1": 0.556,
+            "support": 21
+          },
+          "medium": {
+            "precision": 0.636,
+            "recall": 0.677,
+            "f1": 0.656,
+            "support": 31
+          },
+          "high": {
+            "precision": 0.438,
+            "recall": 0.583,
+            "f1": 0.5,
+            "support": 12
+          }
+        },
+        "confusion": {
+          "low": {
+            "low": 10,
+            "medium": 9,
+            "high": 2
+          },
+          "medium": {
+            "low": 3,
+            "medium": 21,
+            "high": 7
+          },
+          "high": {
+            "medium": 3,
+            "low": 2,
+            "high": 7
+          }
+        }
+      },
+      "lora_seed2": {
+        "n": 64,
+        "accuracy": 0.516,
+        "macro_f1": 0.5,
+        "per_class": {
+          "low": {
+            "precision": 0.667,
+            "recall": 0.381,
+            "f1": 0.485,
+            "support": 21
+          },
+          "medium": {
+            "precision": 0.545,
+            "recall": 0.581,
+            "f1": 0.562,
+            "support": 31
+          },
+          "high": {
+            "precision": 0.368,
+            "recall": 0.583,
+            "f1": 0.452,
+            "support": 12
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 11,
+            "low": 8,
+            "high": 2
+          },
+          "medium": {
+            "medium": 18,
+            "high": 10,
+            "low": 3
+          },
+          "high": {
+            "medium": 4,
+            "high": 7,
+            "low": 1
+          }
+        }
+      },
+      "prompted_llm": {
+        "n": 64,
+        "accuracy": 0.5,
+        "macro_f1": 0.365,
+        "per_class": {
+          "low": {
+            "precision": 0.419,
+            "recall": 0.619,
+            "f1": 0.5,
+            "support": 21
+          },
+          "medium": {
+            "precision": 0.576,
+            "recall": 0.613,
+            "f1": 0.594,
+            "support": 31
+          },
+          "high": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 12
+          }
+        },
+        "confusion": {
+          "low": {
+            "low": 13,
+            "medium": 8
+          },
+          "medium": {
+            "medium": 19,
+            "low": 12
+          },
+          "high": {
+            "medium": 6,
+            "low": 6
+          }
+        }
+      },
+      "rubric_on_retrieved": {
+        "n": 64,
+        "accuracy": 0.609,
+        "macro_f1": 0.544,
+        "per_class": {
+          "low": {
+            "precision": 0.667,
+            "recall": 0.19,
+            "f1": 0.296,
+            "support": 21
+          },
+          "medium": {
+            "precision": 0.614,
+            "recall": 0.871,
+            "f1": 0.72,
+            "support": 31
+          },
+          "high": {
+            "precision": 0.571,
+            "recall": 0.667,
+            "f1": 0.615,
+            "support": 12
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 13,
+            "high": 4,
+            "low": 4
+          },
+          "medium": {
+            "medium": 27,
+            "high": 2,
+            "low": 2
+          },
+          "high": {
+            "high": 8,
+            "medium": 4
+          }
+        }
+      },
+      "majority_class": {
+        "n": 64,
+        "accuracy": 0.484,
+        "macro_f1": 0.218,
+        "per_class": {
+          "low": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 21
+          },
+          "medium": {
+            "precision": 0.484,
+            "recall": 1.0,
+            "f1": 0.653,
+            "support": 31
+          },
+          "high": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 12
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 21
+          },
+          "medium": {
+            "medium": 31
+          },
+          "high": {
+            "medium": 12
+          }
+        }
+      },
+      "lora_mean_vs_prompted_accuracy": {
+        "mean_difference": 0.047,
+        "ci95_low": -0.125,
+        "ci95_high": 0.214
+      }
+    },
+    "unseen_repos": {
+      "lora_seed0": {
+        "n": 52,
+        "accuracy": 0.5,
+        "macro_f1": 0.457,
+        "per_class": {
+          "low": {
+            "precision": 0.5,
+            "recall": 0.222,
+            "f1": 0.308,
+            "support": 18
+          },
+          "medium": {
+            "precision": 0.531,
+            "recall": 0.708,
+            "f1": 0.607,
+            "support": 24
+          },
+          "high": {
+            "precision": 0.417,
+            "recall": 0.5,
+            "f1": 0.455,
+            "support": 10
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 12,
+            "low": 4,
+            "high": 2
+          },
+          "medium": {
+            "medium": 17,
+            "high": 5,
+            "low": 2
+          },
+          "high": {
+            "medium": 3,
+            "low": 2,
+            "high": 5
+          }
+        }
+      },
+      "lora_seed1": {
+        "n": 52,
+        "accuracy": 0.577,
+        "macro_f1": 0.547,
+        "per_class": {
+          "low": {
+            "precision": 0.667,
+            "recall": 0.444,
+            "f1": 0.533,
+            "support": 18
+          },
+          "medium": {
+            "precision": 0.607,
+            "recall": 0.708,
+            "f1": 0.654,
+            "support": 24
+          },
+          "high": {
+            "precision": 0.417,
+            "recall": 0.5,
+            "f1": 0.455,
+            "support": 10
+          }
+        },
+        "confusion": {
+          "low": {
+            "low": 8,
+            "medium": 8,
+            "high": 2
+          },
+          "medium": {
+            "low": 2,
+            "medium": 17,
+            "high": 5
+          },
+          "high": {
+            "medium": 3,
+            "low": 2,
+            "high": 5
+          }
+        }
+      },
+      "lora_seed2": {
+        "n": 52,
+        "accuracy": 0.481,
+        "macro_f1": 0.461,
+        "per_class": {
+          "low": {
+            "precision": 0.667,
+            "recall": 0.333,
+            "f1": 0.444,
+            "support": 18
+          },
+          "medium": {
+            "precision": 0.5,
+            "recall": 0.583,
+            "f1": 0.538,
+            "support": 24
+          },
+          "high": {
+            "precision": 0.333,
+            "recall": 0.5,
+            "f1": 0.4,
+            "support": 10
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 10,
+            "low": 6,
+            "high": 2
+          },
+          "medium": {
+            "medium": 14,
+            "high": 8,
+            "low": 2
+          },
+          "high": {
+            "medium": 4,
+            "high": 5,
+            "low": 1
+          }
+        }
+      },
+      "prompted_llm": {
+        "n": 52,
+        "accuracy": 0.481,
+        "macro_f1": 0.351,
+        "per_class": {
+          "low": {
+            "precision": 0.417,
+            "recall": 0.556,
+            "f1": 0.476,
+            "support": 18
+          },
+          "medium": {
+            "precision": 0.536,
+            "recall": 0.625,
+            "f1": 0.577,
+            "support": 24
+          },
+          "high": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 10
+          }
+        },
+        "confusion": {
+          "low": {
+            "low": 10,
+            "medium": 8
+          },
+          "medium": {
+            "medium": 15,
+            "low": 9
+          },
+          "high": {
+            "medium": 5,
+            "low": 5
+          }
+        }
+      },
+      "rubric_on_retrieved": {
+        "n": 52,
+        "accuracy": 0.558,
+        "macro_f1": 0.49,
+        "per_class": {
+          "low": {
+            "precision": 0.5,
+            "recall": 0.111,
+            "f1": 0.182,
+            "support": 18
+          },
+          "medium": {
+            "precision": 0.571,
+            "recall": 0.833,
+            "f1": 0.678,
+            "support": 24
+          },
+          "high": {
+            "precision": 0.538,
+            "recall": 0.7,
+            "f1": 0.609,
+            "support": 10
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 12,
+            "high": 4,
+            "low": 2
+          },
+          "medium": {
+            "medium": 20,
+            "high": 2,
+            "low": 2
+          },
+          "high": {
+            "high": 7,
+            "medium": 3
+          }
+        }
+      },
+      "majority_class": {
+        "n": 52,
+        "accuracy": 0.462,
+        "macro_f1": 0.211,
+        "per_class": {
+          "low": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 18
+          },
+          "medium": {
+            "precision": 0.462,
+            "recall": 1.0,
+            "f1": 0.632,
+            "support": 24
+          },
+          "high": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 10
+          }
+        },
+        "confusion": {
+          "low": {
+            "medium": 18
+          },
+          "medium": {
+            "medium": 24
+          },
+          "high": {
+            "medium": 10
+          }
+        }
+      },
+      "lora_mean_vs_prompted_accuracy": {
+        "mean_difference": 0.038,
+        "ci95_low": -0.147,
+        "ci95_high": 0.224
+      }
+    }
+  },
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "5.18.0",
+    "peft": "0.21.2"
+  },
+  "python": "3.14.6",
+  "prompted_llm_methods": {
+    "prompted_llm": 64
+  },
+  "prompted_llm_ms_p50": 6762,
+  "lora_runs": {
+    "0": {
+      "train_examples": 77,
+      "reused_adapter": true,
+      "predict_ms_per_log": 71.9
+    },
+    "1": {
+      "train_examples": 77,
+      "trainable_params": 74883,
+      "total_params": 22789254,
+      "train_seconds": 737.5,
+      "predict_ms_per_log": 128.9
+    },
+    "2": {
+      "train_examples": 77,
+      "trainable_params": 74883,
+      "total_params": 22789254,
+      "train_seconds": 735.7,
+      "predict_ms_per_log": 131.9
+    }
+  }
+}

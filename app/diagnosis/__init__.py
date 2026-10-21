@@ -1,1 +1,1 @@
-"""Diagnosis: model providers and (from Phase 4) structured diagnosis."""
+"""Diagnosis: model provider clients used by the API and, from v0.4, the Diagnosis Agent."""

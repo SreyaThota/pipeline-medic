@@ -1,6 +1,6 @@
 [project]
 name = "pipeline-medic"
-version = "0.3.0"
+version = "0.2.6"
 description = "Agentic CI/CD reliability copilot"
 readme = "README.md"
 requires-python = ">=3.14"

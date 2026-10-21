@@ -1,4 +1,4 @@
-"""PipelineMedic X API.
+"""Pipeline Medic API.
 
 Run locally:  uvicorn app.main:app --reload   (docs at http://localhost:8000/docs)
 """
@@ -18,9 +18,9 @@ def create_app() -> FastAPI:
     get_settings()  # fail fast on invalid configuration
     logging.basicConfig(level=logging.INFO, format="%(message)s")
     application = FastAPI(
-        title="PipelineMedic X",
+        title="Pipeline Medic",
         version=__version__,
-        description="AI-assisted CI/CD failure diagnosis and safe remediation.",
+        description="Agentic CI/CD reliability copilot: diagnose why a pipeline run failed.",
     )
     install_request_middleware(application)
     install_error_handlers(application)

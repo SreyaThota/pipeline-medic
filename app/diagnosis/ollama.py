@@ -1,6 +1,6 @@
 """Minimal Ollama client with a timeout and typed errors.
 
-Phase 4 puts this behind a provider adapter with a deterministic fallback.
+The Diagnosis Agent (v0.4) builds on this client.
 """
 
 import requests

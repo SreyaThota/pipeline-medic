@@ -36,7 +36,7 @@ def diagnose_v1(
 ) -> DiagnoseResponse:
     """Summarise a CI log with the configured local model.
 
-    Phase 4 replaces this summary with a structured, evidence-backed diagnosis.
+    A structured, evidence-backed diagnosis is the Diagnosis Agent's job (v0.4).
     """
     summary = _summarize(body.log_text, settings)
     return DiagnoseResponse(summary=summary, model=settings.ollama_model)

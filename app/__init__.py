@@ -1,3 +1,3 @@
-"""PipelineMedic X: AI-assisted CI/CD failure diagnosis and safe remediation."""
+"""Pipeline Medic: agentic CI/CD reliability copilot."""
 
-__version__ = "0.3.0"
+__version__ = "0.2.6"

@@ -1,0 +1,400 @@
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4071929Z [687/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/pass/shape.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4072294Z [688/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/pass/simple.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4072667Z [689/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/pass/ufunc_config.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4073065Z [690/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/pass/ufunclike.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4073439Z [691/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/pass/ufuncs.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4073842Z [692/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/pass/warnings_and_errors.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4074386Z [693/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/arithmetic.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4074848Z [694/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/array_api_info.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4075296Z [695/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/array_constructors.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4075718Z [696/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/arraypad.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4076196Z [697/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/arrayprint.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4076599Z [698/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/arraysetops.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4077017Z [699/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/arrayterator.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4077425Z [700/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/bitwise_ops.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4077822Z [701/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/char.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4078214Z [702/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/chararray.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4078623Z [703/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/comparisons.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4079182Z [704/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/constants.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4079582Z [705/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ctypeslib.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4079978Z [706/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/datasource.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4080375Z [707/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/dtype.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4080767Z [708/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/einsumfunc.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4081159Z [709/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/emath.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4081534Z [710/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/fft.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4081926Z [711/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/flatiter.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4082330Z [712/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/fromnumeric.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4082749Z [713/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/getlimits.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4083148Z [714/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/histograms.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4083559Z [715/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/index_tricks.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4084004Z [716/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/lib_function_base.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4084442Z [717/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/lib_polynomial.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4084853Z [718/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/lib_utils.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4085251Z [719/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/lib_version.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4085646Z [720/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/linalg.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4086111Z [721/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ma.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4086496Z [722/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/matrix.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4086871Z [723/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/memmap.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4087243Z [724/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/mod.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4087623Z [725/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/modules.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4088019Z [726/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/multiarray.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4088440Z [727/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/nbit_base_example.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4088894Z [728/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ndarray_assignability.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4089466Z [729/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ndarray_conversion.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4089904Z [730/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ndarray_misc.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4090370Z [731/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ndarray_shape_manipulation.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4090815Z [732/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/nditer.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4091217Z [733/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/nested_sequence.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4091629Z [734/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/npyio.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4092014Z [735/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/numeric.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4092420Z [736/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/numerictypes.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4092858Z [737/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/polynomial_polybase.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4093320Z [738/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/polynomial_polyutils.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4093878Z [739/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/polynomial_series.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4094291Z [740/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/random.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4094666Z [741/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/rec.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4095048Z [742/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/scalars.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4095467Z [743/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/shape.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4095873Z [744/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/shape_base.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4096376Z [745/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/stride_tricks.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4096785Z [746/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/strings.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4097169Z [747/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/testing.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4097567Z [748/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/twodim_base.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4097969Z [749/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/type_check.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4098373Z [750/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ufunc_config.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4098780Z [751/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ufunclike.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4099168Z [752/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/ufuncs.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4099587Z [753/907] /home/runner/work/numpy/numpy/numpy/typing/tests/data/reveal/warnings_and_errors.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4099971Z [754/907] /home/runner/work/numpy/numpy/numpy/rec/__init__.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4560828Z [755/907] /home/runner/work/numpy/numpy/numpy/rec/__init__.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4561409Z [756/907] /home/runner/work/numpy/numpy/numpy/char/__init__.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4561925Z [757/907] /home/runner/work/numpy/numpy/numpy/char/__init__.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4562396Z [758/907] /home/runner/work/numpy/numpy/numpy/core/__init__.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4562711Z [759/907] /home/runner/work/numpy/numpy/numpy/core/__init__.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4563017Z [760/907] /home/runner/work/numpy/numpy/numpy/core/_dtype.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4563339Z [761/907] /home/runner/work/numpy/numpy/numpy/core/_dtype.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4563654Z [762/907] /home/runner/work/numpy/numpy/numpy/core/_dtype_ctypes.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4563987Z [763/907] /home/runner/work/numpy/numpy/numpy/core/_dtype_ctypes.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4564308Z [764/907] /home/runner/work/numpy/numpy/numpy/core/_internal.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4564619Z [765/907] /home/runner/work/numpy/numpy/numpy/core/_internal.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4564938Z [766/907] /home/runner/work/numpy/numpy/numpy/core/_multiarray_umath.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4565477Z [767/907] /home/runner/work/numpy/numpy/numpy/core/_utils.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4565777Z [768/907] /home/runner/work/numpy/numpy/numpy/core/arrayprint.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4566213Z [769/907] /home/runner/work/numpy/numpy/numpy/core/arrayprint.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4566531Z [770/907] /home/runner/work/numpy/numpy/numpy/core/defchararray.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4566848Z [771/907] /home/runner/work/numpy/numpy/numpy/core/defchararray.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4567155Z [772/907] /home/runner/work/numpy/numpy/numpy/core/einsumfunc.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4567458Z [773/907] /home/runner/work/numpy/numpy/numpy/core/einsumfunc.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4567756Z [774/907] /home/runner/work/numpy/numpy/numpy/core/fromnumeric.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4568054Z [775/907] /home/runner/work/numpy/numpy/numpy/core/fromnumeric.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4568359Z [776/907] /home/runner/work/numpy/numpy/numpy/core/function_base.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4568679Z [777/907] /home/runner/work/numpy/numpy/numpy/core/function_base.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4568988Z [778/907] /home/runner/work/numpy/numpy/numpy/core/getlimits.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4569287Z [779/907] /home/runner/work/numpy/numpy/numpy/core/getlimits.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4569730Z [780/907] /home/runner/work/numpy/numpy/numpy/core/multiarray.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4570033Z [781/907] /home/runner/work/numpy/numpy/numpy/core/multiarray.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4570341Z [782/907] /home/runner/work/numpy/numpy/numpy/core/numeric.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4570636Z [783/907] /home/runner/work/numpy/numpy/numpy/core/numeric.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4570942Z [784/907] /home/runner/work/numpy/numpy/numpy/core/numerictypes.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4571259Z [785/907] /home/runner/work/numpy/numpy/numpy/core/numerictypes.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4571567Z [786/907] /home/runner/work/numpy/numpy/numpy/core/overrides.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4571874Z [787/907] /home/runner/work/numpy/numpy/numpy/core/overrides.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4572174Z [788/907] /home/runner/work/numpy/numpy/numpy/core/records.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4572463Z [789/907] /home/runner/work/numpy/numpy/numpy/core/records.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4572764Z [790/907] /home/runner/work/numpy/numpy/numpy/core/shape_base.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4573064Z [791/907] /home/runner/work/numpy/numpy/numpy/core/shape_base.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4573356Z [792/907] /home/runner/work/numpy/numpy/numpy/core/umath.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4573642Z [793/907] /home/runner/work/numpy/numpy/numpy/core/umath.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4573934Z [794/907] /home/runner/work/numpy/numpy/numpy/strings/__init__.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4574236Z [795/907] /home/runner/work/numpy/numpy/numpy/strings/__init__.pyi
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4574539Z [796/907] /home/runner/work/numpy/numpy/numpy/tests/__init__.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4574848Z [797/907] /home/runner/work/numpy/numpy/numpy/tests/test__all__.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4575182Z [798/907] /home/runner/work/numpy/numpy/numpy/tests/test_configtool.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4575516Z [799/907] /home/runner/work/numpy/numpy/numpy/tests/test_ctypeslib.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4575850Z [800/907] /home/runner/work/numpy/numpy/numpy/tests/test_lazyloading.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4576281Z [801/907] /home/runner/work/numpy/numpy/numpy/tests/test_matlib.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4576605Z [802/907] /home/runner/work/numpy/numpy/numpy/tests/test_numpy_config.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4576950Z [803/907] /home/runner/work/numpy/numpy/numpy/tests/test_numpy_version.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4577286Z [804/907] /home/runner/work/numpy/numpy/numpy/tests/test_public_api.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4577613Z [805/907] /home/runner/work/numpy/numpy/numpy/tests/test_reloading.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4577939Z [806/907] /home/runner/work/numpy/numpy/numpy/tests/test_scripts.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4578252Z [807/907] /home/runner/work/numpy/numpy/numpy/tests/test_warnings.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4578567Z [808/907] /home/runner/work/numpy/numpy/numpy/_core/tests/_locales.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4578879Z [809/907] /home/runner/work/numpy/numpy/numpy/_core/tests/_natype.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4579329Z [810/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test__exceptions.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4579683Z [811/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_abc.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4579996Z [812/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_api.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4580325Z [813/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_argparse.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4580703Z [814/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_array_api_info.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4581081Z [815/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_array_coercion.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4581457Z [816/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_array_interface.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4581824Z [817/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_arraymethod.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4582181Z [818/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_arrayobject.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4582539Z [819/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_arrayprint.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4582944Z [820/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_casting_floatingpoint_errors.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4583469Z [821/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_casting_unittests.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4583866Z [822/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_conversion_utils.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4584243Z [823/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_cpu_dispatcher.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4584609Z [824/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_cpu_features.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4584978Z [825/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_custom_dtypes.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4585331Z [826/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_cython.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4585668Z [827/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_datetime.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4586019Z [828/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_defchararray.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4586479Z [829/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_deprecations.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4586838Z [830/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_dlpack.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4587172Z [831/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_dtype.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4587501Z [832/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_einsum.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4587838Z [833/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_errstate.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4588188Z [834/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_extint128.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4588529Z [835/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_finfo.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4588876Z [836/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_function_base.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4589243Z [837/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_getlimits.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4589584Z [838/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_half.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4589920Z [839/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_hashtable.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4590279Z [840/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_indexerrors.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4590632Z [841/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_indexing.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4590991Z [842/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_item_selection.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4591355Z [843/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_limited_api.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4591713Z [844/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_longdouble.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4592073Z [845/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_mem_overlap.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4592432Z [846/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_mem_policy.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4592781Z [847/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_memmap.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4593241Z [848/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_multiarray.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4593621Z [849/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_multiprocessing.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4594007Z [850/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_multithreading.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4594364Z [851/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_nditer.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4594723Z [852/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_nep50_promotions.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4595097Z [853/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_numeric.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4595453Z [854/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_numerictypes.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4595817Z [855/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_overrides.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4596240Z [856/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_print.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4596584Z [857/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_protocols.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4596932Z [858/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_records.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4597287Z [859/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_reduction_loop.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4597754Z [860/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_regression.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4598124Z [861/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_scalar_ctors.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4598486Z [862/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_scalar_methods.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4598854Z [863/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_scalarbuffer.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4599219Z [864/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_scalarinherit.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4599578Z [865/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_scalarmath.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4599934Z [866/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_scalarprint.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4600294Z [867/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_shape_base.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.4600634Z [868/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_simd.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5066456Z [869/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_simd_module.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5067156Z [870/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_stringdtype.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5067762Z [871/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_strings.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5068331Z [872/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_ufunc.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5068868Z [873/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_umath.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5069400Z [874/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_umath_accuracy.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5069794Z [875/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_umath_complex.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5070166Z [876/907] /home/runner/work/numpy/numpy/numpy/_core/tests/test_unicode.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5070555Z [877/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/astype_copy.pkl
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5070992Z [878/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/generate_umath_validation_data.cpp
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5071468Z [879/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/recarray_from_file.fits
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5071921Z [880/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-README.txt
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5072368Z [881/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-arccos.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5072815Z [882/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-arccosh.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5073350Z [883/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-arcsin.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5073805Z [884/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-arcsinh.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5074440Z [885/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-arctan.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5074891Z [886/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-arctanh.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5075350Z [887/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-cbrt.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5075795Z [888/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-cos.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5076344Z [889/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-cosh.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5076775Z [890/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-exp.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5077216Z [891/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-exp2.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5077656Z [892/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-expm1.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5078088Z [893/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-log.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5078526Z [894/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-log10.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5078959Z [895/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-log1p.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5079514Z [896/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-log2.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5079943Z [897/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-sin.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5080373Z [898/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-sinh.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5080798Z [899/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-tan.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5081223Z [900/907] /home/runner/work/numpy/numpy/numpy/_core/tests/data/umath-validation-set-tanh.csv
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5081635Z [901/907] /home/runner/work/numpy/numpy/numpy/_core/tests/examples/cython/checks.pyx
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5082043Z [902/907] /home/runner/work/numpy/numpy/numpy/_core/tests/examples/cython/meson.build
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5082437Z [903/907] /home/runner/work/numpy/numpy/numpy/_core/tests/examples/cython/setup.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5082848Z [904/907] /home/runner/work/numpy/numpy/numpy/_core/tests/examples/limited_api/limited_api.c
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5083308Z [905/907] /home/runner/work/numpy/numpy/numpy/_core/tests/examples/limited_api/limited_api_cython.pyx
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5083769Z [906/907] /home/runner/work/numpy/numpy/numpy/_core/tests/examples/limited_api/meson.build
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5084188Z [907/907] /home/runner/work/numpy/numpy/numpy/_core/tests/examples/limited_api/setup.py
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5208388Z Successfully built numpy-2.6.0.dev0-cp313-cp313-android_24_x86_64.whl
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5311184Z ##[endgroup]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5311709Z                                                              ^[[32m✓ ^[[0m85.16s
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5312133Z ##[group]Repairing wheel...
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5312260Z 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.5315703Z + auditwheel repair --ldpaths /usr/local/lib/android/sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/18/lib/linux/x86_64:/usr/local/lib/android/sdk/ndk/27.3.13750724/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android -w /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/repaired_wheel /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/built_wheel/numpy-2.6.0.dev0-cp313-cp313-android_24_x86_64.whl
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.6237688Z INFO:auditwheel.main_repair:Repairing numpy-2.6.0.dev0-cp313-cp313-android_24_x86_64.whl
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.7724764Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.7809403Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.7851379Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.7888235Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.7918249Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.7946864Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8025295Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8470212Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8514015Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8663471Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8742852Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8812185Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8892332Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.8973465Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.9044913Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.9119591Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.9192642Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.9257401Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.9347015Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:56.9467799Z INFO:auditwheel.lddtree:Skip libpython3.13.so resolution
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:57.3867902Z INFO:auditwheel.wheeltools:Previous filename tags: android_24_x86_64
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:57.3868357Z INFO:auditwheel.wheeltools:No filename tags change needed.
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:57.3868736Z INFO:auditwheel.wheeltools:Previous WHEEL info tags: cp313-cp313-android_24_x86_64
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:56:57.3869099Z INFO:auditwheel.wheeltools:No WHEEL info change needed.
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.3996777Z INFO:auditwheel.main_repair:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.3997578Z Fixed-up wheel written to /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/repaired_wheel/numpy-2.6.0.dev0-cp313-cp313-android_24_x86_64.whl
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.4207614Z No audit required for this wheel, as it is not abi3
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.4208326Z ##[endgroup]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.4209026Z                                                               ^[[32m✓ ^[[0m5.89s
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.4209498Z ##[group]Testing wheel...
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.4209625Z 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.4209713Z + pip install --group test-core
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.6618292Z Collecting pytest==9.1.1
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.7172959Z   Downloading pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.7532512Z Collecting pytest-xdist
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.7702304Z   Downloading pytest_xdist-3.8.0-py3-none-any.whl.metadata (3.0 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.7849281Z Collecting pytest-timeout
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.8021219Z   Downloading pytest_timeout-2.4.0-py3-none-any.whl.metadata (20 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.8205944Z Collecting pytest-cov==7.1.0
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.8358695Z   Downloading pytest_cov-7.1.0-py3-none-any.whl.metadata (32 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.8577629Z Collecting tzdata
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.8726472Z   Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.8859550Z Collecting iniconfig>=1.0.1 (from pytest==9.1.1)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.9006914Z   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.9030269Z Requirement already satisfied: packaging>=22 in /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/venv/lib/python3.13/site-packages (from pytest==9.1.1) (26.3)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.9053824Z Collecting pluggy<2,>=1.5 (from pytest==9.1.1)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.9061849Z   Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.9219891Z Collecting pygments>=2.7.2 (from pytest==9.1.1)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:02.9375606Z   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.1859703Z Collecting coverage>=7.10.6 (from coverage[toml]>=7.10.6->pytest-cov==7.1.0)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.2026251Z   Downloading coverage-7.16.2-py3-none-any.whl.metadata (8.2 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.2271995Z Collecting execnet>=2.1 (from pytest-xdist)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.2424672Z   Downloading execnet-2.1.2-py3-none-any.whl.metadata (2.9 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.2612922Z Downloading pytest-9.1.1-py3-none-any.whl (386 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.3185798Z Downloading pytest_cov-7.1.0-py3-none-any.whl (22 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.3205915Z Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.3355367Z Downloading pytest_xdist-3.8.0-py3-none-any.whl (46 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.3521213Z Downloading pytest_timeout-2.4.0-py3-none-any.whl (14 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.3692000Z Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.4056401Z Downloading coverage-7.16.2-py3-none-any.whl (215 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.4256203Z Downloading execnet-2.1.2-py3-none-any.whl (40 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.4419960Z Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.4587034Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.4940762Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 31.0 MB/s  0:00:00
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:03.5342810Z Installing collected packages: tzdata, pygments, pluggy, iniconfig, execnet, coverage, pytest, pytest-xdist, pytest-timeout, pytest-cov
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:04.3419368Z 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:04.3435416Z Successfully installed coverage-7.16.2 execnet-2.1.2 iniconfig-2.3.1 pluggy-1.6.0 pygments-2.21.0 pytest-9.1.1 pytest-cov-7.1.0 pytest-timeout-2.4.0 pytest-xdist-3.8.0 tzdata-2026.5
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:04.3984343Z + pip install --only-binary=:all: --target /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/repaired_wheel/numpy-2.6.0.dev0-cp313-cp313-android_24_x86_64.whl
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:04.5839385Z Processing /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/repaired_wheel/numpy-2.6.0.dev0-cp313-cp313-android_24_x86_64.whl
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:04.6195512Z Installing collected packages: numpy
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:05.9198075Z Successfully installed numpy-2.6.0.dev0
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:05.9599102Z + /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py test --site-packages /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages --cwd /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd --managed maxVersion -- -m pytest --pyargs numpy -m 'not slow' -W ignore::PendingDeprecationWarning -p no:cacheprovider
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:06.0108685Z > sudo tee /etc/udev/rules.d/99-kvm4all.rules
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:06.0168853Z KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:06.0177151Z > sudo udevadm control --reload-rules
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:06.0374267Z > sudo udevadm trigger --name-match=kvm
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:06.0482526Z Deleting /usr/local/lib/android/sdk/ndk/30.0.16248370 ...
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:07.7407946Z Deleting /usr/local/lib/android/sdk/ndk/29.0.14206865 ...
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:09.4472137Z > /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --licenses
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:14.9387069Z > curl -Lf --retry 5 --retry-all-errors -o /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/testbed/gradlew https://raw.githubusercontent.com/gradle/gradle/v9.5.0/gradlew
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:14.9458909Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:14.9459350Z                                  Dload  Upload   Total   Spent    Left  Speed
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:14.9459730Z 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0028560Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0029116Z 100  8676  100  8676    0     0   148k      0 --:--:-- --:--:-- --:--:--  151k
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0049297Z > curl -Lf --retry 5 --retry-all-errors -o /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/testbed/gradlew.bat https://raw.githubusercontent.com/gradle/gradle/v9.5.0/gradlew.bat
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0092769Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0093411Z                                  Dload  Upload   Total   Spent    Left  Speed
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0094114Z 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0543899Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0544416Z 100  2786  100  2786    0     0  61886      0 --:--:-- --:--:-- --:--:-- 63318
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0562444Z > curl -Lf --retry 5 --retry-all-errors -o /tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/testbed/gradle/wrapper/gradle-wrapper.jar https://raw.githubusercontent.com/gradle/gradle/v9.5.0/gradle/wrapper/gradle-wrapper.jar
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0605822Z   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0606591Z                                  Dload  Upload   Total   Spent    Left  Speed
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.0606949Z 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.1182600Z   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.1183117Z 100 48462  100 48462    0     0   819k      0 --:--:-- --:--:-- --:--:--  830k
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:57:15.4456632Z Waiting for managed device - this may take several minutes
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:59:07.1381057Z Serial: emulator-5554
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:59:07.1412788Z Waiting for app to start - this may take several minutes
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:59:23.2697269Z Preparing "Install CMake 3.22.1 v.3.22.1".
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:59:52.1693104Z error: closed
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:59:52.1710662Z Command "/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell pidof -s org.python.testbed" returned exit status 1
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T02:59:52.2230386Z This may be transient, so continuing to wait
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:22.8640930Z PID: 2346
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:24.1054295Z : No module named pytest
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:26.2245814Z Command "/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/testbed/gradlew --console plain maxVersionDebugAndroidTest -Ppython.sitePackages=/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages -Ppython.cwd=/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd '-Pandroid.testInstrumentationRunnerArguments.pythonArgs=["-m", "pytest", "--pyargs", "numpy", "-m", "not slow", "-W", "ignore::PendingDeprecationWarning", "-p", "no:cacheprovider"]'" returned exit status 1
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6001407Z ##[endgroup]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6004624Z                                                             ^[[31m✕ ^[[0m207.18s
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6027453Z ##[error]cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd', '--managed', 'maxVersion', '--', '-m', 'pytest', '--pyargs', 'numpy', '-m', 'not slow', '-W', 'ignore::PendingDeprecationWarning', '-p', 'no:cacheprovider'] failed with code 1. 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6028666Z 
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6293665Z ##[error]Process completed with exit code 1.
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6313494Z ##[end-action id=__pypa_cibuildwheel.__run;outcome=failure;conclusion=failure;duration_ms=309849]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6322157Z ##[start-action display=Run $env:PATH = "$env:CIBW_PREPEND_PATH%3B$env:PATH";id=__pypa_cibuildwheel.__run_2]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6327258Z ##[end-action id=__pypa_cibuildwheel.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6462989Z Post job cleanup.
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6465778Z ##[start-action display=Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97;id=__1f76808b-e890-4f59-a175-353de0284e60.python]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6467855Z ##[end-action id=__1f76808b-e890-4f59-a175-353de0284e60.python;outcome=skipped;conclusion=skipped;duration_ms=0]
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.6541518Z Post job cleanup.
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8343777Z [command]/usr/bin/git version
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8383302Z git version 2.55.0
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8410540Z Temporarily overriding HOME='/home/runner/work/_temp/4601b1ad-7fb0-4102-b7d5-be11105f5fbd' before making global git config changes
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8411479Z Adding repository directory to the temporary git global config as a safe directory
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8414525Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/numpy/numpy
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8442216Z Removing SSH command configuration
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8447505Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8479533Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8670962Z Entering 'doc/source/_static/scipy-mathjax'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8710479Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8749372Z Entering 'numpy/_core/src/highway'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8788434Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8827572Z Entering 'numpy/_core/src/umath/svml'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8865949Z Entering 'numpy/fft/pocketfft'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8905217Z Entering 'vendored-meson/meson'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8970426Z Removing HTTP extra header
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.8975678Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9003776Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9180877Z Entering 'doc/source/_static/scipy-mathjax'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9219078Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9255791Z Entering 'numpy/_core/src/highway'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9293120Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9329096Z Entering 'numpy/_core/src/umath/svml'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9365009Z Entering 'numpy/fft/pocketfft'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9400709Z Entering 'vendored-meson/meson'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9452749Z Removing includeIf entries pointing to credentials config files
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9458490Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9484659Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9661442Z Entering 'doc/source/_static/scipy-mathjax'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9677234Z file:/home/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config	remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9693601Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9710161Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config	remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9725646Z Entering 'numpy/_core/src/highway'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9741648Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config	remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9757361Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9773346Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config	remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9788910Z Entering 'numpy/_core/src/umath/svml'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9804625Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config	remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9820129Z Entering 'numpy/fft/pocketfft'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9835716Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config	remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9850849Z Entering 'vendored-meson/meson'
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9867313Z file:/home/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config	remote.origin.url
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9903224Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9930371Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9954076Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9975837Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:29.9997817Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:30.0018341Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:30.0040254Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config --name-only --get-regexp ^includeIf\.gitdir:
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:30.0208556Z Cleaning up orphan processes
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:30.0574582Z Terminate orphan process: pid (6121) (adb)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:30.0593403Z Terminate orphan process: pid (6176) (java)
+Build wheel cp313-android_x86_64-	UNKNOWN STEP	2026-10-12T03:00:30.0631980Z Terminate orphan process: pid (6384) (java)

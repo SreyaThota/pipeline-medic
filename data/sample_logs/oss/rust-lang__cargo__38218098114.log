@@ -1,0 +1,400 @@
+msrv	UNKNOWN STEP	2026-10-12T07:31:47.4977971Z     Checking icu_normalizer v2.2.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:47.5672234Z     Checking icu_properties v2.2.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:47.7165641Z     Checking serde_json v1.0.150
+msrv	UNKNOWN STEP	2026-10-12T07:31:48.3771774Z     Checking gix-attributes v0.33.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:48.4321998Z    Compiling libssh2-sys v0.3.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:48.5822373Z     Checking cmov v0.5.4
+msrv	UNKNOWN STEP	2026-10-12T07:31:48.7005982Z     Checking ctutils v0.4.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:48.8072210Z     Checking idna_adapter v1.2.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:48.8448733Z     Checking gix-ref v0.65.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.0188945Z     Checking serde v1.0.228
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.3002159Z     Checking tracing-core v0.1.36
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.3492491Z     Checking digest v0.11.3
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.4372064Z     Checking idna v1.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.4968161Z     Checking gix-traverse v0.59.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.5456685Z     Checking gix-packetline v0.21.5
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.6288995Z    Compiling tracing-attributes v0.1.31
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.7127785Z    Compiling libgit2-sys v0.18.7+1.9.6
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.8886041Z     Checking gix-bitmap v0.3.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:49.9433068Z    Compiling curl v0.4.50
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.0192135Z     Checking fnv v1.0.7
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.0403674Z     Checking gix-index v0.53.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.5389439Z     Checking tracing v0.1.44
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.5639525Z     Checking url v2.5.8
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.6182213Z     Checking crossbeam-epoch v0.9.21
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.7542704Z     Checking gix-pathspec v0.18.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.8872894Z     Checking gix-ignore v0.21.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.9358824Z     Checking gix-url v0.36.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:50.9575735Z     Checking socket2 v0.6.4
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.0722464Z     Checking winnow v1.0.3
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.1190225Z    Compiling rustversion v1.0.22
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.2754664Z     Checking gix-worktree v0.54.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.3777314Z     Checking crossbeam-deque v0.8.6
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.4779957Z     Checking gix-prompt v0.15.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.5418836Z     Checking gix-revision v0.47.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.8228573Z     Checking globset v0.4.18
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.8324925Z     Checking toml_parser v1.1.3+spec-1.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:51.9840526Z     Checking indexmap v2.14.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.0382127Z     Checking hashbrown v0.16.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.3892306Z     Checking serde_spanned v1.1.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.4171912Z     Checking toml_datetime v1.1.1+spec-1.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.4382160Z     Checking encoding_rs v0.8.35
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.5036640Z     Checking futures-core v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.5384326Z     Checking toml_writer v1.1.2+spec-1.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.6272434Z     Checking futures-sink v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.6673067Z    Compiling cfg_aliases v0.2.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.6952351Z    Compiling cfg-if v1.0.4
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.8084435Z    Compiling nix v0.31.3
+msrv	UNKNOWN STEP	2026-10-12T07:31:52.9419780Z     Checking futures-channel v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.0612042Z     Checking clru v0.6.3
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.1122574Z     Checking gix-filter v0.32.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.1759631Z     Checking ignore v0.4.26
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.3629094Z     Checking gix-refspec v0.43.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.4525199Z     Checking gix-credentials v0.38.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.5532553Z     Checking sha2 v0.11.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.8006693Z     Checking gix-discover v0.53.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.9311948Z     Checking terminal_size v0.4.4
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.9671856Z    Compiling libsqlite3-sys v0.38.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:53.9976841Z     Checking gix-imara-diff v0.2.3
+msrv	UNKNOWN STEP	2026-10-12T07:31:54.0951265Z    Compiling futures-macro v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:31:54.1452659Z     Checking deranged v0.5.8
+msrv	UNKNOWN STEP	2026-10-12T07:31:54.5936263Z     Checking clap_lex v1.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:54.6630015Z    Compiling minimal-lexical v0.2.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:55.0202645Z     Checking num-conv v0.2.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:55.0974319Z     Checking lazy_static v1.5.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:55.1262980Z     Checking base64 v0.22.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:55.2750490Z     Checking futures-task v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:31:55.3331882Z     Checking strsim v0.11.1
+msrv	UNKNOWN STEP	2026-10-12T07:31:55.4132525Z    Compiling memchr v2.8.2
+msrv	UNKNOWN STEP	2026-10-12T07:31:55.9201805Z     Checking slab v0.4.12
+msrv	UNKNOWN STEP	2026-10-12T07:31:56.0052474Z     Checking powerfmt v0.2.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:56.0683061Z     Checking futures-io v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:31:56.1160661Z     Checking time-core v0.1.9
+msrv	UNKNOWN STEP	2026-10-12T07:31:56.2358539Z     Checking time v0.3.52
+msrv	UNKNOWN STEP	2026-10-12T07:31:57.5842139Z     Checking futures-util v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:31:57.9601424Z    Compiling flate2 v1.1.9
+msrv	UNKNOWN STEP	2026-10-12T07:31:58.2282507Z    Compiling nom v7.1.3
+msrv	UNKNOWN STEP	2026-10-12T07:31:59.3576449Z     Checking cargo-util v0.3.0 (/home/runner/work/cargo/cargo/crates/cargo-util)
+msrv	UNKNOWN STEP	2026-10-12T07:31:59.4437210Z     Checking clap_builder v4.6.0
+msrv	UNKNOWN STEP	2026-10-12T07:31:59.6014982Z     Checking sharded-slab v0.1.7
+msrv	UNKNOWN STEP	2026-10-12T07:31:59.8965821Z     Checking gix-diff v0.65.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:00.4862844Z     Checking gix-dir v0.27.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:00.6125235Z     Checking arc-swap v1.9.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:00.7383868Z     Checking erased-serde v0.4.10
+msrv	UNKNOWN STEP	2026-10-12T07:32:01.0292039Z     Checking gix-pack v0.72.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:01.7343710Z    Compiling tar v0.4.46
+msrv	UNKNOWN STEP	2026-10-12T07:32:02.2798724Z     Checking toml v1.1.5+spec-1.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:02.7624680Z     Checking tracing-log v0.2.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:02.8115544Z     Checking gix-config v0.58.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:03.3470770Z     Checking gix-negotiate v0.33.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:03.4642107Z     Checking gix-shallow v0.12.1
+msrv	UNKNOWN STEP	2026-10-12T07:32:03.5203026Z    Compiling maybe-async v0.2.11
+msrv	UNKNOWN STEP	2026-10-12T07:32:03.8770734Z    Compiling blake3 v1.8.5
+msrv	UNKNOWN STEP	2026-10-12T07:32:03.9868299Z    Compiling im-rc v15.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:04.0529343Z     Checking matchers v0.2.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:04.1002215Z     Checking regex v1.12.4
+msrv	UNKNOWN STEP	2026-10-12T07:32:04.2954255Z     Checking bitmaps v2.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:04.7107215Z     Checking thread_local v1.1.9
+msrv	UNKNOWN STEP	2026-10-12T07:32:04.7902183Z     Checking nu-ansi-term v0.50.3
+msrv	UNKNOWN STEP	2026-10-12T07:32:04.8920405Z     Checking rand_core v0.6.4
+msrv	UNKNOWN STEP	2026-10-12T07:32:04.9407629Z     Checking rand_xoshiro v0.6.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:05.0326688Z     Checking tracing-subscriber v0.3.23
+msrv	UNKNOWN STEP	2026-10-12T07:32:05.7312298Z     Checking sized-chunks v0.6.5
+msrv	UNKNOWN STEP	2026-10-12T07:32:05.8854691Z     Checking crates-io v0.41.4 (/home/runner/work/cargo/cargo/crates/crates-io)
+msrv	UNKNOWN STEP	2026-10-12T07:32:06.7338674Z     Checking gix-submodule v0.32.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:06.8238826Z    Compiling cargo v0.102.0 (/home/runner/work/cargo/cargo)
+msrv	UNKNOWN STEP	2026-10-12T07:32:07.0792053Z     Checking gix-odb v0.82.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:07.5682649Z     Checking serde-value v0.7.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:07.6912155Z     Checking serde-untagged v0.1.9
+msrv	UNKNOWN STEP	2026-10-12T07:32:07.7411849Z     Checking gix-status v0.32.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:07.7982419Z     Checking clap v4.6.1
+msrv	UNKNOWN STEP	2026-10-12T07:32:07.8262367Z    Compiling color-print-proc-macro v0.3.7
+msrv	UNKNOWN STEP	2026-10-12T07:32:07.9871840Z     Checking futures-executor v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:32:08.0337814Z     Checking cargo-credential v0.4.11 (/home/runner/work/cargo/cargo/credential/cargo-credential)
+msrv	UNKNOWN STEP	2026-10-12T07:32:08.3171397Z     Checking annotate-snippets v0.12.16
+msrv	UNKNOWN STEP	2026-10-12T07:32:08.4082100Z     Checking chacha20 v0.10.1
+msrv	UNKNOWN STEP	2026-10-12T07:32:08.6156138Z     Checking anstyle-hyperlink v1.0.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:08.6637197Z     Checking hashlink v0.12.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:08.8766698Z     Checking semver v1.0.28
+msrv	UNKNOWN STEP	2026-10-12T07:32:08.9942261Z     Checking libloading v0.9.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.0650727Z     Checking arrayvec v0.7.7
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.0739246Z     Checking shlex v1.3.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.1184494Z     Checking constant_time_eq v0.4.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.1567122Z     Checking fallible-iterator v0.3.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.1815932Z     Checking is_executable v1.0.6
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.2112087Z     Checking arrayref v0.3.9
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.2352102Z     Checking fallible-streaming-iterator v0.1.9
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.3032176Z     Checking cargo-util-terminal v0.1.4 (/home/runner/work/cargo/cargo/crates/cargo-util-terminal)
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.3652184Z     Checking rusqlite v0.40.1
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.5172142Z     Checking clap_complete v4.6.6
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.8632406Z     Checking cargo-util-schemas v0.16.0 (/home/runner/work/cargo/cargo/crates/cargo-util-schemas)
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.8701740Z     Checking cargo-credential-libsecret v0.5.12 (/home/runner/work/cargo/cargo/credential/cargo-credential-libsecret)
+msrv	UNKNOWN STEP	2026-10-12T07:32:09.9034234Z     Checking rand v0.10.1
+msrv	UNKNOWN STEP	2026-10-12T07:32:10.2897266Z     Checking color-print v0.3.7
+msrv	UNKNOWN STEP	2026-10-12T07:32:10.3072286Z     Checking futures v0.3.32
+msrv	UNKNOWN STEP	2026-10-12T07:32:10.3259410Z     Checking os_info v3.15.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:10.7322017Z     Checking tracing-chrome v0.7.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:10.8177428Z     Checking toml_edit v0.25.12+spec-1.1.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.1762405Z     Checking sha1 v0.11.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.2662112Z     Checking hmac v0.13.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.2824698Z     Checking rustfix v0.9.8 (/home/runner/work/cargo/cargo/crates/rustfix)
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.3279963Z    Compiling async-trait v0.1.89
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.4501995Z     Checking opener v0.8.5
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.5012226Z     Checking cargo-platform v0.3.3 (/home/runner/work/cargo/cargo/crates/cargo-platform)
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.5962404Z     Checking serde_ignored v0.1.14
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.6737879Z     Checking http-auth v0.1.10
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.7306621Z     Checking rustc-stable-hash v0.1.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.7982318Z     Checking home v0.5.12
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.8473520Z     Checking unicase v2.9.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.8998506Z     Checking rustc-hash v2.1.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.9277652Z     Checking futures-timer v3.0.4
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.9355047Z     Checking base64 v0.23.1
+msrv	UNKNOWN STEP	2026-10-12T07:32:11.9935057Z     Checking pathdiff v0.2.3
+msrv	UNKNOWN STEP	2026-10-12T07:32:12.0162120Z     Checking heck v0.5.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:12.0520285Z     Checking snapbox v1.2.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:12.1032425Z     Checking memfd v0.6.5
+msrv	UNKNOWN STEP	2026-10-12T07:32:14.6862477Z     Checking gix-transport v0.57.2
+msrv	UNKNOWN STEP	2026-10-12T07:32:14.9642993Z     Checking gix-protocol v0.63.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:15.3391961Z     Checking gix v0.85.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:20.4399308Z     Checking git2 v0.21.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:21.7700275Z     Checking git2-curl v0.22.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:21.7702089Z     Checking cargo-test-support v0.12.1 (/home/runner/work/cargo/cargo/crates/cargo-test-support)
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9589375Z error[E0425]: cannot find value `toolchain_path` in this scope
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9590103Z    --> tests/testsuite/rustup.rs:276:35
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9594180Z     |
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9594585Z 276 |         .env("RUSTUP_TOOLCHAIN", &toolchain_path)
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9595111Z     |                                   ^^^^^^^^^^^^^^
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9595560Z     |
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9595928Z help: a local variable with a similar name exists
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9596414Z     |
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9596785Z 276 -         .env("RUSTUP_TOOLCHAIN", &toolchain_path)
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9597360Z 276 +         .env("RUSTUP_TOOLCHAIN", &toolchain_bin)
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9597847Z     |
+msrv	UNKNOWN STEP	2026-10-12T07:32:32.9598009Z 
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.1843331Z For more information about this error, try `rustc --explain E0425`.
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.2035801Z error: could not compile `cargo` (test "testsuite") due to 1 previous error
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.2274010Z ##[endgroup]
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.2281445Z error: process didn't exit successfully: `rustup run 1.99 cargo check --all-targets --locked --manifest-path Cargo.toml` (exit status: 101)
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.2297667Z ##[error]Process completed with exit code 1.
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.2444224Z Post job cleanup.
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3279473Z [command]/usr/bin/git version
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3315156Z git version 2.55.0
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3350594Z Temporarily overriding HOME='/home/runner/work/_temp/531df6b4-e29a-417d-84f6-02d6af24c9d3' before making global git config changes
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3352099Z Adding repository directory to the temporary git global config as a safe directory
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3355598Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cargo/cargo
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3384674Z Removing SSH command configuration
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3391949Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3432625Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3629365Z Removing HTTP extra header
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3635429Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3667031Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3861961Z Removing includeIf entries pointing to credentials config files
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3868698Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3891544Z includeif.gitdir:/home/runner/work/cargo/cargo/.git.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3892159Z includeif.gitdir:/home/runner/work/cargo/cargo/.git/worktrees/*.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3892583Z includeif.gitdir:/github/workspace/.git.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3892965Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3904399Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cargo/cargo/.git.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3921193Z /home/runner/work/_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3930324Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cargo/cargo/.git.path /home/runner/work/_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3963396Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cargo/cargo/.git/worktrees/*.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3983288Z /home/runner/work/_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.3990893Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cargo/cargo/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4020142Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4042114Z /github/runner_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4044221Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4074016Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4095889Z /github/runner_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4105342Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4146660Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4378095Z Removing credentials config '/home/runner/work/_temp/git-credentials-62a0dc8d-2531-479b-9197-1d52ed11def4.config'
+msrv	UNKNOWN STEP	2026-10-12T07:32:44.4554247Z Cleaning up orphan processes
+conclusion	UNKNOWN STEP	﻿2026-10-12T07:33:43.8518973Z Current runner version: '2.337.0'
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8555624Z ##[group]Runner Image Provisioner
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8557080Z Hosted Compute Agent
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8558117Z Version: 20261002.596
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8559243Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8560968Z Build Date: 2026-10-02T22:28:27Z
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8562294Z Worker ID: {5e2f9081-8bbe-4aba-9634-7925007bed23}
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8563776Z Region: eastus2
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8564815Z Cloud: Azure
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8565874Z ##[endgroup]
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8568122Z ##[group]Operating System
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8569321Z Ubuntu
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8570697Z 24.04.5
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8571674Z LTS
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8572597Z ##[endgroup]
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8573844Z ##[group]Runner Image
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8574968Z Image: ubuntu-24.04
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8576251Z Version: 20261004.327.1
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8578471Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8581762Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8583608Z ##[endgroup]
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8585552Z ##[group]GITHUB_TOKEN Permissions
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8588600Z Metadata: read
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8589937Z ##[endgroup]
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8592915Z Secret source: None
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8594573Z Cache mode: write
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.8596086Z Prepare workflow directory
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.9195715Z Prepare all required actions
+conclusion	UNKNOWN STEP	2026-10-12T07:33:43.9288854Z Complete job name: conclusion
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0580077Z ##[group]Run # Print the dependent jobs to see them in the CI log
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0581709Z ^[[36;1m# Print the dependent jobs to see them in the CI log^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0582882Z ^[[36;1mjq -C <<< '{^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0583677Z ^[[36;1m  "build_std": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0584675Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0585607Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0586448Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0587191Z ^[[36;1m  "clippy": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0588044Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0588971Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0590097Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0590812Z ^[[36;1m  "msrv": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0591632Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0592639Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0593477Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0594199Z ^[[36;1m  "docs": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0595057Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0595972Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0596818Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0597561Z ^[[36;1m  "lint-docs": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0598407Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0599334Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0600499Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0601311Z ^[[36;1m  "lockfile": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0602257Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0603194Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0604139Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0604877Z ^[[36;1m  "resolver": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0605751Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0606675Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0607534Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0608341Z ^[[36;1m  "report-timings": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0609244Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0610372Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0611218Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0611992Z ^[[36;1m  "rustfmt": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0612820Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0613711Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0614556Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0615300Z ^[[36;1m  "schema": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0616111Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0617012Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0617831Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0619017Z ^[[36;1m  "spellcheck": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0620162Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0621077Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0621884Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0622615Z ^[[36;1m  "test": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0623427Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0624383Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0625194Z ^[[36;1m  }^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0625890Z ^[[36;1m}'^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0626999Z ^[[36;1m# Check if all jobs that we depend on (in the needs array) were successful.^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0628557Z ^[[36;1mjq --exit-status 'all(.result == "success")' <<< '{^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0629928Z ^[[36;1m  "build_std": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0630827Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0631757Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0632578Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0633307Z ^[[36;1m  "clippy": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0634162Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0635016Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0635862Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0636601Z ^[[36;1m  "msrv": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0637407Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0638327Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0639235Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0640228Z ^[[36;1m  "docs": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0641094Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0642023Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0642934Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0643998Z ^[[36;1m  "lint-docs": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0644890Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0645784Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0646588Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0647320Z ^[[36;1m  "lockfile": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0648152Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0649022Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0650143Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0650938Z ^[[36;1m  "resolver": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0651822Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0652834Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0653668Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0654414Z ^[[36;1m  "report-timings": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0655307Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0656198Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0657040Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0657827Z ^[[36;1m  "rustfmt": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0658697Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0659889Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0660776Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0661552Z ^[[36;1m  "schema": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0662511Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0663505Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0664400Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0665193Z ^[[36;1m  "spellcheck": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0666061Z ^[[36;1m    "result": "success",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0666956Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0667829Z ^[[36;1m  },^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0668604Z ^[[36;1m  "test": {^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0669731Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0670708Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0671542Z ^[[36;1m  }^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.0672204Z ^[[36;1m}'^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.1747101Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.1748229Z env:
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.1748685Z   MDBOOK_VERSION: 0.5.1
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.1749178Z ##[endgroup]
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2084929Z ^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2085686Z   ^[[0m^[[1;34m"build_std"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2086494Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2087325Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2087978Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2088530Z   ^[[0m^[[1;34m"clippy"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2089856Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"failure"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2090663Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2091309Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2091835Z   ^[[0m^[[1;34m"msrv"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2092544Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"failure"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2093319Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2093957Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2094501Z   ^[[0m^[[1;34m"docs"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2095211Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2096077Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2096733Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2097281Z   ^[[0m^[[1;34m"lint-docs"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2098011Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2098784Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2099673Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2100242Z   ^[[0m^[[1;34m"lockfile"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2100979Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2101768Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2102405Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2102948Z   ^[[0m^[[1;34m"resolver"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2103862Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2104641Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2105271Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2105850Z   ^[[0m^[[1;34m"report-timings"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2106619Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2107395Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2108039Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2108574Z   ^[[0m^[[1;34m"rustfmt"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2109294Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2110414Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2111066Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2111602Z   ^[[0m^[[1;34m"schema"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2112326Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2113101Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2113742Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2114299Z   ^[[0m^[[1;34m"spellcheck"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2115043Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2115811Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2116450Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2116976Z   ^[[0m^[[1;34m"test"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2117683Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"failure"^[[0m^[[1;39m,
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2118447Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2119076Z   ^[[1;39m}^[[0m^[[1;39m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2119787Z ^[[1;39m}^[[0m
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2120205Z false
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2137372Z ##[error]Process completed with exit code 1.
+conclusion	UNKNOWN STEP	2026-10-12T07:33:44.2298864Z Cleaning up orphan processes

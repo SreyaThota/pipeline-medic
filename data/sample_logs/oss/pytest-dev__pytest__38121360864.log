@@ -1,0 +1,400 @@
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1858500Z  * [new tag]             8.4.0             -> 8.4.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1858850Z  * [new tag]             8.4.0.dev0        -> 8.4.0.dev0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1859270Z  * [new tag]             8.4.1             -> 8.4.1
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1859670Z  * [new tag]             8.4.2             -> 8.4.2
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1860160Z  * [new tag]             8.5.0.dev0        -> 8.5.0.dev0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1860540Z  * [new tag]             9.0.0             -> 9.0.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1860910Z  * [new tag]             9.0.1             -> 9.0.1
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1861270Z  * [new tag]             9.0.2             -> 9.0.2
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1861630Z  * [new tag]             9.0.3             -> 9.0.3
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1861960Z  * [new tag]             9.1.0             -> 9.1.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1862310Z  * [new tag]             9.1.0.dev0        -> 9.1.0.dev0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1862700Z  * [new tag]             9.1.1             -> 9.1.1
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1863050Z  * [new tag]             9.2.0.dev0        -> 9.2.0.dev0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1863420Z  * [new tag]             v7.4.3            -> v7.4.3
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1863860Z  * [new ref]             bfb1522330872a5a9c4a1e926f51ab18063017dd -> pull/14835/merge
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1865400Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1866250Z ##[group]Determining the checkout info
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1866750Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1867060Z [command]/opt/homebrew/bin/git sparse-checkout disable
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1867930Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1868870Z ##[group]Checking out the ref
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.1869310Z [command]/opt/homebrew/bin/git checkout --progress --force refs/remotes/pull/14835/merge
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3038970Z HEAD is now at bfb152233 Merge 2a9b98202ecc24099fee3c6adad05ee4d2b571ea into 587ebc501ba292539202a1aac3a7f5b0112a08ec
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3051030Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3135790Z [command]/opt/homebrew/bin/git log -1 --format=%H
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3202480Z bfb1522330872a5a9c4a1e926f51ab18063017dd
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3209550Z ##[group]Removing auth
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3209900Z Removing SSH command configuration
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3212850Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.3274050Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.4053630Z Removing HTTP extra header
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.4055970Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.4112840Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5345350Z Removing includeIf entries pointing to credentials config files
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5447380Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5547800Z includeif.gitdir:/Users/runner/work/pytest/pytest/.git.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5649000Z includeif.gitdir:/Users/runner/work/pytest/pytest/.git/worktrees/*.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5749090Z includeif.gitdir:/github/workspace/.git.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5819420Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5822330Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/pytest/pytest/.git.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5822940Z /Users/runner/work/_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5824080Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/pytest/pytest/.git.path /Users/runner/work/_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5825150Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/pytest/pytest/.git/worktrees/*.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5825710Z /Users/runner/work/_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5826810Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/pytest/pytest/.git/worktrees/*.path /Users/runner/work/_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5827850Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5828340Z /github/runner_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5829260Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5830240Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5830750Z /github/runner_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5832190Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.5848620Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6732490Z Removing credentials config '/Users/runner/work/_temp/git-credentials-b8539a9c-18dc-4db9-92dc-cc235fcd4a56.config'
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6750030Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6887820Z ##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6888140Z with:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6888280Z   name: Packages
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6888440Z   path: dist
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6888600Z   merge-multiple: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6888800Z   repository: pytest-dev/pytest
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6889000Z   run-id: 38121360864
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6889180Z   skip-decompress: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6889380Z   digest-mismatch: error
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6889610Z env:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6889760Z   PYTEST_ADDOPTS: --color=yes
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.6890240Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:35.8248440Z Downloading single artifact
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:36.0853780Z Preparing to download the following artifacts:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:36.0854400Z - Packages (ID: 11695956029, Size: 2236996, Expected Digest: sha256:12c416ce5a34a16a38f03c4ffdbd7913b50abef4327c21ad5babd4a93f4be3de)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:36.4143970Z Redirecting to blob download url: https://productionresultssa4.blob.core.windows.net/actions-results/c4cfc847-01bb-8d53-96f5-88be7e5043b0/workflow-job-run-94bd34d7-32a5-5942-b5a7-f1c76b653a46/artifacts/40a2085371b8effbae526101c0fd639a2ed6604c16513802a0e05bd3d9b8e1b0.zip
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:36.4145120Z Starting download of artifact to: /Users/runner/work/pytest/pytest/dist
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:36.6101610Z (node:13383) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:36.6103120Z (Use `node --trace-deprecation ...` to show where the warning was created)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0070780Z SHA256 digest of downloaded artifact is 12c416ce5a34a16a38f03c4ffdbd7913b50abef4327c21ad5babd4a93f4be3de
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0172130Z Artifact download completed successfully.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0172440Z Total of 1 artifact(s) downloaded
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0172770Z Download artifact has finished successfully
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0259950Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0260300Z with:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0260460Z   python-version: 3.15
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0260640Z   check-latest: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0260820Z   allow-prereleases: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0262600Z   token: ***
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0262770Z   update-environment: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0263020Z   freethreaded: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0263180Z env:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0263370Z   PYTEST_ADDOPTS: --color=yes
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.0263590Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.1788790Z ##[group]Installed versions
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.9126550Z Resolved as '3.15.0'
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.9141610Z Version 3.15.0 was not found in the local cache
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.9143290Z Version 3.15.0 is available for downloading
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:37.9143970Z Download from "https://github.com/actions/python-versions/releases/download/3.15.0-38076878863/python-3.15.0-darwin-arm64.tar.gz"
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:38.8072680Z Extract downloaded archive
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:38.8182210Z [command]/usr/bin/tar xz -C /Users/runner/work/_temp/dee26bec-d416-4382-80ec-f200ac2544ae -f /Users/runner/work/_temp/88ca9072-2c83-41d0-a413-0e53f233fb0e
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:38.9653980Z Execute installation script
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:38.9882040Z Check if Python hostedtoolcache folder exist...
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:55:39.0033870Z Install Python binaries from prebuilt package
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8302080Z installer: Package name is Python
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8306210Z installer: choices changes file '/var/folders/36/tjdph2t965j8snz9_vkdnw0r0000gn/T/tmp.db3h9Vtqvt' applied
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8312290Z installer: Upgrading at base path /
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8315230Z installer: The upgrade was successful.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8315770Z Create hostedtoolcach symlinks (Required for the backward compatibility)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8316180Z Create Python 3.15.0 folder
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8549890Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:12.8672480Z Upgrading pip...
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:13.7392800Z Collecting pip
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:13.7494130Z Using cached pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:13.7602200Z Using cached pip-26.2.1-py3-none-any.whl (1.8 MB)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:13.8986460Z Installing collected packages: pip
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:13.9088620Z Attempting uninstall: pip
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:13.9191170Z Found existing installation: pip 26.2.1
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:13.9491930Z Uninstalling pip-26.2.1:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:14.1821800Z Successfully uninstalled pip-26.2.1
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.2966210Z Successfully installed pip-26.2.1
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.3735440Z Install OpenSSL certificates
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.8306730Z Collecting certifi
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.8329520Z Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.8409320Z Using cached certifi-2026.7.22-py3-none-any.whl (136 kB)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.8619010Z Installing collected packages: certifi
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.8898640Z Successfully installed certifi-2026.7.22
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.9910600Z -- pip install --upgrade certifi
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.9911880Z  -- removing any existing file or link
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.9912450Z  -- creating symlink to certifi certificate bundle
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.9912820Z  -- setting permissions
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.9913070Z  -- update complete
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:15.9984460Z Create complete file
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0127540Z Successfully set up CPython (3.15.0)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0130440Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0542470Z ##[group]Run pytest-dev/pytest/.github/actions/setup-tox@bfb1522330872a5a9c4a1e926f51ab18063017dd
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0543050Z with:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0543300Z   python-version: 3.15
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0543580Z   enable-cache: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0543870Z env:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0544070Z   PYTEST_ADDOPTS: --color=yes
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0544460Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0545020Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0545580Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0546070Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0546480Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0546860Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0661700Z ##[start-action display=Install uv;id=__self.__astral-sh_setup-uv]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0870830Z ##[group]Run astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0871160Z with:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0871310Z   enable-cache: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0871480Z   activate-environment: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0871670Z   no-project: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0871870Z   working-directory: /Users/runner/work/pytest/pytest
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0874370Z   github-token: ***
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0874910Z   cache-dependency-glob: **/*requirements*.txt
+build (macos-py315)	UNKNOWN STEP	**/*requirements*.in
+build (macos-py315)	UNKNOWN STEP	**/*constraints*.txt
+build (macos-py315)	UNKNOWN STEP	**/*constraints*.in
+build (macos-py315)	UNKNOWN STEP	**/pyproject.toml
+build (macos-py315)	UNKNOWN STEP	**/uv.lock
+build (macos-py315)	UNKNOWN STEP	**/*.py.lock
+build (macos-py315)	UNKNOWN STEP	
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0875410Z   restore-cache: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0875560Z   save-cache: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0875720Z   prune-cache: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0875880Z   cache-python: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0876050Z   ignore-nothing-to-cache: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0876250Z   ignore-empty-workdir: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0876500Z   download-from-astral-mirror: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0876770Z   add-problem-matchers: true
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0876950Z   quiet: false
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0877110Z   resolution-strategy: highest
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0877290Z env:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0877430Z   PYTEST_ADDOPTS: --color=yes
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0877710Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0878130Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0878520Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0878890Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0879820Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.0880120Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.3524950Z Trying to find version for uv in: /Users/runner/work/pytest/pytest/uv.toml
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.3526050Z Could not find file: /Users/runner/work/pytest/pytest/uv.toml
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.3527210Z Trying to find version for uv in: /Users/runner/work/pytest/pytest/pyproject.toml
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.3552500Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.3556660Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.4773990Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.13.0/uv-aarch64-apple-darwin.tar.gz" ...
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:16.9311890Z [command]/usr/bin/tar xz -C /Users/runner/work/_temp/2b166e55-76de-4eff-bdb3-f5f0b21f71fa -f /Users/runner/work/_temp/25020898-9eea-4d38-890b-850d99a14a8a
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.0848630Z Added /Users/runner/.local/bin to the path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.0854460Z Added /Users/runner/hostedtoolcache/uv/0.13.0/aarch64 to the path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.0861030Z Set UV_PYTHON_INSTALL_DIR to /Users/runner/work/_temp/uv-python-dir
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.0862410Z Added /Users/runner/work/_temp/uv-python-dir to the path
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.0876650Z Set UV_CACHE_DIR to /Users/runner/work/_temp/setup-uv-cache
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.0877090Z Successfully installed uv version 0.13.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.1998380Z Searching files using cache dependency glob: /Users/runner/work/pytest/pytest/**/*requirements*.txt,/Users/runner/work/pytest/pytest/**/*requirements*.in,/Users/runner/work/pytest/pytest/**/*constraints*.txt,/Users/runner/work/pytest/pytest/**/*constraints*.in,/Users/runner/work/pytest/pytest/**/pyproject.toml,/Users/runner/work/pytest/pytest/**/uv.lock,/Users/runner/work/pytest/pytest/**/*.py.lock
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.2820460Z /Users/runner/work/pytest/pytest/doc/en/broken-dep-constraints.txt
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.2929390Z /Users/runner/work/pytest/pytest/doc/en/requirements.txt
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.2950990Z /Users/runner/work/pytest/pytest/pyproject.toml
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.3212740Z /Users/runner/work/pytest/pytest/testing/plugins_integration/requirements.txt
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.3257920Z /Users/runner/work/pytest/pytest/uv.lock
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.3320880Z Found 5 files to hash.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.3339950Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-aarch64-apple-darwin-macos-16-3.15.0-pruned-20221ebe9de337c8f425311a1bc40e7329127d2f401c03d52a7a720a09a4a375
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.5304250Z No GitHub Actions cache found for key: setup-uv-2-aarch64-apple-darwin-macos-16-3.15.0-pruned-20221ebe9de337c8f425311a1bc40e7329127d2f401c03d52a7a720a09a4a375
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6224390Z ##[end-action id=__self.__astral-sh_setup-uv;outcome=success;conclusion=success;duration_ms=1555]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6227010Z ##[start-action display=Install tox;id=__self.__run]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6318710Z ##[group]Run if [ -n "$PYTHON_VERSION" ]; then
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6319050Z ^[[36;1mif [ -n "$PYTHON_VERSION" ]; then^[[0m
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6319380Z ^[[36;1m  uv tool install --python "$PYTHON_VERSION" tox --with tox-uv^[[0m
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6319670Z ^[[36;1melse^[[0m
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6320100Z ^[[36;1m  uv tool install tox --with tox-uv^[[0m
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6320430Z ^[[36;1mfi^[[0m
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6392720Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6393130Z env:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6393330Z   PYTEST_ADDOPTS: --color=yes
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6393650Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6394150Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6394560Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6394940Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6395590Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6395940Z   UV_PYTHON_INSTALL_DIR: /Users/runner/work/_temp/uv-python-dir
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6396350Z   UV_CACHE_DIR: /Users/runner/work/_temp/setup-uv-cache
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6407920Z   PYTHON_VERSION: 3.15
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:17.6408150Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.0352020Z Resolved 15 packages in 296ms
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.1083030Z Downloading virtualenv (5.2MiB)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.1194390Z Downloading uv (14.1MiB)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.2519120Z  Downloaded virtualenv
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3274510Z  Downloaded uv
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3277320Z Prepared 15 packages in 289ms
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3410590Z Installed 15 packages in 13ms
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3411130Z  + cachetools==7.2.1
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3414290Z  + colorama==0.4.6
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3414550Z  + distlib==0.4.3
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3414920Z  + filelock==4.1.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3415180Z  + packaging==26.3
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3415370Z  + platformdirs==4.13.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3415560Z  + pluggy==1.6.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3415800Z  + pyproject-api==1.11.5
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3416110Z  + python-discovery==1.6.2
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3417270Z  + tomli-w==1.2.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3417840Z  + tox==4.65.3
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3418350Z  + tox-uv==1.37.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3418730Z  + tox-uv-bare==1.37.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3419170Z  + uv==0.13.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3420350Z  + virtualenv==21.14.6
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3422940Z Installed 1 executable: tox
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3462370Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=723]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3503250Z ##[group]Run tox run -e py315-xdist --installpkg `find dist/*.tar.gz`
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3503680Z ^[[36;1mtox run -e py315-xdist --installpkg `find dist/*.tar.gz`^[[0m
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3541100Z shell: /bin/bash --noprofile --norc -e -o pipefail {0}
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3541360Z env:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3541540Z   PYTEST_ADDOPTS: --color=yes
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3541870Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3542310Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3542700Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3543040Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3543410Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3543780Z   UV_PYTHON_INSTALL_DIR: /Users/runner/work/_temp/uv-python-dir
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3544150Z   UV_CACHE_DIR: /Users/runner/work/_temp/setup-uv-cache
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3544470Z   _PYTEST_TOX_POSARGS_JUNIT: --junitxml=junit.xml
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:18.3544680Z ##[endgroup]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:19.0093500Z py315-xdist: venv> /Users/runner/.local/share/uv/tools/tox/bin/uv venv -p cpython3.15 --allow-existing '--prompt=pytest[py315-xdist]' --python-preference system /Users/runner/work/pytest/pytest/.tox/py315-xdist
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:19.0722650Z py315-xdist: install_dependency-groups> /Users/runner/.local/share/uv/tools/tox/bin/uv pip install argcomplete 'asynctest; python_version < "3.11"' 'attrs>=23.1' 'coverage>=7.5' 'hypothesis>=6.75' mock 'numpy>=1.26' 'pexpect>=4.9' 'platformdirs>=4' 'pytest-xdist>=3.5' pyyaml requests setuptools xmlschema
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:24.7350050Z .pkg_external: venv> /Users/runner/.local/share/uv/tools/tox/bin/uv venv -p /Users/runner/.local/share/uv/tools/tox/bin/python --allow-existing '--prompt=pytest[.pkg_external]' --python-preference system /Users/runner/work/pytest/pytest/.tox/.pkg_external
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:24.7495700Z .pkg_external: freeze> /Users/runner/.local/share/uv/tools/tox/bin/uv --color never pip freeze
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:24.7612550Z .pkg_external: 
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:25.4052010Z .pkg_external_sdist_meta: install_requires> python -I -m pip install 'setuptools-scm[toml]>=10.1' 'setuptools>=77'
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:27.5411230Z .pkg_external_sdist_meta: _optional_hooks /Users/runner/work/pytest/pytest/.tox/.pkg_external/tmp/sdist-extract/pytest-9.2.0.dev393+gbfb152233> python /Users/runner/.local/share/uv/tools/tox/lib/python3.15/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:27.8047110Z .pkg_external_sdist_meta: get_requires_for_build_sdist /Users/runner/work/pytest/pytest/.tox/.pkg_external/tmp/sdist-extract/pytest-9.2.0.dev393+gbfb152233> python /Users/runner/.local/share/uv/tools/tox/lib/python3.15/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:28.2182310Z .pkg_external_sdist_meta: get_requires_for_build_wheel /Users/runner/work/pytest/pytest/.tox/.pkg_external/tmp/sdist-extract/pytest-9.2.0.dev393+gbfb152233> python /Users/runner/.local/share/uv/tools/tox/lib/python3.15/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:28.5596190Z .pkg_external_sdist_meta: freeze> python -m pip freeze --all
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:28.7278950Z .pkg_external_sdist_meta: packaging==26.3,pip==26.2.1,setuptools==84.0.0,setuptools-scm==10.3.4,vcs-versioning==2.6.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:28.7285210Z .pkg_external_sdist_meta: prepare_metadata_for_build_wheel /Users/runner/work/pytest/pytest/.tox/.pkg_external/tmp/sdist-extract/pytest-9.2.0.dev393+gbfb152233> python /Users/runner/.local/share/uv/tools/tox/lib/python3.15/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:29.1487390Z py315-xdist: install_package_deps> /Users/runner/.local/share/uv/tools/tox/bin/uv pip install 'colorama>=0.4; sys_platform == "win32"' 'exceptiongroup>=1; python_version < "3.11"' 'iniconfig>=2' 'packaging>=24' 'pluggy<2,>=1.5' 'pygments>=2.15' 'tomli>=2; python_version < "3.11"'
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:29.1846090Z py315-xdist: install_package> /Users/runner/.local/share/uv/tools/tox/bin/uv pip install --reinstall --no-deps pytest@/Users/runner/work/pytest/pytest/dist/pytest-9.2.0.dev393+gbfb152233.tar.gz
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:30.9235730Z py315-xdist: freeze> /Users/runner/.local/share/uv/tools/tox/bin/uv --color never pip freeze
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:30.9426960Z py315-xdist: argcomplete==3.7.2,attrs==26.1.0,certifi==2026.7.22,charset-normalizer==3.5.2,coverage==7.16.2,elementpath==5.1.4,execnet==2.1.2,hypothesis==6.169.0,idna==3.20,iniconfig==2.3.1,mock==5.2.0,numpy==2.5.4,packaging==26.3,pexpect==4.9.0,platformdirs==4.13.0,pluggy==1.6.0,ptyprocess==0.7.0,pygments==2.21.0,pytest @ file:///Users/runner/work/pytest/pytest/dist/pytest-9.2.0.dev393+gbfb152233.tar.gz,pytest-xdist==3.8.0,pyyaml==6.0.3,requests==2.34.2,setuptools==84.0.0,sortedcontainers==2.4.0,urllib3==2.8.0,xmlschema==4.3.2
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:30.9431110Z py315-xdist: commands[0]> pytest --junitxml=junit.xml -n auto
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6369400Z INTERNALERROR> Traceback (most recent call last):
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6371220Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/_pytest/main.py", line 329, in wrap_session
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6372710Z INTERNALERROR>     config._do_configure()
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6373370Z INTERNALERROR>     ~~~~~~~~~~~~~~~~~~~~^^
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6374870Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/_pytest/config/__init__.py", line 1370, in _do_configure
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6376690Z INTERNALERROR>     self.hook.pytest_configure.call_historic(kwargs=dict(config=self))
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6377820Z INTERNALERROR>     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6379460Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/pluggy/_hooks.py", line 534, in call_historic
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6381300Z INTERNALERROR>     res = self._hookexec(self.name, self._hookimpls.copy(), kwargs, False)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6383020Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/pluggy/_manager.py", line 120, in _hookexec
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6384730Z INTERNALERROR>     return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6385930Z INTERNALERROR>            ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6386730Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/pluggy/_callers.py", line 167, in _multicall
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6387350Z INTERNALERROR>     raise exception
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6387880Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/pluggy/_callers.py", line 121, in _multicall
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6389200Z INTERNALERROR>     res = hook_impl.function(*args)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6389820Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/_pytest/cacheprovider.py", line 963, in pytest_configure
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6390860Z INTERNALERROR>     config.cache = Cache.for_config(config, _ispytest=True)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6391300Z INTERNALERROR>                    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6391930Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/_pytest/cacheprovider.py", line 354, in for_config
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6392520Z INTERNALERROR>     cachedir = _resolve_cache_dir(config)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6393120Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/_pytest/cacheprovider.py", line 192, in _resolve_cache_dir
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6393700Z INTERNALERROR>     legacy = _tox_legacy_cache_dir(config)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6394900Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/_pytest/cacheprovider.py", line 165, in _tox_legacy_cache_dir
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6395650Z INTERNALERROR>     config.issue_config_time_warning(TOX_ENV_DIR_CACHE_DIR.format(), stacklevel=3)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6396110Z INTERNALERROR>     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6396770Z INTERNALERROR>   File "/Users/runner/work/pytest/pytest/.tox/py315-xdist/lib/python3.15/site-packages/_pytest/config/__init__.py", line 1840, in issue_config_time_warning
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6397440Z INTERNALERROR>     warnings.warn(warning, stacklevel=stacklevel)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6397780Z INTERNALERROR>     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6398630Z INTERNALERROR> pytest.PytestRemovedIn10Warning: Defaulting the cache directory to $TOX_ENV_DIR/.pytest_cache is deprecated and will be removed in pytest 10.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6399580Z INTERNALERROR> It existed to keep --lf/--nf/--sw state apart between tox environments, which pytest now does on its own within a single cache directory.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6400230Z INTERNALERROR> Nothing needs to replace it. To keep the current location anyway, set
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6400730Z INTERNALERROR>     cache_dir = $TOX_ENV_DIR/.pytest_cache
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6401220Z INTERNALERROR> See https://docs.pytest.org/en/stable/deprecations.html#tox-env-dir-cache-dir
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6773680Z py315-xdist: exit 3 (0.73 seconds) /Users/runner/work/pytest/pytest> pytest --junitxml=junit.xml -n auto pid=15180
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6797380Z   py315-xdist: FAIL code 3 (12.67=setup[11.94]+cmd[0.73] seconds)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.6798580Z   evaluation failed :( (12.77 seconds)
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.7328380Z ##[error]Process completed with exit code 3.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.7490570Z Post job cleanup.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.7493700Z ##[start-action display=Install uv;id=__5cd070c9-2928-4264-82da-9bfc90ae1947.__astral-sh_setup-uv]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.7496800Z ##[end-action id=__5cd070c9-2928-4264-82da-9bfc90ae1947.__astral-sh_setup-uv;outcome=skipped;conclusion=skipped;duration_ms=0]
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.7570280Z Post job cleanup.
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.8819580Z [command]/opt/homebrew/bin/git version
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.8896940Z git version 2.55.0
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.8918260Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/0d66d297-34af-4f1b-b603-666f5682b30d/.gitconfig'
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.8927180Z Temporarily overriding HOME='/Users/runner/work/_temp/0d66d297-34af-4f1b-b603-666f5682b30d' before making global git config changes
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.8929050Z Adding repository directory to the temporary git global config as a safe directory
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.8930900Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/pytest/pytest
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.9036370Z Removing SSH command configuration
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.9043230Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:31.9120920Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:32.0185440Z Removing HTTP extra header
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:32.0189380Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:32.0264860Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:32.1513730Z Removing includeIf entries pointing to credentials config files
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:32.1594800Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:32.1650460Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+build (macos-py315)	UNKNOWN STEP	2026-10-11T08:56:32.3274320Z Cleaning up orphan processes
+check	UNKNOWN STEP	﻿2026-10-11T11:18:23.6134349Z Current runner version: '2.337.0'
+check	UNKNOWN STEP	2026-10-11T11:18:23.6155818Z ##[group]Runner Image Provisioner
+check	UNKNOWN STEP	2026-10-11T11:18:23.6156703Z Hosted Compute Agent
+check	UNKNOWN STEP	2026-10-11T11:18:23.6157192Z Version: 20261002.596
+check	UNKNOWN STEP	2026-10-11T11:18:23.6157740Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+check	UNKNOWN STEP	2026-10-11T11:18:23.6158349Z Build Date: 2026-10-02T22:28:27Z
+check	UNKNOWN STEP	2026-10-11T11:18:23.6158904Z Worker ID: {01cf9163-10c1-440d-ab43-203d8a18753a}
+check	UNKNOWN STEP	2026-10-11T11:18:23.6159551Z Region: westus3
+check	UNKNOWN STEP	2026-10-11T11:18:23.6159999Z Cloud: Azure
+check	UNKNOWN STEP	2026-10-11T11:18:23.6160426Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-11T11:18:23.6161488Z ##[group]Operating System
+check	UNKNOWN STEP	2026-10-11T11:18:23.6162035Z Ubuntu
+check	UNKNOWN STEP	2026-10-11T11:18:23.6162760Z 24.04.5
+check	UNKNOWN STEP	2026-10-11T11:18:23.6163186Z LTS
+check	UNKNOWN STEP	2026-10-11T11:18:23.6163593Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-11T11:18:23.6164095Z ##[group]Runner Image
+check	UNKNOWN STEP	2026-10-11T11:18:23.6164587Z Image: ubuntu-24.04
+check	UNKNOWN STEP	2026-10-11T11:18:23.6165090Z Version: 20261004.327.1
+check	UNKNOWN STEP	2026-10-11T11:18:23.6166138Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+check	UNKNOWN STEP	2026-10-11T11:18:23.6167452Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+check	UNKNOWN STEP	2026-10-11T11:18:23.6168248Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-11T11:18:23.6169164Z ##[group]GITHUB_TOKEN Permissions
+check	UNKNOWN STEP	2026-10-11T11:18:23.6170706Z Metadata: read
+check	UNKNOWN STEP	2026-10-11T11:18:23.6171251Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-11T11:18:23.6173054Z Secret source: None
+check	UNKNOWN STEP	2026-10-11T11:18:23.6173900Z Cache mode: write
+check	UNKNOWN STEP	2026-10-11T11:18:23.6174467Z Prepare workflow directory
+check	UNKNOWN STEP	2026-10-11T11:18:23.6514626Z Prepare all required actions
+check	UNKNOWN STEP	2026-10-11T11:18:23.6553041Z Getting action download info
+check	UNKNOWN STEP	2026-10-11T11:18:23.9212498Z Download action repository 're-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35' (SHA:b5b5b37504aa4183270bd3d855c52a67f212be35)
+check	UNKNOWN STEP	2026-10-11T11:18:24.3244169Z Complete job name: check
+check	UNKNOWN STEP	2026-10-11T11:18:24.3842654Z ##[group]Run re-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35
+check	UNKNOWN STEP	2026-10-11T11:18:24.3843514Z with:
+check	UNKNOWN STEP	2026-10-11T11:18:24.3843964Z   jobs: {
+check	UNKNOWN STEP	  "build": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  }
+check	UNKNOWN STEP	}
+check	UNKNOWN STEP	2026-10-11T11:18:24.3844548Z   allowed-failures: []
+check	UNKNOWN STEP	2026-10-11T11:18:24.3844927Z   allowed-skips: []
+check	UNKNOWN STEP	2026-10-11T11:18:24.3845389Z env:
+check	UNKNOWN STEP	2026-10-11T11:18:24.3845752Z   PYTEST_ADDOPTS: --color=yes
+check	UNKNOWN STEP	2026-10-11T11:18:24.3846158Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-11T11:18:24.3917334Z ##[start-action display=Decide whether the input jobs succeeded or failed;id=__re-actors_alls-green.outcome]
+check	UNKNOWN STEP	2026-10-11T11:18:24.3959156Z ##[group]Run python -m normalize_needed_jobs_status \
+check	UNKNOWN STEP	2026-10-11T11:18:24.3959797Z ^[[36;1mpython -m normalize_needed_jobs_status \^[[0m
+check	UNKNOWN STEP	2026-10-11T11:18:24.3960326Z ^[[36;1m  "$INPUT_ALLOWED_FAILURES" \^[[0m
+check	UNKNOWN STEP	2026-10-11T11:18:24.3960790Z ^[[36;1m  "$INPUT_ALLOWED_SKIPS" \^[[0m
+check	UNKNOWN STEP	2026-10-11T11:18:24.3961226Z ^[[36;1m  "$INPUT_JOBS"^[[0m
+check	UNKNOWN STEP	2026-10-11T11:18:24.4591462Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+check	UNKNOWN STEP	2026-10-11T11:18:24.4592054Z env:
+check	UNKNOWN STEP	2026-10-11T11:18:24.4592559Z   PYTEST_ADDOPTS: --color=yes
+check	UNKNOWN STEP	2026-10-11T11:18:24.4592992Z   INPUT_ALLOWED_FAILURES: []
+check	UNKNOWN STEP	2026-10-11T11:18:24.4593415Z   INPUT_ALLOWED_SKIPS: []
+check	UNKNOWN STEP	2026-10-11T11:18:24.4593932Z   INPUT_JOBS: {
+check	UNKNOWN STEP	  "build": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  }
+check	UNKNOWN STEP	}
+check	UNKNOWN STEP	2026-10-11T11:18:24.4594806Z   PYTHONPATH: /home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src
+check	UNKNOWN STEP	2026-10-11T11:18:24.4595527Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-11T11:18:24.5021758Z # ❌ Some of the required to succeed jobs failed 😢😢😢
+check	UNKNOWN STEP	2026-10-11T11:18:24.5022257Z 
+check	UNKNOWN STEP	2026-10-11T11:18:24.5022681Z 🔮 Job statuses:
+check	UNKNOWN STEP	2026-10-11T11:18:24.5023494Z ^[[31m❌ build → 🔴 failure [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-11T11:18:24.5069621Z ##[error]Process completed with exit code 1.
+check	UNKNOWN STEP	2026-10-11T11:18:24.5143085Z ##[end-action id=__re-actors_alls-green.outcome;outcome=failure;conclusion=failure;duration_ms=122]
+check	UNKNOWN STEP	2026-10-11T11:18:24.5249743Z Cleaning up orphan processes

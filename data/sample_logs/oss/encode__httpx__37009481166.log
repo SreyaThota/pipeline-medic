@@ -1,0 +1,400 @@
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.7537370Z Collecting jaraco.functools (from keyring>=21.2.0->twine==7.0.0->-r requirements.txt (line 18))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.7690565Z   Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.7862771Z Collecting jaraco.context (from keyring>=21.2.0->twine==7.0.0->-r requirements.txt (line 18))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.8015132Z   Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.8188795Z Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<15,>=10->httpx==1.0.0)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.8339620Z   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.8564068Z Collecting platformdirs>=2.2.0 (from mkdocs-get-deps>=0.2.0->mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.8715544Z   Downloading platformdirs-4.12.2-py3-none-any.whl.metadata (5.5 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.8907096Z Collecting six>=1.5 (from python-dateutil>=2.8.1->ghp-import>=1.0->mkdocs==1.6.1->-r requirements.txt (line 12))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.9059911Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.9398541Z Collecting nh3>=0.2.14 (from readme-renderer>=35.0->twine==7.0.0->-r requirements.txt (line 18))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.9549621Z   Downloading nh3-0.3.7-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.0 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.9724072Z Collecting docutils>=0.21.2 (from readme-renderer>=35.0->twine==7.0.0->-r requirements.txt (line 18))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:01.9875886Z   Downloading docutils-0.23-py3-none-any.whl.metadata (15 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.0189868Z Collecting zipp>=3.20 (from importlib-metadata->trio-typing==0.10.0->-r requirements.txt (line 27))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.0339636Z   Downloading zipp-4.1.0-py3-none-any.whl.metadata (3.6 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.0538979Z Collecting more-itertools (from jaraco.classes->keyring>=21.2.0->twine==7.0.0->-r requirements.txt (line 18))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.0688448Z   Downloading more_itertools-11.1.0-py3-none-any.whl.metadata (41 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.0941597Z Downloading chardet-5.2.0-py3-none-any.whl (199 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.1398761Z Downloading mkdocs-1.6.1-py3-none-any.whl (3.9 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.2239568Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 46.2 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.2399659Z Downloading mkdocs_material-9.6.18-py3-none-any.whl (9.2 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.3254785Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 107.5 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.3411880Z Downloading build-1.3.0-py3-none-any.whl (23 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.3576656Z Downloading twine-7.0.0-py3-none-any.whl (43 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.3756833Z Downloading coverage-7.10.6-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (251 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.3925569Z Downloading cryptography-45.0.7-cp311-abi3-manylinux_2_34_x86_64.whl (4.5 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.4141472Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 214.3 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.4305372Z Downloading mypy-1.17.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (12.7 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.5369573Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 120.0 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.5518698Z Downloading pytest-8.4.1-py3-none-any.whl (365 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.5710968Z Downloading ruff-0.12.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (13.2 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.6663350Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.2/13.2 MB 138.3 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.6824231Z Downloading trio-0.31.0-py3-none-any.whl (512 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.7009729Z Downloading trio_typing-0.10.0-py3-none-any.whl (42 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.7180479Z Downloading trustme-1.2.1-py3-none-any.whl (16 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.7342420Z Downloading uvicorn-0.35.0-py3-none-any.whl (66 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.7504003Z Downloading babel-2.18.0-py3-none-any.whl (10.2 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.8063792Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 184.3 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.8228017Z Downloading backrefs-5.9-py312-none-any.whl (397 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.8406779Z Downloading click-8.2.1-py3-none-any.whl (102 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.8569629Z Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.8730395Z Downloading h2-4.4.1-py3-none-any.whl (62 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.8898632Z Downloading hpack-4.2.0-py3-none-any.whl (34 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.9061870Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.9225801Z Downloading hyperframe-6.1.0-py3-none-any.whl (13 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.9390475Z Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.9554433Z Downloading markdown-3.11-py3-none-any.whl (111 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.9722335Z Downloading mkdocs_material_extensions-1.3.1-py3-none-any.whl (8.7 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.9902746Z Downloading paginate-0.5.7-py2.py3-none-any.whl (13 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:02.9927697Z Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.0082335Z Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.0168070Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 173.0 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.0347360Z Downloading pymdown_extensions-10.21.3-py3-none-any.whl (269 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.0550713Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.0734405Z Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.0900086Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.1064229Z Downloading rich-14.3.4-py3-none-any.whl (310 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.1235866Z Downloading socksio-1.0.0-py3-none-any.whl (12 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.1399366Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.1563117Z Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.1729118Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.1896404Z Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.2064775Z Downloading ghp_import-2.1.0-py3-none-any.whl (11 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.2226522Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.2390141Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.2557384Z Downloading keyring-25.7.0-py3-none-any.whl (39 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.2723455Z Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.2888472Z Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3055560Z Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3222127Z Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3387618Z Downloading mergedeep-1.3.4-py3-none-any.whl (6.4 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3554320Z Downloading mkdocs_get_deps-0.2.2-py3-none-any.whl (9.6 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3724004Z Downloading mypy_extensions-1.1.0-py3-none-any.whl (5.0 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3748093Z Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3755509Z Using cached pathspec-1.1.1-py3-none-any.whl (57 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.3905269Z Downloading platformdirs-4.12.2-py3-none-any.whl (32 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4071855Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4241435Z Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4287155Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 204.6 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4437213Z Downloading pyyaml_env_tag-1.1-py3-none-any.whl (4.7 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4603887Z Downloading readme_renderer-46.0-py3-none-any.whl (14 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4777723Z Downloading docutils-0.23-py3-none-any.whl (634 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4826104Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 634.7/634.7 kB 118.6 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.4977853Z Downloading nh3-0.3.7-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (832 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.5021680Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 832.2/832.2 kB 216.9 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.5175888Z Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.5345866Z Downloading rfc3986-2.0.0-py2.py3-none-any.whl (31 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.5514970Z Downloading secretstorage-3.5.0-py3-none-any.whl (15 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.5680331Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.5974649Z Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.6147941Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.6445246Z Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.6618185Z Downloading zstandard-0.25.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.5 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.6987254Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 150.9 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.7139377Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.7596844Z Downloading async_generator-1.10-py3-none-any.whl (18 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.7769578Z Downloading brotli-1.2.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.7938753Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 76.9 MB/s  0:00:00
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.8091816Z Downloading id-1.6.1-py3-none-any.whl (14 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.8260164Z Downloading importlib_metadata-9.0.1-py3-none-any.whl (27 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.8546713Z Downloading zipp-4.1.0-py3-none-any.whl (10 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.8716244Z Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.8887214Z Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.9055389Z Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.9225694Z Downloading more_itertools-11.1.0-py3-none-any.whl (72 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.9396304Z Downloading outcome-1.3.0.post0-py2.py3-none-any.whl (10 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.9565647Z Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.9740240Z Downloading pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:03.9909149Z Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.2484203Z Building wheels for collected packages: httpx, mkautodoc
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.2491506Z   Building editable for httpx (pyproject.toml): started
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.2752547Z   Building editable for httpx (pyproject.toml): finished with status 'done'
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.2757840Z   Created wheel for httpx: filename=httpx-1.0.0-py3-none-any.whl size=4822 sha256=2cdfe395653b669b7103dc231fad9bcef82f19c5a938638a38c4cabae5c2022c
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.2764031Z   Stored in directory: /tmp/pip-ephem-wheel-cache-l0i0hnxr/wheels/dc/ae/ba/d0cfd88b58d1a5e96017f62db52ba43151325756caeb0902ae
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.2780187Z   Building wheel for mkautodoc (pyproject.toml): started
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.4344263Z   Building wheel for mkautodoc (pyproject.toml): finished with status 'done'
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.4348328Z   Created wheel for mkautodoc: filename=mkautodoc-0.2.0-py3-none-any.whl size=4347 sha256=af729ef84626b1a9817d3c5ab6eb686f348d68f9e0653d390d1df796f11b6b53
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.4349586Z   Stored in directory: /home/runner/.cache/pip/wheels/ba/01/03/8bee86e15ec7515a9d5f9895a71d3c472297fec279f6736515
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.4361366Z Successfully built httpx mkautodoc
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:04.5577094Z Installing collected packages: sortedcontainers, paginate, brotli, zstandard, zipp, watchdog, urllib3, typing_extensions, socksio, sniffio, six, ruff, rfc3986, pyyaml, pyproject_hooks, pygments, pycparser, pluggy, platformdirs, pathspec, packaging, nh3, mypy_extensions, more-itertools, mkdocs-material-extensions, mergedeep, mdurl, markupsafe, markdown, jeepney, jaraco.context, iniconfig, idna, hyperframe, hpack, h11, docutils, coverage, colorama, click, charset_normalizer, chardet, certifi, backrefs, babel, attrs, async-generator, uvicorn, requests, readme-renderer, pyyaml-env-tag, python-dateutil, pytest, pymdown-extensions, outcome, mypy, mkdocs-get-deps, mkautodoc, markdown-it-py, jinja2, jaraco.functools, jaraco.classes, importlib-metadata, id, httpcore, h2, cffi, build, anyio, trio, rich, requests-toolbelt, httpx, ghp-import, cryptography, trustme, trio-typing, SecretStorage, mkdocs, mkdocs-material, keyring, twine
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.3293432Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.3331240Z Successfully installed SecretStorage-3.5.0 anyio-4.15.1 async-generator-1.10 attrs-26.1.0 babel-2.18.0 backrefs-5.9 brotli-1.2.0 build-1.3.0 certifi-2026.7.22 cffi-2.1.1 chardet-5.2.0 charset_normalizer-3.5.2 click-8.2.1 colorama-0.4.6 coverage-7.10.6 cryptography-45.0.7 docutils-0.23 ghp-import-2.1.0 h11-0.16.0 h2-4.4.1 hpack-4.2.0 httpcore-1.0.9 httpx-1.0.0 hyperframe-6.1.0 id-1.6.1 idna-3.20 importlib-metadata-9.0.1 iniconfig-2.3.0 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 jeepney-0.9.0 jinja2-3.1.6 keyring-25.7.0 markdown-3.11 markdown-it-py-4.2.0 markupsafe-3.0.3 mdurl-0.1.2 mergedeep-1.3.4 mkautodoc-0.2.0 mkdocs-1.6.1 mkdocs-get-deps-0.2.2 mkdocs-material-9.6.18 mkdocs-material-extensions-1.3.1 more-itertools-11.1.0 mypy-1.17.1 mypy_extensions-1.1.0 nh3-0.3.7 outcome-1.3.0.post0 packaging-26.3 paginate-0.5.7 pathspec-1.1.1 platformdirs-4.12.2 pluggy-1.6.0 pycparser-3.0 pygments-2.21.0 pymdown-extensions-10.21.3 pyproject_hooks-1.3.3 pytest-8.4.1 python-dateutil-2.9.0.post0 pyyaml-6.0.3 pyyaml-env-tag-1.1 readme-renderer-46.0 requests-2.34.2 requests-toolbelt-1.0.0 rfc3986-2.0.0 rich-14.3.4 ruff-0.12.11 six-1.17.0 sniffio-1.3.1 socksio-1.0.0 sortedcontainers-2.4.0 trio-0.31.0 trio-typing-0.10.0 trustme-1.2.1 twine-7.0.0 typing_extensions-4.16.0 urllib3-2.8.0 uvicorn-0.35.0 watchdog-6.0.0 zipp-4.1.0 zstandard-0.25.0
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5200601Z ##[group]Run scripts/check
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5200781Z ^[[36;1mscripts/check^[[0m
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5255644Z shell: /usr/bin/bash -e {0}
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5255793Z env:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5255952Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5256205Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5256437Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5256647Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5256855Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5257062Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5257243Z ##[endgroup]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5334321Z + ./scripts/sync-version
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5348019Z grep: warning: ? at start of expression
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5348298Z grep: warning: ? at start of expression
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5348619Z grep: warning: ? at start of expression
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5363732Z grep: warning: ? at start of expression
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5363993Z grep: warning: ? at start of expression
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5364225Z grep: warning: ? at start of expression
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5368194Z CHANGELOG_VERSION: 1.0.0
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5368388Z VERSION: 1.0.0
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5369073Z + ruff format httpx tests --diff
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5509770Z 60 files already formatted
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:10.5510172Z + mypy httpx tests
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.8920425Z Success: no issues found in 60 source files
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9082752Z + ruff check httpx tests
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9174652Z warning: Invalid `# noqa` directive on httpx/_transports/asgi.py:171: expected a comma-separated list of codes (e.g., `# noqa: F401, F841`).
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9216463Z All checks passed!
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9282614Z ##[group]Run scripts/build
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9282784Z ^[[36;1mscripts/build^[[0m
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9335309Z shell: /usr/bin/bash -e {0}
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9335449Z env:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9335601Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9335846Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9336082Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9336303Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9336514Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9336721Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9336901Z ##[endgroup]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9410011Z + python -m build
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:16.9967669Z * Creating isolated environment: venv+pip...
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.0054382Z * Installing packages in isolated environment:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.5065099Z   - hatch-fancy-pypi-readme
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.5065336Z   - hatchling
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.5065483Z * Getting build dependencies for sdist...
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.6113674Z * Building sdist...
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.8091314Z * Building wheel from sdist
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.8097234Z * Creating isolated environment: venv+pip...
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:17.8116243Z * Installing packages in isolated environment:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.2783446Z   - hatch-fancy-pypi-readme
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.2784082Z   - hatchling
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.2784283Z * Getting build dependencies for wheel...
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.3795708Z * Building wheel...
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.5238470Z Successfully built httpx-1.0.0.tar.gz and httpx-1.0.0-py3-none-any.whl
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.5354337Z + twine check dist/httpx-1.0.0-py3-none-any.whl dist/httpx-1.0.0.tar.gz
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.7102555Z Checking dist/httpx-1.0.0-py3-none-any.whl: ^[[32mPASSED^[[0m
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.7149291Z Checking dist/httpx-1.0.0.tar.gz: ^[[32mPASSED^[[0m
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.7417902Z + mkdocs build
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.8911898Z INFO    -  Cleaning site directory
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:18.8912215Z INFO    -  Building documentation to directory: /home/runner/work/httpx/httpx/site
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.1544166Z INFO    -  Doc file 'async.md' contains an unrecognized relative link '../advanced/transports#asgitransport', it was left as is. Did you mean 'advanced/transports.md#asgitransport'?
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.6106917Z INFO    -  Doc file 'compatibility.md' contains a link 'advanced/clients.md#client-instances', but the doc 'advanced/clients.md' does not contain an anchor '#client-instances'.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.6107674Z INFO    -  Doc file 'environment_variables.md' contains a link 'advanced/proxies.md#http-proxying', but the doc 'advanced/proxies.md' does not contain an anchor '#http-proxying'.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.6108412Z INFO    -  Doc file 'third_party_packages.md' contains a link 'advanced/authentication.md#customizing-authentication', but the doc 'advanced/authentication.md' does not contain an anchor '#customizing-authentication'.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.6109033Z INFO    -  Doc file 'advanced/clients.md' contains a link '#client-instances', but there is no such anchor on this page.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.6109472Z INFO    -  Doc file 'advanced/clients.md' contains a link '#merging-of-parameters', but there is no such anchor on this page.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.6109883Z INFO    -  Doc file 'advanced/proxies.md' contains a link '#routing', but there is no such anchor on this page.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.6113662Z INFO    -  Documentation built in 0.74 seconds
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7114107Z ##[group]Run scripts/test
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7114282Z ^[[36;1mscripts/test^[[0m
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7167588Z shell: /usr/bin/bash -e {0}
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7167735Z env:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7167890Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7168135Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7168371Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7168580Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7168791Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7169005Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7169187Z ##[endgroup]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7247793Z + [ -z true ]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:19.7248030Z + coverage run -m pytest
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:23.9802868Z ============================= test session starts ==============================
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:23.9803638Z platform linux -- Python 3.12.14, pytest-8.4.1, pluggy-1.6.0
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:23.9803969Z rootdir: /home/runner/work/httpx/httpx
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:23.9804215Z configfile: pyproject.toml
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:23.9804456Z plugins: platformdirs-4.12.2, anyio-4.15.1
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:23.9804710Z collected 1418 items
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:23.9804845Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:24.6111788Z tests/client/test_async_client.py ...................................... [  2%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:24.7648313Z ..............                                                           [  3%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:24.8996095Z tests/client/test_auth.py .............................................. [  6%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:25.0033775Z ..........................s.......                                       [  9%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:25.4629380Z tests/client/test_client.py ...................................          [ 11%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:25.4811361Z tests/client/test_cookies.py .......                                     [ 12%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:25.5088653Z tests/client/test_event_hooks.py .........                               [ 12%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:25.6071210Z tests/client/test_headers.py .................                           [ 14%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:25.7294299Z tests/client/test_properties.py ........                                 [ 14%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:27.0823515Z tests/client/test_proxies.py ........................................... [ 17%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:27.7208092Z ..........................                                               [ 19%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:27.7626007Z tests/client/test_queryparams.py ...                                     [ 19%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:27.8664048Z tests/client/test_redirects.py ...............................           [ 21%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:27.8803449Z tests/models/test_cookies.py .......                                     [ 22%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:27.9326319Z tests/models/test_headers.py ...........................                 [ 24%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:27.9608652Z tests/models/test_queryparams.py ..............                          [ 25%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.0124438Z tests/models/test_requests.py ........................                   [ 27%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.1073669Z tests/models/test_responses.py ......................................... [ 29%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.2611379Z .................................................................        [ 34%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.3564409Z tests/models/test_url.py ............................................... [ 37%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.4643580Z ...........................................                              [ 40%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.5442212Z tests/models/test_whatwg.py ............................................ [ 43%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.6811512Z ........................................................................ [ 49%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.8184686Z ........................................................................ [ 54%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:28.9542246Z ........................................................................ [ 59%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.0927309Z ........................................................................ [ 64%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.2304475Z ........................................................................ [ 69%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.3679934Z ........................................................................ [ 74%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.5048734Z ........................................................................ [ 79%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.5341525Z ...............                                                          [ 80%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.7205328Z tests/test_api.py ............                                           [ 81%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.7960544Z tests/test_asgi.py ........................                              [ 83%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:29.8162354Z tests/test_auth.py ........                                              [ 83%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.0315896Z tests/test_config.py ............................                        [ 85%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.1506254Z tests/test_content.py ...........................................        [ 88%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.2490581Z tests/test_decoders.py ........................................          [ 91%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.2924454Z tests/test_exceptions.py ...                                             [ 91%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.2947813Z tests/test_exported_members.py .                                         [ 91%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.7156530Z tests/test_main.py ...........                                           [ 92%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.8046487Z tests/test_multipart.py ......................................           [ 95%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:30.8162839Z tests/test_status_codes.py ......                                        [ 95%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:31.1068503Z tests/test_timeouts.py ......F...                                        [ 96%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:31.2189478Z tests/test_utils.py ........................................             [ 99%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1664429Z tests/test_wsgi.py ............                                          [100%]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1664714Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1664833Z =================================== FAILURES ===================================
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1665187Z ___________________________ test_write_timeout[trio] ___________________________
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1665415Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1665577Z agen = <async_generator object ByteStream.__aiter__ at 0x7f53140ff640>
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1665818Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1665914Z     @_core.enable_ki_protection
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1666255Z     def finalizer(agen: AsyncGeneratorType[object, NoReturn]) -> None:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1666454Z         try:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1666582Z             self.foreign.remove(id(agen))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1666822Z         except KeyError:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1667019Z             is_ours = True
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1667199Z         else:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1667366Z             is_ours = False
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1667570Z     
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1667744Z         agen_name = name_asyncgen(agen)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1667969Z         if is_ours:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1668168Z             runner.entry_queue.run_sync_soon(
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1668418Z                 finalize_in_trio_context,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1668639Z                 agen,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1668795Z                 agen_name,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1668914Z             )
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1669017Z     
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1669156Z             # Do this last, because it might raise an exception
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1669365Z             # depending on the user's warnings filter. (That
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1669561Z             # exception will be printed to the terminal and
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1669753Z             # ignored, since we're running in GC context.)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1669922Z >           warnings.warn(
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1670106Z                 f"Async generator {agen_name!r} was garbage collected before it "
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1670349Z                 "had been exhausted. Surround its use in 'async with "
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1670922Z                 "aclosing(...):' to ensure that it gets cleaned up as soon as "
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1671121Z                 "you're done using it.",
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1671271Z                 ResourceWarning,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1671438Z                 stacklevel=2,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1671572Z                 source=agen,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1671694Z             )
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1672159Z E           ResourceWarning: Async generator 'httpx._content.ByteStream.__aiter__' was garbage collected before it had been exhausted. Surround its use in 'async with aclosing(...):' to ensure that it gets cleaned up as soon as you're done using it.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1672630Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1672815Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/trio/_core/_asyncgens.py:122: ResourceWarning
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1673227Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1673328Z The above exception was the direct cause of the following exception:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1673483Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1673554Z cls = <class '_pytest.runner.CallInfo'>
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1673759Z func = <function call_and_report.<locals>.<lambda> at 0x7f531409a160>
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1673948Z when = 'call'
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1674113Z reraise = (<class '_pytest.outcomes.Exit'>, <class 'KeyboardInterrupt'>)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1674296Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1674344Z     @classmethod
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1674456Z     def from_call(
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1674588Z         cls,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1674705Z         func: Callable[[], TResult],
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1674878Z         when: Literal["collect", "setup", "call", "teardown"],
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1675129Z         reraise: type[BaseException] | tuple[type[BaseException], ...] | None = None,
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1675353Z     ) -> CallInfo[TResult]:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1675507Z         """Call func, wrapping the result in a CallInfo.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1675665Z     
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1675886Z         :param func:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1676031Z             The function to call. Called without arguments.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1676230Z         :type func: Callable[[], _pytest.runner.TResult]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1676395Z         :param when:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1676532Z             The phase in which the function is called.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1676696Z         :param reraise:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1676870Z             Exception or exceptions that shall propagate if raised by the
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677096Z             function, instead of being wrapped in the CallInfo.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677264Z         """
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677371Z         excinfo = None
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677501Z         instant = timing.Instant()
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677635Z         try:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677752Z >           result: TResult | None = func()
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677902Z                                      ^^^^^^
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1677999Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1678142Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/runner.py:344: 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1678435Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1678862Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/runner.py:246: in <lambda>
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1679165Z     lambda: runtest_hook(item=item, **kwds), when=when, reraise=reraise
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1679361Z             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1679605Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/pluggy/_hooks.py:512: in __call__
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1679923Z     return self._hookexec(self.name, self._hookimpls.copy(), kwargs, firstresult)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1680156Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1680435Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/pluggy/_manager.py:120: in _hookexec
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1680738Z     return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1681049Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1681338Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/logging.py:850: in pytest_runtest_call
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1681604Z     yield
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1681835Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/capture.py:900: in pytest_runtest_call
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1682105Z     return (yield)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1682219Z             ^^^^^
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1682499Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/skipping.py:263: in pytest_runtest_call
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1682770Z     return (yield)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1682880Z             ^^^^^
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1683286Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/unraisableexception.py:158: in pytest_runtest_call
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1683598Z     collect_unraisable(item.config)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1683897Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/unraisableexception.py:79: in collect_unraisable
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1684186Z     raise errors[0]
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1684337Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1684466Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1684554Z config = <_pytest.config.Config object at 0x7f531b7973b0>
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1684684Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1684757Z     def collect_unraisable(config: Config) -> None:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1684964Z         pop_unraisable = config.stash[unraisable_exceptions].pop
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1685225Z         errors: list[pytest.PytestUnraisableExceptionWarning | RuntimeError] = []
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1685442Z         meta = None
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1685561Z         hook_error = None
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1685684Z         try:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1685793Z             while True:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1685915Z                 try:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1686140Z                     meta = pop_unraisable()
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1686297Z                 except IndexError:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1686443Z                     break
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1686560Z     
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1686680Z                 if isinstance(meta, BaseException):
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1686898Z                     hook_error = RuntimeError("Failed to process unraisable exception")
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1687117Z                     hook_error.__cause__ = meta
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1687279Z                     errors.append(hook_error)
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1687432Z                     continue
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1687556Z     
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1687663Z                 msg = meta.msg
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1687791Z                 try:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1687968Z >                   warnings.warn(pytest.PytestUnraisableExceptionWarning(msg))
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1688347Z E                   pytest.PytestUnraisableExceptionWarning: Exception ignored in: <async_generator object ByteStream.__aiter__ at 0x7f53140ff640>
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1688737Z E                   Enable tracemalloc to get traceback where the object was allocated.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1689092Z E                   See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1689318Z 
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1689546Z /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/_pytest/unraisableexception.py:67: PytestUnraisableExceptionWarning
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1689927Z ----------------------------- Captured stdout call -----------------------------
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1690169Z INFO:     127.0.0.1:53904 - "PUT /slow_response HTTP/1.1" 200 OK
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1690383Z =========================== short test summary info ============================
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1690672Z SKIPPED [1] tests/client/test_auth.py:273: netrc files without a password are valid from Python >= 3.11
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.1690965Z ================== 1 failed, 1416 passed, 1 skipped in 11.39s ==================
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3034641Z ##[error]Process completed with exit code 1.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3133499Z Post job cleanup.
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3687349Z [command]/usr/bin/git version
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3716893Z git version 2.55.0
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3739505Z Temporarily overriding HOME='/home/runner/work/_temp/b0ebd8a1-ce5a-4089-99c1-0a6cbb5bded6' before making global git config changes
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3740243Z Adding repository directory to the temporary git global config as a safe directory
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3743553Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/httpx/httpx
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3774030Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.3824831Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4021495Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4045697Z http.https://github.com/.extraheader
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4053178Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4080003Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4259161Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4282739Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4594058Z Cleaning up orphan processes
+Python 3.12	UNKNOWN STEP	2026-10-02T12:54:32.4847705Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

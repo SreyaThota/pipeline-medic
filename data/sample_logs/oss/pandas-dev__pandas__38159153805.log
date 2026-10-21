@@ -1,0 +1,400 @@
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0206726Z ^[[32m^[[1mversioneer^[[0m                        0.29               pyhd8ed1ab_0            47.01 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0207531Z virtualenv                        21.14.5            pyh5ded981_0             3.81 MiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0208292Z wayland                           1.26.0             hc1c935e_2             332.09 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0209047Z wcwidth                           0.9.1              py311hd139983_3        358.33 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0209818Z webencodings                      0.5.1              pyhd8ed1ab_3            15.13 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0210682Z wrapt                             2.5.0              py313hd42f317_0        152.50 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0211494Z ^[[32m^[[1mxarray^[[0m                            2026.9.0           pyh5ded981_0          1018.74 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0212421Z xcb-util                          0.4.1              h4f16b4b_2              20.29 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0213181Z xcb-util-cursor                   0.1.6              hb03c661_0              20.34 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0213988Z xcb-util-image                    0.4.0              hb711507_2              23.98 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0214763Z xcb-util-keysyms                  0.4.1              hb711507_0              13.98 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0215552Z xcb-util-renderutil               0.3.10             hb711507_0              16.58 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0216334Z xcb-util-wm                       0.4.2              hb711507_0              50.48 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0217116Z xkeyboard-config                  2.48               h280c20c_0             431.32 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0217930Z ^[[32m^[[1mxlrd^[[0m                              2.0.2              pyhd8ed1ab_0            91.48 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0218760Z ^[[32m^[[1mxlsxwriter^[[0m                        3.2.9              pyhd8ed1ab_0           130.69 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0219558Z xorg-libice                       1.1.2              h280c20c_0              61.05 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0220401Z xorg-libsm                        1.2.6              h0d788c3_1              30.02 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0221173Z xorg-libx11                       1.8.13             he1eb515_1             819.90 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0221938Z xorg-libxau                       1.0.12             h7cc23a3_2              18.35 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0222718Z xorg-libxcomposite                0.4.7              hb03c661_0              14.08 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0223524Z xorg-libxcursor                   1.2.3              hb9d3cd8_0              31.77 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0224312Z xorg-libxdamage                   1.1.6              hb9d3cd8_0              12.91 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0225087Z xorg-libxdmcp                     1.1.5              h7cc23a3_2              22.08 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0225854Z xorg-libxext                      1.3.7              h7cc23a3_1              51.88 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0226634Z xorg-libxfixes                    6.0.2              h7cc23a3_1              20.94 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0227396Z xorg-libxi                        1.8.3              h7cc23a3_1              48.01 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0228151Z xorg-libxrandr                    1.5.5              h7cc23a3_1              30.38 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0228934Z xorg-libxrender                   0.9.12             hb03c661_1              33.83 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0229699Z xorg-libxtst                      1.2.5              h7cc23a3_4              34.23 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0230518Z xorg-libxxf86vm                   1.1.7              hb03c661_0              18.26 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0231439Z xorg-xorgproto                    2025.1             hebe6cf0_3             582.36 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0232195Z yaml                              0.2.5              hebe6cf0_3              82.95 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0232936Z yarl                              1.24.5             py313h3dea7bd_0        166.88 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0233689Z zipp                              4.1.0              pyhcf101f3_0            23.62 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0234407Z zlib                              1.3.2              h25fd6f3_3              93.88 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0235177Z zlib-ng                           2.3.3              hce19668_1             121.05 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0235990Z ^[[32m^[[1mzstandard^[[0m                         0.25.0             py313hd42f317_4        461.62 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0236772Z zstd                              1.5.7              hb78ec9c_7             587.21 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0237493Z ##[endgroup]
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0251807Z ##[end-action id=__self.__prefix-dev_setup-pixi;outcome=success;conclusion=success;duration_ms=13728]
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0258073Z ##[start-action display=Install typing;id=__self.__prefix-dev_setup-pixi_2]
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0264315Z ##[end-action id=__self.__prefix-dev_setup-pixi_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0266533Z ##[start-action display=Install PyArrow Nightly;id=__self.__run]
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0270672Z ##[end-action id=__self.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0589730Z ##[group]Run pixi run \
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0590050Z ^[[36;1mpixi run \^[[0m
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0590505Z ^[[36;1m  --environment typing \^[[0m
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0590859Z ^[[36;1m  build-pandas \^[[0m
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0591117Z ^[[36;1m  --editable \^[[0m
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.0591374Z ^[[36;1m  -Csetup-args="--werror"^[[0m
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.2684797Z shell: /usr/bin/bash -euox pipefail {0}
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.2685343Z ##[endgroup]
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.3111860Z + pixi run --environment typing build-pandas --editable -Csetup-args=--werror
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:14.6801382Z ✨ Pixi task (uninstall-pandas in typing): python -m pip uninstall -y pandas || true
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:15.6799606Z Found existing installation: pandas 3.0.6
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:15.7491517Z Uninstalling pandas-3.0.6:
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:15.7593461Z   Successfully uninstalled pandas-3.0.6
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:15.9346606Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:15.9348576Z ✨ Pixi task (build-pandas in typing): python -m pip install --verbose --editable . --no-build-isolation --no-deps --config-settings builddir=build/$PIXI_ENVIRONMENT_NAME -Csetup-args=--werror
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:16.2869581Z Using pip 26.2.1 from /home/runner/work/pandas/pandas/.pixi/envs/typing/lib/python3.13/site-packages/pip (python 3.13)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:16.3217530Z Obtaining file:///home/runner/work/pandas/pandas
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:16.3248647Z   Checking if build backend supports build_editable: started
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:16.3249983Z   Running command Checking if build backend supports build_editable
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:16.4930025Z   Checking if build backend supports build_editable: finished with status 'done'
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:16.4938719Z   Preparing editable metadata (pyproject.toml): started
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:16.4940192Z   Running command Preparing editable metadata (pyproject.toml)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:17.3112289Z   + meson setup /home/runner/work/pandas/pandas /home/runner/work/pandas/pandas/build/typing -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --werror --native-file=/home/runner/work/pandas/pandas/build/typing/meson-python-native-file.ini
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7137041Z   The Meson build system
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7137804Z   Version: 1.12.1
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7138934Z   Source dir: /home/runner/work/pandas/pandas
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7140665Z   Build dir: /home/runner/work/pandas/pandas/build/typing
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7141816Z   Build type: native build
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7143140Z   Program python found: YES
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7144114Z   Project name: pandas
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7145483Z   Project version: 3.2.0.dev0+213.g4b15d22acf
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7146860Z   C compiler for the host machine: cc (gcc 15.3.0 "cc (conda-forge gcc 15.3.0-7) 15.3.0")
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7147771Z   C linker for the host machine: cc ld.bfd 2.46.1
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7149139Z   C++ compiler for the host machine: c++ (gcc 15.3.0 "c++ (conda-forge gcc 15.3.0-7) 15.3.0")
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7150085Z   C++ linker for the host machine: c++ ld.bfd 2.46.1
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7151762Z   Cython compiler for the host machine: cython (cython 3.3.0)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7152616Z   Host machine cpu family: x86_64
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7153670Z   Host machine cpu: x86_64
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7155379Z   Program python found: YES (/home/runner/work/pandas/pandas/.pixi/envs/typing/bin/python)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7156289Z   Compiler for C++ supports arguments -Wunused-template: NO
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7157365Z   Found pkg-config: YES (/usr/bin/pkg-config) 1.8.1
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7158459Z   Run-time dependency python found: YES 3.13
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7159470Z   Library m found: YES
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:20.7161329Z   Downloading fast_float source from https://github.com/fastfloat/fast_float/archive/refs/tags/v8.2.10.tar.gz
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1776991Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1778509Z   Executing subproject fast_float for machine: host
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1779091Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1780608Z   fast_float| Project name: fast_float
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1781994Z   fast_float| Project version: 8.2.10
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1783835Z   fast_float| C++ compiler for the host machine: c++ (gcc 15.3.0 "c++ (conda-forge gcc 15.3.0-7) 15.3.0")
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1784530Z   fast_float| C++ linker for the host machine: c++ ld.bfd 2.46.1
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1785519Z   fast_float| Build targets in project: 12
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1786770Z   fast_float| Subproject fast_float finished.
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1787754Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1789179Z   Found CMake: /usr/local/bin/cmake (3.31.6)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1790667Z   Run-time dependency xsimd found: NO  (tried pkg-config and cmake)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1791726Z   Looking for a fallback subproject for the dependency xsimd
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.1793425Z   Downloading xsimd source from https://github.com/xtensor-stack/xsimd/archive/refs/tags/14.2.0.tar.gz
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5685673Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5686619Z   Executing subproject xsimd for machine: host
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5687466Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5691474Z   xsimd| Project name: xsimd
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5692238Z   xsimd| Project version: 14.2.0
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5693523Z   xsimd| C++ compiler for the host machine: c++ (gcc 15.3.0 "c++ (conda-forge gcc 15.3.0-7) 15.3.0")
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5694965Z   xsimd| C++ linker for the host machine: c++ ld.bfd 2.46.1
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5695929Z   xsimd| Build targets in project: 12
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5696715Z   xsimd| Subproject xsimd finished.
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5697238Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5697742Z   Dependency xsimd for host machine found: YES 14.2.0 (overridden)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5698933Z   Configuring pandas_simd_config.h using configuration
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5699954Z   Run-time dependency python found: YES 3.13
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5700966Z   Build targets in project: 58
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5701452Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5703022Z   pandas 3.2.0.dev0+213.g4b15d22acf
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5703518Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5704865Z     Subprojects (for host machine)
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5705947Z       fast_float  : YES
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5707033Z       xsimd       : YES
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5707961Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5709309Z     User defined options
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5710963Z       Native files: /home/runner/work/pandas/pandas/build/typing/meson-python-native-file.ini
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5711889Z       b_ndebug    : if-release
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5713004Z       b_vscrt     : md
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5714137Z       buildtype   : release
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5715222Z       werror      : true
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5716116Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.5717738Z   Found ninja-1.13.2 at /home/runner/work/pandas/pandas/.pixi/envs/typing/bin/ninja
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.6249621Z   + /home/runner/work/pandas/pandas/.pixi/envs/typing/bin/ninja
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.6911697Z   [1/156] Generating pandas/_libs/khash_primitive_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.6961952Z   [2/156] Generating pandas/_libs/hashtable_class_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.7351681Z   [3/156] Generating pandas/_libs/algos_common_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.7417248Z   [4/156] Generating pandas/_libs/index_class_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.7507231Z   [5/156] Generating pandas/_libs/intervaltree_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.7651604Z   [6/156] Generating pandas/_libs/hashtable_func_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.7666490Z   [7/156] Generating pandas/_libs/algos_take_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:22.7951652Z   [8/156] Generating pandas/_libs/sparse_op_helper_pxi with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:24.8679132Z   [9/156] Generating _cyutility.c with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:25.1536641Z   [10/156] Compiling C++ object pandas/_libs/libpandas_tokenizer.a.p/src_parser_fast_float_wrappers.cpp.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:25.2931575Z   [11/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/base.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:25.4029492Z   [12/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/ccalendar.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:25.5112019Z   [13/156] Compiling C++ object pandas/_libs/simd/libmoments_sse2.a.p/moments_sse2.cpp.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:27.0071877Z   [14/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/dtypes.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:27.0681653Z   [15/156] Compiling C++ object pandas/_libs/libpandas_tokenizer.a.p/src_parser_tokenizer.cpp.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:28.0019729Z   [16/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/nattype.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:28.1482375Z   [17/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/fields.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:28.3421695Z   [18/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/np_datetime.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:29.3261642Z   [19/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/conversion.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:30.7541815Z   [20/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/parsing.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:31.8755067Z   [21/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/offsets.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:32.1093403Z   [22/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/strptime.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:32.1951654Z   [23/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/period.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:32.2041710Z   [24/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timestamps.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:33.6288235Z   [25/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timedeltas.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:33.6311805Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timedeltas.pyx:2014:12: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:33.6341637Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timedeltas.pyx:2015:12: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:33.9101693Z   [26/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/arrays.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:34.3950953Z   [27/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timezones.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:34.4981660Z   [28/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/tzconversion.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:35.3961597Z   [29/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/hashing.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:35.6321689Z   [30/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/vectorized.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:37.1351728Z   [31/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/indexing.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:39.5241581Z   [32/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/internals.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:39.5311794Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/internals.pyx:809:38: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:39.5331740Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/internals.pyx:1029:16: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:39.5401634Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/internals.pyx:1047:23: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:40.3511644Z   [33/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/index.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:40.3541647Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/index.pyx:284:16: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:40.3543325Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/index.pyx:355:19: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:40.3571477Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/index.pyx:358:19: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:40.3573516Z   warning: /home/runner/work/pandas/pandas/pandas/_libs/index.pyx:362:19: Python attribute access is not usefully protected by critical_section
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:41.0494063Z   [34/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/groupby.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:43.0338023Z   [35/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/missing.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:43.1497139Z   [36/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/hashtable.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:44.7041634Z   [37/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/ops.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:44.9059584Z   [38/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/interval.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:46.4129741Z   [39/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/lib.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:46.4181516Z   [40/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/ops_dispatch.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:47.0594297Z   [41/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/join.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:47.1271632Z   [42/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/parsers.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:47.3621522Z   [43/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/properties.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:48.7571722Z   [44/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/sas.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:48.9791537Z   [45/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/reshape.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:48.9961522Z   [46/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/byteswap.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:49.1821672Z   [47/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/algos.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:50.6175481Z   [48/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslib.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:51.3920470Z   [49/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/sparse.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:51.3991374Z   [50/156] Linking static target pandas/_libs/simd/libmoments_sse2.a
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:51.4051245Z   [51/156] Linking static target pandas/_libs/libpandas_tokenizer.a
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:51.6565182Z   [52/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/testing.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:52.0139567Z   [53/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/window/indexers.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:52.2854041Z   [54/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/writers.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:52.3100097Z   [55/156] Compiling C object pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so.p/meson-generated_base.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:53.8501646Z   [56/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/window/aggregations.pyx
+Type Checking	UNKNOWN STEP	2026-10-11T17:20:54.5601840Z   [57/156] Compiling C object pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so.p/meson-generated_ccalendar.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:00.5664607Z   [58/156] Compiling C object pandas/_libs/tslibs/fields.cpython-313-x86_64-linux-gnu.so.p/meson-generated_fields.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:00.9831795Z   [59/156] Compiling C object _cyutility.cpython-313-x86_64-linux-gnu.so.p/meson-generated_..__cyutility.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:01.3881738Z   [60/156] Compiling C object pandas/_libs/tslibs/dtypes.cpython-313-x86_64-linux-gnu.so.p/meson-generated_dtypes.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:02.1151735Z   [61/156] Compiling C object pandas/_libs/tslibs/np_datetime.cpython-313-x86_64-linux-gnu.so.p/meson-generated_np_datetime.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:02.4222050Z   [62/156] Compiling C object pandas/_libs/tslibs/nattype.cpython-313-x86_64-linux-gnu.so.p/meson-generated_nattype.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:05.6891807Z   [63/156] Compiling C object pandas/_libs/tslibs/conversion.cpython-313-x86_64-linux-gnu.so.p/meson-generated_conversion.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:14.7101995Z   [64/156] Compiling C object pandas/_libs/tslibs/parsing.cpython-313-x86_64-linux-gnu.so.p/meson-generated_parsing.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:15.2392319Z   [65/156] Compiling C object pandas/_libs/tslibs/strptime.cpython-313-x86_64-linux-gnu.so.p/meson-generated_strptime.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:20.5937675Z   [66/156] Compiling C object pandas/_libs/tslibs/period.cpython-313-x86_64-linux-gnu.so.p/meson-generated_period.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:23.1754030Z   [67/156] Compiling C object pandas/_libs/tslibs/timezones.cpython-313-x86_64-linux-gnu.so.p/meson-generated_timezones.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:24.1914464Z   [68/156] Compiling C object pandas/_libs/tslibs/tzconversion.cpython-313-x86_64-linux-gnu.so.p/meson-generated_tzconversion.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:24.2931974Z   [69/156] Compiling C object pandas/_libs/tslibs/vectorized.cpython-313-x86_64-linux-gnu.so.p/meson-generated_vectorized.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:29.5101781Z   [70/156] Compiling C object pandas/_libs/arrays.cpython-313-x86_64-linux-gnu.so.p/meson-generated_arrays.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:30.3792045Z   [71/156] Compiling C object pandas/_libs/tslibs/timestamps.cpython-313-x86_64-linux-gnu.so.p/meson-generated_timestamps.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:31.9631428Z   [72/156] Compiling C object pandas/_libs/hashing.cpython-313-x86_64-linux-gnu.so.p/meson-generated_hashing.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:33.0112588Z   [73/156] Compiling C object pandas/_libs/tslibs/timedeltas.cpython-313-x86_64-linux-gnu.so.p/meson-generated_timedeltas.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:34.9629491Z   [74/156] Compiling C object pandas/_libs/indexing.cpython-313-x86_64-linux-gnu.so.p/meson-generated_indexing.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:53.4741981Z   [75/156] Compiling C object pandas/_libs/internals.cpython-313-x86_64-linux-gnu.so.p/meson-generated_internals.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:21:57.5961627Z   [76/156] Compiling C object pandas/_libs/tslibs/offsets.cpython-313-x86_64-linux-gnu.so.p/meson-generated_offsets.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:14.5876405Z   [77/156] Compiling C object pandas/_libs/index.cpython-313-x86_64-linux-gnu.so.p/meson-generated_index.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:48.2917668Z   [78/156] Compiling C object pandas/_libs/interval.cpython-313-x86_64-linux-gnu.so.p/meson-generated_interval.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:48.5091760Z   [79/156] Compiling C object pandas/_libs/lib.cpython-313-x86_64-linux-gnu.so.p/meson-generated_lib.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:49.5271966Z   [80/156] Compiling C object pandas/_libs/pandas_datetime.cpython-313-x86_64-linux-gnu.so.p/src_vendored_numpy_datetime_np_datetime.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:50.7101925Z   [81/156] Compiling C object pandas/_libs/pandas_datetime.cpython-313-x86_64-linux-gnu.so.p/src_vendored_numpy_datetime_np_datetime_strings.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:51.0016325Z   [82/156] Compiling C object pandas/_libs/pandas_datetime.cpython-313-x86_64-linux-gnu.so.p/src_datetime_date_conversions.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:51.5062590Z   [83/156] Compiling C object pandas/_libs/pandas_datetime.cpython-313-x86_64-linux-gnu.so.p/src_datetime_pd_datetime.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:51.8381598Z   [84/156] Compiling C object pandas/_libs/pandas_parser.cpython-313-x86_64-linux-gnu.so.p/src_parser_io.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:52.1490048Z   [85/156] Compiling C object pandas/_libs/pandas_parser.cpython-313-x86_64-linux-gnu.so.p/src_parser_pd_parser.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:57.9522266Z   [86/156] Compiling C object pandas/_libs/join.cpython-313-x86_64-linux-gnu.so.p/meson-generated_join.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:58.0931920Z   [87/156] Compiling C object pandas/_libs/parsers.cpython-313-x86_64-linux-gnu.so.p/src_parser_io.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:58.3201772Z   [88/156] Compiling C object pandas/_libs/_ujson.cpython-313-x86_64-linux-gnu.so.p/src_vendored_ujson_python_ujson.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:59.0281681Z   [89/156] Compiling C object pandas/_libs/missing.cpython-313-x86_64-linux-gnu.so.p/meson-generated_missing.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:59.3611773Z   [90/156] Compiling C object pandas/_libs/_ujson.cpython-313-x86_64-linux-gnu.so.p/src_vendored_ujson_python_JSONtoObj.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:59.4861826Z   [91/156] Compiling C object pandas/_libs/_ujson.cpython-313-x86_64-linux-gnu.so.p/src_vendored_ujson_python_objToJSON.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:59.8922067Z   [92/156] Compiling C object pandas/_libs/_ujson.cpython-313-x86_64-linux-gnu.so.p/src_vendored_ujson_lib_ultrajsonenc.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:22:59.9620505Z   [93/156] Compiling C object pandas/_libs/_ujson.cpython-313-x86_64-linux-gnu.so.p/src_vendored_ujson_lib_ultrajsondec.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:01.5221920Z   [94/156] Compiling C object pandas/_libs/ops_dispatch.cpython-313-x86_64-linux-gnu.so.p/meson-generated_ops_dispatch.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:03.3161754Z   [95/156] Compiling C object pandas/_libs/properties.cpython-313-x86_64-linux-gnu.so.p/meson-generated_properties.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:05.7921672Z   [96/156] Compiling C object pandas/_libs/ops.cpython-313-x86_64-linux-gnu.so.p/meson-generated_ops.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:12.2751715Z   [97/156] Compiling C object pandas/_libs/reshape.cpython-313-x86_64-linux-gnu.so.p/meson-generated_reshape.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:13.7357209Z   [98/156] Compiling C object pandas/_libs/sas.cpython-313-x86_64-linux-gnu.so.p/meson-generated_sas.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:13.9207210Z   [99/156] Compiling C object pandas/_libs/byteswap.cpython-313-x86_64-linux-gnu.so.p/meson-generated_byteswap.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:24.6077133Z   [100/156] Compiling C object pandas/_libs/tslib.cpython-313-x86_64-linux-gnu.so.p/meson-generated_tslib.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:28.5321801Z   [101/156] Compiling C object pandas/_libs/algos.cpython-313-x86_64-linux-gnu.so.p/meson-generated_algos.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:29.8737104Z   [102/156] Compiling C object pandas/_libs/parsers.cpython-313-x86_64-linux-gnu.so.p/meson-generated_parsers.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:33.3513102Z   [103/156] Compiling C object pandas/_libs/groupby.cpython-313-x86_64-linux-gnu.so.p/meson-generated_groupby.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:33.6541694Z   [104/156] Compiling C object pandas/_libs/writers.cpython-313-x86_64-linux-gnu.so.p/meson-generated_writers.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:33.9311573Z   [105/156] Generating write_version_file with a custom command
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:33.9710658Z   [106/156] Linking target _cyutility.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.1168818Z   [107/156] Copying file pandas/__init__.py
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.1581493Z   [108/156] Linking target pandas/_libs/tslibs/base.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.1941548Z   [109/156] Linking target pandas/_libs/tslibs/ccalendar.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.2361475Z   [110/156] Linking target pandas/_libs/tslibs/dtypes.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.2701753Z   [111/156] Linking target pandas/_libs/tslibs/conversion.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.2919142Z   [112/156] Linking target pandas/_libs/tslibs/fields.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.3371740Z   [113/156] Linking target pandas/_libs/tslibs/nattype.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.3995919Z   [114/156] Linking target pandas/_libs/tslibs/np_datetime.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.4572013Z   [115/156] Linking target pandas/_libs/tslibs/offsets.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.5209527Z   [116/156] Linking target pandas/_libs/tslibs/parsing.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.5661503Z   [117/156] Linking target pandas/_libs/tslibs/period.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.5901637Z   [118/156] Linking target pandas/_libs/tslibs/strptime.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.6421893Z   [119/156] Compiling C object pandas/_libs/testing.cpython-313-x86_64-linux-gnu.so.p/meson-generated_testing.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.6515101Z   [120/156] Linking target pandas/_libs/tslibs/timedeltas.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.6755508Z   [121/156] Linking target pandas/_libs/tslibs/timestamps.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.6921666Z   [122/156] Linking target pandas/_libs/tslibs/timezones.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.7161460Z   [123/156] Linking target pandas/_libs/tslibs/tzconversion.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.7251606Z   [124/156] Linking target pandas/_libs/tslibs/vectorized.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.7671429Z   [125/156] Linking target pandas/_libs/arrays.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.7731383Z   [126/156] Linking target pandas/_libs/algos.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.8151441Z   [127/156] Linking target pandas/_libs/hashing.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.8331418Z   [128/156] Linking target pandas/_libs/groupby.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.8511443Z   [129/156] Linking target pandas/_libs/indexing.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.8751463Z   [130/156] Linking target pandas/_libs/internals.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.8871329Z   [131/156] Linking target pandas/_libs/index.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.9021471Z   [132/156] Linking target pandas/_libs/interval.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.9381444Z   [133/156] Linking target pandas/_libs/lib.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.9591479Z   [134/156] Linking target pandas/_libs/missing.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:34.9651440Z   [135/156] Linking target pandas/_libs/join.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.0025729Z   [136/156] Linking target pandas/_libs/pandas_datetime.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.0501447Z   [137/156] Linking target pandas/_libs/pandas_parser.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.0822247Z   [138/156] Linking target pandas/_libs/parsers.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.0879490Z   [139/156] Linking target pandas/_libs/_ujson.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.1241425Z   [140/156] Linking target pandas/_libs/ops.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.1471596Z   [141/156] Linking target pandas/_libs/ops_dispatch.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.1656681Z   [142/156] Linking target pandas/_libs/properties.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.1913131Z   [143/156] Linking target pandas/_libs/reshape.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.2091400Z   [144/156] Linking target pandas/_libs/sas.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.2341389Z   [145/156] Linking target pandas/_libs/byteswap.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.2661461Z   [146/156] Linking target pandas/_libs/tslib.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.2831417Z   [147/156] Linking target pandas/_libs/testing.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.3071610Z   [148/156] Linking target pandas/_libs/writers.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.3309683Z   [149/156] Compiling C object pandas/_libs/window/indexers.cpython-313-x86_64-linux-gnu.so.p/meson-generated_indexers.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:35.3711533Z   [150/156] Linking target pandas/_libs/window/indexers.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:42.4201109Z   [151/156] Compiling C object pandas/_libs/hashtable.cpython-313-x86_64-linux-gnu.so.p/meson-generated_hashtable.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:42.4439903Z   [152/156] Linking target pandas/_libs/hashtable.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:43.0171577Z   [153/156] Compiling C++ object pandas/_libs/window/aggregations.cpython-313-x86_64-linux-gnu.so.p/meson-generated_aggregations.pyx.cpp.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:43.0598566Z   [154/156] Linking target pandas/_libs/window/aggregations.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.1775142Z   [155/156] Compiling C object pandas/_libs/sparse.cpython-313-x86_64-linux-gnu.so.p/meson-generated_sparse.pyx.c.o
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.1985400Z   [156/156] Linking target pandas/_libs/sparse.cpython-313-x86_64-linux-gnu.so
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.2539970Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.2716753Z Building wheels for collected packages: pandas
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.2725917Z   Building editable for pandas (pyproject.toml): started
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.2726971Z   Running command Building editable for pandas (pyproject.toml)
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.3647963Z   Building editable for pandas (pyproject.toml): finished with status 'done'
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.3654535Z   Created wheel for pandas: filename=pandas-3.2.0.dev0+213.g4b15d22acf-cp313-cp313-linux_x86_64.whl size=45038 sha256=5bccd3c40dbe1ec2e663e281c3473d9def76efa9e800df055dfc6111b783a9b5
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.3656274Z   Stored in directory: /tmp/pip-ephem-wheel-cache-ds5d2r1c/wheels/45/d8/72/fa224cebe0b0c3e950dae62f3f7a992917719dc9457915cabc
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.3696650Z Successfully built pandas
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.4131539Z Installing collected packages: pandas
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.4341121Z Successfully installed pandas-3.2.0.dev0+213.g4b15d22acf
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.4874582Z ##[group]Run pixi run --environment typing ci-typing
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.4874986Z ^[[36;1mpixi run --environment typing ci-typing^[[0m
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.4911397Z shell: /usr/bin/bash -euox pipefail {0}
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.4911716Z ##[endgroup]
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.4964368Z + pixi run --environment typing ci-typing
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:46.8639097Z ✨ Pixi task (ci-typing in typing): pre-commit run --verbose --hook-stage manual --all-files
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:47.0661971Z [INFO] Initializing environment for https://github.com/astral-sh/ruff-pre-commit.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:47.5065191Z [INFO] Initializing environment for https://github.com/jendrikseipp/vulture.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:48.0231205Z [INFO] Initializing environment for https://github.com/codespell-project/codespell.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:48.7246633Z [INFO] Initializing environment for https://github.com/MarcoGorelli/cython-lint.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:49.1829839Z [INFO] Initializing environment for https://github.com/pre-commit/pre-commit-hooks.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:49.6676210Z [INFO] Initializing environment for https://github.com/PyCQA/isort.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:50.4629615Z [INFO] Initializing environment for https://github.com/pre-commit/pygrep-hooks.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:50.8554346Z [INFO] Initializing environment for https://github.com/sphinx-contrib/sphinx-lint.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:51.3706143Z [INFO] Initializing environment for https://github.com/pre-commit/mirrors-clang-format.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:51.7514664Z [INFO] Initializing environment for https://github.com/trim21/pre-commit-mirror-meson.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:52.1739253Z [INFO] Initializing environment for https://github.com/shellcheck-py/shellcheck-py.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:52.5681293Z [INFO] Initializing environment for local:pyright@1.1.409.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:52.5719274Z [INFO] Initializing environment for local.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:52.5742442Z [INFO] Initializing environment for local:pyyaml.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:52.5783353Z [INFO] Installing environment for https://github.com/pre-commit/pre-commit-hooks.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:52.5784216Z [INFO] Once installed this environment will be reused.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:52.5784638Z [INFO] This may take a few minutes...
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:55.1983206Z [INFO] Installing environment for https://github.com/PyCQA/isort.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:55.1983999Z [INFO] Once installed this environment will be reused.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:55.1984437Z [INFO] This may take a few minutes...
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:58.4399473Z [INFO] Installing environment for local.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:58.4400090Z [INFO] Once installed this environment will be reused.
+Type Checking	UNKNOWN STEP	2026-10-11T17:23:58.4400692Z [INFO] This may take a few minutes...
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:03.3751889Z fix end of files.........................................................Passed
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:03.3752365Z - hook id: end-of-file-fixer
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:03.3752644Z - duration: 0.05s
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:03.5904897Z trim trailing whitespace.................................................Passed
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:03.5905391Z - hook id: trailing-whitespace
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:03.5905689Z - duration: 0.21s
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6086549Z isort....................................................................Failed
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6087371Z - hook id: isort
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6087821Z - duration: 4.01s
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6088306Z - files were modified by this hook
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6088731Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6089242Z Fixing /home/runner/work/pandas/pandas/pandas/io/parsers/arrow_parser_wrapper.py
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6090168Z Skipped 1 files
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:07.6090605Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:47.1255932Z pyright..................................................................Passed
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:47.1256627Z - hook id: pyright
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:47.1256999Z - duration: 39.51s
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:47.1257225Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:47.1257407Z 0 errors, 0 warnings, 0 informations
+Type Checking	UNKNOWN STEP	2026-10-11T17:24:47.1257631Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:03.2846060Z pyright reportGeneralTypeIssues..........................................Passed
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:03.2846536Z - hook id: pyright
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:03.2847071Z - duration: 16.15s
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:03.2847208Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:03.2847325Z 0 errors, 0 warnings, 0 informations
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:03.2847518Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1113187Z mypy.....................................................................Passed
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1113783Z - hook id: mypy
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1114045Z - duration: 54.82s
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1114190Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1114734Z pandas/tests/io/parser/test_parallel_read.py:1999: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1115840Z pandas/tests/extension/base/methods.py:904: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1116904Z pandas/tests/extension/base/methods.py:914: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1117946Z pandas/tests/extension/base/methods.py:915: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1118990Z pandas/tests/extension/base/methods.py:922: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1120565Z pandas/tests/arrays/test_datetimelike.py:1455: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1121642Z pandas/tests/frame/test_constructors.py:1692: note: By default the bodies of untyped functions are not checked, consider using --check-untyped-defs  [annotation-unchecked]
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1122334Z Success: no issues found in 1481 source files
+Type Checking	UNKNOWN STEP	2026-10-11T17:25:58.1122541Z 
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.0685176Z mypy (stubtest)..........................................................Passed
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.0685585Z - hook id: stubtest
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.0685840Z - duration: 43.95s
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.0905033Z ##[error]Process completed with exit code 1.
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.1028221Z Post job cleanup.
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.1033130Z ##[start-action display=Install typing;id=__1d6561a3-8390-40a6-9519-4888fd208506.__prefix-dev_setup-pixi]
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.1100900Z Post job cleanup.
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.1931712Z ##[end-action id=__1d6561a3-8390-40a6-9519-4888fd208506.__prefix-dev_setup-pixi;outcome=success;conclusion=success;duration_ms=89]
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.2013713Z Post job cleanup.
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.2882307Z [command]/usr/bin/git version
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.2933719Z git version 2.55.0
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.2973810Z Temporarily overriding HOME='/home/runner/work/_temp/4c1ca88c-0e03-4267-b2de-b1f29a30930e' before making global git config changes
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.2974639Z Adding repository directory to the temporary git global config as a safe directory
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.2975316Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pandas/pandas
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3020124Z Removing SSH command configuration
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3020870Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3052668Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3262200Z Removing HTTP extra header
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3268571Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3308161Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3495221Z Removing includeIf entries pointing to credentials config files
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3502265Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3530188Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Type Checking	UNKNOWN STEP	2026-10-11T17:26:42.3870633Z Cleaning up orphan processes

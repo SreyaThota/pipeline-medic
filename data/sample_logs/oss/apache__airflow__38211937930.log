@@ -1,0 +1,400 @@
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.8623228Z Updating files:  64% (9471/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.8774425Z Updating files:  65% (9619/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.8900961Z Updating files:  66% (9767/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9014937Z Updating files:  67% (9914/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9099101Z Updating files:  68% (10062/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9281094Z Updating files:  69% (10210/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9421865Z Updating files:  70% (10358/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9526360Z Updating files:  71% (10506/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9622007Z Updating files:  72% (10654/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9719727Z Updating files:  73% (10802/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9817519Z Updating files:  74% (10950/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:26.9943561Z Updating files:  75% (11098/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0039195Z Updating files:  76% (11246/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0123341Z Updating files:  77% (11394/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0289197Z Updating files:  78% (11542/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0411546Z Updating files:  79% (11690/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0509653Z Updating files:  80% (11838/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0599733Z Updating files:  81% (11986/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0680266Z Updating files:  82% (12134/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0763748Z Updating files:  83% (12282/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0869110Z Updating files:  84% (12430/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.0966541Z Updating files:  85% (12578/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1057373Z Updating files:  86% (12726/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1270501Z Updating files:  87% (12874/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1409669Z Updating files:  88% (13022/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1503758Z Updating files:  89% (13170/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1603021Z Updating files:  90% (13318/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1696564Z Updating files:  91% (13466/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1798604Z Updating files:  92% (13614/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.1905879Z Updating files:  93% (13762/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.2011461Z Updating files:  94% (13910/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.2108749Z Updating files:  95% (14058/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.2346899Z Updating files:  96% (14206/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.2694708Z Updating files:  97% (14354/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.2952006Z Updating files:  98% (14502/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3258744Z Updating files:  99% (14650/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3263576Z Updating files: 100% (14797/14797)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3264767Z Updating files: 100% (14797/14797), done.
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3745621Z Switched to a new branch 'main'
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3753819Z branch 'main' set up to track 'origin/main'.
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3831080Z ##[endgroup]
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3872091Z [command]/usr/bin/git log -1 --format=%H
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3919776Z 92340cf41711966a16fad68cca92c4a15141f2f9
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3940506Z ##[group]Removing auth
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3947054Z Removing SSH command configuration
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3954630Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.3990220Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4393056Z Removing HTTP extra header
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4398829Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4438914Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4731048Z Removing includeIf entries pointing to credentials config files
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4739261Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4773145Z includeif.gitdir:/home/runner/work/airflow/airflow/.git.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4775828Z includeif.gitdir:/home/runner/work/airflow/airflow/.git/worktrees/*.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4779467Z includeif.gitdir:/github/workspace/.git.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4829669Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4834306Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/airflow/airflow/.git.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4857030Z /home/runner/work/_temp/git-credentials-7863bd0c-865b-4c8b-8e85-140e4ad8560a.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4881517Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/airflow/airflow/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-7863bd0c\-865b\-4c8b\-8e85\-140e4ad8560a\.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4924313Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/airflow/airflow/.git/worktrees/*.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4948879Z /home/runner/work/_temp/git-credentials-7863bd0c-865b-4c8b-8e85-140e4ad8560a.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.4973377Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/airflow/airflow/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-7863bd0c\-865b\-4c8b\-8e85\-140e4ad8560a\.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5025812Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5054521Z /github/runner_temp/git-credentials-7863bd0c-865b-4c8b-8e85-140e4ad8560a.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5073996Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-7863bd0c\-865b\-4c8b\-8e85\-140e4ad8560a\.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5119389Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5164536Z /github/runner_temp/git-credentials-7863bd0c-865b-4c8b-8e85-140e4ad8560a.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5182911Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-7863bd0c\-865b\-4c8b\-8e85\-140e4ad8560a\.config
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5351650Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5602461Z Removing credentials config '/home/runner/work/_temp/git-credentials-7863bd0c-865b-4c8b-8e85-140e4ad8560a.config'
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.5614327Z ##[endgroup]
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6314121Z ##[group]Run astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6316226Z with:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6317113Z   version-file: uv.lock
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6318402Z   activate-environment: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6319505Z   no-project: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6320722Z   working-directory: /home/runner/work/airflow/airflow
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6330775Z   github-token: ***
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6331752Z   enable-cache: auto
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6334436Z   cache-dependency-glob: **/*requirements*.txt
+Verify release calendar	UNKNOWN STEP	**/*requirements*.in
+Verify release calendar	UNKNOWN STEP	**/*constraints*.txt
+Verify release calendar	UNKNOWN STEP	**/*constraints*.in
+Verify release calendar	UNKNOWN STEP	**/pyproject.toml
+Verify release calendar	UNKNOWN STEP	**/uv.lock
+Verify release calendar	UNKNOWN STEP	**/*.py.lock
+Verify release calendar	UNKNOWN STEP	
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6336970Z   restore-cache: true
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6338132Z   save-cache: auto
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6340170Z   prune-cache: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6341668Z   cache-python: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6342715Z   ignore-nothing-to-cache: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6343936Z   ignore-empty-workdir: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6345129Z   download-from-astral-mirror: true
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6346315Z   add-problem-matchers: true
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6347353Z   quiet: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6348465Z   resolution-strategy: highest
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.6350609Z ##[endgroup]
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:27.9956419Z Trying to find version for uv in: /home/runner/work/airflow/airflow/uv.lock
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:28.1576819Z Found version for uv in /home/runner/work/airflow/airflow/uv.lock: 0.12.18
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:28.1830853Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:28.5938300Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.18/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:29.0240177Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/e45f78eb-6129-42c1-b555-76c3c45cf649 -f /home/runner/work/_temp/53e05194-9367-42d9-adf2-ca824f955446
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:29.5412570Z Added /home/runner/.local/bin to the path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:29.5420621Z Added /opt/hostedtoolcache/uv/0.12.18/x86_64 to the path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:29.5426176Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:29.5431151Z Added /home/runner/work/_temp/uv-python-dir to the path
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:29.5473856Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:29.5475309Z Successfully installed uv version 0.12.18
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:31.7972025Z Searching files using cache dependency glob: /home/runner/work/airflow/airflow/**/*requirements*.txt,/home/runner/work/airflow/airflow/**/*requirements*.in,/home/runner/work/airflow/airflow/**/*constraints*.txt,/home/runner/work/airflow/airflow/**/*constraints*.in,/home/runner/work/airflow/airflow/**/pyproject.toml,/home/runner/work/airflow/airflow/**/uv.lock,/home/runner/work/airflow/airflow/**/*.py.lock
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:31.9894297Z /home/runner/work/airflow/airflow/airflow-core/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.3499349Z /home/runner/work/airflow/airflow/airflow-core/tests/unit/config_templates/requirements.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.4416405Z /home/runner/work/airflow/airflow/airflow-ctl/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.4491092Z /home/runner/work/airflow/airflow/airflow-ctl-tests/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.4589229Z /home/runner/work/airflow/airflow/airflow-e2e-tests/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.4806542Z /home/runner/work/airflow/airflow/chart/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5262424Z /home/runner/work/airflow/airflow/clients/python/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5557273Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_release-management_constraints-version-check.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5578956Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_release-management_generate-constraints.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5620179Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_release-management_update-constraints.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5636222Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_sbom_generate-providers-requirements.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5692524Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_workflow-run_release-constraints.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5720416Z /home/runner/work/airflow/airflow/dev/breeze/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5883396Z /home/runner/work/airflow/airflow/dev/breeze/uv.lock
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5917440Z /home/runner/work/airflow/airflow/dev/mypy/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.5936156Z /home/runner/work/airflow/airflow/dev/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.6413136Z /home/runner/work/airflow/airflow/dev/registry/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.6479164Z /home/runner/work/airflow/airflow/devel-common/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.6681076Z /home/runner/work/airflow/airflow/docker-stack-docs/docker-examples/extending/add-python-venv/requirements.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.6692000Z /home/runner/work/airflow/airflow/docker-stack-docs/docker-examples/extending/add-requirement-packages/requirements.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.6710222Z /home/runner/work/airflow/airflow/docker-stack-docs/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.6723946Z /home/runner/work/airflow/airflow/docker-tests/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.7489719Z /home/runner/work/airflow/airflow/kubernetes-tests/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.7509386Z /home/runner/work/airflow/airflow/performance/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.7551868Z /home/runner/work/airflow/airflow/providers/airbyte/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.7601786Z /home/runner/work/airflow/airflow/providers/akeyless/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.7650794Z /home/runner/work/airflow/airflow/providers/alibaba/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.7876241Z /home/runner/work/airflow/airflow/providers/amazon/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8487471Z /home/runner/work/airflow/airflow/providers/anthropic/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8560074Z /home/runner/work/airflow/airflow/providers/apache/arrow/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8600697Z /home/runner/work/airflow/airflow/providers/apache/beam/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8660064Z /home/runner/work/airflow/airflow/providers/apache/cassandra/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8725988Z /home/runner/work/airflow/airflow/providers/apache/drill/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8780020Z /home/runner/work/airflow/airflow/providers/apache/druid/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8833931Z /home/runner/work/airflow/airflow/providers/apache/flink/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.8915514Z /home/runner/work/airflow/airflow/providers/apache/hdfs/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9085241Z /home/runner/work/airflow/airflow/providers/apache/hive/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9287665Z /home/runner/work/airflow/airflow/providers/apache/iceberg/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9381099Z /home/runner/work/airflow/airflow/providers/apache/impala/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9487312Z /home/runner/work/airflow/airflow/providers/apache/kafka/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9661239Z /home/runner/work/airflow/airflow/providers/apache/kylin/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9751319Z /home/runner/work/airflow/airflow/providers/apache/livy/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9822982Z /home/runner/work/airflow/airflow/providers/apache/pig/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:32.9901380Z /home/runner/work/airflow/airflow/providers/apache/pinot/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0024941Z /home/runner/work/airflow/airflow/providers/apache/spark/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0226786Z /home/runner/work/airflow/airflow/providers/apache/tinkerpop/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0340623Z /home/runner/work/airflow/airflow/providers/apprise/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0405144Z /home/runner/work/airflow/airflow/providers/arangodb/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0598727Z /home/runner/work/airflow/airflow/providers/asana/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0719950Z /home/runner/work/airflow/airflow/providers/atlassian/jira/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0836571Z /home/runner/work/airflow/airflow/providers/celery/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.0967498Z /home/runner/work/airflow/airflow/providers/clickhousedb/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.1100940Z /home/runner/work/airflow/airflow/providers/cloudant/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.1290819Z /home/runner/work/airflow/airflow/providers/cncf/kubernetes/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.1474593Z /home/runner/work/airflow/airflow/providers/cohere/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.1622120Z /home/runner/work/airflow/airflow/providers/common/ai/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.1916801Z /home/runner/work/airflow/airflow/providers/common/compat/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2041669Z /home/runner/work/airflow/airflow/providers/common/dataquality/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2080881Z /home/runner/work/airflow/airflow/providers/common/io/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2232307Z /home/runner/work/airflow/airflow/providers/common/messaging/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2295539Z /home/runner/work/airflow/airflow/providers/common/sql/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2432395Z /home/runner/work/airflow/airflow/providers/databricks/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2621848Z /home/runner/work/airflow/airflow/providers/datadog/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2695559Z /home/runner/work/airflow/airflow/providers/dbt/cloud/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2771147Z /home/runner/work/airflow/airflow/providers/dingding/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.2863985Z /home/runner/work/airflow/airflow/providers/discord/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.3041642Z /home/runner/work/airflow/airflow/providers/docker/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.3102964Z /home/runner/work/airflow/airflow/providers/duckdb/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.3279180Z /home/runner/work/airflow/airflow/providers/edge3/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.3602096Z /home/runner/work/airflow/airflow/providers/elasticsearch/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.3681813Z /home/runner/work/airflow/airflow/providers/exasol/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.3812190Z /home/runner/work/airflow/airflow/providers/fab/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.4321280Z /home/runner/work/airflow/airflow/providers/facebook/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.4386048Z /home/runner/work/airflow/airflow/providers/ftp/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.4441351Z /home/runner/work/airflow/airflow/providers/git/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.4481643Z /home/runner/work/airflow/airflow/providers/github/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.4643741Z /home/runner/work/airflow/airflow/providers/google/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.5824419Z /home/runner/work/airflow/airflow/providers/grpc/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.5879439Z /home/runner/work/airflow/airflow/providers/hashicorp/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.5952276Z /home/runner/work/airflow/airflow/providers/http/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6048677Z /home/runner/work/airflow/airflow/providers/ibm/db2/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6104789Z /home/runner/work/airflow/airflow/providers/ibm/mq/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6255030Z /home/runner/work/airflow/airflow/providers/imap/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6328965Z /home/runner/work/airflow/airflow/providers/influxdb/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6443136Z /home/runner/work/airflow/airflow/providers/informatica/dev/informatica_simulator/requirements.txt
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6517383Z /home/runner/work/airflow/airflow/providers/informatica/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6619215Z /home/runner/work/airflow/airflow/providers/jdbc/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6694945Z /home/runner/work/airflow/airflow/providers/jenkins/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6779820Z /home/runner/work/airflow/airflow/providers/keycloak/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.6976595Z /home/runner/work/airflow/airflow/providers/microsoft/azure/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.7299330Z /home/runner/work/airflow/airflow/providers/microsoft/mssql/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.7377015Z /home/runner/work/airflow/airflow/providers/microsoft/psrp/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.7435476Z /home/runner/work/airflow/airflow/providers/microsoft/winrm/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.7501726Z /home/runner/work/airflow/airflow/providers/modal/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.7544266Z /home/runner/work/airflow/airflow/providers/mongo/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.7652563Z /home/runner/work/airflow/airflow/providers/mysql/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.8064944Z /home/runner/work/airflow/airflow/providers/neo4j/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.8258889Z /home/runner/work/airflow/airflow/providers/odbc/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.8372414Z /home/runner/work/airflow/airflow/providers/openai/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.8517636Z /home/runner/work/airflow/airflow/providers/openfaas/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.8603082Z /home/runner/work/airflow/airflow/providers/openlineage/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.8793691Z /home/runner/work/airflow/airflow/providers/opensearch/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.8952095Z /home/runner/work/airflow/airflow/providers/opsgenie/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9059652Z /home/runner/work/airflow/airflow/providers/oracle/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9232995Z /home/runner/work/airflow/airflow/providers/pagerduty/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9276360Z /home/runner/work/airflow/airflow/providers/papermill/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9346214Z /home/runner/work/airflow/airflow/providers/pgvector/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9404029Z /home/runner/work/airflow/airflow/providers/pinecone/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9467159Z /home/runner/work/airflow/airflow/providers/postgres/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9666118Z /home/runner/work/airflow/airflow/providers/presto/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9718715Z /home/runner/work/airflow/airflow/providers/qdrant/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9781315Z /home/runner/work/airflow/airflow/providers/redis/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9879928Z /home/runner/work/airflow/airflow/providers/salesforce/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:33.9944804Z /home/runner/work/airflow/airflow/providers/samba/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0014328Z /home/runner/work/airflow/airflow/providers/segment/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0060057Z /home/runner/work/airflow/airflow/providers/sendgrid/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0120510Z /home/runner/work/airflow/airflow/providers/sftp/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0330225Z /home/runner/work/airflow/airflow/providers/singularity/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0397224Z /home/runner/work/airflow/airflow/providers/slack/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0512441Z /home/runner/work/airflow/airflow/providers/smtp/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0604705Z /home/runner/work/airflow/airflow/providers/snowflake/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0762039Z /home/runner/work/airflow/airflow/providers/sqlite/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0847668Z /home/runner/work/airflow/airflow/providers/ssh/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.0935299Z /home/runner/work/airflow/airflow/providers/standard/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1257384Z /home/runner/work/airflow/airflow/providers/tableau/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1326243Z /home/runner/work/airflow/airflow/providers/telegram/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1458563Z /home/runner/work/airflow/airflow/providers/teradata/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1613205Z /home/runner/work/airflow/airflow/providers/trino/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1679431Z /home/runner/work/airflow/airflow/providers/vertica/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1718886Z /home/runner/work/airflow/airflow/providers/vespa/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1768370Z /home/runner/work/airflow/airflow/providers/weaviate/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1829050Z /home/runner/work/airflow/airflow/providers/yandex/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1893608Z /home/runner/work/airflow/airflow/providers/ydb/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.1946405Z /home/runner/work/airflow/airflow/providers/zendesk/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2006685Z /home/runner/work/airflow/airflow/providers-summary-docs/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2020564Z /home/runner/work/airflow/airflow/providers-summary-docs/uv.lock
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2031036Z /home/runner/work/airflow/airflow/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2508766Z /home/runner/work/airflow/airflow/scripts/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2585347Z /home/runner/work/airflow/airflow/shared/configuration/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2611547Z /home/runner/work/airflow/airflow/shared/dagnode/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2630438Z /home/runner/work/airflow/airflow/shared/listeners/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2649651Z /home/runner/work/airflow/airflow/shared/logging/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2671890Z /home/runner/work/airflow/airflow/shared/module_loading/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2691322Z /home/runner/work/airflow/airflow/shared/observability/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2718802Z /home/runner/work/airflow/airflow/shared/plugins_manager/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2735644Z /home/runner/work/airflow/airflow/shared/providers_discovery/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2753381Z /home/runner/work/airflow/airflow/shared/secrets_backend/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2769989Z /home/runner/work/airflow/airflow/shared/secrets_masker/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2822936Z /home/runner/work/airflow/airflow/shared/serialization/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2856006Z /home/runner/work/airflow/airflow/shared/state/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2871567Z /home/runner/work/airflow/airflow/shared/template_rendering/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2900297Z /home/runner/work/airflow/airflow/shared/timezones/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.2951337Z /home/runner/work/airflow/airflow/task-sdk/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.3443899Z /home/runner/work/airflow/airflow/task-sdk-integration-tests/pyproject.toml
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.3609179Z /home/runner/work/airflow/airflow/uv.lock
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.3686286Z Found 155 files to hash.
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.3845824Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-9092c97b00ca6b6a112f820dbe05af49ffa0fd5702e25936c1f1ae932dd52556
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.4682028Z Cache hit for: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-9092c97b00ca6b6a112f820dbe05af49ffa0fd5702e25936c1f1ae932dd52556
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.6101986Z Received 1825839 of 1825839 (100.0%), 18.9 MBs/sec
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.6106157Z Cache Size: ~2 MB (1825839 B)
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.6150838Z [command]/usr/bin/tar -xf /home/runner/work/_temp/d29f91f5-2c07-4812-b27f-f6aaf807d255/cache.tzst -P -C /home/runner/work/airflow/airflow --use-compress-program unzstd
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.6863176Z Cache restored successfully
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.6881574Z cache restored from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-9092c97b00ca6b6a112f820dbe05af49ffa0fd5702e25936c1f1ae932dd52556
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.8043444Z ##[group]Run uv run dev/verify_release_calendar.py
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.8044101Z ^[[36;1muv run dev/verify_release_calendar.py^[[0m
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.8054582Z shell: /usr/bin/bash -e {0}
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.8055006Z env:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.8055442Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.8056008Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:34.8056472Z ##[endgroup]
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:35.0982057Z Installed 16 packages in 40ms
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:35.8675127Z Fetching Confluence page: 
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:35.8676053Z https://cwiki.apache.org/confluence/display/AIRFLOW/Release+Plan
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6311569Z Parsing Confluence releases...
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6895321Z Found 16 headings in page
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6902496Z First 10 headings:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6908214Z   h2: Space shortcuts
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6913302Z   h2: Page tree
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6918518Z   h1: Release Plan
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6923830Z   h1: Support for Airflow in Providers
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6929806Z   h1: Airflow 3 Core
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6934668Z   h1: Provider Releases
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6944654Z   h1: Airflow Ctl
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6953089Z   h1: Airflow Java SDK
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6958341Z   h1: Airflow Helm Chart
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6964054Z   h1: Airflow 2
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6974212Z Found 7 tables in page
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.6993635Z Found section: Airflow Ctl
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7001455Z   Found table via find_next
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7006817Z   Table has 2 rows
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7013947Z   Headers: ['release/cut date', 'release manager', 'version', 'scope / notes']
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7020457Z   Column mapping - version: 2, date: 0, manager: 1
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7066222Z   Parsed: Airflow Ctl 1.0.0? on 2026-06-22 by Buğra
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7103378Z Found section: Support for Airflow in Providers
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7115306Z   Found table via find_next
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7121263Z   Table has 6 rows
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7129740Z   Headers: ['version', 'planned feature freeze (beta)', 'planned cut date (rc)',
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7130627Z 'planned release date', 'release manager', 'scope / notes']
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7137325Z   Column mapping - version: 0, date: 3, manager: 4
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7144959Z   Parsed: Providers 3.2.2 on 2026-05-22 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7152386Z   Parsed: Providers 3.3.0 on 2026-07-06 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7160721Z   Parsed: Providers 3.3.1 on 2026-08-12 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7167722Z   Parsed: Providers 3.3.2 on 2026-09-15 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7176104Z   Parsed: Providers 3.4.0 on 2026-10-26 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7181923Z Found 6 releases in Confluence
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7188407Z Fetching calendar: 
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7189210Z https://calendar.google.com/calendar/ical/c_de214e92df3b759779cb65f3e49e562796c6
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:36.7190197Z 126e7500cfa7e524bf78186d8b5e%40group.calendar.google.com/public/basic.ics
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7278165Z Parsing calendar entries...
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7489023Z Found 37 calendar entries
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7511291Z 
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7518560Z ================================================================================
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7527404Z VERIFICATION RESULTS
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7535895Z ================================================================================
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7536896Z 
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7589357Z ✗ NOT MATCHED: Airflow Ctl 1.0.0? on 2026-06-22 by Buğra
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7600115Z ✗ NOT MATCHED: Providers 3.2.2 on 2026-05-22 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7615704Z ✗ NOT MATCHED: Providers 3.3.0 on 2026-07-06 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7629086Z ✗ NOT MATCHED: Providers 3.3.1 on 2026-08-12 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7647086Z ✗ NOT MATCHED: Providers 3.3.2 on 2026-09-15 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7658321Z ✗ NOT MATCHED: Providers 3.4.0 on 2026-10-26 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7663183Z 
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7663444Z ================================================================================
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7677634Z SUMMARY
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7683828Z ================================================================================
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7692098Z Total releases in Confluence: 6
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7697709Z Matched releases: 0
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7702788Z Unmatched releases: 6
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7707732Z 
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7708212Z Unmatched releases:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7716069Z   • Airflow Ctl 1.0.0? on 2026-06-22 by Buğra
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7728622Z   • Providers 3.2.2 on 2026-05-22 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7736798Z   • Providers 3.3.0 on 2026-07-06 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7748896Z   • Providers 3.3.1 on 2026-08-12 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7772669Z   • Providers 3.3.2 on 2026-09-15 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7799117Z   • Providers 3.4.0 on 2026-10-26 by Rahul
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7806133Z ================================================================================
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7806484Z 
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.7815378Z ✗ Some releases do not have matching calendar entries!
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8563431Z ##[error]Process completed with exit code 1.
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8776723Z ##[group]Run slackapi/slack-github-action@dcb1066f776dd043e64d0e8ba94ca15cc7e1875d
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8777204Z with:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8777450Z   method: chat.postMessage
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8778278Z   token: ***
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8781488Z   payload: channel: "release-management"
+Verify release calendar	UNKNOWN STEP	text: >-
+Verify release calendar	UNKNOWN STEP	  :warning: Release calendar verification failed.
+Verify release calendar	UNKNOWN STEP	  See:
+Verify release calendar	UNKNOWN STEP	  https://github.com/apache/airflow/actions/runs/38211937930
+Verify release calendar	UNKNOWN STEP	blocks:
+Verify release calendar	UNKNOWN STEP	  - type: section
+Verify release calendar	UNKNOWN STEP	    text:
+Verify release calendar	UNKNOWN STEP	      type: mrkdwn
+Verify release calendar	UNKNOWN STEP	      text: >-
+Verify release calendar	UNKNOWN STEP	        :warning: *Release calendar verification failed*
+Verify release calendar	UNKNOWN STEP	
+Verify release calendar	UNKNOWN STEP	        The scheduled `verify_release_calendar.py` check
+Verify release calendar	UNKNOWN STEP	        failed. Please review and fix the mismatch between
+Verify release calendar	UNKNOWN STEP	        the Confluence release wiki and the Google
+Verify release calendar	UNKNOWN STEP	        Calendar entries.
+Verify release calendar	UNKNOWN STEP	
+Verify release calendar	UNKNOWN STEP	        • <https://cwiki.apache.org/confluence/display/AIRFLOW/Release+Plan|Release Plan wiki>
+Verify release calendar	UNKNOWN STEP	
+Verify release calendar	UNKNOWN STEP	        • <https://calendar.google.com/calendar/u/0?cid=Y19kZTIxNGU5MmRmM2I3NTk3NzljYjY1ZjNlNDllNTYyNzk2YzYxMjZlNzUwMGNmYTdlNTI0YmY3ODE4NmQ4YjVlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20|Release Calendar>
+Verify release calendar	UNKNOWN STEP	
+Verify release calendar	UNKNOWN STEP	        • <https://github.com/apache/airflow/actions/runs/38211937930|View failed run>
+Verify release calendar	UNKNOWN STEP	
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8788918Z   errors: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8789490Z   payload-templated: false
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8789746Z   retries: 5
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8789947Z env:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8790232Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8790644Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:37.8790955Z ##[endgroup]
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.5225284Z Post job cleanup.
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6653698Z [command]/usr/bin/git version
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6705111Z git version 2.55.0
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6782694Z Temporarily overriding HOME='/home/runner/work/_temp/02b6ab89-034d-461b-9c32-bdbc1782419c' before making global git config changes
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6788505Z Adding repository directory to the temporary git global config as a safe directory
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6805748Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/airflow/airflow
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6899748Z Removing SSH command configuration
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6905819Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.6949123Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.7257796Z Removing HTTP extra header
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.7263126Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.7304931Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.7568337Z Removing includeIf entries pointing to credentials config files
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.7575265Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.7609088Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verify release calendar	UNKNOWN STEP	2026-10-12T06:19:38.8012372Z Cleaning up orphan processes

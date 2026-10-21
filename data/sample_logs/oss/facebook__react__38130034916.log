@@ -1,0 +1,400 @@
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:17.9493944Z [command]/usr/bin/git config --local gc.auto 0
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:17.9519186Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:17.9519824Z ##[group]Setting up auth
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:17.9523606Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:17.9548730Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:17.9838070Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:17.9863952Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:18.0044930Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:18.0070514Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:18.0251848Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:18.0281712Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:18.0282439Z ##[group]Fetching the repository
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:18.0290076Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin 71893c7db037bc3203d9232578bd8941a59ec8b1
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5773336Z From https://github.com/react/react
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5775425Z  * branch            71893c7db037bc3203d9232578bd8941a59ec8b1 -> FETCH_HEAD
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5780381Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5781732Z ##[group]Determining the checkout info
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5783012Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5783827Z [command]/usr/bin/git sparse-checkout disable
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5830046Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5889890Z ##[group]Checking out the ref
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.5891007Z [command]/usr/bin/git checkout --progress --force 71893c7db037bc3203d9232578bd8941a59ec8b1
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8804838Z Note: switching to '71893c7db037bc3203d9232578bd8941a59ec8b1'.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8808388Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8808719Z You are in 'detached HEAD' state. You can look around, make experimental
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8809410Z changes and commit them, and you can discard any commits you make in this
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8810080Z state without impacting any branches by switching back to a branch.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8810469Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8810816Z If you want to create a new branch to retain commits you create, you may
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8811694Z do so (now or later) by using -c with the switch command. Example:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8811920Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8812040Z   git switch -c <new-branch-name>
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8812206Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8812340Z Or undo this operation with:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8812564Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8812686Z   git switch -
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8812840Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8813047Z Turn off this advice by setting config variable advice.detachedHead to false
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8813329Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8813494Z HEAD is now at 71893c7 Reuse finalized Result models across consumers
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8820433Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8857006Z [command]/usr/bin/git log -1 --format=%H
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.8876906Z 71893c7db037bc3203d9232578bd8941a59ec8b1
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9147161Z ##[group]Run actions/setup-node@v4
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9147664Z with:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9147887Z   node-version-file: .nvmrc
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9148138Z   always-auth: false
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9148358Z   check-latest: false
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9150480Z   token: ***
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9150682Z env:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9150911Z   TZ: /usr/share/zoneinfo/America/Los_Angeles
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9151193Z   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:19.9151439Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:20.0193217Z Node version file is not JSON file
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:20.0193815Z Resolved .nvmrc as 20.19.0
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:20.0203680Z Attempting to download 20.19.0...
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:20.0284135Z (node:2076) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:21.0310991Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:21.0354107Z Acquiring 20.19.0 - x64 from https://github.com/actions/node-versions/releases/download/20.19.0-13838090974/node-20.19.0-linux-x64.tar.gz
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:21.5635691Z Extracting ...
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:21.5728403Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/188623c0-f087-4749-aa0e-af919ba4fed0 -f /home/runner/work/_temp/217a38d2-0751-4692-a4ce-87a84cf6a45d
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:22.4236802Z Adding to the cache ...
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.1548838Z ##[group]Environment details
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3251208Z node: v20.19.0
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3251604Z npm: 10.8.2
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3251824Z yarn: 1.22.22
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3252434Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3858589Z ##[group]Run actions/cache/restore@v4
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3858850Z with:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3859031Z   path: **/node_modules
+Flow check dom-legacy	UNKNOWN STEP	
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3859417Z   key: runtime-node_modules-v10-X64-Linux-d386d30d7052a93adce1d5589ab2b33a4d45c62859c6552ab6cfccfb4bf629e2
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3859832Z   enableCrossOsArchive: false
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3860054Z   fail-on-cache-miss: false
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3860241Z   lookup-only: false
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3860413Z env:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3860594Z   TZ: /usr/share/zoneinfo/America/Los_Angeles
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3860851Z   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.3861054Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.4700960Z (node:2124) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.4702089Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.6721044Z Cache hit for: runtime-node_modules-v10-X64-Linux-d386d30d7052a93adce1d5589ab2b33a4d45c62859c6552ab6cfccfb4bf629e2
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:24.6815275Z (node:2124) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:25.8846885Z Received 50331648 of 369620388 (13.6%), 48.0 MBs/sec
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:26.8907206Z Received 268435456 of 369620388 (72.6%), 127.6 MBs/sec
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:27.3110198Z Received 369620388 of 369620388 (100.0%), 145.3 MBs/sec
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:27.3111341Z Cache Size: ~352 MB (369620388 B)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:27.3165472Z [command]/usr/bin/tar -xf /home/runner/work/_temp/cd97b037-6b69-4775-8e3f-1de4d28c541a/cache.tzst -P -C /home/runner/work/react/react --use-compress-program unzstd
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.6802321Z Cache restored successfully
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8059323Z Cache restored from key: runtime-node_modules-v10-X64-Linux-d386d30d7052a93adce1d5589ab2b33a4d45c62859c6552ab6cfccfb4bf629e2
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8253036Z ##[group]Run rm -rf build
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8253393Z ^[[36;1mrm -rf build^[[0m
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8831682Z shell: /usr/bin/bash -e {0}
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8831904Z env:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8832116Z   TZ: /usr/share/zoneinfo/America/Los_Angeles
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8832375Z   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.8832585Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9436717Z ##[group]Run node ./scripts/tasks/flow-ci dom-legacy
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9437185Z ^[[36;1mnode ./scripts/tasks/flow-ci dom-legacy^[[0m
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9495456Z shell: /usr/bin/bash -e {0}
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9495659Z env:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9495855Z   TZ: /usr/share/zoneinfo/America/Los_Angeles
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9496103Z   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9496310Z ##[endgroup]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9850429Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-browser/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9856293Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-node/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9859345Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-node-webpack/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9862486Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-node-turbopack/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9865127Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-node-parcel/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9873651Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-node-unbundled/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9876322Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-bun/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9879154Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-browser-esm/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9882529Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-browser-fb/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9885757Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-browser-turbopack/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9888096Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-browser-parcel/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9890428Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-edge-webpack/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9892628Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-edge-turbopack/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9894867Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-edge-parcel/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9898029Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-node-esm/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9900314Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-node-fb/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9904772Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-legacy/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9907705Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/markup/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9910635Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/dom-fb/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9913794Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/fabric/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9916976Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/test/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9920084Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/noop/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9922533Z Wrote a Flow config to /home/runner/work/react/react/scripts/flow/custom/.flowconfig
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:32.9939089Z Running Flow on the dom-legacy renderer...
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:33.1187917Z Launching Flow server for /home/runner/work/react/react
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:33.3545112Z Spawned flow server (pid=2172)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:33.3545703Z Logs will go to /tmp/flow/zShomezSrunnerzSworkzSreactzSreact.log
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:33.3546640Z Monitor logs will go to /tmp/flow/zShomezSrunnerzSworkzSreactzSreact.monitor_log
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:33.4599118Z Started a new flow server: -Please wait. Server is starting up Flow server
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:33.5639066Z Please wait. Server is initializing (parsed files 0)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:34.0638375Z Please wait. Server is initializing (parsed files 0)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:34.5640266Z Please wait. Server is initializing (parsed files 1000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:34.6128272Z Please wait. Server is initializing (parsed files 1000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:35.1131439Z Please wait. Server is initializing (parsed files 3000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:35.6131041Z Please wait. Server is initializing (parsed files 4000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:36.1134469Z Please wait. Server is initializing (parsed files 5000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:36.6158160Z Please wait. Server is initializing (parsed files 7000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:37.1142308Z Please wait. Server is initializing (parsed files 8000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:37.6144953Z Please wait. Server is initializing (parsed files 9000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:38.1149994Z Please wait. Server is initializing (parsed files 10000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:38.6150543Z Please wait. Server is initializing (parsed files 12000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:39.1153385Z Please wait. Server is initializing (parsed files 13000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:39.6153394Z Please wait. Server is initializing (parsed files 14000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:40.1156795Z Please wait. Server is initializing (parsed files 15000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:40.6156923Z Please wait. Server is initializing (parsed files 16000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:41.1158135Z Please wait. Server is initializing (parsed files 17000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:41.6158740Z Please wait. Server is initializing (parsed files 18000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:42.1183335Z Please wait. Server is initializing (parsed files 19000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:42.6162314Z Please wait. Server is initializing (parsed files 20000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:43.1164669Z Please wait. Server is initializing (parsed files 22000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:43.6165673Z Please wait. Server is initializing (parsed files 23000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:44.1169552Z Please wait. Server is initializing (parsed files 24000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:44.6169950Z Please wait. Server is initializing (parsed files 26000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:45.1174336Z Please wait. Server is initializing (parsed files 27000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:45.6174775Z Please wait. Server is initializing (parsed files 29000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:46.1177595Z Please wait. Server is initializing (parsed files 30000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:46.6178177Z Please wait. Server is initializing (parsed files 31000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:47.1181624Z Please wait. Server is initializing (parsed files 32000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:47.6182276Z Please wait. Server is initializing (parsed files 34000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:48.1186807Z Please wait. Server is initializing (parsed files 35000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:48.6191735Z Please wait. Server is initializing (parsed files 37000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:49.1191368Z Please wait. Server is initializing (parsed files 38000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:49.6192201Z Please wait. Server is initializing (parsed files 39000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:50.1193342Z Please wait. Server is initializing (parsed files 41000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:50.6208852Z Please wait. Server is initializing (parsed files 43000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:51.1195940Z Please wait. Server is initializing (parsed files 44000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:51.6195995Z Please wait. Server is initializing (parsed files 46000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:52.1199836Z Please wait. Server is initializing (parsed files 47000)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:52.6200255Z Please wait. Server is initializing (parsed files 48795)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:53.1206069Z Please wait. Server is initializing (parsed files 48795)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:53.6206662Z Please wait. Server is initializing (parsed files 48795)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.1212432Z Please wait. Server is initializing (parsed files 48795)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.3332097Z Please wait. Server is initializing (loading libraries)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.4027401Z Please wait. Server is initializing (resolving dependencies)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.6596451Z Please wait. Server is initializing (indexing files 0/863 (0.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.6759694Z Please wait. Server is initializing (indexing files (post-process))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.6843664Z Please wait. Server is initializing (post-Indexing work)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.6906437Z Please wait. Server is initializing (parsed files 0/0 (0.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.6909624Z Please wait. Server is initializing (calculating dependencies)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:54.6923082Z Please wait. Server is initializing (merged module interfaces 0/387 (0.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:55.1931580Z Please wait. Server is initializing (merged module interfaces 387/387 (100.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:55.6932253Z Please wait. Server is initializing (merged module interfaces 387/387 (100.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:56.1938378Z Please wait. Server is initializing (merged module interfaces 387/387 (100.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:56.6939519Z Please wait. Server is initializing (merged module interfaces 387/387 (100.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:57.1831223Z Please wait. Server is initializing (checked files 55/387 (14.2%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:57.6832144Z Please wait. Server is initializing (checked files 246/387 (63.6%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:58.1837411Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:58.6838993Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:59.1844482Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:55:59.6845857Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:00.1850968Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:00.6852193Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:01.1857610Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:01.6858852Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:02.1864902Z Please wait. Server is initializing (checked files 249/387 (64.3%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:02.6865595Z Please wait. Server is initializing (checked files 266/387 (68.7%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:03.1868814Z Please wait. Server is initializing (checked files 288/387 (74.4%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:03.6870500Z Please wait. Server is initializing (checked files 288/387 (74.4%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:04.1875401Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:04.6876202Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:05.1882605Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:05.6882849Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:06.1888856Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:06.6890517Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:07.1895490Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:07.6897373Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:08.1900686Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:08.6902322Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:09.1907881Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:09.6909824Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:10.1914725Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:10.6916306Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:11.1921556Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:11.6923002Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:12.1928498Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:12.6929951Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:13.1935705Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:13.6937101Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:14.1942351Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:14.6944352Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:15.1949439Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:15.6950795Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:16.1956709Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:16.6957862Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:17.1963331Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:17.6964580Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:18.1970149Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:18.6972457Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:19.1977543Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:19.6979000Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:20.1984376Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:20.6986068Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:21.1991271Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:21.6992691Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:22.1998197Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:22.6999795Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:23.2004912Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:23.7006119Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:24.2011587Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:24.7013506Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:25.2019020Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:25.7019868Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:26.2025768Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:26.7027199Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:27.2032897Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:27.7034330Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:28.2039546Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:28.7041028Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:29.2046390Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:29.7048184Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:30.2053508Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:30.7054862Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:31.2060189Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:31.7062036Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:32.2067369Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:32.7069027Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:33.2074175Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:33.7075865Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:34.2081297Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:34.7082876Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:35.2088410Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:35.7090027Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:36.2094997Z Please wait. Server is initializing (checked files 290/387 (74.9%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:36.7096262Z Please wait. Server is initializing (checked files 319/387 (82.4%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:37.2102536Z Please wait. Server is initializing (checked files 319/387 (82.4%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:37.7103303Z Please wait. Server is initializing (checked files 360/387 (93.0%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:38.2103666Z Please wait. Server is initializing (checked files 367/387 (94.8%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:38.7105592Z Please wait. Server is initializing (checked files 380/387 (98.2%))
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0699790Z Please wait. Server is initializing (collating errors)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0773537Z Error ------------------------------------------ packages/react-server/src/ReactFlightResultSerializationServer.js:52:14
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0774092Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0774639Z Cannot import `HintCode` because there is no `HintCode` export in `./ReactFlightResultServerConfig`. [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0775133Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0775444Z    52| import type {HintCode, HintModel} from './ReactFlightResultServerConfig';
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0775900Z                     ^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0776072Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0776079Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0776656Z Error ------------------------------------------ packages/react-server/src/ReactFlightResultSerializationServer.js:52:24
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0777123Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0777802Z Cannot import `HintModel` because there is no `HintModel` export in `./ReactFlightResultServerConfig`. [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0778295Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0778590Z    52| import type {HintCode, HintModel} from './ReactFlightResultServerConfig';
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0779054Z                               ^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0779254Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0779260Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0779759Z Error -------------------------------------------------------- packages/react-server/src/ReactFlightResultServer.js:54:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0780206Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0780730Z Cannot import `Hints` because there is no `Hints` export in `./ReactFlightResultServerConfig`. [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0781165Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0781264Z    54|   Hints,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0781480Z          ^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0781616Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0781622Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0782112Z Error -------------------------------------------------------- packages/react-server/src/ReactFlightResultServer.js:55:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0782562Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0783081Z Cannot import `HintCode` because there is no `HintCode` export in `./ReactFlightResultServerConfig`. [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0783553Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0783652Z    55|   HintCode,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0783872Z          ^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0784004Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0784009Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0784493Z Error -------------------------------------------------------- packages/react-server/src/ReactFlightResultServer.js:56:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0785107Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0785884Z Cannot import `HintModel` because there is no `HintModel` export in `./ReactFlightResultServerConfig`. [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0786434Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0786682Z    56|   HintModel,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0786954Z          ^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0787079Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0787091Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0787739Z Error -------------------------------------------------------- packages/react-server/src/ReactFlightResultServer.js:57:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0788461Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0788968Z Cannot import `FormatContext` because there is no `FormatContext` export in `./ReactFlightResultServerConfig`.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0789538Z [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0789679Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0789776Z    57|   FormatContext,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0790018Z          ^^^^^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0790151Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0790156Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0790650Z Error ------------------------------------------------------- packages/react-server/src/ReactFlightResultServer.js:153:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0791091Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0791558Z Cannot import `createHints` because there is no `createHints` export in `./ReactFlightResultServerConfig`.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0792256Z [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0792387Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0792657Z    153|   createHints,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0792891Z           ^^^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0793031Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0793036Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0793519Z Error ------------------------------------------------------- packages/react-server/src/ReactFlightResultServer.js:154:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0793969Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0794397Z Cannot import `createRootFormatContext` because there is no `createRootFormatContext` export in
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0795086Z `./ReactFlightResultServerConfig`. [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0795336Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0795482Z    154|   createRootFormatContext,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0795782Z           ^^^^^^^^^^^^^^^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0795956Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0795961Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0796451Z Error ------------------------------------------------------- packages/react-server/src/ReactFlightResultServer.js:155:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0796887Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0797426Z Cannot import `getChildFormatContext` because there is no `getChildFormatContext` export in
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0798136Z `./ReactFlightResultServerConfig`. [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0798390Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0798524Z    155|   getChildFormatContext,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0798816Z           ^^^^^^^^^^^^^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0798984Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0798990Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0799518Z Error --------------------------------------- packages/react-server/src/forks/ReactFlightResultServerConfig.dom.js:10:15
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0799992Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0800527Z Cannot resolve module `react-dom-bindings/src/server/ReactFlightResultServerConfigDOM`. [cannot-resolve-module]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0801033Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0801347Z    10| export * from 'react-dom-bindings/src/server/ReactFlightResultServerConfigDOM';
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0801916Z                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0802162Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0802220Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0802689Z Error ------------------------------------------------------------------------ packages/shared/ReactFlightResult.js:22:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0803108Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0803656Z Cannot import `HintCode` because there is no `HintCode` export in `react-server/src/ReactFlightResultServerConfig`.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0804270Z [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0804411Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0804500Z    22|   HintCode,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0804746Z          ^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0804914Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0804919Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0805393Z Error ------------------------------------------------------------------------ packages/shared/ReactFlightResult.js:23:3
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0805812Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0806338Z Cannot import `HintModel` because there is no `HintModel` export in `react-server/src/ReactFlightResultServerConfig`.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0806912Z [missing-export]
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0807054Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0807144Z    23|   HintModel,
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0807532Z          ^^^^^^^^^
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0807660Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0807666Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0807671Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0807772Z Found 12 errors
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0824770Z Flow failed for the dom-legacy renderer
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0825322Z 
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0862562Z ##[error]Process completed with exit code 2.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.0963828Z Post job cleanup.
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1652364Z [command]/usr/bin/git version
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1685998Z git version 2.55.0
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1712359Z Temporarily overriding HOME='/home/runner/work/_temp/dcdf43e8-ffac-452d-89ee-e292dc0f5403' before making global git config changes
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1713086Z Adding repository directory to the temporary git global config as a safe directory
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1716227Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/react/react
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1743885Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1769479Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1963750Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1988591Z http.https://github.com/.extraheader
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.1996309Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2022344Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2211171Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2236290Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2552965Z Cleaning up orphan processes
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2832622Z Terminate orphan process: pid (2172) (flow)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2849710Z Terminate orphan process: pid (2177) (flow)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2872585Z Terminate orphan process: pid (2178) (flow)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2895237Z Terminate orphan process: pid (2179) (flow)
+Flow check dom-legacy	UNKNOWN STEP	2026-10-11T09:56:39.2919412Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache/restore@v4, actions/checkout@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

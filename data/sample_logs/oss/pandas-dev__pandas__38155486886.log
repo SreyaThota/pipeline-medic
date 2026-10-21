@@ -1,0 +1,400 @@
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8090655Z requests                          2.34.2        pyhcf101f3_0           67.10 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8091435Z requests-oauthlib                 2.0.0         pyhd8ed1ab_1           25.27 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8092251Z rich                              13.9.4        pyhd8ed1ab_1          181.29 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8093096Z rsa                               4.9.1         pyhd8ed1ab_0           30.97 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8093937Z ruamel.yaml                       0.19.1        pyhcf101f3_0           96.14 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8094741Z ruamel.yaml.clib                  0.2.15        py311h194be0f_5       156.23 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8095518Z s2n                               1.5.23        h8e187f5_0            374.12 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8096315Z ^[[32m^[[1ms3fs^[[0m                              2025.7.0      pyhd8ed1ab_0           32.67 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8097153Z s3transfer                        0.14.0        pyhd8ed1ab_0           64.44 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8098005Z ^[[32m^[[1mscipy^[[0m                             1.16.1        py311h1e13796_1        16.47 MiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8098818Z setuptools                        84.0.0        pyh332efcf_0          512.20 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8099597Z sip                               6.10.0        py311h1ddb823_1       674.85 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8100500Z six                               1.17.0        pyhe01879c_1           18.02 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8101273Z snappy                            1.2.2         h34e00bb_2             44.62 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8102081Z sortedcontainers                  2.4.0         pyhd8ed1ab_1           27.99 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8102993Z soupsieve                         3.0           pyhd8ed1ab_0           41.93 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8103956Z ^[[32m^[[1msqlalchemy^[[0m                        2.0.42        py311h49ec1c0_0         3.47 MiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8104789Z stack_data                        0.6.3         pyhd8ed1ab_1           26.36 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8105550Z strictyaml                        1.7.3         pyhd8ed1ab_1           95.59 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8106359Z sysroot_linux-64                  2.28          h4ee821c_9             22.90 MiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8107214Z ^[[32m^[[1mtabulate^[[0m                          0.9.0         pyhcf101f3_3           39.37 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8108022Z tenacity                          9.2.1         pyh5ded981_0           33.88 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8108819Z tk                                8.6.13        noxft_h1df4ec4_4        3.40 MiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8109600Z toml                              0.10.2        pyhcf101f3_3           23.45 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8110527Z tomli                             2.5.0         pyh5ded981_0           21.18 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8111280Z tornado                           6.5.10        py311h0d48ccd_0       895.75 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8112054Z traitlets                         5.16.1        pyhcf101f3_0          114.19 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8112858Z typing-extensions                 4.16.0        h69aa097_0             91.88 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8113690Z typing-inspection                 0.4.4         pyhcf101f3_0           20.58 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8114485Z typing_extensions                 4.16.0        pyhcf101f3_0           51.40 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8115241Z tzdata                            2026c         h151e31d_0            116.06 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8116035Z unicodedata2                      18.0.0        py311h0d48ccd_0       411.48 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8116845Z urllib3                           2.5.0         pyhd8ed1ab_0           99.35 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8117633Z ^[[32m^[[1mversioneer^[[0m                        0.29          pyhd8ed1ab_0           47.01 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8118415Z wayland                           1.26.0        hc1c935e_2            332.09 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8119162Z wcwidth                           0.9.2         py311hd139983_0       359.81 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8119984Z webencodings                      0.5.1         pyhd8ed1ab_3           15.13 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8120818Z werkzeug                          3.1.9         pyh5ded981_0          254.17 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8121562Z wheel                             0.48.0        pyhd8ed1ab_0           33.72 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8122382Z wrapt                             1.17.3        py311h49ec1c0_1        63.93 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8123238Z ^[[32m^[[1mxarray^[[0m                            2025.7.1      pyhd8ed1ab_0          862.36 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8124057Z xcb-util                          0.4.1         h4f16b4b_2             20.29 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8124799Z xcb-util-cursor                   0.1.6         hb03c661_0             20.34 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8125560Z xcb-util-image                    0.4.0         hb711507_2             23.98 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8126362Z xcb-util-keysyms                  0.4.1         hb711507_0             13.98 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8127151Z xcb-util-renderutil               0.3.10        hb711507_0             16.58 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8127949Z xcb-util-wm                       0.4.2         hb711507_0             50.48 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8128709Z xkeyboard-config                  2.48          h280c20c_0            431.32 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8129494Z ^[[32m^[[1mxlrd^[[0m                              2.0.2         pyhd8ed1ab_0           91.48 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8130433Z ^[[32m^[[1mxlsxwriter^[[0m                        3.2.5         pyhd8ed1ab_0          128.82 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8131262Z xorg-libice                       1.1.2         h280c20c_0             61.05 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8132059Z xorg-libsm                        1.2.6         h0d788c3_1             30.02 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8132835Z xorg-libx11                       1.8.13        he1eb515_1            819.90 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8133655Z xorg-libxau                       1.0.12        h7cc23a3_2             18.35 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8134434Z xorg-libxcomposite                0.4.7         hb03c661_0             14.08 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8135237Z xorg-libxcursor                   1.2.3         hb9d3cd8_0             31.77 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8136041Z xorg-libxdamage                   1.1.6         hb9d3cd8_0             12.91 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8136855Z xorg-libxdmcp                     1.1.5         h7cc23a3_2             22.08 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8137648Z xorg-libxext                      1.3.7         h7cc23a3_1             51.88 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8138425Z xorg-libxfixes                    6.0.2         h7cc23a3_1             20.94 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8139200Z xorg-libxi                        1.8.3         h7cc23a3_1             48.01 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8140025Z xorg-libxrandr                    1.5.5         h7cc23a3_1             30.38 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8140892Z xorg-libxrender                   0.9.12        hb03c661_1             33.83 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8141692Z xorg-libxtst                      1.2.5         h7cc23a3_4             34.23 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8142598Z xorg-libxxf86vm                   1.1.7         hb03c661_0             18.26 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8143396Z xz                                5.8.3         ha02ee65_1             23.06 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8144163Z xz-gpl-tools                      5.8.3         ha02ee65_1             39.18 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8144930Z xz-tools                          5.8.3         hb03c661_1             94.20 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8145709Z yarl                              1.25.1        py311h92159aa_0       181.97 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8146525Z zipp                              4.1.1         pyh5ded981_0           24.26 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8147278Z zlib                              1.3.2         h25fd6f3_3             93.88 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8148037Z zlib-ng                           2.3.3         hce19668_1            121.05 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8148841Z ^[[32m^[[1mzstandard^[[0m                         0.23.0        py311h49ec1c0_3       475.67 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8149702Z zstd                              1.5.7         hb78ec9c_7            587.21 KiB  ^[[32mconda^[[0m  https://conda.anaconda.org/conda-forge
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8150702Z ##[endgroup]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8165654Z ##[end-action id=__self.__prefix-dev_setup-pixi;outcome=success;conclusion=success;duration_ms=18245]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8170562Z ##[start-action display=Install minimum-versions;id=__self.__prefix-dev_setup-pixi_2]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8176780Z ##[end-action id=__self.__prefix-dev_setup-pixi_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8179464Z ##[start-action display=Install PyArrow Nightly;id=__self.__run]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:20.8184258Z ##[end-action id=__self.__run;outcome=skipped;conclusion=skipped;duration_ms=0]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.0148502Z ##[group]Run pixi run \
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.0149031Z ^[[36;1mpixi run \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.0149419Z ^[[36;1m  --environment minimum-versions \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.0149831Z ^[[36;1m  build-pandas \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.0150397Z ^[[36;1m  --editable \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.0150777Z ^[[36;1m  ^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.1315712Z shell: /usr/bin/bash -euox pipefail {0}
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.1316155Z env:
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.1316501Z   LANG: C.UTF-8
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.1316897Z   LC_ALL: 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.1317177Z ##[endgroup]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.2442239Z + pixi run --environment minimum-versions build-pandas --editable
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:21.6197816Z ✨ Pixi task (uninstall-pandas in minimum-versions): python -m pip uninstall -y pandas || true
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:24.3196437Z Found existing installation: pandas 2.3.3
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:24.3986059Z Uninstalling pandas-2.3.3:
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:24.4104669Z   Successfully uninstalled pandas-2.3.3
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:24.4772808Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:24.4775162Z ✨ Pixi task (build-pandas in minimum-versions): python -m pip install --verbose --editable . --no-build-isolation --no-deps --config-settings builddir=build/$PIXI_ENVIRONMENT_NAME 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:24.9336223Z Using pip 26.0 from /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/lib/python3.11/site-packages/pip (python 3.11)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:24.9994247Z Obtaining file:///home/runner/work/pandas/pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:25.0028605Z   Checking if build backend supports build_editable: started
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:25.0029666Z   Running command Checking if build backend supports build_editable
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:25.1559937Z   Checking if build backend supports build_editable: finished with status 'done'
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:25.1567757Z   Preparing editable metadata (pyproject.toml): started
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:25.1569021Z   Running command Preparing editable metadata (pyproject.toml)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:25.8904717Z   + meson setup /home/runner/work/pandas/pandas /home/runner/work/pandas/pandas/build/minimum-versions -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=/home/runner/work/pandas/pandas/build/minimum-versions/meson-python-native-file.ini
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1529208Z   The Meson build system
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1530111Z   Version: 1.2.3
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1530823Z   Source dir: /home/runner/work/pandas/pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1531676Z   Build dir: /home/runner/work/pandas/pandas/build/minimum-versions
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1532711Z   Build type: native build
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1534313Z   Program python found: YES
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1535282Z   Project name: pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1536680Z   Project version: 3.2.0.dev0+213.g5f3d49bde0
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1538258Z   C compiler for the host machine: x86_64-conda-linux-gnu-cc (gcc 16.2.0 "x86_64-conda-linux-gnu-cc (conda-forge gcc 16.2.0-7) 16.2.0")
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1539431Z   C linker for the host machine: x86_64-conda-linux-gnu-cc ld.bfd 2.46.1
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1540873Z   C++ compiler for the host machine: x86_64-conda-linux-gnu-c++ (gcc 16.2.0 "x86_64-conda-linux-gnu-c++ (conda-forge gcc 16.2.0-7) 16.2.0")
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1542064Z   C++ linker for the host machine: x86_64-conda-linux-gnu-c++ ld.bfd 2.46.1
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1542906Z   Cython compiler for the host machine: cython (cython 3.1.1)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1543981Z   Host machine cpu family: x86_64
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1545144Z   Host machine cpu: x86_64
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1546871Z   Program python found: YES (/home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/bin/python)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1547897Z   Compiler for C++ supports arguments -Wunused-template: NO
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1549104Z   Found pkg-config: /usr/bin/pkg-config (1.8.1)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1550079Z   Run-time dependency python found: YES 3.11
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1550962Z   Library m found: YES
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:29.1552814Z   Downloading fast_float source from https://github.com/fastfloat/fast_float/archive/refs/tags/v8.2.10.tar.gz
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1190488Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1193543Z   Executing subproject fast_float
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1194197Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1194479Z   fast_float| Project name: fast_float
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1195057Z   fast_float| Project version: 8.2.10
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1196369Z   fast_float| C++ compiler for the host machine: x86_64-conda-linux-gnu-c++ (gcc 16.2.0 "x86_64-conda-linux-gnu-c++ (conda-forge gcc 16.2.0-7) 16.2.0")
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1197646Z   fast_float| C++ linker for the host machine: x86_64-conda-linux-gnu-c++ ld.bfd 2.46.1
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1198452Z   fast_float| Build targets in project: 12
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1199350Z   fast_float| Subproject fast_float finished.
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1200126Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1202027Z   Found CMake: /usr/local/bin/cmake (3.31.6)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1203058Z   WARNING: CMake Toolchain: Failed to determine CMake compilers state
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1204157Z   Run-time dependency xsimd found: NO (tried pkgconfig and cmake)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1205250Z   Looking for a fallback subproject for the dependency xsimd
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.1206582Z   Downloading xsimd source from https://github.com/xtensor-stack/xsimd/archive/refs/tags/14.2.0.tar.gz
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4881726Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4891618Z   Executing subproject xsimd
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4892367Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4892572Z   xsimd| Project name: xsimd
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4893035Z   xsimd| Project version: 14.2.0
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4893802Z   xsimd| C++ compiler for the host machine: x86_64-conda-linux-gnu-c++ (gcc 16.2.0 "x86_64-conda-linux-gnu-c++ (conda-forge gcc 16.2.0-7) 16.2.0")
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4894737Z   xsimd| C++ linker for the host machine: x86_64-conda-linux-gnu-c++ ld.bfd 2.46.1
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4895305Z   xsimd| Build targets in project: 12
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4895756Z   xsimd| Subproject xsimd finished.
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4896296Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4896517Z   Dependency xsimd found: YES 14.2.0 (overridden)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4897150Z   Configuring pandas_simd_config.h using configuration
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4897750Z   Build targets in project: 58
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4898036Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4898478Z   pandas 3.2.0.dev0+213.g5f3d49bde0
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4898786Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4898974Z     Subprojects
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4900021Z       fast_float  : YES
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4901357Z       xsimd       : YES
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4902125Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4903462Z     User defined options
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4904989Z       Native files: /home/runner/work/pandas/pandas/build/minimum-versions/meson-python-native-file.ini
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4905788Z       buildtype   : release
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4906834Z       b_ndebug    : if-release
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4908015Z       b_vscrt     : md
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4908736Z 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.4910274Z   Found ninja-1.13.2 at /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/bin/ninja
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.5435740Z   + /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/bin/ninja
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.5931433Z   [1/156] Generating pandas/_libs/algos_common_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.5961761Z   [2/156] Generating pandas/_libs/index_class_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.6051477Z   [3/156] Generating pandas/_libs/algos_take_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.6481612Z   [4/156] Generating pandas/_libs/hashtable_func_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.6521634Z   [5/156] Generating pandas/_libs/sparse_op_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.6561481Z   [6/156] Generating pandas/_libs/khash_primitive_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.6621549Z   [7/156] Generating pandas/_libs/hashtable_class_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:31.6943781Z   [8/156] Generating pandas/_libs/intervaltree_helper_pxi with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:32.9801924Z   [9/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/base.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:33.2939616Z   [10/156] Generating _cyutility.c with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:33.4602150Z   [11/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/ccalendar.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:33.6341548Z   [12/156] Compiling C++ object pandas/_libs/simd/libmoments_sse2.a.p/moments_sse2.cpp.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:34.9181937Z   [13/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/fields.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:35.0381932Z   [14/156] Compiling C++ object pandas/_libs/libpandas_tokenizer.a.p/src_parser_tokenizer.cpp.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:35.3705181Z   [15/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/dtypes.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:35.5042178Z   [16/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/conversion.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:35.5502414Z   [17/156] Compiling C++ object pandas/_libs/libpandas_tokenizer.a.p/src_parser_fast_float_wrappers.cpp.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:36.1067873Z   [18/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/nattype.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:36.2342020Z   [19/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/np_datetime.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:37.7252070Z   [20/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/period.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:38.1681788Z   [21/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/parsing.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:38.4026292Z   [22/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/strptime.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:38.6061726Z   [23/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timestamps.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:39.5631934Z   [24/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/offsets.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:39.7052341Z   [25/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timezones.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:40.0721835Z   [26/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/vectorized.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:40.2351642Z   [27/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/tzconversion.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:40.6172093Z   [28/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslibs/timedeltas.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:40.8631609Z   [29/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/arrays.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:41.5061576Z   [30/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/hashing.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:41.5231660Z   [31/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/indexing.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:42.9010798Z   [32/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/internals.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:45.6941574Z   [33/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/index.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:49.1152713Z   [34/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/interval.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:50.3614379Z   [35/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/join.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:50.7766653Z   [36/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/missing.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:51.3741872Z   [37/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/groupby.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:51.6282155Z   [38/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/lib.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:52.0201971Z   [39/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/ops_dispatch.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:52.2151364Z   [40/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/hashtable.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:53.0758893Z   [41/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/ops.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:53.2581788Z   [42/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/properties.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:53.2892203Z   [43/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/sas.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:53.3471654Z   [44/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/reshape.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:54.4852216Z   [45/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/testing.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:54.5721634Z   [46/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/byteswap.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:55.8791826Z   [47/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/tslib.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:55.9991516Z   [48/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/writers.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:56.0178139Z   [49/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/parsers.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:56.0261620Z   [50/156] Linking static target pandas/_libs/simd/libmoments_sse2.a
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:56.0351535Z   [51/156] Linking static target pandas/_libs/libpandas_tokenizer.a
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:56.5746296Z   [52/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/sparse.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:56.9362088Z   [53/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/window/indexers.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:57.2711740Z   [54/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/algos.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:58.2457179Z   [55/156] Compiling C object pandas/_libs/tslibs/base.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_base.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:58.7389371Z   [56/156] Compiling Cython source /home/runner/work/pandas/pandas/pandas/_libs/window/aggregations.pyx
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:28:59.4218498Z   [57/156] Compiling C object pandas/_libs/tslibs/ccalendar.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_ccalendar.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:02.4302101Z   [58/156] Compiling C object _cyutility.cpython-311-x86_64-linux-gnu.so.p/meson-generated_..__cyutility.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:04.1072374Z   [59/156] Compiling C object pandas/_libs/tslibs/dtypes.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_dtypes.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:05.4782101Z   [60/156] Compiling C object pandas/_libs/tslibs/nattype.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_nattype.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:05.7080511Z   [61/156] Compiling C object pandas/_libs/tslibs/conversion.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_conversion.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:06.2650666Z   [62/156] Compiling C object pandas/_libs/tslibs/np_datetime.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_np_datetime.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:07.7441999Z   [63/156] Compiling C object pandas/_libs/tslibs/fields.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_fields.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:14.9532301Z   [64/156] Compiling C object pandas/_libs/tslibs/parsing.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_parsing.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:17.0832086Z   [65/156] Compiling C object pandas/_libs/tslibs/strptime.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_strptime.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:22.2861970Z   [66/156] Compiling C object pandas/_libs/tslibs/period.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_period.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:23.1802454Z   [67/156] Compiling C object pandas/_libs/tslibs/tzconversion.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_tzconversion.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:25.3182209Z   [68/156] Compiling C object pandas/_libs/tslibs/timezones.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_timezones.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:27.0862251Z   [69/156] Compiling C object pandas/_libs/tslibs/timestamps.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_timestamps.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:27.2977986Z   [70/156] Compiling C object pandas/_libs/tslibs/vectorized.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_vectorized.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:30.1245879Z   [71/156] Compiling C object pandas/_libs/arrays.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_arrays.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:30.5212469Z   [72/156] Compiling C object pandas/_libs/hashing.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_hashing.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:36.0015218Z   [73/156] Compiling C object pandas/_libs/tslibs/timedeltas.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_timedeltas.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:38.9321943Z   [74/156] Compiling C object pandas/_libs/indexing.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_indexing.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:45.5012253Z   [75/156] Compiling C object pandas/_libs/tslibs/offsets.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslibs_offsets.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:29:53.2449451Z   [76/156] Compiling C object pandas/_libs/internals.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_internals.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:02.5477224Z   [77/156] Compiling C object pandas/_libs/index.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_index.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:33.2895294Z   [78/156] Compiling C object pandas/_libs/lib.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_lib.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:42.5231840Z   [79/156] Compiling C object pandas/_libs/missing.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_missing.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:43.5002392Z   [80/156] Compiling C object pandas/_libs/pandas_datetime.cpython-311-x86_64-linux-gnu.so.p/src_vendored_numpy_datetime_np_datetime.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:44.1142076Z   [81/156] Compiling C object pandas/_libs/pandas_datetime.cpython-311-x86_64-linux-gnu.so.p/src_vendored_numpy_datetime_np_datetime_strings.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:44.4272223Z   [82/156] Compiling C object pandas/_libs/pandas_datetime.cpython-311-x86_64-linux-gnu.so.p/src_datetime_date_conversions.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:44.8316893Z   [83/156] Compiling C object pandas/_libs/pandas_datetime.cpython-311-x86_64-linux-gnu.so.p/src_datetime_pd_datetime.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:44.9921757Z   [84/156] Compiling C object pandas/_libs/pandas_parser.cpython-311-x86_64-linux-gnu.so.p/src_parser_io.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:45.0931947Z   [85/156] Compiling C object pandas/_libs/interval.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_interval.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:45.1681770Z   [86/156] Compiling C object pandas/_libs/pandas_parser.cpython-311-x86_64-linux-gnu.so.p/src_parser_pd_parser.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:45.4707388Z   [87/156] Compiling C object pandas/_libs/parsers.cpython-311-x86_64-linux-gnu.so.p/src_parser_io.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:46.0171904Z   [88/156] Compiling C object pandas/_libs/_ujson.cpython-311-x86_64-linux-gnu.so.p/src_vendored_ujson_python_ujson.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:47.7647192Z   [89/156] Compiling C object pandas/_libs/_ujson.cpython-311-x86_64-linux-gnu.so.p/src_vendored_ujson_python_objToJSON.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:48.1627402Z   [90/156] Compiling C object pandas/_libs/_ujson.cpython-311-x86_64-linux-gnu.so.p/src_vendored_ujson_python_JSONtoObj.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:48.6362117Z   [91/156] Compiling C object pandas/_libs/_ujson.cpython-311-x86_64-linux-gnu.so.p/src_vendored_ujson_lib_ultrajsonenc.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:48.9286622Z   [92/156] Compiling C object pandas/_libs/_ujson.cpython-311-x86_64-linux-gnu.so.p/src_vendored_ujson_lib_ultrajsondec.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:52.9199575Z   [93/156] Compiling C object pandas/_libs/join.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_join.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:53.6456796Z   [94/156] Compiling C object pandas/_libs/ops.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_ops.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:55.5212038Z   [95/156] Compiling C object pandas/_libs/ops_dispatch.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_ops_dispatch.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:30:55.6082019Z   [96/156] Compiling C object pandas/_libs/properties.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_properties.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:02.7574541Z   [97/156] Compiling C object pandas/_libs/sas.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_sas.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:03.1322026Z   [98/156] Compiling C object pandas/_libs/reshape.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_reshape.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:04.6507903Z   [99/156] Compiling C object pandas/_libs/byteswap.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_byteswap.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:13.1525367Z   [100/156] Compiling C object pandas/_libs/tslib.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_tslib.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:14.0032138Z   [101/156] Compiling C object pandas/_libs/groupby.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_groupby.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:14.1431951Z   [102/156] Compiling C object pandas/_libs/parsers.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_parsers.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:15.2182040Z   [103/156] Compiling C object pandas/_libs/algos.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_algos.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.2703709Z   [104/156] Compiling C object pandas/_libs/testing.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_testing.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.3192074Z   [105/156] Compiling C object pandas/_libs/window/indexers.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_window_indexers.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.3731801Z   [106/156] Linking target _cyutility.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.4961540Z   [107/156] Generating pandas/__init__.py with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.5021454Z   [108/156] Generating write_version_file with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.5351623Z   [109/156] Linking target pandas/_libs/tslibs/base.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.5521768Z   [110/156] Linking target pandas/_libs/tslibs/ccalendar.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.5821787Z   [111/156] Linking target pandas/_libs/tslibs/dtypes.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.6043529Z   [112/156] Linking target pandas/_libs/tslibs/conversion.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.6291655Z   [113/156] Linking target pandas/_libs/tslibs/fields.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.6551586Z   [114/156] Linking target pandas/_libs/tslibs/nattype.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.6761878Z   [115/156] Linking target pandas/_libs/tslibs/np_datetime.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.7550851Z   [116/156] Linking target pandas/_libs/tslibs/offsets.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.7641761Z   [117/156] Linking target pandas/_libs/tslibs/parsing.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.8099907Z   [118/156] Linking target pandas/_libs/tslibs/strptime.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.8118238Z   [119/156] Linking target pandas/_libs/tslibs/period.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.8441785Z   [120/156] Linking target pandas/_libs/tslibs/timedeltas.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.8741676Z   [121/156] Linking target pandas/_libs/tslibs/timezones.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.8792135Z   [122/156] Linking target pandas/_libs/tslibs/timestamps.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.9116592Z   [123/156] Linking target pandas/_libs/tslibs/tzconversion.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.9291925Z   [124/156] Linking target pandas/_libs/tslibs/vectorized.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.9792386Z   [125/156] Compiling C object pandas/_libs/writers.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_writers.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:18.9832100Z   [126/156] Linking target pandas/_libs/arrays.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.0301587Z   [127/156] Linking target pandas/_libs/hashing.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.0451529Z   [128/156] Linking target pandas/_libs/groupby.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.0752024Z   [129/156] Linking target pandas/_libs/algos.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.0931604Z   [130/156] Linking target pandas/_libs/indexing.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.1081533Z   [131/156] Linking target pandas/_libs/index.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.1351936Z   [132/156] Linking target pandas/_libs/internals.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.1471627Z   [133/156] Linking target pandas/_libs/join.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.1741648Z   [134/156] Linking target pandas/_libs/missing.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.2002306Z   [135/156] Linking target pandas/_libs/interval.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.2003488Z   [136/156] Linking target pandas/_libs/pandas_datetime.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.2621853Z   [137/156] Linking target pandas/_libs/lib.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.2961922Z   [138/156] Linking target pandas/_libs/parsers.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.2991978Z   [139/156] Linking target pandas/_libs/pandas_parser.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.3111439Z   [140/156] Linking target pandas/_libs/_ujson.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.3371630Z   [141/156] Linking target pandas/_libs/ops.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.3411616Z   [142/156] Linking target pandas/_libs/ops_dispatch.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.3551618Z   [143/156] Linking target pandas/_libs/properties.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.3761509Z   [144/156] Linking target pandas/_libs/reshape.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.3911646Z   [145/156] Linking target pandas/_libs/sas.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.3936674Z   [146/156] Linking target pandas/_libs/byteswap.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.4211686Z   [147/156] Linking target pandas/_libs/writers.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.4271490Z   [148/156] Linking target pandas/_libs/tslib.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.4391787Z   [149/156] Linking target pandas/_libs/testing.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:19.4522702Z   [150/156] Linking target pandas/_libs/window/indexers.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:25.1293600Z   [151/156] Compiling C++ object pandas/_libs/window/aggregations.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_window_aggregations.pyx.cpp.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:25.1871877Z   [152/156] Linking target pandas/_libs/window/aggregations.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:28.6201799Z   [153/156] Compiling C object pandas/_libs/sparse.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_sparse.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:28.6484441Z   [154/156] Linking target pandas/_libs/sparse.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.6680130Z   [155/156] Compiling C object pandas/_libs/hashtable.cpython-311-x86_64-linux-gnu.so.p/meson-generated_pandas__libs_hashtable.pyx.c.o
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.7130979Z   [156/156] Linking target pandas/_libs/hashtable.cpython-311-x86_64-linux-gnu.so
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.7687161Z   Preparing editable metadata (pyproject.toml): finished with status 'done'
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.7835001Z Building wheels for collected packages: pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.7841747Z   Building editable for pandas (pyproject.toml): started
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.7843327Z   Running command Building editable for pandas (pyproject.toml)
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.8755993Z   Building editable for pandas (pyproject.toml): finished with status 'done'
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.8762080Z   Created wheel for pandas: filename=pandas-3.2.0.dev0+213.g5f3d49bde0-cp311-cp311-linux_x86_64.whl size=44765 sha256=e47ac7ba8e17a0b51bd911db43e5d995ad42613ddf187c2604bd34da858a9635
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.8763727Z   Stored in directory: /tmp/pip-ephem-wheel-cache-ave65e7h/wheels/07/e3/30/56872b0417a5e198636b89877c939c289538b29ad167710e18
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.8815010Z Successfully built pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.8815926Z Installing collected packages: pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:44.9012600Z Successfully installed pandas-3.2.0.dev0+213.g5f3d49bde0
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0560548Z ##[group]Run pixi run \
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0560974Z ^[[36;1mpixi run \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0561402Z ^[[36;1m  --environment minimum-versions \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0561772Z ^[[36;1m  ci-check-import^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0602522Z shell: /usr/bin/bash -euox pipefail {0}
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0603020Z env:
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0603359Z   LANG: C.UTF-8
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0603645Z   LC_ALL: 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0603959Z ##[endgroup]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.0666194Z + pixi run --environment minimum-versions ci-check-import
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:45.4450071Z ✨ Pixi task (ci-check-import in minimum-versions): python -W error ci/import_pandas_check.py
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6458031Z Prepare all required actions
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6707237Z ##[group]Run ./.github/actions/run-tests
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6707535Z with:
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6707773Z   environment: minimum-versions
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6708037Z   numprocesses: auto
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6708356Z   pytest_marker_expression: not slow and not network and not single_cpu
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6708722Z   pytest_target: pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6708961Z   pandas_future: default
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6709190Z env:
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6709384Z   LANG: C.UTF-8
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6709590Z   LC_ALL: 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6709832Z   PANDAS_MOTO_URL: http://localhost:5000
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6710102Z ##[endgroup]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6714586Z ##[start-action display=Test;id=test-not-single-cpu.__run]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6734943Z ##[group]Run pixi run \
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6735229Z ^[[36;1mpixi run \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6735498Z ^[[36;1m  --environment minimum-versions \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6735977Z ^[[36;1m  ci-test-pandas \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6736276Z ^[[36;1m  '-m not slow and not network and not single_cpu' \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6736583Z ^[[36;1m  auto \^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6736789Z ^[[36;1m  pandas^[[0m
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6777244Z shell: /usr/bin/bash -euox pipefail {0}
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6777536Z env:
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6777747Z   LANG: C.UTF-8
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6778067Z   LC_ALL: 
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6778324Z   PANDAS_MOTO_URL: http://localhost:5000
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6778622Z   PANDAS_FUTURE: default
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6778967Z   MESONPY_EDITABLE_VERBOSE: 1
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6779313Z   PYTHONDEVMODE: 1
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6779560Z   PYTHONWARNDEFAULTENCODING: 1
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6779822Z   QT_QPA_PLATFORM: offscreen
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6780071Z ##[endgroup]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:46.6838852Z + pixi run --environment minimum-versions ci-test-pandas '-m not slow and not network and not single_cpu' auto pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:47.0605586Z ✨ Pixi task (ci-test-pandas in minimum-versions): python -m pytest -r fE "-m not slow and not network and not single_cpu" --numprocesses=auto --dist=worksteal --capture=no --cov=pandas --cov-report=xml --cov-append pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:47.5791279Z meson-python: building pandas: /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/bin/ninja
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:47.6531036Z [1/1] Generating write_version_file with a custom command
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.2530685Z /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/lib/python3.11/platform.py:766: EncodingWarning: 'encoding' argument not specified.
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.2532091Z   return subprocess.check_output(
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.2986025Z /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/lib/python3.11/platform.py:766: EncodingWarning: 'encoding' argument not specified.
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.3011115Z   return subprocess.check_output(
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.3041722Z /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/lib/python3.11/platform.py:766: EncodingWarning: 'encoding' argument not specified.
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.3100899Z   return subprocess.check_output(
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.4301842Z /home/runner/work/pandas/pandas/.pixi/envs/minimum-versions/lib/python3.11/platform.py:766: EncodingWarning: 'encoding' argument not specified.
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:31:52.4351200Z   return subprocess.check_output(
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9036524Z ============================= test session starts ==============================
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9061282Z platform linux -- Python 3.11.1, pytest-8.3.4, pluggy-1.6.0
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9091033Z PySide6 6.9.0 -- Qt runtime 6.9.0 -- Qt compiled 6.9.0
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9116395Z rootdir: /home/runner/work/pandas/pandas
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9140957Z configfile: pyproject.toml
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9141511Z plugins: xdist-3.6.1, qt-4.4.0, cov-7.0.0, localserver-0.0.0
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9142016Z created: 4/4 workers
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9142359Z 4 workers [253595 items]
+Minimum Versions	UNKNOWN STEP	2026-10-11T16:33:27.9142590Z 

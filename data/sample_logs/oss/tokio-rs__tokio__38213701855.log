@@ -1,0 +1,400 @@
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8183264Z ^[[36;1m  echo "$CARGO_HOME/bin" >> $GITHUB_PATH^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8183550Z ^[[36;1mfi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8235635Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8235857Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8236011Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8236165Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8236321Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8236490Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8236660Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8237000Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8237200Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8237388Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8237540Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8237681Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8237834Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8238045Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8238222Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8534799Z ##[end-action id=__dtolnay_rust-toolchain.__run_2;outcome=success;conclusion=success;duration_ms=50]
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8537401Z ##[start-action display=Install rustup if needed on windows;id=__dtolnay_rust-toolchain.__run_3]
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8544522Z ##[end-action id=__dtolnay_rust-toolchain.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8549443Z ##[start-action display=rustup toolchain install stable;id=__dtolnay_rust-toolchain.__run_4]
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8704431Z ##[group]Run set -f  # split targets and components on commas and whitespace, without glob expansion
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8704862Z ^[[36;1mset -f  # split targets and components on commas and whitespace, without glob expansion^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8705125Z ^[[36;1mflags=()^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8705308Z ^[[36;1mfor t in ${targets//,/ }; do flags+=(--target "$t"); done^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8705560Z ^[[36;1mfor c in ${components//,/ }; do flags+=(--component "$c"); done^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8705873Z ^[[36;1mif [[ $toolchain == nightly && -n $components ]]; then flags+=(--allow-downgrade); fi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8706128Z ^[[36;1mlog=$(mktemp)^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8706287Z ^[[36;1mtrap 'rm -f "$log"' EXIT^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8706457Z ^[[36;1mfor attempt in 1 2 3 4 5; do^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8706908Z ^[[36;1m  if rustup toolchain install "$toolchain" "${flags[@]}" --profile minimal --no-self-update --force-non-host 2>&1 | tee "$log"; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8707415Z ^[[36;1m    break^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8707556Z ^[[36;1m  else^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8707694Z ^[[36;1m    status=$?^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8707842Z ^[[36;1m  fi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8708033Z ^[[36;1m  if [[ $attempt == 5 ]] || ! grep -Fq 'checksum failed for ' "$log" \^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8708362Z ^[[36;1m      || ! grep -Fq 'this is likely due to an ongoing update of the official release server' "$log"; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8708639Z ^[[36;1m    exit "$status"^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8708797Z ^[[36;1m  fi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8709018Z ^[[36;1m  echo "Retrying rustup toolchain install in 30 seconds (retry $attempt of 4)" >&2^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8709269Z ^[[36;1m  sleep 30^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8709408Z ^[[36;1mdone^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8758869Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8759079Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8759223Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8759373Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8759528Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8759705Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8759864Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8760039Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8760233Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8760417Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8760565Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8760703Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8760853Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8761144Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8761310Z   toolchain: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8761451Z   targets: 
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8761591Z   components: rustfmt
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8761745Z   RUSTUP_PERMIT_COPY_RENAME: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:49.8761907Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.0571516Z info: syncing channel updates for stable-x86_64-unknown-linux-gnu
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.6107174Z info: latest update on 2026-10-01 for version 1.99.0 (b940084d7 2026-09-28)
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.6206741Z info: component rustfmt is up to date
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.6215756Z 
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.6283213Z   stable-x86_64-unknown-linux-gnu unchanged - rustc 1.99.0 (b940084d7 2026-09-28)
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.6283568Z 
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7330104Z ##[end-action id=__dtolnay_rust-toolchain.__run_4;outcome=success;conclusion=success;duration_ms=877]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7335453Z ##[start-action display=rustup default stable;id=__dtolnay_rust-toolchain.__run_5]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7350179Z ##[group]Run rustup default "$toolchain" --force-non-host
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7350424Z ^[[36;1mrustup default "$toolchain" --force-non-host^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7399610Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7399797Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7399913Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7400048Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7400180Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7400344Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7400477Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7400647Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7400813Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7400968Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7401092Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7401208Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7401333Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7401484Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7401621Z   toolchain: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7401746Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7503586Z info: using existing install for stable-x86_64-unknown-linux-gnu
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7743125Z info: default toolchain set to stable-x86_64-unknown-linux-gnu
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7743319Z 
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7813156Z   stable-x86_64-unknown-linux-gnu unchanged - rustc 1.99.0 (b940084d7 2026-09-28)
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7813421Z 
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7833259Z ##[end-action id=__dtolnay_rust-toolchain.__run_5;outcome=success;conclusion=success;duration_ms=49]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7836847Z ##[start-action display=Create cachekey;id=__dtolnay_rust-toolchain.rustc-version]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7851111Z ##[group]Run DATE=$(rustc +"$toolchain" --version --verbose | sed -ne 's/^commit-date: \(20[0-9][0-9]\)-\([01][0-9]\)-\([0-3][0-9]\)$/\1\2\3/p')
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7851642Z ^[[36;1mDATE=$(rustc +"$toolchain" --version --verbose | sed -ne 's/^commit-date: \(20[0-9][0-9]\)-\([01][0-9]\)-\([0-3][0-9]\)$/\1\2\3/p')^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7852000Z ^[[36;1mHASH=$(rustc +"$toolchain" --version --verbose | sed -ne 's/^commit-hash: //p')^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7852291Z ^[[36;1mecho "cachekey=$(echo $DATE$HASH | head -c12)" >> $GITHUB_OUTPUT^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7901540Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7901727Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7901848Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7901977Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7902106Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7902247Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7902389Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7902543Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7902711Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7902867Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7903012Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7903129Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7903254Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7903409Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7903681Z   toolchain: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.7903802Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8214991Z ##[end-action id=__dtolnay_rust-toolchain.rustc-version;outcome=success;conclusion=success;duration_ms=37]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8217216Z ##[start-action display=Disable incremental compilation;id=__dtolnay_rust-toolchain.__run_6]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8232294Z ##[group]Run if [ -z "${CARGO_INCREMENTAL+set}" ]; then
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8232514Z ^[[36;1mif [ -z "${CARGO_INCREMENTAL+set}" ]; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8232717Z ^[[36;1m  echo CARGO_INCREMENTAL=0 >> $GITHUB_ENV^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8232877Z ^[[36;1mfi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8282513Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8282707Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8282827Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8282959Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8283088Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8283227Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8283362Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8283523Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8283692Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8283855Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8283979Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8284095Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8284219Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8284373Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8284512Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8353367Z ##[end-action id=__dtolnay_rust-toolchain.__run_6;outcome=success;conclusion=success;duration_ms=13]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8354922Z ##[start-action display=Enable colors in Cargo output;id=__dtolnay_rust-toolchain.__run_7]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8368788Z ##[group]Run if [ -z "${CARGO_TERM_COLOR+set}" ]; then
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8369033Z ^[[36;1mif [ -z "${CARGO_TERM_COLOR+set}" ]; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8369219Z ^[[36;1m  echo CARGO_TERM_COLOR=always >> $GITHUB_ENV^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8369383Z ^[[36;1mfi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8414552Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8414740Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8414885Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8415015Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8415143Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8415284Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8415419Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8415574Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8415739Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8416021Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8416145Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8416260Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8416386Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8416539Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8416827Z   CARGO_INCREMENTAL: 0
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8416953Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8483096Z ##[end-action id=__dtolnay_rust-toolchain.__run_7;outcome=success;conclusion=success;duration_ms=12]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8485786Z ##[start-action display=Enable Cargo sparse registry;id=__dtolnay_rust-toolchain.__run_8]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8500680Z ##[group]Run # implemented in 1.66, stabilized in 1.68, made default in 1.70
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8500967Z ^[[36;1m# implemented in 1.66, stabilized in 1.68, made default in 1.70^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8501334Z ^[[36;1mif [ -z "${CARGO_REGISTRIES_CRATES_IO_PROTOCOL+set}" -o -f "/home/runner/work/_temp"/.implicit_cargo_registries_crates_io_protocol ]; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8501729Z ^[[36;1m  if rustc +"$toolchain" --version --verbose | grep -q '^release: 1\.6[89]\.'; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8502039Z ^[[36;1m    touch "/home/runner/work/_temp"/.implicit_cargo_registries_crates_io_protocol || true^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8502324Z ^[[36;1m    echo CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse >> $GITHUB_ENV^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8502598Z ^[[36;1m  elif rustc +"$toolchain" --version --verbose | grep -q '^release: 1\.6[67]\.'; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8503022Z ^[[36;1m    touch "/home/runner/work/_temp"/.implicit_cargo_registries_crates_io_protocol || true^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8503292Z ^[[36;1m    echo CARGO_REGISTRIES_CRATES_IO_PROTOCOL=git >> $GITHUB_ENV^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8503479Z ^[[36;1m  fi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8503592Z ^[[36;1mfi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8548094Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8548275Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8548394Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8548520Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8548654Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8548794Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8548927Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8549078Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8549244Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8549405Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8549530Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8549645Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8549775Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8549926Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8550068Z   CARGO_INCREMENTAL: 0
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8550194Z   CARGO_TERM_COLOR: always
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8550325Z   toolchain: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8550442Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8823291Z ##[end-action id=__dtolnay_rust-toolchain.__run_8;outcome=success;conclusion=success;duration_ms=33]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8826572Z ##[start-action display=Work around spurious network errors in curl 8.0;id=__dtolnay_rust-toolchain.__run_9]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8841798Z ##[group]Run # https://rust-lang.zulipchat.com/#narrow/stream/246057-t-cargo/topic/timeout.20investigation
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8842225Z ^[[36;1m# https://rust-lang.zulipchat.com/#narrow/stream/246057-t-cargo/topic/timeout.20investigation^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8842558Z ^[[36;1mif rustc +"$toolchain" --version --verbose | grep -q '^release: 1\.7[01]\.'; then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8842818Z ^[[36;1m  echo CARGO_HTTP_MULTIPLEXING=false >> $GITHUB_ENV^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8843007Z ^[[36;1mfi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8892610Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8892800Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8892922Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8893054Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8893186Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8893327Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8893461Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8893618Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8893916Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8894080Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8894206Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8894325Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8894450Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8894607Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8894750Z   CARGO_INCREMENTAL: 0
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8894880Z   CARGO_TERM_COLOR: always
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8895022Z   toolchain: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.8895144Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9077309Z ##[end-action id=__dtolnay_rust-toolchain.__run_9;outcome=success;conclusion=success;duration_ms=25]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9081302Z ##[start-action display=rustc +stable --version --verbose;id=__dtolnay_rust-toolchain.__run_10]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9096108Z ##[group]Run rustc +"$toolchain" --version --verbose
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9096349Z ^[[36;1mrustc +"$toolchain" --version --verbose^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9146499Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9146830Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9146982Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9147109Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9147241Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9147380Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9147511Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9147665Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9147831Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9148133Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9148258Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9148372Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9148497Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9148650Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9148793Z   CARGO_INCREMENTAL: 0
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9148920Z   CARGO_TERM_COLOR: always
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9149048Z   toolchain: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9149165Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9303274Z rustc 1.99.0 (b940084d7 2026-09-28)
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9303636Z binary: rustc
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9303867Z commit-hash: b940084d7eb6a299eb4bfeb8e34901bc051e7ac4
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9304145Z commit-date: 2026-09-28
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9304356Z host: x86_64-unknown-linux-gnu
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9304778Z release: 1.99.0
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9304936Z LLVM version: 23.1.1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9323267Z ##[end-action id=__dtolnay_rust-toolchain.__run_10;outcome=success;conclusion=success;duration_ms=24]
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9406063Z ##[group]Run Swatinem/rust-cache@v2
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9406216Z with:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9406331Z   prefix-key: v0-rust
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9406454Z   add-job-id-key: true
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9406591Z   add-rust-environment-hash-key: true
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9406827Z   cache-targets: true
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9406950Z   cache-all-crates: false
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407086Z   cache-workspace-crates: false
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407223Z   save-if: true
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407340Z   cache-provider: github
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407465Z   cache-bin: true
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407580Z   lookup-only: false
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407696Z   cmd-format: {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407808Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9407919Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9408042Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9408163Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9408298Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9408427Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9408611Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9408774Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9408930Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9409052Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9409165Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9409287Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9409436Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9409575Z   CARGO_INCREMENTAL: 0
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9409698Z   CARGO_TERM_COLOR: always
+fmt	UNKNOWN STEP	2026-10-12T06:40:50.9409825Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2091035Z ##[group]Cache Configuration
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2091327Z Cache Provider:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2091521Z     github
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2091686Z Workspaces:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2091860Z     /home/runner/work/tokio/tokio
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2092068Z Cache Paths:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2092212Z     /home/runner/.cargo/bin
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2092356Z     /home/runner/.cargo/.crates.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2092513Z     /home/runner/.cargo/.crates2.json
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2092737Z     /home/runner/.cargo/registry
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2092880Z     /home/runner/.cargo/git
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2093103Z     /home/runner/work/tokio/tokio/target
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2093319Z Restore Key:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2093502Z     v0-rust-fmt-Linux-x64-f920d8a0
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2093711Z Cache Key:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2093840Z     v0-rust-fmt-Linux-x64-f920d8a0-1a1b6fe9
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2094025Z .. Prefix:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2094142Z   - v0-rust-fmt-Linux-x64
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2094290Z .. Environment considered:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2094418Z   - Rust Versions:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2094658Z     - 1.99.0 x86_64-unknown-linux-gnu b940084d7eb6a299eb4bfeb8e34901bc051e7ac4
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2094960Z   - CARGO_HOME
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2095128Z   - CARGO_INCREMENTAL
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2095305Z   - CARGO_TERM_COLOR
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2095446Z   - RUST_BACKTRACE
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2095556Z   - RUSTFLAGS
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2095679Z   - RUSTUP_WINDOWS_PATH_ADD_BIN
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2096119Z .. Lockfiles considered:
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2096269Z   - /home/runner/work/tokio/tokio/benches/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2096455Z   - /home/runner/work/tokio/tokio/examples/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2096743Z   - /home/runner/work/tokio/tokio/stress-test/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2096935Z   - /home/runner/work/tokio/tokio/tests-build/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2097136Z   - /home/runner/work/tokio/tokio/tests-integration/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2097339Z   - /home/runner/work/tokio/tokio/tokio-macros/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2097532Z   - /home/runner/work/tokio/tokio/tokio-stream/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2097719Z   - /home/runner/work/tokio/tokio/tokio-test/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2097903Z   - /home/runner/work/tokio/tokio/tokio-util/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2098079Z   - /home/runner/work/tokio/tokio/tokio/Cargo.toml
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2098361Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2098425Z 
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.2098481Z ... Restoring cache ...
+fmt	UNKNOWN STEP	2026-10-12T06:40:51.3825561Z Cache hit for: v0-rust-fmt-Linux-x64-f920d8a0-1a1b6fe9
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.1819079Z Received 24361720 of 24361720 (100.0%), 35.5 MBs/sec
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.1819425Z Cache Size: ~23 MB (24361720 B)
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.1835717Z [command]/usr/bin/tar -xf /home/runner/work/_temp/b421fcfa-6284-4ba8-8ea5-d8a50a5cb4ca/cache.tzst -P -C /home/runner/work/tokio/tokio --use-compress-program unzstd
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3369187Z Cache restored successfully
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3381689Z Restored from cache key "v0-rust-fmt-Linux-x64-f920d8a0-1a1b6fe9" full match: true.
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3474584Z ##[group]Run if ! rustfmt --check --edition 2021 $(git ls-files '*.rs'); then
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3474880Z ^[[36;1mif ! rustfmt --check --edition 2021 $(git ls-files '*.rs'); then^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3475241Z ^[[36;1m  printf "Please run \`rustfmt --edition 2021 \$(git ls-files '*.rs')\` to fix rustfmt errors.\nSee CONTRIBUTING.md for more details.\n" >&2^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3475552Z ^[[36;1m  exit 1^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3475678Z ^[[36;1mfi^[[0m
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3525701Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3525884Z env:
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3526000Z   RUSTFLAGS: -Dwarnings
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3526131Z   RUST_BACKTRACE: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3526254Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3526392Z   rust_stable: stable
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3526525Z   rust_nightly: nightly-2025-10-12
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3526800Z   rust_miri_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527022Z   rust_emscripten_nightly: nightly-2026-08-17
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527182Z   emsdk_version: 6.0.10
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527306Z   rust_clippy: 1.88
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527422Z   rust_min: 1.85
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527547Z   TOKIO_STABLE_FEATURES: full,test-util
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527722Z   CARGO_HOME: /home/runner/.cargo
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527861Z   CARGO_INCREMENTAL: 0
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3527987Z   CARGO_TERM_COLOR: always
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3528124Z   CACHE_ON_FAILURE: false
+fmt	UNKNOWN STEP	2026-10-12T06:40:52.3528254Z ##[endgroup]
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2190302Z Diff in /home/runner/work/tokio/tokio/tokio/src/runtime/blocking/sharded.rs:78:
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2190712Z              pos: 0,
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2190918Z              remaining: TASKS_PER_SHARD,
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2191157Z          };
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2196036Z -        cursor.shuffle(FastRand::from_seed(RngSeed::from_bytes(&seed.to_ne_bytes())));
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2196325Z +        cursor.shuffle(FastRand::from_seed(RngSeed::from_bytes(
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2196549Z +            &seed.to_ne_bytes(),
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2196978Z +        )));
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2197100Z          cursor
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2197213Z      }
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2197320Z  
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2251852Z Diff in /home/runner/work/tokio/tokio/tokio/src/runtime/blocking/sharded.rs:78:
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2252243Z              pos: 0,
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2252453Z              remaining: TASKS_PER_SHARD,
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2252678Z          };
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2253530Z -        cursor.shuffle(FastRand::from_seed(RngSeed::from_bytes(&seed.to_ne_bytes())));
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2253963Z +        cursor.shuffle(FastRand::from_seed(RngSeed::from_bytes(
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2254252Z +            &seed.to_ne_bytes(),
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2254459Z +        )));
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2254626Z          cursor
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2254793Z      }
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.2254924Z  
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.6670323Z Please run `rustfmt --edition 2021 $(git ls-files '*.rs')` to fix rustfmt errors.
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.6670772Z See CONTRIBUTING.md for more details.
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.6681216Z ##[error]Process completed with exit code 1.
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.6752759Z Post job cleanup.
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7307229Z [command]/usr/bin/git version
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7339359Z git version 2.55.0
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7359801Z Temporarily overriding HOME='/home/runner/work/_temp/ff4dd04d-1e86-4411-b4d7-30bdff176a31' before making global git config changes
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7360482Z Adding repository directory to the temporary git global config as a safe directory
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7363061Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tokio/tokio
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7388874Z Removing SSH command configuration
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7393064Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7419189Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7591733Z Removing HTTP extra header
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7595772Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7620729Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7785831Z Removing includeIf entries pointing to credentials config files
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7791329Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7814781Z includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7815218Z includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7815578Z includeif.gitdir:/github/workspace/.git.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7815894Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7822078Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7839145Z /home/runner/work/_temp/git-credentials-6765b099-d6a3-4756-8c85-4affaf223cc8.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7845878Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-6765b099\-d6a3\-4756\-8c85\-4affaf223cc8\.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7872733Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7891056Z /home/runner/work/_temp/git-credentials-6765b099-d6a3-4756-8c85-4affaf223cc8.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7896821Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-6765b099\-d6a3\-4756\-8c85\-4affaf223cc8\.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7922206Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7939302Z /github/runner_temp/git-credentials-6765b099-d6a3-4756-8c85-4affaf223cc8.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7943836Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-6765b099\-d6a3\-4756\-8c85\-4affaf223cc8\.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7969695Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7986327Z /github/runner_temp/git-credentials-6765b099-d6a3-4756-8c85-4affaf223cc8.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.7992069Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-6765b099\-d6a3\-4756\-8c85\-4affaf223cc8\.config
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.8020022Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.8183148Z Removing credentials config '/home/runner/work/_temp/git-credentials-6765b099-d6a3-4756-8c85-4affaf223cc8.config'
+fmt	UNKNOWN STEP	2026-10-12T06:40:53.8296311Z Cleaning up orphan processes

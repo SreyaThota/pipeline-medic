@@ -1,0 +1,400 @@
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.0801729Z yarn: 1.22.22
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.0803224Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1016601Z ##[group]Run echo "pm=$(jq -r --arg plugin "@eslint/json" '.[$plugin].commands.install[0]' tools/test-ecosystem/plugins-data.json)" >> "$GITHUB_OUTPUT"
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1017734Z ^[[36;1mecho "pm=$(jq -r --arg plugin "@eslint/json" '.[$plugin].commands.install[0]' tools/test-ecosystem/plugins-data.json)" >> "$GITHUB_OUTPUT"^[[0m
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1268214Z shell: /usr/bin/bash -e {0}
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1268567Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1488133Z ##[group]Run npm install
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1488499Z ^[[36;1mnpm install^[[0m
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1554077Z shell: /usr/bin/bash -e {0}
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:22:57.1554409Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:21.8526949Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:21.8704823Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:22.2578178Z npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:22.3485184Z npm warn deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-json instead.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:22.3487906Z npm warn deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:22.3754261Z npm warn deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:22.8087605Z npm warn deprecated @sinonjs/text-encoding@0.7.3: Deprecated: no longer maintained and no longer used by Sinon packages. See
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:22.8088995Z npm warn deprecated   https://github.com/sinonjs/nise/issues/243 for replacement details.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:23.4282290Z npm warn deprecated read-installed@4.0.3: This package is no longer supported.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:24.0554345Z npm warn deprecated lodash.pick@4.4.0: This package is deprecated. Use destructuring assignment syntax instead.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:25.2856801Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:26.6511893Z npm warn deprecated uuid@8.3.2: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:27.2959115Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:27.8862895Z npm warn deprecated sinon@11.1.2: 16.1.1
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2253349Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2263365Z added 1188 packages, and audited 1191 packages in 36s
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2263944Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2264133Z 278 packages are looking for funding
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2264479Z   run `npm fund` for details
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2453055Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2453810Z 41 vulnerabilities (9 low, 8 moderate, 22 high, 2 critical)
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2454293Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2454651Z To address issues that do not require attention, run:
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2455129Z   npm audit fix
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2455334Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2455741Z To address all issues possible (including breaking changes), run:
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2456341Z   npm audit fix --force
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2456584Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2456888Z Some issues need review, and may require choosing
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2457409Z a different dependency.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2457636Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.2457818Z Run `npm audit` for details.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.3326629Z ##[group]Run npm run test:ecosystem -- --plugin @eslint/json
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.3327097Z ^[[36;1mnpm run test:ecosystem -- --plugin @eslint/json^[[0m
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.3402178Z shell: /usr/bin/bash -e {0}
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.3402469Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4467104Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4467831Z > eslint@10.12.0 test:ecosystem
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4468592Z > node tools/test-ecosystem/index.mjs --plugin @eslint/json
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4468878Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4917199Z Plugins to test: @eslint/json
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4919431Z Clearing existing sandbox directory: /home/runner/work/eslint/eslint/ecosystem
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4928658Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4931993Z Testing @eslint/json in /home/runner/work/eslint/eslint/ecosystem/eslint-json
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.4934042Z [@eslint/json] git clone https://github.com/eslint/json /home/runner/work/eslint/eslint/ecosystem/eslint-json --depth 1 --config core.symlinks=true
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:33.8259522Z [@eslint/json] git fetch origin a2b9af9f5b71ea2336ae02671f8dc6f23d151c6e
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:34.2096845Z [@eslint/json] git checkout a2b9af9f5b71ea2336ae02671f8dc6f23d151c6e
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:34.2168936Z [@eslint/json] cwd: /home/runner/work/eslint/eslint/ecosystem/eslint-json
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:34.2201093Z [@eslint/json] npm install
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:41.7962720Z [@eslint/json] npm install --no-save ../..
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:42.7284721Z [@eslint/json] npm run build
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:43.8897268Z [@eslint/json] npm run test
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7721192Z Failed: @eslint/json
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7721528Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7732286Z Errors occurred while testing plugins:
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7732657Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7732861Z @eslint/json: Error
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7733637Z     at runCommand (file:///home/runner/work/eslint/eslint/tools/test-ecosystem/index.mjs:84:26)
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7734762Z     at runTests (file:///home/runner/work/eslint/eslint/tools/test-ecosystem/index.mjs:134:2)
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7735709Z     at async file:///home/runner/work/eslint/eslint/tools/test-ecosystem/index.mjs:159:3
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7736065Z 
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7874095Z ##[error]Process completed with exit code 1.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7964755Z ##[group]Run actions/upload-artifact@v7
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7965053Z with:
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7965273Z   name: ecosystem-results-1
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7965533Z   path: ecosystem/*-results.json
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7965809Z   retention-days: 1
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7966034Z   if-no-files-found: warn
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7966275Z   compression-level: 6
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7966493Z   overwrite: false
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7966710Z   include-hidden-files: false
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7966948Z   archive: true
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.7967162Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.9438692Z With the provided path, there will be 1 file uploaded
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.9440141Z Artifact name is valid!
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:45.9440807Z Root directory input is valid!
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.1598191Z Uploading artifact: ecosystem-results-1.zip
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.1652219Z Beginning upload of artifact content to blob storage
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.2444357Z Uploaded bytes 331
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.2621069Z Finished uploading artifact content to blob storage!
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.2622155Z SHA256 digest of uploaded artifact is 330f513b2ed856b1b81ae33b4257d9465e88bf0b26a25a2beb095b6fddf4c6b7
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.2622870Z Finalizing artifact upload
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.5279361Z Artifact ecosystem-results-1 successfully finalized. Artifact ID 11424161237
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.5280467Z Artifact ecosystem-results-1 has been successfully uploaded! Final size is 331 bytes. Artifact ID is 11424161237
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.5284221Z Artifact download URL: https://github.com/eslint/eslint/actions/runs/37486997319/artifacts/11424161237
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.5478357Z Post job cleanup.
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6340756Z [command]/usr/bin/git version
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6389216Z git version 2.55.0
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6424796Z Temporarily overriding HOME='/home/runner/work/_temp/f7f58d9d-674c-43b4-b590-50a0f80c6bbb' before making global git config changes
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6426282Z Adding repository directory to the temporary git global config as a safe directory
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6430596Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/eslint/eslint
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6464763Z Removing SSH command configuration
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6471490Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6507055Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6757708Z Removing HTTP extra header
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6763318Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.6801287Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7043367Z Removing includeIf entries pointing to credentials config files
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7050197Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7081271Z includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7082419Z includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7082955Z includeif.gitdir:/github/workspace/.git.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7083410Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7090571Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7114196Z /home/runner/work/_temp/git-credentials-4c38fd04-c00b-48df-8854-c069a68f0f60.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7123626Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-4c38fd04\-c00b\-48df\-8854\-c069a68f0f60\.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7162028Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7185838Z /home/runner/work/_temp/git-credentials-4c38fd04-c00b-48df-8854-c069a68f0f60.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7203453Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-4c38fd04\-c00b\-48df\-8854\-c069a68f0f60\.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7237469Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7260569Z /github/runner_temp/git-credentials-4c38fd04-c00b-48df-8854-c069a68f0f60.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7267360Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-4c38fd04\-c00b\-48df\-8854\-c069a68f0f60\.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7300487Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7324313Z /github/runner_temp/git-credentials-4c38fd04-c00b-48df-8854-c069a68f0f60.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7342672Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-4c38fd04\-c00b\-48df\-8854\-c069a68f0f60\.config
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7370576Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7616727Z Removing credentials config '/home/runner/work/_temp/git-credentials-4c38fd04-c00b-48df-8854-c069a68f0f60.config'
+Test Ecosystem Plugin (@eslint/json)	UNKNOWN STEP	2026-10-06T15:23:46.7777823Z Cleaning up orphan processes
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	﻿2026-10-06T15:22:52.8029862Z Current runner version: '2.337.0'
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8063768Z ##[group]Runner Image Provisioner
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8065070Z Hosted Compute Agent
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8065945Z Version: 20260901.588
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8067105Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8068458Z Build Date: 2026-09-01T19:56:44Z
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8069600Z Worker ID: {58fb9d6e-f19b-4fcf-a016-5b4044f6e10a}
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8070835Z Azure Region: northcentralus
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8071825Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8073919Z ##[group]Operating System
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8074952Z Ubuntu
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8075747Z 24.04.5
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8076791Z LTS
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8077798Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8078813Z ##[group]Runner Image
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8079747Z Image: ubuntu-24.04
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8080611Z Version: 20260927.320.1
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8082759Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8085498Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8087101Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8089287Z ##[group]GITHUB_TOKEN Permissions
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8092115Z Contents: read
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8092978Z Issues: read
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8093962Z Metadata: read
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8094724Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8096954Z Secret source: None
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8098207Z Cache mode: write
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8099267Z Prepare workflow directory
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8493001Z Prepare all required actions
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:52.8560333Z Getting action download info
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.1169140Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.2449043Z Download action repository 'actions/setup-node@v7' (SHA:820762786026740c76f36085b0efc47a31fe5020)
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.3425521Z Download action repository 'actions/upload-artifact@v7' (SHA:043fb46d1a93c77aae656e7c1c64a875d1fc6a0a)
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5152554Z Complete job name: Test Ecosystem Plugin (@eslint/markdown)
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5889295Z ##[group]Run actions/checkout@v7
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5890149Z with:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5890595Z   repository: eslint/eslint
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5894533Z   token: ***
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5894968Z   ssh-strict: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5895403Z   ssh-user: git
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5895851Z   persist-credentials: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5896338Z   clean: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5896778Z   sparse-checkout-cone-mode: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5897286Z   fetch-depth: 1
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5897887Z   fetch-tags: false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5898329Z   show-progress: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5898775Z   lfs: false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5899180Z   submodules: false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5899620Z   set-safe-directory: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5900113Z   allow-unsafe-pr-checkout: false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.5900810Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.6932628Z Syncing repository: eslint/eslint
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.6934558Z ##[group]Getting Git version info
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.6935316Z Working directory is '/home/runner/work/eslint/eslint'
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.6936414Z [command]/usr/bin/git version
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.6990416Z git version 2.55.0
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7009536Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7021100Z Temporarily overriding HOME='/home/runner/work/_temp/908ede9b-d56f-4ac7-8f02-38bdf5c78da3' before making global git config changes
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7023377Z Adding repository directory to the temporary git global config as a safe directory
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7026933Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/eslint/eslint
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7071329Z Deleting the contents of '/home/runner/work/eslint/eslint'
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7075031Z ##[group]Determining repository object format
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7076484Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7077260Z ##[group]Initializing the repository
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7080324Z [command]/usr/bin/git init /home/runner/work/eslint/eslint
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7163663Z hint: Using 'master' as the name for the initial branch. This default branch name
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7164829Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7166677Z hint: to use in all of your new repositories, which will suppress this warning,
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7168114Z hint: call:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7168802Z hint:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7169664Z hint: 	git config --global init.defaultBranch <name>
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7170711Z hint:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7171679Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7173215Z hint: 'development'. The just-created branch can be renamed via this command:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7174432Z hint:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7175130Z hint: 	git branch -m <name>
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7175918Z hint:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7176952Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7178855Z Initialized empty Git repository in /home/runner/work/eslint/eslint/.git/
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7181522Z [command]/usr/bin/git remote add origin https://github.com/eslint/eslint
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7226962Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7228508Z ##[group]Disabling automatic garbage collection
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7231429Z [command]/usr/bin/git config --local gc.auto 0
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7262510Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7263340Z ##[group]Setting up auth
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7263901Z Removing SSH command configuration
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7268237Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7299993Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7630847Z Removing HTTP extra header
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7635594Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7669525Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7911108Z Removing includeIf entries pointing to credentials config files
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7916732Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.7958331Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8204099Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8243468Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/eslint/eslint/.git.path /home/runner/work/_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8277258Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8312255Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8345642Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8374840Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8376141Z ##[group]Fetching the repository
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:53.8382329Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +aecdbed3f5df9bb4f2b8f09eee81034a6421e4ec:refs/remotes/pull/21394/merge
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9437247Z From https://github.com/eslint/eslint
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9439783Z  * [new ref]         aecdbed3f5df9bb4f2b8f09eee81034a6421e4ec -> pull/21394/merge
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9443930Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9445430Z ##[group]Determining the checkout info
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9447015Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9448911Z [command]/usr/bin/git sparse-checkout disable
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9501180Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9535659Z ##[group]Checking out the ref
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:54.9538005Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/21394/merge
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1326149Z Note: switching to 'refs/remotes/pull/21394/merge'.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1326960Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1327545Z You are in 'detached HEAD' state. You can look around, make experimental
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1329078Z changes and commit them, and you can discard any commits you make in this
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1330399Z state without impacting any branches by switching back to a branch.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1331217Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1331791Z If you want to create a new branch to retain commits you create, you may
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1333293Z do so (now or later) by using -c with the switch command. Example:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1334460Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1334989Z   git switch -c <new-branch-name>
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1335836Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1336313Z Or undo this operation with:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1337064Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1337484Z   git switch -
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1338301Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1339259Z Turn off this advice by setting config variable advice.detachedHead to false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1340791Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1342436Z HEAD is now at aecdbed Merge 220949c59bc5465f24a0538eba0258dedae00300 into e5aea414cc00555ecd43f6e608bf80e0f9a6d4d6
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1347838Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1388667Z [command]/usr/bin/git log -1 --format=%H
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1414865Z aecdbed3f5df9bb4f2b8f09eee81034a6421e4ec
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1894297Z ##[group]Run actions/setup-node@v7
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1895724Z with:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1896787Z   node-version: lts/*
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1898121Z   check-latest: false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1908342Z   token: ***
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1909474Z   package-manager-cache: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.1910759Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:55.3195109Z Attempt to resolve LTS alias from manifest...
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.1098563Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.1101863Z ##[group]Environment details
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.4742582Z node: v24.21.0
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.4742962Z npm: 11.19.0
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.4743202Z yarn: 1.22.22
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.4769437Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.4925588Z ##[group]Run echo "pm=$(jq -r --arg plugin "@eslint/markdown" '.[$plugin].commands.install[0]' tools/test-ecosystem/plugins-data.json)" >> "$GITHUB_OUTPUT"
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.4926723Z ^[[36;1mecho "pm=$(jq -r --arg plugin "@eslint/markdown" '.[$plugin].commands.install[0]' tools/test-ecosystem/plugins-data.json)" >> "$GITHUB_OUTPUT"^[[0m
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.5174827Z shell: /usr/bin/bash -e {0}
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.5175164Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.5391191Z ##[group]Run npm install
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.5391501Z ^[[36;1mnpm install^[[0m
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.5453327Z shell: /usr/bin/bash -e {0}
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:22:56.5453623Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.1013893Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.1852623Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.5421614Z npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.6656671Z npm warn deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-json instead.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.6716677Z npm warn deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.6720616Z npm warn deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.8384144Z npm warn deprecated @sinonjs/text-encoding@0.7.3: Deprecated: no longer maintained and no longer used by Sinon packages. See
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:26.8386048Z npm warn deprecated   https://github.com/sinonjs/nise/issues/243 for replacement details.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:27.3249478Z npm warn deprecated read-installed@4.0.3: This package is no longer supported.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:28.3303861Z npm warn deprecated lodash.pick@4.4.0: This package is deprecated. Use destructuring assignment syntax instead.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:29.6608523Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:30.8659972Z npm warn deprecated uuid@8.3.2: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:31.4364565Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:32.0072520Z npm warn deprecated sinon@11.1.2: 16.1.1
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1473683Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1478350Z added 1188 packages, and audited 1191 packages in 41s
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1483244Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1483612Z 278 packages are looking for funding
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1484171Z   run `npm fund` for details
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1647098Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1648064Z 41 vulnerabilities (9 low, 8 moderate, 22 high, 2 critical)
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1648545Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1648882Z To address issues that do not require attention, run:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1649414Z   npm audit fix
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1649614Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1650036Z To address all issues possible (including breaking changes), run:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1650639Z   npm audit fix --force
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1651027Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1651331Z Some issues need review, and may require choosing
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1651874Z a different dependency.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1652115Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.1652316Z Run `npm audit` for details.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.2438499Z ##[group]Run npm run test:ecosystem -- --plugin @eslint/markdown
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.2439205Z ^[[36;1mnpm run test:ecosystem -- --plugin @eslint/markdown^[[0m
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.2510595Z shell: /usr/bin/bash -e {0}
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.2510875Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3508472Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3509004Z > eslint@10.12.0 test:ecosystem
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3509826Z > node tools/test-ecosystem/index.mjs --plugin @eslint/markdown
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3510299Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3938351Z Plugins to test: @eslint/markdown
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3940293Z Clearing existing sandbox directory: /home/runner/work/eslint/eslint/ecosystem
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3948667Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3951795Z Testing @eslint/markdown in /home/runner/work/eslint/eslint/ecosystem/eslint-markdown
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:37.3955161Z [@eslint/markdown] git clone https://github.com/eslint/markdown /home/runner/work/eslint/eslint/ecosystem/eslint-markdown --depth 1 --config core.symlinks=true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:38.2897455Z [@eslint/markdown] git fetch origin 0a037276ad8ab31634d868f47a2e9d086fe22f30
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:38.6730064Z [@eslint/markdown] git checkout 0a037276ad8ab31634d868f47a2e9d086fe22f30
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:38.6798401Z [@eslint/markdown] cwd: /home/runner/work/eslint/eslint/ecosystem/eslint-markdown
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:38.6799191Z [@eslint/markdown] npm install
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:52.2580096Z [@eslint/markdown] npm install --no-save ../..
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:53.3411829Z [@eslint/markdown] npm run build
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:55.9418928Z [@eslint/markdown] npm run test
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7774746Z Failed: @eslint/markdown
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7774984Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7784475Z Errors occurred while testing plugins:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7784774Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7785084Z @eslint/markdown: Error
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7785762Z     at runCommand (file:///home/runner/work/eslint/eslint/tools/test-ecosystem/index.mjs:84:26)
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7786780Z     at runTests (file:///home/runner/work/eslint/eslint/tools/test-ecosystem/index.mjs:134:2)
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7787967Z     at async file:///home/runner/work/eslint/eslint/tools/test-ecosystem/index.mjs:159:3
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7788480Z 
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.7917283Z ##[error]Process completed with exit code 1.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8003264Z ##[group]Run actions/upload-artifact@v7
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8003560Z with:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8003792Z   name: ecosystem-results-2
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8004046Z   path: ecosystem/*-results.json
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8004297Z   retention-days: 1
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8004516Z   if-no-files-found: warn
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8004754Z   compression-level: 6
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8004973Z   overwrite: false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8005192Z   include-hidden-files: false
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8005434Z   archive: true
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.8005642Z ##[endgroup]
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.9428259Z With the provided path, there will be 1 file uploaded
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.9433210Z Artifact name is valid!
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:23:59.9433835Z Root directory input is valid!
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.1793467Z Uploading artifact: ecosystem-results-2.zip
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.1831630Z Beginning upload of artifact content to blob storage
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.3116391Z Uploaded bytes 343
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.3432127Z Finished uploading artifact content to blob storage!
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.3433261Z SHA256 digest of uploaded artifact is 8b9275efd05ff04cbc9cf8ec248a096bd38548c363cc8a2e996ef3f524da0998
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.3433932Z Finalizing artifact upload
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.6657288Z Artifact ecosystem-results-2 successfully finalized. Artifact ID 11424061649
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.6658785Z Artifact ecosystem-results-2 has been successfully uploaded! Final size is 343 bytes. Artifact ID is 11424061649
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.6662315Z Artifact download URL: https://github.com/eslint/eslint/actions/runs/37486997319/artifacts/11424061649
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.6837528Z Post job cleanup.
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7677139Z [command]/usr/bin/git version
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7723131Z git version 2.55.0
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7758762Z Temporarily overriding HOME='/home/runner/work/_temp/a529d628-1329-472d-af44-aefe54b63fdd' before making global git config changes
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7760217Z Adding repository directory to the temporary git global config as a safe directory
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7763710Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/eslint/eslint
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7794778Z Removing SSH command configuration
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7801350Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.7834517Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8075027Z Removing HTTP extra header
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8080825Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8115984Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8349204Z Removing includeIf entries pointing to credentials config files
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8355483Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8383973Z includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8384919Z includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8385713Z includeif.gitdir:/github/workspace/.git.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8386409Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8398868Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8415005Z /home/runner/work/_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8425049Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-05fe5199\-8a6c\-40f2\-9e09\-3e073eb2d1cb\.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8460319Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8483096Z /home/runner/work/_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8492162Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-05fe5199\-8a6c\-40f2\-9e09\-3e073eb2d1cb\.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8531840Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8553933Z /github/runner_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8561796Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-05fe5199\-8a6c\-40f2\-9e09\-3e073eb2d1cb\.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8592309Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8613513Z /github/runner_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8620990Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-05fe5199\-8a6c\-40f2\-9e09\-3e073eb2d1cb\.config
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8654208Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.8886545Z Removing credentials config '/home/runner/work/_temp/git-credentials-05fe5199-8a6c-40f2-9e09-3e073eb2d1cb.config'
+Test Ecosystem Plugin (@eslint/markdown)	UNKNOWN STEP	2026-10-06T15:24:00.9026446Z Cleaning up orphan processes

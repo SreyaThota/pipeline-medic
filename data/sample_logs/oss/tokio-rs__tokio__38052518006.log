@@ -1,0 +1,400 @@
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6303896Z ##[end-action id=__dtolnay_rust-toolchain.__run_4;outcome=success;conclusion=success;duration_ms=5889]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6309795Z ##[start-action display=rustup default 1.85;id=__dtolnay_rust-toolchain.__run_5]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6326431Z ##[group]Run rustup default "$toolchain" --force-non-host
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6326692Z ^[[36;1mrustup default "$toolchain" --force-non-host^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6378232Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6378426Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6378557Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6378690Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6378813Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6378949Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6379094Z   toolchain: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6379228Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6477377Z info: using existing install for 1.85-x86_64-unknown-linux-gnu
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6484383Z info: default toolchain set to 1.85-x86_64-unknown-linux-gnu
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6484602Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6541416Z   1.85-x86_64-unknown-linux-gnu unchanged - rustc 1.85.1 (4eb161250 2025-03-15)
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6541718Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6556473Z ##[end-action id=__dtolnay_rust-toolchain.__run_5;outcome=success;conclusion=success;duration_ms=24]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6559449Z ##[start-action display=Create cachekey;id=__dtolnay_rust-toolchain.rustc-version]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6573749Z ##[group]Run DATE=$(rustc +"$toolchain" --version --verbose | sed -ne 's/^commit-date: \(20[0-9][0-9]\)-\([01][0-9]\)-\([0-3][0-9]\)$/\1\2\3/p')
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6574252Z ^[[36;1mDATE=$(rustc +"$toolchain" --version --verbose | sed -ne 's/^commit-date: \(20[0-9][0-9]\)-\([01][0-9]\)-\([0-3][0-9]\)$/\1\2\3/p')^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6574625Z ^[[36;1mHASH=$(rustc +"$toolchain" --version --verbose | sed -ne 's/^commit-hash: //p')^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6574909Z ^[[36;1mecho "cachekey=$(echo $DATE$HASH | head -c12)" >> $GITHUB_OUTPUT^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6623392Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6623715Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6623853Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6624013Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6624141Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6624274Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6624419Z   toolchain: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6624539Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6896640Z ##[end-action id=__dtolnay_rust-toolchain.rustc-version;outcome=success;conclusion=success;duration_ms=33]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6898657Z ##[start-action display=Disable incremental compilation;id=__dtolnay_rust-toolchain.__run_6]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6914141Z ##[group]Run if [ -z "${CARGO_INCREMENTAL+set}" ]; then
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6914383Z ^[[36;1mif [ -z "${CARGO_INCREMENTAL+set}" ]; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6914575Z ^[[36;1m  echo CARGO_INCREMENTAL=0 >> $GITHUB_ENV^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6914742Z ^[[36;1mfi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6964705Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6964901Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6965036Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6965170Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6965292Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6965418Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.6965574Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7032191Z ##[end-action id=__dtolnay_rust-toolchain.__run_6;outcome=success;conclusion=success;duration_ms=13]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7033728Z ##[start-action display=Enable colors in Cargo output;id=__dtolnay_rust-toolchain.__run_7]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7047665Z ##[group]Run if [ -z "${CARGO_TERM_COLOR+set}" ]; then
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7047897Z ^[[36;1mif [ -z "${CARGO_TERM_COLOR+set}" ]; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7048093Z ^[[36;1m  echo CARGO_TERM_COLOR=always >> $GITHUB_ENV^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7048267Z ^[[36;1mfi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7094817Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7095013Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7095132Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7095266Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7095400Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7095529Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7095678Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7095808Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7160405Z ##[end-action id=__dtolnay_rust-toolchain.__run_7;outcome=success;conclusion=success;duration_ms=12]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7163084Z ##[start-action display=Enable Cargo sparse registry;id=__dtolnay_rust-toolchain.__run_8]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7177410Z ##[group]Run # implemented in 1.66, stabilized in 1.68, made default in 1.70
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7177705Z ^[[36;1m# implemented in 1.66, stabilized in 1.68, made default in 1.70^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7178093Z ^[[36;1mif [ -z "${CARGO_REGISTRIES_CRATES_IO_PROTOCOL+set}" -o -f "/home/runner/work/_temp"/.implicit_cargo_registries_crates_io_protocol ]; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7178502Z ^[[36;1m  if rustc +"$toolchain" --version --verbose | grep -q '^release: 1\.6[89]\.'; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7178833Z ^[[36;1m    touch "/home/runner/work/_temp"/.implicit_cargo_registries_crates_io_protocol || true^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7179149Z ^[[36;1m    echo CARGO_REGISTRIES_CRATES_IO_PROTOCOL=sparse >> $GITHUB_ENV^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7179449Z ^[[36;1m  elif rustc +"$toolchain" --version --verbose | grep -q '^release: 1\.6[67]\.'; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7179774Z ^[[36;1m    touch "/home/runner/work/_temp"/.implicit_cargo_registries_crates_io_protocol || true^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7180062Z ^[[36;1m    echo CARGO_REGISTRIES_CRATES_IO_PROTOCOL=git >> $GITHUB_ENV^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7180259Z ^[[36;1m  fi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7180375Z ^[[36;1mfi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7225542Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7225734Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7225860Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7225992Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7226117Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7226245Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7226391Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7226657Z   CARGO_TERM_COLOR: always
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7226788Z   toolchain: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7226909Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7485803Z ##[end-action id=__dtolnay_rust-toolchain.__run_8;outcome=success;conclusion=success;duration_ms=32]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7489139Z ##[start-action display=Work around spurious network errors in curl 8.0;id=__dtolnay_rust-toolchain.__run_9]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7504376Z ##[group]Run # https://rust-lang.zulipchat.com/#narrow/stream/246057-t-cargo/topic/timeout.20investigation
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7504832Z ^[[36;1m# https://rust-lang.zulipchat.com/#narrow/stream/246057-t-cargo/topic/timeout.20investigation^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7505181Z ^[[36;1mif rustc +"$toolchain" --version --verbose | grep -q '^release: 1\.7[01]\.'; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7505449Z ^[[36;1m  echo CARGO_HTTP_MULTIPLEXING=false >> $GITHUB_ENV^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7505632Z ^[[36;1mfi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7556189Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7556390Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7556508Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7556638Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7556756Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7556882Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7557038Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7557169Z   CARGO_TERM_COLOR: always
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7557303Z   toolchain: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7557423Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7717024Z ##[end-action id=__dtolnay_rust-toolchain.__run_9;outcome=success;conclusion=success;duration_ms=22]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7720264Z ##[start-action display=rustc +1.85 --version --verbose;id=__dtolnay_rust-toolchain.__run_10]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7733746Z ##[group]Run rustc +"$toolchain" --version --verbose
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7733963Z ^[[36;1mrustc +"$toolchain" --version --verbose^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7780858Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7781046Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7781162Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7781302Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7781420Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7781546Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7781688Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7782081Z   CARGO_TERM_COLOR: always
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7782210Z   toolchain: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7782326Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7925387Z rustc 1.85.1 (4eb161250 2025-03-15)
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7925763Z binary: rustc
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7926016Z commit-hash: 4eb161250e340c8f48f66e2b929ef4a5bed7c181
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7926275Z commit-date: 2025-03-15
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7926592Z host: x86_64-unknown-linux-gnu
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7926854Z release: 1.85.1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7927106Z LLVM version: 19.1.7
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.7939319Z ##[end-action id=__dtolnay_rust-toolchain.__run_10;outcome=success;conclusion=success;duration_ms=21]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8035374Z ##[group]Run taiki-e/install-action@valgrind
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8035542Z with:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8035667Z   tool: valgrind
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8035779Z   checksum: true
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8035896Z   fallback: cargo-binstall
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036023Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036135Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036260Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036371Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036492Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036635Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036759Z   CARGO_TERM_COLOR: always
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8036890Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8041309Z ##[start-action display=Run bail() {;id=__taiki-e_install-action.__run]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8055035Z ##[group]Run bail() {
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8055193Z ^[[36;1mbail() {^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8055339Z ^[[36;1m  printf '::error::install-action: %s\n' "$*"^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8055512Z ^[[36;1m  exit 1^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8055654Z ^[[36;1m}^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8055857Z ^[[36;1m# If /bin/sh is dash, environment variable containing % is not imported, but is fine^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8056279Z ^[[36;1m# because it also means that it will not be exposed to subprocess.^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8056513Z ^[[36;1mif /usr/bin/env | grep -Eq '^BASH_FUNC_'; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8056807Z ^[[36;1m  bail 'bash function injection via BASH_FUNC_ environment variable is not allowed for security reasons'^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8057072Z ^[[36;1mfi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8057205Z ^[[36;1mif ! command -v bash >/dev/null; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8057398Z ^[[36;1m  if grep -Eq '^ID=alpine' /etc/os-release; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8057641Z ^[[36;1m    printf '::group::Install packages required for install-action (bash)\n'^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8057879Z ^[[36;1m    # NB: sync with apk_install in main.sh^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8058056Z ^[[36;1m    if command -v sudo >/dev/null; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8058232Z ^[[36;1m      sudo apk --no-cache add bash^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8058403Z ^[[36;1m    elif command -v doas >/dev/null; then^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8058575Z ^[[36;1m      doas apk --no-cache add bash^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8058729Z ^[[36;1m    else^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8058851Z ^[[36;1m      apk --no-cache add bash^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8058995Z ^[[36;1m    fi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8059117Z ^[[36;1m    printf '::endgroup::\n'^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8059259Z ^[[36;1m  else^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8059386Z ^[[36;1m    bail 'this action requires bash'^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8059538Z ^[[36;1m  fi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8059646Z ^[[36;1mfi^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8059806Z ^[[36;1mbash --noprofile --norc "${GITHUB_ACTION_PATH:?}/main.sh"^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8060539Z shell: /usr/bin/env -u ENV -u BASH_ENV -u CDPATH -u SHELLOPTS -u BASHOPTS /bin/sh -eu {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8060763Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8060879Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8061007Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8061125Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8061254Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8061397Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8061529Z   CARGO_TERM_COLOR: always
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8061658Z   INPUT_TOOL: valgrind
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8061780Z   INPUT_CHECKSUM: true
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8062079Z   INPUT_FALLBACK: cargo-binstall
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8063829Z   DEFAULT_GITHUB_TOKEN: ***
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8063997Z   ACTION_USER_AGENT: taiki-e/install-action (valgrind)
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8064168Z   RUNNER_OS: Linux
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8064282Z   RUNNER_ARCH: X64
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8064398Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8164960Z info: host platform: x86_64_linux
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:42.8174776Z info: installing valgrind@latest
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.3679470Z Reading package lists...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.5058395Z Building dependency tree...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.5064369Z Reading state information...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.6246367Z The following NEW packages will be installed:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.6247527Z   libc6-dbg
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.6376613Z 0 upgraded, 1 newly installed, 0 to remove and 23 not upgraded.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.6376994Z Need to get 7474 kB of archives.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.6377319Z After this operation, 11.4 MB of additional disk space will be used.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.6377680Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:48.7036168Z Get:2 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 libc6-dbg amd64 2.39-0ubuntu8.9 [7474 kB]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:49.0312978Z Fetched 7474 kB in 0s (34.8 MB/s)
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:49.0469476Z Selecting previously unselected package libc6-dbg:amd64.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:50.2829268Z (Reading database ... 203191 files and directories currently installed.)
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:50.2865803Z Preparing to unpack .../libc6-dbg_2.39-0ubuntu8.9_amd64.deb ...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:50.2929195Z Unpacking libc6-dbg:amd64 (2.39-0ubuntu8.9) ...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:50.8086547Z Setting up libc6-dbg:amd64 (2.39-0ubuntu8.9) ...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2917931Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2918545Z Running kernel seems to be up-to-date.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2918921Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2919020Z No services need to be restarted.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2919465Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2919525Z No containers need to be restarted.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2919622Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2919699Z No user sessions are running outdated binaries.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2919817Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:35:51.2919923Z No VM guests are running outdated hypervisor (qemu) binaries on this host.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:00.1658311Z 2026-10-10T12:36:00Z INFO Waiting for automatic snapd restart...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:01.4911396Z 2026-10-10T12:36:01Z INFO Waiting for automatic snapd restart...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:02.1386484Z 2026-10-10T12:36:02Z INFO Waiting for automatic snapd restart...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.1603169Z valgrind 3.26.0 from Roger Light (ralight) installed
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.1640240Z info: valgrind installed at /snap/bin/valgrind
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.1642890Z + valgrind --version
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4343275Z valgrind-3.26.0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4344133Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4356288Z ##[end-action id=__taiki-e_install-action.__run;outcome=success;conclusion=success;duration_ms=31631]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4361068Z ##[start-action display=Run Set-StrictMode -Version Latest;id=__taiki-e_install-action.__run_2]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4363763Z ##[end-action id=__taiki-e_install-action.__run_2;outcome=skipped;conclusion=skipped;duration_ms=0]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4403322Z ##[group]Run Swatinem/rust-cache@v2
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4403492Z with:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4403610Z   prefix-key: v0-rust
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4403734Z   add-job-id-key: true
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4403872Z   add-rust-environment-hash-key: true
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404023Z   cache-targets: true
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404145Z   cache-all-crates: false
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404281Z   cache-workspace-crates: false
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404416Z   save-if: true
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404533Z   cache-provider: github
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404656Z   cache-bin: true
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404769Z   lookup-only: false
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404886Z   cmd-format: {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4404998Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4405108Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4405236Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4405348Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4405467Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4405606Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4405749Z   CARGO_TERM_COLOR: always
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.4405877Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7796339Z ##[group]Cache Configuration
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7796627Z Cache Provider:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7796806Z     github
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7796980Z Workspaces:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7797171Z     /home/runner/work/tokio/tokio
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7797401Z Cache Paths:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7797580Z     /home/runner/.cargo/bin
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7797799Z     /home/runner/.cargo/.crates.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7797959Z     /home/runner/.cargo/.crates2.json
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7798112Z     /home/runner/.cargo/registry
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7798263Z     /home/runner/.cargo/git
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7798522Z     /home/runner/work/tokio/tokio/target
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7798751Z Restore Key:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7798927Z     v0-rust-stress-test-Linux-x64-46993ab3
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7799083Z Cache Key:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7799229Z     v0-rust-stress-test-Linux-x64-46993ab3-1a1b6fe9
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7799408Z .. Prefix:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7799546Z   - v0-rust-stress-test-Linux-x64
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7799706Z .. Environment considered:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7799843Z   - Rust Versions:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7800044Z     - 1.85.1 x86_64-unknown-linux-gnu 4eb161250e340c8f48f66e2b929ef4a5bed7c181
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7800335Z     - 1.99.0 x86_64-unknown-linux-gnu b940084d7eb6a299eb4bfeb8e34901bc051e7ac4
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7800537Z   - CARGO_HOME
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7800723Z   - CARGO_INCREMENTAL
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7800912Z   - CARGO_TERM_COLOR
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7801030Z   - RUST_BACKTRACE
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7801147Z   - RUSTFLAGS
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7801264Z .. Lockfiles considered:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7801432Z   - /home/runner/work/tokio/tokio/benches/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7801640Z   - /home/runner/work/tokio/tokio/examples/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7802321Z   - /home/runner/work/tokio/tokio/stress-test/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7802526Z   - /home/runner/work/tokio/tokio/tests-build/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7802757Z   - /home/runner/work/tokio/tokio/tests-integration/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7802990Z   - /home/runner/work/tokio/tokio/tokio-macros/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7803197Z   - /home/runner/work/tokio/tokio/tokio-stream/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7803397Z   - /home/runner/work/tokio/tokio/tokio-test/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7803585Z   - /home/runner/work/tokio/tokio/tokio-util/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7803784Z   - /home/runner/work/tokio/tokio/tokio/Cargo.toml
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7804082Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7804151Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.7804201Z ... Restoring cache ...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9257018Z No cache found.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9338691Z ##[group]Run cargo build -p stress-test --release --example simple_echo_tcp
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9339016Z ^[[36;1mcargo build -p stress-test --release --example simple_echo_tcp^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9395269Z shell: /usr/bin/bash -e {0}
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9395412Z env:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9395527Z   RUSTFLAGS: -Dwarnings
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9395654Z   RUST_BACKTRACE: 1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9395765Z   rust_stable: 1.85
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9395887Z   CARGO_HOME: /home/runner/.cargo
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9396031Z   CARGO_INCREMENTAL: 0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9396155Z   CARGO_TERM_COLOR: always
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9396284Z   CACHE_ON_FAILURE: false
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9396408Z ##[endgroup]
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:14.9725989Z ^[[1m^[[32m    Updating^[[0m crates.io index
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5353387Z ^[[1m^[[32m     Locking^[[0m 185 packages to latest compatible versions
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5392212Z ^[[1m^[[36m      Adding^[[0m criterion v0.5.1 ^[[1m^[[33m(available: v0.7.0)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5433861Z ^[[1m^[[36m      Adding^[[0m hashbrown v0.15.5 ^[[1m^[[33m(available: v0.17.1)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5451191Z ^[[1m^[[36m      Adding^[[0m minicov v0.3.8 ^[[1m^[[33m(available: v0.3.9)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5455472Z ^[[1m^[[36m      Adding^[[0m mockall v0.13.1 ^[[1m^[[33m(available: v0.15.0)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5481015Z ^[[1m^[[36m      Adding^[[0m rand v0.9.5 ^[[1m^[[33m(available: v0.10.3)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5482949Z ^[[1m^[[36m      Adding^[[0m rand_chacha v0.9.0 ^[[1m^[[33m(available: v0.10.0)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5749942Z ^[[1m^[[36m      Adding^[[0m tracing-mock v0.1.0-beta.1 ^[[1m^[[33m(available: v0.1.0-beta.3)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5763717Z ^[[1m^[[36m      Adding^[[0m trybuild v1.0.122 ^[[1m^[[31m(requires Rust 1.88)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5769075Z ^[[1m^[[36m      Adding^[[0m wasip2 v1.0.4+wasi-0.2.12 ^[[1m^[[31m(requires Rust 1.87.0)^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.5882274Z ^[[1m^[[32m Downloading^[[0m crates ...
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6560985Z ^[[1m^[[32m  Downloaded^[[0m cfg-if v1.0.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6575343Z ^[[1m^[[32m  Downloaded^[[0m bytes v1.12.1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6607917Z ^[[1m^[[32m  Downloaded^[[0m errno v0.3.14
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6723439Z ^[[1m^[[32m  Downloaded^[[0m scopeguard v1.2.0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6746877Z ^[[1m^[[32m  Downloaded^[[0m lock_api v0.4.14
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6943602Z ^[[1m^[[32m  Downloaded^[[0m rand_core v0.9.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6963274Z ^[[1m^[[32m  Downloaded^[[0m quote v1.0.47
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6986460Z ^[[1m^[[32m  Downloaded^[[0m signal-hook-registry v1.4.8
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.6996401Z ^[[1m^[[32m  Downloaded^[[0m ppv-lite86 v0.2.21
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7018615Z ^[[1m^[[32m  Downloaded^[[0m rand_chacha v0.9.0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7029966Z ^[[1m^[[32m  Downloaded^[[0m parking_lot v0.12.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7053341Z ^[[1m^[[32m  Downloaded^[[0m smallvec v1.16.3
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7067919Z ^[[1m^[[32m  Downloaded^[[0m unicode-ident v1.0.26
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7091567Z ^[[1m^[[32m  Downloaded^[[0m getrandom v0.3.4
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7121547Z ^[[1m^[[32m  Downloaded^[[0m socket2 v0.6.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7138913Z ^[[1m^[[32m  Downloaded^[[0m proc-macro2 v1.0.107
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7167447Z ^[[1m^[[32m  Downloaded^[[0m pin-project-lite v0.2.17
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7216412Z ^[[1m^[[32m  Downloaded^[[0m rand v0.9.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7255219Z ^[[1m^[[32m  Downloaded^[[0m mio v1.2.4
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7308010Z ^[[1m^[[32m  Downloaded^[[0m parking_lot_core v0.9.12
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7329271Z ^[[1m^[[32m  Downloaded^[[0m zerocopy v0.8.62
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7562890Z ^[[1m^[[32m  Downloaded^[[0m syn v3.0.7
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.7664281Z ^[[1m^[[32m  Downloaded^[[0m libc v0.2.190
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.8226097Z ^[[1m^[[32m   Compiling^[[0m libc v0.2.190
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.8226491Z ^[[1m^[[32m   Compiling^[[0m cfg-if v1.0.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.8226805Z ^[[1m^[[32m   Compiling^[[0m proc-macro2 v1.0.107
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.8227239Z ^[[1m^[[32m   Compiling^[[0m getrandom v0.3.4
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.8518069Z ^[[1m^[[32m   Compiling^[[0m quote v1.0.47
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.9821302Z ^[[1m^[[32m   Compiling^[[0m unicode-ident v1.0.26
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:15.9894128Z ^[[1m^[[32m   Compiling^[[0m zerocopy v0.8.62
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.0446239Z ^[[1m^[[32m   Compiling^[[0m parking_lot_core v0.9.12
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.1733286Z ^[[1m^[[32m   Compiling^[[0m scopeguard v1.2.0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.2009849Z ^[[1m^[[32m   Compiling^[[0m smallvec v1.16.3
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.4083132Z ^[[1m^[[32m   Compiling^[[0m lock_api v0.4.14
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.4765411Z ^[[1m^[[32m   Compiling^[[0m syn v3.0.7
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.5493465Z ^[[1m^[[32m   Compiling^[[0m pin-project-lite v0.2.17
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.5773598Z ^[[1m^[[32m   Compiling^[[0m bytes v1.12.1
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:16.9653499Z ^[[1m^[[32m   Compiling^[[0m rand_core v0.9.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:17.2499615Z ^[[1m^[[32m   Compiling^[[0m errno v0.3.14
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:17.3084269Z ^[[1m^[[32m   Compiling^[[0m signal-hook-registry v1.4.8
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:17.3204722Z ^[[1m^[[32m   Compiling^[[0m parking_lot v0.12.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:17.6283211Z ^[[1m^[[32m   Compiling^[[0m mio v1.2.4
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:18.0071276Z ^[[1m^[[32m   Compiling^[[0m socket2 v0.6.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:18.6359955Z ^[[1m^[[32m   Compiling^[[0m tokio-macros v2.7.2 (/home/runner/work/tokio/tokio/tokio-macros)
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:18.9193659Z ^[[1m^[[32m   Compiling^[[0m ppv-lite86 v0.2.21
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:18.9320880Z ^[[1m^[[32m   Compiling^[[0m tokio v1.53.2 (/home/runner/work/tokio/tokio/tokio)
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.0744200Z ^[[1m^[[32m   Compiling^[[0m rand_chacha v0.9.0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1564290Z ^[[1m^[[32m   Compiling^[[0m rand v0.9.5
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1935848Z ^[[0m^[[1m^[[38;5;9merror[E0433]^[[0m^[[0m^[[1m: failed to resolve: use of undeclared crate or module `pipe`^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1937106Z ^[[0m   ^[[0m^[[0m^[[1m^[[38;5;12m--> ^[[0m^[[0mtokio/src/process/unix/mod.rs:193:24^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1937613Z ^[[0m    ^[[0m^[[0m^[[1m^[[38;5;12m|^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1944463Z ^[[0m^[[1m^[[38;5;12m193^[[0m^[[0m ^[[0m^[[0m^[[1m^[[38;5;12m|^[[0m^[[0m ^[[0m^[[0m    inner: PollEvented<pipe::Sender>,^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1945542Z ^[[0m    ^[[0m^[[0m^[[1m^[[38;5;12m|^[[0m^[[0m                        ^[[0m^[[0m^[[1m^[[38;5;9m^^^^^[[0m^[[0m ^[[0m^[[0m^[[1m^[[38;5;9muse of undeclared crate or module `pipe`^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1946193Z ^[[0m    ^[[0m^[[0m^[[1m^[[38;5;12m|^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1946674Z ^[[0m^[[1m^[[38;5;14mhelp^[[0m^[[0m: consider importing one of these modules^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1947177Z ^[[0m    ^[[0m^[[0m^[[1m^[[38;5;12m|^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1947745Z ^[[0m^[[1m^[[38;5;12m25^[[0m^[[0m  ^[[0m^[[0m^[[38;5;10m+ use crate::net::unix::pipe;^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1948200Z ^[[0m    ^[[0m^[[0m^[[1m^[[38;5;12m|^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1948687Z ^[[0m^[[1m^[[38;5;12m25^[[0m^[[0m  ^[[0m^[[0m^[[38;5;10m+ use mio::unix::pipe;^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1949147Z ^[[0m    ^[[0m^[[0m^[[1m^[[38;5;12m|^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:19.1949472Z 
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.6821332Z ^[[0m^[[1mFor more information about this error, try `rustc --explain E0433`.^[[0m
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.6866615Z ^[[1m^[[31merror^[[0m^[[1m:^[[0m could not compile `tokio` (lib) due to 1 previous error
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7259995Z ##[error]Process completed with exit code 101.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7357594Z Post job cleanup.
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7899114Z [command]/usr/bin/git version
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7927469Z git version 2.55.0
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7948442Z Temporarily overriding HOME='/home/runner/work/_temp/24e2d930-3b93-4569-a2c8-1fa4398c43ab' before making global git config changes
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7949429Z Adding repository directory to the temporary git global config as a safe directory
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7951871Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tokio/tokio
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7975257Z Removing SSH command configuration
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.7979050Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8004258Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8176010Z Removing HTTP extra header
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8178867Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8203538Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8369418Z Removing includeIf entries pointing to credentials config files
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8373274Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8393252Z includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8393626Z includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8393941Z includeif.gitdir:/github/workspace/.git.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8394303Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8399952Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8417797Z /home/runner/work/_temp/git-credentials-e41dcac4-3a06-44aa-86d7-aeaa1f7513e7.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8424820Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-e41dcac4\-3a06\-44aa\-86d7\-aeaa1f7513e7\.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8485493Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8503118Z /home/runner/work/_temp/git-credentials-e41dcac4-3a06-44aa-86d7-aeaa1f7513e7.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8508846Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-e41dcac4\-3a06\-44aa\-86d7\-aeaa1f7513e7\.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8534292Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8551187Z /github/runner_temp/git-credentials-e41dcac4-3a06-44aa-86d7-aeaa1f7513e7.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8555780Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-e41dcac4\-3a06\-44aa\-86d7\-aeaa1f7513e7\.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8579834Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8597564Z /github/runner_temp/git-credentials-e41dcac4-3a06-44aa-86d7-aeaa1f7513e7.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8601142Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-e41dcac4\-3a06\-44aa\-86d7\-aeaa1f7513e7\.config
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8626427Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8790406Z Removing credentials config '/home/runner/work/_temp/git-credentials-e41dcac4-3a06-44aa-86d7-aeaa1f7513e7.config'
+Stress Test (simple_echo_tcp)	UNKNOWN STEP	2026-10-10T12:36:20.8927002Z Cleaning up orphan processes

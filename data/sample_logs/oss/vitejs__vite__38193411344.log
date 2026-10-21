@@ -1,0 +1,251 @@
+copilot-setup-steps	UNKNOWN STEP	﻿2026-10-12T01:50:04.4116076Z Current runner version: '2.337.0'
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4140348Z ##[group]Runner Image Provisioner
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4141288Z Hosted Compute Agent
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4141820Z Version: 20261002.596
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4142415Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4143324Z Build Date: 2026-10-02T22:28:27Z
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4143958Z Worker ID: {0b35fe4c-aa8a-40c1-b65f-0b66511a84e1}
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4144656Z Region: westus3
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4145158Z Cloud: Azure
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4145629Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4147087Z ##[group]Operating System
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4147661Z Ubuntu
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4148232Z 24.04.5
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4148696Z LTS
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4149149Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4149677Z ##[group]Runner Image
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4150276Z Image: ubuntu-24.04
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4150893Z Version: 20261004.327.1
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4152067Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4153652Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4154555Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4155639Z ##[group]GITHUB_TOKEN Permissions
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4157762Z Contents: write
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4158341Z Metadata: read
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4158854Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4161016Z Secret source: Actions
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4161977Z Cache mode: write
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4162609Z Prepare workflow directory
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4478745Z Prepare all required actions
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.4528452Z Getting action download info
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.8281733Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:04.9067612Z Download action repository 'pnpm/setup@a0881977cd8ea73b1ed212236c99ca10dcc80cf4' (SHA:a0881977cd8ea73b1ed212236c99ca10dcc80cf4)
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.6577414Z Complete job name: copilot-setup-steps
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7407301Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7408225Z with:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7408648Z   persist-credentials: false
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7409129Z   repository: vitejs/vite
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7412484Z   token: ***
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7413001Z   ssh-strict: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7413403Z   ssh-user: git
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7413793Z   clean: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7414220Z   sparse-checkout-cone-mode: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7414706Z   fetch-depth: 1
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7415127Z   fetch-tags: false
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7415550Z   show-progress: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7415961Z   lfs: false
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7416344Z   submodules: false
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7416769Z   set-safe-directory: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7417231Z   allow-unsafe-pr-checkout: false
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.7417908Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8354042Z Syncing repository: vitejs/vite
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8355706Z ##[group]Getting Git version info
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8356464Z Working directory is '/home/runner/work/vite/vite'
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8357344Z [command]/usr/bin/git version
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8433262Z git version 2.55.0
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8451420Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8461532Z Temporarily overriding HOME='/home/runner/work/_temp/65c93338-3eba-43dc-aaf6-fcaaeb8f3b76' before making global git config changes
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8462916Z Adding repository directory to the temporary git global config as a safe directory
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8466627Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/vite/vite
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8508356Z Deleting the contents of '/home/runner/work/vite/vite'
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8511476Z ##[group]Determining repository object format
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8513320Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8513996Z ##[group]Initializing the repository
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8516994Z [command]/usr/bin/git init /home/runner/work/vite/vite
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8610714Z hint: Using 'master' as the name for the initial branch. This default branch name
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8611870Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8613338Z hint: to use in all of your new repositories, which will suppress this warning,
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8614246Z hint: call:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8614626Z hint:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8615092Z hint: 	git config --global init.defaultBranch <name>
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8615645Z hint:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8616171Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8617127Z hint: 'development'. The just-created branch can be renamed via this command:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8617923Z hint:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8618474Z hint: 	git branch -m <name>
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8618899Z hint:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8619464Z hint: Disable this message with "git config set advice.defaultBranchName false"
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8620395Z Initialized empty Git repository in /home/runner/work/vite/vite/.git/
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8623305Z [command]/usr/bin/git remote add origin https://github.com/vitejs/vite
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8664591Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8665358Z ##[group]Disabling automatic garbage collection
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8667496Z [command]/usr/bin/git config --local gc.auto 0
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8694909Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8696029Z ##[group]Setting up auth
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8696849Z Removing SSH command configuration
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8700184Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.8729585Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9025351Z Removing HTTP extra header
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9030529Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9056462Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9223907Z Removing includeIf entries pointing to credentials config files
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9228510Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9255366Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9429077Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9459344Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/vite/vite/.git.path /home/runner/work/_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9485357Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9516704Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9541443Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9564241Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9565432Z ##[group]Fetching the repository
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:05.9571904Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +247a5b30576c0f2a28363a94f0db95c607292f1b:refs/remotes/pull/23731/merge
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6252482Z From https://github.com/vitejs/vite
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6253792Z  * [new ref]         247a5b30576c0f2a28363a94f0db95c607292f1b -> pull/23731/merge
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6256679Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6257503Z ##[group]Determining the checkout info
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6258343Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6263789Z [command]/usr/bin/git sparse-checkout disable
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6308072Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6333105Z ##[group]Checking out the ref
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.6337628Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/23731/merge
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7393212Z Note: switching to 'refs/remotes/pull/23731/merge'.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7393798Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7394179Z You are in 'detached HEAD' state. You can look around, make experimental
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7394834Z changes and commit them, and you can discard any commits you make in this
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7395493Z state without impacting any branches by switching back to a branch.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7395876Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7396211Z If you want to create a new branch to retain commits you create, you may
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7396827Z do so (now or later) by using -c with the switch command. Example:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7397170Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7397351Z   git switch -c <new-branch-name>
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7397675Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7397913Z Or undo this operation with:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7398273Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7398508Z   git switch -
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7398884Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7399340Z Turn off this advice by setting config variable advice.detachedHead to false
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7400051Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7400758Z HEAD is now at 247a5b3 Merge 0558e0ebf0d7e28c64867ea257a636f0d3e11efb into 3b72997d42e7dd2b31898d0e68461e3025e836b6
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7404392Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7445135Z [command]/usr/bin/git log -1 --format=%H
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7466108Z 247a5b30576c0f2a28363a94f0db95c607292f1b
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7475042Z ##[group]Removing auth
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7475677Z Removing SSH command configuration
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7479467Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7505798Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7679175Z Removing HTTP extra header
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7682169Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7710323Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7888107Z Removing includeIf entries pointing to credentials config files
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7890863Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7916113Z includeif.gitdir:/home/runner/work/vite/vite/.git.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7917679Z includeif.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7918738Z includeif.gitdir:/github/workspace/.git.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7919687Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7925782Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/vite/vite/.git.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7943274Z /home/runner/work/_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.7986447Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/vite/vite/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-186574ac\-e015\-4ba4\-a73f\-cbaa7ebf20f7\.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8015692Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8034354Z /home/runner/work/_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8041791Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-186574ac\-e015\-4ba4\-a73f\-cbaa7ebf20f7\.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8068505Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8086189Z /github/runner_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8094117Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-186574ac\-e015\-4ba4\-a73f\-cbaa7ebf20f7\.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8161930Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8197746Z /github/runner_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8208254Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-186574ac\-e015\-4ba4\-a73f\-cbaa7ebf20f7\.config
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8236884Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8416673Z Removing credentials config '/home/runner/work/_temp/git-credentials-186574ac-e015-4ba4-a73f-cbaa7ebf20f7.config'
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8424670Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8656305Z ##[group]Run pnpm/setup@a0881977cd8ea73b1ed212236c99ca10dcc80cf4
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8656758Z with:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8657019Z   runtime: node@24
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8657280Z   cache: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8657548Z   dest: ~/setup-pnpm
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8657824Z   save-cache: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8658089Z   working-directory: .
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8658383Z   require-lockfile: false
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8658670Z   install: true
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.8658928Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.9833094Z ##[group]Installing pnpm...
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:07.9841399Z Downloading pnpm 12.11.2 from https://registry.npmjs.org/
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:08.2070603Z ==> Downloading pnpm 12.11.2
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:08.9565183Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:08.9566921Z Installation Completed!
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:08.9567863Z ##[group]Restoring cache...
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:10.4240070Z Lockfile verification cache is not found
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:10.4259761Z [command]/home/runner/setup-pnpm/pnpm store path
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:10.4382583Z /home/runner/setup-pnpm/store/v11
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:10.6391217Z Cache hit for restore-key: pnpm-cache-Linux-x64-2fb24468351ea046bd9d0a57c23be5fd23e78f50a36bfdb56f46901df1ea7ef9-3c3cd01f10bf3bc4020dafe70fadae9d405b201e1f381eda42754949f785d806-7f65e6ff5560bd1ba9949fedde9bd25dbd561949309510e80e89ee0bc0415cae-37959466369-1-7ca6b80d-23ab-40ee-9576-e284a553fb4c
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:11.8968304Z Received 16777216 of 210673377 (8.0%), 16.0 MBs/sec
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:12.8969683Z Received 167772160 of 210673377 (79.6%), 80.0 MBs/sec
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:13.1835323Z Received 210673377 of 210673377 (100.0%), 87.8 MBs/sec
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:13.1836150Z Cache Size: ~201 MB (210673377 B)
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:13.1869820Z [command]/usr/bin/tar -xf /home/runner/work/_temp/3da4e4e5-8c61-4bc5-8c1e-3537744f9841/cache.tzst -P -C /home/runner/work/vite/vite --use-compress-program unzstd
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:14.4742452Z Cache restored successfully
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:14.5758716Z Cache restored from key: pnpm-cache-Linux-x64-2fb24468351ea046bd9d0a57c23be5fd23e78f50a36bfdb56f46901df1ea7ef9-3c3cd01f10bf3bc4020dafe70fadae9d405b201e1f381eda42754949f785d806-7f65e6ff5560bd1ba9949fedde9bd25dbd561949309510e80e89ee0bc0415cae-37959466369-1-7ca6b80d-23ab-40ee-9576-e284a553fb4c
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:14.5763231Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:14.5764155Z ##[group]Installing runtime node@24...
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.0763962Z .../global/v11/9ba-18dda52735c9e319-0    | Progress: resolved 1, reused 0, downloaded 0, added 0
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.1036157Z Downloading node@runtime:24.21.0: 0.00 B/58.08 MB
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9856884Z Packages are hard linked from the content-addressable store to the virtual store.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9928324Z   Content-addressable store is at: /home/runner/setup-pnpm/store/v11
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9929543Z   Virtual store is at:             ../../../setup-pnpm/global/v11/9ba-18dda52735c9e319-0/node_modules/.pnpm
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9943914Z .../global/v11/9ba-18dda52735c9e319-0    | Progress: resolved 1, reused 0, downloaded 1, added 1, done
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9979796Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9980025Z dependencies:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9980407Z + node 24.21.0
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9980627Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:15.9998880Z Done in 1.4s using pnpm v12.11.2
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.0026247Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.0185862Z ##[group]Running pnpm install --no-runtime...
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.0978337Z Scope: all 286 workspace projects
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.0989677Z [WARN] The settings in packages/vite/src/node/server/__tests__/fixtures/pnpm/pnpm-workspace.yaml do not apply, because packages/vite/src/node/server/__tests__/fixtures/pnpm is a project of this workspace. pnpm reads settings only from the pnpm-workspace.yaml at the workspace root. Move the settings there, or add "!packages/vite/src/node/server/__tests__/fixtures/pnpm" to the root's "packages" to keep that project a separate workspace.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1130119Z Error: ERR_PNPM_OUTDATED_LOCKFILE
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1130560Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1130965Z   × installing dependencies
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1132067Z   ╰─▶ Cannot install with "frozen-lockfile" because pnpm-lock.yaml is not up
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1132903Z       to date with package.json.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1133303Z       
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1133627Z         Failure reason:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1134151Z         specifiers in the lockfile don't match specifiers in package.json:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1134757Z       * in importers["."]:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1135162Z       * 2 dependencies are mismatched:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1135691Z         - @types/node (lockfile: ^24.19.1, manifest: ^24.19.2)
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1136417Z         - playwright-chromium (lockfile: ^1.63.0, manifest: ^1.64.0)
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1137255Z   help: Regenerate the lockfile with `pnpm install --lockfile-only` so that
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1138070Z         pnpm-lock.yaml reflects the current package.json, then re-run `pnpm
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1138734Z         install --frozen-lockfile`.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1139028Z 
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1144084Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1178760Z ##[error]pnpm install --no-runtime exited with status 1
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.1273128Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/vite/vite --files-from manifest.txt --use-compress-program zstdmt
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.3248560Z ##[warning]Failed to save: Unable to reserve cache with key pnpm-lockfile-verified-Linux-x64-e90c6a53118c68b71e8bf4ab17d71a12e149045c7b72967e8a7580f9826f15cb, another job may be creating this cache.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.3556741Z Post job cleanup.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.4878224Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/vite/vite --files-from manifest.txt --use-compress-program zstdmt
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.7007995Z ##[warning]Failed to save: Unable to reserve cache with key pnpm-lockfile-verified-Linux-x64-e90c6a53118c68b71e8bf4ab17d71a12e149045c7b72967e8a7580f9826f15cb, another job may be creating this cache.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.7013984Z ##[group]Running pnpm store prune...
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:16.7026279Z [command]/home/runner/setup-pnpm/pnpm store prune
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:18.4810597Z Removed 28664 files (694980291 bytes)
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:18.4811104Z Removed 1011 packages
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:18.4831017Z ##[endgroup]
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:18.4909855Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/vite/vite --files-from manifest.txt --use-compress-program zstdmt
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.0486495Z Sent 34668544 of 43022289 (80.6%), 33.1 MBs/sec
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.2554729Z Sent 43022289 of 43022289 (100.0%), 34.0 MBs/sec
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.5103091Z Cache saved with the key: pnpm-cache-Linux-x64-2fb24468351ea046bd9d0a57c23be5fd23e78f50a36bfdb56f46901df1ea7ef9-e90c6a53118c68b71e8bf4ab17d71a12e149045c7b72967e8a7580f9826f15cb-7f65e6ff5560bd1ba9949fedde9bd25dbd561949309510e80e89ee0bc0415cae-38193411344-1-854188aa-ad2e-46df-942c-8b7979e6d94b
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.5245421Z Post job cleanup.
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6067156Z [command]/usr/bin/git version
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6101305Z git version 2.55.0
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6132976Z Temporarily overriding HOME='/home/runner/work/_temp/4012b57b-b005-4d58-97db-aee74b86ad16' before making global git config changes
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6134396Z Adding repository directory to the temporary git global config as a safe directory
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6138865Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/vite/vite
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6163529Z Removing SSH command configuration
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6168755Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6196987Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6386955Z Removing HTTP extra header
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6391653Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6421344Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6595894Z Removing includeIf entries pointing to credentials config files
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6602162Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6628670Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+copilot-setup-steps	UNKNOWN STEP	2026-10-12T01:50:20.6926527Z Cleaning up orphan processes

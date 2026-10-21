@@ -1,0 +1,400 @@
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6506681Z  * [new tag]             2.8.4             -> 2.8.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6507898Z  * [new tag]             2.8.5             -> 2.8.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6509126Z  * [new tag]             2.8.6             -> 2.8.6
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6510326Z  * [new tag]             2.8.7             -> 2.8.7
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6511907Z  * [new tag]             2.9.0             -> 2.9.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6513122Z  * [new tag]             2.9.1             -> 2.9.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6514350Z  * [new tag]             2.9.2             -> 2.9.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6515568Z  * [new tag]             3.0.0             -> 3.0.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6516992Z  * [new tag]             3.0.1             -> 3.0.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6518211Z  * [new tag]             3.0.2             -> 3.0.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6519409Z  * [new tag]             3.0.3             -> 3.0.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6520623Z  * [new tag]             3.0.4             -> 3.0.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6522203Z  * [new tag]             3.0.5             -> 3.0.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6523388Z  * [new tag]             3.0.6             -> 3.0.6
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6524578Z  * [new tag]             3.0.7             -> 3.0.7
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6525775Z  * [new tag]             3.1.0             -> 3.1.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6526973Z  * [new tag]             3.1.1             -> 3.1.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6528156Z  * [new tag]             3.1.2             -> 3.1.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6529342Z  * [new tag]             3.1.3             -> 3.1.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6530535Z  * [new tag]             3.10.0            -> 3.10.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6532014Z  * [new tag]             3.10.1            -> 3.10.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6533212Z  * [new tag]             3.2.0             -> 3.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6534407Z  * [new tag]             3.2.1             -> 3.2.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6535575Z  * [new tag]             3.2.2             -> 3.2.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6536763Z  * [new tag]             3.2.3             -> 3.2.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6537948Z  * [new tag]             3.2.4             -> 3.2.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6539115Z  * [new tag]             3.2.5             -> 3.2.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6540298Z  * [new tag]             3.3.0             -> 3.3.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6541714Z  * [new tag]             3.3.1             -> 3.3.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6542894Z  * [new tag]             3.3.2             -> 3.3.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6544072Z  * [new tag]             3.4.0             -> 3.4.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6545238Z  * [new tag]             3.4.1             -> 3.4.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6546423Z  * [new tag]             3.4.2             -> 3.4.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6547593Z  * [new tag]             3.5.0             -> 3.5.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6548911Z  * [new tag]             3.5.1             -> 3.5.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6550081Z  * [new tag]             3.6.0             -> 3.6.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6551489Z  * [new tag]             3.6.1             -> 3.6.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6552655Z  * [new tag]             3.6.2             -> 3.6.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6553811Z  * [new tag]             3.6.3             -> 3.6.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6554976Z  * [new tag]             3.6.4             -> 3.6.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6556141Z  * [new tag]             3.7.0             -> 3.7.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6557308Z  * [new tag]             3.7.1             -> 3.7.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6558471Z  * [new tag]             3.7.2             -> 3.7.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6559631Z  * [new tag]             3.7.3             -> 3.7.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6560792Z  * [new tag]             3.7.4             -> 3.7.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6562250Z  * [new tag]             3.8.0             -> 3.8.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6563419Z  * [new tag]             3.8.1             -> 3.8.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6564587Z  * [new tag]             3.8.2             -> 3.8.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6565752Z  * [new tag]             3.9.0             -> 3.9.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6566901Z  * [new tag]             3.9.1             -> 3.9.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6568058Z  * [new tag]             3.9.2             -> 3.9.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6569221Z  * [new tag]             3.9.3             -> 3.9.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6570420Z  * [new tag]             4.0.0             -> 4.0.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6571821Z  * [new tag]             4.0.1             -> 4.0.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6572988Z  * [new tag]             4.0.2             -> 4.0.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6574140Z  * [new tag]             4.1.0             -> 4.1.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6575305Z  * [new tag]             4.1.1             -> 4.1.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6576458Z  * [new tag]             4.2.0             -> 4.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6577789Z  * [new tag]             4.2.1             -> 4.2.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6578960Z  * [new tag]             4.3.0             -> 4.3.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6580124Z  * [new tag]             4.3.1             -> 4.3.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6581532Z  * [new tag]             4.4.0             -> 4.4.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6582697Z  * [new tag]             4.4.1             -> 4.4.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6583849Z  * [new tag]             4.4.2             -> 4.4.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6585002Z  * [new tag]             4.5.0             -> 4.5.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6586175Z  * [new tag]             4.6.0             -> 4.6.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6587334Z  * [new tag]             4.6.1             -> 4.6.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6588493Z  * [new tag]             4.6.10            -> 4.6.10
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6589650Z  * [new tag]             4.6.11            -> 4.6.11
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6591035Z  * [new tag]             4.6.2             -> 4.6.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6592232Z  * [new tag]             4.6.3             -> 4.6.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6593399Z  * [new tag]             4.6.4             -> 4.6.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6594557Z  * [new tag]             4.6.5             -> 4.6.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6595724Z  * [new tag]             4.6.6             -> 4.6.6
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6596893Z  * [new tag]             4.6.7             -> 4.6.7
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6598055Z  * [new tag]             4.6.8             -> 4.6.8
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6599207Z  * [new tag]             4.6.9             -> 4.6.9
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6600364Z  * [new tag]             5.0.0             -> 5.0.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6601786Z  * [new tag]             5.0.1             -> 5.0.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6602958Z  * [new tag]             5.1.0             -> 5.1.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6604114Z  * [new tag]             5.1.1             -> 5.1.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6605275Z  * [new tag]             5.1.2             -> 5.1.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6606475Z  * [new tag]             5.1.3             -> 5.1.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6607694Z  * [new tag]             5.2.0             -> 5.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6608910Z  * [new tag]             5.2.1             -> 5.2.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6610313Z  * [new tag]             5.2.2             -> 5.2.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6611880Z  * [new tag]             5.2.3             -> 5.2.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6613094Z  * [new tag]             5.2.4             -> 5.2.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6614296Z  * [new tag]             5.3.0             -> 5.3.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6615510Z  * [new tag]             5.3.1             -> 5.3.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6616716Z  * [new tag]             5.3.2             -> 5.3.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6617937Z  * [new tag]             5.3.3             -> 5.3.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6619146Z  * [new tag]             5.3.4             -> 5.3.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6620345Z  * [new tag]             5.3.5             -> 5.3.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6621799Z  * [new tag]             5.4.0             -> 5.4.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6623018Z  * [new tag]             5.4.1             -> 5.4.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6624237Z  * [new tag]             5.4.2             -> 5.4.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6625443Z  * [new tag]             5.4.3             -> 5.4.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6626653Z  * [new tag]             6.0.0             -> 6.0.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6627878Z  * [new tag]             6.0.0rc1          -> 6.0.0rc1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6629098Z  * [new tag]             6.0.1             -> 6.0.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6630296Z  * [new tag]             6.0.2             -> 6.0.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6631727Z  * [new tag]             6.1.0             -> 6.1.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6632926Z  * [new tag]             6.1.1             -> 6.1.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6634117Z  * [new tag]             6.1.2             -> 6.1.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6635305Z  * [new tag]             6.2.0             -> 6.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6636520Z  * [new tag]             6.2.0.dev0        -> 6.2.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6637791Z  * [new tag]             6.2.1             -> 6.2.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6638987Z  * [new tag]             6.2.2             -> 6.2.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6640354Z  * [new tag]             6.2.3             -> 6.2.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6641822Z  * [new tag]             6.2.4             -> 6.2.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6643014Z  * [new tag]             6.2.5             -> 6.2.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6644228Z  * [new tag]             6.3.0.dev0        -> 6.3.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6645432Z  * [new tag]             7.0.0             -> 7.0.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6646649Z  * [new tag]             7.0.0.dev0        -> 7.0.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6647906Z  * [new tag]             7.0.0.post1       -> 7.0.0.post1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6649151Z  * [new tag]             7.0.0rc1          -> 7.0.0rc1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6650354Z  * [new tag]             7.0.1             -> 7.0.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6651829Z  * [new tag]             7.1.0             -> 7.1.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6653032Z  * [new tag]             7.1.0.dev0        -> 7.1.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6654226Z  * [new tag]             7.1.1             -> 7.1.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6655409Z  * [new tag]             7.1.2             -> 7.1.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6656596Z  * [new tag]             7.1.3             -> 7.1.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6657773Z  * [new tag]             7.2.0             -> 7.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6658979Z  * [new tag]             7.2.0.dev0        -> 7.2.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6660194Z  * [new tag]             7.2.1             -> 7.2.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6661721Z  * [new tag]             7.2.2             -> 7.2.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6662898Z  * [new tag]             7.3.0             -> 7.3.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6664076Z  * [new tag]             7.3.1             -> 7.3.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6665248Z  * [new tag]             7.3.2             -> 7.3.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6666435Z  * [new tag]             7.4.0             -> 7.4.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6667645Z  * [new tag]             7.4.0.dev0        -> 7.4.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6668844Z  * [new tag]             7.4.1             -> 7.4.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6670064Z  * [new tag]             7.4.2             -> 7.4.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6671512Z  * [new tag]             7.4.3             -> 7.4.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6672868Z  * [new tag]             7.4.4             -> 7.4.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6674062Z  * [new tag]             8.0.0             -> 8.0.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6675275Z  * [new tag]             8.0.0.dev0        -> 8.0.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6676493Z  * [new tag]             8.0.0rc1          -> 8.0.0rc1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6677689Z  * [new tag]             8.0.0rc2          -> 8.0.0rc2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6678865Z  * [new tag]             8.0.1             -> 8.0.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6680047Z  * [new tag]             8.0.2             -> 8.0.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6681474Z  * [new tag]             8.1.0             -> 8.1.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6682703Z  * [new tag]             8.1.0.dev0        -> 8.1.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6683903Z  * [new tag]             8.1.1             -> 8.1.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6685059Z  * [new tag]             8.1.2             -> 8.1.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6686236Z  * [new tag]             8.2.0             -> 8.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6687437Z  * [new tag]             8.2.0.dev0        -> 8.2.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6688636Z  * [new tag]             8.2.1             -> 8.2.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6689813Z  * [new tag]             8.2.2             -> 8.2.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6691110Z  * [new tag]             8.3.0             -> 8.3.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6692313Z  * [new tag]             8.3.0.dev0        -> 8.3.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6693511Z  * [new tag]             8.3.1             -> 8.3.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6694683Z  * [new tag]             8.3.2             -> 8.3.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6695842Z  * [new tag]             8.3.3             -> 8.3.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6697000Z  * [new tag]             8.3.4             -> 8.3.4
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6698161Z  * [new tag]             8.3.5             -> 8.3.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6699337Z  * [new tag]             8.4.0             -> 8.4.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6700692Z  * [new tag]             8.4.0.dev0        -> 8.4.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6702301Z  * [new tag]             8.4.1             -> 8.4.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6703504Z  * [new tag]             8.4.2             -> 8.4.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6704701Z  * [new tag]             8.5.0.dev0        -> 8.5.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6705916Z  * [new tag]             9.0.0             -> 9.0.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6707071Z  * [new tag]             9.0.1             -> 9.0.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6708246Z  * [new tag]             9.0.2             -> 9.0.2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6709413Z  * [new tag]             9.0.3             -> 9.0.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6710570Z  * [new tag]             9.1.0             -> 9.1.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6711910Z  * [new tag]             9.1.0.dev0        -> 9.1.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6713104Z  * [new tag]             9.1.1             -> 9.1.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6714294Z  * [new tag]             9.2.0.dev0        -> 9.2.0.dev0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6715499Z  * [new tag]             v7.4.3            -> v7.4.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6718322Z [command]/usr/bin/git branch --list --remote origin/main
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6719569Z   origin/main
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6722012Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6723278Z 2887015cade4757385308e7a7d8083557fc637e2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6725911Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6727287Z ##[group]Determining the checkout info
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6728822Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6729720Z [command]/usr/bin/git sparse-checkout disable
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6732484Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6735516Z ##[group]Checking out the ref
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.6736964Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7109839Z Switched to a new branch 'main'
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7115559Z branch 'main' set up to track 'origin/main'.
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7128668Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7168986Z [command]/usr/bin/git log -1 --format=%H
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7194246Z 2887015cade4757385308e7a7d8083557fc637e2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7207578Z ##[group]Removing auth
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7208821Z Removing SSH command configuration
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7212014Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7247467Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7468444Z Removing HTTP extra header
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7472804Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7503107Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7712825Z Removing includeIf entries pointing to credentials config files
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7715484Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7740569Z includeif.gitdir:/home/runner/work/pytest/pytest/.git.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7742723Z includeif.gitdir:/home/runner/work/pytest/pytest/.git/worktrees/*.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7744286Z includeif.gitdir:/github/workspace/.git.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7745647Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7757004Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pytest/pytest/.git.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7773015Z /home/runner/work/_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7782537Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pytest/pytest/.git.path /home/runner/work/_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7838849Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pytest/pytest/.git/worktrees/*.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7862703Z /home/runner/work/_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7871409Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pytest/pytest/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7909000Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7932524Z /github/runner_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7943008Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7973632Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.7994487Z /github/runner_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8002638Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8033776Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8253912Z Removing credentials config '/home/runner/work/_temp/git-credentials-06b92c9a-47fc-4146-ae86-9ba99c5679fc.config'
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8257539Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8550538Z ##[group]Run pytest-dev/pytest/.github/actions/setup-tox@2887015cade4757385308e7a7d8083557fc637e2
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8552433Z with:
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8553185Z   python-version: 3.13
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8554028Z   enable-cache: true
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8554861Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8617262Z ##[start-action display=Install uv;id=__self.__astral-sh_setup-uv]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8836182Z ##[group]Run astral-sh/setup-uv@11f9893b081a58869d3b5fccaea48c9e9e46f990
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8837447Z with:
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8838160Z   enable-cache: true
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8839013Z   activate-environment: false
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8839911Z   no-project: false
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8841031Z   working-directory: /home/runner/work/pytest/pytest
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8849868Z   github-token: ***
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8852107Z   cache-dependency-glob: **/*requirements*.txt
+doc-check-links	UNKNOWN STEP	**/*requirements*.in
+doc-check-links	UNKNOWN STEP	**/*constraints*.txt
+doc-check-links	UNKNOWN STEP	**/*constraints*.in
+doc-check-links	UNKNOWN STEP	**/pyproject.toml
+doc-check-links	UNKNOWN STEP	**/uv.lock
+doc-check-links	UNKNOWN STEP	**/*.py.lock
+doc-check-links	UNKNOWN STEP	
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8854167Z   restore-cache: true
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8855023Z   save-cache: true
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8855797Z   prune-cache: true
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8856586Z   cache-python: false
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8857454Z   ignore-nothing-to-cache: false
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8858414Z   ignore-empty-workdir: false
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8859370Z   download-from-astral-mirror: true
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8860368Z   add-problem-matchers: true
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8861389Z   quiet: false
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8862189Z   resolution-strategy: highest
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:20.8863067Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.0612844Z Trying to find version for uv in: /home/runner/work/pytest/pytest/uv.toml
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.0615512Z Could not find file: /home/runner/work/pytest/pytest/uv.toml
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.0618137Z Trying to find version for uv in: /home/runner/work/pytest/pytest/pyproject.toml
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.0632233Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.0636076Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.1218152Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.23/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.2755713Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/a95833a2-b39a-4844-8544-2c00f4578344 -f /home/runner/work/_temp/30ef6d2a-93b3-409c-a5dd-db004274c3ca
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.6362916Z Added /home/runner/.local/bin to the path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.6366873Z Added /opt/hostedtoolcache/uv/0.12.23/x86_64 to the path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.6369020Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.6369808Z Added /home/runner/work/_temp/uv-python-dir to the path
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.6396227Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.6396943Z Successfully installed uv version 0.12.23
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.6983661Z Searching files using cache dependency glob: /home/runner/work/pytest/pytest/**/*requirements*.txt,/home/runner/work/pytest/pytest/**/*requirements*.in,/home/runner/work/pytest/pytest/**/*constraints*.txt,/home/runner/work/pytest/pytest/**/*constraints*.in,/home/runner/work/pytest/pytest/**/pyproject.toml,/home/runner/work/pytest/pytest/**/uv.lock,/home/runner/work/pytest/pytest/**/*.py.lock
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.7971233Z /home/runner/work/pytest/pytest/doc/en/broken-dep-constraints.txt
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.8159600Z /home/runner/work/pytest/pytest/doc/en/requirements.txt
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.8173059Z /home/runner/work/pytest/pytest/pyproject.toml
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.8555942Z /home/runner/work/pytest/pytest/testing/plugins_integration/requirements.txt
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.8618008Z /home/runner/work/pytest/pytest/uv.lock
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.8628547Z Found 5 files to hash.
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.8703230Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-pruned-d31d6da487a13f9e6533dd789dc54e11e2c44adec00d98bfbefb02406c48ef5b
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:21.9118044Z No GitHub Actions cache found for key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-pruned-d31d6da487a13f9e6533dd789dc54e11e2c44adec00d98bfbefb02406c48ef5b
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0223905Z ##[end-action id=__self.__astral-sh_setup-uv;outcome=success;conclusion=success;duration_ms=1160]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0228004Z ##[start-action display=Install tox;id=__self.__run]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0258015Z ##[group]Run if [ -n "$PYTHON_VERSION" ]; then
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0258454Z ^[[36;1mif [ -n "$PYTHON_VERSION" ]; then^[[0m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0258853Z ^[[36;1m  uv tool install --python "$PYTHON_VERSION" tox --with tox-uv^[[0m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0259221Z ^[[36;1melse^[[0m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0259451Z ^[[36;1m  uv tool install tox --with tox-uv^[[0m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0259722Z ^[[36;1mfi^[[0m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0523152Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0523553Z env:
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0523883Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0524323Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0524674Z   PYTHON_VERSION: 3.13
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.0524913Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:22.2065263Z Downloading cpython-3.13.16-linux-x86_64-gnu (download) (33.5MiB)
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.0546938Z  Downloaded cpython-3.13.16-linux-x86_64-gnu (download)
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.2741847Z Resolved 15 packages in 68ms
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.2952653Z Downloading uv (19.6MiB)
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.2984611Z Downloading virtualenv (5.2MiB)
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.3382867Z  Downloaded virtualenv
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4437244Z  Downloaded uv
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4440591Z Prepared 15 packages in 168ms
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4515905Z Installed 15 packages in 7ms
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4516394Z  + cachetools==7.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4516786Z  + colorama==0.4.6
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4517150Z  + distlib==0.4.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4517680Z  + filelock==4.0.10
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4518059Z  + packaging==26.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4518634Z  + platformdirs==4.12.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4518995Z  + pluggy==1.6.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4519472Z  + pyproject-api==1.11.3
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4520013Z  + python-discovery==1.6.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4520582Z  + tomli-w==1.2.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4521304Z  + tox==4.64.8
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4521763Z  + tox-uv==1.36.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4522557Z  + tox-uv-bare==1.36.1
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4523042Z  + uv==0.12.23
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4523487Z  + virtualenv==21.14.5
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4527221Z Installed 1 executable: tox
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4594423Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=1436]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4629250Z ##[group]Run tox -e docs-checklinks
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4629589Z ^[[36;1mtox -e docs-checklinks^[[0m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4692273Z shell: /usr/bin/bash -e {0}
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4692526Z env:
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4692818Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4693226Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:23.4693533Z ##[endgroup]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:24.4741769Z docs-checklinks: venv> /home/runner/.local/share/uv/tools/tox/bin/uv venv -p /home/runner/.local/share/uv/tools/tox/bin/python --allow-existing '--prompt=pytest[docs-checklinks]' --python-preference system /home/runner/work/pytest/pytest/.tox/docs-checklinks
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:24.5260440Z docs-checklinks: install_deps> /home/runner/.local/share/uv/tools/tox/bin/uv pip install -r /home/runner/work/pytest/pytest/doc/en/requirements.txt
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:24.9908210Z .pkg: venv> /home/runner/.local/share/uv/tools/tox/bin/uv venv -p /home/runner/.local/share/uv/tools/tox/bin/python --allow-existing '--prompt=pytest[.pkg]' --python-preference system /home/runner/work/pytest/pytest/.tox/.pkg
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:25.0060253Z .pkg: install_requires> /home/runner/.local/share/uv/tools/tox/bin/uv pip install 'setuptools-scm[toml]>=10.1' 'setuptools>=77'
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:25.1703735Z .pkg: _optional_hooks> python /home/runner/.local/share/uv/tools/tox/lib/python3.13/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:25.5185000Z .pkg: get_requires_for_build_wheel> python /home/runner/.local/share/uv/tools/tox/lib/python3.13/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:26.6738179Z .pkg: get_requires_for_build_editable> python /home/runner/.local/share/uv/tools/tox/lib/python3.13/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.1897579Z .pkg: freeze> /home/runner/.local/share/uv/tools/tox/bin/uv --color never pip freeze
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.1974726Z .pkg: packaging==26.3,setuptools==84.0.0,setuptools-scm==10.3.4,vcs-versioning==2.5.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.1988828Z .pkg: build_editable> python /home/runner/.local/share/uv/tools/tox/lib/python3.13/site-packages/pyproject_api/_backend.py True setuptools.build_meta
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.8236517Z docs-checklinks: install_package_deps> /home/runner/.local/share/uv/tools/tox/bin/uv pip install 'colorama>=0.4; sys_platform == "win32"' 'exceptiongroup>=1; python_version < "3.11"' 'iniconfig>=2' 'packaging>=24' 'pluggy<2,>=1.5' 'pygments>=2.15' 'tomli>=2; python_version < "3.11"'
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.9090027Z docs-checklinks: install_package> /home/runner/.local/share/uv/tools/tox/bin/uv pip install --reinstall --no-deps pytest@/home/runner/work/pytest/pytest/.tox/.tmp/package/1/pytest-9.2.0.dev349+g2887015ca-0.editable-py3-none-any.whl
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.9643377Z docs-checklinks: freeze> /home/runner/.local/share/uv/tools/tox/bin/uv --color never pip freeze
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.9728253Z docs-checklinks: accessible-pygments==0.0.5,alabaster==1.0.0,babel==2.18.0,beautifulsoup4==4.15.0,certifi==2026.7.22,charset-normalizer==3.5.2,click==8.5.0,docutils==0.22.4,furo==2025.12.19,idna==3.20,imagesize==2.0.1,iniconfig==2.3.0,jinja2==3.1.6,markupsafe==3.0.4,packaging==26.3,pluggy==1.6.0,pygments==2.21.0,pygments-pytest==2.5.0,pytest @ file:///home/runner/work/pytest/pytest/.tox/.tmp/package/1/pytest-9.2.0.dev349+g2887015ca-0.editable-py3-none-any.whl,requests==2.34.2,roman-numerals==4.1.0,snowballstemmer==3.1.1,soupsieve==2.10,sphinx==9.1.0,sphinx-basic-ng==1.0.0b2,sphinx-inline-tabs==2025.12.21.14,sphinx-issues==6.0.0,sphinx-removed-in==0.2.3,sphinxcontrib-applehelp==2.0.0,sphinxcontrib-devhelp==2.0.0,sphinxcontrib-htmlhelp==2.1.0,sphinxcontrib-jsmath==1.0.1,sphinxcontrib-qthelp==2.0.0,sphinxcontrib-serializinghtml==2.0.0,sphinxcontrib-svg2pdfconverter==2.1.0,sphinxcontrib-towncrier==0.5.0a0,sphinxcontrib-trio==1.2.0,towncrier==26.9.0,typing-extensions==4.16.0,urllib3==2.8.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:27.9742897Z docs-checklinks: commands[0] /home/runner/work/pytest/pytest/doc/en> sphinx-build -W -q --keep-going -b linkcheck . _build
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:42.3309393Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:56: WARNING: broken link: fixture.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:42.3311838Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:55: WARNING: broken link: assert.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:42.3981364Z ^[[91m/home/runner/work/pytest/pytest/doc/en/announce/sprint2016.rst:7: WARNING: broken link: http://igg.me/at/pytest-sprint/x/4034848 (403 Client Error: Forbidden for url: https://www.indiegogo.com/s/pytest-sprint)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:43.7999004Z ^[[91m/home/runner/work/pytest/pytest/doc/en/announce/release-2.2.0.rst:12: WARNING: broken link: http://pytest.org/en/stable/example/how-to/parametrize.html (404 Client Error: Not Found for url: https://pytest.org/en/stable/example/how-to/parametrize.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:44.7303009Z ^[[91m/home/runner/work/pytest/pytest/doc/en/announce/release-2.3.0.rst:80: WARNING: broken link: http://stackoverflow.com/questions/11105828/in-py-test-when-i-explicitly-skip-a-test-that-is-marked-as-xfail-how-can-i-get (403 Client Error: Forbidden for url: https://stackoverflow.com/questions/11105828/in-py-test-when-i-explicitly-skip-a-test-that-is-marked-as-xfail-how-can-i-get)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:47.6662914Z ^[[91m/home/runner/work/pytest/pytest/doc/en/announce/release-2.6.0.rst:21: WARNING: broken link: https://bitbucket.org/pytest-dev/pytest/issues?status=new&status=open&sort=-votes (404 Client Error: Not Found for url: https://bitbucket.org/pytest-dev/pytest/issues?status=new&status=open&sort=-votes)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:47.6854889Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:55: WARNING: broken link: https://bitbucket.org/hpk42/pycmd/overview (404 Client Error: Not Found for url: https://bitbucket.org/hpk42/pycmd/overview)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:47.9899516Z ^[[91m/home/runner/work/pytest/pytest/doc/en/explanation/goodpractices.rst:112: WARNING: broken link: https://blog.ionelmc.ro/2014/05/25/python-packaging/#the-structure> (Anchor 'the-structure%3E' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:49.3835978Z ^[[91m/home/runner/work/pytest/pytest/doc/en/changelog.rst:3032: WARNING: broken link: https://devguide.python.org/#status-of-python-branches (Anchor 'status-of-python-branches' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:49.4793840Z ^[[91m/home/runner/work/pytest/pytest/doc/en/talks.rst:59: WARNING: broken link: https://daniel.roygreenfeld.com/pytest-no-boilerplate-testing.html (HTTPSConnectionPool(host='daniel.roygreenfeld.com', port=443): Max retries exceeded with url: /pytest-no-boilerplate-testing.html (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1032)'))))^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:49.7207590Z ^[[91m/home/runner/work/pytest/pytest/doc/en/explanation/flaky.rst:132: WARNING: broken link: https://dl.acm.org/doi/pdf/10.1145/3510457.3513037 (403 Client Error: Forbidden for url: https://dl.acm.org/doi/pdf/10.1145/3510457.3513037)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:50.1635373Z ^[[91m/home/runner/work/pytest/pytest/doc/en/announce/release-2.3.0.rst:97: WARNING: broken link: https://docs.pytest.org/en/6.0.1/faq.html (404 Client Error: Not Found for url: https://docs.pytest.org/en/6.0.1/faq.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:50.5597445Z ^[[91m/home/runner/work/pytest/pytest/doc/en/announce/release-8.0.0rc2.rst:22: WARNING: broken link: https://docs.pytest.org/en/release-8.0.0rc2/changelog.html (404 Client Error: Not Found for url: https://docs.pytest.org/en/release-8.0.0rc2/changelog.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:58.5353115Z ^[[91m/home/runner/work/pytest/pytest/doc/en/changelog.rst:8719: WARNING: broken link: https://github.com/Frozenball/pytest-sugar/issues/122 (404 Client Error: Not Found for url: https://github.com/Frozenball/pytest-sugar/issues/122)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:16:59.7849110Z ^[[91m/home/runner/work/pytest/pytest/doc/en/reference/reference.rst:174: WARNING: broken link: https://github.com/asottile/re-assert#re_assertmatchespattern-str-args-kwargs (Anchor 're_assertmatchespattern-str-args-kwargs' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:05.5344815Z ^[[91m/home/runner/work/pytest/pytest/doc/en/explanation/goodpractices.rst:303: WARNING: broken link: https://github.com/pytest-dev/pytest-runner#deprecation-notice (Anchor 'deprecation-notice' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:10.0356474Z ^[[91m/home/runner/work/pytest/pytest/doc/en/changelog.rst:1766: WARNING: broken link: https://github.com/python/cpython/blob/51aefc5bf907ddffaaf083ded0de773adcdf08c8/Lib/unittest/case.py#L419-L426 (Anchor 'L419-L426' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:12.8377247Z ^[[91m/home/runner/work/pytest/pytest/doc/en/contact.rst:37: WARNING: timeout   http://lists.idyll.org/listinfo/testing-in-pythonHTTPConnectionPool(host='lists.idyll.org', port=80): Max retries exceeded with url: /listinfo/testing-in-python (Caused by ConnectTimeoutError(<HTTPConnection(host='lists.idyll.org', port=80) at 0x7f06bd667d50>, 'Connection to lists.idyll.org timed out. (connect timeout=30)'))^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:12.8381783Z ^[[91m/home/runner/work/pytest/pytest/doc/en/announce/release-2.0.3.rst:27: WARNING: timeout   http://lists.idyll.org/pipermail/testing-in-python/2011-March/003928.htmlHTTPConnectionPool(host='lists.idyll.org', port=80): Max retries exceeded with url: /pipermail/testing-in-python/2011-March/003928.html (Caused by ConnectTimeoutError(<HTTPConnection(host='lists.idyll.org', port=80) at 0x7f06bd666450>, 'Connection to lists.idyll.org timed out. (connect timeout=30)'))^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:35.2552951Z ^[[91m/home/runner/work/pytest/pytest/doc/en/contact.rst:25: WARNING: broken link: https://matrix.to/#/#pytest:matrix.org (Anchor '/%23pytest%3Amatrix.org' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:35.4728094Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:13: WARNING: broken link: https://mail.python.org/mailman/listinfo/pytest-dev (404 Client Error: Not Found for url: https://mail.python.org/mailman3/lists/pytest-dev.python.org/)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:36.3805559Z ^[[91m/home/runner/work/pytest/pytest/doc/en/changelog.rst:7422: WARNING: broken link: https://peps.python.org/pep-0506/#recommended-filter-settings-for-test-runners (Anchor 'recommended-filter-settings-for-test-runners' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:17:37.3540088Z ^[[91m/home/runner/work/pytest/pytest/doc/en/history.rst:112: WARNING: broken link: https://holgerkrekel.net/2009/08/04/pylib-1-0-0-released-the-testing-with-python-innovations-continue/ (404 Client Error: Not Found for url: https://holgerkrekel.net/2009/08/04/pylib-1-0-0-released-the-testing-with-python-innovations-continue/)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:01.9648532Z ^[[91m/home/runner/work/pytest/pytest/doc/en/contributing.rst:149: WARNING: broken link: https://tox.readthedocs.io/en/latest/config.html#configuration-discovery (Anchor 'configuration-discovery' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:02.5242508Z ^[[91m/home/runner/work/pytest/pytest/doc/en/contact.rst:22: WARNING: broken link: https://web.libera.chat/#pytest (Anchor 'pytest' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:02.6834997Z ^[[91m/home/runner/work/pytest/pytest/doc/en/how-to/output.rst:624: WARNING: broken link: https://www.ibm.com/support/knowledgecenter/en/SSQ2R2_14.1.0/com.ibm.rsar.analysis.codereview.cobol.doc/topics/cac_useresults_junit.html (403 Client Error: Forbidden for url: https://www.ibm.com/docs/en/SSQ2R2_14.1.0/com.ibm.rsar.analysis.codereview.cobol.doc/topics/cac_useresults_junit.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:02.8206183Z ^[[91m/home/runner/work/pytest/pytest/doc/en/talks.rst:8: WARNING: broken link: https://www.packtpub.com/web-development/pytest-quick-start-guide (403 Client Error: Forbidden for url: https://www.packtpub.com/web-development/pytest-quick-start-guide)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:03.4409009Z ^[[91m/home/runner/work/pytest/pytest/doc/en/explanation/flaky.rst:159: WARNING: broken link: https://www.uber.com/blog/handling-flaky-tests-java/ (406 Client Error: Not Acceptable for url: https://www.uber.com/blog/handling-flaky-tests-java/)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:03.4783049Z ^[[91m/home/runner/work/pytest/pytest/doc/en/explanation/flaky.rst:159: WARNING: broken link: https://www.uber.com/blog/flaky-tests-overhaul/ (406 Client Error: Not Acceptable for url: https://www.uber.com/blog/flaky-tests-overhaul/)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9809715Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:57: WARNING: broken link: mark.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9811637Z ^[[91m/home/runner/work/pytest/pytest/doc/en/talks.rst:83: WARNING: broken link: monkeypatch.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9814860Z ^[[91m/home/runner/work/pytest/pytest/doc/en/talks.rst:87: WARNING: broken link: parametrize.html#test-generators ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9817422Z ^[[91m/home/runner/work/pytest/pytest/doc/en/talks.rst:105: WARNING: broken link: plugins.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9823656Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:47: WARNING: broken link: unittest.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9824796Z ^[[91m/home/runner/work/pytest/pytest/doc/en/changelog.rst:2819: WARNING: broken link: with-setup-nose ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9826102Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:59: WARNING: broken link: xdist.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:18:05.9827571Z ^[[91m/home/runner/work/pytest/pytest/doc/en/adopt.rst:56: WARNING: broken link: xunit_setup.html ()^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:20:47.7263673Z ^[[91m/home/runner/work/pytest/pytest/doc/en/history.rst:120: WARNING: broken link: http://web.archive.org/web/20091005181132/https://codespeak.net/py/dist/test/plugin/index.html (429 Client Error: Too Many Requests for url: http://web.archive.org/web/20091005181132/https://codespeak.net/py/dist/test/plugin/index.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:20:48.1531821Z ^[[91m/home/runner/work/pytest/pytest/doc/en/history.rst:120: WARNING: broken link: http://web.archive.org/web/20091012022829/http://codespeak.net/py/dist/test/plugin/how-to/monkeypatch.html (429 Client Error: Too Many Requests for url: http://web.archive.org/web/20091012022829/http://codespeak.net/py/dist/test/plugin/how-to/monkeypatch.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:20:48.5229809Z ^[[91m/home/runner/work/pytest/pytest/doc/en/history.rst:42: WARNING: broken link: http://web.archive.org/web/20041020215353/http://codespeak.net/svn/user/hpk/talks/std-talk.txt (429 Client Error: Too Many Requests for url: http://web.archive.org/web/20041020215353/http://codespeak.net/svn/user/hpk/talks/std-talk.txt)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:20:48.5280684Z ^[[91m/home/runner/work/pytest/pytest/doc/en/history.rst:117: WARNING: broken link: http://web.archive.org/web/20090629032718/https://codespeak.net/py/dist/test/extend.html (429 Client Error: Too Many Requests for url: http://web.archive.org/web/20090629032718/https://codespeak.net/py/dist/test/extend.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:21:15.9964931Z ^[[91m/home/runner/work/pytest/pytest/doc/en/history.rst:108: WARNING: broken link: https://github.com/pytest-dev/pytest/blob/main/doc/en/changelog.rst#091 (Anchor '091' not found)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:25:49.0043343Z ^[[91m/home/runner/work/pytest/pytest/doc/en/history.rst:125: WARNING: broken link: http://web.archive.org/web/20091005222413/http://codespeak.net/py/dist/faq.html (429 Client Error: Too Many Requests for url: http://web.archive.org/web/20091005222413/http://codespeak.net/py/dist/faq.html)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:25:49.0868921Z ^[[91m/home/runner/work/pytest/pytest/doc/en/explanation/flaky.rst:70: WARNING: broken link: https://web.archive.org/web/20200313031602/https://blogs.dropbox.com/tech/2016/03/open-sourcing-pytest-tools/ (429 Client Error: Too Many Requests for url: https://web.archive.org/web/20200313031602/https://blogs.dropbox.com/tech/2016/03/open-sourcing-pytest-tools/)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:25:49.7804825Z ^[[91m/home/runner/work/pytest/pytest/doc/en/explanation/flaky.rst:144: WARNING: broken link: https://web.archive.org/web/20221201011103/https://testandcode.com/50 (429 Client Error: Too Many Requests for url: https://web.archive.org/web/20221201011103/https://testandcode.com/50)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:23.3512189Z ^[[91m/home/runner/work/pytest/pytest/doc/en/changelog.rst:1484: WARNING: broken link: https://github.com/sponsors/zachsnickers (404 Client Error: Not Found for url: https://github.com/sponsors/zachsnickers)^[[39;49;00m
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5025331Z docs-checklinks: exit 1 (717.53 seconds) /home/runner/work/pytest/pytest/doc/en> sphinx-build -W -q --keep-going -b linkcheck . _build pid=2550
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5041739Z   docs-checklinks: FAIL code 1 (721.03=setup[3.51]+cmd[717.53] seconds)
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5042423Z   evaluation failed :( (721.13 seconds)
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5349126Z ##[error]Process completed with exit code 1.
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5443049Z Post job cleanup.
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5446295Z ##[start-action display=Install uv;id=__92443528-846b-48e8-928d-ee185573e203.__astral-sh_setup-uv]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5449294Z ##[end-action id=__92443528-846b-48e8-928d-ee185573e203.__astral-sh_setup-uv;outcome=skipped;conclusion=skipped;duration_ms=0]
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.5511502Z Post job cleanup.
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6336712Z [command]/usr/bin/git version
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6375294Z git version 2.55.0
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6417042Z Temporarily overriding HOME='/home/runner/work/_temp/28c7d890-401d-43f2-a585-c84ca3caa95b' before making global git config changes
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6418335Z Adding repository directory to the temporary git global config as a safe directory
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6422231Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pytest/pytest
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6452480Z Removing SSH command configuration
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6458445Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6493018Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6708034Z Removing HTTP extra header
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6712981Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6744136Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6956524Z Removing includeIf entries pointing to credentials config files
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6963612Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.6993186Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+doc-check-links	UNKNOWN STEP	2026-10-04T01:28:25.7346628Z Cleaning up orphan processes

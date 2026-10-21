@@ -1,0 +1,400 @@
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5747370Z  * [new tag]           v1.20.2                    -> v1.20.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5748410Z  * [new tag]           v1.20.3                    -> v1.20.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5749440Z  * [new tag]           v1.21.0                    -> v1.21.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5750500Z  * [new tag]           v1.21.0.dev0               -> v1.21.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5751590Z  * [new tag]           v1.21.0rc1                 -> v1.21.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5752830Z  * [new tag]           v1.21.0rc2                 -> v1.21.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5753880Z  * [new tag]           v1.21.1                    -> v1.21.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5755420Z  * [new tag]           v1.21.2                    -> v1.21.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5756450Z  * [new tag]           v1.21.3                    -> v1.21.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5757470Z  * [new tag]           v1.21.4                    -> v1.21.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5758480Z  * [new tag]           v1.21.5                    -> v1.21.5
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5759720Z  * [new tag]           v1.21.6                    -> v1.21.6
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5760840Z  * [new tag]           v1.22.0                    -> v1.22.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5761920Z  * [new tag]           v1.22.0.dev0               -> v1.22.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5763010Z  * [new tag]           v1.22.0rc1                 -> v1.22.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5764070Z  * [new tag]           v1.22.0rc2                 -> v1.22.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5765130Z  * [new tag]           v1.22.0rc3                 -> v1.22.0rc3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5766180Z  * [new tag]           v1.22.1                    -> v1.22.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5767290Z  * [new tag]           v1.22.2                    -> v1.22.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5768320Z  * [new tag]           v1.22.3                    -> v1.22.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5769340Z  * [new tag]           v1.22.4                    -> v1.22.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5770360Z  * [new tag]           v1.23.0                    -> v1.23.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5771420Z  * [new tag]           v1.23.0.dev0               -> v1.23.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5772510Z  * [new tag]           v1.23.0rc1                 -> v1.23.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5773580Z  * [new tag]           v1.23.0rc2                 -> v1.23.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5774640Z  * [new tag]           v1.23.0rc3                 -> v1.23.0rc3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5775690Z  * [new tag]           v1.23.1                    -> v1.23.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5776700Z  * [new tag]           v1.23.2                    -> v1.23.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5777730Z  * [new tag]           v1.23.3                    -> v1.23.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5779150Z  * [new tag]           v1.23.4                    -> v1.23.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5780240Z  * [new tag]           v1.23.5                    -> v1.23.5
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5781260Z  * [new tag]           v1.24.0                    -> v1.24.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5782310Z  * [new tag]           v1.24.0.dev0               -> v1.24.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5783380Z  * [new tag]           v1.24.0rc1                 -> v1.24.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5784440Z  * [new tag]           v1.24.0rc2                 -> v1.24.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5785470Z  * [new tag]           v1.24.1                    -> v1.24.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5786480Z  * [new tag]           v1.24.2                    -> v1.24.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5787490Z  * [new tag]           v1.24.3                    -> v1.24.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5788500Z  * [new tag]           v1.24.4                    -> v1.24.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5789520Z  * [new tag]           v1.25.0                    -> v1.25.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5790570Z  * [new tag]           v1.25.0.dev0               -> v1.25.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5791640Z  * [new tag]           v1.25.1                    -> v1.25.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5792770Z  * [new tag]           v1.25.2                    -> v1.25.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5793770Z  * [new tag]           v1.26.0                    -> v1.26.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5794850Z  * [new tag]           v1.26.0.dev0               -> v1.26.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5795930Z  * [new tag]           v1.26.0b1                  -> v1.26.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5796950Z  * [new tag]           v1.26.0rc1                 -> v1.26.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5798890Z  * [new tag]           v1.26.1                    -> v1.26.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5799880Z  * [new tag]           v1.26.2                    -> v1.26.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5800950Z  * [new tag]           v1.26.3                    -> v1.26.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5801920Z  * [new tag]           v1.26.4                    -> v1.26.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5802900Z  * [new tag]           v1.26.5                    -> v1.26.5
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5804310Z  * [new tag]           v1.3.0                     -> v1.3.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5805290Z  * [new tag]           v1.3.0b1                   -> v1.3.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5806290Z  * [new tag]           v1.3.0rc1                  -> v1.3.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5807310Z  * [new tag]           v1.3.0rc2                  -> v1.3.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5808300Z  * [new tag]           v1.4.0                     -> v1.4.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5809290Z  * [new tag]           v1.4.0rc1                  -> v1.4.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5810290Z  * [new tag]           v1.4.0rc2                  -> v1.4.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5811900Z  * [new tag]           v1.4.1                     -> v1.4.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5812900Z  * [new tag]           v1.4.1rc1                  -> v1.4.1rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5813910Z  * [new tag]           v1.4.1rc2                  -> v1.4.1rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5814910Z  * [new tag]           v1.4.1rc3                  -> v1.4.1rc3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5815900Z  * [new tag]           v1.5.0                     -> v1.5.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5816870Z  * [new tag]           v1.5.0b1                   -> v1.5.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5817860Z  * [new tag]           v1.5.0b2                   -> v1.5.0b2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5818850Z  * [new tag]           v1.5.0rc1                  -> v1.5.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5819820Z  * [new tag]           v1.5.1                     -> v1.5.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5820810Z  * [new tag]           v1.5.1rc1                  -> v1.5.1rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5821820Z  * [new tag]           v1.5.1rc2                  -> v1.5.1rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5822810Z  * [new tag]           v1.6.0                     -> v1.6.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5823780Z  * [new tag]           v1.6.0b1                   -> v1.6.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5824770Z  * [new tag]           v1.6.0b2                   -> v1.6.0b2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5826440Z  * [new tag]           v1.6.0rc1                  -> v1.6.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5827700Z  * [new tag]           v1.6.0rc2                  -> v1.6.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5828730Z  * [new tag]           v1.6.0rc3                  -> v1.6.0rc3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5829690Z  * [new tag]           v1.6.1                     -> v1.6.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5830650Z  * [new tag]           v1.6.1rc1                  -> v1.6.1rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5831740Z  * [new tag]           v1.6.1rc2                  -> v1.6.1rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5832720Z  * [new tag]           v1.6.1rc3                  -> v1.6.1rc3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5833680Z  * [new tag]           v1.6.2                     -> v1.6.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5834630Z  * [new tag]           v1.6.2rc1                  -> v1.6.2rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5835780Z  * [new tag]           v1.7.0                     -> v1.7.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5836720Z  * [new tag]           v1.7.0b1                   -> v1.7.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5838480Z  * [new tag]           v1.7.0b2                   -> v1.7.0b2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5839660Z  * [new tag]           v1.7.0rc1                  -> v1.7.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5840820Z  * [new tag]           v1.7.0rc2                  -> v1.7.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5841970Z  * [new tag]           v1.7.1                     -> v1.7.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5843030Z  * [new tag]           v1.7.1rc1                  -> v1.7.1rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5844150Z  * [new tag]           v1.7.2                     -> v1.7.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5845370Z  * [new tag]           v1.7.2rc1                  -> v1.7.2rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5846490Z  * [new tag]           v1.8.0                     -> v1.8.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5847470Z  * [new tag]           v1.8.0b1                   -> v1.8.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5848810Z  * [new tag]           v1.8.0b2                   -> v1.8.0b2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5852050Z  * [new tag]           v1.8.0rc1                  -> v1.8.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5855250Z  * [new tag]           v1.8.0rc2                  -> v1.8.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5857610Z  * [new tag]           v1.8.1                     -> v1.8.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5861070Z  * [new tag]           v1.8.1rc1                  -> v1.8.1rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5863430Z  * [new tag]           v1.8.2                     -> v1.8.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5865780Z  * [new tag]           v1.8.2rc1                  -> v1.8.2rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5868250Z  * [new tag]           v1.9.0                     -> v1.9.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5870670Z  * [new tag]           v1.9.0b1                   -> v1.9.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5873820Z  * [new tag]           v1.9.0b2                   -> v1.9.0b2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5874890Z  * [new tag]           v1.9.0rc1                  -> v1.9.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5875870Z  * [new tag]           v1.9.1                     -> v1.9.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5877060Z  * [new tag]           v1.9.1rc1                  -> v1.9.1rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5878050Z  * [new tag]           v1.9.2                     -> v1.9.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5879010Z  * [new tag]           v1.9.2rc1                  -> v1.9.2rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5880060Z  * [new tag]           v1.9.3                     -> v1.9.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5880990Z  * [new tag]           v2.0.0                     -> v2.0.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5881940Z  * [new tag]           v2.0.0.dev0                -> v2.0.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5882910Z  * [new tag]           v2.0.0b1                   -> v2.0.0b1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5883860Z  * [new tag]           v2.0.0rc1                  -> v2.0.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5884810Z  * [new tag]           v2.0.0rc2                  -> v2.0.0rc2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5885750Z  * [new tag]           v2.0.1                     -> v2.0.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5886680Z  * [new tag]           v2.0.2                     -> v2.0.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5887600Z  * [new tag]           v2.1.0                     -> v2.1.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5888540Z  * [new tag]           v2.1.0.dev0                -> v2.1.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5889520Z  * [new tag]           v2.1.0rc1                  -> v2.1.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5890860Z  * [new tag]           v2.1.1                     -> v2.1.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5891820Z  * [new tag]           v2.1.2                     -> v2.1.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5892730Z  * [new tag]           v2.1.3                     -> v2.1.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5893640Z  * [new tag]           v2.2.0                     -> v2.2.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5896380Z  * [new tag]           v2.2.0.dev0                -> v2.2.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5899260Z  * [new tag]           v2.2.0rc1                  -> v2.2.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5901830Z  * [new tag]           v2.2.1                     -> v2.2.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5904280Z  * [new tag]           v2.2.2                     -> v2.2.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5905220Z  * [new tag]           v2.2.3                     -> v2.2.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5906150Z  * [new tag]           v2.2.4                     -> v2.2.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5907050Z  * [new tag]           v2.2.5                     -> v2.2.5
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5908710Z  * [new tag]           v2.2.6                     -> v2.2.6
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5909670Z  * [new tag]           v2.3.0                     -> v2.3.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5910610Z  * [new tag]           v2.3.0.dev0                -> v2.3.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5911580Z  * [new tag]           v2.3.0rc1                  -> v2.3.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5912510Z  * [new tag]           v2.3.1                     -> v2.3.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5913410Z  * [new tag]           v2.3.2                     -> v2.3.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5914310Z  * [new tag]           v2.3.3                     -> v2.3.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5915220Z  * [new tag]           v2.3.4                     -> v2.3.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5916140Z  * [new tag]           v2.3.5                     -> v2.3.5
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5917050Z  * [new tag]           v2.4.0                     -> v2.4.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5917980Z  * [new tag]           v2.4.0.dev0                -> v2.4.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5918950Z  * [new tag]           v2.4.0rc1                  -> v2.4.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5920340Z  * [new tag]           v2.4.1                     -> v2.4.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5921250Z  * [new tag]           v2.4.2                     -> v2.4.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5923130Z  * [new tag]           v2.4.3                     -> v2.4.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5924050Z  * [new tag]           v2.4.4                     -> v2.4.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5925030Z  * [new tag]           v2.4.5                     -> v2.4.5
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5925930Z  * [new tag]           v2.4.6                     -> v2.4.6
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5926830Z  * [new tag]           v2.5.0                     -> v2.5.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5927770Z  * [new tag]           v2.5.0.dev0                -> v2.5.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5928730Z  * [new tag]           v2.5.0rc1                  -> v2.5.0rc1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5929810Z  * [new tag]           v2.5.1                     -> v2.5.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5930730Z  * [new tag]           v2.5.2                     -> v2.5.2
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5931640Z  * [new tag]           v2.5.3                     -> v2.5.3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5932550Z  * [new tag]           v2.5.4                     -> v2.5.4
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5933480Z  * [new tag]           v2.6.0.dev0                -> v2.6.0.dev0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5934650Z  * [new tag]           with_maskna                -> with_maskna
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5936370Z  * [new ref]           b09917291a6a85cea0485aa31b52fd7c58748a06 -> pull/32976/merge
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5938910Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5940170Z ##[group]Determining the checkout info
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5941450Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5942150Z [command]/opt/homebrew/bin/git sparse-checkout disable
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5945210Z [command]/opt/homebrew/bin/git config --local --unset-all extensions.worktreeConfig
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5947690Z ##[group]Checking out the ref
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.5948760Z [command]/opt/homebrew/bin/git checkout --progress --force refs/remotes/pull/32976/merge
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9433590Z HEAD is now at b0991729 Merge d83c3b101d549e5212d45242b03d1ab4e4557c5c into 4352421dd0768336972499d08e998a52d5c047b3
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9453990Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9454860Z ##[group]Setting up auth for fetching submodules
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9456110Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/_temp/git-credentials-7fbbcfa4-e1f3-4a3e-bb87-8a427745aa2b.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9547980Z [command]/opt/homebrew/bin/git config --global include.path /Users/runner/work/_temp/git-credentials-7fbbcfa4-e1f3-4a3e-bb87-8a427745aa2b.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9617250Z [command]/opt/homebrew/bin/git config --global --unset-all url.https://github.com/.insteadOf
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9714070Z [command]/opt/homebrew/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9761720Z [command]/opt/homebrew/bin/git config --global --add url.https://github.com/.insteadOf org-288276@github.com:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9839040Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9840890Z ##[group]Fetching submodules
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:49.9841940Z [command]/opt/homebrew/bin/git submodule sync --recursive
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.0819340Z [command]/opt/homebrew/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1697510Z Submodule 'doc/source/_static/scipy-mathjax' (https://github.com/scipy/scipy-mathjax.git) registered for path 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1702110Z Submodule 'numpy/_core/src/common/pythoncapi-compat' (https://github.com/python/pythoncapi-compat) registered for path 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1710550Z Submodule 'numpy/_core/src/highway' (https://github.com/google/highway.git) registered for path 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1717830Z Submodule 'numpy/_core/src/npysort/x86-simd-sort' (https://github.com/intel/x86-simd-sort) registered for path 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1725370Z Submodule 'numpy/_core/src/umath/svml' (https://github.com/numpy/SVML.git) registered for path 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1732420Z Submodule 'numpy/fft/pocketfft' (https://github.com/mreineck/pocketfft) registered for path 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1741090Z Submodule 'vendored-meson/meson' (https://github.com/numpy/meson.git) registered for path 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:50.1866340Z Cloning into '/Users/runner/work/numpy/numpy/doc/source/_static/scipy-mathjax'...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:51.1830380Z Cloning into '/Users/runner/work/numpy/numpy/numpy/_core/src/common/pythoncapi-compat'...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:51.9373170Z Cloning into '/Users/runner/work/numpy/numpy/numpy/_core/src/highway'...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:53.4331860Z Cloning into '/Users/runner/work/numpy/numpy/numpy/_core/src/npysort/x86-simd-sort'...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:54.3920620Z Cloning into '/Users/runner/work/numpy/numpy/numpy/_core/src/umath/svml'...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:55.4693900Z Cloning into '/Users/runner/work/numpy/numpy/numpy/fft/pocketfft'...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:56.2164540Z Cloning into '/Users/runner/work/numpy/numpy/vendored-meson/meson'...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:57.7995850Z Submodule path 'doc/source/_static/scipy-mathjax': checked out '36f4c898f2255e0c98eb6949cd67381552d5ffea'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:59.1698430Z From https://github.com/python/pythoncapi-compat
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:59.1699920Z  * branch            8636bccf29adfa23463f810b3c2830f7cff1e933 -> FETCH_HEAD
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:07:59.1932010Z Submodule path 'numpy/_core/src/common/pythoncapi-compat': checked out '8636bccf29adfa23463f810b3c2830f7cff1e933'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:00.8996310Z From https://github.com/google/highway
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:00.9001710Z  * branch            ee36c837129310be19c17c9108c6dc3f6ae06942 -> FETCH_HEAD
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:01.0123910Z Submodule path 'numpy/_core/src/highway': checked out 'ee36c837129310be19c17c9108c6dc3f6ae06942'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:02.2419470Z From https://github.com/intel/x86-simd-sort
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:02.2428960Z  * branch            fa944efbea1a33426b3f8a9a21e23794ab8aa300 -> FETCH_HEAD
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:02.2707400Z Submodule path 'numpy/_core/src/npysort/x86-simd-sort': checked out 'fa944efbea1a33426b3f8a9a21e23794ab8aa300'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:03.4199970Z From https://github.com/numpy/SVML
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:03.4200930Z  * branch            bd9d46e0c627ab16f3d2641f7cdb1bc15d303ba4 -> FETCH_HEAD
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:03.4622650Z Submodule path 'numpy/_core/src/umath/svml': checked out 'bd9d46e0c627ab16f3d2641f7cdb1bc15d303ba4'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:04.8911440Z From https://github.com/mreineck/pocketfft
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:04.8912770Z  * branch            33ae5dc94c9cdc7f1c78346504a85de87cadaa12 -> FETCH_HEAD
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:04.9096710Z Submodule path 'numpy/fft/pocketfft': checked out '33ae5dc94c9cdc7f1c78346504a85de87cadaa12'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:06.2175520Z From https://github.com/numpy/meson
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:06.2176580Z  * branch            11ed55a4f364a81d7eeef740b27d73cfb4d36a05 -> FETCH_HEAD
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.1654820Z Submodule path 'vendored-meson/meson': checked out '11ed55a4f364a81d7eeef740b27d73cfb4d36a05'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.1787590Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local gc.auto 0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.2732110Z Entering 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.2899040Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.3065930Z Entering 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.3246510Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.3448110Z Entering 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.3628430Z Entering 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.3814490Z Entering 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.4068910Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.4263630Z [command]/opt/homebrew/bin/git log -1 --format=%H
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.4367310Z b09917291a6a85cea0485aa31b52fd7c58748a06
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.4413150Z ##[group]Removing auth
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.4442990Z Removing SSH command configuration
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.4477970Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.4528760Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.5459300Z Entering 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.5762130Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.5999270Z Entering 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.6362420Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.6650180Z Entering 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.6940470Z Entering 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.7139850Z Entering 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.7379410Z Removing HTTP extra header
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.7381060Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.7449160Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.8443570Z Entering 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.8654190Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.8840490Z Entering 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.9041160Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.9339900Z Entering 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.9664490Z Entering 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:07.9859500Z Entering 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0192270Z Removing includeIf entries pointing to credentials config files
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0366540Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0649490Z includeif.gitdir:/Users/runner/work/numpy/numpy/.git.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0770370Z includeif.gitdir:/Users/runner/work/numpy/numpy/.git/worktrees/*.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0872830Z includeif.gitdir:/github/workspace/.git.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0968190Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0971640Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/numpy/numpy/.git.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0973270Z /Users/runner/work/_temp/git-credentials-7fbbcfa4-e1f3-4a3e-bb87-8a427745aa2b.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0976920Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/numpy/numpy/.git.path \/Users\/runner\/work\/_temp\/git\-credentials\-7fbbcfa4\-e1f3\-4a3e\-bb87\-8a427745aa2b\.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.0979360Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/Users/runner/work/numpy/numpy/.git/worktrees/*.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1156010Z /Users/runner/work/_temp/git-credentials-7fbbcfa4-e1f3-4a3e-bb87-8a427745aa2b.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1169670Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/Users/runner/work/numpy/numpy/.git/worktrees/*.path \/Users\/runner\/work\/_temp\/git\-credentials\-7fbbcfa4\-e1f3\-4a3e\-bb87\-8a427745aa2b\.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1251040Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1310600Z /github/runner_temp/git-credentials-7fbbcfa4-e1f3-4a3e-bb87-8a427745aa2b.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1315850Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-7fbbcfa4\-e1f3\-4a3e\-bb87\-8a427745aa2b\.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1387880Z [command]/opt/homebrew/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1458080Z /github/runner_temp/git-credentials-7fbbcfa4-e1f3-4a3e-bb87-8a427745aa2b.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1470100Z [command]/opt/homebrew/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-7fbbcfa4\-e1f3\-4a3e\-bb87\-8a427745aa2b\.config
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.1559410Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.2508320Z Entering 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.2610820Z file:/Users/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.2812440Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3015050Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3117500Z Entering 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3219070Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3338740Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3455310Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3527100Z Entering 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3710510Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.3855730Z Entering 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4057590Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4171330Z Entering 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4357450Z file:/Users/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4653430Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4837050Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4972140Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4977080Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4978480Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.4979760Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5049290Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5122450Z Removing credentials config '/Users/runner/work/_temp/git-credentials-7fbbcfa4-e1f3-4a3e-bb87-8a427745aa2b.config'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5140470Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5686930Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5687320Z with:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5687560Z   python-version: 3.15t-dev
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5687780Z   check-latest: false
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5689670Z   token: ***
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5689820Z   update-environment: true
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5690020Z   allow-prereleases: false
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5690240Z   freethreaded: false
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5690400Z env:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5690560Z   CCACHE_DIR: /Users/runner/work/numpy/numpy/.ccache
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.5690850Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.7814330Z ##[group]Installed versions
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:08.7854670Z Version ~3.15.0-0 was not found in the local cache
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:09.6739400Z Version ~3.15.0-0 is available for downloading
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:09.6742320Z Download from "https://github.com/actions/python-versions/releases/download/3.15.0-38076878863/python-3.15.0-darwin-arm64-freethreaded.tar.gz"
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:11.0041770Z Extract downloaded archive
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:11.0390820Z [command]/usr/bin/tar xz -C /Users/runner/work/_temp/716082fc-7b7a-4a2c-b4cb-efee81dcbf9c -f /Users/runner/work/_temp/ea93930c-df7b-436c-be27-fe3434b3de19
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:11.2613560Z Execute installation script
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:11.2888710Z Check if Python hostedtoolcache folder exist...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:11.3059300Z Install Python binaries from prebuilt package
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.2759660Z installer: Package name is Python
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.2762020Z installer: choices changes file '/var/folders/nj/vtw8zd2j31d1gdrtntc5y4600000gn/T/tmp.lnLocrmZSm' applied
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.2762970Z installer: Upgrading at base path /
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.2763580Z installer: The upgrade was successful.
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.2789380Z Create hostedtoolcach symlinks (Required for the backward compatibility)
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.2791570Z Create Python 3.15.0 folder
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.2966920Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:44.3118520Z Upgrading pip...
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.1645200Z Collecting pip
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.1720040Z Using cached pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.2078140Z Using cached pip-26.2.1-py3-none-any.whl (1.8 MB)
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.2362140Z Installing collected packages: pip
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.2465390Z Attempting uninstall: pip
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.2468190Z Found existing installation: pip 26.2.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.2796140Z Uninstalling pip-26.2.1:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:45.4321060Z Successfully uninstalled pip-26.2.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:46.8132450Z Successfully installed pip-26.2.1
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:46.9114450Z Install OpenSSL certificates
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.5954550Z Collecting certifi
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.5969510Z Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.6372280Z Using cached certifi-2026.7.22-py3-none-any.whl (136 kB)
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.6587900Z Installing collected packages: certifi
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.6675310Z Successfully installed certifi-2026.7.22
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7512310Z -- pip install --upgrade certifi
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7523590Z  -- removing any existing file or link
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7614900Z  -- creating symlink to certifi certificate bundle
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7615310Z  -- setting permissions
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7615550Z  -- update complete
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7658070Z Create complete file
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7808920Z Successfully set up CPython (3.15.0t)
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.7810140Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8127160Z ##[group]Run pip install --group dev-cli -r --group test
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8127720Z ^[[36;1mpip install --group dev-cli -r --group test^[[0m
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8270260Z shell: /bin/bash -e {0}
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8270590Z env:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8270860Z   CCACHE_DIR: /Users/runner/work/numpy/numpy/.ccache
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8271400Z   pythonLocation: /Users/runner/hostedtoolcache/Python/3.15.0/arm64-freethreaded
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8272000Z   PKG_CONFIG_PATH: /Users/runner/hostedtoolcache/Python/3.15.0/arm64-freethreaded/lib/pkgconfig
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8272610Z   Python_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64-freethreaded
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8273180Z   Python2_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64-freethreaded
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8273780Z   Python3_ROOT_DIR: /Users/runner/hostedtoolcache/Python/3.15.0/arm64-freethreaded
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:47.8274230Z ##[endgroup]
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.3185660Z ERROR: Could not open requirements file: [Errno 2] No such file or directory: '--group'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.3894330Z ##[error]Process completed with exit code 1.
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.4055190Z Post job cleanup.
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5480480Z [command]/opt/homebrew/bin/git version
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5728800Z git version 2.55.0
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5755930Z Copying '/Users/runner/.gitconfig' to '/Users/runner/work/_temp/8ae17e7d-a5dc-4a33-bdfa-3353562a4007/.gitconfig'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5767000Z Temporarily overriding HOME='/Users/runner/work/_temp/8ae17e7d-a5dc-4a33-bdfa-3353562a4007' before making global git config changes
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5770790Z Adding repository directory to the temporary git global config as a safe directory
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5775920Z [command]/opt/homebrew/bin/git config --global --add safe.directory /Users/runner/work/numpy/numpy
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5912540Z Removing SSH command configuration
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5923160Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp core\.sshCommand
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.5993660Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.7066700Z Entering 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.7343550Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.7599960Z Entering 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.8149370Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.8404350Z Entering 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.8624270Z Entering 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.8835000Z Entering 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.9087110Z Removing HTTP extra header
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.9091400Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:48.9164450Z [command]/opt/homebrew/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.0155110Z Entering 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.0525060Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.0864050Z Entering 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.1180480Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.1511100Z Entering 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.1758230Z Entering 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.2152740Z Entering 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.2469530Z Removing includeIf entries pointing to credentials config files
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.2474760Z [command]/opt/homebrew/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.2548490Z [command]/opt/homebrew/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.3771050Z Entering 'doc/source/_static/scipy-mathjax'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.3973480Z file:/Users/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4075030Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4292870Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4393050Z Entering 'numpy/_core/src/highway'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4588500Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4650430Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4807940Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4880010Z Entering 'numpy/_core/src/umath/svml'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.4980500Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5045440Z Entering 'numpy/fft/pocketfft'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5201040Z file:/Users/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5268080Z Entering 'vendored-meson/meson'
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5366890Z file:/Users/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config	remote.origin.url
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5512580Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5588350Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5653580Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5730490Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.5821550Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.6173180Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.6453170Z [command]/opt/homebrew/bin/git config --file /Users/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config --name-only --get-regexp ^includeIf\.gitdir:
+Accelerate - macos_arm64 - 3.15t-dev	UNKNOWN STEP	2026-10-12T03:08:49.6626670Z Cleaning up orphan processes

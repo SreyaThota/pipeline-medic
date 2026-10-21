@@ -1,0 +1,400 @@
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0503424Z   "storage_session_setitem_quotaexceedederr.window.js": {
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0503502Z     "fail": {
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0503585Z       "expected": [
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0503780Z         "Throws QuotaExceededError when the quota has been exceeded"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0503857Z       ]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0503932Z     }
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0503998Z   },
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0504148Z   "storage_session_window_noopener.window.js": {
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0504310Z     "skip": "window.open() is not supported in Node.js."
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0504377Z   },
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0504510Z   "storage_session_window_open.window.js": {
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0504675Z     "skip": "window.open() is not supported in Node.js."
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0504745Z   },
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0504887Z   "storage_session_window_reopen.window.js": {
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0505047Z     "skip": "window.open() is not supported in Node.js."
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0505114Z   },
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0505213Z   "symbol-props.window.js": {
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0505291Z     "fail": {
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0505622Z       "expected": [
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0505802Z         "localStorage: defineProperty not configurable",
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0505969Z         "sessionStorage: defineProperty not configurable"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0506050Z       ]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0506124Z     }
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0506195Z   }
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0506267Z }
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0506276Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0506812Z Files: 23/30 ran, 18 passed, 7 skipped, 3 expected failures, 2 unexpected failures, 0 unexpected passes
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0507203Z Subtests: 1234 passed, 0 skipped, 4 expected failures, 2 unexpected failures, 0 unexpected passes
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0507585Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0507841Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0508221Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0508468Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0508844Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0509192Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0509577Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0509825Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0510246Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0510494Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0510867Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0511116Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0511491Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0511736Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0512192Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0512445Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0512816Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0513068Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0513442Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0513685Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0514057Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0514305Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0514681Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0514930Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0515309Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0515842Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0516251Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0516503Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0516877Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0517121Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0517498Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0517747Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0518124Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0518504Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0518896Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0519151Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0519524Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0519771Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0520146Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0520389Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0520766Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0521079Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0521471Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0521718Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0522151Z (node:3672) ExperimentalWarning: Web Storage is an experimental feature and might change at any time
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0522395Z (Use `node --trace-warnings ...` to show where the warning was created)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0522579Z /home/runner/work/node/node/test/common/wpt.js:844
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0522667Z         throw new Error(
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0522738Z         ^
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0522747Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0523141Z Error: Found 2 unexpected failures. Consider updating test/wpt/status/webstorage.json for these files:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0523338Z storage_local_quota_independent_from_session.window.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0523612Z storage_session_quota_independent_from_local.window.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0523862Z     at process.<anonymous> (/home/runner/work/node/node/test/common/wpt.js:844:15)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0523990Z     at process.emit (node:events:526:24)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0523997Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0524076Z Node.js v24.21.0
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0524508Z Command: /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-webstorage.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0524516Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0524522Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0524531Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0524649Z                                                   
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0524767Z [00:36|% 100|+  11|-  12]: Done
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0525058Z make: [Makefile:664: test-wpt-report] Error 1 (ignored)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0525066Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0525142Z Failed tests:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0525659Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-blob.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0526069Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-compression.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0526456Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-encoding.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0526870Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-resource-timing.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0527247Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-streams.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0527658Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-structured-clone.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0528024Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-timers.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0528380Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-url.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0528766Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-wasm-webapi.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0529152Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-web-locks.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0529650Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-webcrypto.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0530056Z /opt/hostedtoolcache/node/24.21.0/arm64/bin/node /home/runner/work/node/node/test/wpt/test-webstorage.js
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.0530377Z '/opt/hostedtoolcache/node/24.21.0/arm64/bin/node' "$PWD/tools/merge-wpt-reports.mjs"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1401370Z ##[group]Run UNDICI_VERSION=$(jq -r '.version' < deps/undici/src/package.json)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1401643Z ^[[36;1mUNDICI_VERSION=$(jq -r '.version' < deps/undici/src/package.json)^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1401786Z ^[[36;1mecho "UNDICI_VERSION=v$UNDICI_VERSION" >> $GITHUB_ENV^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1401897Z ^[[36;1mif [ "${UNDICI_VERSION%%.*}" -ge 7 ]; then^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1402008Z ^[[36;1m  echo "UNDICI_WPT=current" >> $GITHUB_ENV^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1402089Z ^[[36;1melse^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1402200Z ^[[36;1m  echo "UNDICI_WPT=legacy" >> $GITHUB_ENV^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1402270Z ^[[36;1mfi^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1437866Z shell: /usr/bin/bash -e {0}
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1437943Z env:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1438027Z   PYTHON_VERSION: 3.15
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1438180Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1438533Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1438707Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1438847Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1438982Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1439124Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1439243Z   NODE: /opt/hostedtoolcache/node/24.21.0/arm64/bin/node
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1439370Z   WPT_REVISION: fea973d923cafb504cdca781c77fb782553d1459
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1439613Z   WPT_REPORT: /home/runner/work/node/node/out/wpt/wptreport.json
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1439689Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1603767Z ##[group]Run nodejs/node/.github/actions/undici-wpt-current@3b639be3a4dd88f81d33d4c375c8af3cfc8fe695
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1603895Z with:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1603990Z   undici-version: v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1604162Z   wpt-report: /home/runner/work/node/node/out/wpt/wptreport.json
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1604230Z env:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1604306Z   PYTHON_VERSION: 3.15
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1604447Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1604621Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1604752Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1604891Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1605023Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1605176Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1605544Z   NODE: /opt/hostedtoolcache/node/24.21.0/arm64/bin/node
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1605687Z   WPT_REVISION: fea973d923cafb504cdca781c77fb782553d1459
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1605837Z   WPT_REPORT: /home/runner/work/node/node/out/wpt/wptreport.json
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1605915Z   UNDICI_VERSION: v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1605992Z   UNDICI_WPT: current
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1606060Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1668890Z ##[start-action display=Checkout undici;id=__self.__actions_checkout]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1730321Z ##[group]Run actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1730393Z with:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1730481Z   repository: nodejs/undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1730567Z   persist-credentials: false
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1730639Z   path: undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1730705Z   clean: false
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1730776Z   ref: v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1732906Z   token: ***
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1732984Z   ssh-strict: true
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733051Z   ssh-user: git
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733145Z   sparse-checkout-cone-mode: true
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733224Z   fetch-depth: 1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733299Z   fetch-tags: false
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733376Z   show-progress: true
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733440Z   lfs: false
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733521Z   submodules: false
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733601Z   set-safe-directory: true
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733671Z env:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733751Z   PYTHON_VERSION: 3.15
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1733888Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1734064Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1734195Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1734362Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1734500Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1734647Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1734765Z   NODE: /opt/hostedtoolcache/node/24.21.0/arm64/bin/node
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1734895Z   WPT_REVISION: fea973d923cafb504cdca781c77fb782553d1459
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1735047Z   WPT_REPORT: /home/runner/work/node/node/out/wpt/wptreport.json
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1735643Z   UNDICI_VERSION: v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1735735Z   UNDICI_WPT: current
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.1735803Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2425901Z Syncing repository: nodejs/undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2431306Z ##[group]Getting Git version info
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2431721Z Working directory is '/home/runner/work/node/node/undici'
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2462691Z [command]/usr/bin/git version
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2497011Z git version 2.55.0
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2516441Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2529284Z Temporarily overriding HOME='/home/runner/work/_temp/28310ea0-b757-4ea5-861d-cfdd872d502b' before making global git config changes
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2529853Z Adding repository directory to the temporary git global config as a safe directory
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2534648Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/node/node/undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2569827Z ##[group]Initializing the repository
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2570462Z [command]/usr/bin/git init /home/runner/work/node/node/undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2601355Z hint: Using 'master' as the name for the initial branch. This default branch name
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2601951Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2602361Z hint: to use in all of your new repositories, which will suppress this warning,
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2602766Z hint: call:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2602861Z hint:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2603083Z hint: 	git config --global init.defaultBranch <name>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2603159Z hint:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2603428Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2603739Z hint: 'development'. The just-created branch can be renamed via this command:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2603809Z hint:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2603930Z hint: 	git branch -m <name>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2604005Z hint:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2604300Z hint: Disable this message with "git config set advice.defaultBranchName false"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2604599Z Initialized empty Git repository in /home/runner/work/node/node/undici/.git/
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2612079Z [command]/usr/bin/git remote add origin https://github.com/nodejs/undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2639731Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2644799Z ##[group]Disabling automatic garbage collection
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2645230Z [command]/usr/bin/git config --local gc.auto 0
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2671032Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2671460Z ##[group]Setting up auth
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2672092Z Removing SSH command configuration
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2678551Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2707187Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2891268Z Removing HTTP extra header
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2896466Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.2924823Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3109213Z Removing includeIf entries pointing to credentials config files
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3116599Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3147782Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3342628Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3379458Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/node/node/undici/.git.path /home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3407499Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/node/node/undici/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3435926Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/undici/.git.path /github/runner_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3472990Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/undici/.git/worktrees/*.path /github/runner_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3495536Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3495912Z ##[group]Fetching the repository
+report (24)	UNKNOWN STEP	2026-10-12T01:26:40.3504657Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/v7.29.1*:refs/remotes/origin/v7.29.1* +refs/tags/v7.29.1*:refs/tags/v7.29.1*
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4445591Z From https://github.com/nodejs/undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4446008Z  * [new tag]         v7.29.1    -> v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4451414Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4451765Z ##[group]Determining the checkout info
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4457227Z [command]/usr/bin/git branch --list --remote origin/v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4486311Z [command]/usr/bin/git tag --list v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4506366Z v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4509126Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4513598Z [command]/usr/bin/git sparse-checkout disable
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4548802Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4572821Z ##[group]Checking out the ref
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4576641Z [command]/usr/bin/git checkout --progress --force refs/tags/v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4875793Z Note: switching to 'refs/tags/v7.29.1'.
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4876050Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4876329Z You are in 'detached HEAD' state. You can look around, make experimental
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4876860Z changes and commit them, and you can discard any commits you make in this
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4877387Z state without impacting any branches by switching back to a branch.
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4877648Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4877903Z If you want to create a new branch to retain commits you create, you may
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4878392Z do so (now or later) by using -c with the switch command. Example:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4878636Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4878756Z   git switch -c <new-branch-name>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4878914Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4879029Z Or undo this operation with:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4879178Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4879254Z   git switch -
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4879378Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4879658Z Turn off this advice by setting config variable advice.detachedHead to false
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4879942Z 
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4880113Z HEAD is now at d39a83e Bumped v7.29.1 (#5772)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4882118Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4915547Z [command]/usr/bin/git log -1 --format=%H
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4936799Z d39a83e7b0d631590c3b85b5cc0dbeab66c3a1d8
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4944005Z ##[group]Removing auth
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4944431Z Removing SSH command configuration
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4948282Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.4978061Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5156687Z Removing HTTP extra header
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5160411Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5187179Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5371738Z Removing includeIf entries pointing to credentials config files
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5376289Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5397656Z includeif.gitdir:/home/runner/work/node/node/undici/.git.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5398201Z includeif.gitdir:/home/runner/work/node/node/undici/.git/worktrees/*.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5398676Z includeif.gitdir:/github/workspace/undici/.git.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5399118Z includeif.gitdir:/github/workspace/undici/.git/worktrees/*.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5407485Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/node/node/undici/.git.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5428786Z /home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5438080Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/node/node/undici/.git.path /home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5470773Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/node/node/undici/.git/worktrees/*.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5491241Z /home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5500767Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/node/node/undici/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5533056Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/undici/.git.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5559442Z /github/runner_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5568947Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/undici/.git.path /github/runner_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5598627Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/undici/.git/worktrees/*.path
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5617602Z /github/runner_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5624557Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/undici/.git/worktrees/*.path /github/runner_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5654585Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5847213Z Removing credentials config '/home/runner/work/_temp/git-credentials-38b48efc-4fa7-4036-803f-3c98f4702e60.config'
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5857596Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5951284Z ##[end-action id=__self.__actions_checkout;outcome=success;conclusion=success;duration_ms=1428]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5953758Z ##[start-action display=Prepare WPT checkout;id=__self.__run]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5973123Z ##[group]Run rm -rf undici/test/web-platform-tests/wpt
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5973494Z ^[[36;1mrm -rf undici/test/web-platform-tests/wpt^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.5973861Z ^[[36;1mmv test/fixtures/wpt undici/test/web-platform-tests/wpt^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6013156Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6013462Z env:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6013628Z   PYTHON_VERSION: 3.15
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6013898Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6014298Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6014696Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6015053Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6015731Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6016108Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6016468Z   NODE: /opt/hostedtoolcache/node/24.21.0/arm64/bin/node
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6016798Z   WPT_REVISION: fea973d923cafb504cdca781c77fb782553d1459
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6017151Z   WPT_REPORT: /home/runner/work/node/node/out/wpt/wptreport.json
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6017692Z   UNDICI_VERSION: v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6017894Z   UNDICI_WPT: current
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6018084Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6111381Z ##[end-action id=__self.__run;outcome=success;conclusion=success;duration_ms=15]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6113245Z ##[start-action display=Configure hosts;id=__self.__run_2]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6129736Z ##[group]Run python3 wpt make-hosts-file | sudo tee -a /etc/hosts
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6130151Z ^[[36;1mpython3 wpt make-hosts-file | sudo tee -a /etc/hosts^[[0m
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6160139Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6160589Z env:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6160755Z   PYTHON_VERSION: 3.15
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6161138Z   pythonLocation: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6161540Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib/pkgconfig
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6161935Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6162295Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6162648Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.15.0/arm64
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6163006Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.15.0/arm64/lib
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6163357Z   NODE: /opt/hostedtoolcache/node/24.21.0/arm64/bin/node
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6163681Z   WPT_REVISION: fea973d923cafb504cdca781c77fb782553d1459
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6164034Z   WPT_REPORT: /home/runner/work/node/node/out/wpt/wptreport.json
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6164344Z   UNDICI_VERSION: v7.29.1
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6164543Z   UNDICI_WPT: current
+report (24)	UNKNOWN STEP	2026-10-12T01:26:41.6164731Z ##[endgroup]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0851983Z Traceback (most recent call last):
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0859040Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/wpt", line 10, in <module>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0859661Z     wpt.main()
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0859852Z     ~~~~~~~~^^
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0860334Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/wpt/wpt.py", line 212, in main
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0860908Z     script, parser = import_command(prog, command, props)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0861255Z                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0861854Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/wpt/wpt.py", line 103, in import_command
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0862384Z     mod = __import__(mod_name)
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0863005Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/ci/make_hosts_file.py", line 8, in <module>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0863639Z     from ..serve.serve import build_config, make_hosts_file
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0864267Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/serve/__init__.py", line 1, in <module>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0864803Z     from . import serve  # noqa: F401
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0865047Z     ^^^^^^^^^^^^^^^^^^^
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0865746Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/serve/serve.py", line 35, in <module>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0866335Z     from pywebsocket3 import standalone as pywebsocket
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0867098Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/third_party/pywebsocket3/pywebsocket3/standalone.py", line 169, in <module>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0867829Z     from pywebsocket3.websocket_server import WebSocketServer
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0868632Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/third_party/pywebsocket3/pywebsocket3/websocket_server.py", line 49, in <module>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0869414Z     from pywebsocket3.request_handler import WebSocketRequestHandler
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0870247Z   File "/home/runner/work/node/node/undici/test/web-platform-tests/wpt/tools/third_party/pywebsocket3/pywebsocket3/request_handler.py", line 151, in <module>
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0871046Z     class WebSocketRequestHandler(CGIHTTPServer.CGIHTTPRequestHandler):
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0871815Z                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0872374Z   File "/opt/hostedtoolcache/Python/3.15.0/arm64/lib/python3.15/http/server.py", line 1173, in __getattr__
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0873008Z     raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.0873909Z AttributeError: module 'http.server' has no attribute 'CGIHTTPRequestHandler'. Did you mean '.BaseHTTPRequestHandler' instead of '.CGIHTTPRequestHandler'?
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1202676Z ##[error]Process completed with exit code 1.
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1210299Z ##[end-action id=__self.__run_2;outcome=failure;conclusion=failure;duration_ms=509]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1214053Z ##[start-action display=Install dependencies;id=__self.__run_3]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1217708Z ##[end-action id=__self.__run_3;outcome=skipped;conclusion=skipped;duration_ms=0]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1221030Z ##[start-action display=Run WPT;id=__self.__run_4]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1222696Z ##[end-action id=__self.__run_4;outcome=skipped;conclusion=skipped;duration_ms=0]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1224919Z ##[start-action display=Merge report;id=__self.__run_5]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1226969Z ##[end-action id=__self.__run_5;outcome=skipped;conclusion=skipped;duration_ms=0]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1359838Z Post job cleanup.
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1363001Z ##[start-action display=Checkout undici;id=__f7dd0b41-5ef3-4f15-aaf2-ed13c434873b.__actions_checkout]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.1410379Z Post job cleanup.
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2092076Z [command]/usr/bin/git version
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2126102Z git version 2.55.0
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2160865Z Temporarily overriding HOME='/home/runner/work/_temp/253ce679-f423-4eeb-8d3e-981de2fcd576' before making global git config changes
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2161682Z Adding repository directory to the temporary git global config as a safe directory
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2165748Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/node/node/undici
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2193830Z Removing SSH command configuration
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2200598Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2230281Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2402983Z Entering 'test/web-platform-tests/wpt'
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2609619Z Removing HTTP extra header
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2614217Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2645013Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.2820764Z Entering 'test/web-platform-tests/wpt'
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3026719Z Removing includeIf entries pointing to credentials config files
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3033356Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3063744Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3238188Z Entering 'test/web-platform-tests/wpt'
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3256127Z file:.git/config	remote.origin.url
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3437198Z [command]/usr/bin/git config --file .git/config --name-only --get-regexp ^includeIf\.gitdir:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3536499Z ##[end-action id=__f7dd0b41-5ef3-4f15-aaf2-ed13c434873b.__actions_checkout;outcome=success;conclusion=success;duration_ms=217]
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.3600088Z Post job cleanup.
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.4328827Z Post job cleanup.
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.4996259Z [command]/usr/bin/git version
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5042169Z git version 2.55.0
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5073639Z Temporarily overriding HOME='/home/runner/work/_temp/6059a7bf-5faf-4f69-854a-804dffb69dbb' before making global git config changes
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5074714Z Adding repository directory to the temporary git global config as a safe directory
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5078811Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/node/node
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5107600Z Removing SSH command configuration
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5114021Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5144638Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5377162Z Removing HTTP extra header
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5381666Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5418218Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5639309Z Removing includeIf entries pointing to credentials config files
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5644737Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.5676514Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+report (24)	UNKNOWN STEP	2026-10-12T01:26:42.6032502Z Cleaning up orphan processes

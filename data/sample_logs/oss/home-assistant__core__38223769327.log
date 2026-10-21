@@ -1,0 +1,31 @@
+Check pylint on tests	Run pylint (fully)	﻿2026-10-12T08:30:42.4208179Z ##[group]Run . venv/bin/activate
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4208530Z ^[[36;1m. venv/bin/activate^[[0m
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4208811Z ^[[36;1mpython --version^[[0m
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4209071Z ^[[36;1mpylint tests^[[0m
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4268458Z shell: /usr/bin/bash -e {0}
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4268752Z env:
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4268959Z   CACHE_VERSION: 4
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4269199Z   MYPY_CACHE_VERSION: 3
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4269446Z   HA_SHORT_VERSION: 2026.11
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4269728Z   ADDITIONAL_PYTHON_VERSIONS: []
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4270590Z   MARIADB_VERSIONS: ['mariadb:10.3.32','mariadb:10.6.10','mariadb:10.11.2','mariadb:11.4.9','mariadb:11.8.8','mariadb:12.3.3','mysql:8.0.32']
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4271344Z   POSTGRESQL_VERSIONS: ['postgres:12.22','postgres:15.19', 'postgres:18.6']
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4271917Z   SQLITE_VERSIONS: [{"version": "3.40.1", "year": "2022"}, {"version": "3.53.4", "year": "2026"}]
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4272664Z   RECORDER_TEST_DIRS: tests/components/history tests/components/logbook tests/components/recorder tests/components/sensor
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4273356Z   UV_CACHE_DIR: /tmp/uv-cache
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4273630Z   APT_CACHE_VERSION: 1
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4273873Z   SQLALCHEMY_WARN_20: 1
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4274127Z   PYTHONASYNCIODEBUG: 1
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4274366Z   HASS_CI: 1
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4274676Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4275046Z   UV_PYTHON: 3.14.5
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4275280Z ##[endgroup]
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:30:42.4392704Z Python 3.14.5
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.7274272Z ************* Module tests.components.daikin_onecta.test_coordinator
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.7305706Z ##[warning]tests/components/daikin_onecta/test_coordinator.py:193:14: W7439: Do not trigger a refresh directly in tests; advance the time with `freezer.tick()` and `async_fire_time_changed()` instead (home-assistant-tests-coordinator-async-refresh)
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.7316081Z ##[warning]tests/components/daikin_onecta/test_coordinator.py:196:14: W7439: Do not trigger a refresh directly in tests; advance the time with `freezer.tick()` and `async_fire_time_changed()` instead (home-assistant-tests-coordinator-async-refresh)
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.7319193Z ##[warning]tests/components/daikin_onecta/test_coordinator.py:223:14: W7439: Do not trigger a refresh directly in tests; advance the time with `freezer.tick()` and `async_fire_time_changed()` instead (home-assistant-tests-coordinator-async-refresh)
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.7322561Z ##[warning]tests/components/daikin_onecta/test_coordinator.py:224:14: W7439: Do not trigger a refresh directly in tests; advance the time with `freezer.tick()` and `async_fire_time_changed()` instead (home-assistant-tests-coordinator-async-refresh)
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.7324136Z ************* Module tests.components.daikin_onecta.test_oauth_setup
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.7326054Z ##[warning]tests/components/daikin_onecta/test_oauth_setup.py:71:14: W7439: Do not trigger a refresh directly in tests; advance the time with `freezer.tick()` and `async_fire_time_changed()` instead (home-assistant-tests-coordinator-async-refresh)
+Check pylint on tests	Run pylint (fully)	2026-10-12T08:38:02.8331252Z ##[error]Process completed with exit code 4.

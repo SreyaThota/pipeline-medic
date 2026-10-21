@@ -1,0 +1,400 @@
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.5469571Z   show-progress: true
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.5470251Z   lfs: false
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.5470889Z   submodules: false
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.5471567Z   set-safe-directory: true
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.5472440Z   allow-unsafe-pr-checkout: false
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.5473424Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6299607Z Syncing repository: eslint/eslint
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6301563Z ##[group]Getting Git version info
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6302906Z Working directory is '/home/runner/work/eslint/eslint'
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6304416Z [command]/usr/bin/git version
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6336143Z git version 2.55.0
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6354046Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6360643Z Temporarily overriding HOME='/home/runner/work/_temp/762118c3-2ec9-4905-ba20-3a47728599bb' before making global git config changes
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6363688Z Adding repository directory to the temporary git global config as a safe directory
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6366094Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/eslint/eslint
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6400546Z Deleting the contents of '/home/runner/work/eslint/eslint'
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6403352Z ##[group]Determining repository object format
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6404815Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6405948Z ##[group]Initializing the repository
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6407602Z [command]/usr/bin/git init /home/runner/work/eslint/eslint
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6473691Z hint: Using 'master' as the name for the initial branch. This default branch name
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6475191Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6476743Z hint: to use in all of your new repositories, which will suppress this warning,
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6477932Z hint: call:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6478588Z hint:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6479372Z hint: 	git config --global init.defaultBranch <name>
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6480335Z hint:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6481248Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6482923Z hint: 'development'. The just-created branch can be renamed via this command:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6484125Z hint:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6484795Z hint: 	git branch -m <name>
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6485547Z hint:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6486557Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6491467Z Initialized empty Git repository in /home/runner/work/eslint/eslint/.git/
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6498286Z [command]/usr/bin/git remote add origin https://github.com/eslint/eslint
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6535426Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6536722Z ##[group]Disabling automatic garbage collection
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6538670Z [command]/usr/bin/git config --local gc.auto 0
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6563793Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6565469Z ##[group]Setting up auth
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6566236Z Removing SSH command configuration
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6567729Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6593405Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6854259Z Removing HTTP extra header
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6859071Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.6958843Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7068033Z Removing includeIf entries pointing to credentials config files
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7077761Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7102943Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7285244Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7315094Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/eslint/eslint/.git.path /home/runner/work/_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7340229Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7368790Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7396560Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7420014Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7421668Z ##[group]Fetching the repository
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:46.7426385Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +8822de3d22f80b0cb32f70bfe94fcfadfdeff158:refs/remotes/pull/21403/merge
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9627691Z From https://github.com/eslint/eslint
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9628361Z  * [new ref]         8822de3d22f80b0cb32f70bfe94fcfadfdeff158 -> pull/21403/merge
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9633190Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9633698Z ##[group]Determining the checkout info
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9634239Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9636357Z [command]/usr/bin/git sparse-checkout disable
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9677953Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9701553Z ##[group]Checking out the ref
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:47.9704388Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/21403/merge
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1092130Z Note: switching to 'refs/remotes/pull/21403/merge'.
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1092644Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1093111Z You are in 'detached HEAD' state. You can look around, make experimental
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1093742Z changes and commit them, and you can discard any commits you make in this
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1094366Z state without impacting any branches by switching back to a branch.
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1094705Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1095142Z If you want to create a new branch to retain commits you create, you may
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1095778Z do so (now or later) by using -c with the switch command. Example:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1096155Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1096365Z   git switch -c <new-branch-name>
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1096589Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1096742Z Or undo this operation with:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1096945Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1097063Z   git switch -
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1097376Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1097706Z Turn off this advice by setting config variable advice.detachedHead to false
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1098098Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1098541Z HEAD is now at 8822de3 Merge d05f5a7162a8c1f79f0d9f7ee5997f95a60f2995 into 48d5cc47e43478670ccf95a74f7a73e8408152b5
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1105076Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1141229Z [command]/usr/bin/git log -1 --format=%H
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1162447Z 8822de3d22f80b0cb32f70bfe94fcfadfdeff158
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1381815Z ##[group]Run actions/setup-go@v7
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1382057Z with:
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1382438Z   go-version: stable
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1382631Z   check-latest: false
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1384716Z   token: ***
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1384888Z   cache: true
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.1385058Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:48.2278938Z Setup go version spec stable
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:49.1764069Z stable version resolved as 1.27.2
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:49.1765620Z Attempting to download 1.27.2...
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:49.1765979Z matching 1.27.2...
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:49.1767779Z Acquiring 1.27.2 from https://github.com/actions/go-versions/releases/download/1.27.2-37875086547/go-1.27.2-linux-x64.tar.gz
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:49.7023823Z Extracting Go...
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:49.7119720Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/cfb1f80b-8e02-4904-86a8-a22882a92fba -f /home/runner/work/_temp/256307f9-596a-4a51-aa73-4c10d3ecfb18
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:51.1257417Z Successfully extracted go to /home/runner/work/_temp/cfb1f80b-8e02-4904-86a8-a22882a92fba
+Verify Files	UNKNOWN STEP	2026-10-11T20:13:51.1257835Z Adding to the cache ...
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4089728Z Successfully cached go to /opt/hostedtoolcache/go/1.27.2/x64
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4091209Z Added go to the path
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4092941Z Successfully set up Go version stable
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4244134Z [command]/opt/hostedtoolcache/go/1.27.2/x64/bin/go env GOMODCACHE
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4267674Z [command]/opt/hostedtoolcache/go/1.27.2/x64/bin/go env GOCACHE
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4311684Z /home/runner/go/pkg/mod
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4313748Z /home/runner/.cache/go-build
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4338956Z ##[warning]Restore cache failed: Dependencies file is not found in /home/runner/work/eslint/eslint. Supported file pattern: go.mod
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4370584Z go version go1.27.2 linux/amd64
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4370749Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.4371022Z ##[group]go env
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5381334Z AR='ar'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5381608Z CC='gcc'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5381955Z CGO_CFLAGS='-O2 -g'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5382398Z CGO_CPPFLAGS=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5382922Z CGO_CXXFLAGS='-O2 -g'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5383197Z CGO_ENABLED='1'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5383428Z CGO_FFLAGS='-O2 -g'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5383676Z CGO_LDFLAGS='-O2 -g'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5383911Z CXX='g++'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5384144Z GCCGO='gccgo'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5384420Z GO111MODULE=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5384678Z GOAMD64='v1'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5384914Z GOARCH='amd64'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5385147Z GOAUTH='netrc'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5385396Z GOBIN='/home/runner/go/bin'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5385754Z GOCACHE='/home/runner/.cache/go-build'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5386121Z GOCACHEPROG=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5386348Z GODEBUG=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5386610Z GOENV='/home/runner/.config/go/env'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5386945Z GOEXE=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5387181Z GOEXPERIMENT=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5387422Z GOFIPS140='off'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5387649Z GOFLAGS=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5388381Z GOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build1782373677=/tmp/go-build -gno-record-gcc-switches'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5389120Z GOHOSTARCH='amd64'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5389358Z GOHOSTOS='linux'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5389614Z GOINSECURE=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5389892Z GOMOD='/dev/null'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5390167Z GOMODCACHE='/home/runner/go/pkg/mod'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5390501Z GONOPROXY=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5390724Z GONOSUMDB=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5390947Z GOOS='linux'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5391241Z GOPACKAGESDRIVER=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5391541Z GOPATH='/home/runner/go'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5391818Z GOPRIVATE=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5392123Z GOPROXY='https://proxy.golang.org,direct'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5392662Z GOROOT='/opt/hostedtoolcache/go/1.27.2/x64'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5393074Z GOSUMDB='sum.golang.org'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5393365Z GOTELEMETRY='local'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5393725Z GOTELEMETRYDIR='/home/runner/.config/go/telemetry'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5394145Z GOTMPDIR=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5394661Z GOTOOLCHAIN='local'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5395079Z GOTOOLDIR='/opt/hostedtoolcache/go/1.27.2/x64/pkg/tool/linux_amd64'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5395556Z GOVCS=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5395818Z GOVERSION='go1.27.2'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5396092Z GOWORK=''
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5396367Z PKG_CONFIG='pkg-config'
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5396553Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5397072Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5572764Z ##[group]Run actions/setup-node@v7
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5573016Z with:
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5573192Z   node-version: lts/*
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5573390Z   check-latest: false
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5575490Z   token: ***
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5575691Z   package-manager-cache: true
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5575900Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5576086Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.5576304Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:02.6587335Z Attempt to resolve LTS alias from manifest...
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:03.6680566Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:04.4990404Z ##[group]Environment details
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5195236Z node: v24.21.0
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5195544Z npm: 11.19.0
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5195951Z yarn: 1.22.22
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5196513Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5343190Z ##[group]Run go install github.com/rhysd/actionlint/cmd/actionlint@v1.7.10
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5343701Z ^[[36;1mgo install github.com/rhysd/actionlint/cmd/actionlint@v1.7.10^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5344059Z ^[[36;1mactionlint -color -shellcheck= -pyflakes=^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5568776Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5569009Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5569182Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.5569371Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:06.6254986Z go: downloading github.com/rhysd/actionlint v1.7.10
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0121681Z go: downloading github.com/bmatcuk/doublestar/v4 v4.9.1
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0138272Z go: downloading github.com/fatih/color v1.18.0
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0159428Z go: downloading github.com/mattn/go-colorable v0.1.14
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0167526Z go: downloading github.com/mattn/go-runewidth v0.0.17
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0792807Z go: downloading github.com/mattn/go-shellwords v1.0.12
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0836988Z go: downloading github.com/robfig/cron/v3 v3.0.1
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0902394Z go: downloading go.yaml.in/yaml/v4 v4.0.0-rc.3
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.0908241Z go: downloading golang.org/x/sync v0.19.0
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.1540717Z go: downloading golang.org/x/sys v0.39.0
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.1945271Z go: downloading github.com/mattn/go-isatty v0.0.20
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:07.2001361Z go: downloading github.com/rivo/uniseg v0.4.7
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:13.5810952Z ##[group]Run npm install
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:13.5811192Z ^[[36;1mnpm install^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:13.5864396Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:13.5864612Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:13.5864783Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:13.5864968Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:40.7851426Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:40.8116163Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:41.1447349Z npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:41.2272173Z npm warn deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-json instead.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:41.2274479Z npm warn deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:41.2388022Z npm warn deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:41.5007164Z npm warn deprecated @sinonjs/text-encoding@0.7.3: Deprecated: no longer maintained and no longer used by Sinon packages. See
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:41.5008281Z npm warn deprecated   https://github.com/sinonjs/nise/issues/243 for replacement details.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:41.9825583Z npm warn deprecated read-installed@4.0.3: This package is no longer supported.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:42.5654052Z npm warn deprecated lodash.pick@4.4.0: This package is deprecated. Use destructuring assignment syntax instead.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:43.5459772Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:44.5464999Z npm warn deprecated uuid@8.3.2: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:45.0046903Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:45.4343402Z npm warn deprecated sinon@11.1.2: 16.1.1
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0734035Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0735066Z added 1185 packages, and audited 1188 packages in 36s
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0735541Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0735983Z 277 packages are looking for funding
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0736418Z   run `npm fund` for details
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0880842Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0881583Z 41 vulnerabilities (9 low, 8 moderate, 22 high, 2 critical)
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0881951Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0882548Z To address issues that do not require attention, run:
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0883000Z   npm audit fix
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0883146Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0883488Z To address all issues possible (including breaking changes), run:
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0883984Z   npm audit fix --force
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0884166Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0884416Z Some issues need review, and may require choosing
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0884841Z a different dependency.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0885522Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.0885685Z Run `npm audit` for details.
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.1517284Z ##[group]Run npm install
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.1517520Z ^[[36;1mnpm install^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.1573253Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.1573474Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.1573641Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:14:50.1573839Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:04.7107181Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:04.8430285Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:04.8441125Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:04.9871156Z npm warn deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.0297314Z npm warn deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.1684465Z npm warn deprecated lodash.template@4.18.1: This package is deprecated. Use https://socket.dev/npm/package/eta instead.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.1696889Z npm warn deprecated lodash.clone@4.5.0: This package is deprecated. Use structuredClone instead.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.1951227Z npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.2928678Z npm warn deprecated workbox-google-analytics@4.3.1: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.4336541Z npm warn deprecated @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.4897511Z npm warn deprecated har-validator@5.1.5: this library is no longer supported
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.5198029Z npm warn deprecated prebuild-install@7.1.3: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.7850200Z npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.8010362Z npm warn deprecated uuid@3.4.0: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:05.8105945Z npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:06.4867291Z npm warn deprecated abab@2.0.6: Use your platform's native atob() and btoa() methods instead
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:06.5002984Z npm warn deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:06.5601146Z npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:06.8727677Z npm warn deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:06.8766822Z npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:07.1646634Z npm warn deprecated whatwg-encoding@1.0.5: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:07.1800602Z npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:07.2878416Z npm warn deprecated whatwg-encoding@1.0.5: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:09.1796018Z npm warn deprecated core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1104573Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1105343Z added 1216 packages, and audited 1217 packages in 21s
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1105712Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1105945Z 279 packages are looking for funding
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1106371Z   run `npm fund` for details
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1361067Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1361802Z 79 vulnerabilities (3 low, 33 moderate, 38 high, 5 critical)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1362163Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1362601Z To address issues that do not require attention, run:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1363239Z   npm audit fix
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1363452Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1363818Z To address all issues possible (including breaking changes), run:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1364338Z   npm audit fix --force
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1364518Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1364769Z Some issues need review, and may require choosing
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1365184Z a different dependency.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1365364Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1365515Z Run `npm audit` for details.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1375081Z npm warn install-scripts 6 packages have install scripts not yet covered by allowScripts:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1376572Z npm warn install-scripts   sharp@0.32.6 (install: (node install/libvips && node install/dll-copy && prebuild-install) || (node install/can-compile && node-gyp rebuild && node install/dll-copy))
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1377832Z npm warn install-scripts   gifsicle@5.3.0 (postinstall: node lib/install.js)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1378699Z npm warn install-scripts   jpegtran-bin@5.0.2 (postinstall: node lib/install.js)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1379487Z npm warn install-scripts   optipng-bin@7.0.1 (postinstall: node lib/install.js)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1380432Z npm warn install-scripts   @parcel/watcher@2.6.0 (install: node scripts/build-from-source.js)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1381467Z npm warn install-scripts   core-js@2.6.12 (postinstall: node -e "try{require('./postinstall')}catch(e){}")
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1382028Z npm warn install-scripts
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1382769Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1751357Z ##[group]Run node Makefile lint
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1751732Z ^[[36;1mnode Makefile lint^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1815735Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1815957Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1816121Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.1816305Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:11.3432907Z Validating JavaScript files
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:34.2356181Z Validating Markdown Files
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:34.4213114Z markdownlint-cli2 v0.22.1 (markdownlint v0.40.0)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:34.4217739Z Finding: docs/src/**/*.md
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:34.4355009Z Linting: 408 file(s)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:35.9754117Z Summary: 0 error(s)
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.0203905Z ##[group]Run node Makefile checkRuleFiles
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.0204191Z ^[[36;1mnode Makefile checkRuleFiles^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.0258190Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.0258402Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.0258566Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.0258749Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.1751041Z Validating rules
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.4559783Z ##[group]Run node Makefile checkLicenses
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.4560217Z ^[[36;1mnode Makefile checkLicenses^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.4625305Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.4625528Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.4625689Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.4625875Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:36.6138339Z Validating licenses
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:37.4841221Z ##[group]Run node Makefile lintDocsJS
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:37.4841510Z ^[[36;1mnode Makefile lintDocsJS^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:37.4896619Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:37.4896840Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:37.4897014Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:37.4897204Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:37.6466366Z Validating JavaScript files in the docs directory
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:38.9160871Z ##[group]Run node Makefile checkRuleExamples
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:38.9161578Z ^[[36;1mnode Makefile checkRuleExamples^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:38.9219919Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:38.9220446Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:38.9234751Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:38.9235034Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.3714871Z ##[group]Run npm run lint:rule-types
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.3715155Z ^[[36;1mnpm run lint:rule-types^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.3769703Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.3769913Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.3770076Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.3770261Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.4586903Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.4587459Z > eslint@10.12.0 lint:rule-types
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.4587898Z > node tools/update-rule-type-headers.js --check
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.4588123Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.6177622Z Considering 292 rule(s).
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.7642839Z ##[group]Run npm run lint:unused
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.7643286Z ^[[36;1mnpm run lint:unused^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.7708041Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.7708279Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.7708456Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.7708658Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.8515096Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.8515632Z > eslint@10.12.0 lint:unused
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.8516048Z > knip
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:41.8516211Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.6751506Z ##[group]Run npm run fmt:check
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.6751749Z ^[[36;1mnpm run fmt:check^[[0m
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.6806905Z shell: /usr/bin/bash -e {0}
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.6807109Z env:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.6807280Z   GOTOOLCHAIN: local
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.6807466Z ##[endgroup]
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.7621166Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.7621687Z > eslint@10.12.0 fmt:check
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.7622040Z > prettier --check .
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.7622192Z 
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:43.8300059Z Checking formatting...
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:46.9306619Z [^[[33mwarn^[[39m] docs/src/use/getting-started.md
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.1986450Z [^[[33mwarn^[[39m] Code style issues found in the above file. Run Prettier with --write to fix.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.2621079Z ##[error]Process completed with exit code 1.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.2705154Z Post job cleanup.
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3399936Z [command]/usr/bin/git version
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3438975Z git version 2.55.0
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3467723Z Temporarily overriding HOME='/home/runner/work/_temp/dfab8612-6651-4b0a-8deb-7eef60c81223' before making global git config changes
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3468875Z Adding repository directory to the temporary git global config as a safe directory
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3472722Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/eslint/eslint
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3501102Z Removing SSH command configuration
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3506749Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3536775Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3731484Z Removing HTTP extra header
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3736137Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3764532Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3955438Z Removing includeIf entries pointing to credentials config files
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3960680Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3985237Z includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3985760Z includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3986518Z includeif.gitdir:/github/workspace/.git.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3986917Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.3993272Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4012031Z /home/runner/work/_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4020583Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-dc872404\-05cc\-4172\-8420\-db9b22da91b6\.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4049611Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4068407Z /home/runner/work/_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4075765Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-dc872404\-05cc\-4172\-8420\-db9b22da91b6\.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4109100Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4127116Z /github/runner_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4133379Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-dc872404\-05cc\-4172\-8420\-db9b22da91b6\.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4160263Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4178139Z /github/runner_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4184592Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-dc872404\-05cc\-4172\-8420\-db9b22da91b6\.config
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4213418Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4401662Z Removing credentials config '/home/runner/work/_temp/git-credentials-dc872404-05cc-4172-8420-db9b22da91b6.config'
+Verify Files	UNKNOWN STEP	2026-10-11T20:15:59.4543675Z Cleaning up orphan processes

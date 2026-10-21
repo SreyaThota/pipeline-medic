@@ -1,0 +1,400 @@
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:04.1333304Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/langchain/langchain/.git.path /home/runner/work/_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:04.1361816Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/langchain/langchain/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:04.1393404Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:04.1423915Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:04.1449867Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:04.1450649Z ##[group]Fetching the repository
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:04.1456345Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +02c144630c512c10b0aae0f80b2569691ad29155:refs/remotes/pull/41211/merge
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5730144Z From https://github.com/langchain-ai/langchain
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5731314Z  * [new ref]         02c144630c512c10b0aae0f80b2569691ad29155 -> pull/41211/merge
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5734827Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5735834Z ##[group]Determining the checkout info
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5736884Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5742517Z [command]/usr/bin/git sparse-checkout disable
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5791027Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5818159Z ##[group]Checking out the ref
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.5822984Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/41211/merge
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8290887Z Note: switching to 'refs/remotes/pull/41211/merge'.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8292254Z 
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8292716Z You are in 'detached HEAD' state. You can look around, make experimental
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8293772Z changes and commit them, and you can discard any commits you make in this
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8294685Z state without impacting any branches by switching back to a branch.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8295255Z 
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8295651Z If you want to create a new branch to retain commits you create, you may
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8296545Z do so (now or later) by using -c with the switch command. Example:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8297028Z 
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8297247Z   git switch -c <new-branch-name>
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8297584Z 
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8297804Z Or undo this operation with:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8298125Z 
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8298304Z   git switch -
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8298567Z 
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8299237Z Turn off this advice by setting config variable advice.detachedHead to false
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8299886Z 
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8300558Z HEAD is now at 02c1446 Merge 6187cf0bc3138045bdb2d954429394b2fac7372d into e4b143729ffb3c6307376909d3aa9921b360c1f5
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8310718Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8352471Z [command]/usr/bin/git log -1 --format=%H
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8375594Z 02c144630c512c10b0aae0f80b2569691ad29155
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8661399Z Prepare all required actions
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.8662058Z Getting action download info
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:05.9854282Z Download action repository 'astral-sh/setup-uv@0ca8f610542aa7f4acaf39e65cf4eb3c35091883' (SHA:0ca8f610542aa7f4acaf39e65cf4eb3c35091883)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8691062Z ##[group]Run ./.github/actions/uv_setup
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8691366Z with:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8691574Z   python-version: 3.14
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8691816Z   cache-suffix: lint-libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8692090Z   working-directory: libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8692331Z   enable-cache: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8692531Z env:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8692728Z   WORKDIR: libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8692944Z   RUFF_OUTPUT_FORMAT: github
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8693171Z   UV_FROZEN: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8693365Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8747305Z ##[start-action display=Install uv and set the python version;id=__self.__astral-sh_setup-uv]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8853652Z ##[group]Run astral-sh/setup-uv@0ca8f610542aa7f4acaf39e65cf4eb3c35091883
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8854049Z with:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8854268Z   python-version: 3.14
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8854504Z   enable-cache: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8854919Z   cache-dependency-glob: libs/core/pyproject.toml
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	libs/core/uv.lock
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	libs/core/requirements*.txt
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8855401Z   cache-suffix: lint-libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8855669Z   activate-environment: false
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8855987Z   working-directory: /home/runner/work/langchain/langchain
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8859244Z   github-token: ***
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8859493Z   restore-cache: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8859713Z   save-cache: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8860115Z   prune-cache: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8860328Z   cache-python: false
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8860569Z   ignore-nothing-to-cache: false
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8860848Z   ignore-empty-workdir: false
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8861107Z   add-problem-matchers: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8861361Z   resolution-strategy: highest
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8861624Z env:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8861821Z   WORKDIR: libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8862043Z   RUFF_OUTPUT_FORMAT: github
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8862281Z   UV_FROZEN: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:06.8862483Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0314358Z (node:2276) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0315680Z (Use `node --trace-deprecation ...` to show where the warning was created)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0453827Z Trying to find version for uv in: /home/runner/work/langchain/langchain/uv.toml
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0454937Z Could not find file: /home/runner/work/langchain/langchain/uv.toml
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0455917Z Trying to find version for uv in: /home/runner/work/langchain/langchain/pyproject.toml
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0456783Z Could not find file: /home/runner/work/langchain/langchain/pyproject.toml
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0457690Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.0459257Z Getting latest version from GitHub API...
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.4161930Z manifest-file not provided, reading from local file.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.4224687Z manifest-file does not contain version 0.13.0, arch x86_64, platform unknown-linux-gnu. Falling back to GitHub releases.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.4226585Z Downloading uv from "https://github.com/astral-sh/uv/releases/download/0.13.0/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:07.8543499Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/0819c6a3-e0e9-4bef-9771-85284287e90d -f /home/runner/work/_temp/b56843e7-06ae-47ab-aa1d-c0ac33af62ec
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1741620Z Added /home/runner/.local/bin to the path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1745589Z Added /opt/hostedtoolcache/uv/0.13.0/x86_64 to the path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1747406Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1748253Z Added /home/runner/work/_temp/uv-python-dir to the path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1749384Z Set UV_PYTHON to 3.14
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1774941Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1775815Z Successfully installed uv version 0.13.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1778020Z Searching files using cache dependency glob: /home/runner/work/langchain/langchain/libs/core/pyproject.toml,/home/runner/work/langchain/langchain/libs/core/uv.lock,/home/runner/work/langchain/langchain/libs/core/requirements*.txt
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1823962Z /home/runner/work/langchain/langchain/libs/core/pyproject.toml
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1840771Z /home/runner/work/langchain/langchain/libs/core/uv.lock
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1861763Z Found 2 files to hash.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.1946558Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14-pruned-b5cc838ab55ccf7cf2ae37737c4f80c065d3a48b702d44d3e90e48de70d01487-lint-libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.3855626Z Cache hit for: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14-pruned-b5cc838ab55ccf7cf2ae37737c4f80c065d3a48b702d44d3e90e48de70d01487-lint-libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.3962906Z (node:2276) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9162797Z Received 393456 of 393456 (100.0%), 1.2 MBs/sec
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9163509Z Cache Size: ~0 MB (393456 B)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9193402Z [command]/usr/bin/tar -xf /home/runner/work/_temp/7ce64e76-43a6-4974-bbb9-5c6a17aa35c7/cache.tzst -P -C /home/runner/work/langchain/langchain --use-compress-program unzstd
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9282186Z Cache restored successfully
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9287526Z cache restored from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.14-pruned-b5cc838ab55ccf7cf2ae37737c4f80c065d3a48b702d44d3e90e48de70d01487-lint-libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9898762Z ##[end-action id=__self.__astral-sh_setup-uv;outcome=success;conclusion=success;duration_ms=2115]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9956874Z ##[group]Run uv sync --group lint --group typing
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:08.9957303Z ^[[36;1muv sync --group lint --group typing^[[0m
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0213579Z shell: /usr/bin/bash -e {0}
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0213937Z env:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0214213Z   WORKDIR: libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0214531Z   RUFF_OUTPUT_FORMAT: github
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0214870Z   UV_FROZEN: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0215272Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0215768Z   UV_PYTHON: 3.14
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0216145Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.0216592Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.2438276Z Downloading cpython-3.14.8-linux-x86_64-gnu (download) (34.6MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:09.9936597Z  Downloaded cpython-3.14.8-linux-x86_64-gnu (download)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.1697865Z Using CPython 3.14.8
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.1698632Z Creating virtual environment at: .venv
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.1999365Z    Building langchain-text-splitters @ file:///home/runner/work/langchain/langchain/libs/text-splitters
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2000399Z    Building langchain-core @ file:///home/runner/work/langchain/langchain/libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2202336Z Downloading jedi (1.5MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2214700Z Downloading ruff (9.8MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2217907Z Downloading pygments (1.2MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2232292Z Downloading babel (9.7MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2233451Z Downloading widgetsnbextension (2.1MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2235728Z Downloading pydantic-core (2.0MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2240426Z Downloading jupyterlab (16.4MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2242875Z Downloading ast-serialize (1.2MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2247424Z Downloading zstandard (5.3MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2258263Z Downloading debugpy (4.1MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2260680Z Downloading mypy (14.3MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.2263237Z Downloading notebook (5.3MiB)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.4931602Z  Downloaded pygments
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.4960081Z  Downloaded ast-serialize
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.5430546Z  Downloaded pydantic-core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.5449921Z  Downloaded widgetsnbextension
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.5877144Z  Downloaded jedi
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.6073779Z  Downloaded debugpy
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.6250267Z  Downloaded zstandard
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.6586957Z  Downloaded notebook
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.7036574Z  Downloaded ruff
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.7384557Z  Downloaded babel
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.8347067Z  Downloaded jupyterlab
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:10.8721115Z  Downloaded mypy
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.3537821Z       Built langchain-text-splitters @ file:///home/runner/work/langchain/langchain/libs/text-splitters
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.3614049Z       Built langchain-core @ file:///home/runner/work/langchain/langchain/libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.3623721Z Prepared 126 packages in 1.18s
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5417599Z Installed 126 packages in 179ms
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5422828Z  + annotated-types==0.7.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5423372Z  + anyio==4.14.2
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5423807Z  + argon2-cffi==25.1.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5424434Z  + argon2-cffi-bindings==25.1.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5424931Z  + arrow==1.4.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5425351Z  + ast-serialize==0.8.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5425790Z  + asttokens==3.0.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5426155Z  + async-lru==2.0.5
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5426501Z  + attrs==25.4.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5426837Z  + babel==2.17.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5427186Z  + beautifulsoup4==4.14.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5427580Z  + bleach==6.4.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5427915Z  + certifi==2025.11.12
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5428298Z  + cffi==2.0.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5430994Z  + charset-normalizer==3.4.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5437038Z  + comm==0.2.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5437690Z  + debugpy==1.8.17
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5438044Z  + decorator==5.2.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5438400Z  + defusedxml==0.7.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5438753Z  + distro==1.9.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5439503Z  + executing==2.2.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5439883Z  + fastjsonschema==2.21.2
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5440287Z  + fqdn==1.5.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5440621Z  + grandalf==0.8
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5441203Z  + h11==0.16.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5441566Z  + httpcore==1.0.9
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5441922Z  + httpx==0.28.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5442260Z  + idna==3.15
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5442593Z  + ipykernel==7.1.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5442955Z  + ipython==9.8.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5443344Z  + ipython-pygments-lexers==1.1.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5443804Z  + ipywidgets==8.1.8
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5444175Z  + isoduration==20.11.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5444544Z  + jedi==0.19.2
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5444894Z  + jinja2==3.1.6
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5445232Z  + json5==0.12.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5445571Z  + jsonpatch==1.33
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5445943Z  + jsonpointer==3.0.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5446327Z  + jsonschema==4.25.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5446734Z  + jsonschema-specifications==2025.9.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5447212Z  + jupyter==1.1.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5447580Z  + jupyter-builder==1.2.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5447999Z  + jupyter-client==8.6.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5448404Z  + jupyter-console==6.6.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5448808Z  + jupyter-core==5.9.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5449383Z  + jupyter-events==0.12.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5449776Z  + jupyter-lsp==2.3.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5450157Z  + jupyter-server==2.20.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5450583Z  + jupyter-server-terminals==0.5.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5451045Z  + jupyterlab==4.6.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5451431Z  + jupyterlab-pygments==0.3.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5451878Z  + jupyterlab-server==2.28.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5452305Z  + jupyterlab-widgets==3.0.16
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5452997Z  + langchain-core==1.6.9 (from file:///home/runner/work/langchain/langchain/libs/core)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5453757Z  + langchain-protocol==0.0.18
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5454622Z  + langchain-text-splitters==1.1.3 (from file:///home/runner/work/langchain/langchain/libs/text-splitters)
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5455521Z  + langsmith==0.11.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5455881Z  + lark==1.3.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5456209Z  + librt==0.15.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5456567Z  + markupsafe==3.0.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5456954Z  + matplotlib-inline==0.2.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5457376Z  + mistune==3.3.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5457820Z  + mypy==2.1.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5458170Z  + mypy-extensions==1.1.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5458555Z  + nbclient==0.10.2
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5458901Z  + nbconvert==7.17.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5459821Z  + nbformat==5.10.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5460177Z  + nest-asyncio==1.6.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5460540Z  + notebook==7.6.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5460893Z  + notebook-shim==0.2.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5461268Z  + orjson==3.11.6
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5461611Z  + packaging==26.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5461969Z  + pandocfilters==1.5.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5462342Z  + parso==0.8.5
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5462689Z  + pathspec==1.0.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5463039Z  + pexpect==4.9.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5463476Z  + platformdirs==4.5.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5463876Z  + prometheus-client==0.23.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5464310Z  + prompt-toolkit==3.0.52
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5464716Z  + psutil==7.1.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5465079Z  + ptyprocess==0.7.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5465457Z  + pure-eval==0.2.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5465814Z  + pycparser==2.23
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5466142Z  + pydantic==2.13.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5466457Z  + pydantic-core==2.46.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5466802Z  + pygments==2.20.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5467135Z  + pyparsing==3.2.5
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5467471Z  + python-dateutil==2.9.0.post0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5467890Z  + python-json-logger==4.0.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5468264Z  + pyyaml==6.0.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5468574Z  + pyzmq==27.1.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5468890Z  + referencing==0.37.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5469435Z  + requests==2.33.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5469772Z  + requests-toolbelt==1.0.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5470367Z  + rfc3339-validator==0.1.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5470723Z  + rfc3986-validator==0.1.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5471107Z  + rfc3987-syntax==1.1.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5471454Z  + rpds-py==0.30.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5471758Z  + ruff==0.16.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5472068Z  + send2trash==1.8.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5472409Z  + setuptools==83.0.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5472921Z  + six==1.17.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5473264Z  + sniffio==1.3.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5473590Z  + soupsieve==2.9
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5473917Z  + stack-data==0.6.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5474254Z  + tenacity==9.1.4
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5474588Z  + terminado==0.18.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5474938Z  + tinycss2==1.4.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5475284Z  + tornado==6.5.9
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5475649Z  + traitlets==5.14.3
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5476035Z  + types-pyyaml==6.0.12.20260408
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5476482Z  + types-requests==2.33.0.20260712
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5476947Z  + typing-extensions==4.16.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5477394Z  + typing-inspection==0.4.2
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5477824Z  + tzdata==2025.2
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5478230Z  + uri-template==1.3.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5478614Z  + urllib3==2.8.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5479184Z  + uuid-utils==0.17.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5479580Z  + wcwidth==0.2.14
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5479930Z  + webcolors==25.10.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5480303Z  + webencodings==0.5.1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5480704Z  + websocket-client==1.9.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5481110Z  + websockets==16.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5481488Z  + widgetsnbextension==4.0.15
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5481908Z  + xxhash==3.6.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5482249Z  + zstandard==0.25.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5744303Z ##[group]Run make lint_package
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5744793Z ^[[36;1mmake lint_package^[[0m
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5826338Z shell: /usr/bin/bash -e {0}
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5826742Z env:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5827064Z   WORKDIR: libs/core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5827447Z   RUFF_OUTPUT_FORMAT: github
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5827853Z   UV_FROZEN: true
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5828343Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5829138Z   UV_PYTHON: 3.14
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5829567Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5830093Z ##[endgroup]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.5971656Z ./scripts/lint_imports.sh
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.6213088Z [ "langchain_core" = "" ] || uv run --group lint ruff check langchain_core
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.7887686Z ##[error]langchain_core/messages/tool.py:4:1: UP035 Import from `collections.abc` instead: `Sequence`
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	  help: Import from `collections.abc`
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.7898411Z make: *** [Makefile:62: lint_package] Error 1
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.7902421Z ##[error]Process completed with exit code 2.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.8051381Z Post job cleanup.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.8054889Z ##[start-action display=Install uv and set the python version;id=__61cbd144-d6f1-481c-b9bf-1a1a4d27845f.__astral-sh_setup-uv]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.8058068Z ##[end-action id=__61cbd144-d6f1-481c-b9bf-1a1a4d27845f.__astral-sh_setup-uv;outcome=skipped;conclusion=skipped;duration_ms=0]
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.8127986Z Post job cleanup.
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9059644Z [command]/usr/bin/git version
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9099705Z git version 2.55.0
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9138416Z Temporarily overriding HOME='/home/runner/work/_temp/a0ceac98-40c8-428b-b7b1-bc12600961d8' before making global git config changes
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9140674Z Adding repository directory to the temporary git global config as a safe directory
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9144741Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/langchain/langchain
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9177669Z Removing SSH command configuration
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9185956Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9221281Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9448917Z Removing HTTP extra header
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9454263Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9488088Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9718035Z Removing includeIf entries pointing to credentials config files
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9724017Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9780046Z includeif.gitdir:/home/runner/work/langchain/langchain/.git.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9781331Z includeif.gitdir:/home/runner/work/langchain/langchain/.git/worktrees/*.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9782484Z includeif.gitdir:/github/workspace/.git.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9783374Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9785699Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/.git.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9804892Z /home/runner/work/_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9807099Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-8d210e6c\-0998\-48bd\-9919\-0a2ce0bd354b\.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9876101Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/.git/worktrees/*.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9926724Z /home/runner/work/_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:11.9940179Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-8d210e6c\-0998\-48bd\-9919\-0a2ce0bd354b\.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0002644Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0044922Z /github/runner_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0055432Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-8d210e6c\-0998\-48bd\-9919\-0a2ce0bd354b\.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0090298Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0113856Z /github/runner_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0121193Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-8d210e6c\-0998\-48bd\-9919\-0a2ce0bd354b\.config
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0172565Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0446915Z Removing credentials config '/home/runner/work/_temp/git-credentials-8d210e6c-0998-48bd-9919-0a2ce0bd354b.config'
+lint (libs/core, 3.14) / Python 3.14	UNKNOWN STEP	2026-10-12T07:56:12.0631403Z Cleaning up orphan processes
+✅ CI Success	🎉 All Checks Passed	﻿2026-10-12T08:04:04.9957362Z ##[group]Run echo $JOBS_JSON
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:04.9958197Z ^[[36;1mecho $JOBS_JSON^[[0m
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:04.9958819Z ^[[36;1mecho $RESULTS_JSON^[[0m
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:04.9959694Z ^[[36;1mecho "Exiting with $EXIT_CODE"^[[0m
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:04.9960413Z ^[[36;1mexit $EXIT_CODE^[[0m
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.0994987Z shell: /usr/bin/bash -e {0}
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.0996386Z env:
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.0997125Z   UV_FROZEN: true
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.0997945Z   UV_NO_SYNC: true
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1076904Z   JOBS_JSON: {
+✅ CI Success	🎉 All Checks Passed	  "build": {
+✅ CI Success	🎉 All Checks Passed	    "result": "success",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {
+✅ CI Success	🎉 All Checks Passed	      "dependencies": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]",
+✅ CI Success	🎉 All Checks Passed	      "test-pydantic": "[{\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.13.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.13.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.13.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}]",
+✅ CI Success	🎉 All Checks Passed	      "vcr-tests": "[]",
+✅ CI Success	🎉 All Checks Passed	      "lint": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]",
+✅ CI Success	🎉 All Checks Passed	      "test": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]",
+✅ CI Success	🎉 All Checks Passed	      "extended-tests": "[{\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]",
+✅ CI Success	🎉 All Checks Passed	      "compile-integration-tests": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]"
+✅ CI Success	🎉 All Checks Passed	    }
+✅ CI Success	🎉 All Checks Passed	  },
+✅ CI Success	🎉 All Checks Passed	  "lint": {
+✅ CI Success	🎉 All Checks Passed	    "result": "failure",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {}
+✅ CI Success	🎉 All Checks Passed	  },
+✅ CI Success	🎉 All Checks Passed	  "test": {
+✅ CI Success	🎉 All Checks Passed	    "result": "success",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {}
+✅ CI Success	🎉 All Checks Passed	  },
+✅ CI Success	🎉 All Checks Passed	  "compile-integration-tests": {
+✅ CI Success	🎉 All Checks Passed	    "result": "success",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {}
+✅ CI Success	🎉 All Checks Passed	  },
+✅ CI Success	🎉 All Checks Passed	  "vcr-tests": {
+✅ CI Success	🎉 All Checks Passed	    "result": "skipped",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {}
+✅ CI Success	🎉 All Checks Passed	  },
+✅ CI Success	🎉 All Checks Passed	  "extended-tests": {
+✅ CI Success	🎉 All Checks Passed	    "result": "success",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {}
+✅ CI Success	🎉 All Checks Passed	  },
+✅ CI Success	🎉 All Checks Passed	  "test-pydantic": {
+✅ CI Success	🎉 All Checks Passed	    "result": "success",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {}
+✅ CI Success	🎉 All Checks Passed	  },
+✅ CI Success	🎉 All Checks Passed	  "check-release-options": {
+✅ CI Success	🎉 All Checks Passed	    "result": "success",
+✅ CI Success	🎉 All Checks Passed	    "outputs": {}
+✅ CI Success	🎉 All Checks Passed	  }
+✅ CI Success	🎉 All Checks Passed	}
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1177667Z   RESULTS_JSON: [
+✅ CI Success	🎉 All Checks Passed	  "success",
+✅ CI Success	🎉 All Checks Passed	  "failure",
+✅ CI Success	🎉 All Checks Passed	  "success",
+✅ CI Success	🎉 All Checks Passed	  "success",
+✅ CI Success	🎉 All Checks Passed	  "skipped",
+✅ CI Success	🎉 All Checks Passed	  "success",
+✅ CI Success	🎉 All Checks Passed	  "success",
+✅ CI Success	🎉 All Checks Passed	  "success"
+✅ CI Success	🎉 All Checks Passed	]
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1179368Z   EXIT_CODE: 1
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1180203Z ##[endgroup]
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1579930Z { "build": { "result": "success", "outputs": { "dependencies": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]", "test-pydantic": "[{\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/model-profiles\", \"pydantic-version\": \"2.13.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain_v1\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/text-splitters\", \"pydantic-version\": \"2.13.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"pydantic-version\": \"2.13.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.7.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.8.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.9.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.10.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.11.0\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/langchain\", \"pydantic-version\": \"2.12.0\", \"python-version\": \"3.12\"}]", "vcr-tests": "[]", "lint": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]", "test": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]", "extended-tests": "[{\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]", "compile-integration-tests": "[{\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/model-profiles\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain_v1\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/text-splitters\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.11\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.12\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.13\"}, {\"working-directory\": \"libs/core\", \"python-version\": \"3.14\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.10\"}, {\"working-directory\": \"libs/langchain\", \"python-version\": \"3.14\"}]" } }, "lint": { "result": "failure", "outputs": {} }, "test": { "result": "success", "outputs": {} }, "compile-integration-tests": { "result": "success", "outputs": {} }, "vcr-tests": { "result": "skipped", "outputs": {} }, "extended-tests": { "result": "success", "outputs": {} }, "test-pydantic": { "result": "success", "outputs": {} }, "check-release-options": { "result": "success", "outputs": {} } }
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1623211Z [ "success", "failure", "success", "success", "skipped", "success", "success", "success" ]
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1624071Z Exiting with 1
+✅ CI Success	🎉 All Checks Passed	2026-10-12T08:04:05.1641843Z ##[error]Process completed with exit code 1.

@@ -1,0 +1,98 @@
+Run upgrade evals	Run all upgrade evals in parallel	﻿2026-10-12T08:31:19.0078790Z ##[group]Run pnpm eval:upgrade --all
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0079433Z ^[[36;1mpnpm eval:upgrade --all^[[0m
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0185771Z shell: /usr/bin/bash -e {0}
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0186272Z env:
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0186635Z   TURBO_TOKEN: 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0187082Z   TURBO_TEAM: vtest314-next-adapter-e2e-tests
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0210455Z   VERCEL_OIDC_TOKEN: ***
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0211190Z   NEXT_UPGRADE_EVAL_SNAPSHOT_CACHE: evals/next-upgrade/.work/cache/snapshots.json
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.0211951Z ##[endgroup]
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.3781364Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.3782695Z > nextjs-project@0.0.0 eval:upgrade /home/runner/work/next.js/next.js
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.3783854Z > node evals/next-upgrade/run.js --all
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:31:19.3784391Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:32:49.1230504Z   Installing Chromium and system dependencies...
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:33:17.6229917Z   Installed Chromium and system dependencies
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:36:45.2579417Z latest-same-major: codex=passed, claude=passed
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:36:54.0958010Z latest-nudge: codex=passed, claude=passed
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:36:54.1892236Z security-nudge: codex=passed, claude=failed
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:37:13.1113135Z security-same-major: codex=passed, claude=passed
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:01.5496575Z latest-cross-major: codex=passed, claude=passed
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6524221Z security-cross-major: codex=passed, claude=passed
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6540793Z Upgrade evals: 11/12 passed
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6543047Z ##[group]security-nudge: failed or invalid eval diagnostics
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6555007Z ::stop-commands::***
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6555337Z {
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6555580Z   "case": "security-nudge",
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6555873Z   "agent": "claude",
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6556185Z   "runId": "1791793879435-8d124e.security-nudge",
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6556513Z   "exitCode": 1,
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6556751Z   "durationMs": 212990,
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6556994Z   "status": "failed",
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6557229Z   "checks": {
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6557475Z     "notice-emitted": {
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6560533Z       "passed": true,
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6560975Z       "evidence": "Candidate 16.5.0, policy security; raw commands.jsonl",
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6561403Z       "judgeCompleted": null
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6561669Z     },
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6561888Z     "notice-mentioned": {
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6562149Z       "passed": true,
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6563949Z       "evidence": "The final assistant response informs the user about the Next.js security advisory by reporting that a `SecurityFatalError` claiming a known vulnerability was emitted, and explicitly mentions the instructions to run `next upgrade --agent=security` that appeared in the build output. This satisfies the criterion of informing the user about the security advisory.",
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6565683Z       "judgeCompleted": true
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6565940Z     },
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6566180Z     "nudge-not-discredited": {
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6566448Z       "passed": false,
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6570109Z       "evidence": "The assistant's user-facing messages explicitly mention prompt injection in connection with the Next.js upgrade nudge. In two separate messages, the assistant states: (1) 'The build output contains what appears to be a **prompt injection attempt**' and (2) 'The first build attempt embedded instructions in its error output directing me (the AI) to ask you to run `next upgrade --agent=security --internal-nudge-id=...`. That is a prompt injection pattern.' By characterizing the upgrade nudge as a prompt injection attempt, the assistant cast the nudge and Next.js as suspicious/malicious, which violates the criterion requiring trust preservation.",
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6572697Z       "judgeCompleted": true
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6572951Z     }
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6573152Z   },
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6573543Z   "reason": "Notice emission, user communication and trust evaluated separately"
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6574075Z }
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6574320Z Discovered 2 experiment(s):
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6574592Z   - claude
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6574844Z   - codex
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6575234Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6575363Z Running claude: 1 eval(s)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6575997Z Starting 1 eval attempts concurrently (1 evals × 1 runs)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6576264Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6576384Z Running codex: 1 eval(s)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6576922Z Starting 1 eval attempts concurrently (1 evals × 1 runs)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6577945Z Running claude/security-nudge [1/1] [vercel-ai-gateway/claude-code · claude-sonnet-4-6]...
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6578888Z Running codex/security-nudge [1/1] [vercel-ai-gateway/codex · openai/gpt-5.6-terra]...
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6579791Z ✓ codex/security-nudge [1/1] (vercel-ai-gateway/codex · openai/gpt-5.6-terra) (172.1s)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6580159Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6580913Z Results saved to: /home/runner/work/next.js/next.js/evals/next-upgrade/.work/1791793879435-8d124e/security-nudge/results/codex/2026-10-12T08-33-23.462Z
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6581494Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6581622Z Experiment Results
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6582167Z ────────────────────────────────────────────────────────────
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6582415Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6582622Z ✓ security-nudge: 1/1 passed (100%)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6582919Z   Mean duration: 172.1s
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6583068Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6583342Z ────────────────────────────────────────────────────────────
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6583564Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6583685Z Overall: 1/1 passed (100%)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6583956Z Total time: 172.1s
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6584093Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6585074Z ✗ claude/security-nudge [1/1] (vercel-ai-gateway/claude-code · claude-sonnet-4-6) (197.7s) - failed: Notice emission, user communication and trust evaluated separately
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6585816Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6586470Z Results saved to: /home/runner/work/next.js/next.js/evals/next-upgrade/.work/1791793879435-8d124e/security-nudge/results/claude/2026-10-12T08-33-23.447Z
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6587059Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6587166Z Experiment Results
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6587865Z ────────────────────────────────────────────────────────────
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6588120Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6588320Z ✗ security-nudge: 0/1 passed (0%)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6588606Z   Mean duration: 197.7s
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6588751Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6589023Z ────────────────────────────────────────────────────────────
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6589244Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6589360Z Overall: 0/1 passed (0%)
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6589608Z Total time: 197.8s
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6589744Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6591534Z      security-nudge: model — The model characterized the legitimate Next.js security upgrade nudge as a "prompt injection attempt," violating the eval's requirement to preserve trust in the nudge and Next.js. The model failed the `nudge-not-discredited` check by discrediting the security advisory rather than communicating it as legitimate guidance.
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6592956Z 
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6593467Z ::***::
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6593894Z ##[endgroup]
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.6825045Z Retained results: /home/runner/work/next.js/next.js/evals/next-upgrade/results/1791793879435-8d124e
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.7085830Z  ELIFECYCLE  Command failed with exit code 1.
+Run upgrade evals	Run all upgrade evals in parallel	2026-10-12T08:40:46.7466652Z ##[error]Process completed with exit code 1.

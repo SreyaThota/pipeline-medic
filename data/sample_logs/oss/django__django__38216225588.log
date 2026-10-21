@@ -1,0 +1,253 @@
+Run Quality Checks on a PR	UNKNOWN STEP	﻿2026-10-12T07:09:55.0048286Z Current runner version: '2.337.0'
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0082779Z ##[group]Runner Image Provisioner
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0084133Z Hosted Compute Agent
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0085153Z Version: 20261002.596
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0086368Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0087538Z Build Date: 2026-10-02T22:28:27Z
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0088809Z Worker ID: {a753b182-abba-4a14-b5fb-cbc9749ab9b1}
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0090279Z Region: eastus
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0091211Z Cloud: Azure
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0092184Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0094754Z ##[group]Operating System
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0095879Z Ubuntu
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0096757Z 24.04.5
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0097601Z LTS
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0098587Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0099900Z ##[group]Runner Image
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0100939Z Image: ubuntu-24.04
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0101880Z Version: 20261004.327.1
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0104079Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0106769Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0108572Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0110885Z ##[group]GITHUB_TOKEN Permissions
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0113864Z Contents: read
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0114802Z Metadata: read
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0115791Z PullRequests: write
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0116797Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0120021Z Secret source: Actions
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0121638Z Cache mode: read
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0123160Z Prepare workflow directory
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0593280Z Prepare all required actions
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.0663537Z Getting action download info
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.2624900Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.3785645Z Download action repository 'actions/setup-python@v6' (SHA:ece7cb06caefa5fff74198d8649806c4678c61a1)
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.5868339Z Complete job name: Run Quality Checks on a PR
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6616538Z ##[group]Run actions/checkout@v7
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6617779Z with:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6618257Z   persist-credentials: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6618771Z   ref: main
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6619410Z   repository: django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6623240Z   token: ***
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6623685Z   ssh-strict: true
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6624130Z   ssh-user: git
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6624564Z   clean: true
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6625025Z   sparse-checkout-cone-mode: true
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6625554Z   fetch-depth: 1
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6625991Z   fetch-tags: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6626460Z   show-progress: true
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6626923Z   lfs: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6627345Z   submodules: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6627801Z   set-safe-directory: true
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6628317Z   allow-unsafe-pr-checkout: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.6629379Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7644311Z Syncing repository: django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7646063Z ##[group]Getting Git version info
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7646855Z Working directory is '/home/runner/work/django/django'
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7647844Z [command]/usr/bin/git version
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7718256Z git version 2.55.0
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7740219Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7750617Z Temporarily overriding HOME='/home/runner/work/_temp/4a7524ca-7ae0-4ada-85c6-15f02a03c8e0' before making global git config changes
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7752493Z Adding repository directory to the temporary git global config as a safe directory
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7756283Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7801740Z Deleting the contents of '/home/runner/work/django/django'
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.7805133Z ##[group]Determining repository object format
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.9965022Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.9967020Z ##[group]Initializing the repository
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:55.9976296Z [command]/usr/bin/git init /home/runner/work/django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0107033Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0109854Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0112276Z hint: to use in all of your new repositories, which will suppress this warning,
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0114257Z hint: call:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0115543Z hint:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0116982Z hint: 	git config --global init.defaultBranch <name>
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0118640Z hint:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0124115Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0126951Z hint: 'development'. The just-created branch can be renamed via this command:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0129234Z hint:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0130643Z hint: 	git branch -m <name>
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0131965Z hint:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0134071Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0137985Z Initialized empty Git repository in /home/runner/work/django/django/.git/
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0142921Z [command]/usr/bin/git remote add origin https://github.com/django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0202000Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0203770Z ##[group]Disabling automatic garbage collection
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0205384Z [command]/usr/bin/git config --local gc.auto 0
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0251987Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0253708Z ##[group]Setting up auth
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0255113Z Removing SSH command configuration
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0259525Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0308571Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0708330Z Removing HTTP extra header
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0710756Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0747168Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0982926Z Removing includeIf entries pointing to credentials config files
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.0988338Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1025458Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1250478Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1288410Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/django/django/.git.path /home/runner/work/_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1321704Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/django/django/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1355547Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1388618Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1417245Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1418099Z ##[group]Fetching the repository
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:56.1423932Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +refs/heads/main*:refs/remotes/origin/main* +refs/tags/main*:refs/tags/main*
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2909249Z From https://github.com/django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2911927Z  * [new branch]      main       -> origin/main
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2915309Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2916572Z ##[group]Determining the checkout info
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2920539Z [command]/usr/bin/git branch --list --remote origin/main
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2948551Z   origin/main
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2954536Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.2957336Z [command]/usr/bin/git sparse-checkout disable
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.3014916Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.3047031Z ##[group]Checking out the ref
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.3049519Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8330413Z Switched to a new branch 'main'
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8334367Z branch 'main' set up to track 'origin/main'.
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8350955Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8410215Z [command]/usr/bin/git log -1 --format=%H
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8428705Z 0f34a4cf9f1b5f3e68decbdca76aebb71268ba93
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8444988Z ##[group]Removing auth
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8445547Z Removing SSH command configuration
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8446281Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8483555Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8732002Z Removing HTTP extra header
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8736687Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.8771009Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9001253Z Removing includeIf entries pointing to credentials config files
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9005230Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9032745Z includeif.gitdir:/home/runner/work/django/django/.git.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9033366Z includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9033823Z includeif.gitdir:/github/workspace/.git.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9034250Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9040356Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/django/django/.git.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9065166Z /home/runner/work/_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9074300Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/django/django/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-eac2fe57\-540d\-42bd\-847d\-02255537becd\.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9108370Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9131937Z /home/runner/work/_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9140044Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-eac2fe57\-540d\-42bd\-847d\-02255537becd\.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9225164Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9255860Z /github/runner_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9264317Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-eac2fe57\-540d\-42bd\-847d\-02255537becd\.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9301315Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9324752Z /github/runner_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9332387Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-eac2fe57\-540d\-42bd\-847d\-02255537becd\.config
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9365224Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9591163Z Removing credentials config '/home/runner/work/_temp/git-credentials-eac2fe57-540d-42bd-847d-02255537becd.config'
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9600347Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9935714Z ##[group]Run actions/setup-python@v6
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9936021Z with:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9936218Z   python-version: 3.14
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9936442Z   check-latest: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9939269Z   token: ***
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9939519Z   update-environment: true
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9939762Z   allow-prereleases: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9939986Z   freethreaded: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:58.9940200Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.1344817Z ##[group]Installed versions
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.3462939Z Successfully set up CPython (3.14.8)
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.3463763Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.3599913Z ##[group]Run python scripts/pr_quality/check_pr.py
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.3600413Z ^[[36;1mpython scripts/pr_quality/check_pr.py^[[0m
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4213333Z shell: /usr/bin/bash -e {0}
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4213631Z env:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4213924Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.8/x64
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4214429Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib/pkgconfig
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4214901Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4215328Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4215753Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4216172Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4219550Z   GITHUB_TOKEN: ***
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4219781Z   RECHECK: false
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4220018Z   PR_AUTHOR: abheetsharma09
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4233820Z   PR_BODY: ### Summary
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	Fixes #37416.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	### Problem & Background
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	In #29721, migration recording was moved inside the `connection.schema_editor(atomic=migration.atomic)` context to ensure that migration schema changes and their corresponding entries in `django_migrations` were committed atomically.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	However, in #32374 (commit `0c42cdf0d`), migration recording was moved outside the schema editor context when `schema_editor.deferred_sql` was not empty. This change was intended to prevent a migration from being recorded as applied if deferred SQL failed, particularly for non-atomic migrations.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	The problem is that `schema_editor.__exit__()` executes deferred SQL and then completes the schema editor's transaction. Consequently, when a migration generates deferred SQL, its schema changes may be committed before `record_migration()` is called. If recording subsequently fails, the database can be left with schema changes that are not recorded in `django_migrations`. This can cause problems when Django attempts to apply the migration again.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	Recording migrations outside the schema editor context can also introduce unnecessary transaction overhead when squashed migrations contain multiple replaced migrations, because their records may be inserted in separate autocommit transactions.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	### Solution
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	1. **Added `BaseDatabaseSchemaEditor.execute_deferred_sql()`** to execute pending statements in `self.deferred_sql` and clear the list. Updated `BaseDatabaseSchemaEditor.__exit__()` to use this method while preserving the existing behavior.
+Run Quality Checks on a PR	UNKNOWN STEP	2. **Updated `MigrationExecutor.apply_migration()` and `unapply_migration()`** to execute deferred SQL before recording the migration, while still inside the schema editor context. This ensures that:
+Run Quality Checks on a PR	UNKNOWN STEP	   - Deferred SQL failures occur before migration recording, preserving the behavior introduced by #32374.
+Run Quality Checks on a PR	UNKNOWN STEP	   - Migration recording happens before the schema editor's transaction completes, keeping schema changes and migration records atomic on databases that support transactional DDL.
+Run Quality Checks on a PR	UNKNOWN STEP	   - Migration reversal follows the same approach, ensuring that unapplied migrations and their records are handled consistently.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	### Testing
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	- Added `test_migrations_applied_and_recorded_atomically_deferred_sql` in `tests/migrations/test_executor.py` to verify that schema changes are rolled back if recording an applied migration fails.
+Run Quality Checks on a PR	UNKNOWN STEP	- Added `test_migrations_unapplied_and_recorded_atomically` in `tests/migrations/test_executor.py` to verify atomic rollback when recording an unapplied migration fails.
+Run Quality Checks on a PR	UNKNOWN STEP	- Added `test_execute_deferred_sql` in `tests/schema/tests.py` to cover deferred SQL execution.
+Run Quality Checks on a PR	UNKNOWN STEP	- [Add the actual results of the migration, schema, and backend test suites after running them.]
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	#### Trac ticket number
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	ticket-37416
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	#### Branch description
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	Keep migration schema changes and migration records atomic when deferred SQL is present.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	#### AI Assistance Disclosure (REQUIRED)
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] **No AI tools were used** in preparing this PR.
+Run Quality Checks on a PR	UNKNOWN STEP	- [x] **If AI tools were used**, I have disclosed which ones, and fully reviewed and verified their output.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	AI tool used: ChatGPT. The output was reviewed and verified by the contributor.
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	#### Checklist
+Run Quality Checks on a PR	UNKNOWN STEP	
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] This PR follows the [[contribution guidelines](https://docs.djangoproject.com/en/stable/internals/contributing/writing-code/submitting-patches/)](https://docs.djangoproject.com/en/stable/internals/contributing/writing-code/submitting-patches/).
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] This PR does not disclose a security vulnerability.
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] This PR targets the `main` branch.
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] The commit message is written in past tense, mentions the ticket number where applicable, and ends with a period.
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] I have not requested, and will not request, an automated AI review for this PR.
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] I have checked the "Has patch" ticket flag in the Trac system.
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] I have added or updated relevant tests.
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] I have added or updated relevant documentation, including release notes if applicable.
+Run Quality Checks on a PR	UNKNOWN STEP	- [ ] I have attached screenshots in both light and dark modes for any UI changes.
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4247936Z   PR_TITLE: Fixed #37416 -- Fixed atomic migration recording when deferred SQL is present
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4248379Z   PR_CREATED_AT: 2026-10-12T03:58:14Z
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4248634Z   PR_NUMBER: 22135
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4248850Z   PR_REPO: django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4249181Z   AUTOCLOSE: true
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4249385Z   PYTHONPATH: scripts
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:09:59.4249598Z ##[endgroup]
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:01.4430466Z ##[notice]Trac ticket is not Accepted -- skipping has_patch check.
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.4020212Z ##[warning]PR #22135 has 2 failure(s) and 0 warning(s), adding comment with details.
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.4157685Z ##[error]Process completed with exit code 1.
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.4317789Z Post job cleanup.
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5166701Z [command]/usr/bin/git version
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5211541Z git version 2.55.0
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5249654Z Temporarily overriding HOME='/home/runner/work/_temp/a4bbf6a5-db94-4b42-9f6f-57e848c7e843' before making global git config changes
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5251007Z Adding repository directory to the temporary git global config as a safe directory
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5255556Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/django/django
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5285813Z Removing SSH command configuration
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5292374Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5331223Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5571689Z Removing HTTP extra header
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5577171Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5610286Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5849500Z Removing includeIf entries pointing to credentials config files
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5856152Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.5888177Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Quality Checks on a PR	UNKNOWN STEP	2026-10-12T07:10:03.6268521Z Cleaning up orphan processes

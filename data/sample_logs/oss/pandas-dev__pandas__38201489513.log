@@ -1,0 +1,400 @@
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:28.9624947Z tests/indexes/periodindex/test_sub.py ....                               [ 39%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:28.9691029Z tests/indexes/str/test_add.py ....                                       [ 39%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:28.9750958Z tests/indexes/str/test_mul.py ....                                       [ 39%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:28.9837314Z tests/indexes/test_add.py .....                                          [ 39%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:28.9899295Z tests/indexes/test_categoricalindex.py ....                              [ 39%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.0011124Z tests/indexes/test_datetime_index.py ........                            [ 40%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.0080985Z tests/indexes/test_floordiv.py ....                                      [ 40%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.0895763Z tests/indexes/test_indexes.py .......................................... [ 41%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.1701285Z ....................................................                     [ 42%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.1781456Z tests/indexes/test_mul.py .....                                          [ 43%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.1939056Z tests/indexes/test_multi_indexes.py ............                         [ 43%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.1999227Z tests/indexes/test_rangeindex.py .......                                 [ 43%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2077929Z tests/indexes/test_sub.py .....                                          [ 43%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2185265Z tests/indexes/test_truediv.py .......                                    [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2253238Z tests/indexes/timedeltaindex/test_add.py ....                            [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2329500Z tests/indexes/timedeltaindex/test_floordiv.py .....                      [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2389194Z tests/indexes/timedeltaindex/test_mul.py ....                            [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2509342Z tests/indexes/timedeltaindex/test_sub.py ........                        [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2580712Z tests/indexes/timedeltaindex/test_truediv.py .....                       [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2616753Z tests/scalars/offsets/day/test_add.py ...                                [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2650251Z tests/scalars/offsets/easter/test_add.py ...                             [ 44%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2668902Z tests/scalars/offsets/test_offsets.py ..                                 [ 45%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2702917Z tests/scalars/period/test_add.py ...                                     [ 45%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2734278Z tests/scalars/period/test_sub.py ...                                     [ 45%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.2799911Z tests/scalars/test_interval.py ......                                    [ 45%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.3518409Z tests/scalars/test_scalars.py .......................................... [ 46%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.3531805Z .                                                                        [ 46%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.3544885Z tests/scalars/timedelta/test_arithmetic.py .                             [ 46%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.3659703Z tests/series/bool/test_add.py .....                                      [ 46%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.3785435Z tests/series/bool/test_dtypes.py ..........                              [ 47%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.3903567Z tests/series/bool/test_mul.py .....                                      [ 47%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4001850Z tests/series/bool/test_sub.py .....                                      [ 47%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4124907Z tests/series/bool/test_truediv.py .....                                  [ 47%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4211282Z tests/series/bytes/test_dtypes.py ......                                 [ 47%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4265354Z tests/series/categorical/test_dtypes.py ..                               [ 47%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4374741Z tests/series/complex/test_add.py .....                                   [ 47%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4580627Z tests/series/complex/test_dtypes.py .................                    [ 48%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4695365Z tests/series/complex/test_mul.py .....                                   [ 48%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4803469Z tests/series/complex/test_sub.py .....                                   [ 48%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.4934466Z tests/series/complex/test_truediv.py .....                               [ 48%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.5043268Z tests/series/float/test_add.py .....                                     [ 48%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.5473539Z tests/series/float/test_dtypes.py ...................................... [ 50%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.5808284Z ...........................                                              [ 50%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.5932580Z tests/series/float/test_floordiv.py .....                                [ 51%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.6081824Z tests/series/float/test_mul.py .....                                     [ 51%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.6188328Z tests/series/float/test_sub.py .....                                     [ 51%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.6370287Z tests/series/float/test_truediv.py ......                                [ 51%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.6484570Z tests/series/int/test_add.py .....                                       [ 51%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.6961873Z tests/series/int/test_dtypes.py ........................................ [ 52%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.7423170Z ......................................                                   [ 53%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.7543992Z tests/series/int/test_floordiv.py .....                                  [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.7685771Z tests/series/int/test_mul.py .....                                       [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.7709556Z tests/series/int/test_series_int.py ..                                   [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.7819584Z tests/series/int/test_sub.py .....                                       [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.7990603Z tests/series/int/test_truediv.py ......                                  [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.8028438Z tests/series/interval/test_series_interval.py ..                         [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.8091553Z tests/series/object/test_dtypes.py .....                                 [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.8111336Z tests/series/period/test_sub.py .                                        [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.8220028Z tests/series/str/test_add.py .....                                       [ 54%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.8360721Z tests/series/str/test_dtypes.py ...........                              [ 55%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.8461440Z tests/series/str/test_mul.py .....                                       [ 55%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:29.8609731Z tests/series/test_add.py ......                                          [ 55%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.1842395Z tests/series/test_agg.py ....F...                                        [ 55%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.1927817Z tests/series/test_cumul.py ........                                      [ 56%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.2061729Z tests/series/test_floordiv.py .....                                      [ 56%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.2442285Z tests/series/test_indexing.py .......................                    [ 56%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.2576559Z tests/series/test_mul.py ......                                          [ 57%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.2621309Z tests/series/test_properties.py ..                                       [ 57%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.3485793Z tests/series/test_series.py ............................................ [ 58%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.5104226Z ........................................................................ [ 60%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.5895751Z ............................................                             [ 61%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.6122198Z tests/series/test_sub.py .........                                       [ 62%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.6334601Z tests/series/test_truediv.py ........                                    [ 62%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.6478387Z tests/series/timedelta/test_add.py .......                               [ 62%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.6902560Z tests/series/timedelta/test_dtypes.py .................................. [ 63%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.7079426Z ..............                                                           [ 63%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.7204168Z tests/series/timedelta/test_floordiv.py ......                           [ 64%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.7305783Z tests/series/timedelta/test_mul.py .....                                 [ 64%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.7433483Z tests/series/timedelta/test_sub.py .......                               [ 64%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.7573004Z tests/series/timedelta/test_truediv.py ......                            [ 64%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.7687913Z tests/series/timestamp/test_add.py .......                               [ 64%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.8121649Z tests/series/timestamp/test_dtypes.py .................................. [ 65%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.8372695Z ....................                                                     [ 66%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.8501627Z tests/series/timestamp/test_sub.py .......                               [ 66%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.8541057Z tests/series/void/test_dtypes.py ...                                     [ 66%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:30.8882416Z tests/test_api_types.py ...................................              [ 67%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.4060073Z tests/test_api_typing.py ..................                              [ 68%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.4175168Z tests/test_col.py .......                                                [ 68%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.4247610Z tests/test_config.py ........                                            [ 68%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.4737563Z tests/test_dtypes.py ................................................... [ 70%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.5431763Z ........................................................................ [ 72%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.6117411Z ........................................................................ [ 74%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.6804895Z ........................................................................ [ 76%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.7493802Z ........................................................................ [ 78%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.8183646Z ........................................................................ [ 80%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.8867345Z ........................................................................ [ 82%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:33.9595873Z ........................................................................ [ 84%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:34.0175375Z ............................................................             [ 86%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:34.0455051Z tests/test_errors.py .......................s............                [ 87%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:34.0509945Z tests/test_extension.py .....                                            [ 87%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:36.8153707Z tests/test_groupby.py ........................                           [ 88%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:36.8274049Z tests/test_holidays.py .......                                           [ 88%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:36.8340267Z tests/test_interval_index.py ......                                      [ 88%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:37.8000634Z tests/test_io.py ................ss..................................... [ 90%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:39.7498070Z ..........................s.......                                       [ 91%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:39.7792663Z tests/test_merge.py .                                                    [ 91%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:39.7850743Z tests/test_natype.py ..                                                  [ 91%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:40.4861120Z tests/test_pandas.py ....................................                [ 92%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.0543908Z tests/test_plotting.py ..............................                    [ 93%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.2390309Z tests/test_resampler.py ............................                     [ 94%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.3303584Z tests/test_string_accessors.py ......................                    [ 95%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.3813535Z tests/test_styler.py ..............................                      [ 95%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.3842299Z tests/test_testing.py ..                                                 [ 95%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.5996271Z tests/test_timefuncs.py ................................................ [ 97%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.6116862Z ..........                                                               [ 97%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.6606678Z tests/test_typing.py ................................................... [ 99%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.6620734Z .                                                                        [ 99%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:52.8480305Z tests/test_utility.py ....                                               [ 99%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5863059Z tests/test_windowing.py ........................                         [100%]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5863777Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5864079Z =================================== FAILURES ===================================
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5864900Z _______________________________ test_agg_complex _______________________________
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5865299Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5865443Z     def test_agg_complex() -> None:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5865840Z         series = pd.Series([3j, 3 + 4j, 2j])
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5866398Z         check(assert_type(series, "pd.Series[complex]"), pd.Series, np.complex128)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5866928Z     
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5867513Z         check(assert_type(series.mean(), complex), np.complex128)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5868129Z         with pytest_warns_bounded(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5868556Z             np.exceptions.ComplexWarning,
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5869396Z             r"Casting complex values to real discards the imaginary part",
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5869851Z             upper="3.0.99",
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5870126Z         ):
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5870357Z             check(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5870642Z >               assert_type(series.median(), float),
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5871005Z                             ^^^^^^^^^^^^^^^
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5871382Z                 np.float64 if PD_LTE_31 else np.complex128,
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5871760Z             )
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5871896Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5872020Z tests/series/test_agg.py:76: 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5872391Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5873244Z ../../../.cache/pypoetry/virtualenvs/pandas-stubs--gN7E4JK-py3.14/lib/python3.14/site-packages/pandas/util/_decorators.py:342: in wrapper
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5874030Z     return func(*args, **kwargs)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5874333Z            ^^^^^^^^^^^^^^^^^^^^^
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5875039Z ../../../.cache/pypoetry/virtualenvs/pandas-stubs--gN7E4JK-py3.14/lib/python3.14/site-packages/pandas/core/series.py:9783: in median
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5875792Z     return NDFrame.median(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5876510Z ../../../.cache/pypoetry/virtualenvs/pandas-stubs--gN7E4JK-py3.14/lib/python3.14/site-packages/pandas/core/generic.py:12023: in median
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5877489Z     return self._stat_function(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5878305Z ../../../.cache/pypoetry/virtualenvs/pandas-stubs--gN7E4JK-py3.14/lib/python3.14/site-packages/pandas/core/generic.py:11965: in _stat_function
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5879084Z     return self._reduce(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5879646Z ../../../.cache/pypoetry/virtualenvs/pandas-stubs--gN7E4JK-py3.14/lib/python3.14/site-packages/pandas/core/series.py:9064: in _reduce
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5880274Z     result = op(delegate, skipna=skipna, **kwds)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5880594Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5881188Z ../../../.cache/pypoetry/virtualenvs/pandas-stubs--gN7E4JK-py3.14/lib/python3.14/site-packages/pandas/core/nanops.py:652: in new_func
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5881815Z     return func(_ensure_numeric(values), **kwargs)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5882131Z            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5882462Z _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5882704Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5882884Z values = array([0.+3.j, 3.+4.j, 0.+2.j]), kwargs = {'skipna': True}
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5883149Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5883249Z     @functools.wraps(func)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5883521Z     def wrapper(values: np.ndarray, **kwargs):
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5883840Z         if values.dtype.kind == "c":
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5884110Z >           warnings.warn(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5884434Z                 "The median of complex data is deprecated and will raise a "
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5884883Z                 "TypeError in a future version. Take the median of the real "
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5885456Z                 "and imaginary parts separately instead.",
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5885785Z                 Pandas4Warning,
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5886051Z                 stacklevel=find_stack_level(),
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5886325Z             )
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5887066Z E           pandas.errors.Pandas4Warning: The median of complex data is deprecated and will raise a TypeError in a future version. Take the median of the real and imaginary parts separately instead.
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5887994Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5888437Z ../../../.cache/pypoetry/virtualenvs/pandas-stubs--gN7E4JK-py3.14/lib/python3.14/site-packages/pandas/core/nanops.py:1034: Pandas4Warning
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5889158Z ----------------- generated report log file: pytest-log.jsonl ------------------
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5889610Z =========================== short test summary info ============================
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5890680Z FAILED tests/series/test_agg.py::test_agg_complex - pandas.errors.Pandas4Warning: The median of complex data is deprecated and will raise a TypeError in a future version. Take the median of the real and imaginary parts separately instead.
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:54.5891860Z ================== 1 failed, 3414 passed, 5 skipped in 35.46s ==================
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4768416Z ##[error]Process completed with exit code 1.
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4893499Z ##[group]Run scientific-python/issue-from-pytest-log-action@35b4e0a9e06f8e7e261778289cf4b968b722662d
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4894145Z with:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4894368Z   log-path: pytest-log.jsonl
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4894726Z   issue-title: CI: pandas-stubs tests fail against pandas nightly
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4895139Z   issue-label: CI,Typing
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4895363Z env:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4895645Z   ISSUE_TITLE: CI: pandas-stubs tests fail against pandas nightly
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4896042Z   STUBS_TEAM: @pandas-dev/pandas-stubs-team
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4896403Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4896831Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib/pkgconfig
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4897267Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4897931Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4898308Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4898717Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4899043Z ##[endgroup]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.4965023Z ##[start-action display=setup uv;id=issue.__astral-sh_setup-uv]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5039008Z ##[group]Run astral-sh/setup-uv@fac544c07dec837d0ccb6301d7b5580bf5edae39
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5039397Z with:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5039604Z   python-version: 3.13
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5040192Z   working-directory: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5040822Z   enable-cache: false
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5041066Z   activate-environment: false
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5041332Z   no-project: false
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5043774Z   github-token: ***
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5044365Z   cache-dependency-glob: **/*requirements*.txt
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	**/*requirements*.in
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	**/*constraints*.txt
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	**/*constraints*.in
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	**/pyproject.toml
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	**/uv.lock
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	**/*.py.lock
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5044991Z   restore-cache: true
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5045221Z   save-cache: true
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5045437Z   prune-cache: true
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5045647Z   cache-python: false
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5045881Z   ignore-nothing-to-cache: false
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5046153Z   ignore-empty-workdir: false
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5046429Z   download-from-astral-mirror: true
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5046706Z   add-problem-matchers: true
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5046942Z   quiet: false
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5047155Z   resolution-strategy: highest
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5047629Z env:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5047914Z   ISSUE_TITLE: CI: pandas-stubs tests fail against pandas nightly
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5048295Z   STUBS_TEAM: @pandas-dev/pandas-stubs-team
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5048654Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5049090Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib/pkgconfig
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5049516Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5049899Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5050278Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5050663Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.5050989Z ##[endgroup]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.6771659Z Trying to find version for uv in: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d/uv.toml
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.6773192Z Could not find file: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d/uv.toml
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.6774314Z Trying to find version for uv in: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d/pyproject.toml
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.6775858Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.6779905Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:55.7589387Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.13.0/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.1170817Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/7a6022e0-63a3-432d-a965-0094ccc812fb -f /home/runner/work/_temp/7995cf29-d5f9-40d5-b6f4-8dd4ae1bb89c
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.4341693Z Added /home/runner/.local/bin to the path
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.4345827Z Added /opt/hostedtoolcache/uv/0.13.0/x86_64 to the path
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.4347922Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.4348797Z Added /home/runner/work/_temp/uv-python-dir to the path
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.4349678Z Set UV_PYTHON to 3.13
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.4359886Z Successfully installed uv version 0.13.0
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5465484Z ##[end-action id=issue.__astral-sh_setup-uv;outcome=success;conclusion=success;duration_ms=1049]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5472993Z ##[start-action display=produce the issue body;id=issue.formatter]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5490616Z ##[group]Run uv run --frozen $GITHUB_ACTION_PATH/format_issue_body.py "$LOG_PATH" "$WORKFLOW_URL" "$ISSUE_BODY"
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5491388Z ^[[36;1muv run --frozen $GITHUB_ACTION_PATH/format_issue_body.py "$LOG_PATH" "$WORKFLOW_URL" "$ISSUE_BODY"^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5491885Z ^[[36;1m^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5492135Z ^[[36;1mecho "ISSUE_BODY=$ISSUE_BODY" >> $GITHUB_OUTPUT^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5554572Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5554932Z env:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5555239Z   ISSUE_TITLE: CI: pandas-stubs tests fail against pandas nightly
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5555668Z   STUBS_TEAM: @pandas-dev/pandas-stubs-team
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5556049Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5556502Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib/pkgconfig
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5556964Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5557734Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5558144Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5558537Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5558960Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5559307Z   UV_PYTHON: 3.13
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5559857Z   UV_PROJECT: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5560481Z   LOG_PATH: pytest-log.jsonl
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5560884Z   WORKFLOW_URL: https://github.com/pandas-dev/pandas/actions/runs/38201489513
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5561714Z   ISSUE_BODY: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d/issue-body.md
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.5562373Z ##[endgroup]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:56.9105048Z Downloading cpython-3.13.16-linux-x86_64-gnu (download) (33.5MiB)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:57.5103965Z  Downloaded cpython-3.13.16-linux-x86_64-gnu (download)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:57.6972398Z Downloading pygments (1.2MiB)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:57.7491589Z  Downloaded pygments
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:57.7583685Z Installed 6 packages in 8ms
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4565832Z Parsing logs ...
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4566929Z Writing output file to: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d/issue-body.md
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4849140Z ##[end-action id=issue.formatter;outcome=success;conclusion=success;duration_ms=1937]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4852783Z ##[start-action display=inspect the results;id=issue.__run]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4870864Z ##[group]Run # issue body
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4871140Z ^[[36;1m# issue body^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4871377Z ^[[36;1mecho "::group::issue body"^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4871647Z ^[[36;1mcat "$ISSUE_BODY"^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4871890Z ^[[36;1mecho "::endgroup::"^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4933757Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4934126Z env:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4934431Z   ISSUE_TITLE: CI: pandas-stubs tests fail against pandas nightly
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4934834Z   STUBS_TEAM: @pandas-dev/pandas-stubs-team
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4935201Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4935640Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib/pkgconfig
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4936083Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4936474Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4936864Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4937561Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4938001Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4938343Z   UV_PYTHON: 3.13
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4938568Z   LOG_PATH: pytest-log.jsonl
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4939220Z   ISSUE_BODY: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d/issue-body.md
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.4939879Z ##[endgroup]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5021958Z ##[group]issue body
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5031916Z [Workflow Run URL](https://github.com/pandas-dev/pandas/actions/runs/38201489513)
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5032625Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5046051Z <details><summary>Python 3.13 Test Summary</summary>
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5046520Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5046663Z ```
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5048616Z tests/series/test_agg.py::test_agg_complex: pandas.errors.Pandas4Warning: The median of complex data is deprecated and will raise a TypeError in a future version. Take the median of the real and imaginary parts separately instead.
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5050439Z ```
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5050640Z 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5050796Z </details>
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5051691Z ##[endgroup]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5058984Z ##[end-action id=issue.__run;outcome=success;conclusion=success;duration_ms=20]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5063797Z ##[start-action display=create the issue;id=issue.__run_2]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5080853Z ##[group]Run issues=$(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5081103Z ^[[36;1missues=$(^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5081327Z ^[[36;1m  gh issue list \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5081611Z ^[[36;1m    --repo "$GITHUB_REPOSITORY" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5081918Z ^[[36;1m    -S "in:title $ISSUE_TITLE" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5082203Z ^[[36;1m    --state open \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5082451Z ^[[36;1m    --author $CREATOR \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5082752Z ^[[36;1m    --json number,title,author,assignees \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5083053Z ^[[36;1m    -L 1^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5083248Z ^[[36;1m);^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5083439Z ^[[36;1m^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5083686Z ^[[36;1mif [[ $(echo "$issues" | jq 'length') -eq 1 ]]; then^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5084008Z ^[[36;1m    gh issue edit \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5084274Z ^[[36;1m      --repo "$GITHUB_REPOSITORY" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5084598Z ^[[36;1m      "$(echo "$issues" | jq '.[] | .number')" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5084913Z ^[[36;1m      --body-file $ISSUE_BODY^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5085169Z ^[[36;1melse^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5085372Z ^[[36;1m    gh issue new \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5085628Z ^[[36;1m      --repo "$GITHUB_REPOSITORY" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5085921Z ^[[36;1m      --assignee "$ASSIGNEES" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5086193Z ^[[36;1m      --label "$ISSUE_LABEL" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5086458Z ^[[36;1m      --title "$ISSUE_TITLE" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5086723Z ^[[36;1m      --body-file $ISSUE_BODY^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5086980Z ^[[36;1mfi^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5145548Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5146082Z env:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5146407Z   ISSUE_TITLE: CI: pandas-stubs tests fail against pandas nightly
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5146795Z   STUBS_TEAM: @pandas-dev/pandas-stubs-team
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5147153Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5148012Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib/pkgconfig
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5148455Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5148901Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5149311Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5149688Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5150088Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5150421Z   UV_PYTHON: 3.13
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5150639Z   ASSIGNEES: 
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5150843Z   ISSUE_LABEL: CI,Typing
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5151081Z   CREATOR: app/github-actions
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5151705Z   ISSUE_BODY: /home/runner/work/_actions/scientific-python/issue-from-pytest-log-action/35b4e0a9e06f8e7e261778289cf4b968b722662d/issue-body.md
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5154588Z   GH_TOKEN: ***
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:17:58.5154810Z ##[endgroup]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8150541Z https://github.com/pandas-dev/pandas/issues/70990
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8181642Z ##[end-action id=issue.__run_2;outcome=success;conclusion=success;duration_ms=2311]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8233012Z ##[group]Run number=$(
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8233490Z ^[[36;1mnumber=$(^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8234160Z ^[[36;1m  gh api "repos/$GITHUB_REPOSITORY/issues?state=open&creator=github-actions%5Bbot%5D&labels=CI,Typing&per_page=100" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8234996Z ^[[36;1m    | jq -r --arg title "$ISSUE_TITLE" 'map(select(.title == $title))[0].number'^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8235555Z ^[[36;1m)^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8236050Z ^[[36;1mif ! gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$number/comments" --jq ".[].body" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8236699Z ^[[36;1m    | grep -F "$STUBS_TEAM" > /dev/null; then^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8237270Z ^[[36;1m  gh issue comment "$number" --repo "$GITHUB_REPOSITORY" \^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8238300Z ^[[36;1m    --body "$STUBS_TEAM the pandas-stubs tests are failing against pandas nightly."^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8238900Z ^[[36;1mfi^[[0m
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8300757Z shell: /usr/bin/bash -euxo pipefail {0}
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8301143Z env:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8301684Z   ISSUE_TITLE: CI: pandas-stubs tests fail against pandas nightly
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8302178Z   STUBS_TEAM: @pandas-dev/pandas-stubs-team
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8302760Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8303342Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib/pkgconfig
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8303849Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8304437Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8304924Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.8/x64
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8305495Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.8/x64/lib
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8306000Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8306496Z   UV_PYTHON: 3.13
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8309357Z   GH_TOKEN: ***
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8309700Z ##[endgroup]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8396623Z ++ gh api 'repos/pandas-dev/pandas/issues?state=open&creator=github-actions%5Bbot%5D&labels=CI,Typing&per_page=100'
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:00.8398624Z ++ jq -r --arg title 'CI: pandas-stubs tests fail against pandas nightly' 'map(select(.title == $title))[0].number'
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.2145855Z + number=70990
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.2149090Z + gh api --paginate repos/pandas-dev/pandas/issues/70990/comments --jq '.[].body'
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.2150405Z + grep -F @pandas-dev/pandas-stubs-team
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.5238199Z Post job cleanup.
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.5241548Z ##[start-action display=setup uv;id=__be4ff487-143f-4739-88b3-3fc34faaf353.__astral-sh_setup-uv]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.5244649Z ##[end-action id=__be4ff487-143f-4739-88b3-3fc34faaf353.__astral-sh_setup-uv;outcome=skipped;conclusion=skipped;duration_ms=0]
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.5312124Z Post job cleanup.
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6143435Z [command]/usr/bin/git version
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6183128Z git version 2.55.0
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6225344Z Temporarily overriding HOME='/home/runner/work/_temp/4c26899c-8867-45fc-8662-7136c5e93c12' before making global git config changes
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6226262Z Adding repository directory to the temporary git global config as a safe directory
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6229274Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pandas/pandas
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6259840Z Removing SSH command configuration
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6265793Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6299981Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6520545Z Removing HTTP extra header
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6525507Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6558056Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6772984Z Removing includeIf entries pointing to credentials config files
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6778779Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.6808818Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pandas-stubs tests against pandas nightly	UNKNOWN STEP	2026-10-12T04:18:01.7160556Z Cleaning up orphan processes

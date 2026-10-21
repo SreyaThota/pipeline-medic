@@ -1,0 +1,400 @@
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.5670646Z ##[group]running `cargo check --target wasm32-unknown-emscripten --no-default-features --features time` on tokio (10/10)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.6094979Z ^[[1m^[[92m    Checking^[[0m tokio v1.53.2 (/home/runner/work/tokio/tokio/tokio)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8323368Z ^[[1m^[[92m    Finished^[[0m `dev` profile [unoptimized + debuginfo] target(s) in 0.26s
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8376875Z ##[endgroup]
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8432999Z ##[group]Run cargo test -p tokio --target wasm32-unknown-emscripten --features "rt,time,sync,macros,fs,io-util,io-std,test-util" --tests
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8434017Z ^[[36;1mcargo test -p tokio --target wasm32-unknown-emscripten --features "rt,time,sync,macros,fs,io-util,io-std,test-util" --tests^[[0m
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8499159Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8499511Z env:
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8500049Z   RUSTFLAGS: -Dwarnings -Clink-args=-sALLOW_MEMORY_GROWTH=1 -Clink-args=-sEXIT_RUNTIME=1 -Clink-args=-sJSPI -Clink-args=-sSTACK_SIZE=1048576
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8500653Z   RUST_BACKTRACE: 1
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8500886Z   RUSTUP_WINDOWS_PATH_ADD_BIN: 1
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8501146Z   rust_stable: stable
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8501384Z   rust_nightly: nightly-2025-10-12
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8501655Z   rust_miri_nightly: nightly-2026-08-17
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8501959Z   rust_emscripten_nightly: nightly-2026-08-17
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8502278Z   emsdk_version: 6.0.10
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8502499Z   rust_clippy: 1.88
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8502956Z   rust_min: 1.85
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8503172Z   TOKIO_STABLE_FEATURES: full,test-util
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8503452Z   CARGO_HOME: /home/runner/.cargo
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8503701Z   CARGO_INCREMENTAL: 0
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8503924Z   CARGO_TERM_COLOR: always
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8505406Z   PATH: /home/runner/work/_temp/328e768d-8a48-4e52-b493-6f7f7733a827/emsdk-main:/home/runner/work/_temp/328e768d-8a48-4e52-b493-6f7f7733a827/emsdk-main/upstream/emscripten:/snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8507394Z   EMSDK: /home/runner/work/_temp/328e768d-8a48-4e52-b493-6f7f7733a827/emsdk-main
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8508005Z   EMSDK_NODE: /home/runner/work/_temp/328e768d-8a48-4e52-b493-6f7f7733a827/emsdk-main/node/24.19.0_64bit/bin/node
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8508503Z   CACHE_ON_FAILURE: false
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8508781Z   CARGO_TARGET_WASM32_UNKNOWN_EMSCRIPTEN_RUNNER: node
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:56.8509078Z ##[endgroup]
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:57.3217326Z ^[[1m^[[92m   Compiling^[[0m futures-macro v0.3.34
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:57.3244506Z ^[[1m^[[92m   Compiling^[[0m tokio v1.53.2 (/home/runner/work/tokio/tokio/tokio)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:57.7406579Z ^[[1m^[[92m   Compiling^[[0m futures-util v0.3.34
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:59.2857722Z ^[[1m^[[92m   Compiling^[[0m tokio-stream v0.1.19 (/home/runner/work/tokio/tokio/tokio-stream)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:11:59.3151842Z ^[[1m^[[92m   Compiling^[[0m futures-executor v0.3.34
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:00.0867886Z ^[[1m^[[92m   Compiling^[[0m tokio-test v0.4.6 (/home/runner/work/tokio/tokio/tokio-test)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:00.0907519Z ^[[1m^[[92m   Compiling^[[0m futures v0.3.34
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:00.0977786Z ^[[1m^[[92m   Compiling^[[0m futures-test v0.3.34
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.8034143Z ^[[1m^[[33mwarning^[[0m^[[1m: linker stderr: shared:INFO: (Emscripten: Running sanity checks)^[[0m
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.8048371Z          ^[[1memcc: WASM_BIGINT is deprecated (no longer needed. Should only ever be implicitly disabled by -sWASM=0). Please open a bug if you have a continuing need for this setting [-Wdeprecated]^[[0m
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.8051824Z   ^[[1m^[[94m|^[[0m
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.8053064Z   ^[[1m^[[94m= ^[[0m^[[1mnote^[[0m: `#[warn(linker_messages)]` on by default
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.8054348Z   ^[[1m^[[94m= ^[[0m^[[1mnote^[[0m: the `linker_messages` lint ignores `-D warnings`
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.8055042Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.8137257Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_socket") generated 1 warning
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.9346938Z ^[[1m^[[33mwarning^[[0m^[[1m: linker stderr: emcc: WASM_BIGINT is deprecated (no longer needed. Should only ever be implicitly disabled by -sWASM=0). Please open a bug if you have a continuing need for this setting [-Wdeprecated]^[[0m
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.9366669Z   ^[[1m^[[94m|^[[0m
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.9368092Z   ^[[1m^[[94m= ^[[0m^[[1mnote^[[0m: `#[warn(linker_messages)]` on by default
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.9369433Z   ^[[1m^[[94m= ^[[0m^[[1mnote^[[0m: the `linker_messages` lint ignores `-D warnings`
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.9370164Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.9453295Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_write_all_buf") generated 1 warning
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:01.9548018Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_symlink_dir_windows") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:02.5868016Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_smoke") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:02.6377655Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_broadcast") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:02.9664536Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_rename") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:03.1097650Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_barrier") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:03.4687791Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_shutdown") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:03.5858903Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_write_all") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:03.9267172Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_raw_handle") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:04.5018073Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_usr1") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:04.5402384Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_remove_file") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:04.5798080Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_local") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:04.9377716Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_write") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:05.3727828Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_peek") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:05.4288027Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_kill_on_drop") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:06.0089836Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_remove_dir_all") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:06.2418438Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_twice") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:06.4568232Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_util_empty") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:06.8258599Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_into_std") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:07.3048269Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_kill_after_wait") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:07.6287770Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_trace_self") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:08.0208128Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_join_set") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:08.1918489Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_open_options_windows") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:08.3158446Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_id") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:08.7313168Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_take") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:08.8648523Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_drop_recv") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:09.1208482Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_realtime") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:09.2218197Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_into_split") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:09.6439686Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_hooks") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:09.9388866Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_issue_8042") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:10.1438025Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "unwindsafe") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:10.3007869Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:10.7497991Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_open_options") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:11.0688842Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_ctrl_c") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:11.1224226Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_split") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:11.1951100Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:11.6001529Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_echo") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:12.0207118Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_issue_7144") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:12.0918069Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_local_set") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:12.1648457Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_emscripten") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:12.4967837Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_trace_wake") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:12.9117973Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "unix_shutdown") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:13.0227972Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_notify_both") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:13.3127007Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_link") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:13.6448289Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_sink") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:13.7827977Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_worker_index") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:13.9457824Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_drop_rt") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:14.2268401Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_connect") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:14.5129754Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_copy_bidirectional") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:14.7972396Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_builder") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:14.8657312Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_issue_42") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:15.0488329Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "uds_stream") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:15.3429426Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_file_join_error") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:15.6868318Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_no_rt") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:15.8571621Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_unstable_metrics") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:15.8898417Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_repeat") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:16.3297951Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_accept_ready") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:16.7364848Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_blocking") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:16.7427687Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_issue_2174") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:17.0765042Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_copy") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:17.2308227Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "uds_split") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:17.5577776Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_multi_rt") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:18.0368107Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_unstable_eager_driver_handoff") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:18.1958286Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_file") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:18.2547846Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read_until") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:18.4312916Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_accept") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:19.0428019Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_change_of_runtime") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:19.1448484Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_chain") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:19.2648416Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "uds_socket") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:19.8137806Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_abort") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:20.0316997Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_info") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:20.4477715Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_dir") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:20.4900845Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read_to_string") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:20.8076488Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "task_yield_now") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:20.8398154Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_time_start_paused") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:21.5867916Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "process_arg0") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:21.6037679Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "uds_datagram") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:22.0686393Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_watch") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:22.1194984Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_buf_writer") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:22.7803465Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_copy") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:22.8031258Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read_to_end") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:22.9259345Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_threaded") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:23.6622831Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "no_rt") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:23.7657453Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_buf_reader") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:23.7768929Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "uds_cred") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:24.1528167Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_set_once") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:24.7477938Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_spawn_blocking") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:24.7661776Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_canonicalize_dir") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:25.0148477Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read_line") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:25.1465513Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_async_read") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:25.6197833Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "net_unix_pipe") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:25.8137879Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_semaphore_owned") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:25.8697854Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "udp") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:26.3528171Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:26.8157780Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_async_fd") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:26.9437913Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_shutdown_err") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:27.3712389Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read_int") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:27.3837908Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_semaphore") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:27.7268491Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "net_quickack") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:27.9234765Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tracing_time") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:28.3647035Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "duplex_stream") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:28.4705378Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read_exact") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:28.5357955Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_poll_callbacks") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:28.9758271Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_write") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:29.3137188Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "net_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:29.3724733Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tracing_task") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:29.7136064Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_rwlock") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:29.8888453Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "dump") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:30.4460622Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read_buf") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:30.5537960Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:30.5566471Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_statx_fd_leak_test") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:31.2736866Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "net_named_pipe") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:31.3447762Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tracing_sync") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:31.3928142Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "coop_budget") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:31.7492692Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:32.2374529Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_multi_thread_emscripten") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:32.2638961Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_statx") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:32.3177730Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_read") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:33.0888295Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_wasm") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:33.1147856Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "net_lookup_host") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:33.1308374Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_oneshot") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:33.2047999Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "buffered") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:33.9494163Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_poll_aio") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:33.9916313Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_metrics") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:34.0430567Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "net_bind_resource") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:34.0724849Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_runtime_shutdown") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:34.8098025Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "async_send_sync") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:35.1007616Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:35.1208319Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_timeout") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:35.7087763Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_local") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:35.7488360Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_once_cell") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:36.0027815Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_rename") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:36.7847694Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "macros_try_join") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:36.8807977Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "_require_full") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:36.9338038Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_notify_owned") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:37.2267736Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_sleep") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:37.6877698Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_handle_block_on") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:37.7445489Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_read") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:38.0297772Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "macros_test") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:38.5198353Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_mem_stream") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:38.5478111Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_rt") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:38.9027746Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_notify") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:39.7646434Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_lines") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:39.7707368Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_no_io") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:40.0028427Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_handle") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:40.8987803Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_mutex_owned") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:41.3628319Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_pause") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:41.9657594Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_join") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:42.6378797Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "macros_select") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:42.7858667Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_file_read") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:43.4180531Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_emscripten_jspi") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:43.6167732Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "macros_rename_test") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:43.6447841Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_mutex") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:44.6387850Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:44.6728399Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_fill_buf") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:45.0848497Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_emscripten_block_on") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:45.4848757Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_completed_then_dropped_before_repoll") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:46.0732450Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "macros_pin") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:46.8906355Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_mpsc_weak") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:46.9068385Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "signal_drop_signal") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:47.0335969Z ^[[1m^[[33mwarning^[[0m: `tokio` (lib test) generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:47.1708717Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_interval") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:47.7536914Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_common_before_park") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:47.8967797Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring_cancel_open") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:47.9947905Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_emscripten") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:47.9997446Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_copy_buf") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:48.7988715Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_driver_drop") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:48.8200412Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "time_alt") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:49.3497805Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "macros_join") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:49.5867984Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_common") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:49.7077662Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_uring") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:50.4006308Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "join_handle_panic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:50.5034021Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_errors") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:50.6977764Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "test_clock") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:50.7697644Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_mpsc") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:51.2320521Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_busy_tick") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:51.5908289Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_driver") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:51.6597704Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_try_exists") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:52.2908511Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_write_int") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:52.4417687Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_emscripten_blocking") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:52.4527558Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_stream") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:52.5107781Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_blocking_thread_exhaust") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:53.1618236Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "fs_symlink_file_windows") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:53.3349684Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "tcp_split") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:53.5565198Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "io_write_buf") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:53.7122099Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "sync_broadcast_weak") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.3067947Z ^[[1m^[[33mwarning^[[0m: `tokio` (test "rt_basic") generated 1 warning (1 duplicate)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.3068733Z ^[[1m^[[92m    Finished^[[0m `test` profile [unoptimized + debuginfo] target(s) in 57.43s
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.3823850Z ^[[1m^[[92m     Running^[[0m unittests src/lib.rs (/home/runner/work/tokio/tokio/target/wasm32-unknown-emscripten/debug/deps/tokio-a5f8add410414a69.js)
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4436521Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4440587Z running 109 tests
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4502023Z test fs::file::tests::busy_file_seek_error ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4505573Z test fs::file::tests::flush_while_idle ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4518350Z test fs::file::tests::incomplete_flush_followed_by_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4545352Z test fs::file::tests::incomplete_partial_read_followed_by_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4550191Z test fs::file::tests::incomplete_read_followed_by_flush ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4557862Z test fs::file::tests::incomplete_read_followed_by_overflowing_relative_seek ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4561619Z test fs::file::tests::incomplete_read_followed_by_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4567396Z test fs::file::tests::open_read ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4588829Z test fs::file::tests::open_set_len_err ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4591383Z test fs::file::tests::open_set_len_ok ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4594230Z test fs::file::tests::open_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4600246Z test fs::file::tests::partial_read_set_len_ok ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4605866Z test fs::file::tests::read_err ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4611295Z test fs::file::tests::read_err_then_read_success ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4618554Z test fs::file::tests::read_twice_before_dispatch ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:54.4626015Z test fs::file::tests::read_with_bigger_buf ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4306153Z test fs::file::tests::read_with_buffer_larger_than_max ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4309065Z test fs::file::tests::read_with_smaller_buf ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4326016Z test fs::file::tests::sync_all_err_ordered_after_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4329356Z test fs::file::tests::sync_all_ordered_after_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4340762Z test fs::file::tests::sync_data_err_ordered_after_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4344595Z test fs::file::tests::sync_data_ordered_after_write ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4349238Z test fs::file::tests::write_read_flush_err ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4353281Z test fs::file::tests::write_read_write_err ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4356990Z test fs::file::tests::write_seek_flush_err ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4360614Z test fs::file::tests::write_seek_write_err ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:55.4365851Z test fs::file::tests::write_twice_before_dispatch ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1783022Z test fs::file::tests::write_with_buffer_larger_than_max ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1784001Z test fs::file::tests::write_write_err ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1791667Z test future::maybe_done::miri_tests::maybe_done_miri ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1792594Z test io::util::buf_reader::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1793406Z test io::util::buf_stream::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1794230Z test io::util::buf_writer::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1795017Z test io::util::chain::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1796162Z test io::util::copy_buf::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1796985Z test io::util::empty::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1797721Z test io::util::lines::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1798441Z test io::util::repeat::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1799150Z test io::util::sink::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1799870Z test io::util::split::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1800590Z test io::util::take::tests::assert_unpin ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.1806665Z test runtime::blocking::sharded::tests::pop_cursor_randomizes_complete_scan_order ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5200164Z test runtime::blocking::sharded::tests::pop_rotates_past_empty_shards ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5310929Z test runtime::blocking::sharded::tests::pop_rotates_through_busy_shards ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5330308Z test runtime::blocking::sharded::tests::pop_skips_contended_shard_at_batch_boundary ... FAILED
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5331426Z test runtime::task::core::header_lte_cache_line ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5332635Z test runtime::task::list::tests::test_id_not_broken ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5333633Z test runtime::task::spawn_location::spawn_location_is_zero_sized ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5336890Z test runtime::time::wheel::level::test::next_expiration_at_the_top_level ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5339307Z test runtime::time::wheel::level::test::next_expiration_below_the_top_level ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5340781Z test runtime::time::wheel::level::test::next_expiration_reports_the_start_of_the_slot ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5342111Z test runtime::time::wheel::level::test::next_expiration_wraps_a_slot_at_or_behind_now ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5343336Z test runtime::time::wheel::level::test::next_occupied_slot_of_a_single_slot ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5344481Z test runtime::time::wheel::level::test::next_occupied_slot_of_the_last_slot ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5346097Z test runtime::time::wheel::level::test::next_occupied_slot_of_the_slot_holding_now_when_it_is_the_only_one ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5347479Z test runtime::time::wheel::level::test::next_occupied_slot_on_an_empty_level ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5348739Z test runtime::time::wheel::level::test::next_occupied_slot_picks_the_nearest_slot_forward ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5350188Z test runtime::time::wheel::level::test::next_occupied_slot_skips_the_slot_holding_now ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5351219Z test runtime::time::wheel::level::test::test_slot_for ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5351973Z test runtime::time::wheel::test::test_level_for ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5361812Z test runtime::time::wheel::test::test_next_expiration_after_level_5 ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5363151Z test runtime::time::wheel::test::test_next_expiration_after_level_5_twice ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5364437Z test runtime::time::wheel::test::test_next_expiration_at_slot_5_of_the_top_level ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5365930Z test runtime::time::wheel::test::test_next_expiration_to_level_4 ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5367320Z test runtime::time::wheel::test::test_next_expiration_to_level_5 ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5368849Z test runtime::time::wheel::test::test_next_expiration_to_level_5_and_after_level_5 ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5378384Z test sync::broadcast::tests::receiver_count_on_channel_constructor ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5379703Z test sync::broadcast::tests::receiver_count_on_sender_constructor ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5381652Z test sync::mpsc::block::assert_no_stack_overflow ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5393486Z test sync::mpsc::list::tests::wraparound_unbounded ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5395541Z test sync::mutex::bounds ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5409530Z test sync::rwlock::bounds ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5410341Z test sync::semaphore::bounds ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5416771Z test sync::tests::atomic_waker::basic_usage ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5417817Z test sync::tests::atomic_waker::failed_wake_synchronizes ... ignored
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5418688Z test sync::tests::atomic_waker::wake_without_register ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5419543Z test sync::tests::notify::notify_clones_waker_before_lock ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5423818Z test sync::tests::notify::notify_simple ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5432333Z test sync::tests::notify::notify_waiters_handles_panicking_waker ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5434690Z test sync::tests::semaphore_batch::acquire_validates_max_permits - should panic ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5436110Z test sync::tests::semaphore_batch::acquire_validates_top_bit_permits - should panic ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5440206Z test sync::tests::semaphore_batch::cancel_acquire_releases_permits ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5441883Z test sync::tests::semaphore_batch::close_semaphore_notifies_permit1 ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5444704Z test sync::tests::semaphore_batch::close_semaphore_notifies_permit2 ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5446590Z test sync::tests::semaphore_batch::close_semaphore_prevents_acquire ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5447736Z test sync::tests::semaphore_batch::forget_permits_basic ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5448621Z test sync::tests::semaphore_batch::max_permits_doesnt_panic ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5450093Z test sync::tests::semaphore_batch::poll_acquire_many_available ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5452438Z test sync::tests::semaphore_batch::poll_acquire_many_unavailable ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5453498Z test sync::tests::semaphore_batch::poll_acquire_one_available ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5455076Z test sync::tests::semaphore_batch::poll_acquire_one_unavailable ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5456430Z test sync::tests::semaphore_batch::poll_acquire_one_zero_permits ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5461207Z test sync::tests::semaphore_batch::release_permits_at_drop ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5462140Z test sync::tests::semaphore_batch::try_acquire_many_available ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5463291Z test sync::tests::semaphore_batch::try_acquire_many_unavailable ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5464233Z test sync::tests::semaphore_batch::try_acquire_one_available ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5465308Z test sync::tests::semaphore_batch::try_acquire_one_unavailable ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5466637Z test sync::tests::semaphore_batch::try_acquire_validates_max_permits - should panic ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5467821Z test sync::tests::semaphore_batch::update_permits_many_times ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5480370Z test task::coop::test::budgeting ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5481020Z test util::linked_list::tests::const_new ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5484618Z test util::linked_list::tests::push_and_drain ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5485888Z test util::linked_list::tests::push_pop_push_pop ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5495304Z test util::linked_list::tests::remove_by_address ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5505693Z test util::memchr::tests::memchr_all ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5506777Z test util::memchr::tests::memchr_empty ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5509248Z test util::memchr::tests::memchr_test ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5510234Z test util::rand::tests::non_zero_seed_from_pair ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5511444Z test util::rand::tests::non_zero_seed_from_u64 ... ok
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5515467Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5515650Z failures:
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5517354Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5518084Z ---- runtime::blocking::sharded::tests::pop_skips_contended_shard_at_batch_boundary stdout ----
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5518728Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5519259Z thread 'main' (1) panicked at tokio/src/runtime/blocking/sharded.rs:769:9:
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5519929Z assertion `left == right` failed
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5520458Z   left: 0
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5520662Z  right: 1
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5521087Z note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5521413Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5521419Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5521511Z failures:
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5521988Z     runtime::blocking::sharded::tests::pop_skips_contended_shard_at_batch_boundary
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5522560Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5523193Z test result: FAILED. 107 passed; 1 failed; 1 ignored; 0 measured; 0 filtered out; finished in 2.11s
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5523571Z 
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5628024Z ^[[1m^[[91merror^[[0m: test failed, to rerun pass `-p tokio --lib`
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5702820Z ##[error]Process completed with exit code 101.
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.5837702Z Post job cleanup.
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6751574Z [command]/usr/bin/git version
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6791674Z git version 2.55.0
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6830000Z Temporarily overriding HOME='/home/runner/work/_temp/2f159380-6c4f-456f-88da-63ac6c9720a3' before making global git config changes
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6831542Z Adding repository directory to the temporary git global config as a safe directory
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6837111Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tokio/tokio
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6869596Z Removing SSH command configuration
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6876276Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.6912808Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7147183Z Removing HTTP extra header
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7153183Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7189417Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7414680Z Removing includeIf entries pointing to credentials config files
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7421615Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7450202Z includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7451269Z includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7452180Z includeif.gitdir:/github/workspace/.git.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7452996Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7461902Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7486017Z /home/runner/work/_temp/git-credentials-5590f903-c3c3-4e8a-9067-f667bab19450.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7496738Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-5590f903\-c3c3\-4e8a\-9067\-f667bab19450\.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7544631Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7577367Z /home/runner/work/_temp/git-credentials-5590f903-c3c3-4e8a-9067-f667bab19450.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7588938Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-5590f903\-c3c3\-4e8a\-9067\-f667bab19450\.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7624314Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7648491Z /github/runner_temp/git-credentials-5590f903-c3c3-4e8a-9067-f667bab19450.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7657442Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-5590f903\-c3c3\-4e8a\-9067\-f667bab19450\.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7692724Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7727157Z /github/runner_temp/git-credentials-5590f903-c3c3-4e8a-9067-f667bab19450.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7729864Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-5590f903\-c3c3\-4e8a\-9067\-f667bab19450\.config
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.7767866Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.8029014Z Removing credentials config '/home/runner/work/_temp/git-credentials-5590f903-c3c3-4e8a-9067-f667bab19450.config'
+test tokio for wasm32-unknown-emscripten	UNKNOWN STEP	2026-10-11T22:12:56.8190122Z Cleaning up orphan processes

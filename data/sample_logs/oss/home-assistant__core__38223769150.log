@@ -1,0 +1,19 @@
+Run deterministic requirement checks	Collect PR diff and head SHA	﻿2026-10-12T08:28:56.8936371Z ##[group]Run mkdir -p deterministic
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.8937142Z ^[[36;1mmkdir -p deterministic^[[0m
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.8937530Z ^[[36;1mgh pr diff "${PR_NUMBER}" > deterministic/pr.diff^[[0m
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.8938544Z ^[[36;1mHEAD_SHA=$(gh pr view "${PR_NUMBER}" --json headRefOid --jq '.headRefOid')^[[0m
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.8939100Z ^[[36;1mecho "head_sha=${HEAD_SHA}" >> "${GITHUB_OUTPUT}"^[[0m
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9005445Z shell: /usr/bin/bash -e {0}
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9005808Z env:
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9006186Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9007056Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.5/x64/lib/pkgconfig
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9007688Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9008254Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9008806Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9009362Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.5/x64/lib
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9013686Z   GH_TOKEN: ***
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9014011Z   PR_NUMBER: 184065
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:56.9014311Z ##[endgroup]
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:57.7944217Z could not find pull request diff: HTTP 406: Sorry, the diff exceeded the maximum number of lines (20000) (https://api.github.com/repos/home-assistant/core/pulls/184065)
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:57.7947543Z PullRequest.diff too_large
+Run deterministic requirement checks	Collect PR diff and head SHA	2026-10-12T08:28:57.7983173Z ##[error]Process completed with exit code 1.

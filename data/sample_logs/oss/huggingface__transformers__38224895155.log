@@ -1,0 +1,125 @@
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	﻿2026-10-12T08:39:36.9257623Z Current runner version: '2.337.0'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9294204Z ##[group]Runner Image Provisioner
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9295900Z Hosted Compute Agent
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9297058Z Version: 20261002.596
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9298206Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9299667Z Build Date: 2026-10-02T22:28:27Z
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9301106Z Worker ID: {2170a429-a323-4d69-9a9c-b2570329755b}
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9302780Z Region: eastus
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9303972Z Cloud: Azure
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9304985Z ##[endgroup]
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9307332Z ##[group]Operating System
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9308434Z Ubuntu
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9309460Z 22.04.5
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9310469Z LTS
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9311396Z ##[endgroup]
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9312638Z ##[group]Runner Image
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9313792Z Image: ubuntu-22.04
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9314826Z Version: 20261004.315.1
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9317077Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20261004.315/images/ubuntu/Ubuntu2204-Readme.md
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9319941Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20261004.315
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9321769Z ##[endgroup]
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9324004Z ##[group]GITHUB_TOKEN Permissions
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9326967Z Contents: read
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9327936Z Metadata: read
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9329096Z ##[endgroup]
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9332245Z Secret source: Actions
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9333838Z Cache mode: read
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9335079Z Prepare workflow directory
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9809367Z Prepare all required actions
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:36.9880548Z Getting action download info
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.1637730Z Download action repository 'actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3' (SHA:3a2844b7e9c422d3c10d287c895573f7108da1b3)
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.4729740Z Uses: huggingface/transformers/.github/workflows/get-pr-info.yml@refs/heads/main (ea9259355388f518240f96a8c2dee7311b1c5911)
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.4734646Z ##[group] Inputs
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.4735287Z   pr_number: 49173
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.4735765Z ##[endgroup]
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.4736352Z Complete job name: Get PR commit SHA / Get PR commit SHA better
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5488272Z ##[group]Run actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5489405Z with:
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5499504Z   script: const pull_number = parseInt(process.env.PR_NUMBER, 10);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	const { data: pr } = await github.rest.pulls.get({
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  owner: context.repo.owner,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  repo: context.repo.repo,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  pull_number,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	});
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	const { data: head_commit } = await github.rest.repos.getCommit({
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  owner: pr.head.repo.owner.login,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  repo: pr.head.repo.name,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  ref: pr.head.ref
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	});
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	const { data: merge_commit } = await github.rest.repos.getCommit({
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  owner: pr.base.repo.owner.login,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  repo: pr.base.repo.name,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  ref: pr.merge_commit_sha,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	});
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	const { data: files } = await github.rest.pulls.listFiles({
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  owner: context.repo.owner,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  repo: context.repo.repo,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  pull_number,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	});
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('head_repo_full_name', pr.head.repo.full_name);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('base_repo_full_name', pr.base.repo.full_name);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('head_repo_owner', pr.head.repo.owner.login);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('base_repo_owner', pr.base.repo.owner.login);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('head_repo_name', pr.head.repo.name);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('base_repo_name', pr.base.repo.name);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('head_ref', pr.head.ref);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('base_ref', pr.base.ref);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('head_sha', pr.head.sha);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('base_sha', pr.base.sha);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('merge_commit_base_sha', merge_commit.parents[0].sha);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('merge_commit_sha', pr.merge_commit_sha);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('pr', pr);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('head_commit_date', head_commit.commit.committer.date);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('merge_commit_date', merge_commit.commit.committer.date);
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	core.setOutput('files', files);            
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	console.log('PR head commit:', {
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  head_commit: head_commit,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  commit: head_commit.commit,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  date: head_commit.commit.committer.date
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	});
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	console.log('PR merge commit:', {
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  merge_commit: merge_commit,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  commit: merge_commit.commit,
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  date: merge_commit.commit.committer.date
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	});
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	console.log('PR Info:', {
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	  pr_info: pr
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	});
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5513922Z   github-token: ***
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5514401Z   debug: false
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5514877Z   user-agent: actions/github-script
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5515435Z   result-encoding: json
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5515911Z   retries: 0
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5516401Z   retry-exempt-status-codes: 400,401,403,404,422
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5517322Z env:
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5517748Z   PR_NUMBER: 49173
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:37.5518199Z ##[endgroup]
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.7823491Z TypeError: Cannot read properties of undefined (reading '0')
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.7827501Z     at eval (eval at callAsyncFunction (/home/runner/work/_actions/actions/github-script/3a2844b7e9c422d3c10d287c895573f7108da1b3/dist/index.js:64949:16), <anonymous>:39:61)
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.7831627Z     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.7835554Z     at async main (/home/runner/work/_actions/actions/github-script/3a2844b7e9c422d3c10d287c895573f7108da1b3/dist/index.js:65100:20)
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.7872594Z ##[error]Unhandled error: TypeError: Cannot read properties of undefined (reading '0')
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8113669Z Evaluate and set job outputs
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8129872Z Set output 'PR_HEAD_REPO_FULL_NAME'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8133762Z Set output 'PR_BASE_REPO_FULL_NAME'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8136190Z Set output 'PR_HEAD_REPO_OWNER'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8138067Z Set output 'PR_BASE_REPO_OWNER'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8139897Z Set output 'PR_HEAD_REPO_NAME'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8141700Z Set output 'PR_BASE_REPO_NAME'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8143821Z Set output 'PR_HEAD_REF'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8145410Z Set output 'PR_BASE_REF'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8147090Z Set output 'PR_HEAD_SHA'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8148744Z Set output 'PR_BASE_SHA'
+Get PR commit SHA / Get PR commit SHA better	UNKNOWN STEP	2026-10-12T08:39:38.8150814Z Cleaning up orphan processes

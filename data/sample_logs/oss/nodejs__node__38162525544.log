@@ -1,0 +1,295 @@
+Aggregate results	UNKNOWN STEP	﻿2026-10-11T18:08:05.2335397Z Current runner version: '2.337.0'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2359792Z ##[group]Runner Image Provisioner
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2360728Z Hosted Compute Agent
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2361321Z Version: 20261002.596
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2361936Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2363621Z Build Date: 2026-10-02T22:28:27Z
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2364389Z Worker ID: {b428d1f5-c1b9-413a-8efd-0b921787a010}
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2365136Z Region: eastus
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2365798Z Cloud: Azure
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2366363Z ##[endgroup]
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2368182Z ##[group]VM Image
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2368796Z - OS: Linux (x64)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2369347Z - Source: Docker
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2369930Z - Name: ubuntu:24.04
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2370514Z - Version: 20261005.17.1
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2371115Z ##[endgroup]
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2372193Z ##[group]GITHUB_TOKEN Permissions
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2374672Z Metadata: read
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2375287Z PullRequests: write
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2376046Z ##[endgroup]
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2378170Z Secret source: Actions
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2379202Z Cache mode: read
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2379885Z Prepare workflow directory
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2714973Z Prepare all required actions
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.2769228Z Getting action download info
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:05.5981127Z Download action repository 'actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c' (SHA:3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.2417401Z Complete job name: Aggregate results
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3032337Z ##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3033913Z with:
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3034365Z   run-id: 38161854350
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3035026Z   github-token: ***
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3035508Z   merge-multiple: false
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3035997Z   repository: nodejs/node
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3036509Z   skip-decompress: false
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3037007Z   digest-mismatch: error
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.3037707Z ##[endgroup]
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.6679026Z Fetching artifact list for workflow run 38161854350 in repository nodejs/node
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9297515Z Found 4 artifact(s)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9301457Z No input name, artifact-ids or pattern filtered specified, downloading all artifacts
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9303349Z An extra directory with the artifact name will be created for each download
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9304283Z Preparing to download the following artifacts:
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9329814Z - requisites-aarch64-darwin (ID: 11710912835, Size: 27172, Expected Digest: sha256:20747877a61e61e555c02f37f4d4ae53839c7bffb2288f430e3ef2ecc634f37d)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9331805Z - requisites-x86_64-darwin (ID: 11710893536, Size: 26666, Expected Digest: sha256:52aada6fd0d842c1f73cbfb27f582d1f5a1571e7d25d194c2ec5cb0b14581218)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9375558Z - requisites-aarch64-linux (ID: 11710207365, Size: 30570, Expected Digest: sha256:1c55a381cc42fb99eebc23e180c8f1a0144ab99c6d3e160b272605eb1b9a9eb5)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9383652Z - requisites-x86_64-linux (ID: 11710028906, Size: 30611, Expected Digest: sha256:1bb8249963568c714196f08efe18f7ad723292cb47a83e40392e8f66f80f9738)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9386314Z Downloading artifact '11710912835' from 'nodejs/node'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9387037Z Downloading artifact '11710893536' from 'nodejs/node'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9387747Z Downloading artifact '11710207365' from 'nodejs/node'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:06.9388915Z Downloading artifact '11710028906' from 'nodejs/node'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2548035Z Redirecting to blob download url: https://productionresultssa16.blob.core.windows.net/actions-results/0e30d462-fce0-83d0-83a7-56b0ad9d2d91/workflow-job-run-601bc75b-011a-596a-9d6b-2e5330fdb7fe/artifacts/4e245b8279c396898427ec42eff15b76fdeda3f1e4b67b6d1a575233d226fe3a.zip
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2559245Z Starting download of artifact to: /home/runner/work/node/node/requisites-aarch64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2562768Z Redirecting to blob download url: https://productionresultssa16.blob.core.windows.net/actions-results/0e30d462-fce0-83d0-83a7-56b0ad9d2d91/workflow-job-run-0458a263-6bdc-5f30-a0bb-1e98555f3ac4/artifacts/9ecb7f3908deaa9fb73df096d8c73cb6efb6270aa4ee16dc8eacc7ea4559279a.zip
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2586309Z Starting download of artifact to: /home/runner/work/node/node/requisites-x86_64-linux
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2588741Z Redirecting to blob download url: https://productionresultssa16.blob.core.windows.net/actions-results/0e30d462-fce0-83d0-83a7-56b0ad9d2d91/workflow-job-run-02a35835-6956-5d77-ac9f-9fb2eefe3341/artifacts/ddd2ce8750ff0a81078d9bfb2e1365caa5c23eab2a17834271bba13c90d45e7e.zip
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2591549Z Starting download of artifact to: /home/runner/work/node/node/requisites-x86_64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2602260Z Redirecting to blob download url: https://productionresultssa16.blob.core.windows.net/actions-results/0e30d462-fce0-83d0-83a7-56b0ad9d2d91/workflow-job-run-8cbb86c9-a550-541d-b7c9-7ef03b860b30/artifacts/dbc30dafe2709881e5de3328fd1012edb6791de9cb7ad3e52eadd8ce96f6bb62.zip
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2613853Z Starting download of artifact to: /home/runner/work/node/node/requisites-aarch64-linux
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2616475Z SHA256 digest of downloaded artifact is 20747877a61e61e555c02f37f4d4ae53839c7bffb2288f430e3ef2ecc634f37d
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2617485Z Artifact download completed successfully.
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2618427Z SHA256 digest of downloaded artifact is 1bb8249963568c714196f08efe18f7ad723292cb47a83e40392e8f66f80f9738
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2619416Z Artifact download completed successfully.
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2621169Z SHA256 digest of downloaded artifact is 52aada6fd0d842c1f73cbfb27f582d1f5a1571e7d25d194c2ec5cb0b14581218
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2622197Z Artifact download completed successfully.
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2625316Z SHA256 digest of downloaded artifact is 1c55a381cc42fb99eebc23e180c8f1a0144ab99c6d3e160b272605eb1b9a9eb5
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2626347Z Artifact download completed successfully.
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2626952Z Total of 4 artifact(s) downloaded
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2627528Z Download artifact has finished successfully
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2734099Z (node:83) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2735900Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2888132Z ##[group]Run mv requisites-*/* .
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2888803Z ^[[36;1mmv requisites-*/* .^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2889315Z ^[[36;1mls^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2890656Z ^[[36;1mif grep -nvHE '^/nix/store/[0-9a-df-np-sv-z]{32}-[A-Za-z0-9?=._+-]+$' requisites-*.list; then^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2891768Z ^[[36;1m  echo 'Unexpected line format in requisites list; refusing to process.' >&2^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2892549Z ^[[36;1m  exit 1^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2893252Z ^[[36;1mfi^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2893911Z ^[[36;1mecho "NUMBER=$(grep -E '^[0-9]+$' pr_number.txt || true)" >> "$GITHUB_OUTPUT"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2904494Z shell: /usr/bin/bash -e {0}
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.2905076Z ##[endgroup]
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3037496Z pr_number.txt
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3089543Z requisites-aarch64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3169423Z requisites-aarch64-darwin-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3170079Z requisites-aarch64-darwin-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3170673Z requisites-aarch64-linux
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3171228Z requisites-aarch64-linux-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3171812Z requisites-aarch64-linux-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3172372Z requisites-x86_64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3173353Z requisites-x86_64-darwin-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3173945Z requisites-x86_64-darwin-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3174506Z requisites-x86_64-linux
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3175009Z requisites-x86_64-linux-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3175711Z requisites-x86_64-linux-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3271665Z ##[group]Run set -x
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3272229Z ^[[36;1mset -x^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3273398Z ^[[36;1m> requisites-before.list^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3273986Z ^[[36;1m> requisites-after.list^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3274725Z ^[[36;1mTABLE=$(^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3275413Z ^[[36;1m  echo '| Platform | Number of requisites | Proportion of new derivations |'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3276208Z ^[[36;1m  echo '| :-: | -: | -: |'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3276737Z ^[[36;1m  TOTAL_BEFORE=0^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3277366Z ^[[36;1m  TOTAL_AFTER=0^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3277864Z ^[[36;1m  TOTAL_CHANGED=0^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3278358Z ^[[36;1m  QUOTE='`'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3279042Z ^[[36;1m  for PLATFORM in x86_64-linux aarch64-linux x86_64-darwin aarch64-darwin; do^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3281220Z ^[[36;1m    BEFORE=$(wc -l < "requisites-${PLATFORM}-before.list")^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3282040Z ^[[36;1m    TOTAL_BEFORE=$(($TOTAL_BEFORE + $BEFORE))^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3282807Z ^[[36;1m    AFTER=$(wc -l < "requisites-${PLATFORM}-after.list")^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3283765Z ^[[36;1m    TOTAL_AFTER=$(($TOTAL_AFTER + $AFTER))^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3284374Z ^[[36;1m    DIFF="_no changes_"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3285152Z ^[[36;1m    [ "$BEFORE" = "$AFTER" ] || DIFF="**$([ "$AFTER" < "$BEFORE" ] || echo '+')$(($AFTER - $BEFORE))**"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3287070Z ^[[36;1m    CHANGED=$(git diff --no-index "requisites-${PLATFORM}-before.list" "requisites-${PLATFORM}-after.list" | grep -c '^+[^+]')^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3288230Z ^[[36;1m    TOTAL_CHANGED=$(($TOTAL_CHANGED + $CHANGED))^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3288860Z ^[[36;1m    PERCENT=100^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3289373Z ^[[36;1m    [ "$CHANGED" = "$AFTER" ] || {^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3289992Z ^[[36;1m      PERMILLE=$((1000 * $CHANGED / $AFTER))^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3290683Z ^[[36;1m      PERCENT="$((PERMILLE / 10)).$((PERMILLE % 10))"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3291804Z ^[[36;1m    }^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3293312Z ^[[36;1m    echo "| ${QUOTE}${PLATFORM}${QUOTE} | $BEFORE -> $AFTER => $DIFF | $CHANGED / $AFTER = $PERCENT% |"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3295045Z ^[[36;1m    awk '{ print $0 " ('"$PLATFORM"')" }' "requisites-${PLATFORM}-before.list" >> requisites-before.list^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3296271Z ^[[36;1m    awk '{ print $0 " ('"$PLATFORM"')" }' "requisites-${PLATFORM}-after.list" >> requisites-after.list^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3297121Z ^[[36;1m  done^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3297545Z ^[[36;1m^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3297968Z ^[[36;1m  DIFF="_no changes_"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3299469Z ^[[36;1m  [ "$TOTAL_BEFORE" = "$TOTAL_AFTER" ] || DIFF="**$([ "$TOTAL_AFTER" < "$TOTAL_BEFORE" ] || echo '+')$(($TOTAL_AFTER - $TOTAL_BEFORE))**"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3301064Z ^[[36;1m  PERCENT=100^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3301658Z ^[[36;1m  [ "$TOTAL_CHANGED" = "$TOTAL_AFTER" ] || {^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3302367Z ^[[36;1m    PERMILLE=$((1000 * $TOTAL_CHANGED / $TOTAL_AFTER))^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3303281Z ^[[36;1m    PERCENT="$((PERMILLE / 10)).$((PERMILLE % 10))"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3303918Z ^[[36;1m  }^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3304688Z ^[[36;1m  echo "| **Total** | $TOTAL_BEFORE -> $TOTAL_AFTER => $DIFF | $TOTAL_CHANGED / $TOTAL_AFTER = $PERCENT% |"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3306147Z ^[[36;1m)^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3306781Z ^[[36;1msort -k1.45 requisites-before.list > requisites-before.sort^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3307629Z ^[[36;1msort -k1.45 requisites-after.list > requisites-after.sort^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3308721Z ^[[36;1mif git diff -U0 --no-color --no-index requisites-before.sort requisites-after.sort > requisites.diff; then^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3309690Z ^[[36;1m  echo 'No changes detected.'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3310224Z ^[[36;1melse^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3310645Z ^[[36;1m{^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3311065Z ^[[36;1m  echo "$TABLE"^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3311527Z ^[[36;1m  echo^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3312031Z ^[[36;1m  echo '<details><summary>Changelog</summary>'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3314171Z ^[[36;1m  echo^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3314917Z ^[[36;1m  echo '```diff'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3315465Z ^[[36;1m  tail -n +5 requisites.diff^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3316020Z ^[[36;1m  echo '```'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3316470Z ^[[36;1m  echo^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3316907Z ^[[36;1m  echo '</details>'^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3317644Z ^[[36;1m} | gh pr comment -R "$GITHUB_REPOSITORY" "$PR_NUMBER" -F -^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3318305Z ^[[36;1mfi^[[0m
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3323275Z shell: /usr/bin/bash -e {0}
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3323804Z env:
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3327360Z   GH_TOKEN: ***
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3327808Z   PR_NUMBER: 66497
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.3328262Z ##[endgroup]
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9380755Z ++ echo '| Platform | Number of requisites | Proportion of new derivations |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9381599Z ++ echo '| :-: | -: | -: |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9382094Z ++ TOTAL_BEFORE=0
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9382540Z ++ TOTAL_AFTER=0
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9383296Z ++ TOTAL_CHANGED=0
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9383756Z ++ QUOTE='`'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9384397Z ++ for PLATFORM in x86_64-linux aarch64-linux x86_64-darwin aarch64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9385829Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9387660Z ++ BEFORE=506
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9388102Z ++ TOTAL_BEFORE=506
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9388652Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9389089Z ++ AFTER=510
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9389515Z ++ TOTAL_AFTER=510
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9389970Z ++ DIFF='_no changes_'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9390428Z ++ '[' 506 = 510 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9390868Z +++ '[' 510 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9391692Z /home/runner/work/_temp/e4d3d490-fe54-40ab-bff7-563c2210cac2.sh: line 51: 506: No such file or directory
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9394846Z +++ echo +
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9396967Z ++ DIFF='**+4**'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9397437Z +++ grep -c '^+[^+]'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9398205Z +++ git diff --no-index requisites-x86_64-linux-before.list requisites-x86_64-linux-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9399163Z ++ CHANGED=488
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9399597Z ++ TOTAL_CHANGED=488
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9400050Z ++ PERCENT=100
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9400473Z ++ '[' 488 = 510 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9400948Z ++ PERMILLE=956
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9401386Z ++ PERCENT=95.6
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9403348Z ++ echo '| `x86_64-linux` | 506 -> 510 => **+4** | 488 / 510 = 95.6% |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9405252Z ++ awk '{ print $0 " (x86_64-linux)" }' requisites-x86_64-linux-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9406187Z ++ awk '{ print $0 " (x86_64-linux)" }' requisites-x86_64-linux-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9407076Z ++ for PLATFORM in x86_64-linux aarch64-linux x86_64-darwin aarch64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9407795Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9408208Z ++ BEFORE=507
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9408635Z ++ TOTAL_BEFORE=1013
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9409079Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9409474Z ++ AFTER=511
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9409886Z ++ TOTAL_AFTER=1021
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9410342Z ++ DIFF='_no changes_'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9410816Z ++ '[' 507 = 511 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9411267Z +++ '[' 511 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9412144Z /home/runner/work/_temp/e4d3d490-fe54-40ab-bff7-563c2210cac2.sh: line 51: 507: No such file or directory
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9413335Z +++ echo +
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9413764Z ++ DIFF='**+4**'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9414212Z +++ grep -c '^+[^+]'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9415071Z +++ git diff --no-index requisites-aarch64-linux-before.list requisites-aarch64-linux-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9416040Z ++ CHANGED=487
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9416484Z ++ TOTAL_CHANGED=975
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9416985Z ++ PERCENT=100
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9417420Z ++ '[' 487 = 511 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9417875Z ++ PERMILLE=953
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9418317Z ++ PERCENT=95.3
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9418902Z ++ echo '| `aarch64-linux` | 507 -> 511 => **+4** | 487 / 511 = 95.3% |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9419819Z ++ awk '{ print $0 " (aarch64-linux)" }' requisites-aarch64-linux-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9420779Z ++ awk '{ print $0 " (aarch64-linux)" }' requisites-aarch64-linux-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9421687Z ++ for PLATFORM in x86_64-linux aarch64-linux x86_64-darwin aarch64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9422386Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9423328Z ++ BEFORE=445
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9423795Z ++ TOTAL_BEFORE=1458
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9424247Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9424644Z ++ AFTER=443
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9425057Z ++ TOTAL_AFTER=1464
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9425623Z ++ DIFF='_no changes_'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9426067Z ++ '[' 445 = 443 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9426490Z +++ '[' 443 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9427280Z /home/runner/work/_temp/e4d3d490-fe54-40ab-bff7-563c2210cac2.sh: line 51: 445: No such file or directory
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9428184Z +++ echo +
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9428587Z ++ DIFF='**+-2**'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9429020Z +++ grep -c '^+[^+]'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9429776Z +++ git diff --no-index requisites-x86_64-darwin-before.list requisites-x86_64-darwin-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9430613Z ++ CHANGED=427
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9431037Z ++ TOTAL_CHANGED=1402
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9431483Z ++ PERCENT=100
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9431903Z ++ '[' 427 = 443 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9432343Z ++ PERMILLE=963
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9432775Z ++ PERCENT=96.3
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9433521Z ++ echo '| `x86_64-darwin` | 445 -> 443 => **+-2** | 427 / 443 = 96.3% |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9434361Z ++ awk '{ print $0 " (x86_64-darwin)" }' requisites-x86_64-darwin-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9435217Z ++ awk '{ print $0 " (x86_64-darwin)" }' requisites-x86_64-darwin-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9436080Z ++ for PLATFORM in x86_64-linux aarch64-linux x86_64-darwin aarch64-darwin
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9436776Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9437175Z ++ BEFORE=450
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9437589Z ++ TOTAL_BEFORE=1908
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9438019Z +++ wc -l
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9438411Z ++ AFTER=454
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9438829Z ++ TOTAL_AFTER=1918
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9439276Z ++ DIFF='_no changes_'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9439715Z ++ '[' 450 = 454 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9440136Z +++ '[' 454 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9440928Z /home/runner/work/_temp/e4d3d490-fe54-40ab-bff7-563c2210cac2.sh: line 51: 450: No such file or directory
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9441814Z +++ echo +
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9442222Z ++ DIFF='**+4**'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9442655Z +++ grep -c '^+[^+]'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9443616Z +++ git diff --no-index requisites-aarch64-darwin-before.list requisites-aarch64-darwin-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9444508Z ++ CHANGED=439
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9444936Z ++ TOTAL_CHANGED=1841
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9445381Z ++ PERCENT=100
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9445792Z ++ '[' 439 = 454 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9446233Z ++ PERMILLE=966
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9446656Z ++ PERCENT=96.6
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9447218Z ++ echo '| `aarch64-darwin` | 450 -> 454 => **+4** | 439 / 454 = 96.6% |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9448085Z ++ awk '{ print $0 " (aarch64-darwin)" }' requisites-aarch64-darwin-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9448985Z ++ awk '{ print $0 " (aarch64-darwin)" }' requisites-aarch64-darwin-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9449701Z ++ DIFF='_no changes_'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9450155Z ++ '[' 1908 = 1918 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9450601Z +++ '[' 1918 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9451420Z /home/runner/work/_temp/e4d3d490-fe54-40ab-bff7-563c2210cac2.sh: line 62: 1908: No such file or directory
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9452326Z +++ echo +
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9452731Z ++ DIFF='**+10**'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9453352Z ++ PERCENT=100
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9453785Z ++ '[' 1841 = 1918 ']'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9454234Z ++ PERMILLE=959
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9454662Z ++ PERCENT=95.9
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9455205Z ++ echo '| **Total** | 1908 -> 1918 => **+10** | 1841 / 1918 = 95.9% |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9456052Z + TABLE='| Platform | Number of requisites | Proportion of new derivations |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9456833Z | :-: | -: | -: |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9457378Z | `x86_64-linux` | 506 -> 510 => **+4** | 488 / 510 = 95.6% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9458138Z | `aarch64-linux` | 507 -> 511 => **+4** | 487 / 511 = 95.3% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9458866Z | `x86_64-darwin` | 445 -> 443 => **+-2** | 427 / 443 = 96.3% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9459585Z | `aarch64-darwin` | 450 -> 454 => **+4** | 439 / 454 = 96.6% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9460417Z | **Total** | 1908 -> 1918 => **+10** | 1841 / 1918 = 95.9% |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9461070Z + sort -k1.45 requisites-before.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9461628Z + sort -k1.45 requisites-after.list
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9462367Z + git diff -U0 --no-color --no-index requisites-before.sort requisites-after.sort
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9463428Z + gh pr comment -R nodejs/node 66497 -F -
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9464175Z + echo '| Platform | Number of requisites | Proportion of new derivations |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9464888Z | :-: | -: | -: |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9465400Z | `x86_64-linux` | 506 -> 510 => **+4** | 488 / 510 = 95.6% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9466114Z | `aarch64-linux` | 507 -> 511 => **+4** | 487 / 511 = 95.3% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9466824Z | `x86_64-darwin` | 445 -> 443 => **+-2** | 427 / 443 = 96.3% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9467928Z | `aarch64-darwin` | 450 -> 454 => **+4** | 439 / 454 = 96.6% |
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9468682Z | **Total** | 1908 -> 1918 => **+10** | 1841 / 1918 = 95.9% |'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9469289Z + echo
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9469753Z + echo '<details><summary>Changelog</summary>'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9470319Z + echo
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9470711Z + echo '```diff'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9471158Z + tail -n +5 requisites.diff
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9471760Z + echo '```'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9472171Z + echo
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:07.9472561Z + echo '</details>'
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:08.4767921Z GraphQL: Body is too long (maximum is 65536 characters) (addComment)
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:08.4832414Z ##[error]Process completed with exit code 1.
+Aggregate results	UNKNOWN STEP	2026-10-11T18:08:08.4945050Z Cleaning up orphan processes

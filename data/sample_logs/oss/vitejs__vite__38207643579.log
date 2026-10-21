@@ -1,0 +1,341 @@
+preview	UNKNOWN STEP	﻿2026-10-12T05:22:23.5488871Z Current runner version: '2.337.0'
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5513510Z ##[group]Runner Image Provisioner
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5514351Z Hosted Compute Agent
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5515017Z Version: 20261002.596
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5515657Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5516363Z Build Date: 2026-10-02T22:28:27Z
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5517018Z Worker ID: {3bd27d9a-a0bd-47e9-839b-b57930c78b56}
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5517677Z Region: eastus
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5518281Z Cloud: Azure
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5518793Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5520220Z ##[group]Operating System
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5520847Z Ubuntu
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5521370Z 24.04.5
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5522055Z LTS
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5522550Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5523271Z ##[group]Runner Image
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5523884Z Image: ubuntu-24.04
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5524473Z Version: 20261004.327.1
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5526088Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5527557Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5528509Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5529539Z ##[group]GITHUB_TOKEN Permissions
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5531707Z Metadata: read
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5532290Z PullRequests: write
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5533102Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5535360Z Secret source: Actions
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5536418Z Cache mode: write
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5537353Z Prepare workflow directory
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5895753Z Prepare all required actions
+preview	UNKNOWN STEP	2026-10-12T05:22:23.5941349Z Getting action download info
+preview	UNKNOWN STEP	2026-10-12T05:22:23.7884901Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+preview	UNKNOWN STEP	2026-10-12T05:22:23.8784462Z Download action repository 'pnpm/setup@fbda4c85fc2e1e08721cd8763afea8f48d60f024' (SHA:fbda4c85fc2e1e08721cd8763afea8f48d60f024)
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1193838Z Complete job name: preview
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1978877Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1979817Z with:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1980228Z   persist-credentials: false
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1980689Z   repository: vitejs/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1984573Z   token: ***
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1984975Z   ssh-strict: true
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1985387Z   ssh-user: git
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1985780Z   clean: true
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1986184Z   sparse-checkout-cone-mode: true
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1986659Z   fetch-depth: 1
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1987049Z   fetch-tags: false
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1987453Z   show-progress: true
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1987856Z   lfs: false
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1988233Z   submodules: false
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1988648Z   set-safe-directory: true
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1989111Z   allow-unsafe-pr-checkout: false
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1990076Z env:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1990610Z   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+preview	UNKNOWN STEP	2026-10-12T05:22:24.1991105Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:24.2875487Z Syncing repository: vitejs/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:24.2877438Z ##[group]Getting Git version info
+preview	UNKNOWN STEP	2026-10-12T05:22:24.2878136Z Working directory is '/home/runner/work/vite/vite'
+preview	UNKNOWN STEP	2026-10-12T05:22:24.2879014Z [command]/usr/bin/git version
+preview	UNKNOWN STEP	2026-10-12T05:22:24.2997509Z git version 2.55.0
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3014257Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3024234Z Temporarily overriding HOME='/home/runner/work/_temp/eb3a6045-35ff-459e-9a8e-4785a92b9850' before making global git config changes
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3025730Z Adding repository directory to the temporary git global config as a safe directory
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3029245Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/vite/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3085560Z Deleting the contents of '/home/runner/work/vite/vite'
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3088738Z ##[group]Determining repository object format
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3090170Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3090850Z ##[group]Initializing the repository
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3095211Z [command]/usr/bin/git init /home/runner/work/vite/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3202737Z hint: Using 'master' as the name for the initial branch. This default branch name
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3204009Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3205167Z hint: to use in all of your new repositories, which will suppress this warning,
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3205886Z hint: call:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3206462Z hint:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3207186Z hint: 	git config --global init.defaultBranch <name>
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3208071Z hint:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3208907Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3210272Z hint: 'development'. The just-created branch can be renamed via this command:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3211362Z hint:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3211963Z hint: 	git branch -m <name>
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3212645Z hint:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3213894Z hint: Disable this message with "git config set advice.defaultBranchName false"
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3215288Z Initialized empty Git repository in /home/runner/work/vite/vite/.git/
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3217448Z [command]/usr/bin/git remote add origin https://github.com/vitejs/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3265009Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3266111Z ##[group]Disabling automatic garbage collection
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3268539Z [command]/usr/bin/git config --local gc.auto 0
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3298238Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3299656Z ##[group]Setting up auth
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3300450Z Removing SSH command configuration
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3304434Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+preview	UNKNOWN STEP	2026-10-12T05:22:24.3335932Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4097247Z Removing HTTP extra header
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4104575Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4132309Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4337036Z Removing includeIf entries pointing to credentials config files
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4341462Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4369864Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4658823Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4663785Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/vite/vite/.git.path /home/runner/work/_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4672241Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4706340Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4736199Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4762780Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4764453Z ##[group]Fetching the repository
+preview	UNKNOWN STEP	2026-10-12T05:22:24.4770792Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +7e4dfe0bf57011239134fa80b5332b4823ecaab6:refs/remotes/origin/main
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3284520Z From https://github.com/vitejs/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3285884Z  * [new ref]         7e4dfe0bf57011239134fa80b5332b4823ecaab6 -> origin/main
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3293743Z [command]/usr/bin/git branch --list --remote origin/main
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3321241Z   origin/main
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3336008Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3353018Z 7e4dfe0bf57011239134fa80b5332b4823ecaab6
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3357037Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3357998Z ##[group]Determining the checkout info
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3358925Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3362455Z [command]/usr/bin/git sparse-checkout disable
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3414703Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3443477Z ##[group]Checking out the ref
+preview	UNKNOWN STEP	2026-10-12T05:22:25.3447314Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5595943Z Switched to a new branch 'main'
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5604172Z branch 'main' set up to track 'origin/main'.
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5612324Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5658315Z [command]/usr/bin/git log -1 --format=%H
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5683990Z 7e4dfe0bf57011239134fa80b5332b4823ecaab6
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5693955Z ##[group]Removing auth
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5694398Z Removing SSH command configuration
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5697199Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5728179Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5980821Z Removing HTTP extra header
+preview	UNKNOWN STEP	2026-10-12T05:22:25.5985252Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6017047Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6237244Z Removing includeIf entries pointing to credentials config files
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6244236Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6267386Z includeif.gitdir:/home/runner/work/vite/vite/.git.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6268720Z includeif.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6269680Z includeif.gitdir:/github/workspace/.git.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6270606Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6276807Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/vite/vite/.git.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6299144Z /home/runner/work/_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6314608Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/vite/vite/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-54a738ed\-4f34\-434f\-990a\-c9f184f4543b\.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6344894Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6381046Z /home/runner/work/_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6385472Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/vite/vite/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-54a738ed\-4f34\-434f\-990a\-c9f184f4543b\.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6414899Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6440724Z /github/runner_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6448546Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-54a738ed\-4f34\-434f\-990a\-c9f184f4543b\.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6479554Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6500554Z /github/runner_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6507955Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-54a738ed\-4f34\-434f\-990a\-c9f184f4543b\.config
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6541284Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6773343Z Removing credentials config '/home/runner/work/_temp/git-credentials-54a738ed-4f34-434f-990a-c9f184f4543b.config'
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6789078Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6982098Z ##[group]Run yq '.allowBuilds[]=false' -i pnpm-workspace.yaml
+preview	UNKNOWN STEP	2026-10-12T05:22:25.6982615Z ^[[36;1myq '.allowBuilds[]=false' -i pnpm-workspace.yaml^[[0m
+preview	UNKNOWN STEP	2026-10-12T05:22:25.8028436Z shell: /usr/bin/bash -e {0}
+preview	UNKNOWN STEP	2026-10-12T05:22:25.8028748Z env:
+preview	UNKNOWN STEP	2026-10-12T05:22:25.8029005Z   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+preview	UNKNOWN STEP	2026-10-12T05:22:25.8029290Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0204276Z ##[group]Run pnpm/setup@fbda4c85fc2e1e08721cd8763afea8f48d60f024
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0204617Z with:
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0204826Z   runtime: node@24
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0205065Z   dest: ~/setup-pnpm
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0205266Z   cache: false
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0205456Z   working-directory: .
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0205666Z   require-lockfile: false
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0205877Z   install: true
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0206059Z env:
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0206250Z   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+preview	UNKNOWN STEP	2026-10-12T05:22:27.0206500Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:27.1456767Z ##[group]Installing pnpm...
+preview	UNKNOWN STEP	2026-10-12T05:22:27.1461874Z Downloading pnpm 12.9.1 from the npm registry
+preview	UNKNOWN STEP	2026-10-12T05:22:27.4021944Z ==> Downloading pnpm 12.9.1
+preview	UNKNOWN STEP	2026-10-12T05:22:28.1193365Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:28.1193735Z Installation Completed!
+preview	UNKNOWN STEP	2026-10-12T05:22:28.1195483Z ##[group]Restoring cache...
+preview	UNKNOWN STEP	2026-10-12T05:22:28.2098839Z Cache hit for: pnpm-lockfile-verified-Linux-x64-3c3cd01f10bf3bc4020dafe70fadae9d405b201e1f381eda42754949f785d806
+preview	UNKNOWN STEP	2026-10-12T05:22:28.3088876Z Received 845 of 845 (100.0%), 0.0 MBs/sec
+preview	UNKNOWN STEP	2026-10-12T05:22:28.3089343Z Cache Size: ~0 MB (845 B)
+preview	UNKNOWN STEP	2026-10-12T05:22:28.3110970Z [command]/usr/bin/tar -xf /home/runner/work/_temp/50dfb53b-8336-43af-ad1a-233771ac73f5/cache.tzst -P -C /home/runner/work/vite/vite --use-compress-program unzstd
+preview	UNKNOWN STEP	2026-10-12T05:22:28.3184805Z Cache restored successfully
+preview	UNKNOWN STEP	2026-10-12T05:22:28.3188686Z Lockfile verification cache restored from key: pnpm-lockfile-verified-Linux-x64-3c3cd01f10bf3bc4020dafe70fadae9d405b201e1f381eda42754949f785d806
+preview	UNKNOWN STEP	2026-10-12T05:22:28.3189972Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:28.3190331Z ##[group]Installing runtime node@24...
+preview	UNKNOWN STEP	2026-10-12T05:22:28.6836053Z .../global/v11/8a5-18ddb0bc0406af35-0    | Progress: resolved 1, reused 0, downloaded 0, added 0
+preview	UNKNOWN STEP	2026-10-12T05:22:28.6939851Z Downloading node@runtime:24.21.0: 0.00 B/58.08 MB
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7005701Z Downloading node@runtime:24.21.0: 58.08 MB/58.08 MB, done
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7233750Z Packages are hard linked from the content-addressable store to the virtual store.
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7234600Z   Content-addressable store is at: /home/runner/setup-pnpm/store/v11
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7235398Z   Virtual store is at:             ../../../setup-pnpm/global/v11/8a5-18ddb0bc0406af35-0/node_modules/.pnpm
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7332716Z .../global/v11/8a5-18ddb0bc0406af35-0    | Progress: resolved 1, reused 0, downloaded 1, added 1, done
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7543375Z 
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7543654Z dependencies:
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7543920Z + node 24.21.0
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7544056Z 
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7578381Z Done in 1.4s using pnpm v12.9.1
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7625673Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:29.7792262Z ##[group]Running pnpm install --no-runtime...
+preview	UNKNOWN STEP	2026-10-12T05:22:29.8754114Z Scope: all 286 workspace projects
+preview	UNKNOWN STEP	2026-10-12T05:22:29.8767044Z [WARN] The settings in packages/vite/src/node/server/__tests__/fixtures/pnpm/pnpm-workspace.yaml do not apply, because packages/vite/src/node/server/__tests__/fixtures/pnpm is a project of this workspace. pnpm reads settings only from the pnpm-workspace.yaml at the workspace root. Move the settings there, or add "!packages/vite/src/node/server/__tests__/fixtures/pnpm" to the root's "packages" to keep that project a separate workspace.
+preview	UNKNOWN STEP	2026-10-12T05:22:29.9304506Z ✓ Lockfile passes supply-chain policies (verified 3d ago)
+preview	UNKNOWN STEP	2026-10-12T05:22:29.9305117Z Lockfile is up to date, resolution step is skipped
+preview	UNKNOWN STEP	2026-10-12T05:22:30.0928149Z Packages are hard linked from the content-addressable store to the virtual store.
+preview	UNKNOWN STEP	2026-10-12T05:22:30.0934466Z   Content-addressable store is at: /home/runner/setup-pnpm/store/v11
+preview	UNKNOWN STEP	2026-10-12T05:22:30.0935113Z   Virtual store is at:             node_modules/.pnpm
+preview	UNKNOWN STEP	2026-10-12T05:22:30.5242369Z Downloading @rolldown/binding-linux-x64-gnu@1.2.12: 0.00 B/8.07 MB
+preview	UNKNOWN STEP	2026-10-12T05:22:30.5858282Z Downloading @cloudflare/workerd-linux-64@1.20260730.1: 0.00 B/37.34 MB
+preview	UNKNOWN STEP	2026-10-12T05:22:30.6843981Z Downloading @voidzero-dev/vitepress-theme@5.0.7: 0.00 B/7.72 MB
+preview	UNKNOWN STEP	2026-10-12T05:22:30.9448011Z Downloading @img/sharp-libvips-linux-x64@1.3.1: 0.00 B/8.11 MB
+preview	UNKNOWN STEP	2026-10-12T05:22:32.1891680Z Progress: resolved 1134, reused 0, downloaded 347, added 448
+preview	UNKNOWN STEP	2026-10-12T05:22:33.2094194Z Progress: resolved 1134, reused 0, downloaded 1004, added 1088
+preview	UNKNOWN STEP	2026-10-12T05:22:33.8998734Z Packages: +1134
+preview	UNKNOWN STEP	2026-10-12T05:22:33.8999197Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+preview	UNKNOWN STEP	2026-10-12T05:22:33.9411915Z Progress: resolved 1134, reused 0, downloaded 1021, added 1134, done
+preview	UNKNOWN STEP	2026-10-12T05:22:34.3189576Z . postinstall$ simple-git-hooks
+preview	UNKNOWN STEP	2026-10-12T05:22:34.3671623Z . postinstall: [INFO] Successfully set the pre-commit with command: pnpm exec lint-staged --concurrent false
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4344309Z . postinstall: [INFO] Successfully set all git hooks
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4380206Z . postinstall: Done
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4408004Z 
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4408187Z devDependencies:
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4408514Z + @e18e/eslint-plugin 0.8.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4408765Z + @eslint/js 9.39.5
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4408992Z + @type-challenges/utils 0.1.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4409225Z + @types/babel__core 7.20.5
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4409458Z + @types/babel__preset-env 7.10.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4409721Z + @types/convert-source-map 2.0.3
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4409956Z + @types/etag 1.8.4
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4410325Z + @types/less 3.0.8
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4410630Z + @types/node 24.19.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4410959Z + @types/picomatch 4.0.3
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4411373Z + @types/stylus 0.48.43
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4411746Z + @types/ws 8.18.2
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4412068Z + @vitejs/release-scripts 1.10.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4412428Z + eslint 9.39.5
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4412733Z + eslint-plugin-import-x 4.17.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4413246Z + eslint-plugin-n 18.4.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4413591Z + eslint-plugin-regexp 3.3.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4413883Z + execa 9.6.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4414153Z + globals 17.13.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4414360Z + lint-staged 17.6.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4414571Z + oxfmt 0.72.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4414833Z + picocolors 1.1.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4415045Z + playwright-chromium 1.63.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4415272Z + rolldown 1.2.12
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4415458Z + rollup 4.59.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4415661Z + simple-git-hooks 2.14.0
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4415872Z + tsx 4.23.15
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4416048Z + typescript 6.0.3
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4416247Z + typescript-eslint 8.71.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4416480Z + vite <- packages/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4416679Z + vitest 5.0.3
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4416781Z 
+preview	UNKNOWN STEP	2026-10-12T05:22:34.4820974Z Done in 4.7s using pnpm v12.9.1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5147537Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5343771Z ##[group]Run pnpm build
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5344050Z ^[[36;1mpnpm build^[[0m
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5412258Z shell: /usr/bin/bash -e {0}
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5412505Z env:
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5412714Z   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5413186Z   PNPM_HOME: /home/runner/setup-pnpm
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5413655Z   PNPM_CONFIG_GLOBAL_SHIMS: {"node":false}
+preview	UNKNOWN STEP	2026-10-12T05:22:34.5413909Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:34.6049825Z $ premove dist && pnpm build-bundle && pnpm build-types
+preview	UNKNOWN STEP	2026-10-12T05:22:34.6501969Z $ rolldown --config rolldown.config.ts
+preview	UNKNOWN STEP	2026-10-12T05:22:34.8244909Z shimmed: postcss-import/index.js
+preview	UNKNOWN STEP	2026-10-12T05:22:34.8275325Z shimmed: postcss-load-config/src/req.js
+preview	UNKNOWN STEP	2026-10-12T05:22:34.8356783Z shimmed: postcss-import/lib/parse-styles.js
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0154635Z [log] <DIR>/client/env.mjs  chunk │ size: 0.61 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0156010Z [log] <DIR>/client/client.mjs  chunk │ size: 42.08 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0158128Z [log] <DIR>/client/bundledDevClient.mjs  chunk │ size: 52.96 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0213648Z [log] <DIR>/node/internal.js               chunk │ size:     0.14 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0214496Z [log] <DIR>/node/index.js                  chunk │ size:     2.67 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0215255Z [log] <DIR>/node/chunks/lib.js             chunk │ size:    11.70 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0215771Z [log] <DIR>/node/chunks/postcss-import.js  chunk │ size:    18.32 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0216480Z [log] <DIR>/node/cli.js                    chunk │ size:    30.10 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0217216Z [log] <DIR>/node/chunks/build.js           chunk │ size:   205.74 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0217697Z [log] <DIR>/node/chunks/dist.js            chunk │ size:   246.66 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0218135Z [log] <DIR>/node/chunks/node.js            chunk │ size: 1,391.37 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0218850Z [log] <DIR>/node/module-runner.js  chunk │ size: 54.88 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0219152Z [log]
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0219768Z [success] rolldown v1.2.12 Finished in 236.17 ms
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0485981Z $ pnpm build-types-roll && pnpm build-types-check
+preview	UNKNOWN STEP	2026-10-12T05:22:35.0618422Z $ rolldown --config rolldown.dts.config.ts
+preview	UNKNOWN STEP	2026-10-12T05:22:35.5915362Z [log] <DIR>/internal.d.ts                      chunk │ size:   0.14 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.5916083Z [log] <DIR>/chunks/moduleRunnerTransport.d.ts  chunk │ size:   3.09 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.5916826Z [log] <DIR>/module-runner.d.ts                 chunk │ size:  11.40 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.5917424Z [log] <DIR>/index.d.ts                         chunk │ size: 165.36 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:35.5917819Z [log]
+preview	UNKNOWN STEP	2026-10-12T05:22:35.5918108Z [success] rolldown v1.2.12 Finished in 389.27 ms
+preview	UNKNOWN STEP	2026-10-12T05:22:35.6269869Z $ tsc --project tsconfig.check.json
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8577757Z ##[group]Run pnpm build
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8578015Z ^[[36;1mpnpm build^[[0m
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8640849Z shell: /usr/bin/bash -e {0}
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8641093Z env:
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8641302Z   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8641576Z   PNPM_HOME: /home/runner/setup-pnpm
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8641856Z   PNPM_CONFIG_GLOBAL_SHIMS: {"node":false}
+preview	UNKNOWN STEP	2026-10-12T05:22:40.8642113Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:40.9263704Z $ tsdown
+preview	UNKNOWN STEP	2026-10-12T05:22:41.0096568Z ℹ tsdown v0.23.0 powered by rolldown v1.2.12
+preview	UNKNOWN STEP	2026-10-12T05:22:41.0816781Z ℹ config file: /home/runner/work/vite/vite/packages/plugin-legacy/tsdown.config.ts 
+preview	UNKNOWN STEP	2026-10-12T05:22:41.0866132Z ℹ entry: src/index.ts
+preview	UNKNOWN STEP	2026-10-12T05:22:41.0867557Z ℹ target: node20
+preview	UNKNOWN STEP	2026-10-12T05:22:41.0875463Z ℹ Build start
+preview	UNKNOWN STEP	2026-10-12T05:22:42.6956523Z ℹ dist/index.js    30.32 kB │ gzip: 8.60 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:42.6957097Z ℹ dist/index.d.ts   1.36 kB │ gzip: 0.55 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:42.6957530Z ℹ 2 files, total: 31.68 kB
+preview	UNKNOWN STEP	2026-10-12T05:22:42.6961682Z ✔ Build complete in 1608ms
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7387640Z ##[group]Run pnpm dlx pkg-pr-new@0.0 publish --pnpm './packages/vite' './packages/plugin-legacy' --packageManager=pnpm,npm,yarn --commentWithDev
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7388574Z ^[[36;1mpnpm dlx pkg-pr-new@0.0 publish --pnpm './packages/vite' './packages/plugin-legacy' --packageManager=pnpm,npm,yarn --commentWithDev^[[0m
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7452417Z shell: /usr/bin/bash -e {0}
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7452657Z env:
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7452992Z   PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7453266Z   PNPM_HOME: /home/runner/setup-pnpm
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7453739Z   PNPM_CONFIG_GLOBAL_SHIMS: {"node":false}
+preview	UNKNOWN STEP	2026-10-12T05:22:42.7453988Z ##[endgroup]
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9054096Z .../mv4t2pqo-2a6                         | Progress: resolved 0, reused 0, downloaded 1, added 0
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9063362Z Packages are hard linked from the content-addressable store to the virtual store.
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9071805Z   Content-addressable store is at: /home/runner/setup-pnpm/store/v11
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9072658Z   Virtual store is at:             ../../../.cache/pnpm/dlx/58db5424f987ec25829ae8ce64b61433/mv4t2pqo-2a6/node_modules/.pnpm
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9073417Z .../mv4t2pqo-2a6                         | Progress: resolved 1, reused 0, downloaded 1, added 1, done
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9652185Z 
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9652740Z dependencies:
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9653234Z + pkg-pr-new 0.0.91
+preview	UNKNOWN STEP	2026-10-12T05:22:42.9653440Z 
+preview	UNKNOWN STEP	2026-10-12T05:22:46.8781406Z Server error (500). Retrying in 1s (attempt 1/3)...
+preview	UNKNOWN STEP	2026-10-12T05:22:48.1116358Z Publishing failed (404): {"url":"/publish","statusCode":404,"statusMessage":"Not Found","message":"There is no workflow defined for zDisojRaMH","stack":""}
+preview	UNKNOWN STEP	2026-10-12T05:22:48.1210421Z ##[error]Process completed with exit code 1.
+preview	UNKNOWN STEP	2026-10-12T05:22:48.1870409Z Post job cleanup.
+preview	UNKNOWN STEP	2026-10-12T05:22:48.3277486Z Post job cleanup.
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4053868Z [command]/usr/bin/git version
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4089363Z git version 2.55.0
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4123979Z Temporarily overriding HOME='/home/runner/work/_temp/c0367aa8-27bc-4008-ba98-47d01d675240' before making global git config changes
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4125083Z Adding repository directory to the temporary git global config as a safe directory
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4129196Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/vite/vite
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4267213Z Removing SSH command configuration
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4274672Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4317143Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4548245Z Removing HTTP extra header
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4553589Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4590925Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4827960Z Removing includeIf entries pointing to credentials config files
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4833528Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+preview	UNKNOWN STEP	2026-10-12T05:22:48.4874090Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+preview	UNKNOWN STEP	2026-10-12T05:22:48.5242566Z Cleaning up orphan processes

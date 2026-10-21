@@ -1,0 +1,224 @@
+check-commit-suffix	UNKNOWN STEP	﻿2026-10-11T23:28:53.9900114Z Current runner version: '2.337.0'
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9916695Z ##[group]Runner Image Provisioner
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9917234Z Hosted Compute Agent
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9917622Z Version: 20261002.596
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9918037Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9918468Z Build Date: 2026-10-02T22:28:27Z
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9918921Z Worker ID: {16c89fe9-0463-4ac1-a3ca-20598a80b532}
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9919343Z Region: centralus
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9919705Z Cloud: Azure
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9920063Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9920951Z ##[group]Operating System
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9921313Z Ubuntu
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9921682Z 24.04.5
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9922020Z LTS
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9922350Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9922691Z ##[group]Runner Image
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9923062Z Image: ubuntu-24.04
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9923450Z Version: 20261004.327.1
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9924212Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9925120Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9925708Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9926394Z ##[group]GITHUB_TOKEN Permissions
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9927595Z Contents: read
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9927999Z Metadata: read
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9928332Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9929621Z Secret source: None
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9930201Z Cache mode: write
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:53.9930775Z Prepare workflow directory
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.0130285Z Prepare all required actions
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.0163633Z Getting action download info
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.2252294Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.3725368Z Complete job name: check-commit-suffix
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4193323Z ##[group]Run actions/checkout@v7
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4193745Z with:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4193997Z   persist-credentials: false
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4194303Z   repository: django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4196461Z   token: ***
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4196704Z   ssh-strict: true
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4196958Z   ssh-user: git
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4197200Z   clean: true
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4197456Z   sparse-checkout-cone-mode: true
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4197751Z   fetch-depth: 1
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4197994Z   fetch-tags: false
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4198249Z   show-progress: true
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4198505Z   lfs: false
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4198741Z   submodules: false
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4198998Z   set-safe-directory: true
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4199350Z   allow-unsafe-pr-checkout: false
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4199750Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4872699Z Syncing repository: django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4873703Z ##[group]Getting Git version info
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4874122Z Working directory is '/home/runner/work/django/django'
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4874680Z [command]/usr/bin/git version
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4939150Z git version 2.55.0
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4951177Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4957972Z Temporarily overriding HOME='/home/runner/work/_temp/5e2193dc-7d1e-477c-b09a-281bc95ca490' before making global git config changes
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4959159Z Adding repository directory to the temporary git global config as a safe directory
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.4962461Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5005235Z Deleting the contents of '/home/runner/work/django/django'
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5007575Z ##[group]Determining repository object format
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5008732Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5009482Z ##[group]Initializing the repository
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5011877Z [command]/usr/bin/git init /home/runner/work/django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5111059Z hint: Using 'master' as the name for the initial branch. This default branch name
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5111705Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5112350Z hint: to use in all of your new repositories, which will suppress this warning,
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5113284Z hint: call:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5113681Z hint:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5114153Z hint: 	git config --global init.defaultBranch <name>
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5114723Z hint:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5115271Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5116160Z hint: 'development'. The just-created branch can be renamed via this command:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5116708Z hint:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5117147Z hint: 	git branch -m <name>
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5117608Z hint:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5118134Z hint: Disable this message with "git config set advice.defaultBranchName false"
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5118875Z Initialized empty Git repository in /home/runner/work/django/django/.git/
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5121622Z [command]/usr/bin/git remote add origin https://github.com/django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5162158Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5162593Z ##[group]Disabling automatic garbage collection
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5164342Z [command]/usr/bin/git config --local gc.auto 0
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5187333Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5188011Z ##[group]Setting up auth
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5188329Z Removing SSH command configuration
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5192306Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5215704Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5493786Z Removing HTTP extra header
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5497292Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5527981Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5693868Z Removing includeIf entries pointing to credentials config files
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5697991Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5722345Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5898397Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5925600Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/django/django/.git.path /home/runner/work/_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5950957Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/django/django/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.5978246Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.6003198Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.6024646Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.6025265Z ##[group]Fetching the repository
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:54.6029487Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +438d96af4c625c3c092496542aae676cdb7ae9e7:refs/remotes/pull/22134/merge
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.7948994Z From https://github.com/django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.7949855Z  * [new ref]         438d96af4c625c3c092496542aae676cdb7ae9e7 -> pull/22134/merge
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.7952197Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.7952768Z ##[group]Determining the checkout info
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.7953441Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.7957571Z [command]/usr/bin/git sparse-checkout disable
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.7998132Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.8021182Z ##[group]Checking out the ref
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:56.8023559Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/22134/merge
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1766590Z Note: switching to 'refs/remotes/pull/22134/merge'.
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1767081Z 
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1767306Z You are in 'detached HEAD' state. You can look around, make experimental
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1768596Z changes and commit them, and you can discard any commits you make in this
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1769079Z state without impacting any branches by switching back to a branch.
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1769351Z 
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1769642Z If you want to create a new branch to retain commits you create, you may
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1770107Z do so (now or later) by using -c with the switch command. Example:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1770348Z 
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1770646Z   git switch -c <new-branch-name>
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1770863Z 
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1771014Z Or undo this operation with:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1771169Z 
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1771268Z   git switch -
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1771414Z 
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1779284Z Turn off this advice by setting config variable advice.detachedHead to false
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1779634Z 
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1779961Z HEAD is now at 438d96a Merge 46e5c99b6bb6fea13b4f2c2a9576c362da049451 into 0f34a4cf9f1b5f3e68decbdca76aebb71268ba93
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1786677Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1819132Z [command]/usr/bin/git log -1 --format=%H
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1837290Z 438d96af4c625c3c092496542aae676cdb7ae9e7
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1844045Z ##[group]Removing auth
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1844346Z Removing SSH command configuration
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1846512Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.1868883Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2041930Z Removing HTTP extra header
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2043857Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2065669Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2237295Z Removing includeIf entries pointing to credentials config files
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2239089Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2259465Z includeif.gitdir:/home/runner/work/django/django/.git.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2259986Z includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2260335Z includeif.gitdir:/github/workspace/.git.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2260814Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2265111Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/django/django/.git.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2282453Z /home/runner/work/_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2289072Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/django/django/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-996c4ea4\-d2be\-4f3c\-b84f\-492afc6690d4\.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2319926Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2337279Z /home/runner/work/_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2342972Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-996c4ea4\-d2be\-4f3c\-b84f\-492afc6690d4\.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2366472Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2383059Z /github/runner_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2388984Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-996c4ea4\-d2be\-4f3c\-b84f\-492afc6690d4\.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2414844Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2436751Z /github/runner_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2461543Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-996c4ea4\-d2be\-4f3c\-b84f\-492afc6690d4\.config
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2494391Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2668062Z Removing credentials config '/home/runner/work/_temp/git-credentials-996c4ea4-d2be-4f3c-b84f-492afc6690d4.config'
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2675307Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2834607Z ##[group]Run echo "BASE=$BASE" >> $GITHUB_ENV
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.2834908Z ^[[36;1mecho "BASE=$BASE" >> $GITHUB_ENV^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3053652Z shell: /usr/bin/bash -e {0}
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3053845Z env:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3054024Z   BASE: main
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3054173Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3239503Z ##[group]Run git fetch origin $BASE:base --depth=1
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3239875Z ^[[36;1mgit fetch origin $BASE:base --depth=1^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3240122Z ^[[36;1mgit fetch origin pull/22134/head:pr --depth=1^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3290380Z shell: /usr/bin/bash -e {0}
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3290627Z env:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3290774Z   BASE: main
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.3290916Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.6633297Z From https://github.com/django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.6633722Z  * [new branch]      main       -> base
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.6633946Z  * [new branch]      main       -> origin/main
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9677678Z From https://github.com/django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9678476Z  * [new ref]         refs/pull/22134/head -> pr
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9714869Z ##[group]Run COMMITS=$(git rev-list base..pr)
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9715102Z ^[[36;1mCOMMITS=$(git rev-list base..pr)^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9715303Z ^[[36;1mecho "Checking commit messages for trailing period"^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9715490Z ^[[36;1mFAIL=0^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9715617Z ^[[36;1mfor SHA in $COMMITS; do^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9715782Z ^[[36;1m  MSG=$(git log -1 --pretty=%s $SHA)^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9715954Z ^[[36;1m  echo "Checking commit $SHA: $MSG"^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9716130Z ^[[36;1m  if [[ "$MSG" != *. && "$MSG" != *.\" ]]; then^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9716339Z ^[[36;1m    echo "❌ Commit $SHA must end with a period."^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9716636Z ^[[36;1m    echo "Refer to the guidelines linked in the PR checklist for commit message format."^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9717144Z ^[[36;1m    echo "For how to rewrite commit messages, see https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/working-with-git/#editing-commit-messages"^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9717550Z ^[[36;1m    FAIL=1^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9717681Z ^[[36;1m  fi^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9717813Z ^[[36;1mdone^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9717923Z ^[[36;1m^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9718040Z ^[[36;1mif [[ $FAIL -eq 1 ]]; then^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9718258Z ^[[36;1m  echo "One or more commit messages are missing a trailing period."^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9718462Z ^[[36;1m  exit 1^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9718577Z ^[[36;1mfi^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9718683Z ^[[36;1m^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9718840Z ^[[36;1mecho "✅ All commits have the required trailing period."^[[0m
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9772510Z shell: /usr/bin/bash -e {0}
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9772657Z env:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9772771Z   BASE: main
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9773049Z ##[endgroup]
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9851268Z Checking commit messages for trailing period
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9866075Z Checking commit 46e5c99b6bb6fea13b4f2c2a9576c362da049451: Fixed params documentation in database instrumentation
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9867055Z ❌ Commit 46e5c99b6bb6fea13b4f2c2a9576c362da049451 must end with a period.
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9867540Z Refer to the guidelines linked in the PR checklist for commit message format.
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9868349Z For how to rewrite commit messages, see https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/working-with-git/#editing-commit-messages
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9868999Z One or more commit messages are missing a trailing period.
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9876413Z ##[error]Process completed with exit code 1.
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:57.9991307Z Post job cleanup.
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0546611Z [command]/usr/bin/git version
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0573960Z git version 2.55.0
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0594297Z Temporarily overriding HOME='/home/runner/work/_temp/4b1d36f0-27f7-4c23-92cf-3f4d01767d87' before making global git config changes
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0597000Z Adding repository directory to the temporary git global config as a safe directory
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0597401Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/django/django
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0621412Z Removing SSH command configuration
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0625009Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0649105Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0825720Z Removing HTTP extra header
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0828921Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.0852409Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.1034840Z Removing includeIf entries pointing to credentials config files
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.1038461Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.1061349Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+check-commit-suffix	UNKNOWN STEP	2026-10-11T23:28:58.1348549Z Cleaning up orphan processes

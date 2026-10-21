@@ -1,0 +1,400 @@
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9393311Z    2 skipped because: No conversion found for <class 'transformers.models.aimv2.modeling_aimv2.Aimv2Model'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9394879Z    2 skipped because: No conversion found for <class 'transformers.models.cohere_compass.modeling_cohere_compass.CohereCompassTextModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9396538Z    2 skipped because: No conversion found for <class 'transformers.models.blip.modeling_blip.BlipForQuestionAnswering'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9398069Z    2 skipped because: No conversion found for <class 'transformers.models.convbert.modeling_convbert.ConvBertModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9399519Z    2 skipped because: No conversion found for <class 'transformers.models.apertus.modeling_apertus.ApertusModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9400953Z    2 skipped because: No conversion found for <class 'transformers.models.bark.modeling_bark.BarkSemanticModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9402422Z    2 skipped because: No conversion found for <class 'transformers.models.chameleon.modeling_chameleon.ChameleonModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9403928Z    2 skipped because: No conversion found for <class 'transformers.models.convnext.modeling_convnext.ConvNextModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9405557Z    2 skipped because: No conversion found for <class 'transformers.models.bert_generation.modeling_bert_generation.BertGenerationEncoder'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9407366Z    2 skipped because: No conversion found for <class 'transformers.models.blenderbot_small.modeling_blenderbot_small.BlenderbotSmallDecoder'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9409169Z    2 skipped because: No conversion found for <class 'transformers.models.cohere_compass.modeling_cohere_compass.CohereCompassModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9410817Z    2 skipped because: No conversion found for <class 'transformers.models.convnextv2.modeling_convnextv2.ConvNextV2Model'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9412283Z    2 skipped because: No conversion found for <class 'transformers.models.bloom.modeling_bloom.BloomModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9413671Z    2 skipped because: No conversion found for <class 'transformers.models.biogpt.modeling_biogpt.BioGptModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9415062Z    2 skipped because: No conversion found for <class 'transformers.models.canine.modeling_canine.CanineModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9416585Z    2 skipped because: No conversion found for <class 'transformers.models.bark.modeling_bark.BarkFineModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9418009Z    2 skipped because: No conversion found for <class 'transformers.models.clap.modeling_clap.ClapTextModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9419462Z    2 skipped because: No conversion found for <class 'transformers.models.cohere.modeling_cohere.CohereModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9420856Z    2 skipped because: No conversion found for <class 'transformers.models.canary.modeling_canary.CanaryModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9422251Z    2 skipped because: No conversion found for <class 'transformers.models.blip.modeling_blip.BlipVisionModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9423849Z    2 skipped because: No conversion found for <class 'transformers.models.bigbird_pegasus.modeling_bigbird_pegasus.BigBirdPegasusDecoder'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9425436Z    2 skipped because: No conversion found for <class 'transformers.models.clap.modeling_clap.ClapAudioModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9426763Z    2 skipped because: No conversion found for <class 'transformers.models.cvt.modeling_cvt.CvtModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9428020Z    2 skipped because: No conversion found for <class 'transformers.models.blt.modeling_blt.BltModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9429310Z    2 skipped because: No conversion found for <class 'transformers.models.blip.modeling_blip.BlipModel'>
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9430460Z    2 skipped because: Pass because ColPali requires `attention_mask is not None`
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9431487Z    2 skipped because: ClapAudioModel does not output any loss term in the forward pass
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9432511Z    3 skipped because: CLIP does not use inputs_embeds
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9433183Z    3 skipped because: Blip does not use inputs_embeds
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9433921Z    3 skipped because: Model does not support sequence classification
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9434847Z    3 skipped because: Chameleon applies key/query norm which doesn't work with packing
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9435995Z    3 skipped because: Chameleon cannot do offload because it uses `self.linear.weight` in forward
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9436958Z    3 skipped because: BarkFineModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9437729Z    3 skipped because: BlipForQuestionAnswering does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9438522Z    3 skipped because: AutoformerModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9439323Z    3 skipped because: BlipForImageTextRetrieval does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9440156Z    3 skipped because: BarkSemanticModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9440990Z    3 skipped because: BlipForConditionalGeneration does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9441813Z    3 skipped because: BlipVisionModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9442517Z    3 skipped because: ClvpModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9443252Z    3 skipped because: BigBirdPegasusDecoder does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9444013Z    3 skipped because: ClapAudioModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9444806Z    3 skipped because: BrosForTokenClassification does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9445641Z    3 skipped because: test_resize_embeddings is set to `False`
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9446363Z    3 skipped because: CodeGenModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9447052Z    3 skipped because: BigBirdModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9447743Z    3 skipped because: BlipTextModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9448519Z    3 skipped because: Blip2Model does not have input/output embeddings
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9449289Z    3 skipped because: BlipModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9449963Z    3 skipped because: CanineModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9450644Z    3 skipped because: ClapTextModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9451335Z    3 skipped because: BloomModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9452024Z    3 skipped because: AlignTextModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9452877Z    3 skipped because: ConvBertModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9453620Z    3 skipped because: ClvpEncoder does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9454311Z    3 skipped because: CpmAntModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9455005Z    3 skipped because: BarkCoarseModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9455783Z    3 skipped because: ClapModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9456496Z    3 skipped because: BigBirdPegasusModel does not support SDPA
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9457213Z    3 skipped because: test is tensor parallel test
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9457868Z    4 skipped because: CHMv2 does not support training yet
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9458513Z    4 skipped because: test requires deepspeed
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9459223Z    4 skipped because: Model architecture does not support attentions
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9460104Z    4 skipped because: This model has no `base_model_class` defined in tester.
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9460886Z    4 skipped because: Decoder cannot keep gradients
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9461698Z    4 skipped because: Does not work on the tiny model as we keep hitting edge cases.
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9462888Z    4 skipped because: QFormer is forced to fp32 via _keep_in_fp32_modules, incompatible with SDPA flash-only kernel
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9464018Z    4 skipped because: BlipModel does not have input/output embeddings
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9464713Z    4 skipped because: test is fsdp test
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9465245Z    4 skipped because: test is too slow
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9465758Z    5 skipped because: Skipped
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9466405Z    5 skipped because: ModelTester is not configured to run training tests
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9467177Z    5 skipped because: Training is not yet supported
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9468017Z    7 skipped because: test requires Flash Attention 4
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9468618Z    7 skipped because: test requires Flash Attention 3
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9469263Z   12 skipped because: test requires Flash Attention
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9470013Z   13 skipped because: Inputs_embeds is tested in individual model tests
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9470869Z   15 skipped because: Hidden_states is tested in individual model tests
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9471734Z   15 skipped because: Retain_grad is tested in individual model tests
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9472567Z   19 skipped because: test requires accelerator
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9473164Z   44 skipped because: test is pipeline test
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9473887Z   44 skipped because: This module does not support standalone training
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9474630Z  120 skipped because: test requires numba
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9475174Z  243 skipped because: test is slow
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9475673Z Number of skipped tests: 1497
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9514706Z ##[group]Run python3 .circleci/parse_test_outputs.py --file tests_output.txt --fail
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9515385Z ^[[36;1mpython3 .circleci/parse_test_outputs.py --file tests_output.txt --fail^[[0m
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9515877Z shell: sh -e {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9516105Z env:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9516324Z   OMP_NUM_THREADS: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9516581Z   TRANSFORMERS_IS_CI: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9516844Z   PYTEST_TIMEOUT: 120
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9517092Z   RUN_PIPELINE_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9517345Z   RUN_FLAKY: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9517601Z   DISABLE_SAFETENSORS_CONVERSION: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9517914Z   RUN_CUSTOM_TOKENIZERS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9518190Z   RUN_TRAINING_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9518469Z   RUN_TENSOR_PARALLEL_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9518763Z   RUN_FSDP_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9519018Z   TRANSFORMERS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9519268Z   DATASETS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9519542Z   SKIP_CUDA_DOCTEST: 0
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9519782Z   TRANSFORMERSCI_OTEL_DEBUG: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9520052Z   TRANSFORMERS_TEST_OTEL_PR: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9520344Z   TRANSFORMERS_TEST_OTEL_SUITE: tests_torch
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9520658Z   HF_HOME: /mnt/cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9521002Z   HF_DATASETS_CACHE: /tmp/hf_datasets_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9521324Z   HF_MODULES_CACHE: /tmp/hf_modules_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9521691Z   HF_XET_LOG_DEST: /tmp/xet_logs/
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9522004Z   HF_METRICS_CACHE: /tmp/hf_metrics_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9522294Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9538454Z ##[group]Run '/home/runner/k8s/index.js'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9539331Z shell: /home/runner/externals/node20/bin/node {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:40.9539655Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5454004Z Number of failed tests: 0
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5694005Z ##[group]Run python3 .circleci/parse_test_outputs.py --file tests_output.txt --errors
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5694709Z ^[[36;1mpython3 .circleci/parse_test_outputs.py --file tests_output.txt --errors^[[0m
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5695259Z shell: sh -e {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5695490Z env:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5695704Z   OMP_NUM_THREADS: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5695955Z   TRANSFORMERS_IS_CI: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5696234Z   PYTEST_TIMEOUT: 120
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5696490Z   RUN_PIPELINE_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5696745Z   RUN_FLAKY: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5697001Z   DISABLE_SAFETENSORS_CONVERSION: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5697336Z   RUN_CUSTOM_TOKENIZERS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5697618Z   RUN_TRAINING_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5697897Z   RUN_TENSOR_PARALLEL_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5698191Z   RUN_FSDP_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5698460Z   TRANSFORMERS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5698715Z   DATASETS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5699002Z   SKIP_CUDA_DOCTEST: 0
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5699251Z   TRANSFORMERSCI_OTEL_DEBUG: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5699539Z   TRANSFORMERS_TEST_OTEL_PR: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5699852Z   TRANSFORMERS_TEST_OTEL_SUITE: tests_torch
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5700150Z   HF_HOME: /mnt/cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5700385Z   HF_DATASETS_CACHE: /tmp/hf_datasets_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5700702Z   HF_MODULES_CACHE: /tmp/hf_modules_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5701005Z   HF_XET_LOG_DEST: /tmp/xet_logs/
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5701302Z   HF_METRICS_CACHE: /tmp/hf_metrics_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5701587Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5717703Z ##[group]Run '/home/runner/k8s/index.js'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5718531Z shell: /home/runner/externals/node20/bin/node {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:41.5718803Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1189400Z tests_output.txt
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1189643Z Number of errors: 0
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1330884Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1331192Z with:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1331360Z   name: tests_torch_shard0_junit
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1331566Z   path: test-results/junit.xml
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1331756Z   retention-days: 14
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1331931Z   if-no-files-found: warn
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1332115Z   compression-level: 6
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1332294Z   overwrite: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1332468Z   include-hidden-files: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1332655Z   archive: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1332803Z env:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1332958Z   OMP_NUM_THREADS: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1333133Z   TRANSFORMERS_IS_CI: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1333310Z   PYTEST_TIMEOUT: 120
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1333482Z   RUN_PIPELINE_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1333656Z   RUN_FLAKY: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1333836Z   DISABLE_SAFETENSORS_CONVERSION: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1334045Z   RUN_CUSTOM_TOKENIZERS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1334301Z   RUN_TRAINING_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1334497Z   RUN_TENSOR_PARALLEL_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1334693Z   RUN_FSDP_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1334872Z   TRANSFORMERS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1335052Z   DATASETS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1335234Z   SKIP_CUDA_DOCTEST: 0
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1335409Z   TRANSFORMERSCI_OTEL_DEBUG: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1335600Z   TRANSFORMERS_TEST_OTEL_PR: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1335805Z   TRANSFORMERS_TEST_OTEL_SUITE: tests_torch
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1336023Z   HF_HOME: /mnt/cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1336196Z   HF_DATASETS_CACHE: /tmp/hf_datasets_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1336490Z   HF_MODULES_CACHE: /tmp/hf_modules_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1336698Z   HF_XET_LOG_DEST: /tmp/xet_logs/
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1336962Z   HF_METRICS_CACHE: /tmp/hf_metrics_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1337161Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1346723Z ##[group]Run '/home/runner/k8s/index.js'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1347366Z shell: /home/runner/externals/node20/bin/node {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.1347602Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.7017955Z With the provided path, there will be 1 file uploaded
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.7022568Z Artifact name is valid!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.7022748Z Root directory input is valid!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.8899460Z Uploading artifact: tests_torch_shard0_junit.zip
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:42.8926840Z Beginning upload of artifact content to blob storage
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.0769169Z Uploaded bytes 415014
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.0774108Z Finished uploading artifact content to blob storage!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.0775408Z SHA256 digest of uploaded artifact is e15b536ec93e7e738bce5ee625fda3a4597b5c704134f594a8b52ddb22e30439
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.0775859Z Finalizing artifact upload
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3138248Z Artifact tests_torch_shard0_junit successfully finalized. Artifact ID 11731529290
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3138818Z Artifact tests_torch_shard0_junit has been successfully uploaded! Final size is 415014 bytes. Artifact ID is 11731529290
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3140517Z Artifact download URL: https://github.com/huggingface/transformers/actions/runs/38216223914/artifacts/11731529290
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3289574Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3289888Z with:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3290056Z   name: tests_torch_shard0_reports
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3290260Z   path: reports/
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3290426Z   retention-days: 14
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3290602Z   if-no-files-found: ignore
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3290796Z   compression-level: 6
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3290966Z   overwrite: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3291136Z   include-hidden-files: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3291326Z   archive: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3291485Z env:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3291636Z   OMP_NUM_THREADS: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3291799Z   TRANSFORMERS_IS_CI: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3291979Z   PYTEST_TIMEOUT: 120
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3292150Z   RUN_PIPELINE_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3292324Z   RUN_FLAKY: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3292495Z   DISABLE_SAFETENSORS_CONVERSION: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3292703Z   RUN_CUSTOM_TOKENIZERS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3292917Z   RUN_TRAINING_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3293101Z   RUN_TENSOR_PARALLEL_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3293301Z   RUN_FSDP_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3293470Z   TRANSFORMERS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3293666Z   DATASETS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3293844Z   SKIP_CUDA_DOCTEST: 0
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3294014Z   TRANSFORMERSCI_OTEL_DEBUG: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3294199Z   TRANSFORMERS_TEST_OTEL_PR: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3294403Z   TRANSFORMERS_TEST_OTEL_SUITE: tests_torch
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3294613Z   HF_HOME: /mnt/cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3294803Z   HF_DATASETS_CACHE: /tmp/hf_datasets_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3295018Z   HF_MODULES_CACHE: /tmp/hf_modules_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3295229Z   HF_XET_LOG_DEST: /tmp/xet_logs/
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3295432Z   HF_METRICS_CACHE: /tmp/hf_metrics_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3295628Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3305462Z ##[group]Run '/home/runner/k8s/index.js'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3306073Z shell: /home/runner/externals/node20/bin/node {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.3306308Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.9730181Z With the provided path, there will be 8 files uploaded
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.9730770Z Artifact name is valid!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:43.9731081Z Root directory input is valid!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.1821912Z Uploading artifact: tests_torch_shard0_reports.zip
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.1869031Z Beginning upload of artifact content to blob storage
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.2851914Z Uploaded bytes 112191
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.3005005Z Finished uploading artifact content to blob storage!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.3005436Z SHA256 digest of uploaded artifact is a82a86f650d92cfeb5fa93375f85c11a704c80e3e0a4c0897abe297d3abd017c
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.3006096Z Finalizing artifact upload
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5580234Z Artifact tests_torch_shard0_reports successfully finalized. Artifact ID 11731239399
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5581068Z Artifact tests_torch_shard0_reports has been successfully uploaded! Final size is 112191 bytes. Artifact ID is 11731239399
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5582024Z Artifact download URL: https://github.com/huggingface/transformers/actions/runs/38216223914/artifacts/11731239399
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5897172Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5897497Z with:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5897679Z   name: tests_torch_shard0_artifacts
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5897918Z   path: tests_output.txt
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	installed.txt
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5898139Z   retention-days: 14
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5898316Z   if-no-files-found: ignore
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5898513Z   compression-level: 6
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5898691Z   overwrite: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5898874Z   include-hidden-files: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5899060Z   archive: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5899216Z env:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5899356Z   OMP_NUM_THREADS: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5899534Z   TRANSFORMERS_IS_CI: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5899712Z   PYTEST_TIMEOUT: 120
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5899888Z   RUN_PIPELINE_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5900060Z   RUN_FLAKY: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5900238Z   DISABLE_SAFETENSORS_CONVERSION: true
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5900441Z   RUN_CUSTOM_TOKENIZERS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5900665Z   RUN_TRAINING_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5900849Z   RUN_TENSOR_PARALLEL_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5901054Z   RUN_FSDP_TESTS: false
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5901226Z   TRANSFORMERS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5901407Z   DATASETS_VERBOSITY: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5901575Z   SKIP_CUDA_DOCTEST: 0
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5901749Z   TRANSFORMERSCI_OTEL_DEBUG: 1
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5901936Z   TRANSFORMERS_TEST_OTEL_PR: 
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5902138Z   TRANSFORMERS_TEST_OTEL_SUITE: tests_torch
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5902345Z   HF_HOME: /mnt/cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5902529Z   HF_DATASETS_CACHE: /tmp/hf_datasets_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5902738Z   HF_MODULES_CACHE: /tmp/hf_modules_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5902950Z   HF_XET_LOG_DEST: /tmp/xet_logs/
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5903144Z   HF_METRICS_CACHE: /tmp/hf_metrics_cache
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5903343Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5913357Z ##[group]Run '/home/runner/k8s/index.js'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5914103Z shell: /home/runner/externals/node20/bin/node {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:44.5914340Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.1942272Z Multiple search paths detected. Calculating the least common ancestor of all paths
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.1943435Z The least common ancestor is /__w/transformers/transformers. This will be the root directory of the artifact
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.1944090Z With the provided path, there will be 2 files uploaded
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.1944646Z Artifact name is valid!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.1944968Z Root directory input is valid!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.3882186Z Uploading artifact: tests_torch_shard0_artifacts.zip
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.3911572Z Beginning upload of artifact content to blob storage
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.5853816Z Uploaded bytes 530477
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.5995510Z Finished uploading artifact content to blob storage!
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.5995974Z SHA256 digest of uploaded artifact is f7ed6f085816770c3d54e6952c0ce5a9b6fb6002c82d3bca797892c37a600f3f
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.5996354Z Finalizing artifact upload
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.8569813Z Artifact tests_torch_shard0_artifacts successfully finalized. Artifact ID 11731199340
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.8570610Z Artifact tests_torch_shard0_artifacts has been successfully uploaded! Final size is 530477 bytes. Artifact ID is 11731199340
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.8571501Z Artifact download URL: https://github.com/huggingface/transformers/actions/runs/38216223914/artifacts/11731199340
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.8859339Z Post job cleanup.
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.8879012Z ##[group]Run '/home/runner/k8s/index.js'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.8879856Z shell: /home/runner/externals/node20/bin/node {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:45.8880170Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3801751Z [command]/usr/bin/git version
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3843545Z git version 2.47.3
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3875916Z Copying '/root/.gitconfig' to '/__w/_temp/8b325d64-b1ab-4f0c-9506-678bc9ab855a/.gitconfig'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3881106Z Temporarily overriding HOME='/__w/_temp/8b325d64-b1ab-4f0c-9506-678bc9ab855a' before making global git config changes
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3882368Z Adding repository directory to the temporary git global config as a safe directory
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3911278Z [command]/usr/bin/git config --global --add safe.directory /__w/transformers/transformers
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3948412Z Removing SSH command configuration
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3956451Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.3983820Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4160406Z Removing HTTP extra header
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4164840Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4182344Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4358056Z Removing includeIf entries pointing to credentials config files
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4360285Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4570989Z includeif.gitdir:/__w/transformers/transformers/.git.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4668841Z includeif.gitdir:/__w/transformers/transformers/.git/worktrees/*.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4669297Z includeif.gitdir:/github/workspace/.git.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4669602Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4670482Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/__w/transformers/transformers/.git.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4671061Z /__w/_temp/git-credentials-8f8815bb-2098-42d2-aa8e-99bc78375897.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4672197Z [command]/usr/bin/git config --local --unset includeif.gitdir:/__w/transformers/transformers/.git.path \/__w\/_temp\/git\-credentials\-8f8815bb\-2098\-42d2\-aa8e\-99bc78375897\.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4673121Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/__w/transformers/transformers/.git/worktrees/*.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4673611Z /__w/_temp/git-credentials-8f8815bb-2098-42d2-aa8e-99bc78375897.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4677744Z [command]/usr/bin/git config --local --unset includeif.gitdir:/__w/transformers/transformers/.git/worktrees/*.path \/__w\/_temp\/git\-credentials\-8f8815bb\-2098\-42d2\-aa8e\-99bc78375897\.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4702772Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4727863Z /github/runner_temp/git-credentials-8f8815bb-2098-42d2-aa8e-99bc78375897.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4728897Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-8f8815bb\-2098\-42d2\-aa8e\-99bc78375897\.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4757000Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4774206Z /github/runner_temp/git-credentials-8f8815bb-2098-42d2-aa8e-99bc78375897.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4777815Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-8f8815bb\-2098\-42d2\-aa8e\-99bc78375897\.config
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4804351Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.4996054Z Removing credentials config '/__w/_temp/git-credentials-8f8815bb-2098-42d2-aa8e-99bc78375897.config'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.5140443Z ##[group]Run '/home/runner/k8s/index.js'
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.5141231Z shell: /home/runner/externals/node20/bin/node {0}
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.5141470Z ##[endgroup]
+pr-ci / tests_torch / tests_torch [shard 0/8]	UNKNOWN STEP	2026-10-12T07:18:46.9040498Z Cleaning up orphan processes
+pr-ci / PR CI status	UNKNOWN STEP	﻿2026-10-12T07:24:54.3180402Z Current runner version: '2.337.0'
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3204638Z ##[group]Runner Image Provisioner
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3205293Z Hosted Compute Agent
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3205818Z Version: 20261002.596
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3206306Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3206894Z Build Date: 2026-10-02T22:28:27Z
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3207459Z Worker ID: {8ef12694-ac1e-437d-8daf-9a17fb68382d}
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3207966Z Region: centralus
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3208294Z Cloud: Azure
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3208575Z ##[endgroup]
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3209381Z ##[group]Operating System
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3209711Z Ubuntu
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3209982Z 22.04.5
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3210266Z LTS
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3210539Z ##[endgroup]
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3211020Z ##[group]Runner Image
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3211373Z Image: ubuntu-22.04
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3211830Z Version: 20261004.315.1
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3212537Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20261004.315/images/ubuntu/Ubuntu2204-Readme.md
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3213332Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20261004.315
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3213841Z ##[endgroup]
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3214370Z ##[group]GITHUB_TOKEN Permissions
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3215652Z Metadata: read
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3215952Z ##[endgroup]
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3217272Z Secret source: Actions
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3217755Z Cache mode: write
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.3218244Z Prepare workflow directory
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.4639537Z Prepare all required actions
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.4697318Z Uses: huggingface/transformers-ci/.github/workflows/pr-ci_dynamic_caller_example.yml@refs/heads/main (6fe46f710692e99ecf8a4dc00383ee01d5c6daf0)
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.4700064Z Complete job name: pr-ci / PR CI status
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5633031Z ##[group]Run echo "Upstream job results: $NEEDS_RESULTS"
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5633596Z ^[[36;1mecho "Upstream job results: $NEEDS_RESULTS"^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5633970Z ^[[36;1m^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5634286Z ^[[36;1mfailed=false^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5634761Z ^[[36;1m# Unquoted — intentional: bash splits on spaces, iterating one result word at a time.^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5635278Z ^[[36;1mfor result in $NEEDS_RESULTS; do^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5635641Z ^[[36;1m  case "$result" in^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5635974Z ^[[36;1m    success|skipped)^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5636420Z ^[[36;1m      # Both are fine — skipped means the test list was empty for that job.^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5636868Z ^[[36;1m      ;;^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5637169Z ^[[36;1m    failure|cancelled)^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5637552Z ^[[36;1m      echo "  ✗ at least one job reported: $result"^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5637940Z ^[[36;1m      failed=true^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5638263Z ^[[36;1m      ;;^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5638610Z ^[[36;1m    *)^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5638946Z ^[[36;1m      echo "  ? unexpected result value: $result"^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5639329Z ^[[36;1m      failed=true^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5639655Z ^[[36;1m      ;;^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5639951Z ^[[36;1m  esac^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5640230Z ^[[36;1mdone^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5640521Z ^[[36;1m^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5640810Z ^[[36;1mif [[ "$failed" == "true" ]]; then^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5641215Z ^[[36;1m  echo "CI failed — see the jobs above for details."^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5641751Z ^[[36;1m  exit 1^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5642029Z ^[[36;1mfi^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5642305Z ^[[36;1m^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.5642688Z ^[[36;1mecho "All jobs passed or were intentionally skipped. CI is green."^[[0m
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8002470Z shell: /usr/bin/bash -e {0}
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8003105Z env:
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8003876Z   NEEDS_RESULTS: success success success success failure success success success success success success success success success success success success success success
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8004649Z ##[endgroup]
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8138429Z Upstream job results: success success success success failure success success success success success success success success success success success success success success
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8253970Z   ✗ at least one job reported: failure
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8254710Z CI failed — see the jobs above for details.
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8271259Z ##[error]Process completed with exit code 1.
+pr-ci / PR CI status	UNKNOWN STEP	2026-10-12T07:24:54.8395173Z Cleaning up orphan processes

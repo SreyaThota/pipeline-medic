@@ -1,0 +1,400 @@
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5016369Z         "extractor_options" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5016500Z           "trap" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5016630Z             "title" : "Options pertaining to TRAP.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5016803Z             "description" : "Options pertaining to TRAP.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5016964Z             "type" : "object",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5017094Z             "properties" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5017220Z               "compression" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5017416Z                 "title" : "Controls compression for the TRAP files written by the extractor.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5017961Z                 "description" : "This option is only intended for use in debugging the extractor. Accepted values are 'gzip' (the default, to write gzip-compressed TRAP) 'zstd' (to write Zstandard-compressed TRAP) and 'none' (to write uncompressed TRAP).\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5018758Z                 "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5018903Z                 "pattern" : "^(none|gzip|zstd)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5019046Z               }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5019198Z             }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5019352Z           }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5019497Z         }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5019642Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5019783Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5019927Z     "yaml" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5020081Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5020301Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/yaml"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5020890Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5021038Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5021293Z     "xml" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5021448Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5021677Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/xml"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5021958Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5022101Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5022233Z     "python" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5022339Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5022492Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/python",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5022688Z         "extractor_options" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5022819Z           "logging" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5022956Z             "title" : "Options pertaining to logging.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5023142Z             "description" : "Options pertaining to logging.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5023306Z             "type" : "object",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5023514Z             "properties" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5023642Z               "verbosity" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5023797Z                 "title" : "Python extractor logging verbosity level.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5024336Z                 "description" : "Controls the level of verbosity of the CodeQL Python extractor.\nThe supported levels are (in order of increasing verbosity):\n\n  - off\n  - errors\n  - warnings\n  - info or progress\n  - debug or progress+\n  - trace or progress++\n  - progress+++\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5024828Z                 "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5025085Z                 "pattern" : "^(off|errors|warnings|(info|progress)|(debug|progress\\+)|(trace|progress\\+\\+)|progress\\+\\+\\+)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5025341Z               }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5025445Z             }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5025545Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5025660Z           "python_executable_name" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5025876Z             "title" : "Controls the name of the Python executable used by the Python extractor.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5026599Z             "description" : "The Python extractor uses platform-dependent heuristics to determine the name of the Python executable to use. Specifying a value for this option overrides the name of the Python executable used by the extractor. Accepted values are py, python and python3. Use this setting with caution, the Python extractor requires Python 3 to run.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5027241Z             "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5027383Z             "pattern" : "^(py|python|python3)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5027526Z           }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5027623Z         }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5027720Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5027812Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5027910Z     "cpp" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5028157Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5028309Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/cpp",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5028501Z         "extractor_options" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5028627Z           "trap" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5028749Z             "title" : "TRAP options",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5028942Z             "description" : "Options about how the extractor handles TRAP files",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5029136Z             "type" : "object",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5029261Z             "visibility" : 3,
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5029388Z             "properties" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5029513Z               "cache" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5029644Z                 "title" : "TRAP cache options",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5029849Z                 "description" : "Options about how the extractor handles its TRAP cache",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5030048Z                 "type" : "object",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5030183Z                 "properties" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5030312Z                   "dir" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5030447Z                     "title" : "TRAP cache directory",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5030635Z                     "description" : "The directory of the TRAP cache to use",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5030817Z                     "type" : "string"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5030947Z                   },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5031062Z                   "bound" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5031196Z                     "title" : "TRAP cache bound",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5031483Z                     "description" : "A soft limit (in MB) on the size of the TRAP cache",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5031678Z                     "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5031813Z                     "pattern" : "[0-9]+"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5031945Z                   },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5032058Z                   "write" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5032195Z                     "title" : "TRAP cache writeable",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5032407Z                     "description" : "Whether to write to the TRAP cache as well as reading it",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5032610Z                     "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5032757Z                     "pattern" : "(true|TRUE|false|FALSE)"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5032903Z                   }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5033110Z                 }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5033214Z               }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5033314Z             }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5033414Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5033522Z           "scale_timeouts" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5033699Z             "title" : "Value to scale compiler introspection timeouts with",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5034419Z             "description" : "The extractor attempts to determine what compiler the source code being extracted is compiled with. To this end the extractor makes additional calls to the compiler, some of which are expected to return within a certain fixed time (either 10s or 15s). On some systems that are under high load this time might be too short, and can be scaled up using this option.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5035082Z             "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5035211Z             "pattern" : "[0-9]+"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5035336Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5035442Z           "log_verbosity" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5035593Z             "title" : "Verbosity of the extractor logging",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5035913Z             "description" : "Set the verbosity of the extractor logging to 'quiet' (0), 'normal' (1), 'chatty' (2), or 'noisy' (3). The default is 'normal'.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5036206Z             "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5036333Z             "pattern" : "[0-3]"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5036453Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5036561Z           "frontend_options" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5036711Z             "title" : "C/C++ extractor frontend options",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5036971Z             "description" : "Set additional options that should be passed to the C/C++ extractor frontend.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037206Z             "type" : "array",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037331Z             "visibility" : 3
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037447Z           }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037548Z         }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037646Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037740Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037840Z     "properties" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5037951Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5038222Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/properties"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5038416Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5038508Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5038606Z     "rust" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5038707Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5038859Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/rust",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5039048Z         "extractor_options" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5039176Z           "trap" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5039304Z             "title" : "Options pertaining to TRAP.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5039478Z             "description" : "Options pertaining to TRAP.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5039638Z             "type" : "object",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5039766Z             "properties" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5039891Z               "compression" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5040090Z                 "title" : "Controls compression for the TRAP files written by the extractor.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5040632Z                 "description" : "This option is only intended for use in debugging the extractor. Accepted values are 'gzip' (to write gzip-compressed TRAP) 'zstd' (the default, to write Zstandard-compressed TRAP) and 'none' (to write uncompressed TRAP).\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5041181Z                 "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5041323Z                 "pattern" : "^(none|gzip|zstd)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5041464Z               }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5041567Z             }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5041666Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5041773Z           "cargo_target_dir" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5041931Z             "title" : "Directory to use for cargo output files.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5042707Z             "description" : "This value is an optional path to use as `CARGO_TARGET_DIR` for the internal cargo commands the extractor uses. Pointing it to a persistent directory may reduce execution time of consecutive extractor runs. By default, a new scratch directory is used for each extraction, while qltests use the test's `target` directory so artifacts can be reused across runs.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5043368Z             "type" : "string"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5043486Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5043592Z           "cargo_target" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5043727Z             "title" : "Target architecture",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5044027Z             "description" : "Target architecture to use for analysis, analogous to `cargo --target`. By default the host architecture is used.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5044317Z             "type" : "string"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5044438Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5044544Z           "cargo_features" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5044681Z             "title" : "Cargo features to turn on",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5045207Z             "description" : "Comma-separated list of features to turn on. By default all features are enabled. If any features are specified, then only those features are enabled. The `default` feature must be explicitly specified if only default features are desired. Can be repeated.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5045714Z             "type" : "array"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5045831Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5045938Z           "cargo_cfg_overrides" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5046079Z             "title" : "Cargo cfg overrides",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5046351Z             "description" : "Comma-separated list of cfg settings to enable, or disable if prefixed with `-`. Can be repeated.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5046612Z             "type" : "array"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5046731Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5046832Z           "logging" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5046966Z             "title" : "Options pertaining to logging.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5047145Z             "description" : "Options pertaining to logging.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5047306Z             "type" : "object",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5047429Z             "properties" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5047552Z               "verbosity" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5047698Z                 "title" : "Extractor logging verbosity level.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5058419Z                 "description" : "Controls the level of verbosity of the extractor. The supported levels are (in order of increasing verbosity):\n  - off\n  - errors\n  - warnings\n  - info or progress\n  - debug or progress+\n  - trace or progress++\n  - progress+++\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5058954Z                 "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5059251Z                 "pattern" : "^(off|errors|warnings|(info|progress)|(debug|progress\\+)|(trace|progress\\+\\+)|progress\\+\\+\\+)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5059517Z               },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5059658Z               "flamegraph" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5059835Z                 "title" : "[Experimental] File path for write flame graph log",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5060304Z                 "description" : "Collect flame graph data using the `tracing-flame` crate. To render a flame graph or chart, run the `inferno-flamegraph` command. See also: https://crates.io/crates/tracing-flame\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5060710Z                 "type" : "string"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5060842Z               }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5060946Z             }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5061045Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5061164Z           "extract_dependencies_as_source" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5061473Z             "title" : "Extract dependencies as source code",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5061746Z             "description" : "Extract the full source code of dependencies instead of only extracting signatures.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5061990Z             "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062121Z             "pattern" : "^(false|true)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062252Z           }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062349Z         }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062443Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062536Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062633Z     "swift" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062736Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5062891Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/swift"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5063073Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5063162Z     ],
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5063256Z     "java" : [
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5063429Z       {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5063576Z         "extractor_root" : "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/java",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5063768Z         "extractor_options" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5063902Z           "exclude" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5064044Z             "title" : "A glob excluding files from analysis.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5064417Z             "description" : "A glob indicating what files to exclude from the analysis. This accepts glob patterns that are supported by Java's 'getPathMatcher' implementation.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5064763Z             "type" : "string"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5064882Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5064990Z           "add_prefer_source" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5065168Z             "title" : "Whether to always prefer source files over class files.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5065743Z             "description" : "A value indicating whether source files should be preferred over class files. If set to 'true', the extraction adds '-Xprefer:source' to the javac command line. If set to 'false', the extraction uses the default javac behavior ('-Xprefer:newer'). The default is 'true'.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5066262Z             "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5066392Z             "pattern" : "^(false|true)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5066522Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5066625Z           "buildless" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5066808Z             "title" : "Whether to use buildless (standalone) extraction (experimental).",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5067632Z             "description" : "A value indicating, which type of extraction the autobuilder should perform. If 'true', then the standalone extractor will be used, otherwise tracing extraction will be performed. The default is 'false'. Note that buildless extraction will generally yield less accurate analysis results, and should only be used in cases where it is not possible to build the code (for example if it uses inaccessible dependencies).\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5068507Z             "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5068636Z             "pattern" : "^(false|true)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5068766Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5068878Z           "buildless_dependency_dir" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5069100Z             "title" : "The path where buildless (standalone) extraction should keep dependencies.",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5069433Z             "description" : "If set, the buildless (standalone) extractor will store dependencies in this directory.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5069684Z             "type" : "string"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5069804Z           },
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5069913Z           "minimize_dependency_jars" : {
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5070133Z             "title" : "Whether to rewrite and minimize downloaded JAR dependencies (experimental).",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5070551Z             "description" : "If 'true', JAR dependencies downloaded during extraction will be rewritten to remove unneeded data, such as method bodies. The default is 'false'.\n",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5070890Z             "type" : "string",
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5071019Z             "pattern" : "^(false|true)$"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5071150Z           }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5071246Z         }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5071340Z       }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5071549Z     ]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5071640Z   }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.5071734Z }
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.6494541Z Found 1 languages that support TRAP caching
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.6499324Z Analyzing default branch. Skipping downloading of TRAP caches.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.6500451Z Enabling TRAP caching for C/C++.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.6501570Z ##[endgroup]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:16.6510769Z While resolving threads, found a cgroup CPUs file with 4 CPUs in /sys/fs/cgroup/cpuset.cpus.effective.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.2212451Z Writing augmented user configuration file to /home/runner/work/_temp/user-config.yaml
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.2212997Z ##[group]Augmented user configuration file contents
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.2219957Z {}
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.2220050Z 
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.2220298Z ##[endgroup]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.2223017Z [command]/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/codeql database init --force-overwrite --db-cluster /home/runner/work/_temp/codeql_databases --source-root=/home/runner/work/pandas/pandas --calculate-language-specific-baseline --sublanguage-file-coverage --extractor-include-aliases --language=cpp --begin-tracing -O=cpp.trap.cache.dir=/home/runner/work/_temp/trapCaches/cpp -O=cpp.trap.cache.bound=1024 -O=cpp.trap.cache.write=true --trace-process-name=Runner.Worker.exe --codescanning-config=/home/runner/work/_temp/user-config.yaml
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.9869188Z Package install location: /home/runner/.codeql/packages
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:17.9893045Z Nothing downloaded.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:18.4126923Z Calculating baseline information in /home/runner/work/pandas/pandas
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:18.5671474Z Running command in /home/runner/work/pandas/pandas: [/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/javascript/tools/configure-baseline.sh]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:18.5769213Z Running command in /home/runner/work/pandas/pandas: [/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/actions/tools/configure-baseline.sh]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:18.5821109Z Calculated baseline information for languages: actions, c, cpp, html, python (167ms).
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:18.7540501Z Resolving extractor cpp.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:18.7590048Z Successfully loaded extractor C/C++ (cpp) from /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/cpp.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:18.7787163Z Created skeleton CodeQL database at /home/runner/work/_temp/codeql_databases/cpp. This in-progress database is ready to be populated by an extractor.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8147043Z ##[group]Run github/codeql-action/autobuild@2892aa5e19bbd11bc0cff5427e3b750a04d9e3c2
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8147276Z with:
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8148787Z   token: ***
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8148912Z   matrix: {
+analyze (c-cpp)	UNKNOWN STEP	  "language": "c-cpp"
+analyze (c-cpp)	UNKNOWN STEP	}
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8149050Z env:
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8149201Z   CODEQL_ACTION_JOB_RUN_UUID: b7dd775c-7191-4883-8b5c-804db05a1f71
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8149401Z   CODEQL_ACTION_FEATURE_MULTI_LANGUAGE: false
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8149561Z   CODEQL_ACTION_FEATURE_SANDWICH: false
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8149713Z   CODEQL_ACTION_FEATURE_SARIF_COMBINE: true
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8149871Z   CODEQL_ACTION_FEATURE_WILL_UPLOAD: true
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8150039Z   CODEQL_ACTION_VERSION: 4.38.2
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8150177Z   CODEQL_ACTION_INIT_HAS_RUN: true
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8150353Z   CODEQL_ACTION_ANALYSIS_KEY: .github/workflows/codeql.yml:analyze
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8150562Z   CODEQL_WORKFLOW_STARTED_AT: 2026-10-12T01:03:04.796Z
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8150759Z   CODEQL_ACTION_HAS_SET_UP_CODEQL: true
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8150910Z   CODEQL_EXTRACTOR_CPP_TRAP_CACHING: true
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8151052Z   CODEQL_RAM: 14575
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8151165Z   CODEQL_THREADS: 4
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8151328Z   CODEQL_SCRATCH_DIR: /home/runner/work/_temp/codeql_databases/working
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8151523Z   CODEQL_VERBOSITY: warnings
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8151686Z   CODEQL_DIST: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8151860Z   CODEQL_PLATFORM: linux64
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8151993Z   CODEQL_PLATFORM_DLL_EXTENSION: .so
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8152199Z   CODEQL_JAVA_HOME: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/tools/linux64/java
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8152608Z   CODEQL_EXTRACTOR_CPP_ROOT: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/cpp
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8152874Z   CODEQL_EXTRACTOR_CPP_WIP_DATABASE: /home/runner/work/_temp/codeql_databases/cpp
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8153196Z   CODEQL_EXTRACTOR_CPP_DIAGNOSTIC_DIR: /home/runner/work/_temp/codeql_databases/cpp/diagnostic/extractors/cpp
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8153518Z   CODEQL_EXTRACTOR_CPP_LOG_DIR: /home/runner/work/_temp/codeql_databases/cpp/log
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8153791Z   CODEQL_EXTRACTOR_CPP_SCRATCH_DIR: /home/runner/work/_temp/codeql_databases/cpp/working
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8154078Z   CODEQL_EXTRACTOR_CPP_TRAP_DIR: /home/runner/work/_temp/codeql_databases/cpp/trap/cpp
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8154374Z   CODEQL_EXTRACTOR_CPP_SOURCE_ARCHIVE_DIR: /home/runner/work/_temp/codeql_databases/cpp/src
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8154604Z   CODEQL_EXTRACTOR_CPP_THREADS: 4
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8154745Z   CODEQL_EXTRACTOR_CPP_RAM: 14575
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8154904Z   CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_WRITE: true
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8155090Z   CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_BOUND: 1024
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8155313Z   CODEQL_EXTRACTOR_CPP_OPTION_TRAP_CACHE_DIR: /home/runner/work/_temp/trapCaches/cpp
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8155591Z   CODEQL_TRACER_LOG: /home/runner/work/_temp/codeql_databases/log/build-tracer.log
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8155876Z   CODEQL_TRACER_DIAGNOSTICS_DIR: /home/runner/work/_temp/codeql_databases/diagnostic/tracer
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8156110Z   CODEQL_TRACER_LANGUAGES: cpp
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8156393Z   SEMMLE_PRELOAD_libtrace: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/tools/linux64/${LIB}_${PLATFORM}_trace.so
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8156756Z   SEMMLE_PRELOAD_libtrace32: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/tools/linux64/lib32trace.so
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8157092Z   SEMMLE_PRELOAD_libtrace64: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/tools/linux64/lib64trace.so
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8157405Z   CODEQL_RUNNER: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/tools/linux64/runner
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8157708Z   LD_PRELOAD: /opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/tools/linux64/${LIB}_${PLATFORM}_trace.so
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.8157941Z ##[endgroup]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:19.9592080Z Existing job run UUID is b7dd775c-7191-4883-8b5c-804db05a1f71.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:20.8947820Z ##[group]Attempting to automatically build cpp code
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:20.8960347Z Enabling C++ automatic installation of dependencies. This can be disabled by setting the CODEQL_EXTRACTOR_CPP_AUTOINSTALL_DEPENDENCIES environment variable to 'false'. See https://docs.github.com/en/actions/learn-github-actions/variables#defining-environment-variables-for-a-single-workflow for more information.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:20.9056231Z Picked up JAVA_TOOL_OPTIONS:  -Dhttp.keepAlive=false -Dmaven.wagon.http.pool=false
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.4816913Z [command]/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/cpp/tools/autobuild.sh 
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.5361988Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.5716305Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.5725317Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.5748829Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.5771597Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.5818987Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.6582595Z Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main all Packages [640 B]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.6684469Z Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [492 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.6849074Z Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main armhf Packages [12.3 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.6890849Z Get:10 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [548 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.6939892Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1375 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7049043Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [306 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7054777Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1702 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7117028Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [342 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7134963Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1761 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7216976Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [401 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7245292Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [55.0 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7254614Z Get:18 http://azure.archive.ubuntu.com/ubuntu noble-updates/multiverse Translation-en [14.3 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7891650Z Get:19 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1121 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.7935010Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [228 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.8374799Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1220 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.8428242Z Get:22 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [245 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.8443392Z Get:23 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1669 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.8515190Z Get:24 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [383 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.8532648Z Get:25 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [49.8 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:21.8540417Z Get:26 http://azure.archive.ubuntu.com/ubuntu noble-security/multiverse Translation-en [12.4 kB]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.2109496Z Fetched 12.3 MB in 1s (12.8 MB/s)
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.7127087Z Reading package lists...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.7367194Z Reading package lists...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.8704433Z Building dependency tree...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.8708670Z Reading state information...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.9879058Z unzip is already the newest version (6.0-28ubuntu4.1).
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.9879427Z 0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:27.9920727Z cpp/autobuilder: using built-in deptrace DB
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:29.1445010Z cpp/autobuilder: launched deptrace server
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:29.1942509Z 
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:29.1956880Z cpp/autobuilder: Using build system found in '.'
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:29.1976504Z 
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:29.2022323Z cpp/autobuilder: trying to run meson .. [current dir: /home/runner/work/pandas/pandas/_codeql_build_dir]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2084363Z The Meson build system
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2084570Z Version: 1.3.2
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2084709Z Source dir: /home/runner/work/pandas/pandas
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2084920Z Build dir: /home/runner/work/pandas/pandas/_codeql_build_dir
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2085142Z Build type: native build
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2085289Z Program python3 found: YES (/usr/bin/python3)
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2085404Z 
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2085576Z ../meson.build:7:13: ERROR: Command `/usr/bin/python3 generate_version.py --print` failed with status 1.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2085785Z 
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2085951Z A full log can be found at /home/runner/work/pandas/pandas/_codeql_build_dir/meson-logs/meson-log.txt
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.2086333Z WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.3080806Z ~/work/pandas/pandas ~/work/pandas/pandas
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.3207237Z ~/work/pandas/pandas
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.3375407Z cpp/autobuilder: No supported build command succeeded.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.3574018Z cpp/autobuilder: deptrace was enabled.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.3597764Z cpp/autobuilder: auto installed the following packages:
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.3598185Z cpp/autobuilder:   meson
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.3704558Z cpp/autobuilder: autobuild summary.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.4346689Z ##[error]We were unable to automatically build your code. Please replace the call to the autobuild action with your custom build steps. Encountered a fatal error while running "/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/cpp/tools/autobuild.sh". Exit code was 1 and last log line was: cpp/autobuilder: autobuild summary. See the logs for more details.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:33.9881256Z Post job cleanup.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:34.5262083Z [command]/opt/hostedtoolcache/CodeQL/2.27.2/x64/codeql/codeql database export-diagnostics /home/runner/work/_temp/codeql_databases --db-cluster --format=sarif-latest --output=../codeql-failed-run.sarif --sarif-include-diagnostics -vvv
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:34.8279809Z Writing logs to /home/runner/work/_temp/codeql_databases/log/database-export-diagnostics-20261012.010334.825.log.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:34.9831530Z Interpreting diagnostic messages...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:34.9858727Z Looking for diagnostics in /home/runner/work/_temp/codeql_databases/cpp/diagnostic...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:34.9859397Z Looking for diagnostics in /home/runner/work/_temp/codeql_databases/cpp/diagnostic/extractors...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:34.9860010Z Looking for diagnostics in /home/runner/work/_temp/codeql_databases/cpp/diagnostic/extractors/cpp...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:34.9860760Z Found diagnostics file /home/runner/work/_temp/codeql_databases/cpp/diagnostic/extractors/cpp/autobuilder-3102.jsonl.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0128921Z Found diagnostics file /home/runner/work/_temp/codeql_databases/cpp/diagnostic/extractors/cpp/autobuilder-3117.jsonl.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0162913Z Found diagnostics file /home/runner/work/_temp/codeql_databases/cpp/diagnostic/extractors/cpp/autobuilder-3127.jsonl.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0201616Z Looking for diagnostics in /home/runner/work/_temp/codeql_databases/cpp/diagnostic/codeql-action...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0203875Z Found diagnostics file /home/runner/work/_temp/codeql_databases/cpp/diagnostic/codeql-action/codeql-action-2026-10-12T010315.923Z-0.json.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0236585Z Found diagnostics file /home/runner/work/_temp/codeql_databases/cpp/diagnostic/codeql-action/codeql-action-2026-10-12T010308.652Z-1.json.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0284330Z Looking for diagnostics in /home/runner/work/_temp/codeql_databases/diagnostic...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0284809Z Looking for diagnostics in /home/runner/work/_temp/codeql_databases/diagnostic/tracer...
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0285401Z Found diagnostics file /home/runner/work/_temp/codeql_databases/diagnostic/cli-diagnostics-add-20261012T010318.807Z.json.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0339865Z Found 7 raw diagnostic messages.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0453720Z Processed diagnostic messages (removed 0 due to limits, created 0 summary diagnostics for status page).
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.0459531Z Interpreted diagnostic messages (61ms).
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.1267830Z Uploading failed SARIF file ../codeql-failed-run.sarif
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.1268822Z Post-processing sarif files: ["../codeql-failed-run.sarif"]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.1276008Z Adding fingerprints to SARIF file. See https://docs.github.com/en/code-security/reference/code-scanning/sarif-support-for-code-scanning#data-for-preventing-duplicated-alerts for more information.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.1277897Z ##[group]Uploading code scanning results
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.1357248Z Uploading results
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.5228637Z Successfully uploaded results
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.5229033Z ##[endgroup]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:35.5230083Z ##[group]Waiting for processing to finish
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:40.7785879Z Analysis upload status is failed.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:40.7786347Z Successfully uploaded a SARIF file for the unsuccessful execution. Received expected "unsuccessful execution" processing error, and no other errors.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:40.7786938Z ##[endgroup]
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:40.7789479Z CodeQL job status was configuration error.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:40.7795825Z Sending status report for init-post step.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.1334883Z Status report sent for init-post step.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.1469021Z Post job cleanup.
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.1996251Z [command]/usr/bin/git version
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2034288Z git version 2.55.0
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2058481Z Temporarily overriding HOME='/home/runner/work/_temp/973d6bda-bd13-4922-9172-0f8f5e8927d2' before making global git config changes
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2059469Z Adding repository directory to the temporary git global config as a safe directory
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2062462Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pandas/pandas
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2095725Z Removing SSH command configuration
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2099581Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2132885Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2431202Z Removing HTTP extra header
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2435344Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2467971Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2764779Z Removing includeIf entries pointing to credentials config files
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2768886Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.2831864Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+analyze (c-cpp)	UNKNOWN STEP	2026-10-12T01:03:41.3280564Z Cleaning up orphan processes

@@ -1,0 +1,226 @@
+test_ecosystem	UNKNOWN STEP	﻿2026-10-12T00:15:43.6001213Z Current runner version: '2.337.0'
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6027190Z ##[group]Runner Image Provisioner
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6028084Z Hosted Compute Agent
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6028660Z Version: 20261002.596
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6029234Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6029930Z Build Date: 2026-10-02T22:28:27Z
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6030553Z Worker ID: {99e811ae-3a80-457c-b789-bdff32803cec}
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6031187Z Region: westus3
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6031759Z Cloud: Azure
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6032311Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6033795Z ##[group]Operating System
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6034379Z Ubuntu
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6034850Z 24.04.5
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6035381Z LTS
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6036027Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6036598Z ##[group]Runner Image
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6037166Z Image: ubuntu-24.04
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6037689Z Version: 20261004.327.1
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6038930Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6040438Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6041297Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6042795Z ##[group]GITHUB_TOKEN Permissions
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6044966Z Contents: write
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6045691Z Metadata: read
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6046226Z PullRequests: write
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6046797Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6048987Z Secret source: Actions
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6049855Z Cache mode: write
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6050509Z Prepare workflow directory
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6377033Z Prepare all required actions
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.6424824Z Getting action download info
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:43.9439347Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:44.0450480Z Download action repository 'actions/setup-node@v7' (SHA:949feb2413d6458794dcd2491c4babbbce0c15c1)
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:44.8351972Z Download action repository 'peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1' (SHA:5f6978faf089d4d20b00c7766989d076bb2fc7f1)
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.5941890Z Complete job name: test_ecosystem
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6908561Z ##[group]Run actions/checkout@v7
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6909924Z with:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6910781Z   repository: eslint/eslint
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6919296Z   token: ***
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6920207Z   ssh-strict: true
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6921149Z   ssh-user: git
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6922100Z   persist-credentials: true
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6923144Z   clean: true
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6924074Z   sparse-checkout-cone-mode: true
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6925130Z   fetch-depth: 1
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6926117Z   fetch-tags: false
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6927012Z   show-progress: true
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6927941Z   lfs: false
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6928796Z   submodules: false
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6929712Z   set-safe-directory: true
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6930752Z   allow-unsafe-pr-checkout: false
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.6932193Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.7937151Z Syncing repository: eslint/eslint
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.7940351Z ##[group]Getting Git version info
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.7941778Z Working directory is '/home/runner/work/eslint/eslint'
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.7943711Z [command]/usr/bin/git version
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.7983193Z git version 2.55.0
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8004143Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8014189Z Temporarily overriding HOME='/home/runner/work/_temp/c57d21f1-5385-495a-bddc-67e9d063ecf8' before making global git config changes
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8017590Z Adding repository directory to the temporary git global config as a safe directory
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8020820Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/eslint/eslint
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8059947Z Deleting the contents of '/home/runner/work/eslint/eslint'
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8062945Z ##[group]Determining repository object format
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8065306Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8066949Z ##[group]Initializing the repository
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8068978Z [command]/usr/bin/git init /home/runner/work/eslint/eslint
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8156324Z hint: Using 'master' as the name for the initial branch. This default branch name
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8159317Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8162140Z hint: to use in all of your new repositories, which will suppress this warning,
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8163930Z hint: call:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8164762Z hint:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8166018Z hint: 	git config --global init.defaultBranch <name>
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8167636Z hint:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8168812Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8170626Z hint: 'development'. The just-created branch can be renamed via this command:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8172296Z hint:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8173184Z hint: 	git branch -m <name>
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8174140Z hint:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8175441Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8177879Z Initialized empty Git repository in /home/runner/work/eslint/eslint/.git/
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8181133Z [command]/usr/bin/git remote add origin https://github.com/eslint/eslint
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8212890Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8214538Z ##[group]Disabling automatic garbage collection
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8216464Z [command]/usr/bin/git config --local gc.auto 0
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8243583Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8245361Z ##[group]Setting up auth
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8246642Z Removing SSH command configuration
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8249622Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8278280Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8563659Z Removing HTTP extra header
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8568537Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8595938Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8769273Z Removing includeIf entries pointing to credentials config files
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8774333Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8803395Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.8989454Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.9019879Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/eslint/eslint/.git.path /home/runner/work/_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.9045201Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.9073531Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.9102138Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.9124001Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.9126592Z ##[group]Fetching the repository
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:45.9133188Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +48d5cc47e43478670ccf95a74f7a73e8408152b5:refs/remotes/origin/main
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4623714Z From https://github.com/eslint/eslint
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4624367Z  * [new ref]         48d5cc47e43478670ccf95a74f7a73e8408152b5 -> origin/main
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4634581Z [command]/usr/bin/git branch --list --remote origin/main
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4654504Z   origin/main
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4662065Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4682255Z 48d5cc47e43478670ccf95a74f7a73e8408152b5
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4686173Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4687093Z ##[group]Determining the checkout info
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4688184Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4692573Z [command]/usr/bin/git sparse-checkout disable
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4738370Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4766226Z ##[group]Checking out the ref
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.4771663Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6116119Z Switched to a new branch 'main'
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6121030Z branch 'main' set up to track 'origin/main'.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6136607Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6179785Z [command]/usr/bin/git log -1 --format=%H
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6201889Z 48d5cc47e43478670ccf95a74f7a73e8408152b5
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6445676Z ##[group]Run actions/setup-node@v7
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6445985Z with:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6446200Z   node-version: lts/*
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6446422Z   check-latest: false
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6448676Z   token: ***
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6448900Z   package-manager-cache: true
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.6449155Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:47.7580341Z Attempt to resolve LTS alias from manifest...
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:48.7600755Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:48.8185075Z ##[group]Environment details
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1328711Z node: v24.21.0
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1329205Z npm: 11.19.0
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1329668Z yarn: 1.22.22
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1330397Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1457413Z ##[group]Run npm install
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1457797Z ^[[36;1mnpm install^[[0m
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1640433Z shell: /usr/bin/bash -e {0}
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:15:49.1640754Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:15.1487282Z npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:15.1852486Z npm warn deprecated whatwg-encoding@3.1.1: Use @exodus/bytes instead for a more spec-conformant and faster implementation
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:15.5713206Z npm warn deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:15.6680579Z npm warn deprecated readdir-scoped-modules@1.1.0: This functionality has been moved to @npmcli/fs
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:15.6685686Z npm warn deprecated read-package-json@2.1.2: This package is no longer supported. Please use @npmcli/package-json instead.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:15.6757260Z npm warn deprecated debuglog@1.0.1: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:16.0256592Z npm warn deprecated @sinonjs/text-encoding@0.7.3: Deprecated: no longer maintained and no longer used by Sinon packages. See
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:16.0257765Z npm warn deprecated   https://github.com/sinonjs/nise/issues/243 for replacement details.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:16.6062866Z npm warn deprecated read-installed@4.0.3: This package is no longer supported.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:17.2263792Z npm warn deprecated lodash.pick@4.4.0: This package is deprecated. Use destructuring assignment syntax instead.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:18.3439094Z npm warn deprecated glob@7.2.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:19.6162852Z npm warn deprecated uuid@8.3.2: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:20.0862867Z npm warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:20.6238397Z npm warn deprecated sinon@11.1.2: 16.1.1
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8235856Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8236625Z added 1185 packages, and audited 1188 packages in 37s
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8246796Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8247209Z 277 packages are looking for funding
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8247566Z   run `npm fund` for details
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8420335Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8421075Z 41 vulnerabilities (9 low, 8 moderate, 22 high, 2 critical)
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8421458Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8421698Z To address issues that do not require attention, run:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8422036Z   npm audit fix
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8422171Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8422422Z To address all issues possible (including breaking changes), run:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8422782Z   npm audit fix --force
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8422927Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8423118Z Some issues need review, and may require choosing
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8423442Z a different dependency.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8423592Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8423717Z Run `npm audit` for details.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8859644Z ##[group]Run npm run test:ecosystem:update
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8859983Z ^[[36;1mnpm run test:ecosystem:update^[[0m
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8894904Z shell: /usr/bin/bash -e {0}
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.8895181Z ##[endgroup]
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.9838391Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.9839665Z > eslint@10.12.0 test:ecosystem:update
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.9840456Z > node tools/test-ecosystem/update.mjs
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:25.9840781Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.0415861Z Plugins to update: @eslint/css, @eslint/json, @eslint/markdown, @eslint-community/eslint-plugin-eslint-comments, @typescript-eslint/typescript-eslint, eslint-plugin-unicorn, eslint-plugin-vue
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2530140Z file:///home/runner/work/eslint/eslint/tools/test-ecosystem/update.mjs:33
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2530842Z 		throw new Error(
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2531139Z 		      ^
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2531317Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2531803Z Error: Failed to fetch latest commit for @eslint/markdown: rate limit exceeded
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2532842Z     at getLatestRepositoryCommit (file:///home/runner/work/eslint/eslint/tools/test-ecosystem/update.mjs:33:9)
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2533893Z     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2534820Z     at async file:///home/runner/work/eslint/eslint/tools/test-ecosystem/update.mjs:72:13
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2535738Z     at async Promise.all (index 2)
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2536471Z     at async file:///home/runner/work/eslint/eslint/tools/test-ecosystem/update.mjs:67:2
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2537020Z 
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2537180Z Node.js v24.21.0
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.2963278Z ##[error]Process completed with exit code 1.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3099520Z Post job cleanup.
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3868644Z [command]/usr/bin/git version
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3901458Z git version 2.55.0
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3941159Z Temporarily overriding HOME='/home/runner/work/_temp/28118a04-357b-489a-a859-266e0b08a75e' before making global git config changes
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3942528Z Adding repository directory to the temporary git global config as a safe directory
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3945163Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/eslint/eslint
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3972614Z Removing SSH command configuration
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.3978713Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4008501Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4183746Z Removing HTTP extra header
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4188998Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4219712Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4389488Z Removing includeIf entries pointing to credentials config files
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4395371Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4418547Z includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4419492Z includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4420229Z includeif.gitdir:/github/workspace/.git.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4420857Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4426583Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4445191Z /home/runner/work/_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4453563Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-c94c9c24\-7f50\-4f2f\-afd1\-31b1eaccf9a3\.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4482574Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4499205Z /home/runner/work/_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4514746Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/eslint/eslint/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-c94c9c24\-7f50\-4f2f\-afd1\-31b1eaccf9a3\.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4542069Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4559611Z /github/runner_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4566187Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-c94c9c24\-7f50\-4f2f\-afd1\-31b1eaccf9a3\.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4592057Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4609507Z /github/runner_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4616923Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-c94c9c24\-7f50\-4f2f\-afd1\-31b1eaccf9a3\.config
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4643277Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4807851Z Removing credentials config '/home/runner/work/_temp/git-credentials-c94c9c24-7f50-4f2f-afd1-31b1eaccf9a3.config'
+test_ecosystem	UNKNOWN STEP	2026-10-12T00:16:26.4927420Z Cleaning up orphan processes

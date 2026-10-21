@@ -1,0 +1,400 @@
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1843030Z  * [new tag]           v1.21.5                    -> v1.21.5
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1844119Z  * [new tag]           v1.21.6                    -> v1.21.6
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1845218Z  * [new tag]           v1.22.0                    -> v1.22.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1846360Z  * [new tag]           v1.22.0.dev0               -> v1.22.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1847550Z  * [new tag]           v1.22.0rc1                 -> v1.22.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1848869Z  * [new tag]           v1.22.0rc2                 -> v1.22.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1850031Z  * [new tag]           v1.22.0rc3                 -> v1.22.0rc3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1851152Z  * [new tag]           v1.22.1                    -> v1.22.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1852247Z  * [new tag]           v1.22.2                    -> v1.22.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1853344Z  * [new tag]           v1.22.3                    -> v1.22.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1854435Z  * [new tag]           v1.22.4                    -> v1.22.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1855524Z  * [new tag]           v1.23.0                    -> v1.23.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1856660Z  * [new tag]           v1.23.0.dev0               -> v1.23.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1857820Z  * [new tag]           v1.23.0rc1                 -> v1.23.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1859138Z  * [new tag]           v1.23.0rc2                 -> v1.23.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1860286Z  * [new tag]           v1.23.0rc3                 -> v1.23.0rc3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1861412Z  * [new tag]           v1.23.1                    -> v1.23.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1862515Z  * [new tag]           v1.23.2                    -> v1.23.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1863721Z  * [new tag]           v1.23.3                    -> v1.23.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1864911Z  * [new tag]           v1.23.4                    -> v1.23.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1866001Z  * [new tag]           v1.23.5                    -> v1.23.5
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1867093Z  * [new tag]           v1.24.0                    -> v1.24.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1868216Z  * [new tag]           v1.24.0.dev0               -> v1.24.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1869566Z  * [new tag]           v1.24.0rc1                 -> v1.24.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1871215Z  * [new tag]           v1.24.0rc2                 -> v1.24.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1872344Z  * [new tag]           v1.24.1                    -> v1.24.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1873582Z  * [new tag]           v1.24.2                    -> v1.24.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1875032Z  * [new tag]           v1.24.3                    -> v1.24.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1876547Z  * [new tag]           v1.24.4                    -> v1.24.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1877875Z  * [new tag]           v1.25.0                    -> v1.25.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1879232Z  * [new tag]           v1.25.0.dev0               -> v1.25.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1880429Z  * [new tag]           v1.25.1                    -> v1.25.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1881543Z  * [new tag]           v1.25.2                    -> v1.25.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1882674Z  * [new tag]           v1.26.0                    -> v1.26.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1883841Z  * [new tag]           v1.26.0.dev0               -> v1.26.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1885047Z  * [new tag]           v1.26.0b1                  -> v1.26.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1886236Z  * [new tag]           v1.26.0rc1                 -> v1.26.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1887397Z  * [new tag]           v1.26.1                    -> v1.26.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1888852Z  * [new tag]           v1.26.2                    -> v1.26.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1889979Z  * [new tag]           v1.26.3                    -> v1.26.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1891106Z  * [new tag]           v1.26.4                    -> v1.26.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1892214Z  * [new tag]           v1.26.5                    -> v1.26.5
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1893325Z  * [new tag]           v1.3.0                     -> v1.3.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1894439Z  * [new tag]           v1.3.0b1                   -> v1.3.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1895583Z  * [new tag]           v1.3.0rc1                  -> v1.3.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1896744Z  * [new tag]           v1.3.0rc2                  -> v1.3.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1897886Z  * [new tag]           v1.4.0                     -> v1.4.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1899178Z  * [new tag]           v1.4.0rc1                  -> v1.4.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1900334Z  * [new tag]           v1.4.0rc2                  -> v1.4.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1901476Z  * [new tag]           v1.4.1                     -> v1.4.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1902596Z  * [new tag]           v1.4.1rc1                  -> v1.4.1rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1903738Z  * [new tag]           v1.4.1rc2                  -> v1.4.1rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1904884Z  * [new tag]           v1.4.1rc3                  -> v1.4.1rc3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1906018Z  * [new tag]           v1.5.0                     -> v1.5.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1907124Z  * [new tag]           v1.5.0b1                   -> v1.5.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1908257Z  * [new tag]           v1.5.0b2                   -> v1.5.0b2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1909615Z  * [new tag]           v1.5.0rc1                  -> v1.5.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1910740Z  * [new tag]           v1.5.1                     -> v1.5.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1911899Z  * [new tag]           v1.5.1rc1                  -> v1.5.1rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1913064Z  * [new tag]           v1.5.1rc2                  -> v1.5.1rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1914238Z  * [new tag]           v1.6.0                     -> v1.6.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1915362Z  * [new tag]           v1.6.0b1                   -> v1.6.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1916502Z  * [new tag]           v1.6.0b2                   -> v1.6.0b2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1917646Z  * [new tag]           v1.6.0rc1                  -> v1.6.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1918965Z  * [new tag]           v1.6.0rc2                  -> v1.6.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1920116Z  * [new tag]           v1.6.0rc3                  -> v1.6.0rc3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1921267Z  * [new tag]           v1.6.1                     -> v1.6.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1922387Z  * [new tag]           v1.6.1rc1                  -> v1.6.1rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1923535Z  * [new tag]           v1.6.1rc2                  -> v1.6.1rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1924852Z  * [new tag]           v1.6.1rc3                  -> v1.6.1rc3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1925971Z  * [new tag]           v1.6.2                     -> v1.6.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1927079Z  * [new tag]           v1.6.2rc1                  -> v1.6.2rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1928190Z  * [new tag]           v1.7.0                     -> v1.7.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1929543Z  * [new tag]           v1.7.0b1                   -> v1.7.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1930666Z  * [new tag]           v1.7.0b2                   -> v1.7.0b2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1931803Z  * [new tag]           v1.7.0rc1                  -> v1.7.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1932944Z  * [new tag]           v1.7.0rc2                  -> v1.7.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1934057Z  * [new tag]           v1.7.1                     -> v1.7.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1935153Z  * [new tag]           v1.7.1rc1                  -> v1.7.1rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1936264Z  * [new tag]           v1.7.2                     -> v1.7.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1937381Z  * [new tag]           v1.7.2rc1                  -> v1.7.2rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1938572Z  * [new tag]           v1.8.0                     -> v1.8.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1939694Z  * [new tag]           v1.8.0b1                   -> v1.8.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1940981Z  * [new tag]           v1.8.0b2                   -> v1.8.0b2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1942129Z  * [new tag]           v1.8.0rc1                  -> v1.8.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1943281Z  * [new tag]           v1.8.0rc2                  -> v1.8.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1944390Z  * [new tag]           v1.8.1                     -> v1.8.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1945509Z  * [new tag]           v1.8.1rc1                  -> v1.8.1rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1946612Z  * [new tag]           v1.8.2                     -> v1.8.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1947703Z  * [new tag]           v1.8.2rc1                  -> v1.8.2rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1949077Z  * [new tag]           v1.9.0                     -> v1.9.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1950175Z  * [new tag]           v1.9.0b1                   -> v1.9.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1951303Z  * [new tag]           v1.9.0b2                   -> v1.9.0b2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1952419Z  * [new tag]           v1.9.0rc1                  -> v1.9.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1953535Z  * [new tag]           v1.9.1                     -> v1.9.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1954640Z  * [new tag]           v1.9.1rc1                  -> v1.9.1rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1955758Z  * [new tag]           v1.9.2                     -> v1.9.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1956864Z  * [new tag]           v1.9.2rc1                  -> v1.9.2rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1957972Z  * [new tag]           v1.9.3                     -> v1.9.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1959142Z  * [new tag]           v2.0.0                     -> v2.0.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1960257Z  * [new tag]           v2.0.0.dev0                -> v2.0.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1961397Z  * [new tag]           v2.0.0b1                   -> v2.0.0b1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1962550Z  * [new tag]           v2.0.0rc1                  -> v2.0.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1963690Z  * [new tag]           v2.0.0rc2                  -> v2.0.0rc2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1964778Z  * [new tag]           v2.0.1                     -> v2.0.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1965921Z  * [new tag]           v2.0.2                     -> v2.0.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1967009Z  * [new tag]           v2.1.0                     -> v2.1.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1968111Z  * [new tag]           v2.1.0.dev0                -> v2.1.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1969404Z  * [new tag]           v2.1.0rc1                  -> v2.1.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1970492Z  * [new tag]           v2.1.1                     -> v2.1.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1971551Z  * [new tag]           v2.1.2                     -> v2.1.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1972612Z  * [new tag]           v2.1.3                     -> v2.1.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1973677Z  * [new tag]           v2.2.0                     -> v2.2.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1974965Z  * [new tag]           v2.2.0.dev0                -> v2.2.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1976272Z  * [new tag]           v2.2.0rc1                  -> v2.2.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1977367Z  * [new tag]           v2.2.1                     -> v2.2.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1978516Z  * [new tag]           v2.2.2                     -> v2.2.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1979582Z  * [new tag]           v2.2.3                     -> v2.2.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1980687Z  * [new tag]           v2.2.4                     -> v2.2.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1981750Z  * [new tag]           v2.2.5                     -> v2.2.5
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1982810Z  * [new tag]           v2.2.6                     -> v2.2.6
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1983867Z  * [new tag]           v2.3.0                     -> v2.3.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1984965Z  * [new tag]           v2.3.0.dev0                -> v2.3.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1986087Z  * [new tag]           v2.3.0rc1                  -> v2.3.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1987173Z  * [new tag]           v2.3.1                     -> v2.3.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1988248Z  * [new tag]           v2.3.2                     -> v2.3.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1989574Z  * [new tag]           v2.3.3                     -> v2.3.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1990628Z  * [new tag]           v2.3.4                     -> v2.3.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1991828Z  * [new tag]           v2.3.5                     -> v2.3.5
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1992870Z  * [new tag]           v2.4.0                     -> v2.4.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1993968Z  * [new tag]           v2.4.0.dev0                -> v2.4.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1995106Z  * [new tag]           v2.4.0rc1                  -> v2.4.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1996188Z  * [new tag]           v2.4.1                     -> v2.4.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1997241Z  * [new tag]           v2.4.2                     -> v2.4.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1998386Z  * [new tag]           v2.4.3                     -> v2.4.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.1999457Z  * [new tag]           v2.4.4                     -> v2.4.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2000529Z  * [new tag]           v2.4.5                     -> v2.4.5
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2001610Z  * [new tag]           v2.4.6                     -> v2.4.6
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2002672Z  * [new tag]           v2.5.0                     -> v2.5.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2003772Z  * [new tag]           v2.5.0.dev0                -> v2.5.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2004905Z  * [new tag]           v2.5.0rc1                  -> v2.5.0rc1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2005987Z  * [new tag]           v2.5.1                     -> v2.5.1
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2007043Z  * [new tag]           v2.5.2                     -> v2.5.2
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2008102Z  * [new tag]           v2.5.3                     -> v2.5.3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2009330Z  * [new tag]           v2.5.4                     -> v2.5.4
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2010419Z  * [new tag]           v2.6.0.dev0                -> v2.6.0.dev0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2011563Z  * [new tag]           with_maskna                -> with_maskna
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2012881Z  * [new ref]           b09917291a6a85cea0485aa31b52fd7c58748a06 -> pull/32976/merge
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2015960Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2017072Z ##[group]Determining the checkout info
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2018440Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2019179Z [command]/usr/bin/git sparse-checkout disable
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2021415Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2947052Z ##[group]Checking out the ref
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.2949584Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/32976/merge
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6511692Z Note: switching to 'refs/remotes/pull/32976/merge'.
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6512847Z 
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6513176Z You are in 'detached HEAD' state. You can look around, make experimental
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6513851Z changes and commit them, and you can discard any commits you make in this
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6514537Z state without impacting any branches by switching back to a branch.
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6514927Z 
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6515214Z If you want to create a new branch to retain commits you create, you may
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6516199Z do so (now or later) by using -c with the switch command. Example:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6516577Z 
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6516757Z   git switch -c <new-branch-name>
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6517014Z 
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6517206Z Or undo this operation with:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6517434Z 
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6517598Z   git switch -
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6517804Z 
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6518201Z Turn off this advice by setting config variable advice.detachedHead to false
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6518822Z 
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6519315Z HEAD is now at b0991729 Merge d83c3b101d549e5212d45242b03d1ab4e4557c5c into 4352421dd0768336972499d08e998a52d5c047b3
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6532077Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6532499Z ##[group]Setting up auth for fetching submodules
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6537296Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-51ff496c-2a62-4247-aa93-12e32a4e614e.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6572823Z [command]/usr/bin/git config --global include.path /home/runner/work/_temp/git-credentials-51ff496c-2a62-4247-aa93-12e32a4e614e.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6599072Z [command]/usr/bin/git config --global --unset-all url.https://github.com/.insteadOf
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6622067Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf git@github.com:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6647899Z [command]/usr/bin/git config --global --add url.https://github.com/.insteadOf org-288276@github.com:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6672100Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6672638Z ##[group]Fetching submodules
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6675942Z [command]/usr/bin/git submodule sync --recursive
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.6873765Z [command]/usr/bin/git -c protocol.version=2 submodule update --init --force --depth=1 --recursive
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7063680Z Submodule 'doc/source/_static/scipy-mathjax' (https://github.com/scipy/scipy-mathjax.git) registered for path 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7069094Z Submodule 'numpy/_core/src/common/pythoncapi-compat' (https://github.com/python/pythoncapi-compat) registered for path 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7075902Z Submodule 'numpy/_core/src/highway' (https://github.com/google/highway.git) registered for path 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7083428Z Submodule 'numpy/_core/src/npysort/x86-simd-sort' (https://github.com/intel/x86-simd-sort) registered for path 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7090022Z Submodule 'numpy/_core/src/umath/svml' (https://github.com/numpy/SVML.git) registered for path 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7096295Z Submodule 'numpy/fft/pocketfft' (https://github.com/mreineck/pocketfft) registered for path 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7103457Z Submodule 'vendored-meson/meson' (https://github.com/numpy/meson.git) registered for path 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.7128713Z Cloning into '/home/runner/work/numpy/numpy/doc/source/_static/scipy-mathjax'...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:56.9368710Z Cloning into '/home/runner/work/numpy/numpy/numpy/_core/src/common/pythoncapi-compat'...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:57.5004309Z Cloning into '/home/runner/work/numpy/numpy/numpy/_core/src/highway'...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:58.1363399Z Cloning into '/home/runner/work/numpy/numpy/numpy/_core/src/npysort/x86-simd-sort'...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:58.7135195Z Cloning into '/home/runner/work/numpy/numpy/numpy/_core/src/umath/svml'...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:59.3405621Z Cloning into '/home/runner/work/numpy/numpy/numpy/fft/pocketfft'...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:54:59.6260225Z Cloning into '/home/runner/work/numpy/numpy/vendored-meson/meson'...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:00.5796266Z Submodule path 'doc/source/_static/scipy-mathjax': checked out '36f4c898f2255e0c98eb6949cd67381552d5ffea'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:01.0250304Z From https://github.com/python/pythoncapi-compat
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:01.0250909Z  * branch            8636bccf29adfa23463f810b3c2830f7cff1e933 -> FETCH_HEAD
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:01.0315124Z Submodule path 'numpy/_core/src/common/pythoncapi-compat': checked out '8636bccf29adfa23463f810b3c2830f7cff1e933'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:01.7264038Z From https://github.com/google/highway
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:01.7264735Z  * branch            ee36c837129310be19c17c9108c6dc3f6ae06942 -> FETCH_HEAD
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:01.7701831Z Submodule path 'numpy/_core/src/highway': checked out 'ee36c837129310be19c17c9108c6dc3f6ae06942'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:02.1877665Z From https://github.com/intel/x86-simd-sort
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:02.1878900Z  * branch            fa944efbea1a33426b3f8a9a21e23794ab8aa300 -> FETCH_HEAD
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:02.1991202Z Submodule path 'numpy/_core/src/npysort/x86-simd-sort': checked out 'fa944efbea1a33426b3f8a9a21e23794ab8aa300'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:02.6664574Z From https://github.com/numpy/SVML
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:02.6665247Z  * branch            bd9d46e0c627ab16f3d2641f7cdb1bc15d303ba4 -> FETCH_HEAD
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:02.6864676Z Submodule path 'numpy/_core/src/umath/svml': checked out 'bd9d46e0c627ab16f3d2641f7cdb1bc15d303ba4'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.1130010Z From https://github.com/mreineck/pocketfft
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.1130445Z  * branch            33ae5dc94c9cdc7f1c78346504a85de87cadaa12 -> FETCH_HEAD
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.1179254Z Submodule path 'numpy/fft/pocketfft': checked out '33ae5dc94c9cdc7f1c78346504a85de87cadaa12'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.5411393Z From https://github.com/numpy/meson
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.5411994Z  * branch            11ed55a4f364a81d7eeef740b27d73cfb4d36a05 -> FETCH_HEAD
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8440492Z Submodule path 'vendored-meson/meson': checked out '11ed55a4f364a81d7eeef740b27d73cfb4d36a05'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8486513Z [command]/usr/bin/git submodule foreach --recursive git config --local gc.auto 0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8704822Z Entering 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8760654Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8817274Z Entering 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8865852Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8919789Z Entering 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.8969150Z Entering 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9005645Z Entering 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9056799Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9102108Z [command]/usr/bin/git log -1 --format=%H
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9152008Z b09917291a6a85cea0485aa31b52fd7c58748a06
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9163157Z ##[group]Removing auth
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9163501Z Removing SSH command configuration
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9174166Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9229355Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9524945Z Entering 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9564144Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9601951Z Entering 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9639389Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9676264Z Entering 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9712899Z Entering 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9748710Z Entering 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9801717Z Removing HTTP extra header
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9805837Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:03.9835889Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0015812Z Entering 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0052542Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0089444Z Entering 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0126776Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0164950Z Entering 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0203039Z Entering 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0240059Z Entering 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0295083Z Removing includeIf entries pointing to credentials config files
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0299749Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0324489Z includeif.gitdir:/home/runner/work/numpy/numpy/.git.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0325103Z includeif.gitdir:/home/runner/work/numpy/numpy/.git/worktrees/*.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0325461Z includeif.gitdir:/github/workspace/.git.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0325767Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0332000Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/numpy/numpy/.git.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0351378Z /home/runner/work/_temp/git-credentials-51ff496c-2a62-4247-aa93-12e32a4e614e.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0358239Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/numpy/numpy/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-51ff496c\-2a62\-4247\-aa93\-12e32a4e614e\.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0385200Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/numpy/numpy/.git/worktrees/*.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0402915Z /home/runner/work/_temp/git-credentials-51ff496c-2a62-4247-aa93-12e32a4e614e.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0411209Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/numpy/numpy/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-51ff496c\-2a62\-4247\-aa93\-12e32a4e614e\.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0442856Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0461243Z /github/runner_temp/git-credentials-51ff496c-2a62-4247-aa93-12e32a4e614e.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0467118Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-51ff496c\-2a62\-4247\-aa93\-12e32a4e614e\.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0495999Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0515475Z /github/runner_temp/git-credentials-51ff496c-2a62-4247-aa93-12e32a4e614e.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0522391Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-51ff496c\-2a62\-4247\-aa93\-12e32a4e614e\.config
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0759225Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0940393Z Entering 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0959981Z file:/home/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0976793Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.0993703Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1009748Z Entering 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1026238Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1042963Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1060629Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1076671Z Entering 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1093830Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1109836Z Entering 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1125886Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1141708Z Entering 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1158840Z file:/home/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1195462Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1218714Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1241802Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1263940Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1286481Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1309446Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1330555Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1349339Z Removing credentials config '/home/runner/work/_temp/git-credentials-51ff496c-2a62-4247-aa93-12e32a4e614e.config'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1357442Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1569189Z ##[group]Run astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1569507Z with:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1569678Z   python-version: 3.12
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1569868Z   activate-environment: true
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1570178Z   cache-dependency-glob: **/pyproject.toml
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	requirements/typing_requirements.txt
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1570499Z   no-project: false
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1570702Z   working-directory: /home/runner/work/numpy/numpy
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1572723Z   github-token: ***
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1572899Z   enable-cache: auto
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1573072Z   restore-cache: true
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1573244Z   save-cache: auto
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1573414Z   prune-cache: false
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1573586Z   cache-python: false
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1573791Z   ignore-nothing-to-cache: false
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1574004Z   ignore-empty-workdir: false
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1574217Z   download-from-astral-mirror: true
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1574468Z   add-problem-matchers: true
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1574664Z   quiet: false
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1574842Z   resolution-strategy: highest
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.1575040Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.2952916Z Trying to find version for uv in: /home/runner/work/numpy/numpy/uv.toml
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.2953975Z Could not find file: /home/runner/work/numpy/numpy/uv.toml
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.2954724Z Trying to find version for uv in: /home/runner/work/numpy/numpy/pyproject.toml
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.2962344Z Could not determine uv version from uv.toml or pyproject.toml. Falling back to latest.
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.2966114Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.3374281Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.13.0/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.4964151Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/e4dfb1ff-3ed0-4273-ab8f-b6cc7f6b3a31 -f /home/runner/work/_temp/d93b8269-801a-4fc0-b656-75caedd27301
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.8715953Z Added /home/runner/.local/bin to the path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.8718812Z Added /opt/hostedtoolcache/uv/0.13.0/x86_64 to the path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.8720373Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.8720936Z Added /home/runner/work/_temp/uv-python-dir to the path
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.8721452Z Set UV_PYTHON to 3.12
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.8722529Z Creating and activating python venv at /home/runner/work/numpy/numpy/.venv...
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.8732820Z [command]/opt/hostedtoolcache/uv/0.13.0/x86_64/uv venv /home/runner/work/numpy/numpy/.venv --directory /home/runner/work/numpy/numpy --clear
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.9146220Z Using CPython 3.12.3 interpreter at: /usr/bin/python3.12
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.9166377Z Creating virtual environment at: .venv
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.9167595Z Activate with: .venv/bin/activate
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.9186095Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.9186436Z Successfully installed uv version 0.13.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:04.9571129Z Searching files using cache dependency glob: /home/runner/work/numpy/numpy/**/pyproject.toml,/home/runner/work/numpy/numpy/requirements/typing_requirements.txt
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:05.1957976Z /home/runner/work/numpy/numpy/pyproject.toml
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:05.2440793Z /home/runner/work/numpy/numpy/vendored-meson/meson/pyproject.toml
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:05.6975240Z Found 2 files to hash.
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:05.7036270Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-1d4f95ec2242620df63ae0ca91398d7e0f3dbee13250564111678073e92467f7
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:05.8586715Z No GitHub Actions cache found for key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12-1d4f95ec2242620df63ae0ca91398d7e0f3dbee13250564111678073e92467f7
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:05.9730321Z ##[group]Run uv pip install --group dev-cli -r requirements/typing_requirements.txt
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:05.9730944Z ^[[36;1muv pip install --group dev-cli -r requirements/typing_requirements.txt^[[0m
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0368180Z shell: /usr/bin/bash -e {0}
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0368695Z env:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0368943Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0369230Z   UV_PYTHON: 3.12
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0369430Z   VIRTUAL_ENV: /home/runner/work/numpy/numpy/.venv
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0369709Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0369959Z ##[endgroup]
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0512099Z error: File not found: requirements/typing_requirements.txt
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0527428Z ##[error]Process completed with exit code 2.
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.0651500Z Post job cleanup.
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1287559Z [command]/usr/bin/git version
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1323398Z git version 2.55.0
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1349783Z Temporarily overriding HOME='/home/runner/work/_temp/4a1e6082-29dc-4ca4-96d7-f31a50bafe6f' before making global git config changes
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1350829Z Adding repository directory to the temporary git global config as a safe directory
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1354192Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/numpy/numpy
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1379224Z Removing SSH command configuration
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1383844Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1409864Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1585022Z Entering 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1621266Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1657211Z Entering 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1693936Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1731651Z Entering 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1772000Z Entering 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1807829Z Entering 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1861255Z Removing HTTP extra header
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1866380Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.1892511Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2068760Z Entering 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2104534Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2140333Z Entering 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2176150Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2211472Z Entering 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2246650Z Entering 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2281822Z Entering 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2332569Z Removing includeIf entries pointing to credentials config files
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2337466Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2362185Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2534398Z Entering 'doc/source/_static/scipy-mathjax'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2550148Z file:/home/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2565951Z Entering 'numpy/_core/src/common/pythoncapi-compat'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2581588Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2596755Z Entering 'numpy/_core/src/highway'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2612990Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2628993Z Entering 'numpy/_core/src/npysort/x86-simd-sort'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2645114Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2660393Z Entering 'numpy/_core/src/umath/svml'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2675855Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2691070Z Entering 'numpy/fft/pocketfft'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2706515Z file:/home/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2722256Z Entering 'vendored-meson/meson'
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2738603Z file:/home/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config	remote.origin.url
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2774495Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/doc/source/_static/scipy-mathjax/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2805889Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/common/pythoncapi-compat/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2828723Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/highway/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2850846Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/npysort/x86-simd-sort/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2872513Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/_core/src/umath/svml/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2894102Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/numpy/fft/pocketfft/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.2915787Z [command]/usr/bin/git config --file /home/runner/work/numpy/numpy/.git/modules/vendored-meson/meson/config --name-only --get-regexp ^includeIf\.gitdir:
+stubtest (ubuntu, 3.12)	UNKNOWN STEP	2026-10-12T02:55:06.3052510Z Cleaning up orphan processes

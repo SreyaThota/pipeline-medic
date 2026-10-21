@@ -1,0 +1,400 @@
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0097810Z   VIRTUALENV: testvenv
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0098330Z   TEST_DIR: /home/runner/work/scikit-learn/scikit-learn/tmp_folder
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0099096Z   CCACHE_DIR: /home/runner/work/scikit-learn/scikit-learn/ccache
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0099674Z   COVERAGE: true
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0100059Z   JUNITXML: test-data.xml
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0100471Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0949719Z Syncing repository: scikit-learn/scikit-learn
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0951318Z ##[group]Getting Git version info
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0951969Z Working directory is '/home/runner/work/scikit-learn/scikit-learn'
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0952872Z [command]/usr/bin/git version
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.0988830Z git version 2.55.0
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.1004936Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.1013716Z Temporarily overriding HOME='/home/runner/work/_temp/f34c3279-2cc0-4942-bce6-4da6ce51b401' before making global git config changes
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.1015722Z Adding repository directory to the temporary git global config as a safe directory
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.1018761Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/scikit-learn/scikit-learn
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2893677Z Deleting the contents of '/home/runner/work/scikit-learn/scikit-learn'
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2896917Z ##[group]Determining repository object format
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2898218Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2898922Z ##[group]Initializing the repository
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2902427Z [command]/usr/bin/git init /home/runner/work/scikit-learn/scikit-learn
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2980509Z hint: Using 'master' as the name for the initial branch. This default branch name
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2982278Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2983997Z hint: to use in all of your new repositories, which will suppress this warning,
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2985569Z hint: call:
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2986507Z hint:
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2987433Z hint: 	git config --global init.defaultBranch <name>
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2988480Z hint:
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2989442Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2991135Z hint: 'development'. The just-created branch can be renamed via this command:
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2992590Z hint:
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2993450Z hint: 	git branch -m <name>
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2994306Z hint:
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2995488Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.2997319Z Initialized empty Git repository in /home/runner/work/scikit-learn/scikit-learn/.git/
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3000591Z [command]/usr/bin/git remote add origin https://github.com/scikit-learn/scikit-learn
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3085536Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3086669Z ##[group]Disabling automatic garbage collection
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3089576Z [command]/usr/bin/git config --local gc.auto 0
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3156453Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3157957Z ##[group]Setting up auth
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3158744Z Removing SSH command configuration
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3162448Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.3194885Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.4750665Z Removing HTTP extra header
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.4754953Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.4783999Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.4975020Z Removing includeIf entries pointing to credentials config files
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.4980038Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5012947Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5224226Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5258962Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path /home/runner/work/_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5376994Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5477913Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5509346Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5534032Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5535478Z ##[group]Fetching the repository
+Lint	UNKNOWN STEP	2026-10-11T06:08:28.5541629Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +01888fb8d5635daf4adb8a9999698e80670af7af:refs/remotes/pull/35125/merge
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9678953Z From https://github.com/scikit-learn/scikit-learn
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9680661Z  * [new ref]         01888fb8d5635daf4adb8a9999698e80670af7af -> pull/35125/merge
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9683319Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9683910Z ##[group]Determining the checkout info
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9684782Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9689242Z [command]/usr/bin/git sparse-checkout disable
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9734215Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9761609Z ##[group]Checking out the ref
+Lint	UNKNOWN STEP	2026-10-11T06:08:29.9764831Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/35125/merge
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1014834Z Note: switching to 'refs/remotes/pull/35125/merge'.
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1015271Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1015574Z You are in 'detached HEAD' state. You can look around, make experimental
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1016268Z changes and commit them, and you can discard any commits you make in this
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1016743Z state without impacting any branches by switching back to a branch.
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1017045Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1017263Z If you want to create a new branch to retain commits you create, you may
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1017712Z do so (now or later) by using -c with the switch command. Example:
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1017945Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1018075Z   git switch -c <new-branch-name>
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1018288Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1018479Z Or undo this operation with:
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1018717Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1018878Z   git switch -
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1019081Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1019422Z Turn off this advice by setting config variable advice.detachedHead to false
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1020049Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1020431Z HEAD is now at 01888fb Merge 92d3790766add93afec93a27b15d09f76d09d283 into 102e5daf66759cf896beeee229d1bf7c80ab2ba4
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1068802Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1106411Z [command]/usr/bin/git log -1 --format=%H
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1130086Z 01888fb8d5635daf4adb8a9999698e80670af7af
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1438806Z ##[group]Run actions/setup-python@v6
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1439177Z with:
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1439486Z   python-version: 3.12
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1439793Z   cache: pip
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1440086Z   check-latest: false
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1442442Z   token: ***
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1442745Z   update-environment: true
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1443116Z   allow-prereleases: false
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1443429Z   freethreaded: false
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1443711Z env:
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1443981Z   VIRTUALENV: testvenv
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1444361Z   TEST_DIR: /home/runner/work/scikit-learn/scikit-learn/tmp_folder
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1444824Z   CCACHE_DIR: /home/runner/work/scikit-learn/scikit-learn/ccache
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1445359Z   COVERAGE: true
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1445650Z   JUNITXML: test-data.xml
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.1445957Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.2527939Z ##[group]Installed versions
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.2667568Z Successfully set up CPython (3.12.15)
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.2668383Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:30.3956685Z [command]/opt/hostedtoolcache/Python/3.12.15/x64/bin/pip cache dir
+Lint	UNKNOWN STEP	2026-10-11T06:08:31.9416428Z /home/runner/.cache/pip
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.0317482Z Cache hit for: setup-python-Linux-x64-24.04-Ubuntu-python-3.12.15-pip-5b21d5551efd47967d3d76d4de249da955f4b9320692c8abad8a65f5decbf051
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.4544205Z Received 88702193 of 88702193 (100.0%), 222.6 MBs/sec
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.4545314Z Cache Size: ~85 MB (88702193 B)
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.4566393Z [command]/usr/bin/tar -xf /home/runner/work/_temp/282c0500-f34b-457c-bd26-967e4ade2bb7/cache.tzst -P -C /home/runner/work/scikit-learn/scikit-learn --use-compress-program unzstd
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5518143Z Cache restored successfully
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5557712Z Cache restored from key: setup-python-Linux-x64-24.04-Ubuntu-python-3.12.15-pip-5b21d5551efd47967d3d76d4de249da955f4b9320692c8abad8a65f5decbf051
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5789174Z ##[group]Run pip install -r build_tools/github/lint_lock.txt
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5789635Z ^[[36;1mpip install -r build_tools/github/lint_lock.txt^[[0m
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5990352Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5990615Z env:
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5990807Z   VIRTUALENV: testvenv
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5991078Z   TEST_DIR: /home/runner/work/scikit-learn/scikit-learn/tmp_folder
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5991439Z   CCACHE_DIR: /home/runner/work/scikit-learn/scikit-learn/ccache
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5991706Z   COVERAGE: true
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5991882Z   JUNITXML: test-data.xml
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5992123Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5992487Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5992829Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5993156Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5993522Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5993827Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Lint	UNKNOWN STEP	2026-10-11T06:08:32.5994090Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:33.8242777Z Collecting codespell==2.4.1 (from -r build_tools/github/lint_lock.txt (line 7))
+Lint	UNKNOWN STEP	2026-10-11T06:08:33.8254806Z   Using cached codespell-2.4.1-py3-none-any.whl.metadata (15 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:33.9952348Z Collecting cython==3.3.0 (from -r build_tools/github/lint_lock.txt (line 9))
+Lint	UNKNOWN STEP	2026-10-11T06:08:33.9964738Z   Using cached cython-3.3.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (28 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0096916Z Collecting cython-lint==0.21.1 (from -r build_tools/github/lint_lock.txt (line 11))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0108702Z   Using cached cython_lint-0.21.1-py3-none-any.whl.metadata (5.4 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0189094Z Collecting iniconfig==2.3.0 (from -r build_tools/github/lint_lock.txt (line 13))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0199181Z   Using cached iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0301556Z Collecting packaging==26.3 (from -r build_tools/github/lint_lock.txt (line 15))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0313024Z   Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0394708Z Collecting pluggy==1.6.0 (from -r build_tools/github/lint_lock.txt (line 17))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0404660Z   Using cached pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0482968Z Collecting polib==1.2.0 (from -r build_tools/github/lint_lock.txt (line 19))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0492703Z   Using cached polib-1.2.0-py2.py3-none-any.whl.metadata (15 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.0643438Z Collecting pycodestyle==2.15.0 (from -r build_tools/github/lint_lock.txt (line 21))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.1028729Z   Downloading pycodestyle-2.15.0-py2.py3-none-any.whl.metadata (4.5 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.1164687Z Collecting pygments==2.21.0 (from -r build_tools/github/lint_lock.txt (line 23))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.1174672Z   Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.1690493Z Collecting pyrefly==1.2.0 (from -r build_tools/github/lint_lock.txt (line 25))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.1702228Z   Using cached pyrefly-1.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.1914626Z Collecting pytest==9.1.0 (from -r build_tools/github/lint_lock.txt (line 27))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.1926481Z   Using cached pytest-9.1.0-py3-none-any.whl.metadata (7.6 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.4567305Z Collecting regex==2026.9.29 (from -r build_tools/github/lint_lock.txt (line 29))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.4605881Z   Downloading regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7360843Z Collecting ruff==0.12.2 (from -r build_tools/github/lint_lock.txt (line 31))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7373700Z   Using cached ruff-0.12.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7506715Z Collecting sphinx-lint==1.0.2 (from -r build_tools/github/lint_lock.txt (line 33))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7518856Z   Using cached sphinx_lint-1.0.2-py3-none-any.whl.metadata (5.6 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7599862Z Collecting tokenize-rt==6.2.0 (from -r build_tools/github/lint_lock.txt (line 35))
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7612864Z   Using cached tokenize_rt-6.2.0-py2.py3-none-any.whl.metadata (4.0 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7705422Z Using cached codespell-2.4.1-py3-none-any.whl (344 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7719216Z Using cached cython-3.3.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.4 MB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7742779Z Using cached cython_lint-0.21.1-py3-none-any.whl (15 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7751761Z Using cached iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7760375Z Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7769195Z Using cached pluggy-1.6.0-py3-none-any.whl (20 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7778131Z Using cached polib-1.2.0-py2.py3-none-any.whl (20 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7813756Z Downloading pycodestyle-2.15.0-py2.py3-none-any.whl (31 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7840407Z Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7853309Z Using cached pyrefly-1.2.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (14.4 MB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7904282Z Using cached pytest-9.1.0-py3-none-any.whl (386 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.7942275Z Downloading regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.8241004Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.8/807.8 kB 22.3 MB/s  0:00:00
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.8251998Z Using cached ruff-0.12.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.8294619Z Using cached sphinx_lint-1.0.2-py3-none-any.whl (20 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:34.8303324Z Using cached tokenize_rt-6.2.0-py2.py3-none-any.whl (6.0 kB)
+Lint	UNKNOWN STEP	2026-10-11T06:08:35.0789850Z Installing collected packages: polib, tokenize-rt, ruff, regex, pyrefly, pygments, pycodestyle, pluggy, packaging, iniconfig, cython, codespell, sphinx-lint, pytest, cython-lint
+Lint	UNKNOWN STEP	2026-10-11T06:08:37.9470437Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:37.9486185Z Successfully installed codespell-2.4.1 cython-3.3.0 cython-lint-0.21.1 iniconfig-2.3.0 packaging-26.3 pluggy-1.6.0 polib-1.2.0 pycodestyle-2.15.0 pygments-2.21.0 pyrefly-1.2.0 pytest-9.1.0 regex-2026.9.29 ruff-0.12.2 sphinx-lint-1.0.2 tokenize-rt-6.2.0
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0580795Z ##[group]Run ./build_tools/linting.sh
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0581072Z ^[[36;1m./build_tools/linting.sh^[[0m
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0635015Z shell: /usr/bin/bash -e {0}
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0635365Z env:
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0635545Z   VIRTUALENV: testvenv
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0635821Z   TEST_DIR: /home/runner/work/scikit-learn/scikit-learn/tmp_folder
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0636179Z   CCACHE_DIR: /home/runner/work/scikit-learn/scikit-learn/ccache
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0636466Z   COVERAGE: true
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0636647Z   JUNITXML: test-data.xml
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0636890Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0637237Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0637569Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0637873Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0638169Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0638523Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0638787Z ##[endgroup]
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0726119Z ### Running the ruff linter ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.0726364Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.2652175Z program1.py:1:1: CPY001 Missing copyright notice at top of file
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.2652823Z program3.py:1:1: CPY001 Missing copyright notice at top of file
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.2653193Z Found 2 errors.
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.2664940Z Problems detected by ruff check, please fix them
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.2665464Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.2665796Z ### Running the ruff formatter ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.2666114Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5401454Z 1 file would be reformatted, 964 files already formatted
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5401892Z --- program3.py
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5402426Z +++ program3.py
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5402653Z @@ -1,4 +1,3 @@
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5402841Z -
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5403026Z  def clean_text(text):
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5403327Z      """Normalize text before passing it to an NLP model."""
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5403627Z      return " ".join(text.lower().strip().split())
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5403799Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5414209Z Problems detected by ruff format, please run ruff format and commit the result
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5414608Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5414728Z ### Running pyrefly ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5414890Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:38.5682010Z  INFO Checking project configured at `/home/runner/work/scikit-learn/scikit-learn/pyproject.toml`
+Lint	UNKNOWN STEP	2026-10-11T06:08:39.1419259Z  INFO 0 errors (2 suppressed, 33 warnings not shown)
+Lint	UNKNOWN STEP	2026-10-11T06:08:39.1453140Z No problem detected by pyrefly
+Lint	UNKNOWN STEP	2026-10-11T06:08:39.1453427Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:39.1453550Z ### Running cython-lint ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:39.1453701Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:45.0787452Z No problem detected by cython-lint
+Lint	UNKNOWN STEP	2026-10-11T06:08:45.0787781Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:45.0787904Z ### Running sphinx-lint ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:45.0788090Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:46.0238987Z No problems found.
+Lint	UNKNOWN STEP	2026-10-11T06:08:46.0392881Z No problem detected by sphinx-lint
+Lint	UNKNOWN STEP	2026-10-11T06:08:46.0393166Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:46.0393326Z ### Running codespell ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:46.0393563Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2489724Z No problem detected by codespell
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2490050Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2490204Z ### Checking for bad deprecation order ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2490448Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2581424Z No problems detected related to deprecation order
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2581789Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2582002Z ### Checking for default doctest directives ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2582273Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2743004Z No problems detected related to doctest directives
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2743372Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2743505Z ### Checking for joblib imports ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2743745Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2958041Z No problems detected related to joblib imports
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2958322Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2958421Z ### Linting completed ###
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2958550Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2958630Z Linting failed
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2958738Z 
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.2979433Z ##[error]Process completed with exit code 1.
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3102331Z Post job cleanup.
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3853969Z [command]/usr/bin/git version
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3887016Z git version 2.55.0
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3914352Z Temporarily overriding HOME='/home/runner/work/_temp/2804d6ff-ef62-47f1-b685-82f487593dfc' before making global git config changes
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3915494Z Adding repository directory to the temporary git global config as a safe directory
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3919015Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/scikit-learn/scikit-learn
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3949457Z Removing SSH command configuration
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3955081Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.3985585Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4182553Z Removing HTTP extra header
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4187985Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4218497Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4404642Z Removing includeIf entries pointing to credentials config files
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4410360Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4433241Z includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4433971Z includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4434574Z includeif.gitdir:/github/workspace/.git.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4435029Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4441350Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4459761Z /home/runner/work/_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4468541Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-7c1894b9\-75ec\-4891\-b793\-27eb98d0bd3f\.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4498531Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4516894Z /home/runner/work/_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4523864Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-7c1894b9\-75ec\-4891\-b793\-27eb98d0bd3f\.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4550048Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4567496Z /github/runner_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4573137Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-7c1894b9\-75ec\-4891\-b793\-27eb98d0bd3f\.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4600139Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4618873Z /github/runner_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4638588Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-7c1894b9\-75ec\-4891\-b793\-27eb98d0bd3f\.config
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4654845Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4848088Z Removing credentials config '/home/runner/work/_temp/git-credentials-7c1894b9-75ec-4891-b793-27eb98d0bd3f.config'
+Lint	UNKNOWN STEP	2026-10-11T06:08:48.4991719Z Cleaning up orphan processes
+Check all job statuses	UNKNOWN STEP	﻿2026-10-11T06:08:53.3462630Z Current runner version: '2.337.0'
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3485367Z ##[group]Runner Image Provisioner
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3486193Z Hosted Compute Agent
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3486709Z Version: 20261002.596
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3487331Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3487996Z Build Date: 2026-10-02T22:28:27Z
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3488636Z Worker ID: {5062d087-d7b5-4e40-8a0e-c53233b7b393}
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3489325Z Region: westus3
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3490021Z Cloud: Azure
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3490591Z ##[endgroup]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3492109Z ##[group]Operating System
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3492722Z Ubuntu
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3493210Z 24.04.5
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3493684Z LTS
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3494174Z ##[endgroup]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3494661Z ##[group]Runner Image
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3495203Z Image: ubuntu-24.04
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3495752Z Version: 20261004.327.1
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3496882Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3498285Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3499172Z ##[endgroup]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3500355Z ##[group]GITHUB_TOKEN Permissions
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3502478Z Contents: read
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3503107Z Metadata: read
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3503643Z ##[endgroup]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3505601Z Secret source: None
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3506425Z Cache mode: write
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3507253Z Prepare workflow directory
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.3994981Z Prepare all required actions
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.4044948Z Getting action download info
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:53.6786413Z Download action repository 're-actors/alls-green@release/v1' (SHA:b5b5b37504aa4183270bd3d855c52a67f212be35)
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1016361Z Complete job name: Check all job statuses
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1572929Z ##[group]Run re-actors/alls-green@release/v1
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1573750Z with:
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1575427Z   jobs: {
+Check all job statuses	UNKNOWN STEP	  "lint": {
+Check all job statuses	UNKNOWN STEP	    "result": "failure",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "unit-tests": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "debian-32bit": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "free-threaded": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "scipy-dev": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  }
+Check all job statuses	UNKNOWN STEP	}
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1577159Z   allowed-skips: free-threaded,scipy-dev
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1577818Z   allowed-failures: []
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1578434Z env:
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1578948Z   VIRTUALENV: testvenv
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1579918Z   TEST_DIR: /home/runner/work/scikit-learn/scikit-learn/tmp_folder
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1580759Z   CCACHE_DIR: /home/runner/work/scikit-learn/scikit-learn/ccache
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1581526Z   COVERAGE: true
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1582020Z   JUNITXML: test-data.xml
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1582527Z ##[endgroup]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1647787Z ##[start-action display=Decide whether the input jobs succeeded or failed;id=__re-actors_alls-green.outcome]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1702487Z ##[group]Run python -m normalize_needed_jobs_status \
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1703325Z ^[[36;1mpython -m normalize_needed_jobs_status \^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1704109Z ^[[36;1m  "$INPUT_ALLOWED_FAILURES" \^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1704759Z ^[[36;1m  "$INPUT_ALLOWED_SKIPS" \^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1705370Z ^[[36;1m  "$INPUT_JOBS"^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1887078Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1887833Z env:
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1888317Z   VIRTUALENV: testvenv
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1888986Z   TEST_DIR: /home/runner/work/scikit-learn/scikit-learn/tmp_folder
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1890047Z   CCACHE_DIR: /home/runner/work/scikit-learn/scikit-learn/ccache
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1890728Z   COVERAGE: true
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1891260Z   JUNITXML: test-data.xml
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1891836Z   INPUT_ALLOWED_FAILURES: []
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1892464Z   INPUT_ALLOWED_SKIPS: free-threaded,scipy-dev
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1894215Z   INPUT_JOBS: {
+Check all job statuses	UNKNOWN STEP	  "lint": {
+Check all job statuses	UNKNOWN STEP	    "result": "failure",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "unit-tests": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "debian-32bit": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "free-threaded": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  },
+Check all job statuses	UNKNOWN STEP	  "scipy-dev": {
+Check all job statuses	UNKNOWN STEP	    "result": "skipped",
+Check all job statuses	UNKNOWN STEP	    "outputs": {}
+Check all job statuses	UNKNOWN STEP	  }
+Check all job statuses	UNKNOWN STEP	}
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1896296Z   PYTHONPATH: /home/runner/work/_actions/re-actors/alls-green/release/v1/src
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.1897080Z ##[endgroup]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2375773Z # ❌ Some of the required to succeed jobs failed 😢😢😢
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2376389Z 
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2376865Z 🛈 Some of the allowed to be skipped jobs did not succeed.
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2377623Z 🔮 Job statuses:
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2378406Z ^[[31m❌ lint → 🔴 failure [required to succeed]^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2379175Z ^[[31m❌ unit-tests → ⬜ skipped [required to succeed]^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2380242Z ^[[31m❌ debian-32bit → ⬜ skipped [required to succeed]^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2381125Z ^[[32m✓ free-threaded → ⬜ skipped [required to succeed or be skipped]^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2382100Z ^[[32m✓ scipy-dev → ⬜ skipped [required to succeed or be skipped]^[[0m
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2436787Z ##[error]Process completed with exit code 1.
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2528793Z ##[end-action id=__re-actors_alls-green.outcome;outcome=failure;conclusion=failure;duration_ms=87]
+Check all job statuses	UNKNOWN STEP	2026-10-11T06:08:54.2662768Z Cleaning up orphan processes

@@ -1,0 +1,400 @@
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8017114Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8017347Z runtime.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8017356Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8017659Z build/oss-stable-semver/react-refresh/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8017952Z react-refresh-babel.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8018233Z react-refresh-babel.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8018528Z react-refresh-runtime.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8018819Z react-refresh-runtime.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8018828Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8019118Z build/oss-stable-semver/react-server:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8019344Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8019566Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8019922Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8020142Z flight.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8020370Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8020605Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8020614Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8020918Z build/oss-stable-semver/react-server/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8021214Z react-server-flight.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8021498Z react-server-flight.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8021757Z react-server.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8022017Z react-server.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8022026Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8022349Z build/oss-stable-semver/react-server-dom-esm:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8022581Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8022803Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8023019Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8023499Z client.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8023744Z client.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8023983Z client.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8024207Z esm
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8024426Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8024649Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8024867Z server.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8025100Z server.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8025333Z static.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8025561Z static.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8025570Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8025920Z build/oss-stable-semver/react-server-dom-esm/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8026282Z react-server-dom-esm-client.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8026640Z react-server-dom-esm-client.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8026983Z react-server-dom-esm-client.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8027324Z react-server-dom-esm-client.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8027660Z react-server-dom-esm-server.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8027993Z react-server-dom-esm-server.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8028002Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8028341Z build/oss-stable-semver/react-server-dom-esm/esm:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8028572Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8028927Z react-server-dom-esm-client.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8029272Z react-server-dom-esm-client.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8029602Z react-server-dom-esm-node-loader.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8029615Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8029956Z build/oss-stable-semver/react-server-dom-parcel:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8030181Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8030407Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8030634Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8030872Z client.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8031107Z client.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8031326Z client.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8031550Z client.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8031780Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8032015Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8032260Z server.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8032488Z server.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8032708Z server.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8032942Z server.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8033187Z static.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8033540Z static.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8033784Z static.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8034013Z static.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8034024Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8034394Z build/oss-stable-semver/react-server-dom-parcel/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8034775Z react-server-dom-parcel-client.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8035155Z react-server-dom-parcel-client.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8035517Z react-server-dom-parcel-client.edge.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8035875Z react-server-dom-parcel-client.edge.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8036233Z react-server-dom-parcel-client.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8036585Z react-server-dom-parcel-client.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8036959Z react-server-dom-parcel-server.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8037339Z react-server-dom-parcel-server.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8037694Z react-server-dom-parcel-server.edge.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8038047Z react-server-dom-parcel-server.edge.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8038405Z react-server-dom-parcel-server.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8038751Z react-server-dom-parcel-server.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8038760Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8039122Z build/oss-stable-semver/react-server-dom-turbopack:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8039478Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8039706Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8039932Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8040181Z client.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8040419Z client.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8040644Z client.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8040869Z client.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8041088Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8041318Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8041571Z server.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8041801Z server.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8042022Z server.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8042245Z server.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8042483Z static.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8042719Z static.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8042945Z static.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8043178Z static.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8043186Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8043800Z build/oss-stable-semver/react-server-dom-turbopack/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8044230Z react-server-dom-turbopack-client.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8044619Z react-server-dom-turbopack-client.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8045001Z react-server-dom-turbopack-client.edge.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8045390Z react-server-dom-turbopack-client.edge.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8045774Z react-server-dom-turbopack-client.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8046155Z react-server-dom-turbopack-client.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8046554Z react-server-dom-turbopack-server.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8046941Z react-server-dom-turbopack-server.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8047316Z react-server-dom-turbopack-server.edge.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8047700Z react-server-dom-turbopack-server.edge.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8048078Z react-server-dom-turbopack-server.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8048456Z react-server-dom-turbopack-server.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8048465Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8048819Z build/oss-stable-semver/react-server-dom-unbundled:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8049040Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8049277Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8049507Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8049744Z client.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8049970Z esm
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8050204Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8050449Z node-register.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8050684Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8050914Z server.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8051150Z server.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8051382Z static.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8051621Z static.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8051630Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8052011Z build/oss-stable-semver/react-server-dom-unbundled/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8052391Z react-server-dom-unbundled-client.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8052769Z react-server-dom-unbundled-client.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8053101Z react-server-dom-unbundled-node-register.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8053600Z react-server-dom-unbundled-server.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8053980Z react-server-dom-unbundled-server.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8053989Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8054357Z build/oss-stable-semver/react-server-dom-unbundled/esm:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8054597Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8054976Z react-server-dom-unbundled-node-loader.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8054986Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8055337Z build/oss-stable-semver/react-server-dom-webpack:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8055565Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8055790Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8056018Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8056270Z client.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8056508Z client.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8056742Z client.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8056983Z client.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8057213Z esm
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8057443Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8057679Z node-register.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8057913Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8058141Z plugin.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8058391Z server.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8058628Z server.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8058856Z server.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8059093Z server.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8059341Z static.browser.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8059576Z static.edge.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8059803Z static.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8060038Z static.node.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8060168Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8060538Z build/oss-stable-semver/react-server-dom-webpack/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8060936Z react-server-dom-webpack-client.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8061309Z react-server-dom-webpack-client.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8061670Z react-server-dom-webpack-client.edge.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8062038Z react-server-dom-webpack-client.edge.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8062403Z react-server-dom-webpack-client.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8062774Z react-server-dom-webpack-client.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8063088Z react-server-dom-webpack-node-register.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8063509Z react-server-dom-webpack-plugin.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8064026Z react-server-dom-webpack-server.browser.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8064407Z react-server-dom-webpack-server.browser.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8064773Z react-server-dom-webpack-server.edge.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8065133Z react-server-dom-webpack-server.edge.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8065496Z react-server-dom-webpack-server.node.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8065854Z react-server-dom-webpack-server.node.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8065862Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8066442Z build/oss-stable-semver/react-server-dom-webpack/esm:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8066815Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8075996Z react-server-dom-webpack-node-loader.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8076038Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8076678Z build/oss-stable-semver/react-suspense-test-utils:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8077037Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8077417Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8077796Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8078202Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8078601Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8078632Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8079315Z build/oss-stable-semver/react-suspense-test-utils/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8079806Z react-suspense-test-utils.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8079829Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8080432Z build/oss-stable-semver/react-test-renderer:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8080825Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8081186Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8081527Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8081872Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8082244Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8082599Z shallow.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8082616Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8083208Z build/oss-stable-semver/react-test-renderer/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8084023Z react-test-renderer.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8084556Z react-test-renderer.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8084572Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8085065Z build/oss-stable-semver/scheduler:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8085418Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8085783Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8086148Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8086557Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8086997Z index.native.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8087438Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8087839Z unstable_mock.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8088301Z unstable_post_task.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8088322Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8088655Z build/oss-stable-semver/scheduler/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8088971Z scheduler-unstable_mock.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8089286Z scheduler-unstable_mock.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8089608Z scheduler-unstable_post_task.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8089924Z scheduler-unstable_post_task.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8090189Z scheduler.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8090482Z scheduler.native.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8090770Z scheduler.native.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8091032Z scheduler.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8091041Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8091352Z build/oss-stable-semver/use-subscription:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8091580Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8091814Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8092043Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8092273Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8092512Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8092522Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8092860Z build/oss-stable-semver/use-subscription/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8093153Z use-subscription.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8093658Z use-subscription.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8093670Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8094240Z build/oss-stable-semver/use-sync-external-store:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8094475Z LICENSE
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8094707Z README.md
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8094936Z cjs
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8095174Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8095411Z package.json
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8095637Z shim
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8095874Z with-selector.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8095883Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8096269Z build/oss-stable-semver/use-sync-external-store/cjs:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8096546Z use-sync-external-store-shim
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8096872Z use-sync-external-store-shim.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8097244Z use-sync-external-store-shim.native.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8097653Z use-sync-external-store-shim.native.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8098100Z use-sync-external-store-shim.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8098486Z use-sync-external-store-with-selector.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8098862Z use-sync-external-store-with-selector.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8099172Z use-sync-external-store.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8099479Z use-sync-external-store.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8099493Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8100020Z build/oss-stable-semver/use-sync-external-store/cjs/use-sync-external-store-shim:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8100288Z with-selector.development.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8100554Z with-selector.production.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8100562Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8100935Z build/oss-stable-semver/use-sync-external-store/shim:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8101175Z index.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8101414Z index.native.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8101655Z with-selector.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8101664Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8101914Z build/react-native:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8102156Z implementations
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8102387Z shims
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8102400Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8102695Z build/react-native/implementations:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8102950Z ReactFabric-dev.fb.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8103200Z ReactFabric-dev.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8103594Z ReactFabric-prod.fb.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8103855Z ReactFabric-prod.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8104129Z ReactFabric-profiling.fb.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8104393Z ReactFabric-profiling.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8104401Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8104655Z build/react-native/shims:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8104898Z ReactFabric.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8105152Z ReactFeatureFlags.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8105399Z ReactNativeTypes.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8105692Z ReactNativeViewConfigRegistry.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8105994Z createReactNativeComponentClass.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8146189Z ##[group]Run node --version
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8146468Z ^[[36;1mnode --version^[[0m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8207983Z shell: /usr/bin/bash -e {0}
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8208203Z env:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8208480Z   TZ: /usr/share/zoneinfo/America/Los_Angeles
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8208734Z   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8208956Z ##[endgroup]
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8316613Z v20.19.0
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8362019Z ##[group]Run yarn test --build -r=stable --env=production --shard=3/10 --ci
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8362455Z ^[[36;1myarn test --build -r=stable --env=production --shard=3/10 --ci^[[0m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8419175Z shell: /usr/bin/bash -e {0}
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8419392Z env:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8419668Z   TZ: /usr/share/zoneinfo/America/Los_Angeles
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8419912Z   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 1
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.8420131Z ##[endgroup]
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.9682619Z yarn run v1.22.22
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:51.9976201Z $ node ./scripts/jest/jest-cli.js --build -r=stable --env=production --shard=3/10 --ci
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:57.8425379Z PASS packages/react-dom/src/__tests__/ReactDOMHydrationDiff-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:27:59.2465390Z PASS packages/react-reconciler/src/__tests__/ReactIncremental-test.js (5.5 s)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:04.5611178Z PASS packages/react-dom/src/__tests__/ReactDOMTextarea-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:05.8736485Z PASS packages/react-reconciler/src/__tests__/ReactContextPropagation-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:07.6965569Z PASS packages/react-server-dom-webpack/src/__tests__/ReactFlightDOMReply-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:08.8275284Z PASS packages/react-reconciler/src/__tests__/ReactExpiration-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:09.1755457Z PASS packages/react/src/__tests__/ReactCoffeeScriptClass-test.coffee
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:09.8990060Z PASS packages/internal-test-utils/__tests__/ReactInternalTestUtilsDOM-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:10.6527940Z PASS packages/react-dom/src/__tests__/ReactDOMActivity-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:12.9708251Z PASS packages/react-dom/src/__tests__/ReactDOMFizzStaticBrowser-test.js (15.1 s)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:13.7591897Z PASS packages/react-dom/src/__tests__/ReactDOMNativeEventHeuristic-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:14.4406295Z PASS packages/react-reconciler/src/__tests__/ReactFlushSync-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:14.6407722Z PASS packages/scheduler/src/__tests__/Scheduler-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:14.9395180Z PASS packages/react-dom/src/__tests__/ReactTreeTraversal-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:15.4355681Z PASS packages/react-reconciler/src/__tests__/ActivityStrictMode-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:15.9650099Z PASS packages/react-reconciler/src/__tests__/ReactPersistent-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:16.2679540Z PASS packages/react-reconciler/src/__tests__/ReactConfigurableErrorLogging-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:16.6528916Z PASS packages/react-server/src/__tests__/ReactServer-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:16.9076823Z PASS packages/react-dom/src/__tests__/ReactStartTransitionMultipleRenderers-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:17.1099018Z PASS packages/react-server/src/__tests__/ReactFlightResultAsyncDebugInfo-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:17.3760408Z PASS packages/react-reconciler/src/__tests__/ReactInterleavedUpdates-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:17.5920361Z PASS packages/react-client/src/__tests__/ReactFlightDebugChannel-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:17.7964014Z PASS packages/react/src/__tests__/ReactStartTransition-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:18.1084557Z PASS packages/react-dom/src/__tests__/ReactDOMServerIntegrationReconnecting-test.js (7.44 s)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:18.2539532Z PASS packages/react-dom/src/__tests__/ReactDOMBrowser-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:18.3855972Z PASS packages/react-dom/src/client/__tests__/dangerouslySetInnerHTML-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:18.4503198Z PASS packages/react-dom/src/__tests__/ReactErrorLoggingRecovery-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:18.4857694Z PASS packages/react-dom/src/__tests__/ReactLegacyRootWarnings-test.js
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5619823Z FAIL packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js (40.604 s)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5635328Z   ● ReactFlightResultDOM › should load a server reference on a consuming server and pass it back
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5636360Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5637543Z     Client Functions cannot be passed directly to Server Functions. Only Functions passed from the Server can be passed back again.
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5638746Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5640579Z     ^[[0m ^[[90m 159 |^[[39m     ^[[36mconst^[[39m ^[[33mErrorProxy^[[39m ^[[33m=^[[39m ^[[36mnew^[[39m ^[[33mProxy^[[39m(^[[33mOriginalError^[[39m^[[33m,^[[39m {
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5642536Z      ^[[90m 160 |^[[39m       apply(target^[[33m,^[[39m thisArg^[[33m,^[[39m argumentsList) {
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5644897Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 161 |^[[39m         ^[[36mconst^[[39m error ^[[33m=^[[39m ^[[33mReflectApply^[[39m(target^[[33m,^[[39m thisArg^[[33m,^[[39m argumentsList)^[[33m;^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5646905Z      ^[[90m     |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5648565Z      ^[[90m 162 |^[[39m         error^[[33m.^[[39mmessage ^[[33m=^[[39m decodeErrorMessage(error^[[33m.^[[39mmessage)^[[33m;^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5650411Z      ^[[90m 163 |^[[39m         ^[[36mreturn^[[39m proxyErrorInstance(error)^[[33m;^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5651658Z      ^[[90m 164 |^[[39m       }^[[33m,^[[39m^[[0m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5652302Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5652863Z       at Object.apply (scripts/jest/setupTests.js:161:21)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5655379Z       at Object.resolveToJSON (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:506:13)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5657118Z           at JSON.stringify (<anonymous>)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5659306Z       at serializeModel (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:530:17)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5662007Z       at processReply (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:545:12)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5664602Z       at build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:2093:5
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5667268Z       at Object.exports.encodeReply (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:2092:10)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5669893Z       at Object.<anonymous> (packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js:516:43)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.5671174Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6591870Z Summary of all failing tests
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6603064Z FAIL packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js (40.604 s)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6608556Z   ● ReactFlightResultDOM › should load a server reference on a consuming server and pass it back
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6609818Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6615386Z     Client Functions cannot be passed directly to Server Functions. Only Functions passed from the Server can be passed back again.
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6616234Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6625629Z     ^[[0m ^[[90m 159 |^[[39m     ^[[36mconst^[[39m ^[[33mErrorProxy^[[39m ^[[33m=^[[39m ^[[36mnew^[[39m ^[[33mProxy^[[39m(^[[33mOriginalError^[[39m^[[33m,^[[39m {
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6635060Z      ^[[90m 160 |^[[39m       apply(target^[[33m,^[[39m thisArg^[[33m,^[[39m argumentsList) {
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6637382Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 161 |^[[39m         ^[[36mconst^[[39m error ^[[33m=^[[39m ^[[33mReflectApply^[[39m(target^[[33m,^[[39m thisArg^[[33m,^[[39m argumentsList)^[[33m;^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6639265Z      ^[[90m     |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6640359Z      ^[[90m 162 |^[[39m         error^[[33m.^[[39mmessage ^[[33m=^[[39m decodeErrorMessage(error^[[33m.^[[39mmessage)^[[33m;^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6642103Z      ^[[90m 163 |^[[39m         ^[[36mreturn^[[39m proxyErrorInstance(error)^[[33m;^[[39m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6645121Z      ^[[90m 164 |^[[39m       }^[[33m,^[[39m^[[0m
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6645774Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6649061Z       at Object.apply (scripts/jest/setupTests.js:161:21)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6659371Z       at Object.resolveToJSON (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:506:13)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6661257Z           at JSON.stringify (<anonymous>)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6669457Z       at serializeModel (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:530:17)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6685482Z       at processReply (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:545:12)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6715166Z       at build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:2093:5
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6716699Z       at Object.exports.encodeReply (build/oss-stable/react-server-dom-webpack/cjs/react-server-dom-webpack-client.browser.production.js:2092:10)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6718102Z       at Object.<anonymous> (packages/react-server-dom-webpack/src/__tests__/ReactFlightResultDOM-test.js:516:43)
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6718745Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6718752Z 
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6719073Z Test Suites: 1 failed, 28 passed, 29 total
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6719831Z Tests:       1 failed, 15 skipped, 474 passed, 490 total
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6720511Z Snapshots:   4 passed, 4 total
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6721095Z Time:        42.404 s
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6721688Z Ran all test suites.
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6959317Z error Command failed with exit code 1.
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.6960616Z info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.7048856Z ##[error]Process completed with exit code 1.
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.7199228Z Post job cleanup.
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8072631Z [command]/usr/bin/git version
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8109961Z git version 2.55.0
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8146688Z Temporarily overriding HOME='/home/runner/work/_temp/a1995091-8455-4baf-bc00-c224737b2786' before making global git config changes
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8148226Z Adding repository directory to the temporary git global config as a safe directory
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8152235Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/react/react
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8187058Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8220047Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8454668Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8481603Z http.https://github.com/.extraheader
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8491562Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8525226Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8757639Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.8790789Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.9177949Z Cleaning up orphan processes
+yarn test-build (-r=stable --env=production, 3/10)	UNKNOWN STEP	2026-10-11T08:28:35.9485591Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache/restore@v4, actions/checkout@v4, actions/download-artifact@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

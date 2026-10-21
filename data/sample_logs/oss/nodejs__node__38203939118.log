@@ -1,0 +1,375 @@
+lint-js-and-md	UNKNOWN STEP	﻿2026-10-12T04:28:46.3819300Z Current runner version: '2.337.0'
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3872337Z ##[group]Runner Image Provisioner
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3874273Z Hosted Compute Agent
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3875497Z Version: 20261002.596
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3876790Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3878006Z Build Date: 2026-10-02T22:28:27Z
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3879332Z Worker ID: {4397bdd7-cc4c-46b5-af37-5e9fbeeb88e1}
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3881124Z Region: northcentralus
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3883175Z Cloud: Azure
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3883755Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3887882Z ##[group]VM Image
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3889381Z - OS: Linux (x64)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3891961Z - Source: Docker
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3893061Z - Name: ubuntu:24.04
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3894067Z - Version: 20261005.17.1
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3895344Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3898873Z ##[group]GITHUB_TOKEN Permissions
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3903969Z Contents: read
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3906692Z Metadata: read
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3907883Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3913901Z Secret source: None
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3916900Z Cache mode: write
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.3918568Z Prepare workflow directory
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.4627688Z Prepare all required actions
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.4721893Z Getting action download info
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:46.9820495Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:47.2647605Z Download action repository 'actions/setup-node@820762786026740c76f36085b0efc47a31fe5020' (SHA:820762786026740c76f36085b0efc47a31fe5020)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:47.4417154Z Download action repository 'actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9' (SHA:55cc8345863c7cc4c66a329aec7e433d2d1c52a9)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.0028452Z Complete job name: lint-js-and-md
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1812664Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1815987Z with:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1817206Z   persist-credentials: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1817803Z   repository: nodejs/node
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1824581Z   token: ***
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1826300Z   ssh-strict: true
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1826771Z   ssh-user: git
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1827208Z   clean: true
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1828530Z   sparse-checkout-cone-mode: true
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1829063Z   fetch-depth: 1
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1829930Z   fetch-tags: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1830383Z   show-progress: true
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1831977Z   lfs: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1832414Z   submodules: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1833124Z   set-safe-directory: true
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1834239Z   allow-unsafe-pr-checkout: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1835158Z env:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1836535Z   PYTHON_VERSION: 3.14
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1837014Z   NODE_VERSION: lts/*
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.1837936Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.6867478Z Syncing repository: nodejs/node
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.6872424Z ##[group]Getting Git version info
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.6874432Z Working directory is '/home/runner/work/node/node'
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.6883941Z [command]/usr/bin/git version
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7054564Z git version 2.55.0
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7056716Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7063784Z Temporarily overriding HOME='/home/runner/work/_temp/23d6a501-6c0e-4d0b-89e7-233fd10edddb' before making global git config changes
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7065768Z Adding repository directory to the temporary git global config as a safe directory
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7067309Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/node/node
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7237109Z Deleting the contents of '/home/runner/work/node/node'
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7241589Z ##[group]Determining repository object format
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7242507Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7244016Z ##[group]Initializing the repository
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7244850Z [command]/usr/bin/git init /home/runner/work/node/node
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:48.7370143Z hint: Using 'master' as the name for the initial branch. This default branch name
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:49.3374612Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3392264Z hint: to use in all of your new repositories, which will suppress this warning,
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3393526Z hint: call:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3393952Z hint:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3394484Z hint: 	git config --global init.defaultBranch <name>
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3395656Z hint:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3396472Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3398559Z hint: 'development'. The just-created branch can be renamed via this command:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3399309Z hint:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3399729Z hint: 	git branch -m <name>
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3400814Z hint:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3402293Z hint: Disable this message with "git config set advice.defaultBranchName false"
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3403246Z Initialized empty Git repository in /home/runner/work/node/node/.git/
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3406118Z [command]/usr/bin/git remote add origin https://github.com/nodejs/node
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3407910Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3409126Z ##[group]Disabling automatic garbage collection
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3410651Z [command]/usr/bin/git config --local gc.auto 0
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3413406Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3414396Z ##[group]Setting up auth
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3414934Z Removing SSH command configuration
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3415996Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3421298Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3424550Z Removing HTTP extra header
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3426519Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3430768Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3436187Z Removing includeIf entries pointing to credentials config files
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3437328Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3439534Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3450031Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3466040Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/node/node/.git.path /home/runner/work/_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3468798Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/node/node/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3472262Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3474820Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3477561Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3478304Z ##[group]Fetching the repository
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:28:50.3480734Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +1582541584d1179219e83361e10da68fbef79976:refs/remotes/pull/66672/merge
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0317858Z From https://github.com/nodejs/node
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0385931Z  * [new ref]           1582541584d1179219e83361e10da68fbef79976 -> pull/66672/merge
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0388514Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0389952Z ##[group]Determining the checkout info
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0390855Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0391683Z [command]/usr/bin/git sparse-checkout disable
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0503129Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0658453Z ##[group]Checking out the ref
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:00.0666522Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/66672/merge
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.2108634Z Updating files:  15% (8214/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.2469516Z Updating files:  16% (8352/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.3615086Z Updating files:  17% (8873/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.4643078Z Updating files:  18% (9395/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.5653143Z Updating files:  19% (9917/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.6443485Z Updating files:  20% (10439/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.7104391Z Updating files:  21% (10961/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.7706892Z Updating files:  22% (11483/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.8555722Z Updating files:  23% (12005/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:01.9367558Z Updating files:  24% (12527/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.0116290Z Updating files:  25% (13049/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.1964984Z Updating files:  26% (13571/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.2028397Z Updating files:  26% (14066/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.3120795Z Updating files:  27% (14093/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.3822575Z Updating files:  28% (14615/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.4358790Z Updating files:  29% (15137/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.6937422Z Updating files:  30% (15659/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.7672121Z Updating files:  31% (16181/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.8194959Z Updating files:  32% (16703/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:02.9200872Z Updating files:  33% (17225/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.0103068Z Updating files:  34% (17746/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.1063204Z Updating files:  35% (18268/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.1975508Z Updating files:  36% (18790/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.2096047Z Updating files:  36% (19269/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.3605252Z Updating files:  37% (19312/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.4372609Z Updating files:  38% (19834/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.5078822Z Updating files:  39% (20356/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.5342995Z Updating files:  40% (20878/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.5693372Z Updating files:  41% (21400/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.5956737Z Updating files:  42% (21922/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.6312222Z Updating files:  43% (22444/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.6649197Z Updating files:  44% (22966/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.7454482Z Updating files:  45% (23488/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.7879004Z Updating files:  46% (24010/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.8143245Z Updating files:  47% (24532/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.8553654Z Updating files:  48% (25054/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.8807921Z Updating files:  49% (25576/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.9217506Z Updating files:  50% (26097/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.9546036Z Updating files:  51% (26619/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.9751936Z Updating files:  52% (27141/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:03.9949843Z Updating files:  53% (27663/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.0268014Z Updating files:  54% (28185/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.0528082Z Updating files:  55% (28707/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.0743690Z Updating files:  56% (29229/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.0944558Z Updating files:  57% (29751/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.1292253Z Updating files:  58% (30273/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.1573969Z Updating files:  59% (30795/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.1974281Z Updating files:  60% (31317/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.2349532Z Updating files:  60% (31641/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.2896922Z Updating files:  61% (31839/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.4655176Z Updating files:  62% (32361/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.5073268Z Updating files:  63% (32883/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.5376495Z Updating files:  64% (33405/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.6074803Z Updating files:  65% (33927/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.6813235Z Updating files:  66% (34449/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.7020325Z Updating files:  67% (34970/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.8338967Z Updating files:  68% (35492/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.8782396Z Updating files:  69% (36014/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:04.9197601Z Updating files:  70% (36536/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.0177624Z Updating files:  71% (37058/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.1801926Z Updating files:  72% (37580/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.1964357Z Updating files:  73% (38102/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.2448936Z Updating files:  73% (38261/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.2956378Z Updating files:  74% (38624/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.3378493Z Updating files:  75% (39146/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.3693817Z Updating files:  76% (39668/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.3992860Z Updating files:  77% (40190/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.4743050Z Updating files:  78% (40712/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.5429605Z Updating files:  79% (41234/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.5775025Z Updating files:  80% (41756/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.6110078Z Updating files:  81% (42278/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.6853545Z Updating files:  82% (42800/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.7283560Z Updating files:  83% (43322/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.7656384Z Updating files:  84% (43843/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.7967009Z Updating files:  85% (44365/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.8223733Z Updating files:  86% (44887/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.8567340Z Updating files:  87% (45409/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.8989314Z Updating files:  88% (45931/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:05.9802224Z Updating files:  89% (46453/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.0254593Z Updating files:  90% (46975/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.0533075Z Updating files:  91% (47497/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.1313150Z Updating files:  92% (48019/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.1659976Z Updating files:  93% (48541/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.1925105Z Updating files:  94% (49063/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.1964733Z Updating files:  95% (49585/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.2220404Z Updating files:  95% (49644/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.2480278Z Updating files:  96% (50107/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.2844361Z Updating files:  97% (50629/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.3156201Z Updating files:  98% (51151/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.3945732Z Updating files:  99% (51673/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.3964360Z Updating files: 100% (52194/52194)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.3964927Z Updating files: 100% (52194/52194), done.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6008804Z Note: switching to 'refs/remotes/pull/66672/merge'.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6009442Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6014478Z You are in 'detached HEAD' state. You can look around, make experimental
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6022818Z changes and commit them, and you can discard any commits you make in this
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6024063Z state without impacting any branches by switching back to a branch.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6123715Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6124446Z If you want to create a new branch to retain commits you create, you may
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6125512Z do so (now or later) by using -c with the switch command. Example:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6126152Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6127111Z   git switch -c <new-branch-name>
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6127323Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6127454Z Or undo this operation with:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6127651Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6127742Z   git switch -
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6127880Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6128101Z Turn off this advice by setting config variable advice.detachedHead to false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6128948Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6129288Z HEAD is now at 15825415 Merge 427950068965ee6704a48f97a0ffc4d456ad270a into 7615781851a56555c94fc5625297e72c06149a29
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6179187Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6258915Z [command]/usr/bin/git log -1 --format=%H
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6332138Z 1582541584d1179219e83361e10da68fbef79976
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6379199Z ##[group]Removing auth
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6382614Z Removing SSH command configuration
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6396847Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6573460Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6986117Z Removing HTTP extra header
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.6995926Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7037187Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7555113Z Removing includeIf entries pointing to credentials config files
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7562011Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7607620Z includeif.gitdir:/home/runner/work/node/node/.git.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7609420Z includeif.gitdir:/home/runner/work/node/node/.git/worktrees/*.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7611220Z includeif.gitdir:/github/workspace/.git.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7715991Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7717545Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/node/node/.git.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7743980Z /home/runner/work/_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:06.7763297Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/node/node/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-a7a55168\-2fcb\-4de7\-8767\-93a3087c15da\.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:07.6495637Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/node/node/.git/worktrees/*.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:07.6530646Z /home/runner/work/_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:07.6550140Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/node/node/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-a7a55168\-2fcb\-4de7\-8767\-93a3087c15da\.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:08.5048801Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:08.5112793Z /github/runner_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:08.5148389Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-a7a55168\-2fcb\-4de7\-8767\-93a3087c15da\.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:08.8174000Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:08.8264971Z /github/runner_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:08.8292064Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-a7a55168\-2fcb\-4de7\-8767\-93a3087c15da\.config
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:09.4512577Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:09.4908830Z Removing credentials config '/home/runner/work/_temp/git-credentials-a7a55168-2fcb-4de7-8767-93a3087c15da.config'
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:09.4945681Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0134051Z ##[group]Run actions/setup-node@820762786026740c76f36085b0efc47a31fe5020
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0134567Z with:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0136013Z   node-version: lts/*
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0136262Z   cache: npm
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0136767Z   cache-dependency-path: tools/doc/package-lock.json
+lint-js-and-md	UNKNOWN STEP	tools/eslint/package-lock.json
+lint-js-and-md	UNKNOWN STEP	tools/lint-md/package-lock.json
+lint-js-and-md	UNKNOWN STEP	
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0138427Z   check-latest: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0144766Z   token: ***
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0145076Z   package-manager-cache: true
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0145349Z env:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0145554Z   PYTHON_VERSION: 3.14
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0146886Z   NODE_VERSION: lts/*
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.0147155Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:10.4149344Z Attempt to resolve LTS alias from manifest...
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:11.3407106Z Attempting to download 24...
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:11.3505799Z Acquiring 24.21.0 - x64 from https://github.com/actions/node-versions/releases/download/24.21.0-34304089047/node-24.21.0-linux-x64.tar.gz
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:12.5434857Z Extracting ...
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:12.6781786Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/e691a797-f191-482d-9b57-a862ce01a482 -f /home/runner/work/_temp/460fe605-b5f4-4fd6-80ea-dfd8ccc74d67
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:15.6672584Z Adding to the cache ...
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:28.9082841Z ##[group]Environment details
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.5148025Z node: v24.21.0
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.5162240Z npm: 11.19.0
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.5163130Z yarn: 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.5163748Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.5165832Z [command]/opt/hostedtoolcache/node/24.21.0/x64/bin/npm config get cache
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.5166310Z /home/runner/.npm
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.5183041Z npm cache is not found
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9703956Z ##[group]Run actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9704362Z with:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9704582Z   path: .eslintcache
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9705675Z   key: eslint-Linux-v24.21.0-12ea6dde07163ef3f9f5657246e85054e819e5eabf3c3bd383e72ee129b64a4b-1582541584d1179219e83361e10da68fbef79976
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9706557Z   restore-keys: eslint-Linux-v24.21.0-12ea6dde07163ef3f9f5657246e85054e819e5eabf3c3bd383e72ee129b64a4b-
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9707278Z   enableCrossOsArchive: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9708036Z   fail-on-cache-miss: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9708275Z   lookup-only: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9708491Z   save-always: false
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9708697Z env:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9708894Z   PYTHON_VERSION: 3.14
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9709119Z   NODE_VERSION: lts/*
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9710059Z   cache-prefix: eslint-Linux-v24.21.0-12ea6dde07163ef3f9f5657246e85054e819e5eabf3c3bd383e72ee129b64a4b
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:29.9710567Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3218192Z Cache not found for input keys: eslint-Linux-v24.21.0-12ea6dde07163ef3f9f5657246e85054e819e5eabf3c3bd383e72ee129b64a4b-1582541584d1179219e83361e10da68fbef79976, eslint-Linux-v24.21.0-12ea6dde07163ef3f9f5657246e85054e819e5eabf3c3bd383e72ee129b64a4b-
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3360893Z ##[group]Run set +e
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3361572Z ^[[36;1mset +e^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3362007Z ^[[36;1mNODE=$(command -v node) make lint-js ESLINT_CACHE_FLAGS='--cache --cache-strategy content'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3362823Z ^[[36;1mEXIT_CODE="$?"^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3364681Z ^[[36;1mif [ "$EXIT_CODE" != "0" ]; then^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3364961Z ^[[36;1m  echo^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3365362Z ^[[36;1m  echo 'ERROR: The JavaScript lint validation failed (the errors are logged above).'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3365839Z ^[[36;1m  echo '       Please fix the lint errors.'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3366252Z ^[[36;1m  if NODE=$(command -v node) make lint-js-fix > /dev/null 2>&1; then^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3367552Z ^[[36;1m    echo '       Run:'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3367832Z ^[[36;1m    echo '          make lint-js-fix'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3368150Z ^[[36;1m    echo '       to fix the lint issues.'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3368827Z ^[[36;1m    git --no-pager diff^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3369580Z ^[[36;1m  elif git diff --quiet --exit-code; then^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3369972Z ^[[36;1m    echo '       None of the issue is auto-fixable, so manual fixes for'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3370379Z ^[[36;1m    echo '       all of the issues are required.'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3370696Z ^[[36;1m  else^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3371155Z ^[[36;1m    echo '       Run:'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3371428Z ^[[36;1m    echo '          make lint-js-fix'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3371745Z ^[[36;1m    echo '       to fix the auto-fixable lint issues.'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3372466Z ^[[36;1m    echo '       Note that some manual fixes are also required.'^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3373058Z ^[[36;1m  fi^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3373498Z ^[[36;1m  echo^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3373705Z ^[[36;1m  exit "$EXIT_CODE"^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3373939Z ^[[36;1mfi^[[0m
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3385844Z shell: /usr/bin/bash -e {0}
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3386128Z env:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3386623Z   PYTHON_VERSION: 3.14
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3386861Z   NODE_VERSION: lts/*
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.3387090Z ##[endgroup]
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:30.7024595Z cd tools/eslint && if [ -x '/opt/hostedtoolcache/node/24.21.0/x64/bin/node' ] && [ -e '/opt/hostedtoolcache/node/24.21.0/x64/bin/node' ]; then PATH='/home/runner/work/node/node/out/Release:$PATH' '/opt/hostedtoolcache/node/24.21.0/x64/bin/node' /home/runner/work/node/node/./deps/npm/bin/npm-cli.js ci --omit=dev; elif [ -x `command -v node` ] && [ -e `command -v node` ] && [ `command -v node` ]; then `command -v node` /home/runner/work/node/node/./deps/npm/bin/npm-cli.js ci --omit=dev; else echo "No available node, cannot run \"node /home/runner/work/node/node/./deps/npm/bin/npm-cli.js ci --omit=dev\""; exit 1; fi;
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6599026Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6676185Z added 235 packages, and audited 236 packages in 8s
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6681494Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6684119Z 99 packages are looking for funding
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6685740Z   run `npm fund` for details
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6880526Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6882367Z 3 low severity vulnerabilities
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6882776Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6884232Z To address all issues (including breaking changes), run:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.6884740Z   npm audit fix --force
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.7034933Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.7035549Z Run `npm audit` for details.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:29:38.8154502Z Running JS linter...
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1426128Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1450743Z /home/runner/work/node/node/lib/internal/http2/core.js
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1699261Z ##[error]  2620:70  error  Multiple spaces found before '{'  @stylistic/js/no-multi-spaces
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1741580Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1742929Z /home/runner/work/node/node/test/parallel/test-http2-compat-serverresponse-end-stream-flow-control.js
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1746974Z ##[error]  110:7  error  Assertions must be wrapped into `common.mustSucceed`, `common.mustCall` or `common.mustCallAtLeast`  node-core/must-call-assert
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1761402Z ##[error]  128:5  error  Newline required at end of file but not found                                                        @stylistic/js/eol-last
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1762662Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1763203Z ✖ 3 problems (3 errors, 0 warnings)
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1763684Z   2 errors and 0 warnings potentially fixable with the `--fix` option.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.1763984Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.3653552Z make: *** [Makefile:1572: lint-js] Error 1
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.3674224Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.3674806Z ERROR: The JavaScript lint validation failed (the errors are logged above).
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:34:53.3699819Z        Please fix the lint errors.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:01.6922523Z        Run:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:01.6923051Z           make lint-js-fix
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:01.6952784Z        to fix the auto-fixable lint issues.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:01.6977330Z        Note that some manual fixes are also required.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:01.6977606Z 
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:01.6986526Z ##[error]Process completed with exit code 2.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.7576813Z Post job cleanup.
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8803715Z [command]/usr/bin/git version
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8856518Z git version 2.55.0
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8901904Z Temporarily overriding HOME='/home/runner/work/_temp/ca123989-0941-4104-a5b4-d60bceb1b798' before making global git config changes
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8903769Z Adding repository directory to the temporary git global config as a safe directory
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8911595Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/node/node
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8942251Z Removing SSH command configuration
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8949157Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.8987408Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.9233117Z Removing HTTP extra header
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.9236771Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.9271765Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.9595814Z Removing includeIf entries pointing to credentials config files
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.9607761Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:06.9645540Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+lint-js-and-md	UNKNOWN STEP	2026-10-12T04:35:07.0140886Z Cleaning up orphan processes

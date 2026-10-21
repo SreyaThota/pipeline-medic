@@ -1,0 +1,400 @@
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4151085Z hint: to use in all of your new repositories, which will suppress this warning,
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4151488Z hint: call:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4151672Z hint:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4151929Z hint: 	git config --global init.defaultBranch <name>
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4152237Z hint:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4152658Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4153182Z hint: 'development'. The just-created branch can be renamed via this command:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4153561Z hint:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4153765Z hint: 	git branch -m <name>
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4154118Z hint:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4154764Z hint: Disable this message with "git config set advice.defaultBranchName false"
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4155866Z Initialized empty Git repository in /home/runner/work/scikit-learn/scikit-learn/.git/
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4165874Z [command]/usr/bin/git remote add origin https://github.com/scikit-learn/scikit-learn
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4216451Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4217138Z ##[group]Disabling automatic garbage collection
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4220784Z [command]/usr/bin/git config --local gc.auto 0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4249998Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4250843Z ##[group]Setting up auth
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4251425Z Removing SSH command configuration
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4256368Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4287662Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4658279Z Removing HTTP extra header
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4662715Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4692033Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4981409Z Removing includeIf entries pointing to credentials config files
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4982896Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.4985399Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5179828Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5214448Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path /home/runner/work/_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5243607Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5273685Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5304037Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5331045Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5331736Z ##[group]Fetching the repository
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:17.5338957Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules origin +refs/heads/*:refs/remotes/origin/* +refs/tags/*:refs/tags/* +f665155ceaec02f32889aa09023fe7343339f7f0:refs/remotes/pull/35124/merge
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5619040Z From https://github.com/scikit-learn/scikit-learn
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5620689Z  * [new branch]            0.10.X                -> origin/0.10.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5621844Z  * [new branch]            0.11.X                -> origin/0.11.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5622720Z  * [new branch]            0.12.X                -> origin/0.12.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5623757Z  * [new branch]            0.13.X                -> origin/0.13.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5624641Z  * [new branch]            0.14.X                -> origin/0.14.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5625491Z  * [new branch]            0.15.X                -> origin/0.15.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5627858Z  * [new branch]            0.16.X                -> origin/0.16.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5628632Z  * [new branch]            0.17.X                -> origin/0.17.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5629426Z  * [new branch]            0.18.X                -> origin/0.18.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5630218Z  * [new branch]            0.19.X                -> origin/0.19.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5630970Z  * [new branch]            0.20.X                -> origin/0.20.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5631738Z  * [new branch]            0.21.X                -> origin/0.21.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5632627Z  * [new branch]            0.22.X                -> origin/0.22.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5633428Z  * [new branch]            0.23.X                -> origin/0.23.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5634168Z  * [new branch]            0.24.X                -> origin/0.24.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5634834Z  * [new branch]            0.6.X                 -> origin/0.6.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5635579Z  * [new branch]            0.7.X                 -> origin/0.7.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5636542Z  * [new branch]            0.8.X                 -> origin/0.8.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5637264Z  * [new branch]            0.9.X                 -> origin/0.9.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5637946Z  * [new branch]            1.0.X                 -> origin/1.0.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5638936Z  * [new branch]            1.1.X                 -> origin/1.1.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5639643Z  * [new branch]            1.2.X                 -> origin/1.2.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5640276Z  * [new branch]            1.3.X                 -> origin/1.3.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5640911Z  * [new branch]            1.4.X                 -> origin/1.4.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5641541Z  * [new branch]            1.5.X                 -> origin/1.5.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5642189Z  * [new branch]            1.6.X                 -> origin/1.6.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5642821Z  * [new branch]            1.7.X                 -> origin/1.7.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5643515Z  * [new branch]            1.8.X                 -> origin/1.8.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5644260Z  * [new branch]            1.9.X                 -> origin/1.9.X
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5645373Z  * [new branch]            copilot/backport-token-default-setting -> origin/copilot/backport-token-default-setting
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5646847Z  * [new branch]            copilot/fix-ci-issue  -> origin/copilot/fix-ci-issue
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5647872Z  * [new branch]            copilot/fix-ci-issues-in-pr-34303 -> origin/copilot/fix-ci-issues-in-pr-34303
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5649273Z  * [new branch]            copilot/investigate-performance-regression -> origin/copilot/investigate-performance-regression
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5650419Z  * [new branch]            copilot/list-open-prs-ci-update-lock-files -> origin/copilot/list-open-prs-ci-update-lock-files
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5651178Z  * [new branch]            copilot/review-ci-issues-pr-33899 -> origin/copilot/review-ci-issues-pr-33899
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5651921Z  * [new branch]            copilot/root-cause-analysis-test-failure -> origin/copilot/root-cause-analysis-test-failure
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5652769Z  * [new branch]            copilot/search-root-cause-openblas-to-blis -> origin/copilot/search-root-cause-openblas-to-blis
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5653633Z  * [new branch]            copilot/sub-pr-32981  -> origin/copilot/sub-pr-32981
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5654213Z  * [new branch]            copilot/update-lock-files-failure -> origin/copilot/update-lock-files-failure
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5654932Z  * [new branch]            copilot/update-pr-34153-user-guide -> origin/copilot/update-pr-34153-user-guide
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5656143Z  * [new branch]            debian                -> origin/debian
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5656976Z  * [new branch]            debug-publish-failure -> origin/debug-publish-failure
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5658116Z  * [new branch]            dependabot/github_actions/actions-c24a0fdd63 -> origin/dependabot/github_actions/actions-c24a0fdd63
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5659063Z  * [new branch]            feature/engine-api    -> origin/feature/engine-api
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5659794Z  * [new branch]            fix-git-link          -> origin/fix-git-link
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5660471Z  * [new branch]            main                  -> origin/main
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5661156Z  * [new branch]            pull/29138/head       -> origin/pull/29138/head
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5662160Z  * [new branch]            refactor/cython-tree-class-hierarchy -> origin/refactor/cython-tree-class-hierarchy
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5663262Z  * [new branch]            tweak-build-script-shebang -> origin/tweak-build-script-shebang
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5664037Z  * [new tag]               0.1                   -> 0.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5664612Z  * [new tag]               0.1-beta              -> 0.1-beta
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5665188Z  * [new tag]               0.10                  -> 0.10
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5666115Z  * [new tag]               0.10-branching        -> 0.10-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5666715Z  * [new tag]               0.11                  -> 0.11
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5667289Z  * [new tag]               0.11-beta             -> 0.11-beta
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5667921Z  * [new tag]               0.11-branching        -> 0.11-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5668530Z  * [new tag]               0.12                  -> 0.12
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5669275Z  * [new tag]               0.12-branching        -> 0.12-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5669903Z  * [new tag]               0.12.1                -> 0.12.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5670409Z  * [new tag]               0.13                  -> 0.13
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5670954Z  * [new tag]               0.13-branching        -> 0.13-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5671532Z  * [new tag]               0.13.1                -> 0.13.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5672078Z  * [new tag]               0.14                  -> 0.14
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5672646Z  * [new tag]               0.14.1                -> 0.14.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5673216Z  * [new tag]               0.14a1                -> 0.14a1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5673811Z  * [new tag]               0.15-branching        -> 0.15-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5674403Z  * [new tag]               0.15.0                -> 0.15.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5674952Z  * [new tag]               0.15.0b1              -> 0.15.0b1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5675529Z  * [new tag]               0.15.0b2              -> 0.15.0b2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5676486Z  * [new tag]               0.15.1                -> 0.15.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5677059Z  * [new tag]               0.15.2                -> 0.15.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5677664Z  * [new tag]               0.16-branching        -> 0.16-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5678258Z  * [new tag]               0.16.0                -> 0.16.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5678807Z  * [new tag]               0.16.1                -> 0.16.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5679208Z  * [new tag]               0.16b1                -> 0.16b1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5679525Z  * [new tag]               0.17                  -> 0.17
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5679859Z  * [new tag]               0.17-branching        -> 0.17-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5680199Z  * [new tag]               0.17.1                -> 0.17.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5680534Z  * [new tag]               0.17.1-1              -> 0.17.1-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5681063Z  * [new tag]               0.17b1                -> 0.17b1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5681413Z  * [new tag]               0.18                  -> 0.18
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5681719Z  * [new tag]               0.18.1                -> 0.18.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5682025Z  * [new tag]               0.18.2                -> 0.18.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5682330Z  * [new tag]               0.18rc                -> 0.18rc
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5682733Z  * [new tag]               0.18rc1               -> 0.18rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5683202Z  * [new tag]               0.18rc2               -> 0.18rc2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5683539Z  * [new tag]               0.19-branching        -> 0.19-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5683879Z  * [new tag]               0.19.0                -> 0.19.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5684180Z  * [new tag]               0.19.1                -> 0.19.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5684486Z  * [new tag]               0.19.2                -> 0.19.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5684789Z  * [new tag]               0.19b1                -> 0.19b1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5685101Z  * [new tag]               0.19b2                -> 0.19b2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5685411Z  * [new tag]               0.2                   -> 0.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5686070Z  * [new tag]               0.2-beta              -> 0.2-beta
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5686654Z  * [new tag]               0.20.0                -> 0.20.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5687301Z  * [new tag]               0.20.1                -> 0.20.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5687854Z  * [new tag]               0.20.2                -> 0.20.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5688489Z  * [new tag]               0.20.3                -> 0.20.3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5688946Z  * [new tag]               0.20.4                -> 0.20.4
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5689264Z  * [new tag]               0.20rc1               -> 0.20rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5689871Z  * [new tag]               0.21.0                -> 0.21.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5690437Z  * [new tag]               0.21.1                -> 0.21.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5690999Z  * [new tag]               0.21.2                -> 0.21.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5691569Z  * [new tag]               0.21.3                -> 0.21.3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5692338Z  * [new tag]               0.21b2                -> 0.21b2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5692931Z  * [new tag]               0.21rc1               -> 0.21rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5693529Z  * [new tag]               0.21rc2               -> 0.21rc2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5694136Z  * [new tag]               0.22                  -> 0.22
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5694726Z  * [new tag]               0.22.1                -> 0.22.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5695432Z  * [new tag]               0.22.2                -> 0.22.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5696308Z  * [new tag]               0.22.2.post1          -> 0.22.2.post1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5696943Z  * [new tag]               0.22rc1               -> 0.22rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5697544Z  * [new tag]               0.22rc2               -> 0.22rc2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5697975Z  * [new tag]               0.22rc2.post1         -> 0.22rc2.post1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5698609Z  * [new tag]               0.22rc3               -> 0.22rc3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5699180Z  * [new tag]               0.23.0                -> 0.23.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5699741Z  * [new tag]               0.23.0rc1             -> 0.23.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5700306Z  * [new tag]               0.23.1                -> 0.23.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5700873Z  * [new tag]               0.23.2                -> 0.23.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5701239Z  * [new tag]               0.24.0                -> 0.24.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5701553Z  * [new tag]               0.24.0rc1             -> 0.24.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5701885Z  * [new tag]               0.24.1                -> 0.24.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5702189Z  * [new tag]               0.24.2                -> 0.24.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5702493Z  * [new tag]               0.3                   -> 0.3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5702904Z  * [new tag]               0.4                   -> 0.4
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5703625Z  * [new tag]               0.5                   -> 0.5
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5704176Z  * [new tag]               0.5.rc                -> 0.5.rc
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5704571Z  * [new tag]               0.5.rc2               -> 0.5.rc2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5705070Z  * [new tag]               0.5.rc3               -> 0.5.rc3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5705629Z  * [new tag]               0.6-rc                -> 0.6-rc
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5706544Z  * [new tag]               0.6.0                 -> 0.6.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5707078Z  * [new tag]               0.7                   -> 0.7
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5707639Z  * [new tag]               0.7-branching         -> 0.7-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5708213Z  * [new tag]               0.7.1                 -> 0.7.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5708734Z  * [new tag]               0.8                   -> 0.8
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5709266Z  * [new tag]               0.8-branching         -> 0.8-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5709598Z  * [new tag]               0.8.1                 -> 0.8.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5709910Z  * [new tag]               0.9                   -> 0.9
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5710241Z  * [new tag]               0.9-branching         -> 0.9-branching
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5710563Z  * [new tag]               1.0                   -> 1.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5711036Z  * [new tag]               1.0.1                 -> 1.0.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5711346Z  * [new tag]               1.0.2                 -> 1.0.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5711919Z  * [new tag]               1.0.rc1               -> 1.0.rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5712468Z  * [new tag]               1.0.rc2               -> 1.0.rc2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5713007Z  * [new tag]               1.1.0                 -> 1.1.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5713550Z  * [new tag]               1.1.0rc1              -> 1.1.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5714095Z  * [new tag]               1.1.1                 -> 1.1.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5714628Z  * [new tag]               1.1.2                 -> 1.1.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5715158Z  * [new tag]               1.1.3                 -> 1.1.3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5715473Z  * [new tag]               1.2.0                 -> 1.2.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5716252Z  * [new tag]               1.2.0rc1              -> 1.2.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5716609Z  * [new tag]               1.2.1                 -> 1.2.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5716919Z  * [new tag]               1.2.2                 -> 1.2.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5717223Z  * [new tag]               1.3.0                 -> 1.3.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5717534Z  * [new tag]               1.3.0rc1              -> 1.3.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5717858Z  * [new tag]               1.3.1                 -> 1.3.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5718169Z  * [new tag]               1.3.2                 -> 1.3.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5718470Z  * [new tag]               1.4.0                 -> 1.4.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5718774Z  * [new tag]               1.4.0-1               -> 1.4.0-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5719090Z  * [new tag]               1.4.0rc1              -> 1.4.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5719410Z  * [new tag]               1.4.1                 -> 1.4.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5719959Z  * [new tag]               1.4.1.post1           -> 1.4.1.post1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5720687Z  * [new tag]               1.4.2                 -> 1.4.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5721230Z  * [new tag]               1.5.0                 -> 1.5.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5721792Z  * [new tag]               1.5.0rc1              -> 1.5.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5722294Z  * [new tag]               1.5.1                 -> 1.5.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5722731Z  * [new tag]               1.5.2                 -> 1.5.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5723265Z  * [new tag]               1.6.0                 -> 1.6.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5723803Z  * [new tag]               1.6.0rc1              -> 1.6.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5724345Z  * [new tag]               1.6.1                 -> 1.6.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5724868Z  * [new tag]               1.7.0                 -> 1.7.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5725409Z  * [new tag]               1.7.0rc1              -> 1.7.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5726360Z  * [new tag]               1.7.1                 -> 1.7.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5726923Z  * [new tag]               1.7.2                 -> 1.7.2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5727468Z  * [new tag]               1.8.0                 -> 1.8.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5728041Z  * [new tag]               1.8.0rc1              -> 1.8.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5728659Z  * [new tag]               1.9.0                 -> 1.9.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5729321Z  * [new tag]               1.9.0rc1              -> 1.9.0rc1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5729885Z  * [new tag]               1.9.1                 -> 1.9.1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5730486Z  * [new tag]               debian/0.10.0-1       -> debian/0.10.0-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5731132Z  * [new tag]               debian/0.11.0-1       -> debian/0.11.0-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5731762Z  * [new tag]               debian/0.11.0-2       -> debian/0.11.0-2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5732406Z  * [new tag]               debian/0.12.0-1       -> debian/0.12.0-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5733007Z  * [new tag]               debian/0.16.1-2       -> debian/0.16.1-2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5733602Z  * [new tag]               debian/0.17.0-1       -> debian/0.17.0-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5734219Z  * [new tag]               debian/0.17.0-3       -> debian/0.17.0-3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5734857Z  * [new tag]               debian/0.17.0-4       -> debian/0.17.0-4
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5735908Z  * [new tag]               debian/0.17.0_b1+git14-g4e6829c-1 -> debian/0.17.0_b1+git14-g4e6829c-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5736766Z  * [new tag]               debian/0.17.0_b1-1    -> debian/0.17.0_b1-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5737460Z  * [new tag]               debian/0.2+svn625-1   -> debian/0.2+svn625-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5738126Z  * [new tag]               debian/0.3-1          -> debian/0.3-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5738735Z  * [new tag]               debian/0.3-2          -> debian/0.3-2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5739367Z  * [new tag]               debian/0.3-3          -> debian/0.3-3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5740001Z  * [new tag]               debian/0.3-4          -> debian/0.3-4
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5740622Z  * [new tag]               debian/0.4-1          -> debian/0.4-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5741425Z  * [new tag]               debian/0.4-2          -> debian/0.4-2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5741982Z  * [new tag]               debian/0.4-3          -> debian/0.4-3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5742492Z  * [new tag]               debian/0.5-1          -> debian/0.5-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5743134Z  * [new tag]               debian/0.6.0.dfsg-1   -> debian/0.6.0.dfsg-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5743802Z  * [new tag]               debian/0.7.1.dfsg-1   -> debian/0.7.1.dfsg-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5744458Z  * [new tag]               debian/0.7.1.dfsg-3   -> debian/0.7.1.dfsg-3
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5745118Z  * [new tag]               debian/0.8.0.dfsg-1   -> debian/0.8.0.dfsg-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5745489Z  * [new tag]               debian/0.8.1.dfsg-1   -> debian/0.8.1.dfsg-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5746106Z  * [new tag]               debian/0.9.0.dfsg-1   -> debian/0.9.0.dfsg-1
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5746493Z  * [new tag]               sprint01              -> sprint01
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5746919Z  * [new ref]               f665155ceaec02f32889aa09023fe7343339f7f0 -> pull/35124/merge
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5748628Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5749393Z ##[group]Determining the checkout info
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5750175Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5750579Z [command]/usr/bin/git sparse-checkout disable
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5751828Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5753263Z ##[group]Checking out the ref
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.5756064Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/35124/merge
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7404639Z Note: switching to 'refs/remotes/pull/35124/merge'.
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7405136Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7405498Z You are in 'detached HEAD' state. You can look around, make experimental
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7406472Z changes and commit them, and you can discard any commits you make in this
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7407293Z state without impacting any branches by switching back to a branch.
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7407644Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7407878Z If you want to create a new branch to retain commits you create, you may
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7408406Z do so (now or later) by using -c with the switch command. Example:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7408717Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7408838Z   git switch -c <new-branch-name>
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7409047Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7409165Z Or undo this operation with:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7409352Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7409456Z   git switch -
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7409597Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7409854Z Turn off this advice by setting config variable advice.detachedHead to false
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7410228Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7410675Z HEAD is now at f665155cea Merge 29d5bfa242c249c48639de1cae5ca498994901e2 into 102e5daf66759cf896beeee229d1bf7c80ab2ba4
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7424807Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7471987Z [command]/usr/bin/git log -1 --format=%H
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7497465Z f665155ceaec02f32889aa09023fe7343339f7f0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7697800Z ##[group]Run set -xe
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7698108Z ^[[36;1mset -xe^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7698414Z ^[[36;1mchanged_files=$(git diff --name-only origin/main)^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7698855Z ^[[36;1m# Changelog should be updated only if tests have been modified^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7699283Z ^[[36;1mif [[ "$changed_files" =~ sklearn\/.+test_.+\.py ]]^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7699595Z ^[[36;1mthen^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7699842Z ^[[36;1m  echo "check_changelog=true" >> $GITHUB_OUTPUT^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7700138Z ^[[36;1mfi^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7909276Z shell: /usr/bin/bash -e {0}
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.7909606Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8011250Z ++ git diff --name-only origin/main
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8871148Z + changed_files='sklearn/utils/_bunch.py
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8871819Z sklearn/utils/tests/test_bunch.py'
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8872417Z + [[ sklearn/utils/_bunch.py
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8873114Z sklearn/utils/tests/test_bunch.py =~ sklearn/.+test_.+\.py ]]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8873932Z + echo check_changelog=true
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8973739Z ##[group]Run scientific-python/action-towncrier-changelog@v2
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8974112Z env:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8976835Z   GITHUB_TOKEN: ***
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8977085Z   BOT_USERNAME: changelog-bot
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.8977338Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:28.9083116Z ##[command]/usr/bin/docker run --name b6c1ba08d0a112467e49099ea8520c74518b45_d46db8 --label b6c1ba --workdir /github/workspace --rm -e "GITHUB_TOKEN" -e "BOT_USERNAME" -e "HOME" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "GITHUB_ARTIFACTS" -e "GITHUB_ARTIFACTS_LIST" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_ENVIRONMENT" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" -e "ACTIONS_RESULTS_URL" -e "ACTIONS_CACHE_MODE" -e "ACTIONS_ORCHESTRATION_ID" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work/_temp":"/github/runner_temp" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" -v "/home/runner/work/_temp/_runner_file_commands":"/github/file_commands" -v "/home/runner/work/scikit-learn/scikit-learn":"/github/workspace" b6c1ba:08d0a112467e49099ea8520c74518b45  "none"
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0393812Z Bot username: changelog-bot
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0394984Z Base repository: scikit-learn/scikit-learn
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0395980Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0396193Z PR author: Karunya-Muddana
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0396456Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0396587Z PR labels: []
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0396767Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0397029Z No "whatsnew-needed" label, skipping What's New entry check
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0397823Z No changelog file was added in the correct directories for PR 35124, looked in 45 directories:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0398551Z doc/whats_new/upcoming_changes/security
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0399023Z doc/whats_new/upcoming_changes/changed-models
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0399531Z doc/whats_new/upcoming_changes/many-modules
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0400003Z doc/whats_new/upcoming_changes/array-api
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0400502Z doc/whats_new/upcoming_changes/metadata-routing
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0401031Z doc/whats_new/upcoming_changes/callback
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0401553Z doc/whats_new/upcoming_changes/custom-top-level
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0402102Z doc/whats_new/upcoming_changes/sklearn.base
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0402608Z doc/whats_new/upcoming_changes/sklearn.calibration
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0403108Z doc/whats_new/upcoming_changes/sklearn.cluster
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0403605Z doc/whats_new/upcoming_changes/sklearn.compose
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0404113Z doc/whats_new/upcoming_changes/sklearn.covariance
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0404692Z doc/whats_new/upcoming_changes/sklearn.cross_decomposition
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0405233Z doc/whats_new/upcoming_changes/sklearn.datasets
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0405989Z doc/whats_new/upcoming_changes/sklearn.decomposition
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0406630Z doc/whats_new/upcoming_changes/sklearn.discriminant_analysis
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0407176Z doc/whats_new/upcoming_changes/sklearn.dummy
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0407647Z doc/whats_new/upcoming_changes/sklearn.ensemble
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0408157Z doc/whats_new/upcoming_changes/sklearn.exceptions
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0409018Z doc/whats_new/upcoming_changes/sklearn.feature_extraction
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0409613Z doc/whats_new/upcoming_changes/sklearn.feature_selection
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0410145Z doc/whats_new/upcoming_changes/sklearn.frozen
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0410665Z doc/whats_new/upcoming_changes/sklearn.gaussian_process
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0411203Z doc/whats_new/upcoming_changes/sklearn.impute
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0411697Z doc/whats_new/upcoming_changes/sklearn.inspection
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0412186Z doc/whats_new/upcoming_changes/sklearn.isotonic
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0412733Z doc/whats_new/upcoming_changes/sklearn.kernel_approximation
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0413315Z doc/whats_new/upcoming_changes/sklearn.kernel_ridge
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0413821Z doc/whats_new/upcoming_changes/sklearn.linear_model
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0414309Z doc/whats_new/upcoming_changes/sklearn.manifold
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0414805Z doc/whats_new/upcoming_changes/sklearn.metrics
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0415295Z doc/whats_new/upcoming_changes/sklearn.mixture
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0415995Z doc/whats_new/upcoming_changes/sklearn.model_selection
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0416518Z doc/whats_new/upcoming_changes/sklearn.multiclass
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0417013Z doc/whats_new/upcoming_changes/sklearn.multioutput
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0417530Z doc/whats_new/upcoming_changes/sklearn.naive_bayes
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0418042Z doc/whats_new/upcoming_changes/sklearn.neighbors
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0418575Z doc/whats_new/upcoming_changes/sklearn.neural_network
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0419106Z doc/whats_new/upcoming_changes/sklearn.pipeline
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0419622Z doc/whats_new/upcoming_changes/sklearn.preprocessing
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0420176Z doc/whats_new/upcoming_changes/sklearn.random_projection
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0420738Z doc/whats_new/upcoming_changes/sklearn.semi_supervised
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0421251Z doc/whats_new/upcoming_changes/sklearn.svm
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0421705Z doc/whats_new/upcoming_changes/sklearn.tree
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.0422456Z doc/whats_new/upcoming_changes/sklearn.utils
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1435513Z ##[group]Run cat << EOF
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1436163Z ^[[36;1m^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1436356Z ^[[36;1mcat << EOF^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1436810Z ^[[36;1m- if your PR is likely to affect users, you will need to add a changelog entry describing your PR changes^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1437580Z ^[[36;1m- otherwise you don't need to do anything, a maintainer will set the relevant label to make this CI build pass^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1438101Z ^[[36;1m^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1438362Z ^[[36;1mSee instructions on how to write a changelog entry:^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1438935Z ^[[36;1mhttps://github.com/scikit-learn/scikit-learn/blob/main/doc/whats_new/upcoming_changes/README.md^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1439420Z ^[[36;1m^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1439599Z ^[[36;1mEOF^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1439779Z ^[[36;1m^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1439952Z ^[[36;1mexit 1^[[0m
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1503578Z shell: /usr/bin/bash -e {0}
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1503854Z ##[endgroup]
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1589212Z - if your PR is likely to affect users, you will need to add a changelog entry describing your PR changes
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1590168Z - otherwise you don't need to do anything, a maintainer will set the relevant label to make this CI build pass
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1590614Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1590762Z See instructions on how to write a changelog entry:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1591310Z https://github.com/scikit-learn/scikit-learn/blob/main/doc/whats_new/upcoming_changes/README.md
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1592015Z 
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1601805Z ##[error]Process completed with exit code 1.
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.1738106Z Post job cleanup.
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2538028Z [command]/usr/bin/git version
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2581504Z git version 2.55.0
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2618339Z Temporarily overriding HOME='/home/runner/work/_temp/9b8b7eb2-99bb-4d64-a3f0-c8ebf2f0dbd1' before making global git config changes
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2619724Z Adding repository directory to the temporary git global config as a safe directory
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2622773Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/scikit-learn/scikit-learn
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2652190Z Removing SSH command configuration
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2658296Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2692780Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2913736Z Removing HTTP extra header
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2918688Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.2953053Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3165457Z Removing includeIf entries pointing to credentials config files
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3171828Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3197486Z includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3198506Z includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3199303Z includeif.gitdir:/github/workspace/.git.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3199751Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3206126Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3228447Z /home/runner/work/_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3239156Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-f823ad64\-a4cb\-4896\-b0cc\-e93e6b9c2844\.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3272457Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3293212Z /home/runner/work/_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3308811Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/scikit-learn/scikit-learn/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-f823ad64\-a4cb\-4896\-b0cc\-e93e6b9c2844\.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3341143Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3361402Z /github/runner_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3368436Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-f823ad64\-a4cb\-4896\-b0cc\-e93e6b9c2844\.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3398606Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3424137Z /github/runner_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3466054Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-f823ad64\-a4cb\-4896\-b0cc\-e93e6b9c2844\.config
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3500797Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3712702Z Removing credentials config '/home/runner/work/_temp/git-credentials-f823ad64-a4cb-4896-b0cc-e93e6b9c2844.config'
+A reviewer will let you know if it is required or can be bypassed	UNKNOWN STEP	2026-10-11T04:13:31.3852792Z Cleaning up orphan processes

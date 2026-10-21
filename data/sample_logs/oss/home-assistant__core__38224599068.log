@@ -1,0 +1,400 @@
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3188664Z 	last_updated_ts FLOAT, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3188913Z 	old_state_id INTEGER, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3189166Z 	attributes_id INTEGER, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3189418Z 	context_id VARCHAR(36), 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3189675Z 	context_user_id VARCHAR(36), 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3189962Z 	context_parent_id VARCHAR(36), 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3190244Z 	origin_idx SMALLINT, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3190494Z 	context_id_bin BLOB, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3190742Z 	context_user_id_bin BLOB, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3191008Z 	context_parent_id_bin BLOB, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3191280Z 	metadata_id INTEGER, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3191528Z 	PRIMARY KEY (state_id), 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3191899Z 	FOREIGN KEY(event_id) REFERENCES events (event_id) ON DELETE CASCADE, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3192359Z 	FOREIGN KEY(old_state_id) REFERENCES states (state_id), 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3192827Z 	FOREIGN KEY(attributes_id) REFERENCES state_attributes (attributes_id), 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3193316Z 	FOREIGN KEY(metadata_id) REFERENCES states_meta (metadata_id)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3193808Z )
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3193921Z 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3193926Z 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3194208Z 2026-10-12 08:41:20.949 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00011s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3195017Z 2026-10-12 08:41:20.950 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_context_id_bin ON states (context_id_bin)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3195815Z 2026-10-12 08:41:20.950 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00010s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3196569Z 2026-10-12 08:41:20.950 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_event_id ON states (event_id)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3197448Z 2026-10-12 08:41:20.950 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00010s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3198338Z 2026-10-12 08:41:20.950 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_context_id ON states (context_id)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3199108Z 2026-10-12 08:41:20.950 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00013s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3199895Z 2026-10-12 08:41:20.951 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_old_state_id ON states (old_state_id)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3200668Z 2026-10-12 08:41:20.951 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00009s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3201457Z 2026-10-12 08:41:20.951 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_attributes_id ON states (attributes_id)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3202245Z 2026-10-12 08:41:20.951 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00009s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3203121Z 2026-10-12 08:41:20.951 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_entity_id_last_updated_ts ON states (entity_id, last_updated_ts)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3203990Z 2026-10-12 08:41:20.951 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00013s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3204798Z 2026-10-12 08:41:20.952 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_last_updated_ts ON states (last_updated_ts)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3205592Z 2026-10-12 08:41:20.952 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00009s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3206378Z 2026-10-12 08:41:20.952 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_last_updated ON states (last_updated)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3207163Z 2026-10-12 08:41:20.952 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00009s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3208061Z 2026-10-12 08:41:20.952 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 CREATE INDEX ix_states_metadata_id ON states (metadata_id)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3208833Z 2026-10-12 08:41:20.952 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00013s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3209433Z 2026-10-12 08:41:20.953 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3210032Z 2026-10-12 08:41:20.953 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3210893Z 2026-10-12 08:41:20.954 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO schema_changes (schema_version, changed) VALUES (?, ?) RETURNING change_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3211878Z 2026-10-12 08:41:20.954 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00014s] (32, '2026-10-12 08:41:20.954139')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3212786Z 2026-10-12 08:41:20.954 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO statistics_runs (start) VALUES (?) RETURNING run_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3213701Z 2026-10-12 08:41:20.954 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00017s] ('2026-10-12 08:35:00.000000',)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3214403Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3214990Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3215825Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("statistics_meta")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3216526Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3217105Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:2715 ROLLBACK
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3217840Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3218577Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("statistics_short_term")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3219410Z 2026-10-12 08:41:20.955 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3219984Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:2715 ROLLBACK
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3220576Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3221254Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("events")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3221917Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3222592Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("event_data")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3223269Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3223936Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("event_types")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3224619Z 2026-10-12 08:41:20.956 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3225280Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("states")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3225941Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3226648Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("state_attributes")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3227344Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3228132Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("states_meta")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3228808Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3229480Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("statistics")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3230155Z 2026-10-12 08:41:20.957 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3230860Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("statistics_short_term")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3231576Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3232266Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("statistics_meta")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3232953Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3233642Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("recorder_runs")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3234323Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3235025Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("migration_changes")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3235722Z 2026-10-12 08:41:20.958 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3236542Z 2026-10-12 08:41:20.959 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA temp.table_info("migration_changes")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3237236Z 2026-10-12 08:41:20.959 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3238070Z 2026-10-12 08:41:20.959 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("schema_changes")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3238758Z 2026-10-12 08:41:20.959 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3239446Z 2026-10-12 08:41:20.959 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 PRAGMA main.table_info("statistics_runs")
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3240268Z 2026-10-12 08:41:20.959 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [raw sql] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3240824Z 2026-10-12 08:41:20.959 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3241253Z CREATE TABLE migration_changes (
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3241550Z 	migration_id VARCHAR(255) NOT NULL, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3241864Z 	version SMALLINT NOT NULL, 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3242146Z 	PRIMARY KEY (migration_id)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3242404Z )
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3242515Z 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3242519Z 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3242801Z 2026-10-12 08:41:20.960 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [no key 0.00011s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3243403Z 2026-10-12 08:41:20.960 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3243988Z 2026-10-12 08:41:20.961 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3244807Z 2026-10-12 08:41:20.961 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT schema_changes.schema_version AS schema_changes_schema_version 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3245537Z FROM schema_changes ORDER BY schema_changes.change_id DESC
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3245893Z  LIMIT ? OFFSET ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3246348Z 2026-10-12 08:41:20.961 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00022s] (1, 0)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3246997Z 2026-10-12 08:41:20.962 INFO     Recorder sqlalchemy.engine.Engine:base.py:2715 ROLLBACK
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3247588Z 2026-10-12 08:41:20.962 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3248538Z 2026-10-12 08:41:20.962 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT schema_changes.schema_version AS schema_changes_schema_version 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3249260Z FROM schema_changes ORDER BY schema_changes.change_id DESC
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3249613Z  LIMIT ? OFFSET ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3250074Z 2026-10-12 08:41:20.962 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.001136s ago] (1, 0)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3250740Z 2026-10-12 08:41:20.963 INFO     Recorder sqlalchemy.engine.Engine:base.py:2715 ROLLBACK
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3251324Z 2026-10-12 08:41:20.963 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3252133Z 2026-10-12 08:41:20.963 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT schema_changes.schema_version AS schema_changes_schema_version 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3252858Z FROM schema_changes ORDER BY schema_changes.change_id ASC
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3253204Z  LIMIT ? OFFSET ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3253649Z 2026-10-12 08:41:20.963 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00014s] (1, 0)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3254285Z 2026-10-12 08:41:20.964 INFO     Recorder sqlalchemy.engine.Engine:base.py:2715 ROLLBACK
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3254876Z 2026-10-12 08:41:20.964 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3256302Z 2026-10-12 08:41:20.965 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT recorder_runs.run_id AS recorder_runs_run_id, recorder_runs.start AS recorder_runs_start, recorder_runs."end" AS recorder_runs_end, recorder_runs.closed_incorrect AS recorder_runs_closed_incorrect, recorder_runs.created AS recorder_runs_created 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3257911Z FROM recorder_runs 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3258173Z WHERE recorder_runs."end" IS NULL
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3258666Z 2026-10-12 08:41:20.965 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00015s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3259624Z 2026-10-12 08:41:20.966 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO recorder_runs (start, "end", closed_incorrect, created) VALUES (?, ?, ?, ?) RETURNING run_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3260766Z 2026-10-12 08:41:20.966 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00018s] ('2026-10-12 08:41:20.929732', None, 0, '2026-10-12 08:41:20.965854')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3262416Z 2026-10-12 08:41:20.967 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT recorder_runs.run_id AS recorder_runs_run_id, recorder_runs.start AS recorder_runs_start, recorder_runs."end" AS recorder_runs_end, recorder_runs.closed_incorrect AS recorder_runs_closed_incorrect, recorder_runs.created AS recorder_runs_created 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3263928Z FROM recorder_runs ORDER BY recorder_runs.start ASC
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3264025Z  LIMIT ? OFFSET ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3264336Z 2026-10-12 08:41:20.967 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00016s] (1, 0)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3264651Z 2026-10-12 08:41:20.969 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT states.last_updated_ts 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3264792Z FROM states ORDER BY states.last_updated_ts ASC
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3264887Z  LIMIT ? OFFSET ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3265191Z 2026-10-12 08:41:20.969 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00016s] (1, 0)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3265418Z 2026-10-12 08:41:20.969 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3265691Z 2026-10-12 08:41:20.969 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3266571Z 2026-10-12 08:41:20.970 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT statistics_meta.id, statistics_meta.statistic_id, statistics_meta.source, statistics_meta.unit_of_measurement, statistics_meta.has_sum, statistics_meta.name, statistics_meta.has_mean 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3266682Z FROM statistics_meta
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3266991Z 2026-10-12 08:41:20.970 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00013s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3267216Z 2026-10-12 08:41:20.970 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3267760Z 2026-10-12 08:41:20.972 INFO     MainThread tests.conftest:conftest.py:1805 Test recorder successfully started, database location: sqlite://
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3268032Z 2026-10-12 08:41:20.972 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3268486Z 2026-10-12 08:41:20.973 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT migration_changes.migration_id, migration_changes.version 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3268591Z FROM migration_changes
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3268894Z 2026-10-12 08:41:20.973 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00013s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3269557Z 2026-10-12 08:41:20.974 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT migration_changes.migration_id AS migration_changes_migration_id, migration_changes.version AS migration_changes_version 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3269660Z FROM migration_changes 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3269788Z WHERE migration_changes.migration_id = ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3270173Z 2026-10-12 08:41:20.974 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00016s] ('event_id_post_migration',)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3270683Z 2026-10-12 08:41:20.974 INFO     Recorder homeassistant.components.recorder.migration:migration.py:2781 Data migration 'event_id_post_migration' needed: False
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3271128Z 2026-10-12 08:41:20.975 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO migration_changes (migration_id, version) VALUES (?, ?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3271643Z 2026-10-12 08:41:20.975 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00016s] ('event_id_post_migration', 2)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3271869Z 2026-10-12 08:41:20.975 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3272128Z 2026-10-12 08:41:20.976 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3272509Z 2026-10-12 08:41:20.977 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_data.data_id, event_data.shared_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3272609Z FROM event_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3272730Z WHERE event_data.hash IN (?, ?, ?, ?, ?, ?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3273229Z 2026-10-12 08:41:20.977 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00021s] (2705000516, 1936967080, 616907209, 3478486156, 2001541813, 2514025343)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3273751Z 2026-10-12 08:41:20.978 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_types.event_type_id, event_types.event_type 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3273858Z FROM event_types 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3273979Z WHERE event_types.event_type IN (?, ?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3274405Z 2026-10-12 08:41:20.978 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00022s] ('component_loaded', 'service_registered')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3274782Z 2026-10-12 08:41:20.979 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_data.data_id, event_data.shared_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3274878Z FROM event_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3274987Z WHERE event_data.hash IN (?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3275333Z 2026-10-12 08:41:20.979 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.00266s ago] (2514025343,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3275798Z 2026-10-12 08:41:20.980 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_data (hash, shared_data) VALUES (?, ?) RETURNING data_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3276258Z 2026-10-12 08:41:20.980 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00018s] (2514025343, '{"domain":"recorder","service":"purge"}')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3276708Z 2026-10-12 08:41:20.981 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_types (event_type) VALUES (?) RETURNING event_type_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3277086Z 2026-10-12 08:41:20.981 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00013s] ('service_registered',)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3278336Z 2026-10-12 08:41:20.982 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO events (event_type, event_data, origin, origin_idx, time_fired, time_fired_ts, context_id, context_user_id, context_parent_id, data_id, context_id_bin, context_user_id_bin, context_parent_id_bin, event_type_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING event_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3279058Z 2026-10-12 08:41:20.983 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00021s] ('service_registered', None, None, 0, None, 1791794480.930513, '01M4QMC1S2TA3KSH5YD12GNQ7W', None, None, 1, None, None, None, 1)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3279290Z 2026-10-12 08:41:20.983 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3279549Z 2026-10-12 08:41:20.983 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3279924Z 2026-10-12 08:41:20.984 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_data.data_id, event_data.shared_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3280021Z FROM event_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3280131Z WHERE event_data.hash IN (?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3280477Z 2026-10-12 08:41:20.984 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.007428s ago] (2001541813,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3280939Z 2026-10-12 08:41:20.984 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_data (hash, shared_data) VALUES (?, ?) RETURNING data_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3281453Z 2026-10-12 08:41:20.985 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.004309s ago] (2001541813, '{"domain":"recorder","service":"purge_entities"}')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3282698Z 2026-10-12 08:41:20.985 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO events (event_type, event_data, origin, origin_idx, time_fired, time_fired_ts, context_id, context_user_id, context_parent_id, data_id, context_id_bin, context_user_id_bin, context_parent_id_bin, event_type_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING event_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3283418Z 2026-10-12 08:41:20.985 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.002651s ago] ('service_registered', None, None, 0, None, 1791794480.930565, '01M4QMC1S2V3470SH5JNY8Z4HX', None, None, 2, None, None, None, 1)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3283754Z 2026-10-12 08:41:20.985 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3284013Z 2026-10-12 08:41:20.986 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3284388Z 2026-10-12 08:41:20.986 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_data.data_id, event_data.shared_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3284491Z FROM event_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3284598Z WHERE event_data.hash IN (?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3284943Z 2026-10-12 08:41:20.986 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.009629s ago] (616907209,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3285399Z 2026-10-12 08:41:20.987 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_data (hash, shared_data) VALUES (?, ?) RETURNING data_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3285880Z 2026-10-12 08:41:20.987 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.006487s ago] (616907209, '{"domain":"recorder","service":"enable"}')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3287016Z 2026-10-12 08:41:20.987 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO events (event_type, event_data, origin, origin_idx, time_fired, time_fired_ts, context_id, context_user_id, context_parent_id, data_id, context_id_bin, context_user_id_bin, context_parent_id_bin, event_type_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING event_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3287908Z 2026-10-12 08:41:20.987 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.004781s ago] ('service_registered', None, None, 0, None, 1791794480.930597, '01M4QMC1S2XA5TS1GCAH2RPQXZ', None, None, 3, None, None, None, 1)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3288153Z 2026-10-12 08:41:20.987 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3288419Z 2026-10-12 08:41:20.988 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3288798Z 2026-10-12 08:41:20.988 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_data.data_id, event_data.shared_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3288900Z FROM event_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3289009Z WHERE event_data.hash IN (?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3289353Z 2026-10-12 08:41:20.988 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01176s ago] (3478486156,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3289811Z 2026-10-12 08:41:20.989 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_data (hash, shared_data) VALUES (?, ?) RETURNING data_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3290300Z 2026-10-12 08:41:20.989 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.008616s ago] (3478486156, '{"domain":"recorder","service":"disable"}')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3291418Z 2026-10-12 08:41:20.989 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO events (event_type, event_data, origin, origin_idx, time_fired, time_fired_ts, context_id, context_user_id, context_parent_id, data_id, context_id_bin, context_user_id_bin, context_parent_id_bin, event_type_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING event_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3292150Z 2026-10-12 08:41:20.989 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.006988s ago] ('service_registered', None, None, 0, None, 1791794480.930622, '01M4QMC1S2QTYANH7569HVCJME', None, None, 4, None, None, None, 1)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3292503Z 2026-10-12 08:41:20.990 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3292763Z 2026-10-12 08:41:20.990 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3293132Z 2026-10-12 08:41:20.990 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_data.data_id, event_data.shared_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3293229Z FROM event_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3293338Z WHERE event_data.hash IN (?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3293685Z 2026-10-12 08:41:20.990 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01397s ago] (1936967080,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3294251Z 2026-10-12 08:41:20.991 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_data (hash, shared_data) VALUES (?, ?) RETURNING data_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3294758Z 2026-10-12 08:41:20.991 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.0108s ago] (1936967080, '{"domain":"recorder","service":"get_statistics"}')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3295892Z 2026-10-12 08:41:20.991 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO events (event_type, event_data, origin, origin_idx, time_fired, time_fired_ts, context_id, context_user_id, context_parent_id, data_id, context_id_bin, context_user_id_bin, context_parent_id_bin, event_type_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING event_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3296614Z 2026-10-12 08:41:20.991 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.009147s ago] ('service_registered', None, None, 0, None, 1791794480.930651, '01M4QMC1S2X7N202V4TP8BVFSR', None, None, 5, None, None, None, 1)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3296850Z 2026-10-12 08:41:20.992 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3297117Z 2026-10-12 08:41:20.992 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3297496Z 2026-10-12 08:41:20.992 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 SELECT event_data.data_id, event_data.shared_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3297601Z FROM event_data 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3297843Z WHERE event_data.hash IN (?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3298199Z 2026-10-12 08:41:20.993 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01616s ago] (2705000516,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3298654Z 2026-10-12 08:41:20.993 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_data (hash, shared_data) VALUES (?, ?) RETURNING data_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3299086Z 2026-10-12 08:41:20.993 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01305s ago] (2705000516, '{"component":"recorder"}')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3299543Z 2026-10-12 08:41:20.994 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO event_types (event_type) VALUES (?) RETURNING event_type_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3299918Z 2026-10-12 08:41:20.994 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01263s ago] ('component_loaded',)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3301043Z 2026-10-12 08:41:20.994 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 INSERT INTO events (event_type, event_data, origin, origin_idx, time_fired, time_fired_ts, context_id, context_user_id, context_parent_id, data_id, context_id_bin, context_user_id_bin, context_parent_id_bin, event_type_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING event_id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3301752Z 2026-10-12 08:41:20.994 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01182s ago] ('component_loaded', None, None, 0, None, 1791794480.972026, '01M4QMC1TC9HQYNQAWWBJ4S1BA', None, None, 6, None, None, None, 2)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3301985Z 2026-10-12 08:41:20.995 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3302198Z ----------------------------- Captured stderr call -----------------------------
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3302345Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3302975Z INFO:sqlalchemy.engine.Engine:INSERT INTO statistics_meta (id, statistic_id, source, unit_of_measurement, has_mean, has_sum, name) VALUES (?, ?, ?, ?, ?, ?, ?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3303260Z INFO:sqlalchemy.engine.Engine:[generated in 0.00019s] (1000, 'test', 'test', 'test', 1, 1, '1')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3303386Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3303527Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3304267Z INFO:sqlalchemy.engine.Engine:INSERT INTO statistics_short_term (created, created_ts, metadata_id, start, start_ts, mean, min, max, last_reset, last_reset_ts, state, sum, mean_weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3304996Z INFO:sqlalchemy.engine.Engine:[generated in 0.00022s] ('2025-10-12 08:41:20.999625', 1791794481.0045686, 1000, '2025-10-12 08:41:20.999625', None, None, None, None, '2025-10-12 08:41:20.999625', None, 1.0, None, None)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3305120Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3305266Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3306202Z INFO:sqlalchemy.engine.Engine:UPDATE statistics set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3306374Z INFO:sqlalchemy.engine.Engine:[generated in 0.00013s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3306493Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3306631Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3307570Z INFO:sqlalchemy.engine.Engine:UPDATE statistics_short_term set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3307852Z INFO:sqlalchemy.engine.Engine:[generated in 0.00014s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3308078Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3308282Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3318797Z INFO:sqlalchemy.engine.Engine:INSERT INTO statistics_short_term (created, created_ts, metadata_id, start, start_ts, mean, mean_weight, min, max, last_reset, last_reset_ts, state, sum) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3319418Z INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] (None, 1776242480.999625, 1000, None, 1776242480.999625, None, None, None, None, None, 1776242480.999625, 1.0, None)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3319557Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3319728Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3320646Z INFO:sqlalchemy.engine.Engine:UPDATE statistics set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3320848Z INFO:sqlalchemy.engine.Engine:[cached since 0.007229s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3320978Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3321120Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3322059Z INFO:sqlalchemy.engine.Engine:UPDATE statistics_short_term set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3322246Z INFO:sqlalchemy.engine.Engine:[cached since 0.007356s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3322373Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3322515Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3323262Z INFO:sqlalchemy.engine.Engine:INSERT INTO statistics_short_term (created, created_ts, metadata_id, start, start_ts, mean, min, max, last_reset, last_reset_ts, state, sum, mean_weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3324093Z INFO:sqlalchemy.engine.Engine:[cached since 0.01313s ago] ('2026-09-12 08:41:20.999625', 1791794481.0175152, 1000, '2026-09-12 08:41:20.999625', None, None, None, None, '2026-09-12 08:41:20.999625', None, 1.0, None, None)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3324221Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3324367Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3325279Z INFO:sqlalchemy.engine.Engine:UPDATE statistics set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3325581Z INFO:sqlalchemy.engine.Engine:[cached since 0.01261s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3325702Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3325842Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3326774Z INFO:sqlalchemy.engine.Engine:UPDATE statistics_short_term set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3326964Z INFO:sqlalchemy.engine.Engine:[cached since 0.01253s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3327083Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3327220Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3330509Z INFO:sqlalchemy.engine.Engine:SELECT statistics_short_term.id AS statistics_short_term_id, statistics_short_term.created AS statistics_short_term_created, statistics_short_term.created_ts AS statistics_short_term_created_ts, statistics_short_term.metadata_id AS statistics_short_term_metadata_id, statistics_short_term.start AS statistics_short_term_start, statistics_short_term.start_ts AS statistics_short_term_start_ts, statistics_short_term.mean AS statistics_short_term_mean, statistics_short_term.min AS statistics_short_term_min, statistics_short_term.max AS statistics_short_term_max, statistics_short_term.last_reset AS statistics_short_term_last_reset, statistics_short_term.last_reset_ts AS statistics_short_term_last_reset_ts, statistics_short_term.state AS statistics_short_term_state, statistics_short_term.sum AS statistics_short_term_sum, statistics_short_term.mean_weight AS statistics_short_term_mean_weight 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3330656Z FROM statistics_short_term 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3330782Z WHERE statistics_short_term.metadata_id = ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3330965Z INFO:sqlalchemy.engine.Engine:[generated in 0.00016s] (1000,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3331089Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3331299Z ------------------------------ Captured log call -------------------------------
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3331596Z 2026-10-12 08:41:21.000 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3332261Z 2026-10-12 08:41:21.001 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 INSERT INTO statistics_meta (id, statistic_id, source, unit_of_measurement, has_mean, has_sum, name) VALUES (?, ?, ?, ?, ?, ?, ?)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3332693Z 2026-10-12 08:41:21.001 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00019s] (1000, 'test', 'test', 'test', 1, 1, '1')
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3332940Z 2026-10-12 08:41:21.001 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3333221Z 2026-10-12 08:41:21.003 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3334117Z 2026-10-12 08:41:21.004 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 INSERT INTO statistics_short_term (created, created_ts, metadata_id, start, start_ts, mean, min, max, last_reset, last_reset_ts, state, sum, mean_weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3335008Z 2026-10-12 08:41:21.004 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00022s] ('2025-10-12 08:41:20.999625', 1791794481.0045686, 1000, '2025-10-12 08:41:20.999625', None, None, None, None, '2025-10-12 08:41:20.999625', None, 1.0, None, None)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3335251Z 2026-10-12 08:41:21.005 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3335521Z 2026-10-12 08:41:21.007 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3336571Z 2026-10-12 08:41:21.008 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 UPDATE statistics set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3337042Z 2026-10-12 08:41:21.008 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00013s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3337289Z 2026-10-12 08:41:21.008 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3337563Z 2026-10-12 08:41:21.008 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3338821Z 2026-10-12 08:41:21.008 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 UPDATE statistics_short_term set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3339149Z 2026-10-12 08:41:21.008 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00014s] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3339390Z 2026-10-12 08:41:21.009 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3339663Z 2026-10-12 08:41:21.010 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3340562Z 2026-10-12 08:41:21.011 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 INSERT INTO statistics_short_term (created, created_ts, metadata_id, start, start_ts, mean, mean_weight, min, max, last_reset, last_reset_ts, state, sum) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3341213Z 2026-10-12 08:41:21.011 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00030s] (None, 1776242480.999625, 1000, None, 1776242480.999625, None, None, None, None, None, 1776242480.999625, 1.0, None)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3341450Z 2026-10-12 08:41:21.012 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3341724Z 2026-10-12 08:41:21.015 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3342767Z 2026-10-12 08:41:21.015 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 UPDATE statistics set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3343104Z 2026-10-12 08:41:21.015 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 [cached since 0.007229s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3343338Z 2026-10-12 08:41:21.015 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3343608Z 2026-10-12 08:41:21.015 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3344686Z 2026-10-12 08:41:21.015 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 UPDATE statistics_short_term set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3345139Z 2026-10-12 08:41:21.016 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 [cached since 0.007356s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3345374Z 2026-10-12 08:41:21.016 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3345646Z 2026-10-12 08:41:21.017 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3346539Z 2026-10-12 08:41:21.017 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 INSERT INTO statistics_short_term (created, created_ts, metadata_id, start, start_ts, mean, min, max, last_reset, last_reset_ts, state, sum, mean_weight) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING id
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3347434Z 2026-10-12 08:41:21.017 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01313s ago] ('2026-09-12 08:41:20.999625', 1791794481.0175152, 1000, '2026-09-12 08:41:20.999625', None, None, None, None, '2026-09-12 08:41:20.999625', None, 1.0, None, None)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3347794Z 2026-10-12 08:41:21.018 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3348073Z 2026-10-12 08:41:21.020 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3349124Z 2026-10-12 08:41:21.020 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 UPDATE statistics set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3349449Z 2026-10-12 08:41:21.020 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01261s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3349691Z 2026-10-12 08:41:21.020 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3349960Z 2026-10-12 08:41:21.020 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3351043Z 2026-10-12 08:41:21.021 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 UPDATE statistics_short_term set start_ts=strftime('%s',start) + cast(substr(start,-7) AS FLOAT), created_ts=strftime('%s',created) + cast(substr(created,-7) AS FLOAT), last_reset_ts=strftime('%s',last_reset) + cast(substr(last_reset,-7) AS FLOAT) where start_ts is NULL;
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3351362Z 2026-10-12 08:41:21.021 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:1848 [cached since 0.01253s ago] ()
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3351596Z 2026-10-12 08:41:21.021 INFO     SyncWorker_0 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3351858Z 2026-10-12 08:41:21.022 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3355108Z 2026-10-12 08:41:21.024 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 SELECT statistics_short_term.id AS statistics_short_term_id, statistics_short_term.created AS statistics_short_term_created, statistics_short_term.created_ts AS statistics_short_term_created_ts, statistics_short_term.metadata_id AS statistics_short_term_metadata_id, statistics_short_term.start AS statistics_short_term_start, statistics_short_term.start_ts AS statistics_short_term_start_ts, statistics_short_term.mean AS statistics_short_term_mean, statistics_short_term.min AS statistics_short_term_min, statistics_short_term.max AS statistics_short_term_max, statistics_short_term.last_reset AS statistics_short_term_last_reset, statistics_short_term.last_reset_ts AS statistics_short_term_last_reset_ts, statistics_short_term.state AS statistics_short_term_state, statistics_short_term.sum AS statistics_short_term_sum, statistics_short_term.mean_weight AS statistics_short_term_mean_weight 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3355239Z FROM statistics_short_term 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3355372Z WHERE statistics_short_term.metadata_id = ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3355715Z 2026-10-12 08:41:21.024 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00016s] (1000,)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3356082Z 2026-10-12 08:41:21.024 INFO     SyncWorker_1 sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3356294Z --------------------------- Captured stderr teardown ---------------------------
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3356434Z INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3356726Z INFO:sqlalchemy.engine.Engine:UPDATE recorder_runs SET "end"=? WHERE recorder_runs.run_id = ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3356987Z INFO:sqlalchemy.engine.Engine:[generated in 0.00020s] ('2026-10-12 08:41:21.248984', 1)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3357111Z INFO:sqlalchemy.engine.Engine:COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3357353Z INFO:homeassistant.components.recorder.pool.MutexPool:Pool recreating
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3357778Z ---------------------------- Captured log teardown -----------------------------
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3358101Z 2026-10-12 08:41:21.249 INFO     Recorder sqlalchemy.engine.Engine:base.py:2712 BEGIN (implicit)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3358544Z 2026-10-12 08:41:21.249 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 UPDATE recorder_runs SET "end"=? WHERE recorder_runs.run_id = ?
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3358944Z 2026-10-12 08:41:21.250 INFO     Recorder sqlalchemy.engine.Engine:base.py:1848 [generated in 0.00020s] ('2026-10-12 08:41:21.248984', 1)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3359176Z 2026-10-12 08:41:21.250 INFO     Recorder sqlalchemy.engine.Engine:base.py:2718 COMMIT
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3359551Z 2026-10-12 08:41:21.250 INFO     Recorder homeassistant.components.recorder.pool.MutexPool:impl.py:486 Pool recreating
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3359723Z ============================== slowest durations ===============================
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3359730Z 
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3359852Z (5995 durations < 10s hidden.)
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3360028Z =========================== short test summary info ============================
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3360732Z FAILED tests/components/recorder/test_migration_from_schema_32.py::test_stats_timestamp_conversion_is_reentrant - AssertionError: assert [{'created': ...999625), ...}] == [{'created': ...999625), ...}]
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3360830Z   
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363159Z   At index 0 diff: {'id': 1, 'created': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625), 'created_ts': 1760258481.999625, 'metadata_id': 1000, 'start': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625), 'start_ts': 1760258481.999625, 'mean': None, 'min': None, 'max': None, 'last_reset': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625), 'last_reset_ts': 1760258481.999625, 'state': 1.0, 'sum': None, 'mean_weight': None} != {'created': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625), 'created_ts': 1760258480.999625, 'id': 1, 'last_reset': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625), 'last_reset_ts': 1760258480.999625, 'max': None, 'mean': None, 'mean_weight': None, 'metadata_id': 1000, 'min': None, 'start': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625), 'start_ts': 1760258480.999625, 'state': 1.0, 'sum': None}
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363259Z   
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363359Z   Full diff:
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363450Z     [
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363543Z         {
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363734Z             'created': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625),
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363850Z   -         'created_ts': 1760258480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3363956Z   ?                                ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364067Z   +         'created_ts': 1760258481.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364166Z   ?                                ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364262Z             'id': 1,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364455Z             'last_reset': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625),
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364577Z   -         'last_reset_ts': 1760258480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364691Z   ?                                   ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364817Z   +         'last_reset_ts': 1760258481.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3364921Z   ?                                   ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365025Z             'max': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365129Z             'mean': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365354Z             'mean_weight': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365459Z             'metadata_id': 1000,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365561Z             'min': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365746Z             'start': datetime.datetime(2025, 10, 12, 8, 41, 20, 999625),
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365860Z   -         'start_ts': 1760258480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3365963Z   ?                              ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366071Z   +         'start_ts': 1760258481.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366171Z   ?                              ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366274Z             'state': 1.0,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366372Z             'sum': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366469Z         },
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366668Z         {
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366774Z             'created': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366888Z             'created_ts': 1776242480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3366986Z             'id': 2,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367093Z             'last_reset': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367213Z             'last_reset_ts': 1776242480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367318Z             'max': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367419Z             'mean': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367524Z             'mean_weight': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367630Z             'metadata_id': 1000,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367883Z             'min': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3367987Z             'start': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368095Z             'start_ts': 1776242480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368191Z             'state': 1.0,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368292Z             'sum': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368389Z         },
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368480Z         {
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368663Z             'created': datetime.datetime(2026, 9, 12, 8, 41, 20, 999625),
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368785Z   -         'created_ts': 1789202480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3368889Z   ?                                ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369000Z   +         'created_ts': 1789202481.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369100Z   ?                                ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369202Z             'id': 3,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369396Z             'last_reset': datetime.datetime(2026, 9, 12, 8, 41, 20, 999625),
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369512Z   -         'last_reset_ts': 1789202480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369609Z   ?                                   ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369723Z   +         'last_reset_ts': 1789202481.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369822Z   ?                                   ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3369921Z             'max': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370024Z             'mean': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370127Z             'mean_weight': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370232Z             'metadata_id': 1000,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370336Z             'min': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370510Z             'start': datetime.datetime(2026, 9, 12, 8, 41, 20, 999625),
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370620Z   -         'start_ts': 1789202480.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370720Z   ?                              ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370829Z   +         'start_ts': 1789202481.999625,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3370938Z   ?                              ^
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3371032Z             'state': 1.0,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3371130Z             'sum': None,
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3371222Z         },
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:32.3371314Z     ]
+Run SQLite 3.40.1 tests Python 3.14.5	Run pytest (partially)	2026-10-12T08:41:33.2218775Z ##[error]Process completed with exit code 1.

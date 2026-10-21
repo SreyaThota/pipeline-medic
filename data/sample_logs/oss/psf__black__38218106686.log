@@ -1,0 +1,400 @@
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9039602Z If you want to create a new branch to retain commits you create, you may
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9039991Z do so (now or later) by using -c with the switch command. Example:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9040152Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9040294Z   git switch -c <new-branch-name>
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9040509Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9040659Z Or undo this operation with:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9040814Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9040882Z   git switch -
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9041009Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9041165Z Turn off this advice by setting config variable advice.detachedHead to false
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9041435Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9041693Z HEAD is now at 133b9c1 Merge c85487b73b92831c2349d624c264edf98399206e into 11cff1312bf96e02bce9a467d0b5a2dd65300642
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9136392Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9444463Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9619351Z 133b9c1a1f210075aa38974d35647a2b46ccb23a
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9647136Z ##[group]Removing auth
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9647422Z Removing SSH command configuration
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9652580Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:44.9842755Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.3631518Z Removing HTTP extra header
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.3636468Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.3847014Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.7885949Z Removing includeIf entries pointing to credentials config files
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.7892731Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8084649Z includeif.gitdir:D:/a/black/black/.git.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8085007Z includeif.gitdir:D:/a/black/black/.git/worktrees/*.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8085452Z includeif.gitdir:/github/workspace/.git.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8085721Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8121302Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/black/black/.git.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8313410Z D:\a\_temp\git-credentials-b66bdecf-9520-4d2c-9075-805b9a3135d2.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8351094Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/black/black/.git.path D\:\\a\\_temp\\git\-credentials\-b66bdecf\-9520\-4d2c\-9075\-805b9a3135d2\.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8580164Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/black/black/.git/worktrees/*.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8773456Z D:\a\_temp\git-credentials-b66bdecf-9520-4d2c-9075-805b9a3135d2.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.8814349Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/black/black/.git/worktrees/*.path D\:\\a\\_temp\\git\-credentials\-b66bdecf\-9520\-4d2c\-9075\-805b9a3135d2\.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.9057276Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.9248624Z /github/runner_temp/git-credentials-b66bdecf-9520-4d2c-9075-805b9a3135d2.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.9283884Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-b66bdecf\-9520\-4d2c\-9075\-805b9a3135d2\.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.9532231Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.9732687Z /github/runner_temp/git-credentials-b66bdecf-9520-4d2c-9075-805b9a3135d2.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:45.9772956Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-b66bdecf\-9520\-4d2c\-9075\-805b9a3135d2\.config
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.0020316Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4068809Z Removing credentials config 'D:\a\_temp\git-credentials-b66bdecf-9520-4d2c-9075-805b9a3135d2.config'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4111597Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4411978Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4412261Z with:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4412383Z   python-version: 3.15
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4412509Z   allow-prereleases: true
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4412637Z   check-latest: false
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4414158Z   token: ***
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4414275Z   update-environment: true
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4414406Z   freethreaded: false
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4414522Z env:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4414640Z   PIP_UPLOADED_PRIOR_TO: P2D
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4414809Z   PROJECT: https://pypi.org/p/black
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.4415156Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.5472850Z ##[group]Installed versions
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:46.5663084Z Version ~3.15.0-0 was not found in the local cache
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:47.4361256Z Version ~3.15.0-0 is available for downloading
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:47.4361935Z Download from "https://github.com/actions/python-versions/releases/download/3.15.0-38076878863/python-3.15.0-win32-x64.zip"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:47.9405612Z Extract downloaded archive
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:48.0340117Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command "$ErrorActionPreference = 'Stop' ; try { Add-Type -AssemblyName System.IO.Compression.ZipFile } catch { } ; try { [System.IO.Compression.ZipFile]::ExtractToDirectory('D:\a\_temp\python-3.15.0-win32-x64.zip', 'D:\a\_temp\fde6ed11-3603-42b2-aa03-57c0adfa01d7', $true) } catch { if (($_.Exception.GetType().FullName -eq 'System.Management.Automation.MethodException') -or ($_.Exception.GetType().FullName -eq 'System.Management.Automation.RuntimeException') ){ Expand-Archive -LiteralPath 'D:\a\_temp\python-3.15.0-win32-x64.zip' -DestinationPath 'D:\a\_temp\fde6ed11-3603-42b2-aa03-57c0adfa01d7' -Force } else { throw $_ } } ;"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:48.3801316Z Execute installation script
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9347247Z Check if Python hostedtoolcache folder exist...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9348593Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9480825Z Check if current Python version is installed...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9481037Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9605510Z No Python3.15.* found
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9606561Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9610870Z Remove registry entries for Python 3.15(x64)...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:50.9611665Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:51.3554885Z Create Python 3.15.0 folder in C:\hostedtoolcache\windows\Python
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:51.3555193Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:51.3609329Z Copy Python binaries to C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:51.3610119Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:51.3778607Z Install Python 3.15.0 in C:\hostedtoolcache\windows\Python...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:30:51.3779380Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7085768Z Create python3 symlink
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7086810Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7712569Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7714430Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7718454Z Directory: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7718714Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7725367Z Mode                 LastWriteTime         Length Name
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7728098Z ----                 -------------         ------ ----
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7735223Z -a---l        10/12/2026   7:31 AM              0 python3.exe
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7741592Z Install and upgrade Pip
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:18.7743227Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:19.7485494Z Collecting pip
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:19.8135320Z Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:19.8527727Z Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:19.9685291Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:19.9686603Z ---------------------------------------- 1.8/1.8 MB 22.0 MB/s  0:00:00
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:19.9686976Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:20.0054738Z Installing collected packages: pip
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:20.0054968Z Attempting uninstall: pip
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:20.0069408Z Found existing installation: pip 26.2.1
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:20.0396453Z Uninstalling pip-26.2.1:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:20.0496077Z Successfully uninstalled pip-26.2.1
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:21.6898637Z Successfully installed pip-26.2.1
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:21.7445404Z Create complete file
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:21.7445661Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:21.7456772Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:21.7457291Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1439265Z Successfully set up CPython (3.15.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1439664Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1673127Z ##[group]Run python -m pip install --group cibw
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1673464Z ^[[36;1mpython -m pip install --group cibw^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1781148Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1781354Z env:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1781488Z   PIP_UPLOADED_PRIOR_TO: P2D
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1781666Z   PROJECT: https://pypi.org/p/black
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1781867Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1782131Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.15.0\x64/lib/pkgconfig
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1782380Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1782611Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1782830Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:22.1783008Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.3678731Z Collecting cibuildwheel==4.1.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.4445340Z   Downloading cibuildwheel-4.1.0-py3-none-any.whl.metadata (33 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.5129324Z Collecting bashlex!=0.13 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.5283092Z   Downloading bashlex-0.18-py2.py3-none-any.whl.metadata (1.1 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.5925622Z Collecting bracex (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.6100590Z   Downloading bracex-3.0.1-py3-none-any.whl.metadata (3.3 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.6818796Z Collecting build>=1.0.0 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.6972530Z   Downloading build-1.6.1-py3-none-any.whl.metadata (5.6 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.7991126Z Collecting certifi (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.8149033Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.8748238Z Collecting dependency-groups>=1.2 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.8902693Z   Downloading dependency_groups-1.3.2-py3-none-any.whl.metadata (2.4 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.9535133Z Collecting filelock (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:23.9695700Z   Downloading filelock-4.1.0-py3-none-any.whl.metadata (2.0 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.0399377Z Collecting humanize (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.0563625Z   Downloading humanize-4.16.0-py3-none-any.whl.metadata (8.0 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.1121448Z Collecting packaging>=20.9 (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.1280266Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.1906080Z Collecting platformdirs (from cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.2063392Z   Downloading platformdirs-4.12.4-py3-none-any.whl.metadata (5.5 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.2630461Z Collecting pyproject_hooks (from build>=1.0.0->cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.2785251Z   Downloading pyproject_hooks-1.3.3-py3-none-any.whl.metadata (1.3 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.3301262Z Collecting colorama (from build>=1.0.0->cibuildwheel==4.1.0)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.3458924Z   Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.3815643Z Downloading cibuildwheel-4.1.0-py3-none-any.whl (164 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.4411967Z Downloading bashlex-0.18-py2.py3-none-any.whl (69 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.4751209Z Downloading build-1.6.1-py3-none-any.whl (31 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.5050520Z Downloading dependency_groups-1.3.2-py3-none-any.whl (9.8 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.5368424Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.5834587Z Downloading bracex-3.0.1-py3-none-any.whl (11 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.6168289Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.6493645Z Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.6811346Z Downloading filelock-4.1.0-py3-none-any.whl (133 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.7126196Z Downloading humanize-4.16.0-py3-none-any.whl (137 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.7501344Z Downloading platformdirs-4.12.4-py3-none-any.whl (32 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.7794401Z Downloading pyproject_hooks-1.3.3-py3-none-any.whl (10 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:24.8564649Z Installing collected packages: pyproject_hooks, platformdirs, packaging, humanize, filelock, colorama, certifi, bracex, bashlex, dependency-groups, build, cibuildwheel
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.6539926Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.6550131Z Successfully installed bashlex-0.18 bracex-3.0.1 build-1.6.1 certifi-2026.7.22 cibuildwheel-4.1.0 colorama-0.4.6 dependency-groups-1.3.2 filelock-4.1.0 humanize-4.16.0 packaging-26.3 platformdirs-4.12.4 pyproject_hooks-1.3.3
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.7981108Z ##[group]Run cibuildwheel . --only cp314-win_amd64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.7981370Z ^[[36;1mcibuildwheel . --only cp314-win_amd64^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8029634Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8029832Z env:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8029951Z   PIP_UPLOADED_PRIOR_TO: P2D
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8030109Z   PROJECT: https://pypi.org/p/black
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8030306Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8030559Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.15.0\x64/lib/pkgconfig
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8030819Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8031039Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8031263Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.15.0\x64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:25.8031453Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1968104Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1968420Z      _ _       _ _   _       _           _
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1968636Z  ___|_| |_ _ _|_| |_| |_ _ _| |_ ___ ___| |
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1968801Z |  _| | . | | | | | . | | | |   | -_| -_| |
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1968950Z |___|_|___|___|_|_|___|_____|_|_|___|___|_|
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1969051Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1969106Z cibuildwheel version 4.1.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1969193Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1969234Z Build options:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.1969343Z   platform: windows
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2647687Z   ^[[38;5;244mallow_empty: False^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2648042Z   architectures: AMD64, ARM64, x86^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2648271Z   build_selector: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2648423Z     build_config: cp314-win_amd64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2648556Z     skip_config: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2648670Z     requires_python: >=3.10
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2648987Z     enable: ['cpython-prerelease', 'graalpy', 'pyodide-eol', 'pyodide-prerelease', 'pypy', 'pypy-eol']^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2649632Z   output_dir: D:\a\black\black\wheelhouse^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2649821Z   package_dir: D:\a\black\black^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2649956Z   test_selector: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2650140Z     skip_config: *-macosx_arm64 *-macosx_universal2:arm64^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2650351Z   ^[[38;5;244maudit_command: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2650565Z ^[[38;5;244m    abi3audit --strict --report {abi3_wheel}^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2650764Z   ^[[38;5;244maudit_requires: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2650905Z ^[[38;5;244m    abi3audit^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2651179Z   ^[[38;5;244mbefore_all: ^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2651367Z   ^[[38;5;244mbefore_build: ^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2651548Z   ^[[38;5;244mbefore_test: ^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2651705Z   ^[[38;5;244mbuild_frontend: build^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2651867Z   build_verbosity: 1^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2652016Z   ^[[38;5;244mconfig_settings: ^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2652179Z   ^[[38;5;244mcontainer_engine: docker^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2652376Z   ^[[38;5;244mdependency_constraints: pinned^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2652531Z   environment: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2652644Z     HATCH_BUILD_HOOKS_ENABLE="1"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2652779Z     MYPYC_OPT_LEVEL="3"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2652898Z     MYPYC_DEBUG_LEVEL="0"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2653029Z     CC="clang"^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2653164Z   ^[[38;5;244mmanylinux_images: None^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2653330Z   ^[[38;5;244mmusllinux_images: None^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2653493Z   ^[[38;5;244mpyodide_version: None^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2653726Z   ^[[38;5;244mrepair_command: delvewheel repair -w {dest_dir} -v {wheel}^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2654038Z   test_command: pytest {project} -k "not incompatible_with_mypyc" -n auto^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2654287Z   ^[[38;5;244mtest_environment: ^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2654514Z   test_extras: [d,jupyter]^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2654643Z   test_groups: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2654829Z     tests^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2654941Z   test_requires: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2655043Z     pytest>=7
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2656754Z     pytest-xdist>=3.0.2^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2656957Z   ^[[38;5;244mtest_runtime: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2657090Z ^[[38;5;244m    args: ()^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2657230Z   ^[[38;5;244mtest_sources: ^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2657373Z   ^[[38;5;244mxbuild_files: 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2657884Z ^[[38;5;244m    numpy: ['numpy/_core/include/numpy/_numpyconfig.h', 'numpy/_core/include/numpy/numpyconfig.h', 'numpy/_core/lib/libnpymath.a', 'numpy/random/lib/libnpyrandom.a']^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2658283Z   ^[[38;5;244mxbuild_tools: None^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2658377Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2658490Z Cache folder: C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2658649Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2711109Z 1 build selected:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2711327Z cp314-win_amd64
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2711440Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2711504Z Here we go!
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2711597Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2792338Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2792734Z ^[[1m^[[34mBuilding cp314-win_amd64 wheel^[[0m
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2793032Z CPython 3.14 Windows 64bit
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2793366Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2797575Z ##[group]Installing Python cp314...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.2797694Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.5828326Z + Download https://dist.nuget.org/win-x86-commandline/latest/nuget.exe to C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget.exe
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:26.9876169Z + 'C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget.exe' install python -Version 3.14.5 -FallbackSource https://api.nuget.org/v3/index.json -OutputDirectory 'C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget-cpython'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.4903384Z Feeds used:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.4903621Z   https://api.nuget.org/v3/index.json
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.4904155Z   C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.4904418Z   https://api.nuget.org/v3/index.json
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.4904563Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.5287688Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.5287700Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:28.5622491Z Attempting to gather dependency information for package 'python.3.14.5' with respect to project 'C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget-cpython', targeting 'Any,Version=v0.0'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.0025904Z Gathering dependency information took 432 ms
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.0084628Z Attempting to resolve dependencies for package 'python.3.14.5' with DependencyBehavior 'Lowest'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.0524036Z Resolving dependency information took 0 ms
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.0524370Z Resolving actions to install package 'python.3.14.5'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.0535826Z Resolved actions to install package 'python.3.14.5'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.0686836Z Retrieving package 'python 3.14.5' from 'nuget.org'.
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.2529237Z   GET https://api.nuget.org/v3-flatcontainer/python/3.14.5/python.3.14.5.nupkg
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:29.2721884Z   OK https://api.nuget.org/v3-flatcontainer/python/3.14.5/python.3.14.5.nupkg 19ms
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:36.9414704Z Installed python 3.14.5 from https://api.nuget.org/v3/index.json to C:\Users\runneradmin\.nuget\packages\python\3.14.5 with content hash dv3inhnmx1JhBq74sUXKY3WJIkihZYIsSu9s6X/XrA7HCE5e7FYPXkVTOSqbea5VWCwfOOfkVFlNuRd5LGnnNA==.
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:36.9514186Z Adding package 'python.3.14.5' to folder 'C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget-cpython'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1088074Z Added package 'python.3.14.5' to folder 'C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget-cpython'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1095120Z Successfully installed 'python 3.14.5' to C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget-cpython
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1108768Z Executing nuget actions took 10.05 sec
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1317006Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1318021Z                                                              ^[[32m✓ ^[[0m12.85s
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1318381Z ##[group]Setting up build environment...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1318522Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.1330454Z + Download https://github.com/pypa/get-virtualenv/releases/download/21.4.2/virtualenv.pyz to C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\virtualenv-21.4.2.pyz
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:39.4623107Z + 'C:\hostedtoolcache\windows\Python\3.15.0\x64\python.exe' -sS 'C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\virtualenv-21.4.2.pyz' --activators= --no-periodic-update --pip=26.1.2 --no-setuptools --python 'C:\Users\runneradmin\AppData\Local\pypa\cibuildwheel\Cache\nuget-cpython\python.3.14.5\tools\python.exe' 'C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:42.6360275Z created virtual environment CPython3.14.5.final.0-64-x86_64 in 2970ms
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:42.6360783Z   creator CPython3Windows(dest=C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv, clear=False, no_vcs_ignore=False, global=False)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:42.6361324Z   seeder FromAppData(download=False, pip=26.1.2, via=copy, app_data_dir=C:\Users\runneradmin\AppData\Local\pypa\virtualenv\Cache)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:42.6372173Z     added seed packages: pip==26.1.2
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:42.6598571Z + where python
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:43.4234484Z C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv\Scripts\python.exe
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:43.4234848Z + python -V -V
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:43.4399053Z Python 3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:43.4423931Z + python -c '"import struct; print(struct.calcsize('"'"'P'"'"') * 8)"'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:43.4804506Z + where pip
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:43.5346845Z C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv\Scripts\pip.exe
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:43.5347439Z + pip --version
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:44.3158695Z pip 26.1.2 from C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv\Lib\site-packages\pip (python 3.14)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:44.3159027Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:44.3445576Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:44.3446187Z                                                               ^[[32m✓ ^[[0m5.21s
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:44.3446527Z ##[group]Installing build tools...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:44.3446626Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:44.3446963Z + pip install --upgrade 'build[virtualenv]' delvewheel -c file:///C:/hostedtoolcache/windows/Python/3.15.0/x64/Lib/site-packages/cibuildwheel/resources/constraints-python314.txt
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.0687637Z Collecting delvewheel
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.2730587Z   Downloading delvewheel-1.13.0-py3-none-any.whl.metadata (20 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.3461931Z Collecting build[virtualenv]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.3616249Z   Downloading build-1.5.0-py3-none-any.whl.metadata (5.7 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.4126914Z Collecting packaging>=24.0 (from build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.4278676Z   Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.4713839Z Collecting pyproject_hooks (from build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.4866850Z   Downloading pyproject_hooks-1.2.0-py3-none-any.whl.metadata (1.3 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.5357954Z Collecting colorama (from build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.5372220Z   Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.6183767Z Collecting virtualenv>=20.31 (from build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.6343813Z   Downloading virtualenv-21.4.2-py3-none-any.whl.metadata (3.5 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.6887885Z Collecting pefile>=2024.8.26 (from delvewheel)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.7042555Z   Downloading pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.7533613Z Collecting distlib<1,>=0.3.7 (from virtualenv>=20.31->build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.7695085Z   Downloading distlib-0.4.1-py2.py3-none-any.whl.metadata (5.3 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.8179773Z Collecting filelock<4,>=3.24.2 (from virtualenv>=20.31->build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.8342225Z   Downloading filelock-3.29.1-py3-none-any.whl.metadata (2.0 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.8809758Z Collecting platformdirs<5,>=3.9.1 (from virtualenv>=20.31->build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.8969262Z   Downloading platformdirs-4.10.0-py3-none-any.whl.metadata (5.5 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.9518213Z Collecting python-discovery>=1.4 (from virtualenv>=20.31->build[virtualenv])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:46.9682570Z   Downloading python_discovery-1.4.0-py3-none-any.whl.metadata (5.6 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.0029510Z Downloading build-1.5.0-py3-none-any.whl (26 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.0403203Z Downloading delvewheel-1.13.0-py3-none-any.whl (59 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.0851424Z Downloading packaging-26.2-py3-none-any.whl (100 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.1240624Z Downloading pefile-2024.8.26-py3-none-any.whl (74 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.1567290Z Downloading virtualenv-21.4.2-py3-none-any.whl (7.6 MB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.3726243Z    ---------------------------------------- 7.6/7.6 MB 37.0 MB/s  0:00:00
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.3904093Z Downloading distlib-0.4.1-py2.py3-none-any.whl (469 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.4283279Z Downloading filelock-3.29.1-py3-none-any.whl (40 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.4606951Z Downloading platformdirs-4.10.0-py3-none-any.whl (22 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.5036223Z Downloading python_discovery-1.4.0-py3-none-any.whl (33 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.5250101Z Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.5407660Z Downloading pyproject_hooks-1.2.0-py3-none-any.whl (10 kB)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:47.5843222Z Installing collected packages: distlib, pyproject_hooks, platformdirs, pefile, packaging, filelock, colorama, python-discovery, delvewheel, build, virtualenv
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.4766143Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.4781138Z Successfully installed build-1.5.0 colorama-0.4.6 delvewheel-1.13.0 distlib-0.4.1 filelock-3.29.1 packaging-26.2 pefile-2024.8.26 platformdirs-4.10.0 pyproject_hooks-1.2.0 python-discovery-1.4.0 virtualenv-21.4.2
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.5427116Z + python -m pip freeze --all
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.8085754Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.8086254Z                                                               ^[[32m✓ ^[[0m4.46s
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.8087537Z ##[group]Building wheel...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.8087647Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.8089492Z + python -m build 'D:\a\black\black' --wheel '--outdir=C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\built_wheel'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.9674461Z * Creating isolated environment: venv+pip...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.9773411Z * Installing packages in isolated environment:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.9773736Z   - hatch-fancy-pypi-readme
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.9773942Z   - hatch-vcs>=0.3.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:48.9774247Z   - hatchling>=1.27.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:52.4385172Z * Getting build dependencies for wheel...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.0817186Z C:\Users\runneradmin\AppData\Local\Temp\build-env-8jhgin3j\Lib\site-packages\vcs_versioning\_backends\_git.py:709: UserWarning: "D:\a\black\black" is shallow and may cause errors
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.0817625Z   pre_parse(wd)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2882953Z * Installing packages in isolated environment:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2883355Z   - click>=8.0.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2883545Z   - hatch-mypyc>=0.16.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2883760Z   - mypy-extensions>=0.4.3
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2883961Z   - mypy==2.3.1
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2884129Z   - packaging>=22.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2884309Z   - pathspec>=1.0.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2884469Z   - platformdirs>=2
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2884632Z   - pytokens~=0.4.0
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2884812Z   - tomli>=1.1.0; python_version < '3.11'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:53.2885084Z   - typing-extensions>=4.0.1; python_version < '3.11'
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:57.8898721Z * Building wheel...
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:58.0566441Z C:\Users\runneradmin\AppData\Local\Temp\build-env-8jhgin3j\Lib\site-packages\vcs_versioning\_backends\_git.py:709: UserWarning: "D:\a\black\black" is shallow and may cause errors
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:31:58.0566889Z   pre_parse(wd)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6064262Z Traceback (most recent call last):
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6078161Z   File "C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv\Lib\site-packages\pyproject_hooks\_in_process\_in_process.py", line 389, in <module>
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6079261Z     main()
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6079423Z     ~~~~^^
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6080026Z   File "C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv\Lib\site-packages\pyproject_hooks\_in_process\_in_process.py", line 373, in main
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6080702Z     json_out["return_val"] = hook(**hook_input["kwargs"])
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6080976Z                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6081653Z   File "C:\Users\runneradmin\AppData\Local\Temp\cibw-run-556ap8oj\cp314-win_amd64\build\venv\Lib\site-packages\pyproject_hooks\_in_process\_in_process.py", line 280, in build_wheel
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6082291Z     return _build_backend().build_wheel(
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6082525Z            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6082851Z         wheel_directory, config_settings, metadata_directory
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6083139Z         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6083363Z     )
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6083502Z     ^
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6083932Z   File "C:\Users\runneradmin\AppData\Local\Temp\build-env-8jhgin3j\Lib\site-packages\hatchling\build.py", line 58, in build_wheel
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6084584Z     return os.path.basename(next(builder.build(directory=wheel_directory, versions=["standard"])))
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6085027Z                             ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6085803Z   File "C:\Users\runneradmin\AppData\Local\Temp\build-env-8jhgin3j\Lib\site-packages\hatchling\builders\plugin\interface.py", line 158, in build
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6086356Z     build_hook.initialize(version, build_data)
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6086604Z     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6087098Z   File "C:\Users\runneradmin\AppData\Local\Temp\build-env-8jhgin3j\Lib\site-packages\hatch_mypyc\plugin.py", line 338, in initialize
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6087906Z     raise Exception(f'Error while invoking Mypyc:\n{process.stdout.decode("utf-8")}')
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6088262Z Exception: Error while invoking Mypyc:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6088635Z src\black\strings.py:409: error: Item "Node" of "Node | Leaf" has no attribute "value"  [union-attr]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6088935Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.6088939Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.9606714Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:03.9607885Z ERROR Backend subprocess exited when trying to invoke build_wheel
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.1583257Z ##[error]cibuildwheel: Command ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-556ap8oj\\cp314-win_amd64\\build\\venv\\Scripts\\python.EXE', '-m', 'build', 'D:\\a\\black\\black', '--wheel', '--outdir=C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-556ap8oj\\cp314-win_amd64\\built_wheel'] failed with code 1. 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.1590473Z ##[endgroup]
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.1590625Z 
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.1591074Z                                                              ^[[31m✕ ^[[0m15.35s
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.2500764Z ##[error]Process completed with exit code 1.
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.2682805Z Post job cleanup.
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.3802894Z [command]"C:\Program Files\Git\bin\git.exe" version
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.4015382Z git version 2.55.0.windows.5
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.4059674Z Temporarily overriding HOME='D:\a\_temp\2033fdea-a141-4f55-9917-7c4c3422324b' before making global git config changes
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.4060298Z Adding repository directory to the temporary git global config as a safe directory
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.4067134Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\black\black
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.4275352Z Removing SSH command configuration
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.4283129Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.4483208Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.8592122Z Removing HTTP extra header
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.8600355Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:04.8819545Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:05.3016422Z Removing includeIf entries pointing to credentials config files
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:05.3026039Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:05.3278189Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+mypyc wheels cp314-win_amd64	UNKNOWN STEP	2026-10-12T07:32:05.9234288Z Cleaning up orphan processes

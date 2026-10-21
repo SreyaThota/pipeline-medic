@@ -1,0 +1,400 @@
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1269255Z   CLOUDSDK_CORE_PROJECT: terraform-admin-2023
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1269604Z   CLOUDSDK_PROJECT: terraform-admin-2023
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1269950Z   GCLOUD_PROJECT: terraform-admin-2023
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1270285Z   GCP_PROJECT: terraform-admin-2023
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1270631Z   GOOGLE_CLOUD_PROJECT: terraform-admin-2023
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1270980Z   AWS_DEFAULT_REGION: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1271291Z   AWS_REGION: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1271597Z   AWS_ACCESS_KEY_ID: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1271966Z   AWS_SECRET_ACCESS_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1272331Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1272698Z   UV_PYTHON: 3.10
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1273020Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1274194Z   LANGSMITH_METADATA: ***"github_sha":"b060a7466482ed5dac5fa1ef12e3ad21cccce385","github_run_id":"38054458339","github_run_attempt":"1","github_run_url":"https://github.com/langchain-ai/langchain/actions/runs/38054458339","github_workflow":"⏰ Integration Tests","github_event":"schedule","github_ref":"refs/heads/master","working_directory":"libs/partners/mistralai","python_version":"3.10"***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1275480Z   LANGCHAIN_TESTS_USER_AGENT: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1275785Z   LANGSMITH_TRACING: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1276164Z   LANGSMITH_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1276474Z   LANGSMITH_PROJECT: scheduled-testing-py
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1276991Z   LANGSMITH_TAGS: github-actions,libs/partners/mistralai,python-3.10,sha-b060a7466482ed5dac5fa1ef12e3ad21cccce385
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1277495Z   LANGSMITH_GATEWAY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1277998Z   LANGSMITH_GATEWAY_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1278307Z   AI21_API_KEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1278649Z   ANTHROPIC_FILES_API_IMAGE_ID: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1279026Z   ANTHROPIC_FILES_API_PDF_ID: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1279345Z   ASTRA_DB_API_ENDPOINT: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1279646Z   ASTRA_DB_APPLICATION_TOKEN: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1279969Z   ASTRA_DB_KEYSPACE: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1280289Z   AZURE_OPENAI_API_VERSION: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1280666Z   AZURE_OPENAI_API_BASE: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1281004Z   AZURE_OPENAI_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1281474Z   AZURE_OPENAI_CHAT_DEPLOYMENT_NAME: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1281864Z   AZURE_OPENAI_LEGACY_CHAT_DEPLOYMENT_NAME: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1282379Z   AZURE_OPENAI_LLM_DEPLOYMENT_NAME: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1282781Z   AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT_NAME: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1283113Z   COHERE_API_KEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1283444Z   DEEPSEEK_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1283719Z   ES_URL: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1283969Z   ES_CLOUD_ID: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1284244Z   ES_API_KEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1284554Z   EXA_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1284913Z   FIREWORKS_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1285265Z   GOOGLE_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1285547Z   GOOGLE_SEARCH_API_KEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1285850Z   GOOGLE_CSE_ID: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1286236Z   GROQ_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1286691Z   HUGGINGFACEHUB_API_TOKEN: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1287049Z   MISTRAL_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1287497Z   MONGODB_ATLAS_URI: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1288160Z   NOMIC_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1288609Z   NVIDIA_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1288903Z   OLLAMA_API_KEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1289612Z   OPENAI_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1290042Z   OPENROUTER_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1290475Z   PPLX_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1290758Z   TOGETHER_API_KEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1291243Z   TYPESAFE_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1291570Z   UPSTAGE_API_KEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1291845Z   WATSONX_APIKEY: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1292119Z   WATSONX_PROJECT_ID: 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1292583Z   XAI_API_KEY: ***
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1292859Z ##[endgroup]
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.1545546Z uv run --group test --group test_integration pytest -v --tb=short -n auto --benchmark-disable --retries 3 --retry-delay 2 tests/integration_tests/
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.2213910Z Uninstalled 1 package in 0.94ms
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:51.2240426Z Installed 1 package in 2ms
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4730184Z ============================= test session starts ==============================
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4731448Z platform linux -- Python 3.10.22, pytest-9.0.3, pluggy-1.6.0 -- /home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/bin/python
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4732699Z codspeed: 4.0.0 (disabled, mode: walltime, callgraph: not supported, timer_resolution: 1.0ns)
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4733451Z cachedir: .pytest_cache
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4734710Z benchmark: 5.0.1 (defaults: timer=time.perf_counter disable_gc=False min_rounds=5 min_time=0.000005 max_time=1.0 calibration_precision=10 warmup=False warmup_iterations=100000)
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4735804Z rootdir: /home/runner/work/langchain/langchain/langchain/libs/partners/mistralai
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4736523Z configfile: pyproject.toml
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4737513Z plugins: syrupy-5.1.0, asyncio-1.3.0, anyio-4.14.2, socket-0.7.0, langsmith-0.8.18, recording-0.13.4, langchain-tests-1.1.9, codspeed-4.0.0, xdist-3.8.0, retry-1.7.0, benchmark-5.0.1
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4759860Z asyncio: mode=auto, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4773251Z created: 4/4 workers
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4793913Z 4 workers [70 items]
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4807965Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4808284Z scheduling tests via LoadScheduling
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4808608Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4809102Z tests/integration_tests/test_chat_models.py::test_astream 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4828887Z tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:54.4830049Z tests/integration_tests/test_chat_models.py::test_reasoning 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:55.0992649Z tests/integration_tests/test_chat_models.py::test_structured_output_json_schema_async[Book] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:55.0997264Z [gw3] [  1%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:55.4636491Z tests/integration_tests/test_embeddings.py::test_mistralai_embedding_query 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:55.4640921Z [gw3] [  2%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embedding_query 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.1625165Z tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.1642112Z [gw3] [  4%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.2662992Z tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_tenacity_error_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.2667994Z [gw3] [  5%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_tenacity_error_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.3706263Z tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_http_error_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.3711953Z [gw3] [  7%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_http_error_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.7506605Z tests/integration_tests/test_embeddings.py::test_mistralai_embedding_query_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:57.7515903Z [gw3] [  8%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embedding_query_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:59.0459168Z tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_long 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:59.0460282Z [gw3] [ 10%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embedding_documents_long 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:59.4663210Z tests/integration_tests/test_embeddings.py::test_mistralai_embed_query_character 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:59.4673232Z [gw3] [ 11%] PASSED tests/integration_tests/test_embeddings.py::test_mistralai_embed_query_character 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:59.4687161Z tests/integration_tests/test_standard.py::TestMistralStandard::test_no_overrides_DO_NOT_OVERRIDE 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:06:59.4692834Z [gw3] [ 12%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_no_overrides_DO_NOT_OVERRIDE 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:02.9830753Z tests/integration_tests/test_standard.py::TestMistralStandard::test_invoke 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:03.0952819Z [gw2] [ 14%] RETRY tests/integration_tests/test_chat_models.py::test_reasoning 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:03.0967237Z [gw0] [ 15%] PASSED tests/integration_tests/test_chat_models.py::test_astream 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:08.2929873Z tests/integration_tests/test_chat_models.py::test_structured_output_json_schema[Book] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:08.2933559Z [gw3] [ 17%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_invoke 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:11.0839796Z tests/integration_tests/test_standard.py::TestMistralStandard::test_ainvoke 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:11.0852558Z [gw1] [ 18%] PASSED tests/integration_tests/test_chat_models.py::test_structured_output_json_schema_async[Book] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:16.3086573Z tests/integration_tests/test_chat_models.py::test_structured_output_json_schema_async[BookDict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:16.3100354Z [gw3] [ 20%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_ainvoke 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:19.1036822Z tests/integration_tests/test_standard.py::TestMistralStandard::test_stream[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:19.1041529Z [gw0] [ 21%] PASSED tests/integration_tests/test_chat_models.py::test_structured_output_json_schema[Book] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:24.3877512Z tests/integration_tests/test_chat_models.py::test_structured_output_json_schema[BookDict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:24.3880803Z [gw3] [ 22%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_stream[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:26.9886496Z tests/integration_tests/test_standard.py::TestMistralStandard::test_stream[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:26.9889744Z [gw2] [ 22%] FAILED tests/integration_tests/test_chat_models.py::test_reasoning 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:27.2394937Z tests/integration_tests/test_chat_models.py::test_reasoning_v1 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:27.2407842Z [gw1] [ 24%] PASSED tests/integration_tests/test_chat_models.py::test_structured_output_json_schema_async[BookDict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:32.4286105Z tests/integration_tests/test_chat_models.py::test_structured_output_json_schema_async[schema2] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:32.4295971Z [gw3] [ 25%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_stream[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:35.0222553Z tests/integration_tests/test_standard.py::TestMistralStandard::test_astream[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:35.2196313Z [gw2] [ 27%] RETRY tests/integration_tests/test_chat_models.py::test_reasoning_v1 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:35.2206601Z [gw0] [ 28%] PASSED tests/integration_tests/test_chat_models.py::test_structured_output_json_schema[BookDict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:40.4982735Z tests/integration_tests/test_chat_models.py::test_structured_output_json_schema[schema2] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:40.4996848Z [gw3] [ 30%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_astream[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:43.3054167Z tests/integration_tests/test_standard.py::TestMistralStandard::test_astream[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:43.3070643Z [gw1] [ 31%] PASSED tests/integration_tests/test_chat_models.py::test_structured_output_json_schema_async[schema2] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:48.5248076Z tests/integration_tests/test_chat_models.py::test_retry_parameters 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:48.5262937Z [gw3] [ 32%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_astream[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3666129Z tests/integration_tests/test_standard.py::TestMistralStandard::test_stream_events_v3 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3667213Z [gw0] [ 34%] PASSED tests/integration_tests/test_chat_models.py::test_structured_output_json_schema[schema2] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3691785Z tests/integration_tests/test_standard.py::TestMistralStandard::test_ainvoke_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3698122Z [gw0] [ 35%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_ainvoke_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3714889Z tests/integration_tests/test_standard.py::TestMistralStandard::test_stream_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3719743Z [gw0] [ 37%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_stream_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3741998Z tests/integration_tests/test_standard.py::TestMistralStandard::test_astream_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.3752133Z [gw0] [ 38%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_astream_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.5142624Z tests/integration_tests/test_standard.py::TestMistralStandard::test_batch 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:51.5149308Z [gw1] [ 40%] PASSED tests/integration_tests/test_chat_models.py::test_retry_parameters 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:56.5331671Z tests/integration_tests/test_standard.py::TestMistralStandard::test_abatch 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:56.5344713Z [gw3] [ 41%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_stream_events_v3 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:59.1004527Z tests/integration_tests/test_standard.py::TestMistralStandard::test_astream_events_v3 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:07:59.1008968Z [gw2] [ 41%] FAILED tests/integration_tests/test_chat_models.py::test_reasoning_v1 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:04.5370341Z tests/integration_tests/test_chat_models.py::test_stop_sequence 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:04.5394375Z [gw3] [ 42%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_astream_events_v3 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:04.5416945Z tests/integration_tests/test_standard.py::TestMistralStandard::test_invoke_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:04.5422353Z [gw3] [ 44%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_invoke_with_model_override 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:07.4575477Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:07.4583668Z [gw1] [ 45%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_abatch 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:07.4786543Z tests/integration_tests/test_standard.py::TestMistralStandard::test_conversation 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:07.4791421Z [gw0] [ 47%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_batch 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:15.7878345Z tests/integration_tests/test_standard.py::TestMistralStandard::test_usage_metadata 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:15.7882477Z [gw0] [ 48%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_usage_metadata 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:15.9434734Z tests/integration_tests/test_standard.py::TestMistralStandard::test_usage_metadata_streaming 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:15.9448395Z [gw1] [ 50%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_conversation 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:20.5783549Z tests/integration_tests/test_standard.py::TestMistralStandard::test_double_messages_conversation 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:20.5795708Z [gw3] [ 51%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:23.2097931Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:23.2107451Z [gw2] [ 52%] PASSED tests/integration_tests/test_chat_models.py::test_stop_sequence 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:23.2119799Z tests/integration_tests/test_compile.py::test_placeholder 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:23.2124340Z [gw2] [ 54%] PASSED tests/integration_tests/test_compile.py::test_placeholder 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:23.6864757Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_choice 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:23.6868671Z [gw1] [ 55%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_double_messages_conversation 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:24.3243867Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:24.3253040Z [gw0] [ 57%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_usage_metadata_streaming 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:36.8030303Z tests/integration_tests/test_standard.py::TestMistralStandard::test_stop_sequence 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:36.8049144Z [gw3] [ 58%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:39.5944480Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_message_histories_string_content 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:39.5951164Z [gw2] [ 60%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_choice 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:39.6298573Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling_with_no_arguments 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:39.6307974Z [gw0] [ 61%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_stop_sequence 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:39.7281705Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_message_error_status 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:39.7301173Z [gw1] [ 62%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling_async 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:44.5943687Z tests/integration_tests/test_standard.py::TestMistralStandard::test_bind_runnables_as_tools 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:44.5952436Z [gw3] [ 64%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_message_histories_string_content 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:47.7335385Z tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_message_histories_list_content 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:47.7344427Z [gw1] [ 65%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_bind_runnables_as_tools 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:47.8006749Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output[typeddict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:47.8015883Z [gw0] [ 67%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_message_error_status 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:52.7382272Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output[pydantic] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:52.7393520Z [gw3] [ 68%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_message_histories_list_content 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:55.7062088Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output[json_schema] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:08:55.7072419Z [gw2] [ 70%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_tool_calling_with_no_arguments 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:03.8072873Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_few_shot_examples 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:03.8085751Z [gw2] [ 71%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_few_shot_examples 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:04.1251669Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_optional_param 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:04.1260648Z [gw0] [ 72%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output[pydantic] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:04.1684943Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_async[typeddict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:04.1696964Z [gw1] [ 74%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output[typeddict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:09.0731808Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_async[pydantic] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:09.0740178Z [gw3] [ 75%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output[json_schema] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2573279Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_async[json_schema] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2589963Z [gw1] [ 77%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_async[pydantic] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2608773Z tests/integration_tests/test_standard.py::TestMistralStandard::test_audio_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2616178Z [gw1] [ 78%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_audio_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2632375Z tests/integration_tests/test_standard.py::TestMistralStandard::test_image_tool_message 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2639583Z [gw1] [ 80%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_image_tool_message 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2656845Z tests/integration_tests/test_standard.py::TestMistralStandard::test_pdf_tool_message 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2664039Z [gw1] [ 81%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_pdf_tool_message 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2678562Z tests/integration_tests/test_standard.py::TestMistralStandard::test_anthropic_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:20.2685312Z [gw1] [ 82%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_anthropic_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:21.0350312Z tests/integration_tests/test_standard.py::TestMistralStandard::test_message_with_name 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:21.0364600Z [gw0] [ 84%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_async[typeddict] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:21.0384985Z tests/integration_tests/test_standard.py::TestMistralStandard::test_pdf_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:21.0394366Z [gw0] [ 85%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_pdf_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:25.1831845Z tests/integration_tests/test_standard.py::TestMistralStandard::test_agent_loop[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:25.1847854Z [gw3] [ 87%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_async[json_schema] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:25.1864610Z tests/integration_tests/test_standard.py::TestMistralStandard::test_image_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:25.1871341Z [gw3] [ 88%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_image_inputs 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:28.1831017Z tests/integration_tests/test_standard.py::TestMistralStandard::test_unicode_tool_call_integration 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:28.1839876Z [gw1] [ 90%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_message_with_name 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:36.0979721Z tests/integration_tests/test_standard.py::TestMistralStandard::test_agent_loop[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:36.0987918Z [gw2] [ 91%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_optional_param 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:36.4149376Z tests/integration_tests/test_standard.py::TestMistralStandard::test_json_mode 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:36.4158403Z [gw0] [ 92%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_agent_loop[model1] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:36.4510379Z tests/integration_tests/test_standard.py::TestMistralStandard::test_stream_time 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:41.1799151Z [gw0] [ 94%] SKIPPED tests/integration_tests/test_standard.py::TestMistralStandard::test_stream_time 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:41.1811009Z [gw3] [ 95%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_unicode_tool_call_integration 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:09:44.3824327Z tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_pydantic_2_v1 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:08.2539152Z [gw1] [ 97%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_agent_loop[model0] 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.4202198Z [gw2] [ 98%] PASSED tests/integration_tests/test_standard.py::TestMistralStandard::test_json_mode 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7895299Z [gw3] [100%] XPASS tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_pydantic_2_v1 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7896094Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7896408Z =================================== FAILURES ===================================
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7897046Z ________________________________ test_reasoning ________________________________
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7898137Z [gw2] linux -- Python 3.10.22 /home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/bin/python
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7898979Z tests/integration_tests/test_chat_models.py:170: in test_reasoning
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7899547Z     assert thinking_blocks > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7900040Z E   assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7900817Z ---------------------------- Captured stderr setup -----------------------------
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7903632Z [langchain-tests] langsmith CI context: tags=['github-actions', 'libs/partners/mistralai', 'python-3.10', 'sha-b060a7466482ed5dac5fa1ef12e3ad21cccce385'], metadata_keys=['github_event', 'github_ref', 'github_run_attempt', 'github_run_id', 'github_run_url', 'github_sha', 'github_workflow', 'python_version', 'working_directory']
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7906404Z ______________________________ test_reasoning_v1 _______________________________
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7907961Z [gw2] linux -- Python 3.10.22 /home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/bin/python
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7909426Z tests/integration_tests/test_chat_models.py:198: in test_reasoning_v1
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7910365Z     assert reasoning_blocks > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7911069Z E   assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7911432Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7911863Z ======================= the following tests were retried =======================
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7912843Z 	test_reasoning failed on attempt 1! Retrying!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7913667Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7925734Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7926980Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7927536Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7928060Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7928333Z 	test_reasoning failed on attempt 2! Retrying!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7928921Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7930020Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7931093Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7931623Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7931923Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7932173Z 	test_reasoning failed on attempt 3! Retrying!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7932746Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7933789Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7934879Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7935441Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7935744Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7936044Z 	test_reasoning failed after 4 attempts!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7936613Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7937898Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7939306Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7939868Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7940186Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7940466Z 	test_reasoning_v1 failed on attempt 1! Retrying!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7941049Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7942135Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7943189Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7943733Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7944188Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7944482Z 	test_reasoning_v1 failed on attempt 2! Retrying!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7945084Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7946169Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7947197Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7948005Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7948358Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7948660Z 	test_reasoning_v1 failed on attempt 3! Retrying!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7949302Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7950471Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7951504Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7952077Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7952422Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7952723Z 	test_reasoning_v1 failed after 4 attempts!
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7953350Z 	Traceback (most recent call last):
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7954487Z 	  File "/home/runner/work/langchain/langchain/langchain/libs/partners/mistralai/.venv/lib/python3.10/site-packages/_pytest/runner.py", line 353, in from_call
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7955609Z 	    result: TResult | None = func()
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7956141Z 	AssertionError: assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7956432Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7956715Z =========================== end of test retry report ===========================
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7957106Z 
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7957370Z ============================= slowest 5 durations ==============================
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7958523Z 32.29s call     tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_optional_param
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7959628Z 32.24s call     tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_pydantic_2_v1
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7960690Z 32.15s call     tests/integration_tests/test_standard.py::TestMistralStandard::test_json_mode
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7961563Z 24.11s call     tests/integration_tests/test_chat_models.py::test_stop_sequence
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7962486Z 16.91s call     tests/integration_tests/test_standard.py::TestMistralStandard::test_structured_output_async[typeddict]
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7963360Z =========================== short test summary info ============================
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7964116Z FAILED tests/integration_tests/test_chat_models.py::test_reasoning - assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7964929Z FAILED tests/integration_tests/test_chat_models.py::test_reasoning_v1 - assert 0 > 0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.7965762Z == 2 failed, 56 passed, 11 skipped, 1 xpassed, 2 retried in 200.98s (0:03:20) ==
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.8477576Z make: *** [Makefile:24: integration_tests] Error 1
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.8489296Z ##[error]Process completed with exit code 2.
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.8582520Z Post job cleanup.
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.8587105Z ##[start-action display=Install uv and set the python version;id=__ca4511e4-07cd-404b-abbd-af8af40082f0.__astral-sh_setup-uv]
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.8590757Z ##[end-action id=__ca4511e4-07cd-404b-abbd-af8af40082f0.__astral-sh_setup-uv;outcome=skipped;conclusion=skipped;duration_ms=0]
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.8669374Z Post job cleanup.
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9248542Z Post job cleanup.
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9881361Z [command]/usr/bin/git version
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9906375Z git version 2.55.0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9934691Z Temporarily overriding HOME='/home/runner/work/_temp/4a60de70-71db-4d2a-b60a-0e4940dbbd7e' before making global git config changes
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9935444Z Adding repository directory to the temporary git global config as a safe directory
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9938788Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/langchain/langchain/langchain-aws
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9959460Z Removing SSH command configuration
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9964288Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:13.9987493Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0128322Z Removing HTTP extra header
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0132075Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0153364Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0288841Z Removing includeIf entries pointing to credentials config files
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0292839Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0308673Z includeif.gitdir:/home/runner/work/langchain/langchain/langchain-aws/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0309395Z includeif.gitdir:/home/runner/work/langchain/langchain/langchain-aws/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0310050Z includeif.gitdir:/github/workspace/langchain-aws/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0310634Z includeif.gitdir:/github/workspace/langchain-aws/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0313854Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/langchain-aws/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0327998Z /home/runner/work/_temp/git-credentials-7da1d2eb-8cd6-4e80-8e37-efdce540b02c.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0334563Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/langchain-aws/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-7da1d2eb\-8cd6\-4e80\-8e37\-efdce540b02c\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0360114Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/langchain-aws/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0376694Z /home/runner/work/_temp/git-credentials-7da1d2eb-8cd6-4e80-8e37-efdce540b02c.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0383038Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/langchain-aws/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-7da1d2eb\-8cd6\-4e80\-8e37\-efdce540b02c\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0406359Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/langchain-aws/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0420475Z /github/runner_temp/git-credentials-7da1d2eb-8cd6-4e80-8e37-efdce540b02c.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0425354Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/langchain-aws/.git.path \/github\/runner_temp\/git\-credentials\-7da1d2eb\-8cd6\-4e80\-8e37\-efdce540b02c\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0448001Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/langchain-aws/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0461925Z /github/runner_temp/git-credentials-7da1d2eb-8cd6-4e80-8e37-efdce540b02c.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0466517Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/langchain-aws/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-7da1d2eb\-8cd6\-4e80\-8e37\-efdce540b02c\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0490365Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0619927Z Removing credentials config '/home/runner/work/_temp/git-credentials-7da1d2eb-8cd6-4e80-8e37-efdce540b02c.config'
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.0728058Z Post job cleanup.
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.1354067Z Removed exported credentials at "/home/runner/work/langchain/langchain/gha-creds-66c33d809559b18c.json".
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.1443285Z Post job cleanup.
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2003758Z [command]/usr/bin/git version
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2035426Z git version 2.55.0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2059095Z Temporarily overriding HOME='/home/runner/work/_temp/cbbca044-5181-4e78-bf5c-7771de5dc018' before making global git config changes
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2059816Z Adding repository directory to the temporary git global config as a safe directory
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2062957Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/langchain/langchain/langchain-google
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2083624Z Removing SSH command configuration
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2088225Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2111095Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2251725Z Removing HTTP extra header
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2254866Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2275443Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2413430Z Removing includeIf entries pointing to credentials config files
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2417318Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2434779Z includeif.gitdir:/home/runner/work/langchain/langchain/langchain-google/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2435659Z includeif.gitdir:/home/runner/work/langchain/langchain/langchain-google/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2436311Z includeif.gitdir:/github/workspace/langchain-google/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2436899Z includeif.gitdir:/github/workspace/langchain-google/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2440954Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/langchain-google/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2455855Z /home/runner/work/_temp/git-credentials-effe57e7-15a5-4770-bb36-a9d4ef503301.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2462314Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/langchain-google/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-effe57e7\-15a5\-4770\-bb36\-a9d4ef503301\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2490265Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/langchain-google/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2508804Z /home/runner/work/_temp/git-credentials-effe57e7-15a5-4770-bb36-a9d4ef503301.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2515639Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/langchain-google/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-effe57e7\-15a5\-4770\-bb36\-a9d4ef503301\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2540986Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/langchain-google/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2555979Z /github/runner_temp/git-credentials-effe57e7-15a5-4770-bb36-a9d4ef503301.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2561793Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/langchain-google/.git.path \/github\/runner_temp\/git\-credentials\-effe57e7\-15a5\-4770\-bb36\-a9d4ef503301\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2585958Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/langchain-google/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2602056Z /github/runner_temp/git-credentials-effe57e7-15a5-4770-bb36-a9d4ef503301.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2606718Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/langchain-google/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-effe57e7\-15a5\-4770\-bb36\-a9d4ef503301\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2631458Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2765613Z Removing credentials config '/home/runner/work/_temp/git-credentials-effe57e7-15a5-4770-bb36-a9d4ef503301.config'
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.2882930Z Post job cleanup.
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3521215Z [command]/usr/bin/git version
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3544885Z git version 2.55.0
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3574249Z Temporarily overriding HOME='/home/runner/work/_temp/0f05c520-85ae-4518-b40d-8468218294e2' before making global git config changes
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3575241Z Adding repository directory to the temporary git global config as a safe directory
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3578654Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/langchain/langchain/langchain
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3598095Z Removing SSH command configuration
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3602450Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3624785Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3768701Z Removing HTTP extra header
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3772090Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3792886Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3929097Z Removing includeIf entries pointing to credentials config files
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3932908Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3949236Z includeif.gitdir:/home/runner/work/langchain/langchain/langchain/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3949791Z includeif.gitdir:/home/runner/work/langchain/langchain/langchain/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3950353Z includeif.gitdir:/github/workspace/langchain/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3950906Z includeif.gitdir:/github/workspace/langchain/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3955310Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/langchain/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3969322Z /home/runner/work/_temp/git-credentials-0bcb827f-a6bc-4ef3-b3f6-af06940315e1.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.3975487Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/langchain/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-0bcb827f\-a6bc\-4ef3\-b3f6\-af06940315e1\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4001082Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/langchain/langchain/langchain/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4017995Z /home/runner/work/_temp/git-credentials-0bcb827f-a6bc-4ef3-b3f6-af06940315e1.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4023587Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/langchain/langchain/langchain/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-0bcb827f\-a6bc\-4ef3\-b3f6\-af06940315e1\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4046876Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/langchain/.git.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4060941Z /github/runner_temp/git-credentials-0bcb827f-a6bc-4ef3-b3f6-af06940315e1.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4065180Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/langchain/.git.path \/github\/runner_temp\/git\-credentials\-0bcb827f\-a6bc\-4ef3\-b3f6\-af06940315e1\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4088288Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/langchain/.git/worktrees/*.path
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4102066Z /github/runner_temp/git-credentials-0bcb827f-a6bc-4ef3-b3f6-af06940315e1.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4107177Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/langchain/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-0bcb827f\-a6bc\-4ef3\-b3f6\-af06940315e1\.config
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4130207Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4264389Z Removing credentials config '/home/runner/work/_temp/git-credentials-0bcb827f-a6bc-4ef3-b3f6-af06940315e1.config'
+🐍 Python 3.10: libs/partners/mistralai	UNKNOWN STEP	2026-10-10T13:10:14.4370388Z Cleaning up orphan processes

@@ -1,0 +1,144 @@
+check	UNKNOWN STEP	﻿2026-10-05T20:30:26.1123042Z Current runner version: '2.337.0'
+check	UNKNOWN STEP	2026-10-05T20:30:26.1143115Z ##[group]Runner Image Provisioner
+check	UNKNOWN STEP	2026-10-05T20:30:26.1143844Z Hosted Compute Agent
+check	UNKNOWN STEP	2026-10-05T20:30:26.1144352Z Version: 20260901.588
+check	UNKNOWN STEP	2026-10-05T20:30:26.1144918Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+check	UNKNOWN STEP	2026-10-05T20:30:26.1145514Z Build Date: 2026-09-01T19:56:44Z
+check	UNKNOWN STEP	2026-10-05T20:30:26.1146096Z Worker ID: {5da90a62-da58-43fd-9ebb-2441dd234a98}
+check	UNKNOWN STEP	2026-10-05T20:30:26.1146684Z Azure Region: westus3
+check	UNKNOWN STEP	2026-10-05T20:30:26.1147176Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-05T20:30:26.1148504Z ##[group]Operating System
+check	UNKNOWN STEP	2026-10-05T20:30:26.1149193Z Ubuntu
+check	UNKNOWN STEP	2026-10-05T20:30:26.1149627Z 24.04.5
+check	UNKNOWN STEP	2026-10-05T20:30:26.1150159Z LTS
+check	UNKNOWN STEP	2026-10-05T20:30:26.1150615Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-05T20:30:26.1151106Z ##[group]Runner Image
+check	UNKNOWN STEP	2026-10-05T20:30:26.1151607Z Image: ubuntu-24.04
+check	UNKNOWN STEP	2026-10-05T20:30:26.1152060Z Version: 20260927.320.1
+check	UNKNOWN STEP	2026-10-05T20:30:26.1153170Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+check	UNKNOWN STEP	2026-10-05T20:30:26.1154448Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+check	UNKNOWN STEP	2026-10-05T20:30:26.1155223Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-05T20:30:26.1156167Z ##[group]GITHUB_TOKEN Permissions
+check	UNKNOWN STEP	2026-10-05T20:30:26.1157881Z Contents: read
+check	UNKNOWN STEP	2026-10-05T20:30:26.1158343Z Metadata: read
+check	UNKNOWN STEP	2026-10-05T20:30:26.1158881Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-05T20:30:26.1160683Z Secret source: Actions
+check	UNKNOWN STEP	2026-10-05T20:30:26.1161563Z Cache mode: write
+check	UNKNOWN STEP	2026-10-05T20:30:26.1162293Z Prepare workflow directory
+check	UNKNOWN STEP	2026-10-05T20:30:26.1467448Z Prepare all required actions
+check	UNKNOWN STEP	2026-10-05T20:30:26.1507462Z Getting action download info
+check	UNKNOWN STEP	2026-10-05T20:30:26.4611475Z Download action repository 're-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35' (SHA:b5b5b37504aa4183270bd3d855c52a67f212be35)
+check	UNKNOWN STEP	2026-10-05T20:30:26.8889502Z Complete job name: check
+check	UNKNOWN STEP	2026-10-05T20:30:26.9467581Z ##[group]Run re-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35
+check	UNKNOWN STEP	2026-10-05T20:30:26.9468413Z with:
+check	UNKNOWN STEP	2026-10-05T20:30:26.9468948Z   allowed-skips: vendoring , 
+check	UNKNOWN STEP	    tests-unix,
+check	UNKNOWN STEP	    tests-windows,
+check	UNKNOWN STEP	    tests-zipapp,
+check	UNKNOWN STEP	  
+check	UNKNOWN STEP	2026-10-05T20:30:26.9471405Z   jobs: {
+check	UNKNOWN STEP	  "determine-changes": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {
+check	UNKNOWN STEP	      "vendoring": "false",
+check	UNKNOWN STEP	      "tests": "false"
+check	UNKNOWN STEP	    }
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "docs": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "packaging": {
+check	UNKNOWN STEP	    "result": "abandoned",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-unix": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-windows": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-zipapp": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "vendoring": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  }
+check	UNKNOWN STEP	}
+check	UNKNOWN STEP	2026-10-05T20:30:26.9473344Z   allowed-failures: []
+check	UNKNOWN STEP	2026-10-05T20:30:26.9473901Z env:
+check	UNKNOWN STEP	2026-10-05T20:30:26.9474227Z   FORCE_COLOR: 1
+check	UNKNOWN STEP	2026-10-05T20:30:26.9474575Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-05T20:30:26.9524916Z ##[start-action display=Decide whether the input jobs succeeded or failed;id=__re-actors_alls-green.outcome]
+check	UNKNOWN STEP	2026-10-05T20:30:26.9564705Z ##[group]Run python -m normalize_needed_jobs_status \
+check	UNKNOWN STEP	2026-10-05T20:30:26.9565349Z ^[[36;1mpython -m normalize_needed_jobs_status \^[[0m
+check	UNKNOWN STEP	2026-10-05T20:30:26.9565864Z ^[[36;1m  "$INPUT_ALLOWED_FAILURES" \^[[0m
+check	UNKNOWN STEP	2026-10-05T20:30:26.9566366Z ^[[36;1m  "$INPUT_ALLOWED_SKIPS" \^[[0m
+check	UNKNOWN STEP	2026-10-05T20:30:26.9566800Z ^[[36;1m  "$INPUT_JOBS"^[[0m
+check	UNKNOWN STEP	2026-10-05T20:30:27.0677017Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+check	UNKNOWN STEP	2026-10-05T20:30:27.0677666Z env:
+check	UNKNOWN STEP	2026-10-05T20:30:27.0678042Z   FORCE_COLOR: 1
+check	UNKNOWN STEP	2026-10-05T20:30:27.0678458Z   INPUT_ALLOWED_FAILURES: []
+check	UNKNOWN STEP	2026-10-05T20:30:27.0679274Z   INPUT_ALLOWED_SKIPS: vendoring , 
+check	UNKNOWN STEP	    tests-unix,
+check	UNKNOWN STEP	    tests-windows,
+check	UNKNOWN STEP	    tests-zipapp,
+check	UNKNOWN STEP	  
+check	UNKNOWN STEP	2026-10-05T20:30:27.0681700Z   INPUT_JOBS: {
+check	UNKNOWN STEP	  "determine-changes": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {
+check	UNKNOWN STEP	      "vendoring": "false",
+check	UNKNOWN STEP	      "tests": "false"
+check	UNKNOWN STEP	    }
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "docs": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "packaging": {
+check	UNKNOWN STEP	    "result": "abandoned",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-unix": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-windows": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-zipapp": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "vendoring": {
+check	UNKNOWN STEP	    "result": "skipped",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  }
+check	UNKNOWN STEP	}
+check	UNKNOWN STEP	2026-10-05T20:30:27.0684427Z   PYTHONPATH: /home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src
+check	UNKNOWN STEP	2026-10-05T20:30:27.0685234Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-05T20:30:27.1125097Z # ❌ Some of the required to succeed jobs failed 😢😢😢
+check	UNKNOWN STEP	2026-10-05T20:30:27.1125680Z 
+check	UNKNOWN STEP	2026-10-05T20:30:27.1126060Z 🛈 Some of the allowed to be skipped jobs did not succeed.
+check	UNKNOWN STEP	2026-10-05T20:30:27.1126702Z 🔮 Job statuses:
+check	UNKNOWN STEP	2026-10-05T20:30:27.2369339Z Traceback (most recent call last):
+check	UNKNOWN STEP	2026-10-05T20:30:27.2370461Z   File "<frozen runpy>", line 198, in _run_module_as_main
+check	UNKNOWN STEP	2026-10-05T20:30:27.2371517Z   File "<frozen runpy>", line 88, in _run_code
+check	UNKNOWN STEP	2026-10-05T20:30:27.2373163Z   File "/home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src/normalize_needed_jobs_status.py", line 277, in <module>
+check	UNKNOWN STEP	2026-10-05T20:30:27.2374303Z     sys.exit(main(sys.argv))
+check	UNKNOWN STEP	2026-10-05T20:30:27.2374735Z              ^^^^^^^^^^^^^^
+check	UNKNOWN STEP	2026-10-05T20:30:27.2375724Z   File "/home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src/normalize_needed_jobs_status.py", line 264, in main
+check	UNKNOWN STEP	2026-10-05T20:30:27.2376778Z     log_decision_details(
+check	UNKNOWN STEP	2026-10-05T20:30:27.2377828Z   File "/home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src/normalize_needed_jobs_status.py", line 206, in log_decision_details
+check	UNKNOWN STEP	2026-10-05T20:30:27.2379415Z     f'{verdict.name} → {_RESULT_SYMBOLS[verdict.result]} '
+check	UNKNOWN STEP	2026-10-05T20:30:27.2582593Z                         ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+check	UNKNOWN STEP	2026-10-05T20:30:27.2583446Z KeyError: 'abandoned'
+check	UNKNOWN STEP	2026-10-05T20:30:27.2721102Z ##[error]Process completed with exit code 1.
+check	UNKNOWN STEP	2026-10-05T20:30:27.2795542Z ##[end-action id=__re-actors_alls-green.outcome;outcome=failure;conclusion=failure;duration_ms=326]
+check	UNKNOWN STEP	2026-10-05T20:30:27.2903294Z Cleaning up orphan processes

@@ -1,0 +1,400 @@
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4519758Z   cache-all-crates: false
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4520051Z   cache-workspace-crates: false
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4520338Z   save-if: true
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4520586Z   cache-provider: github
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4520845Z   cache-bin: true
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4521086Z   lookup-only: false
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4521336Z   cmd-format: {0}
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4521577Z env:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4521937Z   RUSTFLAGS: -Dwarnings --cfg loom --cfg tokio_unstable -C debug_assertions
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4522378Z   LOOM_MAX_PREEMPTIONS: 2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4522652Z   LOOM_MAX_BRANCHES: 10000
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4543597Z   RUST_BACKTRACE: 1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4543892Z   rust_stable: stable
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4544167Z   CARGO_HOME: /home/runner/.cargo
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4544462Z   CARGO_INCREMENTAL: 0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4545015Z   CARGO_TERM_COLOR: always
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:50.4545292Z ##[endgroup]
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4711096Z ##[group]Cache Configuration
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4711916Z Cache Provider:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4712555Z     github
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4713046Z Workspaces:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4713564Z     /home/runner/work/tokio/tokio
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4714214Z Cache Paths:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4715014Z     /home/runner/.cargo/bin
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4715691Z     /home/runner/.cargo/.crates.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4716311Z     /home/runner/.cargo/.crates2.json
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4716903Z     /home/runner/.cargo/registry
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4717503Z     /home/runner/.cargo/git
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4718121Z     /home/runner/work/tokio/tokio/target
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4718770Z Restore Key:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4719341Z     v0-rust-loom-time-driver-Linux-x64-7476fa3b
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4720169Z Cache Key:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4720742Z     v0-rust-loom-time-driver-Linux-x64-7476fa3b-a3001c73
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4721376Z .. Prefix:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4722029Z   - v0-rust-loom-time-driver-Linux-x64
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4722719Z .. Environment considered:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4723283Z   - Rust Versions:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4723923Z     - 1.99.0 x86_64-unknown-linux-gnu b940084d7eb6a299eb4bfeb8e34901bc051e7ac4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4724897Z   - CARGO_HOME
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4725388Z   - CARGO_INCREMENTAL
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4726012Z   - CARGO_TERM_COLOR
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4726580Z   - RUST_BACKTRACE
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4727119Z   - RUSTFLAGS
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4727630Z .. Lockfiles considered:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4728347Z   - /home/runner/work/tokio/tokio/benches/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4729173Z   - /home/runner/work/tokio/tokio/examples/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4730074Z   - /home/runner/work/tokio/tokio/stress-test/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4731082Z   - /home/runner/work/tokio/tokio/tests-build/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4732687Z   - /home/runner/work/tokio/tokio/tests-integration/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4733508Z   - /home/runner/work/tokio/tokio/tokio-macros/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4733884Z   - /home/runner/work/tokio/tokio/tokio-stream/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4734477Z   - /home/runner/work/tokio/tokio/tokio-test/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4735992Z   - /home/runner/work/tokio/tokio/tokio-util/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4736656Z   - /home/runner/work/tokio/tokio/tokio/Cargo.toml
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4737580Z ##[endgroup]
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4737796Z 
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.4737970Z ... Restoring cache ...
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5352376Z No cache found.
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5472500Z ##[group]Run cargo test --lib --release --features full -- --nocapture runtime::time
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5473130Z ^[[36;1mcargo test --lib --release --features full -- --nocapture runtime::time^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5473655Z ^[[36;1mcargo test --lib --release --features full -- --nocapture runtime::io^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5539909Z shell: /usr/bin/bash -e {0}
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5540169Z env:
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5540502Z   RUSTFLAGS: -Dwarnings --cfg loom --cfg tokio_unstable -C debug_assertions
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5540914Z   LOOM_MAX_PREEMPTIONS: 2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5541160Z   LOOM_MAX_BRANCHES: 10000
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5541401Z   RUST_BACKTRACE: 1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5541604Z   rust_stable: stable
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5541828Z   CARGO_HOME: /home/runner/.cargo
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5542073Z   CARGO_INCREMENTAL: 0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5542282Z   CARGO_TERM_COLOR: always
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5542505Z   CACHE_ON_FAILURE: false
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.5542722Z ##[endgroup]
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:51.9109346Z ^[[1m^[[92m    Updating^[[0m crates.io index
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.3818741Z ^[[1m^[[92m     Locking^[[0m 194 packages to highest compatible versions
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.3916756Z ^[[1m^[[92m      Adding^[[0m criterion v0.5.1 ^[[1m^[[33m(available: v0.8.2)^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.3944065Z ^[[1m^[[92m      Adding^[[0m hashbrown v0.15.5 ^[[1m^[[33m(available: v0.17.1)^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.3965810Z ^[[1m^[[92m      Adding^[[0m minicov v0.3.8 ^[[1m^[[33m(available: v0.3.9)^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.3971083Z ^[[1m^[[92m      Adding^[[0m mockall v0.13.1 ^[[1m^[[33m(available: v0.15.0)^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.3998223Z ^[[1m^[[92m      Adding^[[0m rand v0.9.5 ^[[1m^[[33m(available: v0.10.3)^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.4001986Z ^[[1m^[[92m      Adding^[[0m rand_chacha v0.9.0 ^[[1m^[[33m(available: v0.10.0)^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.4116483Z ^[[1m^[[92m      Adding^[[0m tracing-mock v0.1.0-beta.1 ^[[1m^[[33m(available: v0.1.0-beta.3)^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.4243445Z ^[[1m^[[92m Downloading^[[0m crates ...
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5121947Z ^[[1m^[[92m  Downloaded^[[0m adler2 v2.0.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5145156Z ^[[1m^[[92m  Downloaded^[[0m async-stream v0.3.6
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5177816Z ^[[1m^[[92m  Downloaded^[[0m futures-task v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5193808Z ^[[1m^[[92m  Downloaded^[[0m anstyle v1.0.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5216273Z ^[[1m^[[92m  Downloaded^[[0m addr2line v0.25.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5241017Z ^[[1m^[[92m  Downloaded^[[0m find-msvc-tools v0.1.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5263856Z ^[[1m^[[92m  Downloaded^[[0m matchers v0.2.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5274493Z ^[[1m^[[92m  Downloaded^[[0m fnv v1.0.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5282931Z ^[[1m^[[92m  Downloaded^[[0m futures-test v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5309202Z ^[[1m^[[92m  Downloaded^[[0m indexmap v2.14.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5352390Z ^[[1m^[[92m  Downloaded^[[0m lock_api v0.4.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5366506Z ^[[1m^[[92m  Downloaded^[[0m aho-corasick v1.1.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5417920Z ^[[1m^[[92m  Downloaded^[[0m downcast v0.11.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5429775Z ^[[1m^[[92m  Downloaded^[[0m fixedbitset v0.5.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5448955Z ^[[1m^[[92m  Downloaded^[[0m fragile v2.1.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5468913Z ^[[1m^[[92m  Downloaded^[[0m futures-channel v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5487168Z ^[[1m^[[92m  Downloaded^[[0m futures-executor v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5500111Z ^[[1m^[[92m  Downloaded^[[0m futures-macro v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5509862Z ^[[1m^[[92m  Downloaded^[[0m futures-sink v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5518991Z ^[[1m^[[92m  Downloaded^[[0m hashbrown v0.17.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5571420Z ^[[1m^[[92m  Downloaded^[[0m log v0.4.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5596138Z ^[[1m^[[92m  Downloaded^[[0m futures v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5648598Z ^[[1m^[[92m  Downloaded^[[0m futures-core v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5661347Z ^[[1m^[[92m  Downloaded^[[0m futures-io v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5670118Z ^[[1m^[[92m  Downloaded^[[0m loom v0.7.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5726567Z ^[[1m^[[92m  Downloaded^[[0m futures-lite v2.6.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5744351Z ^[[1m^[[92m  Downloaded^[[0m itoa v1.0.18
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5758790Z ^[[1m^[[92m  Downloaded^[[0m futures-concurrency v7.7.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5841880Z ^[[1m^[[92m  Downloaded^[[0m getrandom v0.3.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5874222Z ^[[1m^[[92m  Downloaded^[[0m getrandom v0.4.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5912392Z ^[[1m^[[92m  Downloaded^[[0m generator v0.8.10
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5976204Z ^[[1m^[[92m  Downloaded^[[0m cfg_aliases v0.2.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.5990239Z ^[[1m^[[92m  Downloaded^[[0m lazy_static v1.5.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6016735Z ^[[1m^[[92m  Downloaded^[[0m rand_xorshift v0.5.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6030256Z ^[[1m^[[92m  Downloaded^[[0m errno v0.3.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6052408Z ^[[1m^[[92m  Downloaded^[[0m fastrand v2.5.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6072520Z ^[[1m^[[92m  Downloaded^[[0m bit-set v0.11.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6092611Z ^[[1m^[[92m  Downloaded^[[0m once_cell v1.21.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6118973Z ^[[1m^[[92m  Downloaded^[[0m serde_derive v1.0.229
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6148879Z ^[[1m^[[92m  Downloaded^[[0m libm v0.2.16
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6257348Z ^[[1m^[[92m  Downloaded^[[0m scoped-tls v1.0.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6266447Z ^[[1m^[[92m  Downloaded^[[0m serde v1.0.229
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6299510Z ^[[1m^[[92m  Downloaded^[[0m serde_json v1.0.152
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6371362Z ^[[1m^[[92m  Downloaded^[[0m async-stream-impl v0.3.6
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6377557Z ^[[1m^[[92m  Downloaded^[[0m bit-vec v0.10.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6390677Z ^[[1m^[[92m  Downloaded^[[0m borsh v1.8.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6461794Z ^[[1m^[[92m  Downloaded^[[0m cc v1.7.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6496363Z ^[[1m^[[92m  Downloaded^[[0m chacha20 v0.10.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6518995Z ^[[1m^[[92m  Downloaded^[[0m core_detect v1.0.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6534212Z ^[[1m^[[92m  Downloaded^[[0m equivalent v1.0.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6543730Z ^[[1m^[[92m  Downloaded^[[0m futures-util v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6673814Z ^[[1m^[[92m  Downloaded^[[0m mockall_derive v0.13.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6689859Z ^[[1m^[[92m  Downloaded^[[0m proc-macro2 v1.0.107
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6718959Z ^[[1m^[[92m  Downloaded^[[0m proc-macro-crate v3.5.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6731436Z ^[[1m^[[92m  Downloaded^[[0m rusty-fork v0.3.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6745331Z ^[[1m^[[92m  Downloaded^[[0m scopeguard v1.2.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6756896Z ^[[1m^[[92m  Downloaded^[[0m predicates v3.1.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6782733Z ^[[1m^[[92m  Downloaded^[[0m quote v1.0.47
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6809423Z ^[[1m^[[92m  Downloaded^[[0m shlex v2.0.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6821862Z ^[[1m^[[92m  Downloaded^[[0m parking v2.2.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6832126Z ^[[1m^[[92m  Downloaded^[[0m predicates-core v1.0.10
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6841201Z ^[[1m^[[92m  Downloaded^[[0m memoffset v0.9.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6852869Z ^[[1m^[[92m  Downloaded^[[0m rand_core v0.10.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6870161Z ^[[1m^[[92m  Downloaded^[[0m bitflags v2.13.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6913871Z ^[[1m^[[92m  Downloaded^[[0m cfg-if v1.0.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6927164Z ^[[1m^[[92m  Downloaded^[[0m pin-utils v0.1.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6939579Z ^[[1m^[[92m  Downloaded^[[0m predicates-tree v1.0.13
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6950633Z ^[[1m^[[92m  Downloaded^[[0m wait-timeout v0.2.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6968590Z ^[[1m^[[92m  Downloaded^[[0m cpufeatures v0.3.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.6989642Z ^[[1m^[[92m  Downloaded^[[0m pin-project-internal v1.1.13
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7010001Z ^[[1m^[[92m  Downloaded^[[0m rand_core v0.9.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7023910Z ^[[1m^[[92m  Downloaded^[[0m rustc-demangle v0.1.28
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7040457Z ^[[1m^[[92m  Downloaded^[[0m rustversion v1.0.23
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7067681Z ^[[1m^[[92m  Downloaded^[[0m slab v0.4.12
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7079966Z ^[[1m^[[92m  Downloaded^[[0m termtree v0.5.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7090960Z ^[[1m^[[92m  Downloaded^[[0m thread_local v1.1.10
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7103560Z ^[[1m^[[92m  Downloaded^[[0m toml_datetime v1.1.2+spec-1.1.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7115812Z ^[[1m^[[92m  Downloaded^[[0m toml_parser v1.1.5+spec-1.1.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7138150Z ^[[1m^[[92m  Downloaded^[[0m tracing-log v0.2.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7150875Z ^[[1m^[[92m  Downloaded^[[0m unarray v0.1.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7162739Z ^[[1m^[[92m  Downloaded^[[0m zmij v1.0.23
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7179881Z ^[[1m^[[92m  Downloaded^[[0m borsh-derive v1.8.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7212186Z ^[[1m^[[92m  Downloaded^[[0m bytes v1.12.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7246370Z ^[[1m^[[92m  Downloaded^[[0m mockall v0.13.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7257294Z ^[[1m^[[92m  Downloaded^[[0m nu-ansi-term v0.50.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7279870Z ^[[1m^[[92m  Downloaded^[[0m num-traits v0.2.19
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7304895Z ^[[1m^[[92m  Downloaded^[[0m parking_lot v0.12.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7328672Z ^[[1m^[[92m  Downloaded^[[0m parking_lot_core v0.9.12
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7348863Z ^[[1m^[[92m  Downloaded^[[0m pin-project v1.1.13
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7480170Z ^[[1m^[[92m  Downloaded^[[0m pin-project-lite v0.2.17
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7537268Z ^[[1m^[[92m  Downloaded^[[0m ppv-lite86 v0.2.21
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7549855Z ^[[1m^[[92m  Downloaded^[[0m quick-error v1.2.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7561899Z ^[[1m^[[92m  Downloaded^[[0m rand_chacha v0.9.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7573109Z ^[[1m^[[92m  Downloaded^[[0m serde_core v1.0.229
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7599402Z ^[[1m^[[92m  Downloaded^[[0m smallvec v1.16.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7612548Z ^[[1m^[[92m  Downloaded^[[0m socket2 v0.6.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7630040Z ^[[1m^[[92m  Downloaded^[[0m tempfile v3.27.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7654823Z ^[[1m^[[92m  Downloaded^[[0m tracing-attributes v0.1.31
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7680129Z ^[[1m^[[92m  Downloaded^[[0m tracing-mock v0.1.0-beta.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7696630Z ^[[1m^[[92m  Downloaded^[[0m autocfg v1.5.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7714087Z ^[[1m^[[92m  Downloaded^[[0m backtrace v0.3.76
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7763106Z ^[[1m^[[92m  Downloaded^[[0m signal-hook-registry v1.4.8
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7774108Z ^[[1m^[[92m  Downloaded^[[0m tracing-core v0.1.36
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7799787Z ^[[1m^[[92m  Downloaded^[[0m unicode-ident v1.0.26
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7826215Z ^[[1m^[[92m  Downloaded^[[0m miniz_oxide v0.8.9
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7849502Z ^[[1m^[[92m  Downloaded^[[0m gimli v0.32.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7916318Z ^[[1m^[[92m  Downloaded^[[0m toml_edit v0.25.17+spec-1.1.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.7953504Z ^[[1m^[[92m  Downloaded^[[0m memchr v2.8.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8008379Z ^[[1m^[[92m  Downloaded^[[0m rand v0.9.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8044434Z ^[[1m^[[92m  Downloaded^[[0m rand v0.10.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8080502Z ^[[1m^[[92m  Downloaded^[[0m mio v1.2.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8140038Z ^[[1m^[[92m  Downloaded^[[0m tracing-subscriber v0.3.23
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8220670Z ^[[1m^[[92m  Downloaded^[[0m winnow v1.0.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8315941Z ^[[1m^[[92m  Downloaded^[[0m proptest v1.12.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8412735Z ^[[1m^[[92m  Downloaded^[[0m regex-syntax v0.8.11
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8478321Z ^[[1m^[[92m  Downloaded^[[0m syn v3.0.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.8585244Z ^[[1m^[[92m  Downloaded^[[0m libc v0.2.190
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.9063014Z ^[[1m^[[92m  Downloaded^[[0m syn v2.0.119
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.9165320Z ^[[1m^[[92m  Downloaded^[[0m nix v0.31.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.9279862Z ^[[1m^[[92m  Downloaded^[[0m object v0.37.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.9386487Z ^[[1m^[[92m  Downloaded^[[0m zerocopy v0.8.62
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.9652812Z ^[[1m^[[92m  Downloaded^[[0m rustix v1.1.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:52.9921421Z ^[[1m^[[92m  Downloaded^[[0m tracing v0.1.44
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:53.0073809Z ^[[1m^[[92m  Downloaded^[[0m sharded-slab v0.1.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:53.0107358Z ^[[1m^[[92m  Downloaded^[[0m regex-automata v0.4.18
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:53.0246378Z ^[[1m^[[92m  Downloaded^[[0m linux-raw-sys v0.12.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:53.1361470Z ^[[1m^[[92m   Compiling^[[0m proc-macro2 v1.0.107
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:53.1362249Z ^[[1m^[[92m   Compiling^[[0m unicode-ident v1.0.26
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:53.1363207Z ^[[1m^[[92m   Compiling^[[0m quote v1.0.47
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:53.1363851Z ^[[1m^[[92m   Compiling^[[0m libc v0.2.190
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:55.5595921Z ^[[1m^[[92m   Compiling^[[0m cfg-if v1.0.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:55.6106558Z ^[[1m^[[92m   Compiling^[[0m pin-project-lite v0.2.17
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:55.6813416Z ^[[1m^[[92m   Compiling^[[0m futures-core v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:56.0285963Z ^[[1m^[[92m   Compiling^[[0m smallvec v1.16.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:56.2030832Z ^[[1m^[[92m   Compiling^[[0m memchr v2.8.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:56.7787700Z ^[[1m^[[92m   Compiling^[[0m once_cell v1.21.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:57.0076285Z ^[[1m^[[92m   Compiling^[[0m autocfg v1.5.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:57.5916030Z ^[[1m^[[92m   Compiling^[[0m syn v2.0.119
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:57.6116021Z ^[[1m^[[92m   Compiling^[[0m syn v3.0.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:57.7855884Z ^[[1m^[[92m   Compiling^[[0m parking_lot_core v0.9.12
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:57.8996836Z ^[[1m^[[92m   Compiling^[[0m futures-io v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.0356099Z ^[[1m^[[92m   Compiling^[[0m rand_core v0.10.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.1546231Z ^[[1m^[[92m   Compiling^[[0m futures-sink v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.2099977Z ^[[1m^[[92m   Compiling^[[0m getrandom v0.4.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.3290351Z ^[[1m^[[92m   Compiling^[[0m rustversion v1.0.23
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.5218592Z ^[[1m^[[92m   Compiling^[[0m scopeguard v1.2.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.5648438Z ^[[1m^[[92m   Compiling^[[0m lock_api v0.4.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.7856253Z ^[[1m^[[92m   Compiling^[[0m errno v0.3.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.9026469Z ^[[1m^[[92m   Compiling^[[0m futures-channel v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:58.9346072Z ^[[1m^[[92m   Compiling^[[0m tracing-core v0.1.36
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:59.0976665Z ^[[1m^[[92m   Compiling^[[0m getrandom v0.3.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:59.2655318Z ^[[1m^[[92m   Compiling^[[0m fastrand v2.5.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:12:59.5316037Z ^[[1m^[[92m   Compiling^[[0m regex-syntax v0.8.11
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:00.0306572Z ^[[1m^[[92m   Compiling^[[0m bitflags v2.13.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:00.3676243Z ^[[1m^[[92m   Compiling^[[0m futures-task v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:00.4945990Z ^[[1m^[[92m   Compiling^[[0m rustix v1.1.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:00.6876158Z ^[[1m^[[92m   Compiling^[[0m shlex v2.0.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:00.7996458Z ^[[1m^[[92m   Compiling^[[0m slab v0.4.12
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:00.9406222Z ^[[1m^[[92m   Compiling^[[0m find-msvc-tools v0.1.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:01.0956087Z ^[[1m^[[92m   Compiling^[[0m serde_core v1.0.229
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:01.2482020Z ^[[1m^[[92m   Compiling^[[0m zerocopy v0.8.62
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:01.2606193Z ^[[1m^[[92m   Compiling^[[0m futures-macro v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:01.4806807Z ^[[1m^[[92m   Compiling^[[0m tokio-macros v2.7.2 (/home/runner/work/tokio/tokio/tokio-macros)
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:01.8926762Z ^[[1m^[[92m   Compiling^[[0m futures-util v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:01.9606467Z ^[[1m^[[92m   Compiling^[[0m cc v1.7.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:02.2266600Z ^[[1m^[[92m   Compiling^[[0m tracing-attributes v0.1.31
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:03.5506357Z ^[[1m^[[92m   Compiling^[[0m signal-hook-registry v1.4.8
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:03.6506088Z ^[[1m^[[92m   Compiling^[[0m parking_lot v0.12.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:04.4036202Z ^[[1m^[[92m   Compiling^[[0m socket2 v0.6.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:04.6545964Z ^[[1m^[[92m   Compiling^[[0m mio v1.2.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:05.1366104Z ^[[1m^[[92m   Compiling^[[0m log v0.4.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:05.3145982Z ^[[1m^[[92m   Compiling^[[0m linux-raw-sys v0.12.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:05.4475124Z ^[[1m^[[92m   Compiling^[[0m bytes v1.12.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:05.5226206Z ^[[1m^[[92m   Compiling^[[0m zmij v1.0.23
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:05.6672558Z ^[[1m^[[92m   Compiling^[[0m generator v0.8.10
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:06.0206414Z ^[[1m^[[92m   Compiling^[[0m tracing v0.1.44
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:06.3166978Z ^[[1m^[[92m   Compiling^[[0m tokio v1.53.2 (/home/runner/work/tokio/tokio/tokio)
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:06.4716478Z ^[[1m^[[92m   Compiling^[[0m pin-project-internal v1.1.13
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:08.8426073Z ^[[1m^[[92m   Compiling^[[0m regex-automata v0.4.18
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:09.9026597Z ^[[1m^[[92m   Compiling^[[0m num-traits v0.2.19
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:09.9876952Z ^[[1m^[[92m   Compiling^[[0m memoffset v0.9.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.0826037Z ^[[1m^[[92m   Compiling^[[0m serde v1.0.229
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.2426145Z ^[[1m^[[92m   Compiling^[[0m object v0.37.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.3746055Z ^[[1m^[[92m   Compiling^[[0m mockall_derive v0.13.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.4497261Z ^[[1m^[[92m   Compiling^[[0m lazy_static v1.5.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.4966241Z ^[[1m^[[92m   Compiling^[[0m predicates-core v1.0.10
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.6856800Z ^[[1m^[[92m   Compiling^[[0m cfg_aliases v0.2.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.7226371Z ^[[1m^[[92m   Compiling^[[0m serde_json v1.0.152
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:10.8226077Z ^[[1m^[[92m   Compiling^[[0m nix v0.31.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:11.0786367Z ^[[1m^[[92m   Compiling^[[0m sharded-slab v0.1.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:11.7286614Z ^[[1m^[[92m   Compiling^[[0m matchers v0.2.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:11.9706455Z ^[[1m^[[92m   Compiling^[[0m tempfile v3.27.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:13.0056596Z ^[[1m^[[92m   Compiling^[[0m ppv-lite86 v0.2.21
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:13.0266407Z ^[[1m^[[92m   Compiling^[[0m pin-project v1.1.13
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:13.0638201Z ^[[1m^[[92m   Compiling^[[0m rand_core v0.9.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:13.4216025Z ^[[1m^[[92m   Compiling^[[0m tracing-log v0.2.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:13.7289139Z ^[[1m^[[92m   Compiling^[[0m futures-executor v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:13.7436612Z ^[[1m^[[92m   Compiling^[[0m serde_derive v1.0.229
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:14.1561433Z ^[[1m^[[92m   Compiling^[[0m wait-timeout v0.2.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:14.6166598Z ^[[1m^[[92m   Compiling^[[0m thread_local v1.1.10
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:14.8516444Z ^[[1m^[[92m   Compiling^[[0m termtree v0.5.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:14.9399195Z ^[[1m^[[92m   Compiling^[[0m quick-error v1.2.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:14.9866437Z ^[[1m^[[92m   Compiling^[[0m adler2 v2.0.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:15.1046084Z ^[[1m^[[92m   Compiling^[[0m itoa v1.0.18
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:15.3096530Z ^[[1m^[[92m   Compiling^[[0m fnv v1.0.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:15.3556057Z ^[[1m^[[92m   Compiling^[[0m nu-ansi-term v0.50.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:15.8616055Z ^[[1m^[[92m   Compiling^[[0m gimli v0.32.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:16.6476513Z ^[[1m^[[92m   Compiling^[[0m anstyle v1.0.14
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:16.8646486Z ^[[1m^[[92m   Compiling^[[0m cpufeatures v0.3.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:16.9046383Z ^[[1m^[[92m   Compiling^[[0m pin-utils v0.1.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:16.9426145Z ^[[1m^[[92m   Compiling^[[0m bit-vec v0.10.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:17.1906673Z ^[[1m^[[92m   Compiling^[[0m parking v2.2.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:19.0556607Z ^[[1m^[[92m   Compiling^[[0m addr2line v0.25.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:19.2265925Z ^[[1m^[[92m   Compiling^[[0m futures-lite v2.6.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:19.4756460Z ^[[1m^[[92m   Compiling^[[0m bit-set v0.11.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:19.6066096Z ^[[1m^[[92m   Compiling^[[0m chacha20 v0.10.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:19.8824409Z ^[[1m^[[92m   Compiling^[[0m predicates v3.1.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:20.0585985Z ^[[1m^[[92m   Compiling^[[0m tracing-subscriber v0.3.23
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:20.2186291Z ^[[1m^[[92m   Compiling^[[0m rusty-fork v0.3.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:20.8736202Z ^[[1m^[[92m   Compiling^[[0m miniz_oxide v0.8.9
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:21.2282026Z ^[[1m^[[92m   Compiling^[[0m predicates-tree v1.0.13
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:21.5934196Z ^[[1m^[[92m   Compiling^[[0m rand_chacha v0.9.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:23.0606352Z ^[[1m^[[92m   Compiling^[[0m tokio-stream v0.1.19 (/home/runner/work/tokio/tokio/tokio-stream)
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:23.4056093Z ^[[1m^[[92m   Compiling^[[0m rand v0.10.3
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:23.5259124Z ^[[1m^[[92m   Compiling^[[0m async-stream-impl v0.3.6
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:23.8826257Z ^[[1m^[[92m   Compiling^[[0m rand_xorshift v0.5.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:23.9676042Z ^[[1m^[[92m   Compiling^[[0m fragile v2.1.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:24.1006535Z ^[[1m^[[92m   Compiling^[[0m unarray v0.1.4
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:24.1666633Z ^[[1m^[[92m   Compiling^[[0m core_detect v1.0.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:24.2856563Z ^[[1m^[[92m   Compiling^[[0m rustc-demangle v0.1.28
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:24.3746193Z ^[[1m^[[92m   Compiling^[[0m downcast v0.11.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:24.4666366Z ^[[1m^[[92m   Compiling^[[0m scoped-tls v1.0.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:24.5186053Z ^[[1m^[[92m   Compiling^[[0m fixedbitset v0.5.7
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:24.9676517Z ^[[1m^[[92m   Compiling^[[0m futures-concurrency v7.7.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:25.4116677Z ^[[1m^[[92m   Compiling^[[0m loom v0.7.2
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:26.4566031Z ^[[1m^[[92m   Compiling^[[0m backtrace v0.3.76
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:27.2776074Z ^[[1m^[[92m   Compiling^[[0m mockall v0.13.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:27.4006217Z ^[[1m^[[92m   Compiling^[[0m proptest v1.12.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:30.7446769Z ^[[1m^[[92m   Compiling^[[0m async-stream v0.3.6
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:30.8216447Z ^[[1m^[[92m   Compiling^[[0m tokio-test v0.4.6 (/home/runner/work/tokio/tokio/tokio-test)
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:32.5296377Z ^[[1m^[[92m   Compiling^[[0m rand v0.9.5
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:33.2266074Z ^[[1m^[[92m   Compiling^[[0m futures-test v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:33.4506130Z ^[[1m^[[92m   Compiling^[[0m futures v0.3.34
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:33.4882568Z ^[[1m^[[92m   Compiling^[[0m tokio-util v0.7.20 (/home/runner/work/tokio/tokio/tokio-util)
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:34.1376326Z ^[[1m^[[92m   Compiling^[[0m tracing-mock v0.1.0-beta.1
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9533562Z ^[[1m^[[91merror[E0599]^[[0m^[[1m: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9534964Z    ^[[1m^[[94m--> ^[[0mtokio/src/runtime/io/scheduled_io.rs:635:44
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9535771Z     ^[[1m^[[94m|^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9536209Z ^[[1m^[[94m101^[[0m ^[[1m^[[94m|^[[0m pub(crate) struct ScheduledIo {
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9537111Z     ^[[1m^[[94m|^[[0m ^[[1m^[[94m-----------------------------^[[0m ^[[1m^[[94massociated function or constant `default` not found for this struct^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9537821Z ^[[1m^[[94m...^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9538384Z ^[[1m^[[94m635^[[0m ^[[1m^[[94m|^[[0m             let io = Arc::new(ScheduledIo::default());
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9539491Z     ^[[1m^[[94m|^[[0m                                            ^[[1m^[[91m^^^^^^^^[[0m ^[[1m^[[91massociated function or constant not found in `scheduled_io::ScheduledIo`^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9540312Z     ^[[1m^[[94m|^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9541203Z ^[[1m^[[92mnote^[[0m: if you're trying to build a new `scheduled_io::ScheduledIo`, consider using `scheduled_io::ScheduledIo::new` which returns `scheduled_io::ScheduledIo`
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9542128Z    ^[[1m^[[94m--> ^[[0mtokio/src/runtime/io/scheduled_io.rs:180:5
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9542525Z     ^[[1m^[[94m|^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9542965Z ^[[1m^[[94m180^[[0m ^[[1m^[[94m|^[[0m     pub(crate) fn new(shard: usize) -> ScheduledIo {
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9543557Z     ^[[1m^[[94m|^[[0m     ^[[1m^[[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9544258Z     ^[[1m^[[94m= ^[[0m^[[1mhelp^[[0m: items from traits can only be used if the trait is implemented and in scope
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9545333Z     ^[[1m^[[94m= ^[[0m^[[1mnote^[[0m: the following trait defines an item `default`, perhaps you need to implement it:
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9545897Z             candidate #1: `Default`
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9546093Z 
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9805963Z ^[[1m^[[91merror[E0599]^[[0m^[[1m: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9807091Z    ^[[1m^[[94m--> ^[[0mtokio/src/runtime/io/scheduled_io.rs:651:48
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9807560Z     ^[[1m^[[94m|^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9808028Z ^[[1m^[[94m101^[[0m ^[[1m^[[94m|^[[0m pub(crate) struct ScheduledIo {
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9808979Z     ^[[1m^[[94m|^[[0m ^[[1m^[[94m-----------------------------^[[0m ^[[1m^[[94massociated function or constant `default` not found for this struct^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9809742Z ^[[1m^[[94m...^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9810351Z ^[[1m^[[94m651^[[0m ^[[1m^[[94m|^[[0m                 let io = Arc::new(ScheduledIo::default());
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9811280Z     ^[[1m^[[94m|^[[0m                                                ^[[1m^[[91m^^^^^^^^[[0m ^[[1m^[[91massociated function or constant not found in `scheduled_io::ScheduledIo`^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9811898Z     ^[[1m^[[94m|^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9812722Z ^[[1m^[[92mnote^[[0m: if you're trying to build a new `scheduled_io::ScheduledIo`, consider using `scheduled_io::ScheduledIo::new` which returns `scheduled_io::ScheduledIo`
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9813585Z    ^[[1m^[[94m--> ^[[0mtokio/src/runtime/io/scheduled_io.rs:180:5
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9813951Z     ^[[1m^[[94m|^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9814368Z ^[[1m^[[94m180^[[0m ^[[1m^[[94m|^[[0m     pub(crate) fn new(shard: usize) -> ScheduledIo {
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9815102Z     ^[[1m^[[94m|^[[0m     ^[[1m^[[92m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9815761Z     ^[[1m^[[94m= ^[[0m^[[1mhelp^[[0m: items from traits can only be used if the trait is implemented and in scope
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9816571Z     ^[[1m^[[94m= ^[[0m^[[1mnote^[[0m: the following trait defines an item `default`, perhaps you need to implement it:
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9817100Z             candidate #1: `Default`
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:38.9817291Z 
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.2739398Z ^[[1mFor more information about this error, try `rustc --explain E0599`.^[[0m
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.2902313Z ^[[1m^[[91merror^[[0m: could not compile `tokio` (lib test) due to 2 previous errors
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.3546217Z ##[error]Process completed with exit code 101.
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.3720204Z Post job cleanup.
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4613893Z [command]/usr/bin/git version
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4653481Z git version 2.55.0
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4693064Z Temporarily overriding HOME='/home/runner/work/_temp/68bcfa6e-73f4-4832-8d00-5cce6f32bfaf' before making global git config changes
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4694663Z Adding repository directory to the temporary git global config as a safe directory
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4699569Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/tokio/tokio
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4733305Z Removing SSH command configuration
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4740844Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.4779239Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5002372Z Removing HTTP extra header
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5008976Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5042850Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5263119Z Removing includeIf entries pointing to credentials config files
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5270159Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5298711Z includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5299561Z includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5300341Z includeif.gitdir:/github/workspace/.git.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5301031Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5308737Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5331245Z /home/runner/work/_temp/git-credentials-d5200499-6412-467d-b8c2-4084a9d63381.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5341464Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-d5200499\-6412\-467d\-b8c2\-4084a9d63381\.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5378221Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5405338Z /home/runner/work/_temp/git-credentials-d5200499-6412-467d-b8c2-4084a9d63381.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5415189Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/tokio/tokio/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-d5200499\-6412\-467d\-b8c2\-4084a9d63381\.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5449278Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5471595Z /github/runner_temp/git-credentials-d5200499-6412-467d-b8c2-4084a9d63381.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5478830Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-d5200499\-6412\-467d\-b8c2\-4084a9d63381\.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5512463Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5533756Z /github/runner_temp/git-credentials-d5200499-6412-467d-b8c2-4084a9d63381.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5543424Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-d5200499\-6412\-467d\-b8c2\-4084a9d63381\.config
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5579791Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5810428Z Removing credentials config '/home/runner/work/_temp/git-credentials-d5200499-6412-467d-b8c2-4084a9d63381.config'
+loom time driver	UNKNOWN STEP	2026-10-11T11:13:40.5986584Z Cleaning up orphan processes

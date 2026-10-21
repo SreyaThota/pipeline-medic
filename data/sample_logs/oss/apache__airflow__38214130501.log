@@ -1,0 +1,400 @@
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.2803688Z #35 709.2 Recommended packages:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.2803858Z #35 709.2   docker-buildx-plugin docker-compose-plugin
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.5100447Z #35 709.2 The following NEW packages will be installed:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.5100695Z #35 709.2   docker-ce-cli
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.5100883Z #35 709.3 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.5101099Z #35 709.3 Need to get 17.6 MB of archives.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.5101321Z #35 709.3 After this operation, 47.7 MB of additional disk space will be used.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.5101727Z #35 709.3 Get:1 https://download.docker.com/linux/debian bookworm/stable amd64 docker-ce-cli amd64 5:29.9.0-1~debian.12~bookworm [17.6 MB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:45.9009816Z #35 709.8 Fetched 17.6 MB in 0s (73.6 MB/s)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0870242Z #35 709.9 Selecting previously unselected package docker-ce-cli.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0871329Z #35 709.9 (Reading database ... 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0872109Z (Reading database ... 5%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0872439Z (Reading database ... 10%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0872896Z (Reading database ... 15%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0873155Z (Reading database ... 20%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0873378Z (Reading database ... 25%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0873592Z (Reading database ... 30%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0873802Z (Reading database ... 35%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0874013Z (Reading database ... 40%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0874223Z (Reading database ... 45%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0874429Z (Reading database ... 50%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0874641Z (Reading database ... 55%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0874847Z (Reading database ... 60%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0875061Z (Reading database ... 65%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0875272Z (Reading database ... 70%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0875581Z (Reading database ... 75%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0875809Z (Reading database ... 80%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0876009Z (Reading database ... 85%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0876218Z (Reading database ... 90%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0876427Z (Reading database ... 95%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0876645Z (Reading database ... 100%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0876959Z (Reading database ... 37123 files and directories currently installed.)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0877458Z #35 709.9 Preparing to unpack .../docker-ce-cli_5%3a29.9.0-1~debian.12~bookworm_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.0877933Z #35 709.9 Unpacking docker-ce-cli (5:29.9.0-1~debian.12~bookworm) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.2988392Z #35 710.2 Setting up docker-ce-cli (5:29.9.0-1~debian.12~bookworm) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.5812582Z #35 710.3 Reading package lists...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.7503951Z #35 710.5 Building dependency tree...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.7504225Z #35 710.6 Reading state information...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:46.7504443Z #35 710.7 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.8268375Z #35 DONE 713.8s
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9282818Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9283404Z #36 [main  6/26] COPY --from=scripts common.sh /scripts/docker/
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9283663Z #36 DONE 0.0s
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9283743Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9283911Z #37 [main  7/26] COPY --from=scripts install_mysql.sh install_mssql.sh install_postgres.sh /scripts/docker/
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9284159Z #37 DONE 0.0s
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9284225Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9285053Z #38 [main  8/26] RUN bash /scripts/docker/install_mysql.sh prod     && bash /scripts/docker/install_mysql.sh dev     && bash /scripts/docker/install_mssql.sh dev     && bash /scripts/docker/install_postgres.sh dev     && adduser --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password     --quiet "airflow" --home "/home/airflow"     && echo -e "airflow\nairflow" | passwd airflow 2>&1     && echo "airflow ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/airflow     && chmod 0440 /etc/sudoers.d/airflow
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:49.9286708Z #38 0.076 ^[[34mInstalling GPG public key 0xF1656F24C74CD1D8 from /scripts/docker/keys/mariadb.asc^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.0299795Z #38 0.078 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.0300337Z #38 0.078 ^[[34mInstalling MariaDB client version 10.11: prod^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.0300666Z #38 0.078 ^[[33mMariaDB client protocol-compatible with MySQL client.^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.0300862Z #38 0.078 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.0301043Z #38 0.148 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.0301318Z #38 0.175 Get:2 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.0301608Z #38 0.178 Get:3 https://download.docker.com/linux/debian bookworm InRelease [46.6 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.1309232Z #38 0.185 Get:4 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.1309968Z #38 0.208 Get:5 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.1310739Z #38 0.269 Get:6 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.1311408Z #38 0.273 Get:7 https://packages.adoptium.net/artifactory/deb bookworm InRelease [7507 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.1312053Z #38 0.279 Get:8 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [349 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.2398347Z #38 0.306 Get:9 https://download.docker.com/linux/debian bookworm/stable amd64 Packages [83.4 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.2398998Z #38 0.387 Get:10 https://packages.adoptium.net/artifactory/deb bookworm/main amd64 Packages [18.5 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.6460166Z #38 0.794 Get:11 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm InRelease [15.6 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:50.9312791Z #38 1.079 Get:12 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 Packages [19.9 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.1431016Z #38 1.291 Get:13 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main arm64 Packages [17.7 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.3323535Z #38 1.330 Fetched 9597 kB in 1s (7787 kB/s)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.4349272Z #38 1.330 Reading package lists...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.7015692Z #38 1.594 Reading package lists...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.8048178Z #38 1.857 Building dependency tree...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9651980Z #38 1.952 Reading state information...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9652337Z #38 2.021 The following additional packages will be installed:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9652741Z #38 2.022   libconfig-inifiles-perl libmariadb3 mariadb-client-core mariadb-common
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9653021Z #38 2.022   mysql-common
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9658308Z #38 2.022 Recommended packages:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9658590Z #38 2.022   libdbd-mariadb-perl | libdbd-mysql-perl libdbi-perl libterm-readkey-perl
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9658854Z #38 2.042 The following NEW packages will be installed:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9659103Z #38 2.042   libconfig-inifiles-perl libmariadb3 libmariadb3-compat mariadb-client
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9659355Z #38 2.042   mariadb-client-core mariadb-common mysql-common
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9659587Z #38 2.113 0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9659802Z #38 2.113 Need to get 3982 kB of archives.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9660013Z #38 2.113 After this operation, 80.0 MB of additional disk space will be used.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:51.9660381Z #38 2.113 Get:1 http://deb.debian.org/debian bookworm/main amd64 libconfig-inifiles-perl all 3.000003-2+deb12u1 [46.0 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:52.5862088Z #38 2.734 Get:2 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 mysql-common all 1:10.11.19+maria~deb12 [3056 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:52.7687248Z #38 2.917 Get:3 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 mariadb-common all 1:10.11.19+maria~deb12 [4196 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:52.8907388Z #38 3.039 Get:4 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 libmariadb3 amd64 1:10.11.19+maria~deb12 [156 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:53.1412520Z #38 3.289 Get:5 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 libmariadb3-compat amd64 1:10.11.19+maria~deb12 [2864 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:53.2917728Z #38 3.289 Get:6 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 mariadb-client-core amd64 1:10.11.19+maria~deb12 [844 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:53.5027566Z #38 3.650 Get:7 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 mariadb-client amd64 1:10.11.19+maria~deb12 [2926 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.1065332Z #38 4.254 Fetched 3982 kB in 2s (2153 kB/s)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2540917Z #38 4.261 Selecting previously unselected package libconfig-inifiles-perl.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2541326Z #38 4.261 (Reading database ... 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2541554Z (Reading database ... 5%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2541760Z (Reading database ... 10%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2541965Z (Reading database ... 15%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2542161Z (Reading database ... 20%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2542355Z (Reading database ... 25%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2542555Z (Reading database ... 30%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2542750Z (Reading database ... 35%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2542945Z (Reading database ... 40%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2543174Z (Reading database ... 45%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2543368Z (Reading database ... 50%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2543559Z (Reading database ... 55%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2543970Z (Reading database ... 60%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2544163Z (Reading database ... 65%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2544354Z (Reading database ... 70%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2544543Z (Reading database ... 75%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2544733Z (Reading database ... 80%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2544930Z (Reading database ... 85%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2545122Z (Reading database ... 90%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2545312Z (Reading database ... 95%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2545621Z (Reading database ... 100%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2545903Z (Reading database ... 37312 files and directories currently installed.)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2546340Z #38 4.271 Preparing to unpack .../0-libconfig-inifiles-perl_3.000003-2+deb12u1_all.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2546756Z #38 4.272 Unpacking libconfig-inifiles-perl (3.000003-2+deb12u1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2547107Z #38 4.282 Selecting previously unselected package mysql-common.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2547501Z #38 4.283 Preparing to unpack .../1-mysql-common_1%3a10.11.19+maria~deb12_all.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2547873Z #38 4.284 Unpacking mysql-common (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2548193Z #38 4.292 Selecting previously unselected package mariadb-common.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2548562Z #38 4.294 Preparing to unpack .../2-mariadb-common_1%3a10.11.19+maria~deb12_all.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2548927Z #38 4.294 Unpacking mariadb-common (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2549255Z #38 4.303 Selecting previously unselected package libmariadb3:amd64.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2549628Z #38 4.304 Preparing to unpack .../3-libmariadb3_1%3a10.11.19+maria~deb12_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2549994Z #38 4.305 Unpacking libmariadb3:amd64 (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2550329Z #38 4.320 Selecting previously unselected package libmariadb3-compat.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2550738Z #38 4.321 Preparing to unpack .../4-libmariadb3-compat_1%3a10.11.19+maria~deb12_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2551133Z #38 4.322 Unpacking libmariadb3-compat (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2551485Z #38 4.329 Selecting previously unselected package mariadb-client-core.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2551890Z #38 4.331 Preparing to unpack .../5-mariadb-client-core_1%3a10.11.19+maria~deb12_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2552283Z #38 4.332 Unpacking mariadb-client-core (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.2552614Z #38 4.402 Selecting previously unselected package mariadb-client.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.4074843Z #38 4.404 Preparing to unpack .../6-mariadb-client_1%3a10.11.19+maria~deb12_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.4075166Z #38 4.405 Unpacking mariadb-client (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.4290485Z #38 4.577 Setting up libconfig-inifiles-perl (3.000003-2+deb12u1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5944276Z #38 4.578 Setting up mysql-common (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5944995Z #38 4.579 Setting up mariadb-common (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5945238Z #38 4.582 update-alternatives: error: no alternatives for my.cnf
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5945727Z #38 4.583 update-alternatives: using /etc/mysql/mariadb.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5946050Z #38 4.584 Setting up libmariadb3:amd64 (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5946280Z #38 4.586 Setting up libmariadb3-compat (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5946519Z #38 4.587 Setting up mariadb-client-core (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5946742Z #38 4.588 Setting up mariadb-client (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.5946960Z #38 4.592 Processing triggers for libc-bin (2.36-9+deb12u14) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:54.8907597Z #38 5.038 ^[[34mInstalling GPG public key 0xF1656F24C74CD1D8 from /scripts/docker/keys/mariadb.asc^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.0264158Z #38 5.040 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.0264738Z #38 5.040 ^[[34mInstalling MariaDB client version 10.11: dev^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.0265069Z #38 5.040 ^[[33mMariaDB client protocol-compatible with MySQL client.^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.0265270Z #38 5.040 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.0265604Z #38 5.124 Get:1 https://download.docker.com/linux/debian bookworm InRelease [46.6 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.0266049Z #38 5.137 Get:2 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.0266335Z #38 5.174 Get:3 https://download.docker.com/linux/debian bookworm/stable amd64 Packages [83.4 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.1588436Z #38 5.179 Get:4 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.1589240Z #38 5.195 Get:5 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.1589930Z #38 5.213 Get:6 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.1590496Z #38 5.213 Get:7 https://packages.adoptium.net/artifactory/deb bookworm InRelease [7507 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.1591112Z #38 5.306 Get:8 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.3482724Z #38 5.306 Get:9 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [349 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.3483176Z #38 5.346 Get:10 https://packages.adoptium.net/artifactory/deb bookworm/main amd64 Packages [18.5 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.6638372Z #38 5.811 Get:11 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm InRelease [15.6 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:55.8892224Z #38 6.037 Get:12 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main arm64 Packages [17.7 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.1011552Z #38 6.249 Get:13 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 Packages [19.9 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.2904373Z #38 6.288 Fetched 9597 kB in 1s (7809 kB/s)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.3931783Z #38 6.288 Reading package lists...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.6547219Z #38 6.553 Reading package lists...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.8109000Z #38 6.810 Building dependency tree...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.8109445Z #38 6.882 Reading state information...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.8109875Z #38 6.958 mariadb-client is already the newest version (1:10.11.19+maria~deb12).
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.8110360Z #38 6.958 The following NEW packages will be installed:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:56.9611108Z #38 6.959   libmariadb-dev libmariadb-dev-compat
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:57.7292706Z #38 7.877 0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:57.7292986Z #38 7.877 Need to get 256 kB of archives.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:57.7293208Z #38 7.877 After this operation, 1035 kB of additional disk space will be used.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:57.7293632Z #38 7.877 Get:1 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 libmariadb-dev amd64 1:10.11.19+maria~deb12 [253 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.2747260Z #38 8.422 Get:2 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 libmariadb-dev-compat amd64 1:10.11.19+maria~deb12 [3204 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.6236101Z #38 8.771 Fetched 256 kB in 1s (176 kB/s)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8336753Z #38 8.778 Selecting previously unselected package libmariadb-dev.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8337163Z #38 8.778 (Reading database ... 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8337310Z (Reading database ... 5%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8337463Z (Reading database ... 10%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8337597Z (Reading database ... 15%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8337725Z (Reading database ... 20%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8337855Z (Reading database ... 25%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8337981Z (Reading database ... 30%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338111Z (Reading database ... 35%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338235Z (Reading database ... 40%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338360Z (Reading database ... 45%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338485Z (Reading database ... 50%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338608Z (Reading database ... 55%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338734Z (Reading database ... 60%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338858Z (Reading database ... 65%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8338982Z (Reading database ... 70%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8339105Z (Reading database ... 75%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8339230Z (Reading database ... 80%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8339365Z (Reading database ... 85%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8339488Z (Reading database ... 90%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8339612Z (Reading database ... 95%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8339846Z (Reading database ... 100%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8340034Z (Reading database ... 37467 files and directories currently installed.)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8340312Z #38 8.787 Preparing to unpack .../libmariadb-dev_1%3a10.11.19+maria~deb12_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8340570Z #38 8.788 Unpacking libmariadb-dev (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8340805Z #38 8.809 Selecting previously unselected package libmariadb-dev-compat.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8341093Z #38 8.810 Preparing to unpack .../libmariadb-dev-compat_1%3a10.11.19+maria~deb12_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8341376Z #38 8.811 Unpacking libmariadb-dev-compat (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8341602Z #38 8.829 Setting up libmariadb-dev (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:58.8341831Z #38 8.831 Setting up libmariadb-dev-compat (1:10.11.19+maria~deb12) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:59.1193290Z #38 9.267 ^[[34mInstalling GPG public key EB3E94ADBE1229CF from /scripts/docker/keys/microsoft.asc^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:59.2710458Z #38 9.268 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:59.2710945Z #38 9.268 ^[[34mInstalling mssql client^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:15:59.2711122Z #38 9.268 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.0352499Z #38 12.18 Preconfiguring packages ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1677223Z #38 12.22 Selecting previously unselected package msodbcsql18.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1677693Z #38 12.22 (Reading database ... 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1678109Z (Reading database ... 5%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1678288Z (Reading database ... 10%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1678509Z (Reading database ... 15%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1678676Z (Reading database ... 20%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1678806Z (Reading database ... 25%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1678936Z (Reading database ... 30%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1679076Z (Reading database ... 35%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1679203Z (Reading database ... 40%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1679335Z (Reading database ... 45%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1679495Z (Reading database ... 50%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1679679Z (Reading database ... 55%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1679810Z (Reading database ... 60%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1679951Z (Reading database ... 65%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1680073Z (Reading database ... 70%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1680197Z (Reading database ... 75%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1680321Z (Reading database ... 80%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1680443Z (Reading database ... 85%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1680565Z (Reading database ... 90%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1680686Z (Reading database ... 95%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1680817Z (Reading database ... 100%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1681051Z (Reading database ... 37640 files and directories currently installed.)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1681313Z #38 12.23 Preparing to unpack .../msodbcsql18_18.7.1.1-1_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1681523Z #38 12.26 Unpacking msodbcsql18 (18.7.1.1-1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.1681696Z #38 12.32 Setting up msodbcsql18 (18.7.1.1-1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.3205286Z #38 12.32 odbcinst: Driver installed. Usage count increased to 1. 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.3205853Z #38 12.32     Target directory is /etc
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.6534061Z #38 12.80 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.6534625Z #38 12.80 ^[[34mInstalling postgres client^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.6534846Z #38 12.80 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.6535120Z #38 12.80 ^[[34mInstalling GPG public key 7FCC7D46ACCC4CF8 from /scripts/docker/keys/postgres.asc^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.7563773Z #38 12.86 Get:1 http://deb.debian.org/debian bookworm InRelease [151 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.7564395Z #38 12.87 Get:2 https://packages.microsoft.com/debian/12/prod bookworm InRelease [3618 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.7564841Z #38 12.88 Get:3 http://deb.debian.org/debian bookworm-updates InRelease [55.4 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.7565678Z #38 12.89 Get:4 http://deb.debian.org/debian-security bookworm-security InRelease [34.8 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.7566227Z #38 12.90 Get:5 https://download.docker.com/linux/debian bookworm InRelease [46.6 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.8650865Z #38 12.92 Get:6 https://packages.microsoft.com/debian/12/prod bookworm/main all Packages [576 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.8651713Z #38 12.92 Get:7 https://packages.microsoft.com/debian/12/prod bookworm/main arm64 Packages [365 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.8652574Z #38 12.93 Get:8 https://packages.microsoft.com/debian/12/prod bookworm/main amd64 Packages [493 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.8653160Z #38 12.95 Get:9 http://deb.debian.org/debian bookworm/main amd64 Packages [8790 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.8653721Z #38 13.01 Get:10 http://deb.debian.org/debian bookworm-updates/main amd64 Packages [6924 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.9963677Z #38 13.01 Get:11 http://deb.debian.org/debian-security bookworm-security/main amd64 Packages [349 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.9964242Z #38 13.05 Get:12 https://download.docker.com/linux/debian bookworm/stable amd64 Packages [83.4 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:02.9964755Z #38 13.14 Get:13 https://packages.adoptium.net/artifactory/deb bookworm InRelease [7507 B]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:03.1329551Z #38 13.16 Get:14 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg InRelease [189 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:03.1330169Z #38 13.24 Get:15 https://packages.adoptium.net/artifactory/deb bookworm/main amd64 Packages [18.5 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:03.1330766Z #38 13.24 Get:16 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg/main amd64 Packages [904 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:03.1331317Z #38 13.28 Get:17 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg/main arm64 Packages [890 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:03.4468453Z #38 13.59 Get:18 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm InRelease [15.6 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:03.7435674Z #38 13.89 Get:19 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main amd64 Packages [19.9 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:03.9006427Z #38 14.05 Get:20 https://archive.mariadb.org/mariadb-10.11/repo/debian bookworm/main arm64 Packages [17.7 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.0628797Z #38 14.06 Fetched 12.4 MB in 1s (10.1 MB/s)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.2331206Z #38 14.06 Reading package lists...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.5641805Z #38 14.39 Reading package lists...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.6653197Z #38 14.72 Building dependency tree...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9072906Z #38 14.81 Reading state information...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9073195Z #38 14.89 The following package was automatically installed and is no longer required:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9073459Z #38 14.89   postgresql-client-15
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9073628Z #38 14.89 Use 'apt autoremove' to remove it.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9073837Z #38 14.89 The following additional packages will be installed:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9074063Z #38 14.89   libpq5 postgresql-client-18 postgresql-client-common
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9074254Z #38 14.89 Suggested packages:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9074417Z #38 14.89   postgresql-doc-18 libpq-oauth postgresql-18
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9074607Z #38 14.90 The following NEW packages will be installed:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9074780Z #38 14.90   postgresql-client-18
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9074935Z #38 14.90 The following packages will be upgraded:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9075383Z #38 14.90   libpq-dev libpq5 postgresql-client postgresql-client-common
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9818895Z #38 15.13 4 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9819134Z #38 15.13 Need to get 2638 kB of archives.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9819362Z #38 15.13 After this operation, 11.7 MB of additional disk space will be used.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:04.9819758Z #38 15.13 Get:1 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg/main amd64 libpq-dev amd64 18.6-1.pgdg12+2 [174 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.2236132Z #38 15.17 Get:2 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg/main amd64 libpq5 amd64 18.6-1.pgdg12+2 [265 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.2236893Z #38 15.19 Get:3 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg/main amd64 postgresql-client-common all 293.pgdg12+1 [49.5 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.2237354Z #38 15.19 Get:4 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg/main amd64 postgresql-client-18 amd64 18.6-1.pgdg12+2 [2134 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.2237836Z #38 15.22 Get:5 https://apt.postgresql.org/pub/repos/apt bookworm-pgdg/main amd64 postgresql-client all 18+293.pgdg12+1 [15.6 kB]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.4894292Z #38 15.64 Fetched 2638 kB in 0s (8403 kB/s)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7007923Z #38 15.64 (Reading database ... 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7008414Z (Reading database ... 5%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7008635Z (Reading database ... 10%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7008841Z (Reading database ... 15%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7009034Z (Reading database ... 20%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7009228Z (Reading database ... 25%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7009364Z (Reading database ... 30%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7009505Z (Reading database ... 35%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7009670Z (Reading database ... 40%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7009863Z (Reading database ... 45%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7010055Z (Reading database ... 50%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7010251Z (Reading database ... 55%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7010447Z (Reading database ... 60%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7010574Z (Reading database ... 65%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7010702Z (Reading database ... 70%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7010824Z (Reading database ... 75%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7010958Z (Reading database ... 80%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7011082Z (Reading database ... 85%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7011205Z (Reading database ... 90%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7011332Z (Reading database ... 95%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7011457Z (Reading database ... 100%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7011650Z (Reading database ... 37659 files and directories currently installed.)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7011921Z #38 15.65 Preparing to unpack .../libpq-dev_18.6-1.pgdg12+2_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7012170Z #38 15.65 Unpacking libpq-dev (18.6-1.pgdg12+2) over (15.19-0+deb12u1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7012416Z #38 15.68 Preparing to unpack .../libpq5_18.6-1.pgdg12+2_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7012662Z #38 15.68 Unpacking libpq5:amd64 (18.6-1.pgdg12+2) over (15.19-0+deb12u1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7012937Z #38 15.70 Preparing to unpack .../postgresql-client-common_293.pgdg12+1_all.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7013225Z #38 15.72 Unpacking postgresql-client-common (293.pgdg12+1) over (248+deb12u1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7013499Z #38 15.73 Selecting previously unselected package postgresql-client-18.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7013773Z #38 15.73 Preparing to unpack .../postgresql-client-18_18.6-1.pgdg12+2_amd64.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7014032Z #38 15.73 Unpacking postgresql-client-18 (18.6-1.pgdg12+2) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.7014273Z #38 15.85 Preparing to unpack .../postgresql-client_18+293.pgdg12+1_all.deb ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.8728818Z #38 15.85 Unpacking postgresql-client (18+293.pgdg12+1) over (15+248+deb12u1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.8729163Z #38 15.87 Setting up postgresql-client-common (293.pgdg12+1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.8729430Z #38 15.87 Removing obsolete conffile /etc/postgresql-common/supported_versions ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.8729679Z #38 15.87 Setting up libpq5:amd64 (18.6-1.pgdg12+2) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.8729871Z #38 15.87 Setting up libpq-dev (18.6-1.pgdg12+2) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.8730076Z #38 15.87 Setting up postgresql-client-18 (18.6-1.pgdg12+2) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:05.8730719Z #38 16.02 update-alternatives: using /usr/share/postgresql/18/man/man1/psql.1.gz to provide /usr/share/man/man1/psql.1.gz (psql.1.gz) in auto mode
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.0331603Z #38 16.03 Setting up postgresql-client (18+293.pgdg12+1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.0332089Z #38 16.03 Processing triggers for libc-bin (2.36-9+deb12u14) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6209273Z #38 16.66 (Reading database ... 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6209508Z (Reading database ... 5%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6209657Z (Reading database ... 10%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6209792Z (Reading database ... 15%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6209922Z (Reading database ... 20%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210059Z (Reading database ... 25%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210187Z (Reading database ... 30%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210314Z (Reading database ... 35%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210438Z (Reading database ... 40%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210561Z (Reading database ... 45%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210689Z (Reading database ... 50%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210814Z (Reading database ... 55%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6210974Z (Reading database ... 60%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6211099Z (Reading database ... 65%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6211221Z (Reading database ... 70%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6211348Z (Reading database ... 75%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6211674Z (Reading database ... 80%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6211800Z (Reading database ... 85%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6211923Z (Reading database ... 90%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6212047Z (Reading database ... 95%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6212173Z (Reading database ... 100%
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6212364Z (Reading database ... 38057 files and directories currently installed.)
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6212620Z #38 16.67 Removing postgresql-client-15 (15.19-0+deb12u1) ...
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:06.6212882Z #38 16.76 New password: Retype new password: passwd: password updated successfully
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:07.0710628Z #38 DONE 17.2s
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:07.2217999Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:07.2219681Z #39 [main  9/26] RUN SYSTEM=$(uname -s | tr '[:upper:]' '[:lower:]')     && PLATFORM=$([ "$(uname -m)" = "aarch64" ] && echo "arm64" || echo "amd64" )     && HELM_URL="https://get.helm.sh/helm-v3.19.0-${SYSTEM}-${PLATFORM}.tar.gz"     && curl --silent --location --fail --retry 3 --retry-delay 5 -o /tmp/helm.tar.gz "${HELM_URL}"     && tar -xzf /tmp/helm.tar.gz -O "${SYSTEM}-${PLATFORM}/helm" > /usr/local/bin/helm     && rm -f /tmp/helm.tar.gz     && chmod +x /usr/local/bin/helm
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:07.8841369Z #39 DONE 0.8s
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.1157861Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.1160036Z #40 [main 10/26] RUN SYSTEM=$(uname -s | tr '[:upper:]' '[:lower:]')     && PLATFORM="$(uname -m)"     && MPROCS_URL="https://github.com/pvolok/mprocs/releases/download/v0.10.2/mprocs-0.10.2-${SYSTEM}-${PLATFORM}-musl.tar.gz"     && echo "Downloading mprocs from ${MPROCS_URL}"     && curl --silent --location --fail --retry 3 --retry-delay 5 -o /tmp/mprocs.tar.gz "${MPROCS_URL}"     && tar -xzf /tmp/mprocs.tar.gz -C /usr/local/bin/ mprocs     && rm -f /tmp/mprocs.tar.gz     && chmod +x /usr/local/bin/mprocs
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.1162113Z #40 0.081 Downloading mprocs from https://github.com/pvolok/mprocs/releases/download/v0.10.2/mprocs-0.10.2-linux-x86_64-musl.tar.gz
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.1963058Z #40 ERROR: process "/bin/bash -o pipefail -o errexit -o nounset -o nolog -c SYSTEM=$(uname -s | tr '[:upper:]' '[:lower:]')     && PLATFORM=\"$(uname -m)\"     && MPROCS_URL=\"https://github.com/pvolok/mprocs/releases/download/v${MPROCS_VERSION}/mprocs-${MPROCS_VERSION}-${SYSTEM}-${PLATFORM}-musl.tar.gz\"     && echo \"Downloading mprocs from ${MPROCS_URL}\"     && curl --silent --location --fail --retry 3 --retry-delay 5 -o /tmp/mprocs.tar.gz \"${MPROCS_URL}\"     && tar -xzf /tmp/mprocs.tar.gz -C /usr/local/bin/ mprocs     && rm -f /tmp/mprocs.tar.gz     && chmod +x /usr/local/bin/mprocs" did not complete successfully: exit code: 22
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2056736Z ------
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2060232Z  > [main 10/26] RUN SYSTEM=$(uname -s | tr '[:upper:]' '[:lower:]')     && PLATFORM="$(uname -m)"     && MPROCS_URL="https://github.com/pvolok/mprocs/releases/download/v0.10.2/mprocs-0.10.2-${SYSTEM}-${PLATFORM}-musl.tar.gz"     && echo "Downloading mprocs from ${MPROCS_URL}"     && curl --silent --location --fail --retry 3 --retry-delay 5 -o /tmp/mprocs.tar.gz "${MPROCS_URL}"     && tar -xzf /tmp/mprocs.tar.gz -C /usr/local/bin/ mprocs     && rm -f /tmp/mprocs.tar.gz     && chmod +x /usr/local/bin/mprocs:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2063629Z 0.081 Downloading mprocs from https://github.com/pvolok/mprocs/releases/download/v0.10.2/mprocs-0.10.2-linux-x86_64-musl.tar.gz
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2064203Z ------
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2066741Z ERROR: failed to build: failed to solve: process "/bin/bash -o pipefail -o errexit -o nounset -o nolog -c SYSTEM=$(uname -s | tr '[:upper:]' '[:lower:]')     && PLATFORM=\"$(uname -m)\"     && MPROCS_URL=\"https://github.com/pvolok/mprocs/releases/download/v${MPROCS_VERSION}/mprocs-${MPROCS_VERSION}-${SYSTEM}-${PLATFORM}-musl.tar.gz\"     && echo \"Downloading mprocs from ${MPROCS_URL}\"     && curl --silent --location --fail --retry 3 --retry-delay 5 -o /tmp/mprocs.tar.gz \"${MPROCS_URL}\"     && tar -xzf /tmp/mprocs.tar.gz -C /usr/local/bin/ mprocs     && rm -f /tmp/mprocs.tar.gz     && chmod +x /usr/local/bin/mprocs" did not complete successfully: exit code: 22
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2117265Z ##[endgroup]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2120955Z ^[[31mError when building image! Image build: ^[[0m^[[1;31m3.11^[[0m^[[31m:linux/amd64^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2128155Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2128510Z ^[[93m────────────────────────────────────────────────────────────────────────────────^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2128871Z ^[[93mHOW TO REPRODUCE LOCALLY^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2129064Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2148223Z ^[[94m# ^[[0m^[[1;94m1^[[0m^[[94m. Fetch the same code as CI ^[[0m^[[1;94m(^[[0m^[[94mpull request merge ref^[[0m^[[1;94m)^[[0m^[[94m — or: gh pr checkout ^[[0m^[[1;94m73822^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2149097Z ^[[94mgit fetch ^[[0m^[[4;94mhttps://github.com/apache/airflow.git^[[0m^[[94m refs/pull/^[[0m^[[1;94m73822^[[0m^[[94m/merge^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2149690Z ^[[94mgit checkout 0528d85355df83a50efdafa98481ddf2283868d1^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2149935Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2150146Z ^[[94m# ^[[0m^[[1;94m2^[[0m^[[94m. Run the same Breeze command locally^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2153657Z ^[[94mbreeze ci-image build --docker-cache registry --github-repository apache/airflow --github-token *** --install-mysql-client-type mariadb --platform linux/amd64 --python ^[[0m^[[1;94m3.11^[[0m^[[94m --upgrade-to-newer-dependencies^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2154469Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2154757Z ^[[93m────────────────────────────────────────────────────────────────────────────────^[[0m
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2155010Z 
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2456220Z ##[error]Process completed with exit code 1.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2548619Z Post job cleanup.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2550602Z ##[start-action display=Setup python;id=__ffe17614-fb49-4e47-ba0a-929f58b5a53c.__actions_setup-python]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2552374Z ##[end-action id=__ffe17614-fb49-4e47-ba0a-929f58b5a53c.__actions_setup-python;outcome=skipped;conclusion=skipped;duration_ms=0]
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.2588125Z Post job cleanup.
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3123659Z [command]/usr/bin/git version
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3147938Z git version 2.55.0
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3167708Z Temporarily overriding HOME='/home/runner/work/_temp/410cb68f-4664-484e-a52c-1f3247803191' before making global git config changes
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3168150Z Adding repository directory to the temporary git global config as a safe directory
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3170856Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/airflow/airflow
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3188115Z Removing SSH command configuration
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3191895Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3209552Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3324395Z Removing HTTP extra header
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3327951Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3344931Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3456014Z Removing includeIf entries pointing to credentials config files
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3460577Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3478796Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Build CI images / Build CI linux/amd64 image 3.11	UNKNOWN STEP	2026-10-12T07:16:08.3726649Z Cleaning up orphan processes

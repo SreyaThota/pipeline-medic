@@ -1,0 +1,190 @@
+Check PR template	UNKNOWN STEP	﻿2026-10-12T04:15:56.8301404Z Current runner version: '2.337.0'
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8352003Z ##[group]Runner Image Provisioner
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8352947Z Hosted Compute Agent
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8353523Z Version: 20261002.596
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8354214Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8354916Z Build Date: 2026-10-02T22:28:27Z
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8355600Z Worker ID: {498d7baa-c969-4f66-87e7-70e9fd542109}
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8356318Z Region: eastus
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8356824Z Cloud: Azure
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8357371Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8359701Z ##[group]VM Image
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8360296Z - OS: Linux (x64)
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8361000Z - Source: Docker
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8361529Z - Name: ubuntu:24.04
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8362124Z - Version: 20261005.17.1
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8362678Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8363644Z ##[group]GITHUB_TOKEN Permissions
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8366059Z Metadata: read
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8366653Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8392786Z Secret source: None
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8394563Z Cache mode: write
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.8395393Z Prepare workflow directory
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.9711178Z Prepare all required actions
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:56.9838239Z Getting action download info
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:57.9964875Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:58.7194058Z Complete job name: Check PR template
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0266825Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0311865Z with:
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0312387Z   persist-credentials: false
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0313396Z   repository: pypa/pip
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0318469Z   token: ***
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0322001Z   ssh-strict: true
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0322468Z   ssh-user: git
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0322892Z   clean: true
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0324404Z   sparse-checkout-cone-mode: true
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0325814Z   fetch-depth: 1
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0327941Z   fetch-tags: false
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0328459Z   show-progress: true
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0329398Z   lfs: false
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0329824Z   submodules: false
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0330279Z   set-safe-directory: true
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0331027Z   allow-unsafe-pr-checkout: false
+Check PR template	UNKNOWN STEP	2026-10-12T04:15:59.0333813Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:00.9991831Z Syncing repository: pypa/pip
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:00.9993932Z ##[group]Getting Git version info
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:00.9994813Z Working directory is '/home/runner/work/pip/pip'
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:00.9995900Z [command]/usr/bin/git version
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:00.9996480Z git version 2.55.0
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:00.9998088Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0021560Z Temporarily overriding HOME='/home/runner/work/_temp/a6932298-888a-44c4-92c0-0255aa85e14c' before making global git config changes
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0023029Z Adding repository directory to the temporary git global config as a safe directory
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0024122Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pip/pip
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0028418Z Deleting the contents of '/home/runner/work/pip/pip'
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0031945Z ##[group]Determining repository object format
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0033575Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0034337Z ##[group]Initializing the repository
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0034993Z [command]/usr/bin/git init /home/runner/work/pip/pip
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0074993Z hint: Using 'master' as the name for the initial branch. This default branch name
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0077751Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0092679Z hint: to use in all of your new repositories, which will suppress this warning,
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0093702Z hint: call:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0096026Z hint:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0096604Z hint: 	git config --global init.defaultBranch <name>
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0097230Z hint:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0098088Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0099743Z hint: 'development'. The just-created branch can be renamed via this command:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0104084Z hint:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0104525Z hint: 	git branch -m <name>
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0105014Z hint:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0106635Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0107694Z Initialized empty Git repository in /home/runner/work/pip/pip/.git/
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0159432Z [command]/usr/bin/git remote add origin https://github.com/pypa/pip
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0162048Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0162841Z ##[group]Disabling automatic garbage collection
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0163935Z [command]/usr/bin/git config --local gc.auto 0
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0165916Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0250281Z ##[group]Setting up auth
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0255208Z Removing SSH command configuration
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0259125Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.0264939Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.1396189Z Removing HTTP extra header
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.1397272Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.1435716Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.1964646Z Removing includeIf entries pointing to credentials config files
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.1978073Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.2313475Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3154719Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3257967Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/pip/pip/.git.path /home/runner/work/_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3532255Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/pip/pip/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3700638Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3793403Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3980297Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3983174Z ##[group]Fetching the repository
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:01.3986243Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +b70b748fb363cf20436c2c058d4b927fbf7d21c6:refs/remotes/pull/14345/merge
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.5921421Z From https://github.com/pypa/pip
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.5922667Z  * [new ref]         b70b748fb363cf20436c2c058d4b927fbf7d21c6 -> pull/14345/merge
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.5940444Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.5941472Z ##[group]Determining the checkout info
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.5942379Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.5950280Z [command]/usr/bin/git sparse-checkout disable
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.6044192Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.6092922Z ##[group]Checking out the ref
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.6102471Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/14345/merge
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8767316Z Note: switching to 'refs/remotes/pull/14345/merge'.
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8769013Z 
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8769668Z You are in 'detached HEAD' state. You can look around, make experimental
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8786037Z changes and commit them, and you can discard any commits you make in this
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8811117Z state without impacting any branches by switching back to a branch.
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8811901Z 
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8812384Z If you want to create a new branch to retain commits you create, you may
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8816360Z do so (now or later) by using -c with the switch command. Example:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8817762Z 
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8818009Z   git switch -c <new-branch-name>
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8818394Z 
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8818910Z Or undo this operation with:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8819273Z 
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8819476Z   git switch -
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8819752Z 
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8823660Z Turn off this advice by setting config variable advice.detachedHead to false
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8824336Z 
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8829935Z HEAD is now at b70b748 Merge af20340719f580d5385b384f53d8ca61bd9ef4be into 2f09e0dd25fd3820725af5e76d39cde99e9523dc
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.8855251Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.9055432Z [command]/usr/bin/git log -1 --format=%H
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.9183838Z b70b748fb363cf20436c2c058d4b927fbf7d21c6
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.9303943Z ##[group]Removing auth
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.9305714Z Removing SSH command configuration
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.9312485Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:02.9683738Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.1601201Z Removing HTTP extra header
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.1703622Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.2015861Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4892654Z Removing includeIf entries pointing to credentials config files
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4894471Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4896134Z includeif.gitdir:/home/runner/work/pip/pip/.git.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4897653Z includeif.gitdir:/home/runner/work/pip/pip/.git/worktrees/*.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4902325Z includeif.gitdir:/github/workspace/.git.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4903720Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4910831Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pip/pip/.git.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4915846Z /home/runner/work/_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4923017Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pip/pip/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-efb554f9\-7d13\-4ce4\-81e2\-e6f7d846c4e2\.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4932701Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/pip/pip/.git/worktrees/*.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4948832Z /home/runner/work/_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4956975Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/pip/pip/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-efb554f9\-7d13\-4ce4\-81e2\-e6f7d846c4e2\.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4966888Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4971755Z /github/runner_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4981309Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-efb554f9\-7d13\-4ce4\-81e2\-e6f7d846c4e2\.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.4994641Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5010640Z /github/runner_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5025310Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-efb554f9\-7d13\-4ce4\-81e2\-e6f7d846c4e2\.config
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5035047Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5044359Z Removing credentials config '/home/runner/work/_temp/git-credentials-efb554f9-7d13-4ce4-81e2-e6f7d846c4e2.config'
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5051135Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5732599Z ##[group]Run bash .github/scripts/check_pr_template.sh
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5734523Z ^[[36;1mbash .github/scripts/check_pr_template.sh^[[0m
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5753325Z shell: /usr/bin/bash -e {0}
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5757473Z env:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5782878Z   PR_BODY: LinkHash.find_hash_url_fragment() ran its `[#&](algo)=value` regex against the entire URL string. The `&` alternative was meant for `&`-separated params inside the fragment (`#subdirectory=setup&sha256=...`), but it also matched query-string params (`?token=x&sha256=...`), so a query value counted as a link hash for `--require-hashes` — while `_clean_link()` only reads the fragment, making the two disagree.
+Check PR template	UNKNOWN STEP	
+Check PR template	UNKNOWN STEP	Fix: search only the URL fragment (re-prefixed with `#` so the regex still matches a hash in first fragment position). No regex change.
+Check PR template	UNKNOWN STEP	
+Check PR template	UNKNOWN STEP	```python
+Check PR template	UNKNOWN STEP	Link("https://example.com/pkg.whl?token=x&sha256=<64hex>").has_hash
+Check PR template	UNKNOWN STEP	# before: True
+Check PR template	UNKNOWN STEP	# after: False
+Check PR template	UNKNOWN STEP	```
+Check PR template	UNKNOWN STEP	
+Check PR template	UNKNOWN STEP	All documented fragment forms (`#sha256=`, `#subdirectory=setup&sha256=`) still parse. Added 3 regression cases to `test_link_hash_parsing`; full `test_collector.py` green (117 passed).
+Check PR template	UNKNOWN STEP	
+Check PR template	UNKNOWN STEP	Fixes #14315.
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5847670Z   PR_USER_LOGIN: intertermux-code
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5850156Z   PR_NUMBER: 14345
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.5851332Z ##[endgroup]
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.6584154Z ##[error]Could not find the pip PR checklist in the pull request body. This probably means you've used a tool to submit your PR rather than the GitHub UI. Please add the required checklist from CONTRIBUTING.md.
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.6605748Z ##[error]Process completed with exit code 1.
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:03.7581381Z Post job cleanup.
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.0894136Z [command]/usr/bin/git version
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.1054228Z git version 2.55.0
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.1337907Z Temporarily overriding HOME='/home/runner/work/_temp/40cb7445-f7d2-4dce-b48f-91af96fd1f14' before making global git config changes
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.1341772Z Adding repository directory to the temporary git global config as a safe directory
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.1419122Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pip/pip
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.1602060Z Removing SSH command configuration
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.1603829Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.1688274Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.2185058Z Removing HTTP extra header
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.2218151Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.2415398Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.3053917Z Removing includeIf entries pointing to credentials config files
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.3162142Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.3270149Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Check PR template	UNKNOWN STEP	2026-10-12T04:16:04.4672518Z Cleaning up orphan processes

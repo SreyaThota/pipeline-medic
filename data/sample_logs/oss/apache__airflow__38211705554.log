@@ -1,0 +1,400 @@
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.2022006Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.2609987Z Removing HTTP extra header
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.2613915Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.2651835Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.2993963Z Removing includeIf entries pointing to credentials config files
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3028026Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3050450Z includeif.gitdir:/home/runner/work/airflow/airflow/.git.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3052505Z includeif.gitdir:/home/runner/work/airflow/airflow/.git/worktrees/*.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3054327Z includeif.gitdir:/github/workspace/.git.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3058156Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3214187Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/airflow/airflow/.git.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3311371Z /home/runner/work/_temp/git-credentials-6dc78906-dad8-473b-a662-a8091ccf166e.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3341959Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/airflow/airflow/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-6dc78906\-dad8\-473b\-a662\-a8091ccf166e\.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3394938Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/airflow/airflow/.git/worktrees/*.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3461432Z /home/runner/work/_temp/git-credentials-6dc78906-dad8-473b-a662-a8091ccf166e.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3524466Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/airflow/airflow/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-6dc78906\-dad8\-473b\-a662\-a8091ccf166e\.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3561288Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3638905Z /github/runner_temp/git-credentials-6dc78906-dad8-473b-a662-a8091ccf166e.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3761366Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-6dc78906\-dad8\-473b\-a662\-a8091ccf166e\.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3819387Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3850602Z /github/runner_temp/git-credentials-6dc78906-dad8-473b-a662-a8091ccf166e.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3877912Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-6dc78906\-dad8\-473b\-a662\-a8091ccf166e\.config
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.3917087Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4261596Z Removing credentials config '/home/runner/work/_temp/git-credentials-6dc78906-dad8-473b-a662-a8091ccf166e.config'
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4283649Z ##[endgroup]
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4833949Z ##[group]Run astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4835755Z with:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4836590Z   version-file: uv.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4837565Z   activate-environment: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4838590Z   no-project: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4839641Z   working-directory: /home/runner/work/airflow/airflow
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4849169Z   github-token: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4850522Z   enable-cache: auto
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4852888Z   cache-dependency-glob: **/*requirements*.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	**/*requirements*.in
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	**/*constraints*.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	**/*constraints*.in
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	**/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	**/uv.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	**/*.py.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4862732Z   restore-cache: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4866559Z   save-cache: auto
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4867448Z   prune-cache: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4910081Z   cache-python: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4911312Z   ignore-nothing-to-cache: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4912435Z   ignore-empty-workdir: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4913625Z   download-from-astral-mirror: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4914763Z   add-problem-matchers: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4915982Z   quiet: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4919540Z   resolution-strategy: highest
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4920578Z env:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4921435Z   GITHUB_REPOSITORY: apache/airflow
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4930202Z   GITHUB_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4931205Z   GITHUB_USERNAME: potiuk
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4932598Z   SLACK_BOT_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4933510Z   VERBOSE: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.4934351Z ##[endgroup]
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:32.8526471Z Trying to find version for uv in: /home/runner/work/airflow/airflow/uv.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.0449757Z Found version for uv in /home/runner/work/airflow/airflow/uv.lock: 0.12.18
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.0593747Z Fetching manifest data from https://raw.githubusercontent.com/astral-sh/versions/main/v1/uv.ndjson ...
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.1254725Z Downloading uv from "https://releases.astral.sh/github/uv/releases/download/0.12.18/uv-x86_64-unknown-linux-gnu.tar.gz" ...
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.3997863Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/49ff5dc1-6ef2-493a-9993-22c3797d15af -f /home/runner/work/_temp/2059af73-27eb-4374-a835-e6878b767955
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.9714418Z Added /home/runner/.local/bin to the path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.9723164Z Added /opt/hostedtoolcache/uv/0.12.18/x86_64 to the path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.9732149Z Set UV_PYTHON_INSTALL_DIR to /home/runner/work/_temp/uv-python-dir
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.9737718Z Added /home/runner/work/_temp/uv-python-dir to the path
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.9802655Z Set UV_CACHE_DIR to /home/runner/work/_temp/setup-uv-cache
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:33.9804104Z Successfully installed uv version 0.12.18
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:34.6664242Z Searching files using cache dependency glob: /home/runner/work/airflow/airflow/**/*requirements*.txt,/home/runner/work/airflow/airflow/**/*requirements*.in,/home/runner/work/airflow/airflow/**/*constraints*.txt,/home/runner/work/airflow/airflow/**/*constraints*.in,/home/runner/work/airflow/airflow/**/pyproject.toml,/home/runner/work/airflow/airflow/**/uv.lock,/home/runner/work/airflow/airflow/**/*.py.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:34.8904332Z /home/runner/work/airflow/airflow/airflow-core/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.4454968Z /home/runner/work/airflow/airflow/airflow-core/tests/unit/config_templates/requirements.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.5558844Z /home/runner/work/airflow/airflow/airflow-ctl/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.5641868Z /home/runner/work/airflow/airflow/airflow-ctl-tests/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.5723209Z /home/runner/work/airflow/airflow/airflow-e2e-tests/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.5850522Z /home/runner/work/airflow/airflow/chart/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.6424119Z /home/runner/work/airflow/airflow/clients/python/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.6833887Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_release-management_constraints-version-check.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.6908957Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_release-management_generate-constraints.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.6980962Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_release-management_update-constraints.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.6999293Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_sbom_generate-providers-requirements.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7108917Z /home/runner/work/airflow/airflow/dev/breeze/doc/images/output_workflow-run_release-constraints.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7226355Z /home/runner/work/airflow/airflow/dev/breeze/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7513651Z /home/runner/work/airflow/airflow/dev/breeze/uv.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7551007Z /home/runner/work/airflow/airflow/dev/mypy/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7570854Z /home/runner/work/airflow/airflow/dev/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7612531Z /home/runner/work/airflow/airflow/dev/registry/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7659361Z /home/runner/work/airflow/airflow/devel-common/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7891341Z /home/runner/work/airflow/airflow/docker-stack-docs/docker-examples/extending/add-python-venv/requirements.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7914013Z /home/runner/work/airflow/airflow/docker-stack-docs/docker-examples/extending/add-requirement-packages/requirements.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7934958Z /home/runner/work/airflow/airflow/docker-stack-docs/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.7946043Z /home/runner/work/airflow/airflow/docker-tests/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.8544988Z /home/runner/work/airflow/airflow/kubernetes-tests/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.8563585Z /home/runner/work/airflow/airflow/performance/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.8612433Z /home/runner/work/airflow/airflow/providers/airbyte/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.8656166Z /home/runner/work/airflow/airflow/providers/akeyless/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.8701732Z /home/runner/work/airflow/airflow/providers/alibaba/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:35.8926962Z /home/runner/work/airflow/airflow/providers/amazon/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.0844585Z /home/runner/work/airflow/airflow/providers/anthropic/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.0898297Z /home/runner/work/airflow/airflow/providers/apache/arrow/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.0936900Z /home/runner/work/airflow/airflow/providers/apache/beam/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1006615Z /home/runner/work/airflow/airflow/providers/apache/cassandra/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1061710Z /home/runner/work/airflow/airflow/providers/apache/drill/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1201737Z /home/runner/work/airflow/airflow/providers/apache/druid/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1250615Z /home/runner/work/airflow/airflow/providers/apache/flink/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1310650Z /home/runner/work/airflow/airflow/providers/apache/hdfs/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1431749Z /home/runner/work/airflow/airflow/providers/apache/hive/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1547947Z /home/runner/work/airflow/airflow/providers/apache/iceberg/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1607339Z /home/runner/work/airflow/airflow/providers/apache/impala/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1657855Z /home/runner/work/airflow/airflow/providers/apache/kafka/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1758000Z /home/runner/work/airflow/airflow/providers/apache/kylin/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1806109Z /home/runner/work/airflow/airflow/providers/apache/livy/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1853559Z /home/runner/work/airflow/airflow/providers/apache/pig/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1914912Z /home/runner/work/airflow/airflow/providers/apache/pinot/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.1972671Z /home/runner/work/airflow/airflow/providers/apache/spark/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2052922Z /home/runner/work/airflow/airflow/providers/apache/tinkerpop/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2206774Z /home/runner/work/airflow/airflow/providers/apprise/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2248725Z /home/runner/work/airflow/airflow/providers/arangodb/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2289239Z /home/runner/work/airflow/airflow/providers/asana/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2340443Z /home/runner/work/airflow/airflow/providers/atlassian/jira/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2393147Z /home/runner/work/airflow/airflow/providers/celery/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2444996Z /home/runner/work/airflow/airflow/providers/clickhousedb/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2503354Z /home/runner/work/airflow/airflow/providers/cloudant/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2556838Z /home/runner/work/airflow/airflow/providers/cncf/kubernetes/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2714807Z /home/runner/work/airflow/airflow/providers/cohere/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.2790394Z /home/runner/work/airflow/airflow/providers/common/ai/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3028782Z /home/runner/work/airflow/airflow/providers/common/compat/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3224006Z /home/runner/work/airflow/airflow/providers/common/dataquality/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3261278Z /home/runner/work/airflow/airflow/providers/common/io/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3312362Z /home/runner/work/airflow/airflow/providers/common/messaging/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3371300Z /home/runner/work/airflow/airflow/providers/common/sql/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3462529Z /home/runner/work/airflow/airflow/providers/databricks/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3728239Z /home/runner/work/airflow/airflow/providers/datadog/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3822853Z /home/runner/work/airflow/airflow/providers/dbt/cloud/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.3892261Z /home/runner/work/airflow/airflow/providers/dingding/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.4006132Z /home/runner/work/airflow/airflow/providers/discord/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.4227880Z /home/runner/work/airflow/airflow/providers/docker/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.4297072Z /home/runner/work/airflow/airflow/providers/duckdb/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.4400776Z /home/runner/work/airflow/airflow/providers/edge3/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.4623013Z /home/runner/work/airflow/airflow/providers/elasticsearch/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.4696662Z /home/runner/work/airflow/airflow/providers/exasol/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.4796284Z /home/runner/work/airflow/airflow/providers/fab/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.5467934Z /home/runner/work/airflow/airflow/providers/facebook/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.5566894Z /home/runner/work/airflow/airflow/providers/ftp/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.5734190Z /home/runner/work/airflow/airflow/providers/git/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.5804085Z /home/runner/work/airflow/airflow/providers/github/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.6334596Z /home/runner/work/airflow/airflow/providers/google/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8044427Z /home/runner/work/airflow/airflow/providers/grpc/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8206935Z /home/runner/work/airflow/airflow/providers/hashicorp/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8249850Z /home/runner/work/airflow/airflow/providers/http/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8393996Z /home/runner/work/airflow/airflow/providers/ibm/db2/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8547999Z /home/runner/work/airflow/airflow/providers/ibm/mq/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8611336Z /home/runner/work/airflow/airflow/providers/imap/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8667999Z /home/runner/work/airflow/airflow/providers/influxdb/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8734313Z /home/runner/work/airflow/airflow/providers/informatica/dev/informatica_simulator/requirements.txt
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8762780Z /home/runner/work/airflow/airflow/providers/informatica/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8891780Z /home/runner/work/airflow/airflow/providers/jdbc/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.8962368Z /home/runner/work/airflow/airflow/providers/jenkins/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.9077932Z /home/runner/work/airflow/airflow/providers/keycloak/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.9440659Z /home/runner/work/airflow/airflow/providers/microsoft/azure/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.9725176Z /home/runner/work/airflow/airflow/providers/microsoft/mssql/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:36.9905960Z /home/runner/work/airflow/airflow/providers/microsoft/psrp/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.0062357Z /home/runner/work/airflow/airflow/providers/microsoft/winrm/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.0372837Z /home/runner/work/airflow/airflow/providers/modal/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.0517923Z /home/runner/work/airflow/airflow/providers/mongo/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.0640793Z /home/runner/work/airflow/airflow/providers/mysql/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.0806621Z /home/runner/work/airflow/airflow/providers/neo4j/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.0942999Z /home/runner/work/airflow/airflow/providers/odbc/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.1092468Z /home/runner/work/airflow/airflow/providers/openai/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.1328035Z /home/runner/work/airflow/airflow/providers/openfaas/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.1728493Z /home/runner/work/airflow/airflow/providers/openlineage/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.2259526Z /home/runner/work/airflow/airflow/providers/opensearch/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.2388628Z /home/runner/work/airflow/airflow/providers/opsgenie/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.2472554Z /home/runner/work/airflow/airflow/providers/oracle/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.2576347Z /home/runner/work/airflow/airflow/providers/pagerduty/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.2728874Z /home/runner/work/airflow/airflow/providers/papermill/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.2831287Z /home/runner/work/airflow/airflow/providers/pgvector/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.2941529Z /home/runner/work/airflow/airflow/providers/pinecone/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3011768Z /home/runner/work/airflow/airflow/providers/postgres/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3079413Z /home/runner/work/airflow/airflow/providers/presto/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3251614Z /home/runner/work/airflow/airflow/providers/qdrant/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3368403Z /home/runner/work/airflow/airflow/providers/redis/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3570705Z /home/runner/work/airflow/airflow/providers/salesforce/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3687315Z /home/runner/work/airflow/airflow/providers/samba/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3868767Z /home/runner/work/airflow/airflow/providers/segment/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.3950572Z /home/runner/work/airflow/airflow/providers/sendgrid/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.4018903Z /home/runner/work/airflow/airflow/providers/sftp/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.4229683Z /home/runner/work/airflow/airflow/providers/singularity/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.4520826Z /home/runner/work/airflow/airflow/providers/slack/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.4730739Z /home/runner/work/airflow/airflow/providers/smtp/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.4871584Z /home/runner/work/airflow/airflow/providers/snowflake/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5064226Z /home/runner/work/airflow/airflow/providers/sqlite/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5219102Z /home/runner/work/airflow/airflow/providers/ssh/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5397712Z /home/runner/work/airflow/airflow/providers/standard/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5650378Z /home/runner/work/airflow/airflow/providers/tableau/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5702707Z /home/runner/work/airflow/airflow/providers/telegram/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5774535Z /home/runner/work/airflow/airflow/providers/teradata/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5907268Z /home/runner/work/airflow/airflow/providers/trino/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.5974850Z /home/runner/work/airflow/airflow/providers/vertica/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6022135Z /home/runner/work/airflow/airflow/providers/vespa/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6274744Z /home/runner/work/airflow/airflow/providers/weaviate/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6342696Z /home/runner/work/airflow/airflow/providers/yandex/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6516125Z /home/runner/work/airflow/airflow/providers/ydb/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6590272Z /home/runner/work/airflow/airflow/providers/zendesk/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6699802Z /home/runner/work/airflow/airflow/providers-summary-docs/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6718309Z /home/runner/work/airflow/airflow/providers-summary-docs/uv.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.6737178Z /home/runner/work/airflow/airflow/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.7659152Z /home/runner/work/airflow/airflow/scripts/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.7944980Z /home/runner/work/airflow/airflow/shared/configuration/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8107795Z /home/runner/work/airflow/airflow/shared/dagnode/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8204892Z /home/runner/work/airflow/airflow/shared/listeners/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8224546Z /home/runner/work/airflow/airflow/shared/logging/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8244178Z /home/runner/work/airflow/airflow/shared/module_loading/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8260423Z /home/runner/work/airflow/airflow/shared/observability/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8323087Z /home/runner/work/airflow/airflow/shared/plugins_manager/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8337387Z /home/runner/work/airflow/airflow/shared/providers_discovery/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8349878Z /home/runner/work/airflow/airflow/shared/secrets_backend/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8515153Z /home/runner/work/airflow/airflow/shared/secrets_masker/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8541929Z /home/runner/work/airflow/airflow/shared/serialization/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8627414Z /home/runner/work/airflow/airflow/shared/state/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8725632Z /home/runner/work/airflow/airflow/shared/template_rendering/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8805333Z /home/runner/work/airflow/airflow/shared/timezones/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.8879266Z /home/runner/work/airflow/airflow/task-sdk/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.9458599Z /home/runner/work/airflow/airflow/task-sdk-integration-tests/pyproject.toml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.9664964Z /home/runner/work/airflow/airflow/uv.lock
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.9741418Z Found 155 files to hash.
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:37.9931270Z Trying to restore cache from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-9092c97b00ca6b6a112f820dbe05af49ffa0fd5702e25936c1f1ae932dd52556
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.1723093Z Cache hit for: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-9092c97b00ca6b6a112f820dbe05af49ffa0fd5702e25936c1f1ae932dd52556
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.6228643Z Received 1825839 of 1825839 (100.0%), 5.2 MBs/sec
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.6277910Z Cache Size: ~2 MB (1825839 B)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.6337082Z [command]/usr/bin/tar -xf /home/runner/work/_temp/ae05f662-eb22-4c95-a355-f59ddf457e66/cache.tzst -P -C /home/runner/work/airflow/airflow --use-compress-program unzstd
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.7105147Z Cache restored successfully
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.7117006Z cache restored from GitHub Actions cache with key: setup-uv-2-x86_64-unknown-linux-gnu-ubuntu-24.04-3.12.3-9092c97b00ca6b6a112f820dbe05af49ffa0fd5702e25936c1f1ae932dd52556
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8331441Z ##[group]Run uv run ./dev/breeze/src/airflow_breeze/utils/workflow_status.py
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8332548Z ^[[36;1muv run ./dev/breeze/src/airflow_breeze/utils/workflow_status.py^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8346093Z shell: /usr/bin/bash -e {0}
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8346507Z env:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8346841Z   GITHUB_REPOSITORY: apache/airflow
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8350433Z   GITHUB_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8351492Z   GITHUB_USERNAME: potiuk
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8352055Z   SLACK_BOT_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8352397Z   VERBOSE: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8352829Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8353404Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8353873Z   workflow_branch: v3-4-test
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8364873Z   workflow_id: ci-amd.yml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:38.8365295Z ##[endgroup]
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:39.0946532Z ^[[34mChecking workflow status for branch: v3-^[[0m^[[1;34m4^[[0m^[[34m-test, workflow_id: ci-amd.yml^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:39.8325110Z ^[[34mWorkflow status for ci-amd.yml: ^[[0m^[[1;34m[^[[0m^[[1;34m{^[[0m^[[34m'conclusion'^[[0m^[[34m: ^[[0m^[[34m'failure'^[[0m^[[34m, ^[[0m^[[34m'databaseId'^[[0m^[[34m: ^[[0m^[[1;34m37747563591^[[0m^[[34m, ^[[0m^[[34m'url'^[[0m^[[34m: ^[[0m^[[34m'https://github.com/apache/airflow/actions/runs/37747563591'^[[0m^[[1;34m}^[[0m^[[1;34m]^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:39.8333355Z ^[[34mFetching failed jobs for run ^[[0m^[[1;34m37747563591^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6748198Z ^[[34mFailed jobs: ^[[0m^[[1;34m[^[[0m^[[34m'Basic tests / Breeze unit tests'^[[0m^[[34m, ^[[0m^[[34m'CI image checks / Static checks'^[[0m^[[1;34m]^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6989252Z ##[group]Run command -v gh >/dev/null 2>&1 || { echo "::error::gh CLI is not installed"; exit 1; }
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6989958Z ^[[36;1mcommand -v gh >/dev/null 2>&1 || { echo "::error::gh CLI is not installed"; exit 1; }^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6990525Z ^[[36;1mgh auth status || gh auth login --with-token <<< "${GITHUB_TOKEN}"^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6990987Z ^[[36;1mpython3 scripts/ci/slack_notification_state.py^[[0m
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6999357Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6999740Z env:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.6999991Z   GITHUB_REPOSITORY: apache/airflow
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7002621Z   GITHUB_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7002891Z   GITHUB_USERNAME: potiuk
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7003288Z   SLACK_BOT_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7003561Z   VERBOSE: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7003877Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7004279Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7004712Z   ARTIFACT_NAME: slack-state-ci-v3-4-test-ci-amd.yml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7008053Z   CURRENT_FAILURES: Basic tests / Breeze unit tests
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	CI image checks / Static checks
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:47.7008522Z ##[endgroup]
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:48.1352381Z github.com
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:48.1356561Z   ✓ Logged in to github.com account github-actions[bot] (GITHUB_TOKEN)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:48.1357232Z   - Active account: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:48.1357792Z   - Git operations protocol: https
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:48.1359163Z   - Token: ghs_*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1318373Z Looking up previous state for artifact: slack-state-ci-v3-4-test-ci-amd.yml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1320204Z Previous state: {'failures': ['Basic tests / Breeze unit tests', 'CI image checks / Static checks'], 'last_notified': '2026-10-11T06:09:33.072813+00:00'}
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1320992Z Action: notify_reminder
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1322000Z Current failures: ['Basic tests / Breeze unit tests', 'CI image checks / Static checks']
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1322707Z Previous failures: ['Basic tests / Breeze unit tests', 'CI image checks / Static checks']
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1427558Z Saved state to slack-state/state.json: {'failures': ['Basic tests / Breeze unit tests', 'CI image checks / Static checks'], 'last_notified': '2026-10-12T06:16:49.130510+00:00'}
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1568956Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1569700Z with:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1569994Z   name: slack-state-ci-v3-4-test-ci-amd.yml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1570306Z   path: ./slack-state/
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1570557Z   retention-days: 7
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1570799Z   overwrite: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1571034Z   if-no-files-found: warn
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1571284Z   compression-level: 6
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1571541Z   include-hidden-files: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1571799Z   archive: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1572011Z env:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1572240Z   GITHUB_REPOSITORY: apache/airflow
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1574868Z   GITHUB_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1575142Z   GITHUB_USERNAME: potiuk
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1575973Z   SLACK_BOT_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1576216Z   VERBOSE: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1576534Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1576983Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.1577311Z ##[endgroup]
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.4304552Z With the provided path, there will be 1 file uploaded
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.5903392Z Artifact name is valid!
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.5907654Z Root directory input is valid!
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.8163484Z Uploading artifact: slack-state-ci-v3-4-test-ci-amd.yml.zip
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.8231119Z Beginning upload of artifact content to blob storage
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:49.9776454Z Uploaded bytes 262
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.0139837Z Finished uploading artifact content to blob storage!
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.0146047Z SHA256 digest of uploaded artifact is dff88a259777da9c09d3be4afefe85e3b4ce6e311b3f4e086a158579567157a1
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.0149832Z Finalizing artifact upload
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3078133Z Artifact slack-state-ci-v3-4-test-ci-amd.yml successfully finalized. Artifact ID 11728529501
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3081794Z Artifact slack-state-ci-v3-4-test-ci-amd.yml has been successfully uploaded! Final size is 262 bytes. Artifact ID is 11728529501
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3088270Z Artifact download URL: https://github.com/apache/airflow/actions/runs/38211705554/artifacts/11728529501
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3426603Z ##[group]Run slackapi/slack-github-action@dcb1066f776dd043e64d0e8ba94ca15cc7e1875d
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3427092Z with:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3427329Z   method: chat.postMessage
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3427808Z   token: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3429780Z   payload: channel: "internal-airflow-ci-cd"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	text: "🚨🔁 Still not fixed: ci-amd.yml on branch *v3-4-test*\n\nFailing jobs:\nBasic tests / Breeze unit tests
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	CI image checks / Static checks\n\n*Details:* <https://github.com/apache/airflow/actions/runs/37747563591|View the failure log>"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	blocks:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	  - type: "section"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	    text:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	      type: "mrkdwn"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	      text: "🚨🔁 Still not fixed: ci-amd.yml on *v3-4-test*\n\nFailing jobs:\nBasic tests / Breeze unit tests
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	CI image checks / Static checks\n\n*Details:* <https://github.com/apache/airflow/actions/runs/37747563591|View the failure log>"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3431682Z   errors: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3431938Z   payload-templated: false
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3432210Z   retries: 5
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3432515Z env:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3432749Z   GITHUB_REPOSITORY: apache/airflow
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3435283Z   GITHUB_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3435793Z   GITHUB_USERNAME: potiuk
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3436202Z   SLACK_BOT_TOKEN: ***
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3436447Z   VERBOSE: true
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3436767Z   UV_PYTHON_INSTALL_DIR: /home/runner/work/_temp/uv-python-dir
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3437181Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3437625Z   run_url: https://github.com/apache/airflow/actions/runs/37747563591
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3438006Z   branch: v3-4-test
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3438248Z   workflow_id: ci-amd.yml
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.3438502Z ##[endgroup]
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.6278672Z ##[error]Invalid input! Failed to parse contents of the provided payload
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9029927Z SyntaxError: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9030700Z     at JSON.parse (<anonymous>)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9032132Z     at Content.getContentPayload (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/content.js:97:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9033244Z     at Content.get (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/content.js:34:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9034267Z     at new Config (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/config.js:127:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9036279Z     at send (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/send.js:12:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9037290Z     at file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/index.js:9:1
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9038360Z     at __nccwpck_require__.a (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/webpack/runtime/async module:49:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9039494Z     at Object.9722 (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/dist/index.js:104141:21)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9041152Z     at __nccwpck_require__ (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/webpack/bootstrap:21:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9042138Z     at file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/webpack/startup:4:1
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9048935Z YAMLException: deficient indentation (3:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9049270Z 
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9049452Z  1 | channel: "internal-airflow-ci-cd"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9050162Z  2 | text: "🚨🔁 Still not fixed: ci- ...
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9050534Z  3 | CI image checks / Static checks\ ...
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9051194Z -----^
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9051410Z  4 | blocks:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9051648Z  5 |   - type: "section"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9052732Z     at throwErrorAt (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:899:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9054093Z     at throwError (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:1497:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9055278Z     at readFlowScalarBreak (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:1648:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9056753Z     at readDoubleQuotedScalar (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:1706:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9057966Z     at parseNode (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:2085:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9059153Z     at readBlockMapping (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:2009:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9060322Z     at parseNode (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:2075:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9061457Z     at readDocument (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:2164:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9062586Z     at parseEvents (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:2204:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9063723Z     at loadDocuments (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/node_modules/js-yaml/dist/js-yaml.mjs:2225:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9084553Z 
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9088389Z file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/content.js:102
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9089267Z       throw new SlackError(
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9089684Z ^
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9092957Z SlackError: Invalid input! Failed to parse contents of the provided payload
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9093860Z     at Content.getContentPayload (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/content.js:102:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9094920Z     at Content.get (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/content.js:34:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9096203Z     at new Config (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/config.js:127:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9097147Z     at send (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/send.js:12:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9099920Z     at file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/src/index.js:9:1
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9100931Z     at __nccwpck_require__.a (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/webpack/runtime/async module:49:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9102010Z     at Object.9722 (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/dist/index.js:104141:21)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9103020Z     at __nccwpck_require__ (file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/webpack/bootstrap:21:1)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9103969Z     at file:///home/runner/work/_actions/slackapi/slack-github-action/dcb1066f776dd043e64d0e8ba94ca15cc7e1875d/webpack/startup:4:1
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9105740Z     at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:50.9485666Z Post job cleanup.
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.0871517Z [command]/usr/bin/git version
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.0994244Z git version 2.55.0
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1208236Z Temporarily overriding HOME='/home/runner/work/_temp/43701aa0-d585-49d5-a716-ac5ba5d510ac' before making global git config changes
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1210180Z Adding repository directory to the temporary git global config as a safe directory
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1235250Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/airflow/airflow
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1298278Z Removing SSH command configuration
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1301968Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1354822Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1749671Z Removing HTTP extra header
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1776707Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.1824866Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.2347285Z Removing includeIf entries pointing to credentials config files
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.2364252Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.2404171Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+workflow-status (v3-4-test, ci-amd.yml)	UNKNOWN STEP	2026-10-12T06:16:51.2811431Z Cleaning up orphan processes

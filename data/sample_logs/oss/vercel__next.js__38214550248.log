@@ -1,0 +1,400 @@
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8944244Z   TURBO_CACHE: local:rw,remote:rw
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8944521Z   NEXT_TELEMETRY_DISABLED: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8944793Z   NEXT_SKIP_NATIVE_POSTINSTALL: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8945141Z   DATADOG_API_KEY: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8945389Z   NEXT_JUNIT_TEST_REPORT: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8945648Z   DD_ENV: ci
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8945946Z   KV_REST_API_URL: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8946366Z   KV_REST_API_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8946608Z   NEXT_TEST_JOB: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8946870Z   NEXT_TEST_PASSED_FILE: .next-test-passed.txt
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8947348Z   VERCEL_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8947622Z   VERCEL_TEST_TEAM: vtest314-next-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8948107Z   VERCEL_ADAPTER_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8948459Z   VERCEL_ADAPTER_TEST_TEAM: vtest314-next-adapter-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8949318Z   VERCEL_TURBOPACK_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8949680Z   VERCEL_TURBOPACK_TEST_TEAM: vtest314-next-turbo-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8950035Z   PREVIEW_BUILDS_ACCESS: public
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8950430Z   NEXT_TEST_PREVIEW_BUILDS_BASE_URL: https://vercel-packages.vercel.app/next
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8950854Z   NEXT_TEST_PREFER_OFFLINE: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8951157Z   NEXT_CI_RUNNER: ["ubuntu-latest-16-core-arm-oss"]
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8951487Z   NEXT_TEST_PROXY_ADDRESS: 
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8951757Z   NEXT_TURBOPACK_IO_CONCURRENCY: 64
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8952060Z   BASELINE_BROWSER_MAPPING_IGNORE_OLD_DATA: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8952538Z   TURBO_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8952769Z   FNM_LOGLEVEL: info
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8953367Z   FNM_VERSION_FILE_STRATEGY: local
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8953777Z   FNM_MULTISHELL_PATH: /run/user/1001/fnm_multishells/3067_1791788144124
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8954201Z   FNM_NODE_DIST_MIRROR: https://nodejs.org/dist
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8954655Z   FNM_COREPACK_ENABLED: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8954917Z   FNM_RESOLVE_ENGINES: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8955168Z   FNM_ARCH: arm64
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8955399Z   FNM_DIR: /home/runner/.local/share/fnm
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.8955679Z ##[endgroup]
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.9033533Z Downloading /tmp/nextjs-ci-bin-datadog-ci-v5.12.1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.9077765Z   % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.9078242Z                                  Dload  Upload  Total   Spent   Left   Speed
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:45.9078503Z 
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.0420681Z   0      0   0      0   0      0      0      0                              0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.0421168Z   0      0   0      0   0      0      0      0                              0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.0421557Z   0      0   0      0   0      0      0      0                              0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.0421812Z 
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.1797395Z   0      0   0      0   0      0      0      0                              0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.1798369Z 100 69.93M 100 69.93M   0      0 257.2M      0                              0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.1798853Z 100 69.93M 100 69.93M   0      0 257.2M      0                              0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.1799501Z 100 69.93M 100 69.93M   0      0 257.2M      0                              0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2494315Z ##[end-action id=__self_2.__run;outcome=success;conclusion=success;duration_ms=361]
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2534234Z ##[group]Run # Add a `test.type` tag to distinguish between turbopack and next.js runs
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2534865Z ^[[36;1m# Add a `test.type` tag to distinguish between turbopack and next.js runs^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2535374Z ^[[36;1m# Add a `nextjs.test_session.name` tag to help identify the job^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2535804Z ^[[36;1mif [ -d ./test/test-junit-report ]; then^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2536145Z ^[[36;1m  "$DATADOG_CI_PATH" junit upload \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2536466Z ^[[36;1m    --skip-git-metadata-upload \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2536793Z ^[[36;1m    --service nextjs \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2537074Z ^[[36;1m    --tags test.type:nextjs \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2537459Z ^[[36;1m    --tags test_session.name:"test-cache-components-prod-3/7" \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2537964Z ^[[36;1m    --tags runner.name:"ubuntu-latest-16-core-arm-oss-1048553854" \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2538374Z ^[[36;1m    ./test/test-junit-report^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2538648Z ^[[36;1mfi^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2539243Z ^[[36;1mif [ -d ./test/turbopack-test-junit-report ]; then^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2539631Z ^[[36;1m  "$DATADOG_CI_PATH" junit upload \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2539955Z ^[[36;1m    --skip-git-metadata-upload \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2540258Z ^[[36;1m    --service nextjs \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2540543Z ^[[36;1m    --tags test.type:turbopack \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2540934Z ^[[36;1m    --tags test_session.name:"test-cache-components-prod-3/7" \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2541432Z ^[[36;1m    --tags runner.name:"ubuntu-latest-16-core-arm-oss-1048553854" \^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2541880Z ^[[36;1m    ./test/turbopack-test-junit-report^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2542193Z ^[[36;1mfi^[[0m
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2574089Z shell: /usr/bin/bash -leuo pipefail {0}
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2574394Z env:
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2574602Z   NAPI_CLI_VERSION: 3.4.1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2574853Z   TURBO_VERSION: 2.9.4
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2575226Z   TURBO_ARGS: -v --env-mode loose --remote-cache-timeout 300 --log-order stream
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2575636Z   NODE_LTS_VERSION: 20.9.0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2575885Z   TEST_CONCURRENCY: 8
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2576134Z   TURBO_TASKS_AVAILABLE_PARALLELISM: 4
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2576414Z   RUST_BACKTRACE: 0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2576666Z   TURBO_TEAM: vtest314-next-adapter-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2577031Z   TURBO_CACHE: local:rw,remote:rw
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2577306Z   NEXT_TELEMETRY_DISABLED: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2577580Z   NEXT_SKIP_NATIVE_POSTINSTALL: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2577934Z   DATADOG_API_KEY: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2578484Z   NEXT_JUNIT_TEST_REPORT: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2578738Z   DD_ENV: ci
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2579363Z   KV_REST_API_URL: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2579785Z   KV_REST_API_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2580027Z   NEXT_TEST_JOB: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2580279Z   NEXT_TEST_PASSED_FILE: .next-test-passed.txt
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2580747Z   VERCEL_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2581012Z   VERCEL_TEST_TEAM: vtest314-next-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2581501Z   VERCEL_ADAPTER_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2581844Z   VERCEL_ADAPTER_TEST_TEAM: vtest314-next-adapter-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2582385Z   VERCEL_TURBOPACK_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2582732Z   VERCEL_TURBOPACK_TEST_TEAM: vtest314-next-turbo-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2583091Z   PREVIEW_BUILDS_ACCESS: public
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2583491Z   NEXT_TEST_PREVIEW_BUILDS_BASE_URL: https://vercel-packages.vercel.app/next
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2583918Z   NEXT_TEST_PREFER_OFFLINE: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2584229Z   NEXT_CI_RUNNER: ["ubuntu-latest-16-core-arm-oss"]
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2584561Z   NEXT_TEST_PROXY_ADDRESS: 
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2584825Z   NEXT_TURBOPACK_IO_CONCURRENCY: 64
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2585129Z   BASELINE_BROWSER_MAPPING_IGNORE_OLD_DATA: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2585608Z   TURBO_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2585838Z   FNM_LOGLEVEL: info
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2586076Z   FNM_VERSION_FILE_STRATEGY: local
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2586803Z   FNM_MULTISHELL_PATH: /run/user/1001/fnm_multishells/3067_1791788144124
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2587255Z   FNM_NODE_DIST_MIRROR: https://nodejs.org/dist
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2587576Z   FNM_COREPACK_ENABLED: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2587836Z   FNM_RESOLVE_ENGINES: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2588085Z   FNM_ARCH: arm64
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2588321Z   FNM_DIR: /home/runner/.local/share/fnm
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2588667Z   DATADOG_CI_PATH: /tmp/nextjs-ci-bin-datadog-ci-v5.12.1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2589256Z ##[endgroup]
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:46.2682549Z /etc/profile.d/apps-bin-path.sh: line 10: XDG_DATA_DIRS: unbound variable
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.0979878Z Starting upload with concurrency 20. 
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.0980352Z Will look for jUnit XML files in test/turbopack-test-junit-report
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.0980726Z service: nextjs
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.0980967Z Determining GitHub job name
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.0997994Z Found Worker log for planId 7e073146-c64c-8d26-bb35-4aa790840067: Worker_20261012-065536-utc.log
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1005379Z Successfully extracted job name: test cache components prod (3/7) / build
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1006099Z Determining GitHub job ID
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1015299Z Found Worker log for planId 7e073146-c64c-8d26-bb35-4aa790840067: Worker_20261012-065536-utc.log
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1024545Z Successfully extracted job ID: 114697444302
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1810579Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_404-page-router_index.test.ts-1d2d32b0-c60a-11f1-9134-57131df04d47.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1869292Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_actions-allowed-origins_app-action-allowed-origins.test.ts-11035640-c60a-11f1-8218-837ff127d431.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1881490Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_actions-unused-args_actions-unused-args.test.ts-122fef60-c60a-11f1-a88a-a90b6fb8266e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1888398Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_app-config-crossorigin_index.test.ts-10b3fdc0-c60a-11f1-a20f-29a41ead952d.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1895200Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_app-root-params-getters_generate-static-params.test.ts-1263d0a0-c60a-11f1-b244-bd93a446469c.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1904596Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_app-root-params-getters_use-cache.test.ts-340c9b10-c60a-11f1-910c-25a803bfcfc4.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1911792Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_css-modules-rsc-postcss_css-modules-rsc-postcss.test.ts-13cb9e00-c60a-11f1-89dc-4d86f88f2f78.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1916561Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_draft-mode-middleware_draft-mode-middleware.test.ts-130cbad0-c60a-11f1-bd41-0bc12c52ac55.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1924703Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_ecmascript-features_ecmascript-features.test.ts-18a4c460-c60a-11f1-bb93-d9e45d91618e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1939547Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_error-boundary-navigation_index.test.ts-1c6acd10-c60a-11f1-a73b-4b875999fc0a.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1945856Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_explicit-parallel-route-children-known-limitations_explicit-parallel-route-children-known-limitations.test.ts-1eb2c140-c60a-11f1-8a46-8f832af0f94a.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1949934Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_global-not-found_basic_global-not-found-basic.test.ts-1afa2610-c60a-11f1-ba91-5b70c8193905.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1953916Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_global-not-found_metadata_metadata.test.ts-1bec4e40-c60a-11f1-b7d7-b7c8bd64cc60.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1958220Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_instant-navigation-testing-api_instant-navigation-testing-api.test.ts-3daa0040-c60a-11f1-9af3-5d39d6b47a21.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1961500Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_middleware-sitemap_matcher-exclude-sitemap_index.test.ts-20d07120-c60a-11f1-a2b8-27ff20e8f6d3.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1965407Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_multiple-lockfiles_multiple-lockfiles-with-output-file-tracing-root.test.ts-2302e180-c60a-11f1-a3f9-f58785ff56a8.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1968671Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_multiple-lockfiles_multiple-lockfiles.test.ts-232c8990-c60a-11f1-929a-1d2b1353505f.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1972676Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_next-after-pages_index.test.ts-1e089e90-c60a-11f1-8398-51b9aef8b00f.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1976177Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_next-condition_next-condition.test.ts-388f6410-c60a-11f1-9cde-7f7e1d04cce6.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.1980322Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_next-image-events_next-image-events.test.ts-277779b0-c60a-11f1-a285-9b2ebb35b293.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4014532Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_no-duplicate-headers-middleware_no-duplicate-headers-middleware.test.ts-27153570-c60a-11f1-ba3c-79aa5b78591c.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4423772Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_non-rsc-router-prefetch_non-rsc-router-prefetch.test.ts-28a4d620-c60a-11f1-a6c6-0d73b3a68dc2.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4532702Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_not-found-with-layout-and-group-not-found_index.test.ts-2d41b6d0-c60a-11f1-bfff-99bc9f49bdb1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4557460Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_optimistic-routing_optimistic-routing.test.ts-39417600-c60a-11f1-b72b-67632c08ab16.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4565631Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_parallel-routes-catchall-children-slot_parallel-routes-catchall-children-slot.test.ts-2f7586c0-c60a-11f1-98cd-7d87b1808f22.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4604974Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_parallel-routes-css_parallel-routes-css.test.ts-303fb490-c60a-11f1-9ee1-7fecfc688838.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4613944Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_parallel-routes-leaf-segments_parallel-routes-leaf-segments.build-error.test.ts-2ec7ba90-c60a-11f1-a993-a1f4dcbd4101.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4622660Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_parallel-routes-root-slot_parallel-routes-root-slot.test.ts-34f94500-c60a-11f1-b7e2-f196487f638c.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4684844Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_param-matching-ensure-static-errors_param-matching-ensure-static-errors.test.ts-48f45220-c60a-11f1-99be-4bf86b67da60.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4694889Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_prefetch-true-instant_prefetch-true-instant.test.ts-39713890-c60a-11f1-9a11-295c07dbc22e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4735950Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_proxy-runtime_proxy-runtime.test.ts-35bedef0-c60a-11f1-83d4-9b6c63a095f1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4749017Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_reexport-client-component-metadata_reexport-client-component-metadata.test.ts-3c6942e0-c60a-11f1-9217-df0fbf16db7e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4797860Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_resource-url-encoding_resource-url-encoding.test.ts-43b1e2a0-c60a-11f1-8168-ad92dce1b175.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4806476Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_root-detection_git-repository-boundary.test.ts-3df53a10-c60a-11f1-8121-c135d7313a5c.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4817180Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_router-disable-smooth-scroll_router-disable-smooth-scroll.optimized.test.ts-48058550-c60a-11f1-b26a-b58efe0d6d42.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4874822Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_scss_basic-module-additional-data_basic-module-additional-data.test.ts-46809300-c60a-11f1-8937-1564832f88d4.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4882795Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_scss_composes-external_composes-external.test.ts-46292430-c60a-11f1-bb22-e37479d19767.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4892907Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_scss_invalid-global-with-app_invalid-global-with-app.test.ts-431813a0-c60a-11f1-9059-2b69f5ec2629.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.4961133Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_scss_nested-global_nested-global.test.ts-4ac58fb0-c60a-11f1-bb21-87912503da95.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.5207039Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_scss_single-global_single-global.test.ts-4ad9b3f0-c60a-11f1-bd4a-df9a54b49cc0.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.5847216Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_cached-navigations_cached-navigations-partial-prefetching.test.ts-4dc7ac20-c60a-11f1-92af-812e836c4b13.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6036254Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_cached-navigations_cached-navigations-root-params.test.ts-4da5f350-c60a-11f1-954c-eba66deaa940.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6111664Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_headers-keyed-caches_headers-keyed-caches.test.ts-4f9455d0-c60a-11f1-98c6-c9d8a14c3430.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6293877Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_prefetch-app-shell-revalidation_prefetch-app-shell-revalidation.test.ts-59480220-c60a-11f1-8484-6fece25d325b.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6358305Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_prefetch-app-shell_prefetch-app-shell.test.ts-605aebe0-c60a-11f1-b991-5d5e1d01f19e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6445627Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_prefetch-fallback-retry_prefetch-fallback-retry.test.ts-546c6ac0-c60a-11f1-9ca7-1f685f6aa594.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6480885Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_search-params_segment-cache-search-params-shared-loading-state.test.ts-54885730-c60a-11f1-9298-19d5f8b62e63.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6517798Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_segment-cache_static-shell-vary-params-regression_static-shell-vary-params-regression.test.ts-54aad350-c60a-11f1-a0cd-a94f4b1ed2f1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6592501Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_server-action-logging_server-action-logging.test.ts-5a138f80-c60a-11f1-bedf-6f5de53737d5.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6615298Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_static-rsc-cache-components_static-rsc-cache-components.test.ts-57e84b10-c60a-11f1-adb8-cb91e0e20369.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6655129Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_third-parties_basic.test.ts-58667bc0-c60a-11f1-a9ef-13dc76e12dc6.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6675438Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_third-parties_basic.test.ts-61644590-c60a-11f1-9221-05fe29a99a27.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6700921Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_third-parties_basic.test.ts-69705c60-c60a-11f1-8964-4905e8d463f5.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6726089Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_turbopack-loader-content-type_turbopack-loader-content-type.test.ts-5bf595f0-c60a-11f1-9ce5-c54fc8a987d6.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6759689Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_turbopack-reports_turbopack-reports.test.ts-61630d10-c60a-11f1-b051-794b628f5059.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6884411Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_underscore-ignore-app-paths_underscore-ignore-app-paths.test.ts-5b893f90-c60a-11f1-8aad-a59f5fb660a7.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6904974Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_upward-distdir_upward-distdir.test.ts-605ff4f0-c60a-11f1-9fab-532e9fcd0aaa.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6955369Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_use-cache-draft-mode-isolation_use-cache-draft-mode-isolation.test.ts-6df54840-c60a-11f1-bf61-832e8e1ba386.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.6998218Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_use-cache-root-param-metadata_use-cache-root-param-metadata.test.ts-629fabc0-c60a-11f1-801f-1f858e60fc88.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.7073252Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_use-cache-swr_use-cache-swr.test.ts-7ded91d0-c60a-11f1-82fa-a5c2583ccbb2.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.7482339Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_view-transitions_view-transitions.test.ts-63b401f0-c60a-11f1-bddd-afb6ecb6ae79.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.7812784Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_webpack-loader-misc_webpack-loader-misc.test.ts-68393bf0-c60a-11f1-9879-9f9b4fabecca.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.7855941Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_worker-component-chunks_worker-component-chunks.test.ts-677fd700-c60a-11f1-89a2-95d6cb31dcba.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8247148Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_app-dir_worker_worker.test.ts-6c84a140-c60a-11f1-8751-616c91fb62d6.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8291468Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_async-modules_index.test.ts-692c2770-c60a-11f1-9a63-39b23e7947dd.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8313246Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_build-indicator_test_index.test.ts-66de8df0-c60a-11f1-9d22-276f0d133e3f.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8341202Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_chrome-devtools-workspace_chrome-devtools-workspace-base-path.test.ts-6cd02930-c60a-11f1-b3fd-31a0c22a8519.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8387548Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_chrome-devtools-workspace_chrome-devtools-workspace.test.ts-728e7f70-c60a-11f1-b8b4-d7e153442ef9.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8413517Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_conflicting-public-file-page_conflicting-public-file-page.test.ts-6af6d550-c60a-11f1-b222-237117777522.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8539801Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_css-client-nav_css-client-nav.test.ts-796ec070-c60a-11f1-9c6e-41491cb617ea.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8563444Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_custom-server_custom-server.test.ts-aa084f80-c60a-11f1-abcc-bfea438de8d6.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8592536Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_i18n-disallow-multiple-locales_i18n-disallow-multiple-locales.test.ts-708f7b20-c60a-11f1-9595-33b4fd57ab3d.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8616503Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_i18n-ignore-rewrite-source-locale_rewrites.test.ts-721c0e90-c60a-11f1-a715-0306f3e2147e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8638567Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_i18n-preferred-locale-detection_i18n-preferred-locale-detection.test.ts-733fa700-c60a-11f1-a5b1-6135a69f8a64.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8646742Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_i18n-support-fallback-rewrite_i18n-support-fallback-rewrite.test.ts-751159c0-c60a-11f1-ad3f-65e2d77c61e4.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8686197Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_ignore-invalid-popstateevent_with-i18n.test.ts-78279a70-c60a-11f1-a4eb-01076eec2eac.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8705209Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_image-optimizer_dangerously-allow-svg.test.ts-73c096d0-c60a-11f1-9333-0dfe94678202.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8760482Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_image-optimizer_disable-write-to-cache-dir.test.ts-741b39f0-c60a-11f1-97e8-15ae3e6fb12c.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.8911550Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_image-optimizer_max-disk-size-cache-85kb.test.ts-74cbc540-c60a-11f1-8e8b-3de47bc6e469.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.9002098Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_image-optimizer_maximum-redirects-1.test.ts-75456210-c60a-11f1-a81c-233e09ea3d90.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.9288692Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_import-attributes_import-attributes.test.ts-7a57e7f0-c60a-11f1-8332-a716e409b11b.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.9358144Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_import-meta-env_import-meta-env.test.ts-7c3d22b0-c60a-11f1-a8e9-6d99dc6d8b9d.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.9465673Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_import-meta_import-meta.test.ts-7bc0c6c0-c60a-11f1-ad98-b73d5a5f7da8.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:47.9788058Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_instrumentation-hook-src_instrumentation-hook-src.test.ts-7ca3fad0-c60a-11f1-9a5a-f56f2ab423b1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0116497Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_instrumentation-hook_register-once_register-once.test.ts-7dce9820-c60a-11f1-aaca-c7b0771c88e9.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0135934Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_invalid-multi-match_invalid-multi-match.test.ts-7f388860-c60a-11f1-933d-25c2183ecdb1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0157863Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_invalid-static-asset-404-app_invalid-static-asset-404-app.test.ts-81e2c0d0-c60a-11f1-ace6-99e3d3038d22.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0182974Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_invalid-static-asset-404-pages_invalid-static-asset-404-pages.test.ts-8289fd50-c60a-11f1-a3bf-23685eff8e7d.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0189495Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_jsconfig-baseurl_jsconfig-baseurl.test.ts-823b8f30-c60a-11f1-aa5e-1155f14d16d1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0198302Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_legacy-link-behavior_index.test.ts-88e90060-c60a-11f1-a3c5-71446370617b.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0258397Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_link-ref-app_link-ref-app.test.ts-880d4660-c60a-11f1-a8d5-b31acac9fca1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0304305Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_link-with-api-rewrite_index.test.ts-85412e10-c60a-11f1-a4a7-9f5840298f74.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0405596Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_middleware-custom-matchers-i18n_test_index.test.ts-8c23e010-c60a-11f1-92d2-71b9db87c1c0.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0489774Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_middleware-matcher_index.test.ts-b939edb0-c60a-11f1-9dec-db622cf06755.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0512310Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_new-link-behavior_index.test.ts-89ab6600-c60a-11f1-b265-f78932c9961f.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0537571Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-dynamic-lazy-compilation_next-dynamic-lazy-compilation.test.ts-848fdf70-c60a-11f1-9e61-bfca355896f1.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0560583Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-form_default_next-form-prefetch.test.ts-8e8d8d10-c60a-11f1-a263-3b710f504ed7.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0601437Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-image-forward-ref_index.test.ts-8d96f810-c60a-11f1-be79-b579a495b757.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.0858187Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-image-legacy_typescript_typescript.test.ts-8e776d00-c60a-11f1-84d9-c55a9dfc2a76.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.1095444Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-image-legacy_unoptimized_unoptimized.test.ts-9047c030-c60a-11f1-abb4-812d987c7536.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.1153821Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-image-new_base-path_base-path.test.ts-91a07260-c60a-11f1-bcee-9393848653f6.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.1270185Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-image-new_loader-config-edge-runtime_loader-config-edge-runtime.test.ts-93d21f70-c60a-11f1-9ca3-53f2606eaf95.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.1366820Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_next-image-new_unoptimized_unoptimized.test.ts-95708d30-c60a-11f1-b062-dfd098a0045f.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.1492745Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_non-standard-node-env-warning_non-standard-node-env-warning.test.ts-9ca15f30-c60a-11f1-a878-7d759b809b23.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.1591048Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_on-request-error_otel_otel.test.ts-97627220-c60a-11f1-888b-214531ab5d24.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.1844863Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_postcss-config-cjs_index.test.ts-9814ab20-c60a-11f1-ac99-cb3cb62ab039.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2083503Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_prerender-fallback-encoding_prerender-fallback-encoding.test.ts-a2fd7c10-c60a-11f1-a0c9-495ce640dfda.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2195988Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_relay-graphql-swc-single-project_relay-graphql-swc-single-project.test.ts-9c6ae5e0-c60a-11f1-8484-db4de14c4afc.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2224255Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_repeated-slashes_repeated-slashes.test.ts-df15da80-c60a-11f1-b2bc-e39d98794520.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2243756Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_turbopack-tree-shaking-pages_turbopack-tree-shaking-pages.test.ts-9e6d93b0-c60a-11f1-929a-6de27daa89d9.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2284939Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_typescript-custom-tsconfig_test_index.test.ts-a0ef3580-c60a-11f1-b5aa-51a1c9b110c7.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2314368Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_typescript_typescript.test.ts-b68f8e30-c60a-11f1-9f53-47058fbdf49e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2341525Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_e2e_webpack-require-hook_webpack-require-hook.test.ts-9e4cc540-c60a-11f1-b219-d33179862324.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2364344Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir-hide-suppressed-error-during-next-export_index.test.ts-a46dfc00-c60a-11f1-bc02-3b7f766737c4.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2393507Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_actions-tree-shaking_basic_basic.test.ts-a513b1e0-c60a-11f1-824c-114da07f28f9.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2429690Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_actions-tree-shaking_client-actions-tree-shaking_client-actions-tree-shaking.test.ts-a94c7990-c60a-11f1-b3ae-95434873c067.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2652275Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_adapter-dynamic-routes_dynamic-routes-shell-prefixes-single.test.ts-aac44c80-c60a-11f1-a7e5-c7c08b1b5e8e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2721022Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_adapter-prerender-metadata_adapter-prerender-metadata.test.ts-adfd7e80-c60a-11f1-a782-9773a9c76b3e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2779938Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_app-route-then-export_app-route-then-export.test.ts-aca2a970-c60a-11f1-8485-2f6c7d9c9b8a.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.2928612Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_browser-chunks_browser-chunks.test.ts-b2057230-c60a-11f1-a51f-c54c6d120ef3.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3003665Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_client-module-then-export_client-module-then-export.test.ts-b20c7710-c60a-11f1-ba12-dd9f8b3c2eb9.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3022656Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_empty-shell-route-cache_empty-shell-route-cache.test.ts-b3c571b0-c60a-11f1-9090-5d35e8a7264d.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3160761Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_import-meta-glob-unknown-type_import-meta-glob-unknown-type.test.ts-b3679a40-c60a-11f1-b93d-39805cb30bee.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3469268Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_instrumentation-client-dce_instrumentation-client-dce.test.ts-bc9d6400-c60a-11f1-9241-df3943aa772e.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3488416Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_next-types-plugin_basic_index.test.ts-b3bee200-c60a-11f1-9e4b-a135793937e5.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3581539Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_optimize-package-imports-side-effects_optimize-package-imports-side-effects.test.ts-b8e27ee0-c60a-11f1-a47c-073b31b681fa.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3904885Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_param-matching-not-found_param-matching-not-found.test.ts-ddda7450-c60a-11f1-9e33-936c54da1d79.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.3944615Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_turbopack-chunk-loading-global_turbopack-chunk-loading-global.test.ts-bbc7eb90-c60a-11f1-859b-8556ae1b06f3.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.4027474Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_turbopack-shared-runtime-async-module_turbopack-shared-runtime-async-module.test.ts-bbbb8f80-c60a-11f1-9a82-4990a5d6b5b6.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.4092003Z Uploading jUnit XML test report file in test/turbopack-test-junit-report/test_production_app-dir_use-cache-code-hash_use-cache-code-hash.test.ts-ebed5c10-c60a-11f1-902e-7324dbfab9e0.xml
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6307750Z ✅ Uploaded 130 files in 1.45 seconds.
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6308185Z =================================================================================================
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6308703Z * View detailed reports on Datadog (they can take a few minutes to become available)
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6309316Z * Commit report:
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6310101Z * https://app.datadoghq.com/ci/redirect/tests/https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js.git/-/nextjs/-/fleet%2Fbackport-98823-99910-to-lts-active/-/6efc3a31ae59a70805b49b5a380caaca82f5f2d6?env=ci
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6310923Z * Test runs report:
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6311567Z * https://app.datadoghq.com/ci/test-runs?query=%20%40ci.job.url%3A%22https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Factions%2Fruns%2F38214550248%2Fjob%2F114697444302%22
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6312311Z =================================================================================================
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6584699Z ##[group]Run actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6585146Z with:
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6585466Z   name: test-playwright-snapshots-test-cache-components-prod-3-7
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6585858Z   path: test/traces
+test cache components prod (3/7) / build	UNKNOWN STEP	
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6586091Z   if-no-files-found: ignore
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6586345Z   compression-level: 6
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6586609Z   overwrite: false
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6586841Z   include-hidden-files: false
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6587101Z   archive: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6587312Z env:
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6587517Z   NAPI_CLI_VERSION: 3.4.1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6587759Z   TURBO_VERSION: 2.9.4
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6588122Z   TURBO_ARGS: -v --env-mode loose --remote-cache-timeout 300 --log-order stream
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6588531Z   NODE_LTS_VERSION: 20.9.0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6588774Z   TEST_CONCURRENCY: 8
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6589252Z   TURBO_TASKS_AVAILABLE_PARALLELISM: 4
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6589544Z   RUST_BACKTRACE: 0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6589824Z   TURBO_TEAM: vtest314-next-adapter-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6590140Z   TURBO_CACHE: local:rw,remote:rw
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6590415Z   NEXT_TELEMETRY_DISABLED: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6590687Z   NEXT_SKIP_NATIVE_POSTINSTALL: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6591035Z   DATADOG_API_KEY: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6591273Z   NEXT_JUNIT_TEST_REPORT: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6591834Z   DD_ENV: ci
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6592136Z   KV_REST_API_URL: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6592551Z   KV_REST_API_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6592789Z   NEXT_TEST_JOB: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6593041Z   NEXT_TEST_PASSED_FILE: .next-test-passed.txt
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6593504Z   VERCEL_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6593766Z   VERCEL_TEST_TEAM: vtest314-next-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6594286Z   VERCEL_ADAPTER_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6594622Z   VERCEL_ADAPTER_TEST_TEAM: vtest314-next-adapter-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6595160Z   VERCEL_TURBOPACK_TEST_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6595509Z   VERCEL_TURBOPACK_TEST_TEAM: vtest314-next-turbo-e2e-tests
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6595868Z   PREVIEW_BUILDS_ACCESS: public
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6596271Z   NEXT_TEST_PREVIEW_BUILDS_BASE_URL: https://vercel-packages.vercel.app/next
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6596693Z   NEXT_TEST_PREFER_OFFLINE: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6597001Z   NEXT_CI_RUNNER: ["ubuntu-latest-16-core-arm-oss"]
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6597333Z   NEXT_TEST_PROXY_ADDRESS: 
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6597603Z   NEXT_TURBOPACK_IO_CONCURRENCY: 64
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6597908Z   BASELINE_BROWSER_MAPPING_IGNORE_OLD_DATA: 1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6598391Z   TURBO_TOKEN: ***
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6598615Z   FNM_LOGLEVEL: info
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6598856Z   FNM_VERSION_FILE_STRATEGY: local
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6599451Z   FNM_MULTISHELL_PATH: /run/user/1001/fnm_multishells/3067_1791788144124
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6599872Z   FNM_NODE_DIST_MIRROR: https://nodejs.org/dist
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6600189Z   FNM_COREPACK_ENABLED: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6600453Z   FNM_RESOLVE_ENGINES: true
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6600705Z   FNM_ARCH: arm64
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6600942Z   FNM_DIR: /home/runner/.local/share/fnm
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6601295Z   DATADOG_CI_PATH: /tmp/nextjs-ci-bin-datadog-ci-v5.12.1
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.6601625Z ##[endgroup]
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.7739167Z With the provided path, there will be 4 files uploaded
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.7743911Z Artifact name is valid!
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:48.7744251Z Root directory input is valid!
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.0347109Z Uploading artifact: test-playwright-snapshots-test-cache-components-prod-3-7.zip
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.0380567Z Beginning upload of artifact content to blob storage
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.2164876Z Uploaded bytes 86156
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.2489070Z Finished uploading artifact content to blob storage!
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.2489704Z SHA256 digest of uploaded artifact is 3cb77861e740361b6e75427655b13928ef9a24f0c1fada9087d95603fab89e9a
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.2490229Z Finalizing artifact upload
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.5333140Z Artifact test-playwright-snapshots-test-cache-components-prod-3-7 successfully finalized. Artifact ID 11731467325
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.5334211Z Artifact test-playwright-snapshots-test-cache-components-prod-3-7 has been successfully uploaded! Final size is 86156 bytes. Artifact ID is 11731467325
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.5335845Z Artifact download URL: https://github.com/vercel/next.js/actions/runs/38214550248/artifacts/11731467325
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.5509634Z Post job cleanup.
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6216587Z [command]/usr/bin/git version
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6251308Z git version 2.55.0
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6280094Z Copying '/home/runner/.gitconfig' to '/home/runner/work/_temp/d04738f7-19ca-4245-ae9d-b1eedd03b741/.gitconfig'
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6289186Z Temporarily overriding HOME='/home/runner/work/_temp/d04738f7-19ca-4245-ae9d-b1eedd03b741' before making global git config changes
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6289960Z Adding repository directory to the temporary git global config as a safe directory
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6500432Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/next.js/next.js
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6501558Z Removing SSH command configuration
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6501983Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6503218Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6670447Z Removing HTTP extra header
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6676054Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6709582Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.6999903Z Removing includeIf entries pointing to credentials config files
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.7006466Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.7038008Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.7474982Z Evaluate and set job outputs
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.7480059Z Set output 'input_step_key'
+test cache components prod (3/7) / build	UNKNOWN STEP	2026-10-12T07:02:49.7481950Z Cleaning up orphan processes
+thank you, next	UNKNOWN STEP	﻿2026-10-12T07:15:34.2335407Z Current runner version: '2.337.0'
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2359155Z ##[group]Runner Image Provisioner
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2360059Z Hosted Compute Agent
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2360724Z Version: 20261002.596
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2361388Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2362130Z Build Date: 2026-10-02T22:28:27Z
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2362891Z Worker ID: {a4067b6f-e15e-4612-ab3c-038f1a09cc18}
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2363932Z Region: westus2
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2364546Z Cloud: Azure
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2365115Z ##[endgroup]
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2366669Z ##[group]Operating System
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2367425Z Ubuntu
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2367990Z 24.04.5
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2368495Z LTS
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2369076Z ##[endgroup]
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2369648Z ##[group]Runner Image
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2370284Z Image: ubuntu-24.04
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2370939Z Version: 20261004.327.1
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2372207Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2374159Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2375189Z ##[endgroup]
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2378311Z ##[group]GITHUB_TOKEN Permissions
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2380542Z Actions: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2381187Z ArtifactMetadata: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2381794Z Attestations: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2382458Z Checks: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2383321Z CodeQuality: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2384016Z Contents: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2384595Z CopilotRequests: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2385188Z Deployments: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2385852Z Discussions: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2386410Z Drives: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2386985Z Issues: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2387645Z Metadata: read
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2388199Z Models: read
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2388864Z Packages: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2389414Z Pages: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2389988Z PullRequests: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2390605Z RepositoryProjects: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2391235Z SecurityEvents: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2391885Z Statuses: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2392456Z VulnerabilityAlerts: read
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2393271Z ##[endgroup]
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2395804Z Secret source: Actions
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2396801Z Cache mode: write
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2397647Z Prepare workflow directory
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2845980Z Prepare all required actions
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.2910594Z Complete job name: thank you, next
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.3854695Z ##[group]Run exit 1
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.3855862Z ^[[36;1mexit 1^[[0m
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.4744968Z shell: /usr/bin/bash -e {0}
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.4746331Z env:
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.4747095Z   NODE_MAINTENANCE_VERSION: 20
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.4747992Z   NODE_LTS_VERSION: 22
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.4748772Z ##[endgroup]
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.5192116Z ##[error]Process completed with exit code 1.
+thank you, next	UNKNOWN STEP	2026-10-12T07:15:34.5354018Z Cleaning up orphan processes

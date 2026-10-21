@@ -1,0 +1,400 @@
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9404174Z [gw3] [ 96%] PASSED tests/installation/test_installer.py::test_installer_with_pypi_repository[True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9422499Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-None-2-0-0-False-False-True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9433219Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_duplicate_dependencies_different_constraints_with_lock_update[True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9446178Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-None-2-0-0-False-True-False-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9545911Z tests/installation/test_installer.py::test_installer_does_not_write_lock_file_when_installation_fails[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9579570Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_installer_does_not_write_lock_file_when_installation_fails[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9639007Z tests/installation/test_installer.py::test_run_with_exclusive_extras_different_sources[True-None-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9641006Z [gw3] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-None-2-0-0-False-True-False-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9650815Z [gw0] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-None-2-0-0-False-False-True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9672471Z tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[True-False-False-True-True-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9724218Z tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[False-True-True-True-False-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9746570Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_with_exclusive_extras_different_sources[True-None-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9864769Z tests/installation/test_installer.py::test_run_with_conflicting_dependency_extras[True-extra-two-True-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9889543Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_with_conflicting_dependency_extras[True-extra-two-True-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9940927Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-None-2-0-0-False-True-False-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9957678Z [gw0] [ 96%] PASSED tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[False-True-True-True-False-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9992570Z [gw3] [ 96%] PASSED tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[True-False-False-True-True-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:53.9997277Z tests/installation/test_installer.py::test_run_installs_with_same_version_url_files[True-linux] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0000096Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-None-2-0-0-False-True-False-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0030647Z tests/installation/test_installer.py::test_run_with_prereleases[False-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0180176Z tests/installation/test_installer.py::test_run_update_with_locked_extras[True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0209181Z [gw0] [ 96%] PASSED tests/installation/test_installer.py::test_run_with_prereleases[False-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0212237Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_update_with_locked_extras[True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0240882Z tests/installation/test_installer.py::test_solver_resolves_self_referential_extras[True-True-enabled_extras4] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0362983Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups5-0-0-2-True-False-True-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0386687Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups5-0-0-2-True-False-True-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0449145Z tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[False-False-False-False-True-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0475528Z [gw3] [ 96%] PASSED tests/installation/test_installer.py::test_run_installs_with_same_version_url_files[True-linux] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0495131Z tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[True-True-False-True-True-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0526169Z [gw0] [ 96%] PASSED tests/installation/test_installer.py::test_solver_resolves_self_referential_extras[True-True-enabled_extras4] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0593823Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups3-0-0-3-True-False-True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0617216Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[False-False-False-False-True-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0724689Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[True-groups8-3-0-0-False-False-True-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0762692Z [gw0] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups3-0-0-3-True-False-True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0790364Z [gw3] [ 96%] PASSED tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[True-True-False-True-True-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0818625Z tests/installation/test_installer.py::test_run_whitelist_remove[True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0923511Z tests/installation/test_installer.py::test_run_installs_with_same_version_url_files[True-win32] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.0944416Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[True-groups8-3-0-0-False-False-True-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1019251Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups4-1-0-0-False-False-True-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1059024Z [gw0] [ 96%] PASSED tests/installation/test_installer.py::test_run_whitelist_remove[True-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1114078Z tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups6-2-0-0-False-False-False-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1159021Z [gw2] [ 96%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups4-1-0-0-False-False-True-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1215530Z tests/console/commands/self/test_install.py::test_self_install[[tool.poetry]\nname = "poetry-instance"\nversion = "1.2"\ndescription = ""\nauthors = []\nlicense = ""\n# no package-mode -> defaults to true\n\n[tool.poetry.dependencies]\npython = "3.9"\npoetry = "1.2"\n] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1229190Z [gw3] [ 96%] PASSED tests/installation/test_installer.py::test_run_installs_with_same_version_url_files[True-win32] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1231149Z [gw0] [ 97%] PASSED tests/installation/test_installer.py::test_run_install_with_dependency_groups[False-groups6-2-0-0-False-False-False-2.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1256680Z tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[True-False-True-True-True-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1569157Z tests/console/commands/self/test_install.py::test_sync_deprecation[True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1608895Z [gw3] [ 97%] PASSED tests/installation/test_installer.py::test_run_installs_extras_with_deps_if_requested[True-False-True-True-True-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.1931396Z tests/console/commands/self/test_install.py::test_self_install[None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.2011796Z [gw2] [ 97%] PASSED tests/console/commands/self/test_install.py::test_self_install[[tool.poetry]\nname = "poetry-instance"\nversion = "1.2"\ndescription = ""\nauthors = []\nlicense = ""\n# no package-mode -> defaults to true\n\n[tool.poetry.dependencies]\npython = "3.9"\npoetry = "1.2"\n] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.2368735Z tests/console/commands/self/test_install.py::test_sync_deprecation[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.2654998Z [gw0] [ 97%] PASSED tests/console/commands/self/test_install.py::test_sync_deprecation[True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.3120761Z [gw3] [ 97%] PASSED tests/console/commands/self/test_install.py::test_self_install[None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.8225828Z [gw2] [ 97%] PASSED tests/console/commands/self/test_install.py::test_sync_deprecation[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:54.8243876Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_default_branch_head[specification2] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:55.8369181Z tests/integration/test_utils_vcs_git.py::test_git_clone_default_branch_head[specification0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:55.8391240Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_default_branch_head[specification0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:56.8502021Z tests/integration/test_utils_vcs_git.py::test_git_clone_default_branch_head[specification1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:56.8521589Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_default_branch_head[specification1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:57.3150141Z tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_branch 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:57.3168756Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_branch 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:57.7783078Z tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_tag[7263819922b4cd008afbb447f425a562432dad7d-7263819922b4cd008afbb447f425a562432dad7d] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:57.7802412Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_tag[7263819922b4cd008afbb447f425a562432dad7d-7263819922b4cd008afbb447f425a562432dad7d] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:58.5535164Z tests/integration/test_utils_vcs_git.py::test_system_git_fallback_on_http_401 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:58.5552171Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_system_git_fallback_on_http_401 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:59.0412135Z tests/integration/test_utils_vcs_git.py::test_git_clone_when_branch_is_ref 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:59.0429776Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_when_branch_is_ref 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:59.5409222Z tests/integration/test_utils_vcs_git.py::test_username_password_parameter_is_not_passed_to_dulwich 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:52:59.5427459Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_username_password_parameter_is_not_passed_to_dulwich 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:00.0045143Z tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_tag[v0.1.0-b6204750a763268e941cec1f05f8986b6c66913e] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:00.0064400Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_tag[v0.1.0-b6204750a763268e941cec1f05f8986b6c66913e] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:00.4704413Z tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_tag[b6204750a763268e941cec1f05f8986b6c66913e-b6204750a763268e941cec1f05f8986b6c66913e] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:00.4722872Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_tag[b6204750a763268e941cec1f05f8986b6c66913e-b6204750a763268e941cec1f05f8986b6c66913e] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:00.9741555Z tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_ref 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:00.9759302Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_revision_is_ref 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.4609370Z tests/integration/test_utils_vcs_git.py::test_git_clone_tag[v0.1.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.4630030Z [gw1] [ 97%] PASSED tests/integration/test_utils_vcs_git.py::test_git_clone_tag[v0.1.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.5092324Z tests/console/commands/test_add.py::test_add_git_constraint_with_poetry 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.5124041Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_git_constraint_with_poetry 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.5527108Z tests/console/commands/test_add.py::test_add_file_constraint_wheel[required_fixtures0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.5552594Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_file_constraint_wheel[required_fixtures0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.6011920Z tests/console/commands/test_add.py::test_add_directory_constraint[False-required_fixtures0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.6036867Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_directory_constraint[False-required_fixtures0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.6563081Z tests/console/commands/test_add.py::test_add_constraint_with_optional[existing_extras2-expected_extras2-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.6586859Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_constraint_with_optional[existing_extras2-expected_extras2-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.6988167Z tests/console/commands/test_add.py::test_add_should_not_change_lock_file_when_dependency_installation_fail 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.7012594Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_should_not_change_lock_file_when_dependency_installation_fail 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.7476471Z tests/console/commands/test_add.py::test_add_git_ssh_constraint[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.7507327Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_git_ssh_constraint[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.7903478Z tests/console/commands/test_add.py::test_add_url_constraint_wheel 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.7926549Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_url_constraint_wheel 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.8275994Z tests/console/commands/test_add.py::test_add_constraint_with_source 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.8298087Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_constraint_with_source 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.8758579Z tests/console/commands/test_add.py::test_add_does_not_update_locked_dependencies[False-4.3.2-foo --lock] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.8780814Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_does_not_update_locked_dependencies[False-4.3.2-foo --lock] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.9168718Z tests/console/commands/test_add.py::test_add_non_package_mode_no_name 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.9190973Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_non_package_mode_no_name 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.9461607Z tests/console/commands/test_add.py::test_add_extras_only_accepts_one_package[requests --extras security socks] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.9484844Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_extras_only_accepts_one_package[requests --extras security socks] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.9972000Z tests/console/commands/test_add.py::test_add_constraint_with_optional[existing_extras2-expected_extras2-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:01.9994735Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_constraint_with_optional[existing_extras2-expected_extras2-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.0351712Z tests/console/commands/test_add.py::test_add_with_markers 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.0374398Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_with_markers 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.0728273Z tests/console/commands/test_add.py::test_add_no_constraint 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.0750703Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_no_constraint 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.1194023Z tests/console/commands/test_add.py::test_add_to_group_uses_existing_legacy_group 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.1216398Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_to_group_uses_existing_legacy_group 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.1734271Z tests/console/commands/test_add.py::test_add_constraint_with_optional[existing_extras3-expected_extras3-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.1757337Z [gw1] [ 97%] PASSED tests/console/commands/test_add.py::test_add_constraint_with_optional[existing_extras3-expected_extras3-True] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.2172001Z tests/console/commands/test_add.py::test_add_replace_by_constraint 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.2194205Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_replace_by_constraint 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.2525687Z tests/console/commands/test_add.py::test_add_constraint_dependencies 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.2548902Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_constraint_dependencies 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.2975306Z tests/console/commands/test_add.py::test_add_does_not_update_locked_dependencies[True-4.3.1-foo --lock] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.2999090Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_does_not_update_locked_dependencies[True-4.3.1-foo --lock] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.3408766Z tests/console/commands/test_add.py::test_add_to_section_that_does_not_exist_yet[foo.BAR] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.3430350Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_to_section_that_does_not_exist_yet[foo.BAR] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.3896307Z tests/console/commands/test_add.py::test_add_git_constraint 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.3926285Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_git_constraint 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.4329629Z tests/console/commands/test_add.py::test_add_with_dry_run_keep_files_intact[cachy --lock --dry-run] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.4352635Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_with_dry_run_keep_files_intact[cachy --lock --dry-run] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.4664898Z tests/console/commands/test_add.py::test_add_should_skip_when_adding_canonicalized_existing_package_with_no_constraint[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.4686500Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_should_skip_when_adding_canonicalized_existing_package_with_no_constraint[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.5173073Z tests/console/commands/test_add.py::test_add_constraint_with_optional[None-expected_extras0-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.5196254Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_constraint_with_optional[None-expected_extras0-False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.5561589Z tests/console/commands/test_add.py::test_add_constraint_with_extras_option[msgpack] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.5585110Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_constraint_with_extras_option[msgpack] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6007583Z tests/console/commands/test_add.py::test_add_should_work_when_adding_existing_package_with_latest_constraint[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6031180Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_should_work_when_adding_existing_package_with_latest_constraint[False] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6423542Z tests/console/commands/test_add.py::test_add_creating_poetry_section_does_not_remove_existing_tools 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6446838Z [gw1] [ 98%] PASSED tests/console/commands/test_add.py::test_add_creating_poetry_section_does_not_remove_existing_tools 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6597892Z tests/console/commands/test_init.py::test_python_option 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6621247Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_python_option 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6739544Z tests/console/commands/test_init.py::test_init_existing_pyproject_with_build_system_fails 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6762751Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_init_existing_pyproject_with_build_system_fails 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6863521Z tests/console/commands/test_init.py::test_validate_package_valid[  foo@2.0   ] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.6885558Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_validate_package_valid[  foo@2.0   ] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7062836Z tests/console/commands/test_init.py::test_predefined_and_interactive_dev_dependencies 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7088460Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_predefined_and_interactive_dev_dependencies 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7190108Z tests/console/commands/test_init.py::test_validate_version_constraint_accepts_valid_inputs[-None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7212122Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_validate_version_constraint_accepts_valid_inputs[-None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7366082Z tests/console/commands/test_init.py::test_respect_use_poetry_python_on_init[True-3.13] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7389484Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_respect_use_poetry_python_on_init[True-3.13] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7491626Z tests/console/commands/test_init.py::test_sanitize_package_name[\u043f\u0440\u043e\u0435\u043a\u0442-\u043f\u0440\u043e\u0435\u043a\u0442] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7514019Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_sanitize_package_name[\u043f\u0440\u043e\u0435\u043a\u0442-\u043f\u0440\u043e\u0435\u043a\u0442] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7707110Z tests/console/commands/test_init.py::test_init_adds_readme_key_when_readme_exists 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7730056Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_init_adds_readme_key_when_readme_exists 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7895920Z tests/console/commands/test_init.py::test_interactive_with_wrong_dependency_inputs 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.7918373Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_interactive_with_wrong_dependency_inputs 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8035412Z tests/console/commands/test_init.py::test_generate_choice_list[_generate_choice_list_packages0-Flask] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8058582Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_generate_choice_list[_generate_choice_list_packages0-Flask] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8171015Z tests/console/commands/test_init.py::test_generate_choice_list[_generate_choice_list_packages0-flask] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8193921Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_generate_choice_list[_generate_choice_list_packages0-flask] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8374744Z tests/console/commands/test_init.py::test_interactive_with_dependencies_and_no_selection 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8400471Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_interactive_with_dependencies_and_no_selection 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8502388Z tests/console/commands/test_init.py::test_validate_package_valid[foo==2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8524004Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_validate_package_valid[foo==2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8673138Z tests/console/commands/test_init.py::test_package_include[my.awesome.package-my] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8696129Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_package_include[my.awesome.package-my] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8842743Z tests/console/commands/test_init.py::test_package_include[my.package-my] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.8865367Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_package_include[my.package-my] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9062697Z tests/console/commands/test_init.py::test_predefined_dev_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9085518Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_predefined_dev_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9185266Z tests/console/commands/test_init.py::test_validate_package_valid[foo 2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9207066Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_validate_package_valid[foo 2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9353285Z tests/console/commands/test_init.py::test_empty_license 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9375887Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_empty_license 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9478519Z tests/console/commands/test_init.py::test_validate_version_constraint_rejects_invalid_inputs[latest] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9501142Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_validate_version_constraint_rejects_invalid_inputs[latest] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9808314Z tests/console/commands/test_init.py::test_noninteractive 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9831640Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_noninteractive 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9933781Z tests/console/commands/test_init.py::test_sanitize_package_name[My_Package.Name-my-package-name] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:02.9956155Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_sanitize_package_name[My_Package.Name-my-package-name] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0107465Z tests/console/commands/test_init.py::test_basic_interactive 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0130698Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_basic_interactive 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0279086Z tests/console/commands/test_init.py::test_init_does_not_add_readme_key_when_readme_missing 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0302236Z [gw1] [ 98%] PASSED tests/console/commands/test_init.py::test_init_does_not_add_readme_key_when_readme_missing 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0402077Z tests/console/commands/test_init.py::test_validate_package_valid[None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0423766Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_package_valid[None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0611050Z tests/console/commands/test_init.py::test_interactive_with_file_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0636389Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_interactive_with_file_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0786461Z tests/console/commands/test_init.py::test_validate_author[Jose\u0301 Duarte] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0808649Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_author[Jose\u0301 Duarte] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0962082Z tests/console/commands/test_init.py::test_init_does_not_create_project_structure_in_empty_directory 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.0985185Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_init_does_not_create_project_structure_in_empty_directory 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1143732Z tests/console/commands/test_init.py::test_init_existing_pyproject_consistent_linesep[\n] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1166507Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_init_existing_pyproject_consistent_linesep[\n] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1276440Z tests/console/commands/test_init.py::test_get_pool 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1299338Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_get_pool 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1460482Z tests/console/commands/test_init.py::test_init_existing_pyproject_consistent_linesep[\r\n] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1483936Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_init_existing_pyproject_consistent_linesep[\r\n] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1586276Z tests/console/commands/test_init.py::test_validate_package_invalid[foo bar 2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1608570Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_package_invalid[foo bar 2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1709301Z tests/console/commands/test_init.py::test_sanitize_package_name[MyProject-myproject] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1731831Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_sanitize_package_name[MyProject-myproject] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1831995Z tests/console/commands/test_init.py::test_sanitize_package_name[\u65e5\u672c\u8a9e-\u65e5\u672c\u8a9e] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1854354Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_sanitize_package_name[\u65e5\u672c\u8a9e-\u65e5\u672c\u8a9e] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1952937Z tests/console/commands/test_init.py::test_validate_author[Jos\xe9 Duarte] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.1975133Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_author[Jos\xe9 Duarte] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2075300Z tests/console/commands/test_init.py::test_sanitize_package_name[foo-foo] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2097939Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_sanitize_package_name[foo-foo] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2238440Z tests/console/commands/test_init.py::test_validate_package_valid[   foo  ] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2260449Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_package_valid[   foo  ] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2422581Z tests/console/commands/test_init.py::test_init_non_interactive_existing_pyproject_add_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2444874Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_init_non_interactive_existing_pyproject_add_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2548108Z tests/console/commands/test_init.py::test_validate_version_constraint_accepts_valid_inputs[   -None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2570473Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_version_constraint_accepts_valid_inputs[   -None] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2780667Z tests/console/commands/test_init.py::test_interactive_with_directory_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2806013Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_interactive_with_directory_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2960756Z tests/console/commands/test_init.py::test_package_include[my-awesome-package-my_awesome_package] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.2984964Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_package_include[my-awesome-package-my_awesome_package] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3149651Z tests/console/commands/test_init.py::test_init_existing_pyproject_simple 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3172844Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_init_existing_pyproject_simple 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3335558Z tests/console/commands/test_init.py::test_predefined_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3359327Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_predefined_dependency 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3466386Z tests/console/commands/test_init.py::test_validate_version_constraint_rejects_invalid_inputs[==1.,] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3489766Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_version_constraint_rejects_invalid_inputs[==1.,] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3591373Z tests/console/commands/test_init.py::test_sanitize_package_name[-------] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3613763Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_sanitize_package_name[-------] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3715215Z tests/console/commands/test_init.py::test_sanitize_package_name[  --my..name__ -my-name] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3737459Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_sanitize_package_name[  --my..name__ -my-name] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.3981470Z tests/console/commands/test_init.py::test_interactive_with_git_dependencies_and_other_name 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4006188Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_interactive_with_git_dependencies_and_other_name 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4205163Z tests/console/commands/test_init.py::test_interactive_with_git_dependencies_with_reference 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4228394Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_interactive_with_git_dependencies_with_reference 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4380472Z tests/console/commands/test_init.py::test_package_include[my-package-my_package] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4402543Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_package_include[my-package-my_package] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4504971Z tests/console/commands/test_init.py::test_validate_package_valid[foo] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4525773Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_package_valid[foo] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4626938Z tests/console/commands/test_init.py::test_validate_package_invalid[foo bar foobar 2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4649444Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_package_invalid[foo bar foobar 2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4749714Z tests/console/commands/test_init.py::test_validate_package_invalid[   foo bar 2.0   ] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4771731Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_package_invalid[   foo bar 2.0   ] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4872973Z tests/console/commands/test_init.py::test_validate_version_constraint_accepts_valid_inputs[^1.0-^1.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.4894921Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_version_constraint_accepts_valid_inputs[^1.0-^1.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5007819Z tests/console/commands/test_init.py::test_generate_choice_list[_generate_choice_list_packages1-flAsK] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5031006Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_generate_choice_list[_generate_choice_list_packages1-flAsK] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5186497Z tests/console/commands/test_init.py::test_init_does_not_create_project_structure_in_non_empty_directory 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5209582Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_init_does_not_create_project_structure_in_non_empty_directory 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5315079Z tests/console/commands/test_init.py::test_validate_version_constraint_rejects_invalid_inputs[isort] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5338120Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_version_constraint_rejects_invalid_inputs[isort] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5487009Z tests/console/commands/test_init.py::test_validate_package_valid[foo@2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5510091Z [gw1] [ 99%] PASSED tests/console/commands/test_init.py::test_validate_package_valid[foo@2.0] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:03.5671982Z tests/console/commands/test_init.py::test_respect_use_poetry_python_on_init[False-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4495702Z [gw1] [100%] PASSED tests/console/commands/test_init.py::test_respect_use_poetry_python_on_init[False-1.1] 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4496572Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4496840Z =================================== FAILURES ===================================
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4497603Z ____ test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink _____
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4498960Z [gw3] linux -- Python 3.13.16 /home/runner/.cache/pypoetry/virtualenvs/poetry-a17fJEuR-py3.13/bin/python
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4499627Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4500090Z tmp_path = PosixPath('/tmp/pytest-of-runner/pytest-0/popen-gw3/test_extractall_sdist_no_symli6')
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4501064Z monkeypatch = <_pytest.monkeypatch.MonkeyPatch object at 0x7f4bb9051940>
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4501550Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4501895Z     def test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink(
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4502619Z         tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4503109Z     ) -> None:
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4503429Z         """
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4503901Z         A symlink "dir" pointing at "." is created first. A later member is then
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4505114Z         named "dir/../traversal.txt". The path looks safe when resolving ".."
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4505719Z         without resolving the symlink.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4506106Z         """
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4506378Z         import io
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4506672Z         import tarfile
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4506979Z     
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4507280Z         archive = tmp_path / "traversal.tar.gz"
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4507936Z         dest = tmp_path / "dest"
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4508319Z         dest.mkdir()
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4508619Z     
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4508929Z         with tarfile.open(archive, "w:gz") as tar:
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4509384Z             symlink = tarfile.TarInfo("dir")
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4509822Z             symlink.type = tarfile.SYMTYPE
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4510236Z             symlink.linkname = "."
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4510851Z             tar.addfile(symlink)
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4511188Z     
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4511459Z             data = b"path traversal"
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4511920Z             regular = tarfile.TarInfo("dir/../traversal.txt")
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4512397Z             regular.size = len(data)
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4512809Z             tar.addfile(regular, io.BytesIO(data))
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4513215Z     
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4513535Z         raises = sys.version_info < (3, 15) and not WINDOWS
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4514007Z         exception: type[Exception]
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4514400Z         if hasattr(tarfile, "data_filter"):
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4514871Z             exception = tarfile.OutsideDestinationError
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4515322Z         else:
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4515698Z             # tarfile.OutsideDestinationError does not exist
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4516189Z             exception = ValueError
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4516529Z     
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4516968Z >       with pytest.raises(exception) if raises else contextlib.nullcontext():
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4517614Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4518340Z E       Failed: DID NOT RAISE OutsideDestinationError
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4518677Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4518982Z /home/runner/work/poetry/poetry/tests/utils/test_helpers.py:381: Failed
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4519648Z =============================== warnings summary ===============================
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4520157Z tests/vcs/git/test_backend.py: 6 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4520582Z tests/vcs/git/test_system.py: 3 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4521051Z tests/integration/test_utils_vcs_git.py: 24 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4522239Z   /home/runner/.cache/pypoetry/virtualenvs/poetry-a17fJEuR-py3.13/lib/python3.13/site-packages/dulwich/repo.py:1920: EncodingWarning: 'encoding' argument not specified
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4523375Z     with open(fname, "w") as f:
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4523615Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4523799Z tests/console/commands/test_show.py: 2 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4524319Z tests/repositories/test_pypi_repository.py: 1 warning
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4524819Z tests/puzzle/test_solver.py: 3 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4525248Z tests/inspection/test_info.py: 4 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4525673Z tests/puzzle/test_provider.py: 2 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4526174Z tests/repositories/test_legacy_repository.py: 7 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4526705Z tests/installation/test_installer.py: 2 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4528033Z   /home/runner/.cache/pypoetry/virtualenvs/poetry-a17fJEuR-py3.13/lib/python3.13/site-packages/pkginfo/sdist.py:107: EncodingWarning: 'encoding' argument not specified
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4529194Z     with io.open(pkg_info, errors='ignore') as f:
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4529519Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4529830Z tests/console/commands/test_new.py::test_command_new_with_readme[None]
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4530632Z tests/utils/env/python/test_python_providers.py::test_shutil_which_python_provider
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4531362Z tests/utils/env/python/test_manager.py::test_find_all
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4531997Z tests/utils/env/python/test_manager.py::test_find_all_with_poetry_managed
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4533012Z tests/utils/env/test_env_manager.py::test_create_venv_invalid_prompt_template_variable
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4533831Z tests/console/commands/env/test_list.py::test_in_project_venv_is_false
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4534682Z tests/console/commands/test_init.py::test_noninteractive_sanitizes_default_name_from_directory
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4536202Z   /home/runner/.cache/pypoetry/virtualenvs/poetry-a17fJEuR-py3.13/lib/python3.13/site-packages/findpython/python.py:23: EncodingWarning: 'encoding' argument not specified.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4537369Z     return subprocess.run(
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4537594Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4538152Z tests/installation/test_executor.py::test_execute_works_with_ansi_output
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4539908Z   /home/runner/.cache/pypoetry/virtualenvs/poetry-a17fJEuR-py3.13/lib/python3.13/site-packages/cleo/io/outputs/stream_output.py:53: EncodingWarning: UTF-8 Mode affects locale.getpreferredencoding(). Consider locale.getencoding() instead.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4541803Z     encoding = self._stream.encoding or locale.getpreferredencoding(False)
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4542268Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4542450Z tests/console/commands/test_init.py: 13 warnings
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4543601Z   /home/runner/.cache/pypoetry/virtualenvs/poetry-a17fJEuR-py3.13/lib/python3.13/site-packages/cleo/ui/question.py:268: EncodingWarning: 'encoding' argument not specified
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4544781Z     with Path(os.devnull).open("w") as devnull:
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4545083Z 
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4545409Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4546091Z =========================== short test summary info ============================
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4546694Z SKIPPED [19] tests/utils/test_compat.py:43: Windows paths
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4547412Z SKIPPED [1] tests/console/commands/test_sync.py:26: Only relevant for `poetry install`
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4548565Z SKIPPED [1] tests/console/commands/self/test_sync.py:26: Only relevant for `poetry self install`
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4549828Z SKIPPED [1] tests/console/commands/test_run.py:158: Poetry only installs CMD script files for console scripts of editable dependencies on Windows
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4550901Z SKIPPED [1] tests/utils/env/test_env_manager.py:1412: requires darwin
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4551785Z SKIPPED [1] tests/installation/test_executor.py:513: https://github.com/python-poetry/poetry/issues/7983
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4552655Z SKIPPED [1] tests/utils/test_python_manager.py:104: Windows only
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4553385Z SKIPPED [6] tests/utils/env/test_env_site_packages.py:156: Windows path separators
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4554202Z SKIPPED [3] tests/console/commands/env/test_activate.py:64: Only Windows shells
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4556100Z XFAIL tests/puzzle/test_solver.py::test_solver_local_version_variant_is_not_wrongly_excluded_via_stale_lock - The dependencies of a plain release leak onto its local variants, because `==2.12.1` also matches `2.12.1+cpu`. Only the resulting orphan decisions are handled, not the leak itself.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4559199Z XFAIL tests/puzzle/test_solver.py::test_solver_local_version_variant_is_not_wrongly_excluded - The dependencies of a plain release leak onto its local variants, because `==2.12.1` also matches `2.12.1+cpu`. Only the resulting orphan decisions are handled, not the leak itself.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4561401Z FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.4562593Z = 1 failed, 3338 passed, 34 skipped, 2 xfailed, 75 warnings in 65.47s (0:01:05) =
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6466525Z ##[error]Process completed with exit code 1.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6581708Z Post job cleanup.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6594605Z ##[start-action display=Run actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9;id=__e8b28b3e-4d7b-4ca1-b7a6-83158cdf1779.cache]
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6597118Z ##[end-action id=__e8b28b3e-4d7b-4ca1-b7a6-83158cdf1779.cache;outcome=skipped;conclusion=skipped;duration_ms=0]
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6666184Z Post job cleanup.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6669617Z ##[start-action display=Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97;id=__d36c5ee3-d667-4182-9d05-3fb29520d2c6.setup-python]
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6671848Z ##[end-action id=__d36c5ee3-d667-4182-9d05-3fb29520d2c6.setup-python;outcome=skipped;conclusion=skipped;duration_ms=0]
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.6735360Z Post job cleanup.
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7562876Z [command]/usr/bin/git version
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7602899Z git version 2.55.0
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7638994Z Temporarily overriding HOME='/home/runner/work/_temp/dfa23699-ff7e-4df0-9293-dbd0d39e2e25' before making global git config changes
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7640503Z Adding repository directory to the temporary git global config as a safe directory
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7644867Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/poetry/poetry
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7675184Z Removing SSH command configuration
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7681761Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7715184Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7934007Z Removing HTTP extra header
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7939902Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.7974271Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.8199744Z Removing includeIf entries pointing to credentials config files
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.8239328Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.8272459Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Ubuntu (Python 3.13) / pytest	UNKNOWN STEP	2026-10-12T03:53:04.8645154Z Cleaning up orphan processes
+Status	UNKNOWN STEP	﻿2026-10-12T03:56:47.6693484Z Current runner version: '2.337.0'
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6727519Z ##[group]Runner Image Provisioner
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6728672Z Hosted Compute Agent
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6729526Z Version: 20261002.596
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6730680Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6731696Z Build Date: 2026-10-02T22:28:27Z
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6732758Z Worker ID: {4e5fd1db-579c-48b5-8a56-5cc35e52ce50}
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6733885Z Region: centralus
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6734687Z Cloud: Azure
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6735483Z ##[endgroup]
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6737252Z ##[group]Operating System
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6738174Z Ubuntu
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6738935Z 24.04.5
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6739675Z LTS
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6740623Z ##[endgroup]
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6741387Z ##[group]Runner Image
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6742152Z Image: ubuntu-24.04
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6742985Z Version: 20261004.327.1
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6744791Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6747080Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6748563Z ##[endgroup]
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6750262Z ##[group]GITHUB_TOKEN Permissions
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6753257Z Metadata: read
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6754080Z ##[endgroup]
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6756715Z Secret source: None
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6758144Z Cache mode: write
+Status	UNKNOWN STEP	2026-10-12T03:56:47.6759150Z Prepare workflow directory
+Status	UNKNOWN STEP	2026-10-12T03:56:47.7166408Z Prepare all required actions
+Status	UNKNOWN STEP	2026-10-12T03:56:47.7492918Z Complete job name: Status
+Status	UNKNOWN STEP	2026-10-12T03:56:47.8269573Z ##[group]Run false
+Status	UNKNOWN STEP	2026-10-12T03:56:47.8270735Z ^[[36;1mfalse^[[0m
+Status	UNKNOWN STEP	2026-10-12T03:56:47.9167854Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Status	UNKNOWN STEP	2026-10-12T03:56:47.9169349Z ##[endgroup]
+Status	UNKNOWN STEP	2026-10-12T03:56:47.9416371Z ##[error]Process completed with exit code 1.
+Status	UNKNOWN STEP	2026-10-12T03:56:47.9584290Z Cleaning up orphan processes

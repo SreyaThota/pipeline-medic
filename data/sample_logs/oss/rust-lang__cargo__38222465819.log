@@ -1,0 +1,400 @@
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:52.1240718Z test tool_paths::target_linker_proc_macro_test_with_target ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:52.2311126Z test tool_paths::target_in_environment_contains_lower_case ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:52.2386779Z test unit_graph::simple ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:52.3401748Z test update::change_package_version ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:52.5821128Z test update::conservative ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:52.6100628Z test update::dry_run_update ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:52.8204701Z test update::add_dep_deep_new_requirement ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.2492418Z test update::everything_real_deep ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.2862463Z test update::minor_update_two_places ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.3314077Z test update::precise_with_multiple_specs ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.3323977Z test update::precise_with_build_metadata ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.8657925Z test update::precise_with_multiple_specs_first_doesnt_match ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.8947260Z test update::precise_with_multiple_specs_cross_registry ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.9326207Z test update::precise_yanked ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:53.9403702Z test update::precise_with_patch ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:54.0218550Z test update::preserve_top_comment ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:54.2232811Z test update::prefixed_v_in_version ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:54.3911313Z test update::precise_yanked_multiple_presence ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:54.5451401Z test update::update_only_members_order_one ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:54.6002586Z test update::transitive_minor_update ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:54.6297453Z test update::update_aggressive_alias_for_recursive ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:54.7082934Z test update::report_behind ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:55.4451300Z test update::update_only_members_order_two ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:55.7021982Z test update::update_only_members_with_workspace ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:55.7631514Z test update::update_precise_build_metadata ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:55.9060103Z test update::update_precise ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:56.1550237Z test update::update_precise_do_not_force_update_deps ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:56.6284793Z test update::update_precise_first_run ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:56.8811406Z test update::update_precise_git_revisions ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:56.9581728Z test update::update_precise_mismatched ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:56.9753676Z test update::update_recursive ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.1401082Z test update::update_recursive_conflicts_with_precise ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.2392647Z test update::update_via_new_dep ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.2424962Z test update::update_with_missing_feature ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.2562558Z test update::update_via_new_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.2620072Z test update::workspace_only ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.3730484Z test vendor::dependent_crates_in_crates ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.6306791Z test vendor::depend_on_vendor_dir_not_deleted ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:57.7991181Z test vendor::delete_old_crates ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.0701532Z test vendor::deterministic_mtime ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.2960988Z test vendor::config_instructions_works ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.3791582Z test vendor::discovery_inferred_build_rs_excluded ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.4491493Z test vendor::discovery_inferred_lib_excluded ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.4805088Z test vendor::discovery_inferred_build_rs_included ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.5100945Z test vendor::discovery_inferred_lib_included ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.6124281Z test vendor::discovery_inferred_other_excluded ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.6492052Z test vendor::error_loading_which_lock ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.6513647Z test vendor::discovery_inferred_other_included ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.6525901Z test vendor::error_downloading ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.8308160Z test vendor::dont_delete_non_registry_sources_with_respect_source_config ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.8388017Z test vendor::git_crlf_preservation ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.8395590Z test vendor::git_deterministic ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:58.9554602Z test vendor::git_complex ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.0564166Z test vendor::git_duplicate ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.0688264Z test vendor::help ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.0951524Z test vendor::git_simple ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.1391111Z test vendor::git_diff_rev ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.3221303Z test vendor::ignore_files ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.3332237Z test vendor::git_update_rev ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.3596903Z test vendor::ignore_hidden ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:25:59.4831330Z test vendor::no_remote_dependency_no_vendor ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:00.3172931Z test vendor::package_exclude ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:00.3183054Z test vendor::included_files_only ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:00.6795933Z test vendor::test_sync_argument ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:00.9097450Z test vendor::two_explicit_versions ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:00.9331384Z test vendor::two_versions ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:00.9781209Z test vendor::update_versions ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.0296352Z test vendor::two_lockfiles ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.0467907Z test vendor::vendor_filters_git_files_recursively ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.0520958Z test vendor::vendor_local_registry ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.2353212Z test vendor::vendor_preserves_permissions ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.2373788Z test vendor::vendor_crate_with_ws_inherit ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.3391483Z test vendor::vendor_path_specified ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.3391967Z test vendor::vendor_rename_fallback ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.3953689Z test vendor::vendor_sample_config_alt_registry ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.4283275Z test verify_project::cargo_verify_project_cwd ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.4612458Z test vendor::vendor_sample_config ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.4967728Z test verify_project::cargo_verify_project_path_to_cargo_toml_absolute ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.4968908Z test verify_project::cargo_verify_project_honours_unstable_features ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.5336899Z test verify_project::verify_project_invalid_toml_syntax ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.5371048Z test verify_project::cargo_verify_project_path_to_cargo_toml_relative ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.5610901Z test vendor::vendor_simple ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.5617298Z test version::verbose ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.5981888Z test version::simple ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.6000402Z test version::version_works_with_bad_target_dir ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.6001173Z test version::version_works_with_bad_config ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.6331335Z test version::version_works_without_rustc ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.6521291Z test vendor::vendoring_git_crates ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:01.9180404Z test warning_override::always_show_error_diags ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.2251490Z test warn_on_failure::no_warning_on_bin_failure ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.2697661Z test warn_on_failure::no_warning_on_success ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.2851347Z test warn_on_failure::warning_on_lib_failure ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.3731153Z test warning_override::clippy ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.4200793Z test warning_override::cap_lints_allow ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.4322373Z test warning_override::config ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.6361499Z test warning_override::cap_lints_deny ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:02.8343926Z test warning_override::keep_going ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.0807101Z test warning_override::lint_build_result_pass ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.3561899Z test warning_override::hard_warning_allow ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.3674542Z test warning_override::rustc_caching_allow_first ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.3741528Z test warning_override::hard_warning_deny ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.4061086Z test warning_override::unknown_value ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.4111404Z test warning_override::lint_parse_pass ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.4648052Z test weak_dep_features::not_optional_dep ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.6801838Z test warning_override::warnings_and_errors ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.7181002Z test warning_override::rustc_caching_deny_first ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.8851574Z test weak_dep_features::required_features ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.9151586Z test weak_dep_features::deferred ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:03.9241071Z test weak_dep_features::publish ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.1771015Z test weak_dep_features::optional_cli_syntax ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.3025145Z test weak_dep_features::simple ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.4201525Z test workspaces::bare_workspace_ok ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.4750841Z test weak_dep_features::weak_namespaced ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.5722054Z test weak_dep_features::tree ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.8028014Z test workspaces::dangling_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.8098865Z test workspaces::cycle ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.8538248Z test workspaces::cargo_home_at_root_works ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.8571582Z test weak_dep_features::weak_with_host_decouple ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.8988046Z test workspaces::error_if_manifest_path_is_relative ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:04.9291477Z test workspaces::error_if_member_is_outside_root ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.1989654Z test workspaces::ensure_correct_workspace_when_nested ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.2225117Z test workspaces::error_if_parent_cargo_toml_is_invalid ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.5282069Z test workspaces::exclude_members_preferred ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.5660994Z test workspaces::exclude_but_also_depend ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.5690740Z test workspaces::dont_recurse_out_of_cargo_home ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.6071479Z test workspaces::excluded_default_members_still_must_be_members ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.6111196Z test workspaces::dep_used_with_separate_features ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.7951966Z test workspaces::explicit_package_argument_works_with_virtual_manifest ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.8291566Z test workspaces::excluded_simple ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.8561577Z test workspaces::excluded_default_members_not_crate_glob ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.9109091Z test workspaces::excluded_default_members_crate_glob ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.9456675Z test workspaces::glob_syntax_invalid_members ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:05.9867941Z test workspaces::include_virtual ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.0221800Z test workspaces::fix_only_check_manifest_path_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.0305370Z test workspaces::fetch_fetches_all ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.0620501Z test workspaces::invalid_members ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.1180309Z test workspaces::invalid_missing ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.1694505Z test workspaces::invalid_parent_pointer ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.2789779Z test workspaces::inferred_path_dep ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.2875303Z test workspaces::inferred_root ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.6521036Z test workspaces::lockfile_can_specify_nonexistent_members ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.6661117Z test workspaces::glob_syntax ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.6931268Z test workspaces::member_dep_missing ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.9202399Z test workspaces::lock_doesnt_change_depending_on_crate ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.9261442Z test workspaces::new_creates_members_list ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.9311482Z test workspaces::lock_works_for_everyone ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:06.9684057Z test workspaces::members_include_path_deps ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.0331460Z test workspaces::non_virtual_default_members_build_root_project ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.0711197Z test workspaces::parent_doesnt_point_to_child ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.1011154Z test workspaces::non_virtual_default_members_build_other_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.1090883Z test workspaces::parent_manifest_error_mentions_workspace_search ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.1252013Z test workspaces::new_warning_with_corrupt_ws ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.2677434Z test workspaces::path_dep_outside_workspace_is_not_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.3043322Z test workspaces::nonexistence_package_together_with_workspace ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.5308847Z test workspaces::relative_path_for_member_works ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.5357696Z test workspaces::relative_path_for_root_works ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.5731305Z test workspaces::same_names_in_workspace ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.6241585Z test workspaces::parent_pointer_works ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.7918173Z test workspaces::simple_explicit ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:07.9978163Z test workspaces::simple_explicit_default_members ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:08.1756331Z test workspaces::share_dependencies ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:08.1774984Z test workspaces::relative_rustc ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:08.3727006Z test workspaces::test_path_dependency_under_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:08.6913362Z test workspaces::test_in_and_out_of_workspace ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:08.7281853Z test workspaces::two_roots ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.0550588Z test workspaces::rebuild_please ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.0771539Z test workspaces::virtual_build_all_implied ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.1161062Z test workspaces::virtual_default_member_is_not_a_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.1200907Z test workspaces::simple_primary_package_env_var ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.1230670Z test workspaces::virtual_build_no_members ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.1590021Z test workspaces::virtual_misconfigure ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.2082222Z test workspaces::transitive_path_dep ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.2121503Z test workspaces::virtual_default_members_build_other_member ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.3586522Z test workspaces::virtual_default_members ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.4121617Z test workspaces::workspace_isnt_root ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.4430956Z test workspaces::virtual_works ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.7669680Z test workspaces::workspace_in_git ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.8931473Z test workspaces::ws_err_unused_similar_suggest ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.8959119Z test workspaces::workspace_with_transitive_dev_deps ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:09.9490280Z test workspaces::virtual_primary_package_env_var ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.0041720Z test workspaces::ws_rustc_err ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.1388073Z test workspaces::you_cannot_generate_lockfile_for_empty_workspaces ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.1808598Z test workspaces::ws_warn_path ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.1873686Z test yank::bad_version ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.2221039Z test workspaces::ws_err_unused ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.2226832Z test yank::inline_and_explicit_version ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.2470611Z test yank::inline_version_without_name ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.3417928Z test workspaces::ws_warn_unused ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.3654128Z test yank::version_required ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.4564118Z test yank::explicit_version ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.4875116Z test yank::prefixed_v_in_version ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5471327Z test yank::inline_version ... ok
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5471994Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5472091Z failures:
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5472198Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5472304Z ---- ssh::known_host_works stdout ----
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5475327Z SSH_AGENT_PID=128431
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5475707Z running `/home/runner/work/cargo/cargo/target/debug/cargo fetch`
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5476011Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5476200Z thread 'ssh::known_host_works' (128428) panicked at tests/testsuite/ssh.rs:192:10:
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5476458Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5476877Z ^[[31m---- expected: tests/testsuite/ssh.rs:187:27^[[0m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5477180Z ^[[32m++++ actual:   stderr^[[0m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5477404Z ^[[2m   1^[[0m      ^[[31m-^[[0m ^[[31m...
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5477694Z ^[[0m^[[2m   2^[[0m      ^[[31m-^[[0m ^[[31mHost key verification failed.
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5497399Z ^[[0m^[[2m   3^[[0m      ^[[31m-^[[0m ^[[31m...^[[0m^[[4m^[[31m∅^[[0m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5498342Z      ^[[2m   1^[[0m ^[[32m+^[[0m ^[[32m[UPDATING] git repository `ssh://testuser@127.0.0.1:32775/repos/bar.git`
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5499194Z ^[[0m     ^[[2m   2^[[0m ^[[32m+^[[0m ^[[32mkex_exchange_identification: read: Connection reset by peer
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5499861Z ^[[0m     ^[[2m   3^[[0m ^[[32m+^[[0m ^[[32mConnection reset by 127.0.0.1 port 32775
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5500613Z ^[[0m     ^[[2m   4^[[0m ^[[32m+^[[0m ^[[32mfatal: Could not read from remote repository.
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5501094Z ^[[0m     ^[[2m   5^[[0m ^[[32m+^[[0m ^[[32m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5501610Z ^[[0m     ^[[2m   6^[[0m ^[[32m+^[[0m ^[[32mPlease make sure you have the correct access rights
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5502184Z ^[[0m     ^[[2m   7^[[0m ^[[32m+^[[0m ^[[32mand the repository exists.
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5502912Z ^[[0m     ^[[2m   8^[[0m ^[[32m+^[[0m ^[[32m[ERROR] failed to get `bar` as a dependency of package `foo v0.1.0 ([ROOT]/foo)`
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5503512Z ^[[0m     ^[[2m   9^[[0m ^[[32m+^[[0m ^[[32m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5503886Z ^[[0m     ^[[2m  10^[[0m ^[[32m+^[[0m ^[[32mCaused by:
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5504355Z ^[[0m     ^[[2m  11^[[0m ^[[32m+^[[0m ^[[32m  failed to load source for dependency `bar`
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5504789Z ^[[0m     ^[[2m  12^[[0m ^[[32m+^[[0m ^[[32m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5505141Z ^[[0m     ^[[2m  13^[[0m ^[[32m+^[[0m ^[[32mCaused by:
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5505730Z ^[[0m     ^[[2m  14^[[0m ^[[32m+^[[0m ^[[32m  unable to update ssh://testuser@127.0.0.1:32775/repos/bar.git
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5506253Z ^[[0m     ^[[2m  15^[[0m ^[[32m+^[[0m ^[[32m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5506579Z ^[[0m     ^[[2m  16^[[0m ^[[32m+^[[0m ^[[32mCaused by:
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5507110Z ^[[0m     ^[[2m  17^[[0m ^[[32m+^[[0m ^[[32m  failed to clone into: [ROOT]/home/.cargo/git/db/bar-[HASH]
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5507614Z ^[[0m     ^[[2m  18^[[0m ^[[32m+^[[0m ^[[32m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5508061Z ^[[0m     ^[[2m  19^[[0m ^[[32m+^[[0m ^[[32mCaused by:
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5508728Z ^[[0m     ^[[2m  20^[[0m ^[[32m+^[[0m ^[[32m  `git fetch` failed for ssh://testuser@127.0.0.1:32775/repos/bar.git
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5509279Z ^[[0m     ^[[2m  21^[[0m ^[[32m+^[[0m ^[[32m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5510094Z ^[[0m     ^[[2m  22^[[0m ^[[32m+^[[0m ^[[32m  [HELP] re-try with `net.git-fetch-with-cli = false` to see if it resolves the problem
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5510995Z ^[[0m     ^[[2m  23^[[0m ^[[32m+^[[0m ^[[32m  https://doc.rust-lang.org/cargo/reference/config.html#netgit-fetch-with-cli
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5511362Z ^[[0m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5511574Z ^[[2mUpdate with SNAPSHOTS=overwrite^[[0m
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5511760Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5511766Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5511769Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5511879Z failures:
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5512121Z     ssh::known_host_works
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5512287Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5512509Z test result: FAILED. 4436 passed; 1 failed; 7 ignored; 0 measured; 0 filtered out; finished in 473.15s
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5513150Z 
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5513329Z error: test failed, to rerun pass `-p cargo --test testsuite`
+Tests Linux x86_64 nightly	Run cargo test -p cargo	2026-10-12T08:26:10.5636786Z ##[error]Process completed with exit code 101.
+conclusion	Conclusion	﻿2026-10-12T08:27:14.7167610Z ##[group]Run # Print the dependent jobs to see them in the CI log
+conclusion	Conclusion	2026-10-12T08:27:14.7169622Z ^[[36;1m# Print the dependent jobs to see them in the CI log^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7171189Z ^[[36;1mjq -C <<< '{^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7172317Z ^[[36;1m  "build_std": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7173488Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7174608Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7175643Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7176593Z ^[[36;1m  "clippy": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7177632Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7178653Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7179737Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7180898Z ^[[36;1m  "msrv": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7181793Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7182971Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7183955Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7184865Z ^[[36;1m  "docs": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7185847Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7187147Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7188139Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7189065Z ^[[36;1m  "lint-docs": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7190350Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7191405Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7192541Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7193473Z ^[[36;1m  "lockfile": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7194532Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7195581Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7196574Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7275975Z ^[[36;1m  "resolver": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7276935Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7277839Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7278669Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7279420Z ^[[36;1m  "report-timings": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7280637Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7281586Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7282402Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7283121Z ^[[36;1m  "rustfmt": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7283972Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7284879Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7285708Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7286415Z ^[[36;1m  "schema": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7287229Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7288156Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7288964Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7290300Z ^[[36;1m  "spellcheck": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7291182Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7292107Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7292929Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7293631Z ^[[36;1m  "test": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7294427Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7295345Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7296165Z ^[[36;1m  }^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7296847Z ^[[36;1m}'^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7297959Z ^[[36;1m# Check if all jobs that we depend on (in the needs array) were successful.^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7299478Z ^[[36;1mjq --exit-status 'all(.result == "success")' <<< '{^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7300819Z ^[[36;1m  "build_std": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7301690Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7302588Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7303384Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7304106Z ^[[36;1m  "clippy": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7304951Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7305870Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7306665Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7307375Z ^[[36;1m  "msrv": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7308167Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7309064Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7310214Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7310983Z ^[[36;1m  "docs": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7311785Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7312765Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7313562Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7314297Z ^[[36;1m  "lint-docs": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7315489Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7316383Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7317187Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7317931Z ^[[36;1m  "lockfile": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7318750Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7319634Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7320685Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7321461Z ^[[36;1m  "resolver": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7322284Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7323163Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7323961Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7324735Z ^[[36;1m  "report-timings": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7325620Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7326506Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7327305Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7328042Z ^[[36;1m  "rustfmt": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7328853Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7329734Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7330794Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7331542Z ^[[36;1m  "schema": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7332353Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7333235Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7334035Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7334788Z ^[[36;1m  "spellcheck": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7335643Z ^[[36;1m    "result": "success",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7336548Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7337339Z ^[[36;1m  },^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7338112Z ^[[36;1m  "test": {^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7338898Z ^[[36;1m    "result": "failure",^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7339780Z ^[[36;1m    "outputs": {}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7340871Z ^[[36;1m  }^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.7341600Z ^[[36;1m}'^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.8413035Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+conclusion	Conclusion	2026-10-12T08:27:14.8414088Z env:
+conclusion	Conclusion	2026-10-12T08:27:14.8414533Z   MDBOOK_VERSION: 0.5.1
+conclusion	Conclusion	2026-10-12T08:27:14.8415020Z ##[endgroup]
+conclusion	Conclusion	2026-10-12T08:27:14.8737484Z ^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8738271Z   ^[[0m^[[1;34m"build_std"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8739116Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8740233Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8740971Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8741554Z   ^[[0m^[[1;34m"clippy"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8742672Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8743508Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8744205Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8744778Z   ^[[0m^[[1;34m"msrv"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8745537Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8746359Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8747042Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8747594Z   ^[[0m^[[1;34m"docs"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8748364Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8749172Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8750088Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8750683Z   ^[[0m^[[1;34m"lint-docs"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8751466Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8752282Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8752954Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8753529Z   ^[[0m^[[1;34m"lockfile"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8754301Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8755119Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8755790Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8756359Z   ^[[0m^[[1;34m"resolver"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8757125Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8758124Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8758800Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8759407Z   ^[[0m^[[1;34m"report-timings"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8760435Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8761256Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8761951Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8762525Z   ^[[0m^[[1;34m"rustfmt"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8763296Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8764106Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8764780Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8765346Z   ^[[0m^[[1;34m"schema"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8766095Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8766895Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8767572Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8768165Z   ^[[0m^[[1;34m"spellcheck"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8768945Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"success"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8769750Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8770747Z   ^[[1;39m}^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8771319Z   ^[[0m^[[1;34m"test"^[[0m^[[1;39m: ^[[0m^[[1;39m{
+conclusion	Conclusion	2026-10-12T08:27:14.8772064Z     ^[[0m^[[1;34m"result"^[[0m^[[1;39m: ^[[0m^[[0;32m"failure"^[[0m^[[1;39m,
+conclusion	Conclusion	2026-10-12T08:27:14.8772868Z     ^[[0m^[[1;34m"outputs"^[[0m^[[1;39m: ^[[0m^[[1;39m{}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8773549Z   ^[[1;39m}^[[0m^[[1;39m
+conclusion	Conclusion	2026-10-12T08:27:14.8774050Z ^[[1;39m}^[[0m
+conclusion	Conclusion	2026-10-12T08:27:14.8774492Z false
+conclusion	Conclusion	2026-10-12T08:27:14.8791814Z ##[error]Process completed with exit code 1.

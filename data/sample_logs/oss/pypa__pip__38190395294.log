@@ -1,0 +1,400 @@
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:36.6445442Z tests/functional/test_uninstall.py::test_uninstall_with_symlink 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:36.6635185Z [gw3]^[[36m [ 93%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall.py::test_uninstall_overlapping_package 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:36.8151223Z tests/functional/test_uninstall.py::test_uninstall_entry_point_colon_in_name[test_ = distutils_install:test] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:36.8205466Z [gw1]^[[36m [ 93%] ^[[0m^[[33mXFAIL^[[0m tests/functional/test_uninstall.py::test_uninstall_editable_from_svn 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.2485031Z tests/functional/test_uninstall.py::test_uninstall_editable_with_source_outside_venv 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.2660172Z [gw0]^[[36m [ 93%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall.py::test_uninstall_with_symlink 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.3235381Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_allows_local_files 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.3285205Z [gw2]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall_user.py::Tests_UninstallUserSite::test_uninstall_from_usersite 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.6465278Z tests/functional/test_uninstall_user.py::Tests_UninstallUserSite::test_uninstall_from_usersite_with_dist_in_global_site 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.6485417Z [gw1]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall.py::test_uninstall_editable_with_source_outside_venv 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.7119849Z tests/functional/test_uninstall.py::test_uninstall_from_reqs_file 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:37.7295271Z [gw0]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_allows_local_files 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1568068Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_allows_find_links 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1616566Z [gw3]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall.py::test_uninstall_entry_point_colon_in_name[test_ = distutils_install:test] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1647194Z tests/functional/test_uninstall.py::test_uninstall_entry_point_colon_in_name[,test_ = distutils_install:test_test] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1666261Z [gw1]^[[36m [ 94%] ^[[0m^[[33mXFAIL^[[0m tests/functional/test_uninstall.py::test_uninstall_from_reqs_file 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1694632Z tests/functional/test_uninstall.py::test_uninstallpathset_no_paths 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1737866Z [gw1]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall.py::test_uninstallpathset_no_paths 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1777462Z tests/functional/test_uninstall.py::test_uninstall_non_local_distutils 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.1804951Z [gw1]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall.py::test_uninstall_non_local_distutils 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.2533902Z tests/functional/test_vcs_git.py::test_get_current_branch 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.2625357Z [gw1]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_get_current_branch 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.3345018Z tests/functional/test_vcs_git.py::test_get_current_branch__branch_and_tag_same_name 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.3415394Z [gw1]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_get_current_branch__branch_and_tag_same_name 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.5278194Z tests/functional/test_vcs_git.py::test_get_revision_sha 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.5338222Z [gw2]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall_user.py::Tests_UninstallUserSite::test_uninstall_from_usersite_with_dist_in_global_site 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.5467352Z tests/functional/test_uninstall_user.py::Tests_UninstallUserSite::test_uninstall_editable_from_usersite 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.5530084Z [gw1]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_get_revision_sha 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.5786835Z tests/functional/test_vcs_git.py::test_is_commit_id_equal 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.5950577Z [gw0]^[[36m [ 94%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_allows_find_links 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.6085479Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_list_outdated 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.6155289Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_is_commit_id_equal 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.6570731Z tests/functional/test_vcs_git.py::test_is_immutable_rev_checkout 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.6635150Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_is_immutable_rev_checkout 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.6905008Z tests/functional/test_vcs_git.py::test_get_repository_root 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.6965125Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_get_repository_root 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8365120Z tests/functional/test_vcs_git.py::test_resolve_commit_not_on_branch 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8478835Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_resolve_commit_not_on_branch 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8535034Z tests/functional/test_vcs_git.py::test_git_parse_fail_warning[git version -2.25.1-Can't parse git version: git version -2.25.1] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8565147Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_git_parse_fail_warning[git version -2.25.1-Can't parse git version: git version -2.25.1] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8594660Z tests/functional/test_vcs_git.py::test_git_parse_fail_warning[git version 2.a.1-Can't parse git version: git version 2.a.1] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8625658Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_git_parse_fail_warning[git version 2.a.1-Can't parse git version: git version 2.a.1] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8654688Z tests/functional/test_vcs_git.py::test_git_parse_fail_warning[git ver. 2.25.1-Can't parse git version: git ver. 2.25.1] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:38.8665121Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_git_parse_fail_warning[git ver. 2.25.1-Can't parse git version: git ver. 2.25.1] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.1125222Z tests/functional/test_vcs_git.py::test_partial_clone 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.1272084Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_partial_clone 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.1889726Z tests/functional/test_vcs_git.py::test_partial_clone_without_server_support 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.2085827Z [gw2]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall_user.py::Tests_UninstallUserSite::test_uninstall_editable_from_usersite 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.3106507Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_invalid_date 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.3276217Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_partial_clone_without_server_support 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.4995063Z tests/functional/test_vcs_git.py::test_clone_without_partial_clone_support 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.5098397Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_clone_without_partial_clone_support 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.5544393Z tests/functional/test_vcs_git.py::test_git_has_commit 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.5604675Z [gw1]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_git_has_commit 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.5815432Z tests/functional/test_vcs_mercurial.py::test_get_repository_root 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.6016072Z [gw2]^[[36m [ 95%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_invalid_date 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7525705Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_file_index_no_upload_time 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7595695Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uninstall.py::test_uninstall_entry_point_colon_in_name[,test_ = distutils_install:test_test] 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7624691Z tests/functional/test_vcs_git.py::test_get_backend_for_scheme 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7651694Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_get_backend_for_scheme 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7738710Z tests/functional/test_vcs_git.py::test_git_dir_ignored 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7758055Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_git_dir_ignored 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7889478Z tests/functional/test_vcs_git.py::test_git_work_tree_ignored 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.7920725Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_git_work_tree_ignored 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.8615900Z tests/functional/test_vcs_git.py::test_get_remote_url 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.8702809Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_get_remote_url 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.8938085Z tests/functional/test_vcs_git.py::test_get_remote_url__no_remote 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.9025413Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_git.py::test_get_remote_url__no_remote 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.9502003Z tests/functional/test_vcs_subversion.py::test_get_remote_url__no_remote_with_setup 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:39.9605690Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_subversion.py::test_get_remote_url__no_remote_with_setup 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.0207619Z tests/functional/test_warning.py::test_deprecation_warnings_are_correct 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.0265533Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_warning.py::test_deprecation_warnings_are_correct 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.0884867Z tests/functional/test_warning.py::test_deprecation_warnings_turn_into_errors_in_tests 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.0915151Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_warning.py::test_deprecation_warnings_turn_into_errors_in_tests 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.1512662Z tests/functional/test_warning.py::test_deprecation_warnings_can_be_silenced 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.1566258Z [gw3]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_warning.py::test_deprecation_warnings_can_be_silenced 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.2405058Z tests/functional/test_warning.py::test_version_warning_is_not_shown_if_python_version_is_not_2 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.2475828Z [gw1]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_mercurial.py::test_get_repository_root 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.2795272Z tests/functional/test_vcs_subversion.py::test_get_remote_url__no_remote 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.2865133Z [gw1]^[[36m [ 96%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_vcs_subversion.py::test_get_remote_url__no_remote 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.3774948Z tests/functional/test_wheel.py::test_wheel_exit_status_code_when_blank_requirements_file 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.3915554Z [gw2]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_file_index_no_upload_time 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.3946580Z [gw3]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_warning.py::test_version_warning_is_not_shown_if_python_version_is_not_2 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.3977595Z tests/functional/test_warning.py::test_flag_does_nothing_if_python_version_is_not_2 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.5753962Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_http_index_no_upload_time 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.5815286Z [gw3]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_warning.py::test_flag_does_nothing_if_python_version_is_not_2 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.6174788Z tests/functional/test_wheel.py::test_wheel_exit_status_code_when_no_requirements 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.6213915Z [gw1]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_wheel_exit_status_code_when_blank_requirements_file 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.9105505Z tests/functional/test_wheel.py::test_pip_wheel_success 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:40.9160248Z [gw3]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_wheel_exit_status_code_when_no_requirements 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.2284716Z tests/functional/test_wheel.py::test_pip_wheel_success_with_dependency_group 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.2354713Z [gw1]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_success 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.2456105Z [gw2]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_http_index_no_upload_time 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.2487379Z tests/functional/test_wheel.py::test_pip_wheel_build_cache 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.4309077Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_with_real_pypi 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.4357881Z [gw0]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_list_outdated 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.5085102Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_list_outdated_no_upload_time 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:41.5205300Z [gw3]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_success_with_dependency_group 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.1891019Z tests/functional/test_wheel.py::test_pip_wheel_only_deps 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.1920879Z [gw2]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_with_real_pypi 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.3544956Z tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_date_formats 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.3695119Z [gw1]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_build_cache 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.4437175Z tests/functional/test_wheel.py::test_basic_pip_wheel_downloads_wheels 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.4596051Z [gw3]^[[36m [ 97%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_only_deps 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.6784964Z tests/functional/test_wheel.py::test_pip_wheel_build_relative_cachedir 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.6900856Z [gw1]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_basic_pip_wheel_downloads_wheels 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.9458839Z tests/functional/test_wheel.py::test_pip_wheel_readonly_cache 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.9537474Z [gw0]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_list_outdated_no_upload_time 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.9554661Z tests/functional/test_vcs_bazaar.py::test_ensure_bzr_available 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.9564908Z [gw0]^[[36m [ 98%] ^[[0m^[[33mSKIPPED^[[0m tests/functional/test_vcs_bazaar.py::test_ensure_bzr_available 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.9565650Z tests/functional/test_vcs_bazaar.py::test_get_remote_url__no_remote 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:42.9605128Z [gw0]^[[36m [ 98%] ^[[0m^[[33mSKIPPED^[[0m tests/functional/test_vcs_bazaar.py::test_get_remote_url__no_remote 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.1672308Z tests/functional/test_wheel.py::test_pip_wheel_builds_editable 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.1885585Z [gw3]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_build_relative_cachedir 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.4784992Z tests/functional/test_wheel.py::test_pip_wheel_copy_failure_is_reported_as_copy_failure 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.4955674Z [gw1]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_readonly_cache 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.8524967Z tests/functional/test_wheel.py::test_pip_wheel_builds_editable_deps 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.8552718Z [gw2]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_uploaded_prior_to.py::TestUploadedPriorTo::test_uploaded_prior_to_date_formats 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.8597370Z tests/functional/test_wheel.py::test_pip_wheel_builds_when_no_binary_set 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.8805364Z [gw0]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_builds_editable 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.9584805Z tests/functional/test_wheel.py::test_pip_wheel_git_editable_keeps_clone 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:43.9766742Z [gw3]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_copy_failure_is_reported_as_copy_failure 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:44.5272231Z tests/functional/test_wheel.py::test_pip_wheel_builds_editable_does_not_create_zip 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:44.5459523Z [gw2]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_builds_when_no_binary_set 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:44.7365057Z tests/functional/test_wheel.py::test_pip_wheel_source_deps 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:44.7545403Z [gw1]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_builds_editable_deps 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:44.8354743Z tests/functional/test_wheel.py::test_pip_wheel_fail 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:44.8555552Z [gw3]^[[36m [ 98%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_builds_editable_does_not_create_zip 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.2219865Z tests/functional/test_wheel.py::test_pip_wheel_with_pep518_build_reqs 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.2255229Z [gw0]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_git_editable_keeps_clone 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.3474996Z tests/functional/test_wheel.py::test_wheel_package_with_latin1_setup 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.3665368Z [gw2]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_source_deps 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.5120496Z tests/functional/test_wheel.py::test_pip_wheel_with_pep518_build_reqs_no_isolation 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.5317120Z [gw1]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_fail 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.9587367Z tests/functional/test_wheel.py::test_pip_wheel_with_user_set_in_config 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:45.9798671Z [gw0]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_wheel_package_with_latin1_setup 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:46.6075980Z tests/functional/test_wheel.py::test_pep517_wheels_are_not_confused_with_other_files 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:46.6332638Z [gw2]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_with_pep518_build_reqs_no_isolation 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:46.9215183Z tests/functional/test_wheel.py::test_legacy_wheels_are_not_confused_with_other_files 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:46.9425279Z [gw3]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_with_pep518_build_reqs 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:47.4484861Z tests/functional/test_wheel.py::test_pip_wheel_ext_module_with_tmpdir_inside 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:47.4695518Z [gw2]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_legacy_wheels_are_not_confused_with_other_files 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:47.5713646Z tests/functional/test_wheel.py::test_wheel_local_directory_ignores_cached_wheel 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:47.5897684Z [gw1]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_with_user_set_in_config 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:48.0634451Z tests/functional/test_wheel.py::test_wheel_pylock 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:48.0862578Z [gw0]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pep517_wheels_are_not_confused_with_other_files 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:48.2924737Z tests/functional/test_wheel.py::test_wheel_pylock_directories 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:48.7895538Z [gw2]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_wheel_local_directory_ignores_cached_wheel 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:48.9260270Z [gw1]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_wheel_pylock 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:49.1911294Z [gw3]^[[36m [ 99%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_pip_wheel_ext_module_with_tmpdir_inside 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1058497Z [gw0]^[[36m [100%] ^[[0m^[[32mPASSED^[[0m tests/functional/test_wheel.py::test_wheel_pylock_directories 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1058868Z 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1058996Z =================================== FAILURES ===================================
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1059460Z ^[[31m^[[1m______________________________ test_install_quiet ______________________________^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1059905Z [gw2] linux -- Python 3.10.4 /home/runner/work/pip/pip/.nox/test-3-10/bin/python
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1060158Z 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1060320Z script = <tests.lib.PipTestEnvironment object at 0x7fae133a6fb0>
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1060662Z data = <tests.lib.TestData object at 0x7fae133a65f0>
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1060850Z 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1061326Z     ^[[0m^[[94mdef^[[39;49;00m^[[90m ^[[39;49;00m^[[92mtest_install_quiet^[[39;49;00m(script: PipTestEnvironment, data: TestData) -> ^[[94mNone^[[39;49;00m:^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1061886Z     ^[[90m    ^[[39;49;00m^[[33m"""^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1062209Z     ^[[33m    Test that install -q is actually quiet.^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1062520Z     ^[[33m    """^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1062967Z         ^[[90m# Apparently if pip install -q is not actually quiet, then it breaks^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1064029Z         ^[[90m# everything. See:^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1064444Z         ^[[90m#   https://github.com/pypa/pip/issues/3418^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1064938Z         ^[[90m#   https://github.com/docker-library/python/issues/83^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1065534Z         to_install = data.packages.joinpath(^[[33m"^[[39;49;00m^[[33mFSPkg^[[39;49;00m^[[33m"^[[39;49;00m)^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1066522Z         result = script.pip(^[[33m"^[[39;49;00m^[[33minstall^[[39;49;00m^[[33m"^[[39;49;00m, ^[[33m"^[[39;49;00m^[[33m--no-build-isolation^[[39;49;00m^[[33m"^[[39;49;00m, ^[[33m"^[[39;49;00m^[[33m-qqq^[[39;49;00m^[[33m"^[[39;49;00m, to_install)^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1067337Z         ^[[94massert^[[39;49;00m result.stdout == ^[[33m"^[[39;49;00m^[[33m"^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1067834Z >       ^[[94massert^[[39;49;00m result.stderr == ^[[33m"^[[39;49;00m^[[33m"^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1068310Z ^[[1m^[[31mE       AssertionError: assert '/tmp/pytest-...ta.version)\n' == ''^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1068642Z ^[[1m^[[31mE         ^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1069727Z ^[[1m^[[31mE         ^[[0m^[[92m+ /tmp/pytest-of-runner/pytest-1/popen-gw2/setuptools0/install/lib/setuptools/dist.py:334: BuildBackendWarning: Normalizing '0.1dev' to '0.1.dev0'^[[39;49;00m^[[90m^[[39;49;00m^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1070673Z ^[[1m^[[31mE         ^[[92m+   self.metadata.version = self._normalize_version(self.metadata.version)^[[39;49;00m^[[90m^[[39;49;00m^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1071636Z ^[[1m^[[31mE         ^[[92m+ /tmp/pytest-of-runner/pytest-1/popen-gw2/setuptools0/install/lib/setuptools/dist.py:334: BuildBackendWarning: Normalizing '0.1dev' to '0.1.dev0'^[[39;49;00m^[[90m^[[39;49;00m^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1072555Z ^[[1m^[[31mE         ^[[92m+   self.metadata.version = self._normalize_version(self.metadata.version)^[[39;49;00m^[[90m^[[39;49;00m^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1072911Z 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1073031Z data       = <tests.lib.TestData object at 0x7fae133a65f0>
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1073347Z result     = <tests.lib.TestPipResult object at 0x7fae133a7760>
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1073801Z script     = <tests.lib.PipTestEnvironment object at 0x7fae133a6fb0>
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1074283Z to_install = PosixPath('/tmp/pytest-of-runner/pytest-1/popen-gw2/test_install_quiet0/data/packages/FSPkg')
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1074619Z 
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1074807Z ^[[1m^[[31mtests/functional/test_install.py^[[0m:776: AssertionError
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1075133Z ============================= slowest 15 durations =============================
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1075558Z 4.93s call     tests/functional/test_install_upgrade.py::test_uninstall_before_upgrade_from_url
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1076016Z 4.84s call     tests/functional/test_install_extras.py::test_no_extras_uninstall
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1076451Z 4.77s call     tests/functional/test_install.py::test_install_pip_prints_req_chain_pypi
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1076920Z 4.66s call     tests/functional/test_install_upgrade.py::test_upgrade_to_same_version_from_url
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1077414Z 4.55s call     tests/functional/test_install_extras.py::test_simple_extras_install_from_pypi
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1077889Z 4.51s call     tests/functional/test_uninstall.py::test_basic_uninstall_namespace_package
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1078391Z 4.44s call     tests/functional/test_install_upgrade.py::test_upgrade_vcs_req_with_no_dists_found
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1078828Z 4.40s call     tests/functional/test_list.py::test_outdated_columns_flag
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1079325Z 4.39s call     tests/functional/test_install_reqs.py::TestEditableDirectURL::test_install_remote_git_repo_with_extra
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1079809Z 4.30s call     tests/functional/test_list.py::test_outdated_flag
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1080168Z 4.23s call     tests/functional/test_list.py::test_uptodate_columns_flag
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1080519Z 3.98s call     tests/functional/test_list.py::test_uptodate_flag
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1081205Z 3.91s call     tests/functional/test_download.py::test_basic_download_should_download_dependencies
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1081670Z 3.79s call     tests/functional/test_install.py::test_pep518_with_user_pip
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1082174Z 3.74s call     tests/functional/test_install_reqs.py::TestEditableDirectURL::test_install_local_project_with_extra
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1082771Z ^[[36m^[[1m=========================== short test summary info ============================^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1083268Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_debug.py:102: locale.getencoding requires Python 3.11+
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1084043Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_freeze.py:491: Bazaar is not available
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1084486Z ^[[33mSKIPPED^[[0m [24] tests/functional/test_install_config.py:417: Skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1084934Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_install.py:669: Bazaar is not available
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1085538Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_install.py:2687: 3.11 required to find distributions via importlib metadata
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1086101Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_install.py:980: Fails on new resolver
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1086577Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_install_upgrade.py:422: Windows-only test
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1087057Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:156: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1087725Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:185: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1088187Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:64: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1089070Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:75: Warehouse search behavior is different and no longer returns multiple results. See https://github.com/pypa/warehouse/issues/3717 for more information.
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1089887Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:95: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1090353Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:104: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1090811Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:118: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1091273Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:132: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1091737Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_search.py:144: pip search test skipped
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1092281Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_vcs_bazaar.py:18: Bazaar is only available under CI on macOS
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1092819Z ^[[33mSKIPPED^[[0m [1] tests/functional/test_vcs_bazaar.py:35: Bazaar is not available
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1094181Z ^[[33mXFAIL^[[0m tests/functional/test_freeze.py::^[[1mtest_freeze_exclude_editable^[[0m - xfail means editable is not in output
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1094991Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-interactive-None-disabled]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1095860Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-interactive-disabled-disabled]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1096712Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-interactive-auto-disabled]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1097576Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-noninteractive-None-disabled]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1098431Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-noninteractive-None-import]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1099420Z ^[[33mXFAIL^[[0m tests/functional/test_install.py::^[[1mtest_installing_scripts_outside_path_prints_warning^[[0m - No longer possible to trigger the warning with either --prefix or --target
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1100416Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-noninteractive-None-subprocess]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1101287Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-noninteractive-disabled-disabled]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1102433Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_build_dependency_install_uses_same_keyring_as_root[venv-isolation]^[[0m - needs inprocess-build-deps to work
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1103383Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-noninteractive-auto-disabled]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1104380Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-noninteractive-auto-import]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1105227Z ^[[33mXFAIL^[[0m tests/functional/test_install_config.py::^[[1mtest_prompt_for_keyring_if_needed[auth_needed-noninteractive-auto-subprocess]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1106121Z ^[[33mXFAIL^[[0m tests/functional/test_install_cleanup.py::^[[1mtest_no_clean_option_blocks_cleaning_after_install^[[0m - The --build option was removed
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1106908Z ^[[33mXFAIL^[[0m tests/functional/test_install_reqs.py::^[[1mtest_install_distribution_union_conflicting_extras^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1107660Z ^[[33mXFAIL^[[0m tests/functional/test_install_user.py::^[[1mTests_UserSite::test_install_subversion_usersite_editable_with_distribute^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1494213Z ^[[33mXFAIL^[[0m tests/functional/test_install_reqs.py::^[[1mtest_multiple_requirements_files^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1495483Z ^[[33mXFAIL^[[0m tests/functional/test_invalid_versions_and_specifiers.py::^[[1mtest_upgrade_invalid_version^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1496254Z ^[[33mXFAIL^[[0m tests/functional/test_invalid_versions_and_specifiers.py::^[[1mtest_upgrade_require_invalid_version^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1497188Z ^[[33mXFAIL^[[0m tests/functional/test_install_vcs_git.py::^[[1mtest_check_submodule_addition^[[0m - Git submodule against file: is not working; waiting for a good solution
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1498143Z ^[[33mXFAIL^[[0m tests/functional/test_new_resolver.py::^[[1mtest_new_resolver_check_wheel_version_normalized[file_underscore-meta_dash]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1499012Z ^[[33mXFAIL^[[0m tests/functional/test_new_resolver.py::^[[1mtest_new_resolver_check_wheel_version_normalized[file_dot-meta_dash]^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1499747Z ^[[33mXFAIL^[[0m tests/functional/test_uninstall.py::^[[1mtest_uninstall_editable_from_svn^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1500346Z ^[[33mXFAIL^[[0m tests/functional/test_uninstall.py::^[[1mtest_uninstall_from_reqs_file^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1501098Z ^[[31mFAILED^[[0m tests/functional/test_install.py::^[[1mtest_install_quiet^[[0m - AssertionError: assert '/tmp/pytest-...ta.version)\n' == ''
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1501594Z   
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1502240Z   ^[[0m^[[92m+ /tmp/pytest-of-runner/pytest-1/popen-gw2/setuptools0/install/lib/setuptools/dist.py:334: BuildBackendWarning: Normalizing '0.1dev' to '0.1.dev0'^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1503062Z   ^[[92m+   self.metadata.version = self._normalize_version(self.metadata.version)^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1504047Z   ^[[92m+ /tmp/pytest-of-runner/pytest-1/popen-gw2/setuptools0/install/lib/setuptools/dist.py:334: BuildBackendWarning: Normalizing '0.1dev' to '0.1.dev0'^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1504822Z   ^[[92m+   self.metadata.version = self._normalize_version(self.metadata.version)^[[39;49;00m^[[90m^[[39;49;00m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.1516932Z ^[[31m====== ^[[31m^[[1m1 failed^[[0m, ^[[32m1158 passed^[[0m, ^[[33m41 skipped^[[0m, ^[[33m24 xfailed^[[0m^[[31m in 265.96s (0:04:25)^[[0m^[[31m ======^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.2425698Z ^[[36mnox > ^[[31mCommand pytest tests/functional --verbose --numprocesses auto --showlocals --durations=15 failed with exit code 1^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.2426339Z ^[[36mnox > ^[[31mSession test-3.10 failed.^[[0m
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.2579347Z ##[error]Process completed with exit code 1.
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.2667215Z Post job cleanup.
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3303238Z [command]/usr/bin/git version
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3334636Z git version 2.55.0
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3357017Z Temporarily overriding HOME='/home/runner/work/_temp/e0bd69b2-ce99-4a77-9b94-a5972a19e871' before making global git config changes
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3358305Z Adding repository directory to the temporary git global config as a safe directory
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3361061Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/pip/pip
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3389952Z Removing SSH command configuration
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3394988Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3424338Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3619722Z Removing HTTP extra header
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3624719Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3653552Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3839838Z Removing includeIf entries pointing to credentials config files
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3845647Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.3875615Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+tests / 3.10.4 / ubuntu-latest	UNKNOWN STEP	2026-10-12T01:08:50.4203631Z Cleaning up orphan processes
+check	UNKNOWN STEP	﻿2026-10-12T01:12:23.8243819Z Current runner version: '2.337.0'
+check	UNKNOWN STEP	2026-10-12T01:12:23.8270342Z ##[group]Runner Image Provisioner
+check	UNKNOWN STEP	2026-10-12T01:12:23.8271241Z Hosted Compute Agent
+check	UNKNOWN STEP	2026-10-12T01:12:23.8271959Z Version: 20261002.596
+check	UNKNOWN STEP	2026-10-12T01:12:23.8272604Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+check	UNKNOWN STEP	2026-10-12T01:12:23.8273326Z Build Date: 2026-10-02T22:28:27Z
+check	UNKNOWN STEP	2026-10-12T01:12:23.8274096Z Worker ID: {502768ac-370c-4b50-9340-56b40309378b}
+check	UNKNOWN STEP	2026-10-12T01:12:23.8274843Z Region: northcentralus
+check	UNKNOWN STEP	2026-10-12T01:12:23.8275583Z Cloud: Azure
+check	UNKNOWN STEP	2026-10-12T01:12:23.8276134Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-12T01:12:23.8277642Z ##[group]Operating System
+check	UNKNOWN STEP	2026-10-12T01:12:23.8278411Z Ubuntu
+check	UNKNOWN STEP	2026-10-12T01:12:23.8278977Z 24.04.5
+check	UNKNOWN STEP	2026-10-12T01:12:23.8279804Z LTS
+check	UNKNOWN STEP	2026-10-12T01:12:23.8280356Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-12T01:12:23.8280911Z ##[group]Runner Image
+check	UNKNOWN STEP	2026-10-12T01:12:23.8281564Z Image: ubuntu-24.04
+check	UNKNOWN STEP	2026-10-12T01:12:23.8282127Z Version: 20261004.327.1
+check	UNKNOWN STEP	2026-10-12T01:12:23.8283484Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+check	UNKNOWN STEP	2026-10-12T01:12:23.8285149Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+check	UNKNOWN STEP	2026-10-12T01:12:23.8286179Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-12T01:12:23.8287407Z ##[group]GITHUB_TOKEN Permissions
+check	UNKNOWN STEP	2026-10-12T01:12:23.8289767Z Contents: read
+check	UNKNOWN STEP	2026-10-12T01:12:23.8290471Z Metadata: read
+check	UNKNOWN STEP	2026-10-12T01:12:23.8291157Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-12T01:12:23.8293288Z Secret source: None
+check	UNKNOWN STEP	2026-10-12T01:12:23.8294226Z Cache mode: write
+check	UNKNOWN STEP	2026-10-12T01:12:23.8295078Z Prepare workflow directory
+check	UNKNOWN STEP	2026-10-12T01:12:23.8711868Z Prepare all required actions
+check	UNKNOWN STEP	2026-10-12T01:12:23.8761289Z Getting action download info
+check	UNKNOWN STEP	2026-10-12T01:12:24.1405636Z Download action repository 're-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35' (SHA:b5b5b37504aa4183270bd3d855c52a67f212be35)
+check	UNKNOWN STEP	2026-10-12T01:12:24.4861440Z Complete job name: check
+check	UNKNOWN STEP	2026-10-12T01:12:24.5754885Z ##[group]Run re-actors/alls-green@b5b5b37504aa4183270bd3d855c52a67f212be35
+check	UNKNOWN STEP	2026-10-12T01:12:24.5756781Z with:
+check	UNKNOWN STEP	2026-10-12T01:12:24.5757551Z   allowed-skips:  , 
+check	UNKNOWN STEP	2026-10-12T01:12:24.5760865Z   jobs: {
+check	UNKNOWN STEP	  "determine-changes": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {
+check	UNKNOWN STEP	      "vendoring": "true",
+check	UNKNOWN STEP	      "tests": "true"
+check	UNKNOWN STEP	    }
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "docs": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "packaging": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-unix": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-windows": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-zipapp": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "vendoring": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  }
+check	UNKNOWN STEP	}
+check	UNKNOWN STEP	2026-10-12T01:12:24.5763406Z   allowed-failures: []
+check	UNKNOWN STEP	2026-10-12T01:12:24.5764269Z env:
+check	UNKNOWN STEP	2026-10-12T01:12:24.5764963Z   FORCE_COLOR: 1
+check	UNKNOWN STEP	2026-10-12T01:12:24.5765466Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-12T01:12:24.5838397Z ##[start-action display=Decide whether the input jobs succeeded or failed;id=__re-actors_alls-green.outcome]
+check	UNKNOWN STEP	2026-10-12T01:12:24.5893940Z ##[group]Run python -m normalize_needed_jobs_status \
+check	UNKNOWN STEP	2026-10-12T01:12:24.5894784Z ^[[36;1mpython -m normalize_needed_jobs_status \^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.5895439Z ^[[36;1m  "$INPUT_ALLOWED_FAILURES" \^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.5896049Z ^[[36;1m  "$INPUT_ALLOWED_SKIPS" \^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.5896650Z ^[[36;1m  "$INPUT_JOBS"^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6132413Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+check	UNKNOWN STEP	2026-10-12T01:12:24.6133219Z env:
+check	UNKNOWN STEP	2026-10-12T01:12:24.6133676Z   FORCE_COLOR: 1
+check	UNKNOWN STEP	2026-10-12T01:12:24.6134187Z   INPUT_ALLOWED_FAILURES: []
+check	UNKNOWN STEP	2026-10-12T01:12:24.6134757Z   INPUT_ALLOWED_SKIPS:  , 
+check	UNKNOWN STEP	2026-10-12T01:12:24.6137645Z   INPUT_JOBS: {
+check	UNKNOWN STEP	  "determine-changes": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {
+check	UNKNOWN STEP	      "vendoring": "true",
+check	UNKNOWN STEP	      "tests": "true"
+check	UNKNOWN STEP	    }
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "docs": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "packaging": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-unix": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-windows": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "tests-zipapp": {
+check	UNKNOWN STEP	    "result": "failure",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  },
+check	UNKNOWN STEP	  "vendoring": {
+check	UNKNOWN STEP	    "result": "success",
+check	UNKNOWN STEP	    "outputs": {}
+check	UNKNOWN STEP	  }
+check	UNKNOWN STEP	}
+check	UNKNOWN STEP	2026-10-12T01:12:24.6141301Z   PYTHONPATH: /home/runner/work/_actions/re-actors/alls-green/b5b5b37504aa4183270bd3d855c52a67f212be35/src
+check	UNKNOWN STEP	2026-10-12T01:12:24.6142296Z ##[endgroup]
+check	UNKNOWN STEP	2026-10-12T01:12:24.6702917Z # ❌ Some of the required to succeed jobs failed 😢😢😢
+check	UNKNOWN STEP	2026-10-12T01:12:24.6703639Z 
+check	UNKNOWN STEP	2026-10-12T01:12:24.6703902Z 🔮 Job statuses:
+check	UNKNOWN STEP	2026-10-12T01:12:24.6705014Z ^[[32m✓ determine-changes → 🟢 success [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6705961Z ^[[32m✓ docs → 🟢 success [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6706807Z ^[[32m✓ packaging → 🟢 success [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6707654Z ^[[31m❌ tests-unix → 🔴 failure [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6708447Z ^[[31m❌ tests-windows → 🔴 failure [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6709514Z ^[[31m❌ tests-zipapp → 🔴 failure [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6710393Z ^[[32m✓ vendoring → 🟢 success [required to succeed]^[[0m
+check	UNKNOWN STEP	2026-10-12T01:12:24.6765345Z ##[error]Process completed with exit code 1.
+check	UNKNOWN STEP	2026-10-12T01:12:24.6860557Z ##[end-action id=__re-actors_alls-green.outcome;outcome=failure;conclusion=failure;duration_ms=102]
+check	UNKNOWN STEP	2026-10-12T01:12:24.6998230Z Cleaning up orphan processes

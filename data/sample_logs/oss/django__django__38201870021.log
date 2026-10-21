@@ -1,0 +1,242 @@
+black	UNKNOWN STEP	﻿2026-10-12T03:58:22.9412630Z Current runner version: '2.337.0'
+black	UNKNOWN STEP	2026-10-12T03:58:22.9437560Z ##[group]Runner Image Provisioner
+black	UNKNOWN STEP	2026-10-12T03:58:22.9438546Z Hosted Compute Agent
+black	UNKNOWN STEP	2026-10-12T03:58:22.9439158Z Version: 20261002.596
+black	UNKNOWN STEP	2026-10-12T03:58:22.9439856Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+black	UNKNOWN STEP	2026-10-12T03:58:22.9440677Z Build Date: 2026-10-02T22:28:27Z
+black	UNKNOWN STEP	2026-10-12T03:58:22.9441430Z Worker ID: {a1dade76-d075-45f2-8283-1d27ad72818b}
+black	UNKNOWN STEP	2026-10-12T03:58:22.9442278Z Region: westus
+black	UNKNOWN STEP	2026-10-12T03:58:22.9442879Z Cloud: Azure
+black	UNKNOWN STEP	2026-10-12T03:58:22.9443570Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:22.9445616Z ##[group]Operating System
+black	UNKNOWN STEP	2026-10-12T03:58:22.9446301Z Ubuntu
+black	UNKNOWN STEP	2026-10-12T03:58:22.9446933Z 24.04.5
+black	UNKNOWN STEP	2026-10-12T03:58:22.9447488Z LTS
+black	UNKNOWN STEP	2026-10-12T03:58:22.9448049Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:22.9448761Z ##[group]Runner Image
+black	UNKNOWN STEP	2026-10-12T03:58:22.9449392Z Image: ubuntu-24.04
+black	UNKNOWN STEP	2026-10-12T03:58:22.9450025Z Version: 20261004.327.1
+black	UNKNOWN STEP	2026-10-12T03:58:22.9451401Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+black	UNKNOWN STEP	2026-10-12T03:58:22.9453136Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+black	UNKNOWN STEP	2026-10-12T03:58:22.9454182Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:22.9455745Z ##[group]GITHUB_TOKEN Permissions
+black	UNKNOWN STEP	2026-10-12T03:58:22.9457667Z Contents: read
+black	UNKNOWN STEP	2026-10-12T03:58:22.9458547Z Metadata: read
+black	UNKNOWN STEP	2026-10-12T03:58:22.9459127Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:22.9461237Z Secret source: None
+black	UNKNOWN STEP	2026-10-12T03:58:22.9462246Z Cache mode: write
+black	UNKNOWN STEP	2026-10-12T03:58:22.9463199Z Prepare workflow directory
+black	UNKNOWN STEP	2026-10-12T03:58:22.9795886Z Prepare all required actions
+black	UNKNOWN STEP	2026-10-12T03:58:22.9845723Z Getting action download info
+black	UNKNOWN STEP	2026-10-12T03:58:23.3497958Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+black	UNKNOWN STEP	2026-10-12T03:58:23.4547035Z Download action repository 'psf/black@stable' (SHA:258e7dbf348bc23cb70b8cdf693481c04634ebcc)
+black	UNKNOWN STEP	2026-10-12T03:58:24.0810440Z Complete job name: black
+black	UNKNOWN STEP	2026-10-12T03:58:24.1644679Z ##[group]Run actions/checkout@v7
+black	UNKNOWN STEP	2026-10-12T03:58:24.1645727Z with:
+black	UNKNOWN STEP	2026-10-12T03:58:24.1646225Z   persist-credentials: false
+black	UNKNOWN STEP	2026-10-12T03:58:24.1646803Z   repository: django/django
+black	UNKNOWN STEP	2026-10-12T03:58:24.1650979Z   token: ***
+black	UNKNOWN STEP	2026-10-12T03:58:24.1651461Z   ssh-strict: true
+black	UNKNOWN STEP	2026-10-12T03:58:24.1651952Z   ssh-user: git
+black	UNKNOWN STEP	2026-10-12T03:58:24.1652415Z   clean: true
+black	UNKNOWN STEP	2026-10-12T03:58:24.1652907Z   sparse-checkout-cone-mode: true
+black	UNKNOWN STEP	2026-10-12T03:58:24.1653491Z   fetch-depth: 1
+black	UNKNOWN STEP	2026-10-12T03:58:24.1653961Z   fetch-tags: false
+black	UNKNOWN STEP	2026-10-12T03:58:24.1654652Z   show-progress: true
+black	UNKNOWN STEP	2026-10-12T03:58:24.1655157Z   lfs: false
+black	UNKNOWN STEP	2026-10-12T03:58:24.1655627Z   submodules: false
+black	UNKNOWN STEP	2026-10-12T03:58:24.1656125Z   set-safe-directory: true
+black	UNKNOWN STEP	2026-10-12T03:58:24.1656673Z   allow-unsafe-pr-checkout: false
+black	UNKNOWN STEP	2026-10-12T03:58:24.1657511Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:24.2659230Z Syncing repository: django/django
+black	UNKNOWN STEP	2026-10-12T03:58:24.2661187Z ##[group]Getting Git version info
+black	UNKNOWN STEP	2026-10-12T03:58:24.2662061Z Working directory is '/home/runner/work/django/django'
+black	UNKNOWN STEP	2026-10-12T03:58:24.2663206Z [command]/usr/bin/git version
+black	UNKNOWN STEP	2026-10-12T03:58:24.2761368Z git version 2.55.0
+black	UNKNOWN STEP	2026-10-12T03:58:24.2782705Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:24.2793984Z Temporarily overriding HOME='/home/runner/work/_temp/10a3e0f4-b271-489a-8414-ab5b40e584fd' before making global git config changes
+black	UNKNOWN STEP	2026-10-12T03:58:24.2799014Z Adding repository directory to the temporary git global config as a safe directory
+black	UNKNOWN STEP	2026-10-12T03:58:24.2801177Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/django/django
+black	UNKNOWN STEP	2026-10-12T03:58:24.2852514Z Deleting the contents of '/home/runner/work/django/django'
+black	UNKNOWN STEP	2026-10-12T03:58:24.2856397Z ##[group]Determining repository object format
+black	UNKNOWN STEP	2026-10-12T03:58:24.2858121Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:24.2859220Z ##[group]Initializing the repository
+black	UNKNOWN STEP	2026-10-12T03:58:24.2862378Z [command]/usr/bin/git init /home/runner/work/django/django
+black	UNKNOWN STEP	2026-10-12T03:58:24.3007029Z hint: Using 'master' as the name for the initial branch. This default branch name
+black	UNKNOWN STEP	2026-10-12T03:58:24.3009745Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+black	UNKNOWN STEP	2026-10-12T03:58:24.3013491Z hint: to use in all of your new repositories, which will suppress this warning,
+black	UNKNOWN STEP	2026-10-12T03:58:24.3015929Z hint: call:
+black	UNKNOWN STEP	2026-10-12T03:58:24.3016680Z hint:
+black	UNKNOWN STEP	2026-10-12T03:58:24.3017634Z hint: 	git config --global init.defaultBranch <name>
+black	UNKNOWN STEP	2026-10-12T03:58:24.3018804Z hint:
+black	UNKNOWN STEP	2026-10-12T03:58:24.3019863Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+black	UNKNOWN STEP	2026-10-12T03:58:24.3021057Z hint: 'development'. The just-created branch can be renamed via this command:
+black	UNKNOWN STEP	2026-10-12T03:58:24.3022009Z hint:
+black	UNKNOWN STEP	2026-10-12T03:58:24.3022528Z hint: 	git branch -m <name>
+black	UNKNOWN STEP	2026-10-12T03:58:24.3023119Z hint:
+black	UNKNOWN STEP	2026-10-12T03:58:24.3023903Z hint: Disable this message with "git config set advice.defaultBranchName false"
+black	UNKNOWN STEP	2026-10-12T03:58:24.3025918Z Initialized empty Git repository in /home/runner/work/django/django/.git/
+black	UNKNOWN STEP	2026-10-12T03:58:24.3028388Z [command]/usr/bin/git remote add origin https://github.com/django/django
+black	UNKNOWN STEP	2026-10-12T03:58:24.3077681Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:24.3078722Z ##[group]Disabling automatic garbage collection
+black	UNKNOWN STEP	2026-10-12T03:58:24.3080915Z [command]/usr/bin/git config --local gc.auto 0
+black	UNKNOWN STEP	2026-10-12T03:58:24.3110252Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:24.3111434Z ##[group]Setting up auth
+black	UNKNOWN STEP	2026-10-12T03:58:24.3112143Z Removing SSH command configuration
+black	UNKNOWN STEP	2026-10-12T03:58:24.3115763Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+black	UNKNOWN STEP	2026-10-12T03:58:24.3144986Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+black	UNKNOWN STEP	2026-10-12T03:58:24.3549128Z Removing HTTP extra header
+black	UNKNOWN STEP	2026-10-12T03:58:24.3556273Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+black	UNKNOWN STEP	2026-10-12T03:58:24.3590459Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+black	UNKNOWN STEP	2026-10-12T03:58:24.3803352Z Removing includeIf entries pointing to credentials config files
+black	UNKNOWN STEP	2026-10-12T03:58:24.3808343Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+black	UNKNOWN STEP	2026-10-12T03:58:24.3846717Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+black	UNKNOWN STEP	2026-10-12T03:58:24.4067539Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+black	UNKNOWN STEP	2026-10-12T03:58:24.4105006Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/django/django/.git.path /home/runner/work/_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:24.4135950Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/django/django/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:24.4169238Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:24.4201080Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:24.4239992Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:24.4241203Z ##[group]Fetching the repository
+black	UNKNOWN STEP	2026-10-12T03:58:24.4247353Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +8b9f25663d3358a658708b6328c551af23c0530a:refs/remotes/pull/22135/merge
+black	UNKNOWN STEP	2026-10-12T03:58:26.5222183Z From https://github.com/django/django
+black	UNKNOWN STEP	2026-10-12T03:58:26.5223865Z  * [new ref]         8b9f25663d3358a658708b6328c551af23c0530a -> pull/22135/merge
+black	UNKNOWN STEP	2026-10-12T03:58:26.5228425Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:26.5229313Z ##[group]Determining the checkout info
+black	UNKNOWN STEP	2026-10-12T03:58:26.5230532Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:26.5233545Z [command]/usr/bin/git sparse-checkout disable
+black	UNKNOWN STEP	2026-10-12T03:58:26.5287792Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+black	UNKNOWN STEP	2026-10-12T03:58:26.5317521Z ##[group]Checking out the ref
+black	UNKNOWN STEP	2026-10-12T03:58:26.5322223Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/22135/merge
+black	UNKNOWN STEP	2026-10-12T03:58:27.0701718Z Note: switching to 'refs/remotes/pull/22135/merge'.
+black	UNKNOWN STEP	2026-10-12T03:58:27.0702381Z 
+black	UNKNOWN STEP	2026-10-12T03:58:27.0702799Z You are in 'detached HEAD' state. You can look around, make experimental
+black	UNKNOWN STEP	2026-10-12T03:58:27.0703811Z changes and commit them, and you can discard any commits you make in this
+black	UNKNOWN STEP	2026-10-12T03:58:27.0705370Z state without impacting any branches by switching back to a branch.
+black	UNKNOWN STEP	2026-10-12T03:58:27.0706183Z 
+black	UNKNOWN STEP	2026-10-12T03:58:27.0706816Z If you want to create a new branch to retain commits you create, you may
+black	UNKNOWN STEP	2026-10-12T03:58:27.0708279Z do so (now or later) by using -c with the switch command. Example:
+black	UNKNOWN STEP	2026-10-12T03:58:27.0709330Z 
+black	UNKNOWN STEP	2026-10-12T03:58:27.0709667Z   git switch -c <new-branch-name>
+black	UNKNOWN STEP	2026-10-12T03:58:27.0710252Z 
+black	UNKNOWN STEP	2026-10-12T03:58:27.0710700Z Or undo this operation with:
+black	UNKNOWN STEP	2026-10-12T03:58:27.0711228Z 
+black	UNKNOWN STEP	2026-10-12T03:58:27.0711500Z   git switch -
+black	UNKNOWN STEP	2026-10-12T03:58:27.0711830Z 
+black	UNKNOWN STEP	2026-10-12T03:58:27.0712619Z Turn off this advice by setting config variable advice.detachedHead to false
+black	UNKNOWN STEP	2026-10-12T03:58:27.0713686Z 
+black	UNKNOWN STEP	2026-10-12T03:58:27.0715205Z HEAD is now at 8b9f256 Merge d2f774765ae048bef306dedf9d13f60e3579947d into 0f34a4cf9f1b5f3e68decbdca76aebb71268ba93
+black	UNKNOWN STEP	2026-10-12T03:58:27.0721717Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:27.0770635Z [command]/usr/bin/git log -1 --format=%H
+black	UNKNOWN STEP	2026-10-12T03:58:27.0797385Z 8b9f25663d3358a658708b6328c551af23c0530a
+black	UNKNOWN STEP	2026-10-12T03:58:27.0808114Z ##[group]Removing auth
+black	UNKNOWN STEP	2026-10-12T03:58:27.0808777Z Removing SSH command configuration
+black	UNKNOWN STEP	2026-10-12T03:58:27.0813342Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+black	UNKNOWN STEP	2026-10-12T03:58:27.0847362Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+black	UNKNOWN STEP	2026-10-12T03:58:27.1083602Z Removing HTTP extra header
+black	UNKNOWN STEP	2026-10-12T03:58:27.1087888Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+black	UNKNOWN STEP	2026-10-12T03:58:27.1122730Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+black	UNKNOWN STEP	2026-10-12T03:58:27.1358277Z Removing includeIf entries pointing to credentials config files
+black	UNKNOWN STEP	2026-10-12T03:58:27.1362111Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+black	UNKNOWN STEP	2026-10-12T03:58:27.1387899Z includeif.gitdir:/home/runner/work/django/django/.git.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1388827Z includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1389439Z includeif.gitdir:/github/workspace/.git.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1389920Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1396984Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/django/django/.git.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1418894Z /home/runner/work/_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1428892Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/django/django/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-4fed64da\-e337\-4c4d\-8047\-fde500a0250c\.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1461728Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1483358Z /home/runner/work/_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1492364Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/django/django/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-4fed64da\-e337\-4c4d\-8047\-fde500a0250c\.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1529521Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1550687Z /github/runner_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1559430Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-4fed64da\-e337\-4c4d\-8047\-fde500a0250c\.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1592448Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+black	UNKNOWN STEP	2026-10-12T03:58:27.1613346Z /github/runner_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1654825Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-4fed64da\-e337\-4c4d\-8047\-fde500a0250c\.config
+black	UNKNOWN STEP	2026-10-12T03:58:27.1658189Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+black	UNKNOWN STEP	2026-10-12T03:58:27.1892857Z Removing credentials config '/home/runner/work/_temp/git-credentials-4fed64da-e337-4c4d-8047-fde500a0250c.config'
+black	UNKNOWN STEP	2026-10-12T03:58:27.1902824Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:27.2268222Z ##[group]Run psf/black@stable
+black	UNKNOWN STEP	2026-10-12T03:58:27.2268516Z with:
+black	UNKNOWN STEP	2026-10-12T03:58:27.2268741Z   options: --check --diff
+black	UNKNOWN STEP	2026-10-12T03:58:27.2268980Z   src: .
+black	UNKNOWN STEP	2026-10-12T03:58:27.2269175Z   jupyter: false
+black	UNKNOWN STEP	2026-10-12T03:58:27.2269390Z   use_pyproject: false
+black	UNKNOWN STEP	2026-10-12T03:58:27.2269612Z   summary: true
+black	UNKNOWN STEP	2026-10-12T03:58:27.2269815Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:58:27.2333969Z ##[start-action display=black;id=__psf_black.black]
+black	UNKNOWN STEP	2026-10-12T03:58:27.2380105Z ##[group]Run # Even when black fails, do not close the shell
+black	UNKNOWN STEP	2026-10-12T03:58:27.2380619Z ^[[36;1m# Even when black fails, do not close the shell^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2380958Z ^[[36;1mset +e^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2381188Z ^[[36;1m^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2381413Z ^[[36;1mif [ "$RUNNER_OS" == "Windows" ]; then^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2381720Z ^[[36;1m  runner="python"^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2381960Z ^[[36;1melse^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2382172Z ^[[36;1m  runner="python3"^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2382407Z ^[[36;1mfi^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2382627Z ^[[36;1m^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2382892Z ^[[36;1mout=$(${runner} $GITHUB_ACTION_PATH/action/main.py)^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2383235Z ^[[36;1mexit_code=$?^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2383451Z ^[[36;1m^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2383671Z ^[[36;1m# Display the raw output in the step^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2384001Z ^[[36;1mecho "${out}"^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2384259Z ^[[36;1m^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2384682Z ^[[36;1mif [ "${INPUT_SUMMARY}" == "true" ]; then^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2385050Z ^[[36;1m  # Display the Markdown output in the job summary^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2385418Z ^[[36;1m  echo "\`\`\`python" >> $GITHUB_STEP_SUMMARY^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2385758Z ^[[36;1m  echo "${out}" >> $GITHUB_STEP_SUMMARY^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2386091Z ^[[36;1m  echo "\`\`\`" >> $GITHUB_STEP_SUMMARY^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2386383Z ^[[36;1mfi^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2386576Z ^[[36;1m^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2386812Z ^[[36;1m# Exit with the exit-code returned by Black^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2387129Z ^[[36;1mexit ${exit_code}^[[0m
+black	UNKNOWN STEP	2026-10-12T03:58:27.2677177Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+black	UNKNOWN STEP	2026-10-12T03:58:27.2677803Z env:
+black	UNKNOWN STEP	2026-10-12T03:58:27.2678168Z   INPUT_OPTIONS: --check --diff
+black	UNKNOWN STEP	2026-10-12T03:58:27.2678624Z   INPUT_SRC: .
+black	UNKNOWN STEP	2026-10-12T03:58:27.2679027Z   INPUT_JUPYTER: false
+black	UNKNOWN STEP	2026-10-12T03:58:27.2679425Z   INPUT_BLACK_ARGS: 
+black	UNKNOWN STEP	2026-10-12T03:58:27.2679794Z   INPUT_VERSION: 
+black	UNKNOWN STEP	2026-10-12T03:58:27.2680172Z   INPUT_USE_PYPROJECT: false
+black	UNKNOWN STEP	2026-10-12T03:58:27.2680598Z   INPUT_SUMMARY: true
+black	UNKNOWN STEP	2026-10-12T03:58:27.2680971Z   OUTPUT_FILE: 
+black	UNKNOWN STEP	2026-10-12T03:58:27.2681345Z   pythonioencoding: utf-8
+black	UNKNOWN STEP	2026-10-12T03:58:27.2681751Z ##[endgroup]
+black	UNKNOWN STEP	2026-10-12T03:59:20.5460664Z Installing black[colorama]==26.10.1...
+black	UNKNOWN STEP	2026-10-12T03:59:20.5461771Z --- /home/runner/work/django/django/tests/migrations/test_executor.py	2026-10-12 03:58:26.992542+00:00
+black	UNKNOWN STEP	2026-10-12T03:59:20.5462577Z +++ /home/runner/work/django/django/tests/migrations/test_executor.py	2026-10-12 03:59:07.310387+00:00
+black	UNKNOWN STEP	2026-10-12T03:59:20.5465193Z @@ -816,10 +816,11 @@
+black	UNKNOWN STEP	2026-10-12T03:59:20.5465728Z      @skipUnlessDBFeature("can_rollback_ddl")
+black	UNKNOWN STEP	2026-10-12T03:59:20.5466221Z      def test_migrations_applied_and_recorded_atomically_deferred_sql(self):
+black	UNKNOWN STEP	2026-10-12T03:59:20.5466645Z          """
+black	UNKNOWN STEP	2026-10-12T03:59:20.5466975Z          Migrations with deferred SQL are applied and recorded atomically.
+black	UNKNOWN STEP	2026-10-12T03:59:20.5467383Z          """
+black	UNKNOWN STEP	2026-10-12T03:59:20.5467586Z +
+black	UNKNOWN STEP	2026-10-12T03:59:20.5467827Z          class Migration(migrations.Migration):
+black	UNKNOWN STEP	2026-10-12T03:59:20.5468151Z              operations = [
+black	UNKNOWN STEP	2026-10-12T03:59:20.5468425Z                  migrations.CreateModel(
+black	UNKNOWN STEP	2026-10-12T03:59:20.5468719Z                      "model",
+black	UNKNOWN STEP	2026-10-12T03:59:20.5468963Z                      [
+black	UNKNOWN STEP	2026-10-12T03:59:20.5469368Z would reformat /home/runner/work/django/django/tests/migrations/test_executor.py
+black	UNKNOWN STEP	2026-10-12T03:59:20.5469752Z 
+black	UNKNOWN STEP	2026-10-12T03:59:20.5470059Z Oh no! 💥 💔 💥
+black	UNKNOWN STEP	2026-10-12T03:59:20.5470374Z 1 file would be reformatted, 2931 files would be left unchanged.
+black	UNKNOWN STEP	2026-10-12T03:59:20.5486601Z ##[error]Process completed with exit code 1.
+black	UNKNOWN STEP	2026-10-12T03:59:20.5532209Z ##[end-action id=__psf_black.black;outcome=failure;conclusion=failure;duration_ms=53319]
+black	UNKNOWN STEP	2026-10-12T03:59:20.5694687Z Post job cleanup.
+black	UNKNOWN STEP	2026-10-12T03:59:20.6558659Z [command]/usr/bin/git version
+black	UNKNOWN STEP	2026-10-12T03:59:20.6604950Z git version 2.55.0
+black	UNKNOWN STEP	2026-10-12T03:59:20.6641388Z Temporarily overriding HOME='/home/runner/work/_temp/0e50567b-e7e6-4d2b-9f8c-d1337087ad87' before making global git config changes
+black	UNKNOWN STEP	2026-10-12T03:59:20.6642786Z Adding repository directory to the temporary git global config as a safe directory
+black	UNKNOWN STEP	2026-10-12T03:59:20.6647667Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/django/django
+black	UNKNOWN STEP	2026-10-12T03:59:20.6678745Z Removing SSH command configuration
+black	UNKNOWN STEP	2026-10-12T03:59:20.6685100Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+black	UNKNOWN STEP	2026-10-12T03:59:20.6717523Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+black	UNKNOWN STEP	2026-10-12T03:59:20.6945386Z Removing HTTP extra header
+black	UNKNOWN STEP	2026-10-12T03:59:20.6949693Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+black	UNKNOWN STEP	2026-10-12T03:59:20.6982415Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+black	UNKNOWN STEP	2026-10-12T03:59:20.7208245Z Removing includeIf entries pointing to credentials config files
+black	UNKNOWN STEP	2026-10-12T03:59:20.7213769Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+black	UNKNOWN STEP	2026-10-12T03:59:20.7277174Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+black	UNKNOWN STEP	2026-10-12T03:59:20.7683748Z Cleaning up orphan processes

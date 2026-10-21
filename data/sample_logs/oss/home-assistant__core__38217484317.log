@@ -1,0 +1,331 @@
+Run deterministic requirement checks	UNKNOWN STEP	﻿2026-10-12T07:23:44.9987420Z Current runner version: '2.337.0'
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0013221Z ##[group]Runner Image Provisioner
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0014388Z Hosted Compute Agent
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0014987Z Version: 20261002.596
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0015697Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0016490Z Build Date: 2026-10-02T22:28:27Z
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0017253Z Worker ID: {c8c0911b-22e3-482f-b7c5-639a1ea6d469}
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0018029Z Region: southcentralus
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0018618Z Cloud: Azure
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0019201Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0020950Z ##[group]Operating System
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0021579Z Ubuntu
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0022251Z 24.04.5
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0022832Z LTS
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0023440Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0024445Z ##[group]Runner Image
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0025109Z Image: ubuntu-24.04
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0025758Z Version: 20261004.327.1
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0027001Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261004.327/images/ubuntu/Ubuntu2404-Readme.md
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0028661Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261004.327
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0029603Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0030852Z ##[group]GITHUB_TOKEN Permissions
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0032982Z Contents: read
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0033763Z Metadata: read
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0034770Z PullRequests: read
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0035438Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0037536Z Secret source: None
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0038530Z Cache mode: write
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0039277Z Prepare workflow directory
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0375186Z Prepare all required actions
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.0421755Z Getting action download info
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.3228427Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.4164354Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.4991664Z Download action repository 'actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a' (SHA:043fb46d1a93c77aae656e7c1c64a875d1fc6a0a)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.6794078Z Complete job name: Run deterministic requirement checks
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7622181Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7623250Z with:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7623710Z   persist-credentials: false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7624535Z   repository: home-assistant/core
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7628325Z   token: ***
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7628761Z   ssh-strict: true
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7629211Z   ssh-user: git
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7629632Z   clean: true
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7630079Z   sparse-checkout-cone-mode: true
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7630601Z   fetch-depth: 1
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7631041Z   fetch-tags: false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7631490Z   show-progress: true
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7631929Z   lfs: false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7632353Z   submodules: false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7632833Z   set-safe-directory: true
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7633330Z   allow-unsafe-pr-checkout: false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.7634324Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8621124Z Syncing repository: home-assistant/core
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8623089Z ##[group]Getting Git version info
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8623788Z Working directory is '/home/runner/work/core/core'
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8625062Z [command]/usr/bin/git version
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8684569Z git version 2.55.0
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8705027Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8715191Z Temporarily overriding HOME='/home/runner/work/_temp/29f03dee-3071-46b9-99b1-c1be7db2bb70' before making global git config changes
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8716647Z Adding repository directory to the temporary git global config as a safe directory
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8720560Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/core/core
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8765667Z Deleting the contents of '/home/runner/work/core/core'
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8769324Z ##[group]Determining repository object format
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8771133Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8772035Z ##[group]Initializing the repository
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8774578Z [command]/usr/bin/git init /home/runner/work/core/core
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8885290Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8886346Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8887338Z hint: to use in all of your new repositories, which will suppress this warning,
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8888102Z hint: call:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8888816Z hint:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8889364Z hint: 	git config --global init.defaultBranch <name>
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8889974Z hint:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8890557Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8892050Z hint: 'development'. The just-created branch can be renamed via this command:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8893441Z hint:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8894224Z hint: 	git branch -m <name>
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8894754Z hint:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8895388Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8896343Z Initialized empty Git repository in /home/runner/work/core/core/.git/
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8899222Z [command]/usr/bin/git remote add origin https://github.com/home-assistant/core
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8944295Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8945126Z ##[group]Disabling automatic garbage collection
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8947309Z [command]/usr/bin/git config --local gc.auto 0
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8976041Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8977477Z ##[group]Setting up auth
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8978257Z Removing SSH command configuration
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.8981065Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9010202Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9335757Z Removing HTTP extra header
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9341349Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9371536Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9581204Z Removing includeIf entries pointing to credentials config files
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9585873Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9613756Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9839364Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9875208Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/core/core/.git.path /home/runner/work/_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9906148Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/core/core/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9938613Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:45.9971717Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:46.0000062Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:46.0001956Z ##[group]Fetching the repository
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:46.0006962Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +4288c99fb6490ff709d8f04fbfa7f53553c72364:refs/remotes/pull/185708/merge
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.2990217Z From https://github.com/home-assistant/core
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.2991856Z  * [new ref]           4288c99fb6490ff709d8f04fbfa7f53553c72364 -> pull/185708/merge
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.2994782Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.2995909Z ##[group]Determining the checkout info
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.2997181Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.2997920Z [command]/usr/bin/git sparse-checkout disable
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.3035999Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.3064571Z ##[group]Checking out the ref
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:55.3067752Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/185708/merge
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.3380205Z Updating files:  63% (18467/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.3633570Z Updating files:  64% (18546/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.3770104Z Updating files:  65% (18836/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.3967105Z Updating files:  66% (19125/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.4137827Z Updating files:  67% (19415/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.4308610Z Updating files:  68% (19705/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.4481472Z Updating files:  69% (19995/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.4649596Z Updating files:  70% (20284/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.4820990Z Updating files:  71% (20574/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.4990052Z Updating files:  72% (20864/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.5233940Z Updating files:  73% (21154/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.5433498Z Updating files:  74% (21443/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.5645134Z Updating files:  75% (21733/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.5834458Z Updating files:  76% (22023/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.6009224Z Updating files:  77% (22313/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.6178123Z Updating files:  78% (22603/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.6379495Z Updating files:  79% (22892/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.6538908Z Updating files:  80% (23182/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.6707906Z Updating files:  81% (23472/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.6878649Z Updating files:  82% (23762/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.7051091Z Updating files:  83% (24051/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.7220853Z Updating files:  84% (24341/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.7395928Z Updating files:  85% (24631/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.7596254Z Updating files:  86% (24921/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.7770287Z Updating files:  87% (25210/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.7932695Z Updating files:  88% (25500/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.8153033Z Updating files:  89% (25790/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.8348042Z Updating files:  90% (26080/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.8498079Z Updating files:  91% (26370/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.8661609Z Updating files:  92% (26659/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.8838394Z Updating files:  93% (26949/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.9031701Z Updating files:  94% (27239/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.9199498Z Updating files:  95% (27529/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.9364875Z Updating files:  96% (27818/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.9573722Z Updating files:  97% (28108/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:56.9827532Z Updating files:  98% (28398/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0009799Z Updating files:  99% (28688/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0010455Z Updating files: 100% (28977/28977)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0011273Z Updating files: 100% (28977/28977), done.
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0303805Z Note: switching to 'refs/remotes/pull/185708/merge'.
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0304580Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0304943Z You are in 'detached HEAD' state. You can look around, make experimental
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0305484Z changes and commit them, and you can discard any commits you make in this
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0306372Z state without impacting any branches by switching back to a branch.
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0306910Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0307242Z If you want to create a new branch to retain commits you create, you may
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0308030Z do so (now or later) by using -c with the switch command. Example:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0308494Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0308690Z   git switch -c <new-branch-name>
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0309008Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0309493Z Or undo this operation with:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0309791Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0309942Z   git switch -
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0310146Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0310548Z Turn off this advice by setting config variable advice.detachedHead to false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0311053Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0311616Z HEAD is now at 4288c99f Merge e713bc284ee42d286da7cefc4ecd4d7de99a89ca into 8c75d55b366ae98d0828828087ff432aca70e3c4
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0358413Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0418397Z [command]/usr/bin/git log -1 --format=%H
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0445518Z 4288c99fb6490ff709d8f04fbfa7f53553c72364
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0464538Z ##[group]Removing auth
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0464997Z Removing SSH command configuration
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0465700Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0501323Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0758397Z Removing HTTP extra header
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0763288Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.0797091Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1031306Z Removing includeIf entries pointing to credentials config files
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1035203Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1060383Z includeif.gitdir:/home/runner/work/core/core/.git.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1061135Z includeif.gitdir:/home/runner/work/core/core/.git/worktrees/*.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1061622Z includeif.gitdir:/github/workspace/.git.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1061997Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1069288Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/core/core/.git.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1090098Z /home/runner/work/_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1099750Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/core/core/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-d2614fc8\-7677\-483f\-903d\-3341b663832f\.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1130639Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/core/core/.git/worktrees/*.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1157911Z /home/runner/work/_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1165380Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/core/core/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-d2614fc8\-7677\-483f\-903d\-3341b663832f\.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1204830Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1220536Z /github/runner_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1229378Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-d2614fc8\-7677\-483f\-903d\-3341b663832f\.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1262523Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1288635Z /github/runner_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1295963Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-d2614fc8\-7677\-483f\-903d\-3341b663832f\.config
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1326320Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1555535Z Removing credentials config '/home/runner/work/_temp/git-credentials-d2614fc8-7677-483f-903d-3341b663832f.config'
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1563872Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1811894Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1812317Z with:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1812546Z   python-version-file: .python-version
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1812820Z   check-latest: true
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1815616Z   token: ***
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1815842Z   update-environment: true
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1816090Z   allow-prereleases: false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1816327Z   freethreaded: false
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.1816550Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.2934402Z Resolved .python-version as 3.14.5
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:57.2935867Z ##[group]Installed versions
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:58.1673377Z Resolved as '3.14.5'
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:58.1696342Z Version 3.14.5 was not found in the local cache
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:58.1704448Z Version 3.14.5 is available for downloading
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:58.1705140Z Download from "https://github.com/actions/python-versions/releases/download/3.14.5-25647354415/python-3.14.5-linux-24.04-x64.tar.gz"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:58.8640604Z Extract downloaded archive
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:23:58.8756519Z [command]/usr/bin/tar xz --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/030bd544-e492-4814-8457-f39ef4478c83 -f /home/runner/work/_temp/0a185dfe-f8a6-4675-be40-06a77d1453c2
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:01.0392954Z Execute installation script
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:01.0488963Z Check if Python hostedtoolcache folder exist...
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:01.0489738Z Create Python 3.14.5 folder
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:01.0504498Z Copy Python binaries to hostedtoolcache folder
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:01.5411442Z Create additional symlinks (Required for the UsePythonVersion Azure Pipelines task and the setup-python GitHub Action)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:01.5453791Z Upgrading pip...
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:04.1534211Z Looking in links: /tmp/tmpd3nhw7uf
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:04.1539357Z Requirement already satisfied: pip in /opt/hostedtoolcache/Python/3.14.5/x64/lib/python3.14/site-packages (26.1.1)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.4122360Z Collecting pip
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.4957158Z Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.5134616Z Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.7250167Z ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 9.7 MB/s  0:00:00
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.7250608Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.7486607Z Installing collected packages: pip
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.7488514Z Attempting uninstall: pip
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.7514212Z Found existing installation: pip 26.1.1
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.7842011Z Uninstalling pip-26.1.1:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:05.7898288Z Successfully uninstalled pip-26.1.1
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:06.9167800Z Successfully installed pip-26.2.1
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:06.9691340Z Create complete file
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:06.9724460Z Successfully set up CPython (3.14.5)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:06.9725601Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:06.9887197Z ##[group]Run pip install -r script/check_requirements/requirements.txt
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:06.9887770Z ^[[36;1mpip install -r script/check_requirements/requirements.txt^[[0m
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0154221Z shell: /usr/bin/bash -e {0}
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0154498Z env:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0154763Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0155210Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.5/x64/lib/pkgconfig
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0155641Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0156017Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0156398Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0156794Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.5/x64/lib
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.0157116Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.3291106Z WARNING: Cache entry deserialization failed, entry ignored
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.3295851Z WARNING: Cache entry deserialization failed, entry ignored
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.5343691Z Collecting PyGithub==2.10.0 (from -r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.5994849Z   Downloading pygithub-2.10.0-py3-none-any.whl.metadata (3.9 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.6348661Z Collecting requests==2.34.2 (from -r script/check_requirements/requirements.txt (line 2))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.6446081Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.6633240Z Collecting unidiff==1.0.1 (from -r script/check_requirements/requirements.txt (line 3))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.6726784Z   Downloading unidiff-1.0.1-py3-none-any.whl.metadata (8.2 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.7058990Z Collecting pynacl>=1.4.0 (from PyGithub==2.10.0->-r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.7155021Z   Downloading pynacl-1.6.2-cp38-abi3-manylinux_2_34_x86_64.whl.metadata (10.0 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.7411742Z Collecting pyjwt>=2.4.0 (from pyjwt[crypto]>=2.4.0->PyGithub==2.10.0->-r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.7506773Z   Downloading pyjwt-2.15.1-py3-none-any.whl.metadata (3.5 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.7744443Z Collecting typing-extensions>=4.5.0 (from PyGithub==2.10.0->-r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.7840226Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.8113075Z Collecting urllib3>=1.26.0 (from PyGithub==2.10.0->-r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.8209765Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.9638896Z Collecting charset_normalizer<4,>=2 (from requests==2.34.2->-r script/check_requirements/requirements.txt (line 2))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:07.9737550Z   Downloading charset_normalizer-3.5.2-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.0053857Z Collecting idna<4,>=2.5 (from requests==2.34.2->-r script/check_requirements/requirements.txt (line 2))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.0148483Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.0418835Z Collecting certifi>=2023.5.7 (from requests==2.34.2->-r script/check_requirements/requirements.txt (line 2))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.0512347Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.2447069Z Collecting cryptography>=3.4.0 (from pyjwt[crypto]>=2.4.0->PyGithub==2.10.0->-r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.2543597Z   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.3656629Z Collecting cffi>=2.0.0 (from cryptography>=3.4.0->pyjwt[crypto]>=2.4.0->PyGithub==2.10.0->-r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.3755219Z   Downloading cffi-2.1.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.3945456Z Collecting pycparser (from cffi>=2.0.0->cryptography>=3.4.0->pyjwt[crypto]>=2.4.0->PyGithub==2.10.0->-r script/check_requirements/requirements.txt (line 1))
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.4039492Z   Downloading pycparser-3.11-py3-none-any.whl.metadata (8.2 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.4178038Z Downloading pygithub-2.10.0-py3-none-any.whl (455 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.4543174Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.4659072Z Downloading unidiff-1.0.1-py3-none-any.whl (18 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.4773748Z Downloading charset_normalizer-3.5.2-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (255 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.4906255Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.5018001Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.5195535Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.5329393Z Downloading pyjwt-2.15.1-py3-none-any.whl (33 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.5456004Z Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.7370542Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 24.0 MB/s  0:00:00
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.7466200Z Downloading cffi-2.1.1-cp314-cp314-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.7601274Z Downloading pynacl-1.6.2-cp38-abi3-manylinux_2_34_x86_64.whl (1.4 MB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.7688553Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 199.7 MB/s  0:00:00
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.7784886Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.7912055Z Downloading pycparser-3.11-py3-none-any.whl (51 kB)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:08.8669083Z Installing collected packages: urllib3, unidiff, typing-extensions, pyjwt, pycparser, idna, charset_normalizer, certifi, requests, cffi, pynacl, cryptography, PyGithub
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0129610Z 
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0149837Z Successfully installed PyGithub-2.10.0 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.2 cryptography-50.0.2 idna-3.20 pycparser-3.11 pyjwt-2.15.1 pynacl-1.6.2 requests-2.34.2 typing-extensions-4.16.0 unidiff-1.0.1 urllib3-2.8.0
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0825278Z ##[group]Run mkdir -p deterministic
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0825647Z ^[[36;1mmkdir -p deterministic^[[0m
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0825968Z ^[[36;1mgh pr diff "${PR_NUMBER}" > deterministic/pr.diff^[[0m
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0826415Z ^[[36;1mHEAD_SHA=$(gh pr view "${PR_NUMBER}" --json headRefOid --jq '.headRefOid')^[[0m
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0826858Z ^[[36;1mecho "head_sha=${HEAD_SHA}" >> "${GITHUB_OUTPUT}"^[[0m
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0890605Z shell: /usr/bin/bash -e {0}
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0890860Z env:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0891123Z   pythonLocation: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0891564Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.14.5/x64/lib/pkgconfig
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0891987Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0892364Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0892738Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.14.5/x64
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0893148Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.14.5/x64/lib
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0896190Z   GH_TOKEN: ***
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0896426Z   PR_NUMBER: 185708
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:10.0896638Z ##[endgroup]
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.1157754Z could not find pull request diff: HTTP 406: Sorry, the diff exceeded the maximum number of lines (20000) (https://api.github.com/repos/home-assistant/core/pulls/185708)
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.1165149Z PullRequest.diff too_large
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.1189456Z ##[error]Process completed with exit code 1.
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.1379565Z Post job cleanup.
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2261561Z [command]/usr/bin/git version
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2299825Z git version 2.55.0
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2338358Z Temporarily overriding HOME='/home/runner/work/_temp/179cd3a2-db3d-40b5-ad77-b8d744cba6d2' before making global git config changes
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2339295Z Adding repository directory to the temporary git global config as a safe directory
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2343466Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/core/core
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2379614Z Removing SSH command configuration
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2387339Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2427789Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2679286Z Removing HTTP extra header
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2685875Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2722082Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2975992Z Removing includeIf entries pointing to credentials config files
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.2982373Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.3015798Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run deterministic requirement checks	UNKNOWN STEP	2026-10-12T07:24:11.3440360Z Cleaning up orphan processes

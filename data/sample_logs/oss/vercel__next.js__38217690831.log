@@ -1,0 +1,400 @@
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9176859Z Updating files: 100% (33998/33998)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9177418Z Updating files: 100% (33998/33998), done.
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9794305Z Switched to a new branch 'canary'
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9800050Z branch 'canary' set up to track 'origin/canary'.
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9841904Z ##[endgroup]
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9892097Z [command]/usr/bin/git log -1 --format=%H
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9914854Z 4452514638063cfe96c9c6826851d15744e961bc
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9923833Z ##[group]Removing auth
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9924403Z Removing SSH command configuration
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9929018Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:04.9959712Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0317157Z Removing HTTP extra header
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0322398Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0353720Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0624303Z Removing includeIf entries pointing to credentials config files
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0627730Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0654288Z includeif.gitdir:/home/runner/work/next.js/next.js/.git.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0655317Z includeif.gitdir:/home/runner/work/next.js/next.js/.git/worktrees/*.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0656575Z includeif.gitdir:/github/workspace/.git.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0657358Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0663561Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/next.js/next.js/.git.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0684868Z /home/runner/work/_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0699118Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/next.js/next.js/.git.path /home/runner/work/_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0731731Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/next.js/next.js/.git/worktrees/*.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0753962Z /home/runner/work/_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0763468Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/next.js/next.js/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0798594Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0819147Z /github/runner_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0826639Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0857393Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0878769Z /github/runner_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0886383Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.0917187Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1183058Z Removing credentials config '/home/runner/work/_temp/git-credentials-e06d7636-626b-466b-9405-49017035d9fd.config'
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1193284Z ##[endgroup]
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1393222Z ##[group]Run actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1393732Z with:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1394251Z   node-version-file: .node-version
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1394798Z   check-latest: true
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1395398Z   package-manager-cache: false
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1398055Z   token: ***
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1398496Z env:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1399078Z   COREPACK_VERSION: 0.34.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.1413940Z ##[endgroup]
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.2886278Z Node version file is not JSON file
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.2888652Z Resolved .node-version as 20
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.2894971Z Attempt to resolve the latest version from manifest...
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.8388266Z Resolved as '20.20.2'
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:05.8397159Z Attempting to download 20.20.2...
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:06.2818880Z Acquiring 20.20.2 - x64 from https://github.com/actions/node-versions/releases/download/20.20.2-23521894959/node-20.20.2-linux-x64.tar.gz
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:06.6041370Z Extracting ...
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:06.6207798Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/e814089a-4279-4757-9341-d19fb7ec68de -f /home/runner/work/_temp/929fdc98-6131-45e0-8fa6-7c264a1f8873
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:07.7576960Z Adding to the cache ...
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.4816775Z ##[group]Environment details
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7002153Z node: v20.20.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7002827Z npm: 10.8.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7003510Z yarn: 1.22.22
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7004791Z ##[endgroup]
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7162886Z ##[group]Run npm i -g "corepack@${COREPACK_VERSION}"
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7163411Z ^[[36;1mnpm i -g "corepack@${COREPACK_VERSION}"^[[0m
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7163824Z ^[[36;1mcorepack enable^[[0m
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7229442Z shell: /usr/bin/bash -e {0}
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7229785Z env:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7230067Z   COREPACK_VERSION: 0.34.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:10.7230413Z ##[endgroup]
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2131729Z 
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2139987Z changed 1 package in 425ms
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2856686Z ##[group]Run pnpm i
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2857066Z ^[[36;1mpnpm i^[[0m
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2922883Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2923336Z env:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2923627Z   COREPACK_VERSION: 0.34.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.2923962Z ##[endgroup]
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:11.3622427Z ! Corepack is about to download https://registry.npmjs.org/pnpm/-/pnpm-10.33.0.tgz
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:12.7978245Z Scope: all 38 workspace projects
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:12.9610014Z . pnpm:devPreinstall$ node scripts/create-next-bin-placeholder.mjs
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:12.9961869Z . pnpm:devPreinstall: Done
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:13.0206616Z Lockfile is up to date, resolution step is skipped
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:13.2461920Z Progress: resolved 1, reused 0, downloaded 0, added 0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:13.5144173Z Packages: +3415
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:13.5145270Z ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:14.2486203Z Progress: resolved 3415, reused 0, downloaded 81, added 48
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:15.2533213Z Progress: resolved 3415, reused 0, downloaded 136, added 68
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:16.2517241Z Progress: resolved 3415, reused 0, downloaded 195, added 92
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:17.2539080Z Progress: resolved 3415, reused 0, downloaded 431, added 198
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:18.2537482Z Progress: resolved 3415, reused 0, downloaded 518, added 235
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:19.2553864Z Progress: resolved 3415, reused 0, downloaded 810, added 452
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:20.2582406Z Progress: resolved 3415, reused 0, downloaded 957, added 512
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:21.2554605Z Progress: resolved 3415, reused 0, downloaded 1197, added 642
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:22.2592518Z Progress: resolved 3415, reused 0, downloaded 1298, added 702
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:23.2572604Z Progress: resolved 3415, reused 0, downloaded 1576, added 852
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:23.7310106Z Packages are hard linked from the content-addressable store to the virtual store.
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:23.7311644Z   Content-addressable store is at: /home/runner/.local/share/pnpm/store/v10
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:23.7312780Z   Virtual store is at:             node_modules/.pnpm
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:24.2559748Z Progress: resolved 3415, reused 0, downloaded 1850, added 1052
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:25.2557452Z Progress: resolved 3415, reused 0, downloaded 2201, added 1322
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:26.2572615Z Progress: resolved 3415, reused 0, downloaded 2375, added 1440
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:27.2589369Z Progress: resolved 3415, reused 0, downloaded 2500, added 1526
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:28.2570272Z Progress: resolved 3415, reused 0, downloaded 2827, added 1860
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:29.2592691Z Progress: resolved 3415, reused 0, downloaded 3067, added 2047
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:30.2592729Z Progress: resolved 3415, reused 0, downloaded 3314, added 2187
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:31.2581961Z Progress: resolved 3415, reused 0, downloaded 3400, added 2217
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:32.2576964Z Progress: resolved 3415, reused 0, downloaded 3411, added 2586
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:33.0969843Z Progress: resolved 3415, reused 0, downloaded 3411, added 3415, done
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:34.5357731Z .../node_modules/@ast-grep/cli postinstall$ node postinstall.js
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:34.6543286Z .../node_modules/@ast-grep/cli postinstall: Done
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6434686Z 
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6435399Z devDependencies:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6436195Z + @actions/core 1.10.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6437466Z + @ast-grep/cli 0.42.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6438187Z + @babel/core 7.26.10
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6438938Z + @babel/eslint-parser 7.24.6
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6439782Z + @babel/generator 7.27.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6440585Z + @babel/parser 7.27.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6442091Z + @babel/plugin-syntax-explicit-resource-management 7.25.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6443849Z + @babel/plugin-transform-object-rest-spread 7.25.9
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6445164Z + @babel/preset-react 7.26.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6459776Z + @edge-runtime/jest-environment 4.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6460308Z + @emnapi/wasi-threads 2.1.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6460728Z + @emotion/cache 11.11.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6462192Z + @emotion/react 11.11.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6462864Z + @eslint/compat 1.4.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6463529Z + @eslint/eslintrc 3.3.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6464121Z + @eslint/js 9.37.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6464870Z + @fullhuman/postcss-purgecss 1.3.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6465583Z + @jest/expect-utils 29.7.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6466339Z + @mdx-js/loader 2.2.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6466961Z + @mdx-js/react 2.2.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6467974Z + @next/bundle-analyzer 16.5.0-canary.8 <- packages/next-bundle-analyzer
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6469054Z + @next/env 16.5.0-canary.8 <- packages/next-env
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6470234Z + @next/eslint-plugin-next 16.5.0-canary.8 <- packages/eslint-plugin-next
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6471511Z + @next/font 16.5.0-canary.8 <- packages/font
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6472384Z + @next/mdx 16.5.0-canary.8 <- packages/next-mdx
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6473390Z + @next/playwright 16.5.0-canary.8 <- packages/next-playwright
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6474705Z + @next/plugin-storybook 16.5.0-canary.8 <- packages/next-plugin-storybook
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6476114Z + @next/polyfill-module 16.5.0-canary.8 <- packages/next-polyfill-module
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6477500Z + @next/polyfill-nomodule 16.5.0-canary.8 <- packages/next-polyfill-nomodule
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6478601Z + @next/swc 16.5.0-canary.8 <- packages/next-swc
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6479695Z + @next/third-parties 16.5.0-canary.8 <- packages/third-parties
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6480543Z + @opentelemetry/api 1.4.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6481515Z + @picocss/pico 1.5.10
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6482134Z + @rspack/core 1.6.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6482741Z + @slack/web-api 7.9.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6483350Z + @swc/cli 0.1.55
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6483910Z + @swc/core 1.11.24
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6484521Z + @swc/helpers 0.5.23
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6485109Z + @swc/types 0.1.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6485773Z + @taskr/esnext 1.1.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6486437Z + @testing-library/jest-dom 6.1.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6487204Z + @testing-library/react 15.0.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6487887Z + @types/busboy 1.5.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6488504Z + @types/cheerio 0.22.16
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6489148Z + @types/cookie 0.3.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6489763Z + @types/cross-spawn 6.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6490390Z + @types/fs-extra 8.1.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6491215Z + @types/glob 7.1.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6491897Z + @types/html-validator 5.0.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6492638Z + @types/http-proxy 1.17.17
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6493305Z + @types/jest 29.5.5
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6493926Z + @types/js-yaml 4.0.9
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6494527Z + @types/node 20.17.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6495109Z + @types/react 19.2.18
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6495723Z + @types/react-dom 19.2.4
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6496400Z + @types/shell-quote 1.7.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6497078Z + @types/string-hash 1.1.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6497727Z + @types/trusted-types 2.0.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6498404Z + @types/yargs 16.0.11
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6499007Z + @vercel/agent-eval 2.2.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6499622Z + @vercel/blob 2.3.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6500480Z + @vercel/devlow-bench 16.5.0-canary.8 <- packages/devlow-bench
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6501158Z + @vercel/kv 3.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6501484Z + @vercel/og 1.0.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6501825Z + @vercel/sandbox 1.8.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6502187Z + ajv 8.17.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6502467Z + alex 9.1.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6502760Z + async-sema 3.0.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6503451Z + babel-plugin-react-compiler 0.0.0-experimental-1371fcb-20260227
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6503945Z + browserslist 4.28.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6504254Z + buffer 5.6.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6504547Z + cheerio 0.22.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6504828Z + cookie 0.4.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6505333Z + cors 2.8.5
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6505878Z + coveralls 3.0.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6506576Z + create-next-app 16.5.0-canary.8 <- packages/create-next-app
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6507030Z + critters 0.0.6
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6507328Z + cross-env 6.0.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6507635Z + cross-spawn 6.0.5
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6507954Z + dd-trace 4.12.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6508231Z + dotenv 16.4.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6508698Z + es5-ext 0.10.53
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6509182Z + escape-string-regexp 2.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6509524Z + eslint 9.37.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6509999Z + eslint-config-next 16.5.0-canary.8 <- packages/eslint-config-next
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6510541Z + eslint-formatter-codeframe 7.32.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6511247Z + eslint-plugin-eslint-plugin 5.2.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6511655Z + eslint-plugin-import 2.31.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6512022Z + eslint-plugin-jest 27.6.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6512378Z + eslint-plugin-jsdoc 48.0.4
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6512739Z + eslint-plugin-mdx 3.1.5
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6513089Z + eslint-plugin-react 7.37.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6513594Z + eslint-plugin-react-hooks 0.0.0-experimental-ab18f33d-20260220
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6514069Z + event-stream 4.0.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6514375Z + execa 2.0.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6514655Z + expect 29.7.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6514957Z + expect-type 0.14.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6515258Z + express 4.17.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6515538Z + faker 5.5.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6515826Z + faunadb 2.6.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6516110Z + find-up 4.1.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6516403Z + firebase 7.14.5
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6516686Z + flat 5.0.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6516960Z + fs-extra 9.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6517250Z + get-port 5.1.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6517553Z + get-port-please 3.1.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6517870Z + glob 7.1.6
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6518143Z + globals 16.4.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6518441Z + gzip-size 5.1.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6518749Z + html-validator 5.1.18
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6519068Z + http-proxy 1.18.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6519368Z + husky 9.0.11
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6519660Z + image-size 1.2.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6519970Z + is-animated 2.0.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6520290Z + isomorphic-unfetch 3.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6520614Z + jest 29.7.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6521131Z + jest-diff 29.7.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6521488Z + jest-environment-jsdom 29.7.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6521840Z + jest-extended 4.0.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6522156Z + jest-junit 16.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6522493Z + jest-snapshot 30.0.0-alpha.6
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6522822Z + js-yaml 4.2.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6523104Z + json5 2.2.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6523385Z + kleur 4.1.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6523658Z + ky 0.19.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6523949Z + ky-universal 0.6.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6524265Z + lint-staged 15.2.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6524558Z + lodash 4.18.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6524839Z + lost 8.3.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6525122Z + minimatch 3.0.4
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6525411Z + moment 2.24.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6525685Z + nanoid 3.1.30
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6526021Z + next 16.5.0-canary.8 <- packages/next
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6526398Z + node-plop 0.31.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6526699Z + npm-run-all 4.1.5
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6527004Z + nprogress 0.2.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6527287Z + octokit 3.1.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6527570Z + outdent 0.8.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6527848Z + pixrem 5.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6528140Z + playwright 1.61.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6528467Z + playwright-chromium 1.61.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6528798Z + postcss 8.5.23
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6529113Z + postcss-nested 4.2.1
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6529466Z + postcss-pseudoelements 5.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6529827Z + postcss-short-size 4.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6530166Z + postcss-trolling 0.1.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6530486Z + prettier 3.6.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6531158Z + pretty-bytes 5.3.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6531477Z + pretty-ms 7.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6531786Z + random-seed 0.3.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6532140Z + react 19.3.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6532618Z + react-builtin <- react 19.3.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6533109Z + react-dom 19.3.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6533641Z + react-dom-builtin <- react-dom 19.3.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6534340Z + react-dom-experimental-builtin <- react-dom 0.0.0-experimental-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6535083Z + react-experimental-builtin <- react 0.0.0-experimental-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6535830Z + react-is-builtin <- react-is 19.3.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6536408Z + react-server-dom-turbopack 19.3.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6537748Z + react-server-dom-turbopack-experimental <- react-server-dom-turbopack 0.0.0-experimental-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6539160Z + react-server-dom-webpack 19.3.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6540638Z + react-server-dom-webpack-experimental <- react-server-dom-webpack 0.0.0-experimental-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6542053Z + react-ssr-prepass 1.0.8
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6542691Z + react-virtualized 9.22.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6543322Z + request-promise-core 1.1.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6543936Z + resolve-from 5.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6544462Z + sass 1.54.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6544963Z + satori 0.29.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6545780Z + scheduler-builtin <- scheduler 0.28.0-canary-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6547056Z + scheduler-experimental-builtin <- scheduler 0.0.0-experimental-b618bbb4-20261007
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6548046Z + seedrandom 3.0.5
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6548565Z + semver 7.3.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6549183Z + serve-handler 6.1.6
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6549749Z + shell-quote 1.7.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6550300Z + strip-ansi 6.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6550836Z + styled-jsx 5.1.6
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6551723Z + styled-jsx-plugin-postcss 3.0.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6552354Z + swr 2.2.4
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6552865Z + tailwindcss 3.2.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6553388Z + taskr 1.1.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6553908Z + tree-kill 1.2.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6554442Z + tsx 4.19.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6554738Z + turbo 2.11.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6555045Z + typescript 6.0.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6555373Z + typescript-eslint 8.46.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6555712Z + unfetch 4.2.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6556012Z + wait-port 0.2.2
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6556328Z + webpack 5.98.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6556706Z + webpack-bundle-analyzer 4.7.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6557069Z + webpack-dev-server 5.2.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6557406Z + whatwg-fetch 3.0.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6557701Z + ws 8.2.3
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6558151Z + yargs 16.2.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:35.6558373Z 
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.2860601Z . postinstall$ node scripts/git-configure.mjs && node scripts/install-native.mjs
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.4167063Z . postinstall: Skipping next-swc postinstall (NEXT_SKIP_NATIVE_POSTINSTALL=undefined, CI="true")
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.4187199Z . postinstall: Done
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.4189361Z . prepare$ husky
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.4803104Z . prepare: Done
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5144526Z Done in 24.1s using pnpm v10.33.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5808835Z ##[group]Run node scripts/automated-update-workflow.js
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5809368Z ^[[36;1mnode scripts/automated-update-workflow.js^[[0m
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5872393Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5872865Z env:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5873159Z   COREPACK_VERSION: 0.34.7
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5876355Z   RELEASE_GITHUB_TOKEN: ***
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5876730Z   RELEASE_GITHUB_APP_SLUG: next-js-bot
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5877129Z   RELEASE_GITHUB_APP_USER_ID: 279046576
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5877512Z   BRANCH_NAME: rspack-manifest
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5878050Z   SCRIPT: test/update-bundler-manifest.js --bundler rspack --test-suite dev --override
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5878679Z   PR_TITLE: Update Rspack development test manifest
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5879541Z   PR_BODY: This auto-generated PR updates the development integration test manifest used when testing Rspack.
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.5880185Z ##[endgroup]
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8836751Z Error: Command failed: node test/update-bundler-manifest.js --bundler rspack --test-suite dev --override
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8838642Z gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable. Example:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8839861Z   env:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8840207Z     GH_TOKEN: ${{ github.token }}
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8842136Z Error: Command failed with exit code 4 (EINTR): gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8843848Z     at makeError (/home/runner/work/next.js/next.js/node_modules/.pnpm/execa@2.0.3/node_modules/execa/lib/error.js:58:11)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8845571Z     at handlePromise (/home/runner/work/next.js/next.js/node_modules/.pnpm/execa@2.0.3/node_modules/execa/index.js:112:26)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8847019Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8847903Z     at async fetchLatestTestArtifact (/home/runner/work/next.js/next.js/test/update-bundler-manifest.js:101:22)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8848806Z     at async fetchTestResults (/home/runner/work/next.js/next.js/test/update-bundler-manifest.js:127:20)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8849675Z     at async updatePassingTests (/home/runner/work/next.js/next.js/test/update-bundler-manifest.js:162:19) {
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8850623Z   command: 'gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development',
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8851789Z   exitCode: 4,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8852570Z   exitCodeName: 'EINTR',
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8853072Z   stdout: '',
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8853512Z   stderr: undefined,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8853965Z   all: '',
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8854418Z   failed: true,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8854859Z   timedOut: false,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8855340Z   isCanceled: false,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8855823Z   killed: false,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8856258Z   signal: undefined
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8856738Z }
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8856960Z 
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8857320Z     at genericNodeError (node:internal/errors:984:15)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8858067Z     at wrappedFn (node:internal/errors:538:14)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8858851Z     at ChildProcess.exithandler (node:child_process:422:12)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8859570Z     at ChildProcess.emit (node:events:524:28)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8860060Z     at maybeClose (node:internal/child_process:1104:16)
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8860799Z     at ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8861467Z   code: 1,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8861910Z   killed: false,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8862223Z   signal: null,
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8862778Z   cmd: 'node test/update-bundler-manifest.js --bundler rspack --test-suite dev --override',
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8863346Z   stdout: '\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8863760Z     'Getting latest test artifacts from GitHub actions\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8864445Z     '> gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8864979Z     '\n',
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8865927Z   stderr: 'gh: To use GitHub CLI in a GitHub Actions workflow, set the GH_TOKEN environment variable. Example:\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8866563Z     '  env:\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8866917Z     '    GH_TOKEN: ${{ github.token }}\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8867720Z     'Error: Command failed with exit code 4 (EINTR): gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8868810Z     '    at makeError (/home/runner/work/next.js/next.js/node_modules/.pnpm/execa@2.0.3/node_modules/execa/lib/error.js:58:11)\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8869876Z     '    at handlePromise (/home/runner/work/next.js/next.js/node_modules/.pnpm/execa@2.0.3/node_modules/execa/index.js:112:26)\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8870760Z     '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8872108Z     '    at async fetchLatestTestArtifact (/home/runner/work/next.js/next.js/test/update-bundler-manifest.js:101:22)\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8873075Z     '    at async fetchTestResults (/home/runner/work/next.js/next.js/test/update-bundler-manifest.js:127:20)\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8873997Z     '    at async updatePassingTests (/home/runner/work/next.js/next.js/test/update-bundler-manifest.js:162:19) {\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8874907Z     "  command: 'gh api /repos/vercel/next.js/actions/artifacts?name=test-results-rspack-development',\n" +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8875496Z     '  exitCode: 4,\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8875850Z     "  exitCodeName: 'EINTR',\n" +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8876198Z     "  stdout: '',\n" +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8876535Z     '  stderr: undefined,\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8876859Z     "  all: '',\n" +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8877162Z     '  failed: true,\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8877477Z     '  timedOut: false,\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8877826Z     '  isCanceled: false,\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8878160Z     '  killed: false,\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8878476Z     '  signal: undefined\n' +
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8878789Z     '}\n'
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8879196Z }
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.8893732Z ##[error]Process completed with exit code 1.
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9030662Z Post job cleanup.
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9862176Z [command]/usr/bin/git version
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9899527Z git version 2.55.0
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9939310Z Temporarily overriding HOME='/home/runner/work/_temp/7062b368-587c-43bf-b1c5-6ad2ba1df66a' before making global git config changes
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9944442Z Adding repository directory to the temporary git global config as a safe directory
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9945991Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/next.js/next.js
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9976311Z Removing SSH command configuration
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:36.9983383Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.0016827Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.0291952Z Removing HTTP extra header
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.0293719Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.0326547Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.0589278Z Removing includeIf entries pointing to credentials config files
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.0596394Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.0627715Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.1120120Z Post job cleanup.
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.3973343Z Token revoked
+Update and upload Rspack development test manifest	UNKNOWN STEP	2026-10-12T07:26:37.4391261Z Cleaning up orphan processes

@@ -1,0 +1,400 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3453659Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3454093Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 12`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3454605Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3454703Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3454985Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3455147Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3455260Z     @@ -5,6 +5,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3455543Z             ▾ <MaybeSuspend>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3455917Z                 <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3456209Z                 <Z>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3456475Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3456708Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3457011Z     -   <Suspense name="Unknown" rects={[]}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3457515Z     +   <Suspense name="Unknown" uniqueSuspenders={false} rects={[]}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3457830Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3458053Z     ^[[0m ^[[90m 1271 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3458662Z      ^[[90m 1272 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3459525Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1273 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshot[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3460228Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3460788Z      ^[[90m 1274 |^[[39m       snapshots^[[33m.^[[39mpush(print(store))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3461297Z      ^[[90m 1275 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3461965Z      ^[[90m 1276 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3462328Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3462602Z       at _loop20 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1273:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3463438Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1276:302)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3463919Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3464367Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3464793Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3465012Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3465224Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3465722Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 13`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3466167Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3466293Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3466563Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3466720Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3466810Z     @@ -3,6 +3,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3467069Z             <X>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3467378Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3467672Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3467924Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3468148Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3468526Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3469042Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3469372Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3469587Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3470188Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3471078Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3471763Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3472574Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3473513Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3474031Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3474274Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3474716Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3475615Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3476111Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3476556Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3477019Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3477177Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3477464Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3477920Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 14`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3478420Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3478547Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3478833Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3478972Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3479062Z     @@ -3,6 +3,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3479259Z             <X>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3479557Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3479866Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3480155Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3480455Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3480842Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3481346Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3481669Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3481866Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3482495Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3483406Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3483977Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3484929Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3485538Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3486208Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3486566Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3486848Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3487578Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3487958Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3488497Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3488837Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3489028Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3489317Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3489717Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 15`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3490187Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3490311Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3490602Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3490774Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3490863Z     @@ -5,6 +5,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3491073Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3491296Z               <B key="b">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3491570Z               <C key="c">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3491849Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3492152Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3492543Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3493125Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3493449Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3493670Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3494190Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3494799Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3495311Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3496101Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3496957Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3497591Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3497946Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3498280Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3499151Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3499656Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3500215Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3500715Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3500941Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3501241Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3501766Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 16`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3502342Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3502473Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3502779Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3503060Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3503195Z     @@ -5,6 +5,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3503504Z               <C key="c">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3503837Z               <B key="b">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3504149Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3504454Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3504777Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3505199Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3505760Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3506107Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3506347Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3506988Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3507952Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3508725Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3509743Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3510685Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3511390Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3511769Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3512179Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3513201Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3513720Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3514278Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3514784Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3515059Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3515357Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3515880Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 17`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3516443Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3516573Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3516883Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3517061Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3517178Z     @@ -4,6 +4,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3517504Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3517814Z               <C key="c">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3518131Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3518423Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3518748Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3519170Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3519719Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3520377Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3520618Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3521263Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3522226Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3523130Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3524143Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3525079Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3525809Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3526194Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3526613Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3527537Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3528038Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3528568Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3529054Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3529271Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3529568Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3530082Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 18`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3530646Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3530779Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3531081Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3531258Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3531373Z     @@ -4,6 +4,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3531705Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3532009Z               <C key="c">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3532322Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3532620Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3533054Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3533477Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3534032Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3534378Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3534607Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3535268Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3536221Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3536994Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3537996Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3538948Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3539669Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3540062Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3540471Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3541383Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3541894Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3542428Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3543004Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3543243Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3543549Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3544073Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 19`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3544700Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3544841Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3545161Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3545338Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3545666Z     @@ -4,6 +4,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3546013Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3546333Z               <C key="c">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3546648Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3546954Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3547274Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3547687Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3548243Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3548592Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3548824Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3549482Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3550418Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3551190Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3552197Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3553223Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3553949Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3554333Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3554745Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3555668Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3556168Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3556722Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3557211Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3557438Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3557739Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3558261Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 20`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3558828Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3558958Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3559262Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3559436Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3559554Z     @@ -4,6 +4,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3559887Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3560192Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3560511Z               <B key="b">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3560815Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3561144Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3561577Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3562127Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3562485Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3562723Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3563468Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3564426Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3565212Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3566200Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3567035Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3567664Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3568025Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3568457Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3569396Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3569874Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3570536Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3571056Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3571274Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3571521Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3571967Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 21`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3572463Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3572595Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3573033Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3573210Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3573324Z     @@ -3,6 +3,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3573620Z             <X>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3573989Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3574300Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3574591Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3574924Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3575322Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3575868Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3576220Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3576463Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3577134Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3578027Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3578713Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3579561Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3580405Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3581115Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3581483Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3581910Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3583025Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3583544Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3584139Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3584576Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3584798Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3585054Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3585503Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 22`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3585970Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3586097Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3586362Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3586515Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3586625Z     @@ -2,6 +2,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3586927Z         ▾ <Root>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3587179Z             <X>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3587419Z             <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3587734Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3588279Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3588964Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3589807Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3590299Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3590689Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3591734Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3593240Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3594075Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3595012Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3595909Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3596820Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3597386Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3597880Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3598859Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3599401Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3599986Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3600500Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3600759Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3601077Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3601620Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 23`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3602200Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3602371Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3602704Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3603017Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3603140Z     @@ -3,6 +3,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3603468Z             <X>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3603861Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3604236Z               <B key="b">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3604563Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3604924Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3605396Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3605993Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3606367Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3606624Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3607337Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3608324Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3609153Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3610220Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3611222Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3612036Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3612465Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3612987Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3613988Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3614554Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3615147Z   ● StoreStress (Legacy Mode) › should handle a stress test for Suspense without type change (Legacy Mode)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3615700Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3615961Z     expect(received).toMatchInlineSnapshot(snapshot)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3616297Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3616844Z     Snapshot name: `StoreStress (Legacy Mode) should handle a stress test for Suspense without type change (Legacy Mode) 24`
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3617465Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3617650Z     - Snapshot  - 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3617999Z     + Received  + 1
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3618199Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3618318Z     @@ -3,6 +3,6 @@
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3618668Z             <X>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3619051Z           ▾ <Suspense>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3619426Z               <A key="a">
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3619759Z             <Y>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3620150Z       [suspense-root]  rects={[]}
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3620639Z     -   <Suspense name="Unknown" rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3621284Z     +   <Suspense name="Unknown" uniqueSuspenders={true} rects={null}>
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3621684Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3621959Z     ^[[0m ^[[90m 1298 |^[[39m       )^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3622696Z      ^[[90m 1299 |^[[39m       ^[[90m// We snapshot each step once so it doesn't regress.^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3623839Z     ^[[31m^[[1m>^[[22m^[[39m^[[90m 1300 |^[[39m       expect(store)^[[33m.^[[39mtoMatchInlineSnapshot(stepsSnapshotTwo[i])^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3624873Z      ^[[90m      |^[[39m                     ^[[31m^[[1m^^[[22m^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3626062Z      ^[[90m 1301 |^[[39m       fallbackSnapshots^[[33m.^[[39mpush(print(store^[[33m,^[[39m undefined^[[33m,^[[39m undefined^[[33m,^[[39m ^[[36mfalse^[[39m))^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3627079Z      ^[[90m 1302 |^[[39m       act(() ^[[33m=>^[[39m unmount())^[[33m;^[[39m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3627872Z      ^[[90m 1303 |^[[39m       expect(print(store))^[[33m.^[[39mtoBe(^[[32m''^[[39m)^[[33m;^[[39m^[[0m
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3628294Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3628730Z       at _loop21 (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1300:21)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3629750Z       at Object.<anonymous> (packages/react-devtools-shared/src/__tests__/storeStressSync-test.js:1303:311)
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3630294Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3630303Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3630433Z Snapshot Summary
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3631249Z  › 27 snapshots failed from 2 test suites. Inspect your code changes or re-run jest with `-u` to update them.
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3631807Z 
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3632164Z Test Suites: 2 failed, 21 skipped, 19 passed, 21 of 42 total
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3633005Z Tests:       4 failed, 437 skipped, 180 passed, 621 total
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3633588Z Snapshots:   27 failed, 260 passed, 287 total
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3634034Z Time:        18.453 s
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3634392Z Ran all test suites.
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3714181Z ##[error]Process completed with exit code 1.
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.3810921Z Post job cleanup.
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4513156Z [command]/usr/bin/git version
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4542571Z git version 2.55.0
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4570222Z Temporarily overriding HOME='/home/runner/work/_temp/25f01bb6-37a6-45b5-b404-d9325e82cfa8' before making global git config changes
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4571092Z Adding repository directory to the temporary git global config as a safe directory
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4574173Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/react/react
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4602305Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4628537Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4798189Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4816927Z http.https://github.com/.extraheader
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4824262Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.4849678Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.5014250Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.5036168Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.5315117Z Cleaning up orphan processes
+Run DevTools tests for versions (18.0)	UNKNOWN STEP	2026-10-11T00:10:15.5497829Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/cache@v4, actions/checkout@v4, actions/download-artifact@v4, actions/setup-node@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

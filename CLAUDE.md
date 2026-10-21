@@ -145,7 +145,7 @@ pipeline-medic/
 |---|---|---|
 | v0.1 | Local Ollama inference + FastAPI `/diagnose` endpoint | **Shipped** |
 | v0.2 | Flat RAG baseline (Chroma) over real CI failure logs (public OSS + dogfooded), measured | **Shipped** |
-| v0.2.5 | Knowledge-graph upgrade (Neo4j/Cypher GraphRAG), measured vs. v0.2 baseline | Designed |
+| v0.2.5 | Knowledge-graph upgrade (Neo4j/Cypher GraphRAG), measured vs. v0.2 baseline | Building — built and measured (no proven gain, flat stays default); held-out label review pending |
 | v0.3 | Action Agent + MCP tools, dry-run by default, adversarial guardrail tests | Designed |
 | v0.4 | Full LangGraph agent graph (Parser → Diagnosis → Classifier → Action), checkpointed | Designed |
 | v0.5 | LoRA-tuned risk/escalation classifier vs. prompted-LLM baseline | Designed |

@@ -1,6 +1,6 @@
 # Pipeline Medic
 
-**Status: 🚧 Building — v0.2 retrieval baseline shipped; v0.2.5 (GraphRAG) next**
+**Status: 🚧 Building — v0.2.5 (knowledge graph) measured; held-out labels in review**
 
 An agentic CI/CD reliability copilot. It watches a build pipeline, diagnoses
 *why* a run failed, judges how risky the failure is, and either takes a safe
@@ -51,17 +51,20 @@ MCP · LoRA/PEFT (Hugging Face) · RAGAS · Streamlit · Docker · GitHub Action
 |---|---|---|
 | v0.1 | Local Ollama inference + FastAPI `/diagnose` endpoint | ✅ Shipped |
 | v0.2 | Flat RAG baseline over real CI failure logs (measured) | ✅ Shipped |
-| v0.2.5 | Knowledge-graph upgrade (GraphRAG), measured vs. v0.2 | 📋 Designed |
+| v0.2.5 | Knowledge-graph upgrade (GraphRAG), measured vs. v0.2 | 🚧 Building — measured, no proven gain; labels in review |
 | v0.3 | Action Agent + MCP tools, dry-run + guardrail tests | 📋 Designed |
 | v0.4 | Full agent graph, checkpointed | 📋 Designed |
 | v0.5 | LoRA-tuned risk classifier vs. prompted-LLM baseline | 📋 Designed |
 | v0.6–v0.9 | Evaluation, observability, guardrail hardening (+ stretch: review console) | 📋 Designed |
 | v1.0+ | Polish, docs, demo | 📋 Designed |
 
-### Current baseline (v0.2)
+### Retrieval results
 
-Retrieving past failures of the same category, leave-one-out over 46 real
-GitHub Actions failure logs from 9 open-source repos:
+The task: given a failed CI log, return past failures of the same category.
+Scored leave-one-out on real GitHub Actions failure logs, excluding results
+from the query's own repo ("cross-repo").
+
+**v0.2: flat vector search.** 46 logs from 9 open-source repos:
 
 | Chunking | Recall@1 (cross-repo) | MRR (cross-repo) |
 |---|---|---|
@@ -71,6 +74,23 @@ GitHub Actions failure logs from 9 open-source repos:
 
 Chance@1 is 0.15. Method, caveats and the same-repo numbers are in
 [`experiments/001_chunking_strategy.md`](experiments/001_chunking_strategy.md).
+
+**v0.2.5: knowledge graph (Neo4j).** Rule-based entities (tools, error
+signatures, packages, exit codes) in a graph, alone and combined with flat
+search. Every choice was made on the 46 original logs; the comparison that
+counts is on 64 logs from 20 repos collected afterwards and held out
+(draft labels):
+
+| Method | MRR on dev logs | MRR on held-out logs | Gain over flat, held-out (95% interval) |
+|---|---|---|---|
+| Flat (v0.2) | 0.496 | 0.477 | — |
+| **Hybrid, chosen on dev** | **0.641** | **0.504** | **+0.028 (-0.088 to +0.146)** |
+| Graph only | 0.559 | 0.556 | +0.079 (-0.064 to +0.219) |
+| Multi-hop graph | 0.451 | 0.419 | -0.058 (-0.187 to +0.067) |
+
+The dev gain mostly came from fitting the rules to the logs they were written
+against, and it does not hold up on new logs. Flat search stays the default.
+Details: [`experiments/002_graphrag_vs_flat.md`](experiments/002_graphrag_vs_flat.md).
 
 See `CLAUDE.md` for the full architecture brief and `docs/decisions/` for
 design rationale as it's written.
@@ -85,8 +105,12 @@ pip install -r requirements-dev.txt
 ollama pull llama3.2
 uvicorn app.main:app --reload
 
-python -m pytest                  # tests (no model download needed)
-python -m evaluation.run_eval     # retrieval baseline
+copy .env.example .env           # local settings (Neo4j password)
+docker compose up -d              # Neo4j for the knowledge graph
+
+python -m pytest                  # tests (graph tests skip without Neo4j)
+python -m evaluation.run_eval     # flat retrieval baseline
+python -m evaluation.run_graph_eval   # graph vs flat (needs Neo4j)
 python data/collect_ci_logs.py    # collect more failed CI logs (needs gh auth)
 ```
 

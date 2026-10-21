@@ -4,9 +4,9 @@ Failed GitHub Actions run logs (`gh run view --log-failed`, last 400 lines),
 collected by `data/collect_ci_logs.py`.
 
 - `dogfood/`: Pipeline Medic's own CI. Empty until its own CI fails.
-- `oss/`: public open-source repos (ruff, black, fastapi, pydantic, pytest,
-  poetry, prettier, httpx, home-assistant). Each row in `index.csv` links to
-  the original run.
+- `oss/`: 123 logs from 21 public open-source repos (Python, JavaScript and
+  Rust projects, e.g. pytest, pandas, django, react, next.js, cargo, tokio).
+  Each row in `index.csv` links to the original run.
 - `index.csv`: one row per log: source, repo, workflow, run URL, `label`,
   `label_status` (`draft` = not yet human-reviewed, `reviewed` = checked) and
   `split` (`dev` = the 51 logs used to design v0.2.5's extraction rules and

@@ -20,7 +20,7 @@ logs from open-source projects.
 |---|---|---|---|
 | 0 | Reconnaissance and plan | Shipped | this page |
 | 1 | Foundation: API, schemas, errors, health, config | Shipped | [10 – API, FastAPI and Pydantic](10-api-fastapi-pydantic.md) |
-| 2 | Log parsing and redaction | Planned | 04 (planned) |
+| 2 | Log parsing and redaction | Shipped | [04 – Log parsing and redaction](04-log-parsing-and-redaction.md) |
 | 3 | Retrieval: lexical, semantic, hybrid | Planned (v0.2 baseline exists) | 05, 06 (planned) |
 | 4 | Structured diagnosis | Planned | 07 (planned) |
 | 5 | Patch proposals | Planned | 09 (planned) |

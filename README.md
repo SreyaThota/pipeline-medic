@@ -1,6 +1,6 @@
 # PipelineMedic X
 
-**Status: 🚧 Building — PipelineMedic X: Phase 1 (foundation) shipped, Phase 2 next**
+**Status: 🚧 Building — PipelineMedic X: Phases 1–2 shipped; Phase 3 waits for held-out label review**
 
 AI-assisted CI/CD failure diagnosis and safe remediation. It takes a failed
 pipeline log, finds the evidence in it, retrieves similar past failures,
@@ -19,10 +19,12 @@ is in the repo and reproducible.
 | `POST /v1/diagnose`: Ollama summary of a log, typed request and response | ✅ Shipped (Phase 1) |
 | `GET /health` (liveness) and `GET /health/ready` (checks Ollama) | ✅ Shipped (Phase 1) |
 | One JSON error shape with a request ID; size limit; validated settings | ✅ Shipped (Phase 1) |
+| `POST /v1/parse`: GitHub Actions / Jenkins / text parsing into line-referenced evidence | ✅ Shipped (Phase 2) |
+| Secret redaction before parsing, storage or any model call | ✅ Shipped (Phase 2) |
 | `POST /diagnose`: the original v0.1 endpoint, kept for compatibility | ✅ Shipped, deprecated |
 | Retrieval of similar past failures (flat vector search) | ✅ Shipped, measured (v0.2) |
 | Neo4j knowledge graph and hybrid retrieval | 🚧 Built and measured, not the default (v0.2.5) |
-| Parsing, redaction, structured diagnosis, patch proposals, approval and audit, UI | 📋 Planned, see [`ROADMAP.md`](ROADMAP.md) |
+| Structured diagnosis, patch proposals, approval and audit, UI | 📋 Planned, see [`ROADMAP.md`](ROADMAP.md) |
 
 ## Target architecture
 
@@ -105,6 +107,10 @@ python data/collect_ci_logs.py    # collect more failed CI logs (needs gh auth)
 
 ```bash
 curl http://localhost:8000/health/ready
+```
+```bash
+curl -X POST http://localhost:8000/v1/parse -H "Content-Type: application/json" -d "{\"log_text\": \"export API_KEY=abcd1234efgh
+FAILED tests/test_x.py::test_y\"}"
 ```
 ```bash
 curl -X POST http://localhost:8000/v1/diagnose -H "Content-Type: application/json" -d "{\"log_text\": \"FAILED tests/test_api.py::test_login - AssertionError\"}"

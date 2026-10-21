@@ -51,14 +51,14 @@
           "recall@3": 0.609,
           "recall@5": 0.652,
           "mrr": 0.496,
-          "latency_ms_p50": 44.8
+          "latency_ms_p50": 46.2
         },
         "same_repo_allowed": {
           "recall@1": 0.674,
           "recall@3": 0.717,
           "recall@5": 0.761,
           "mrr": 0.703,
-          "latency_ms_p50": 42.8
+          "latency_ms_p50": 43.0
         }
       },
       "graph": {
@@ -67,14 +67,14 @@
           "recall@3": 0.587,
           "recall@5": 0.652,
           "mrr": 0.559,
-          "latency_ms_p50": 34.0
+          "latency_ms_p50": 52.5
         },
         "same_repo_allowed": {
           "recall@1": 0.739,
           "recall@3": 0.804,
           "recall@5": 0.826,
           "mrr": 0.772,
-          "latency_ms_p50": 8.9
+          "latency_ms_p50": 17.5
         }
       },
       "graph_multihop": {
@@ -83,14 +83,14 @@
           "recall@3": 0.609,
           "recall@5": 0.63,
           "mrr": 0.451,
-          "latency_ms_p50": 17.7
+          "latency_ms_p50": 27.9
         },
         "same_repo_allowed": {
           "recall@1": 0.696,
           "recall@3": 0.826,
           "recall@5": 0.826,
           "mrr": 0.757,
-          "latency_ms_p50": 14.6
+          "latency_ms_p50": 17.4
         }
       },
       "hybrid_rrf": {
@@ -99,14 +99,14 @@
           "recall@3": 0.587,
           "recall@5": 0.696,
           "mrr": 0.527,
-          "latency_ms_p50": 110.8
+          "latency_ms_p50": 86.8
         },
         "same_repo_allowed": {
           "recall@1": 0.652,
           "recall@3": 0.761,
           "recall@5": 0.804,
           "mrr": 0.707,
-          "latency_ms_p50": 117.3
+          "latency_ms_p50": 88.0
         }
       },
       "hybrid": {
@@ -115,14 +115,14 @@
           "recall@3": 0.674,
           "recall@5": 0.761,
           "mrr": 0.641,
-          "latency_ms_p50": 114.4
+          "latency_ms_p50": 90.1
         },
         "same_repo_allowed": {
           "recall@1": 0.761,
           "recall@3": 0.848,
           "recall@5": 0.891,
           "mrr": 0.806,
-          "latency_ms_p50": 119.1
+          "latency_ms_p50": 77.1
         }
       },
       "hybrid_multihop": {
@@ -131,16 +131,184 @@
           "recall@3": 0.652,
           "recall@5": 0.717,
           "mrr": 0.505,
-          "latency_ms_p50": 144.5
+          "latency_ms_p50": 97.7
         },
         "same_repo_allowed": {
           "recall@1": 0.717,
           "recall@3": 0.87,
           "recall@5": 0.87,
           "mrr": 0.786,
-          "latency_ms_p50": 117.0
+          "latency_ms_p50": 93.5
         }
       }
+    }
+  },
+  "test": {
+    "corpus_logs": 111,
+    "queries": 64,
+    "label_counts": {
+      "test_failure": 34,
+      "ci_config": 19,
+      "build_compile": 13,
+      "policy_check": 12,
+      "lint_format": 12,
+      "infra_network": 6,
+      "dependency_install": 5,
+      "type_check": 5,
+      "docs_check": 4,
+      "timeout": 1
+    },
+    "chance@1": 0.164,
+    "graph": {
+      "Run": 111,
+      "Repo": 24,
+      "Entity": 109,
+      "Tool": 38,
+      "ErrorSignature": 54,
+      "Package": 10,
+      "ExitCode": 7,
+      "relationships": 594
+    },
+    "expand_weight": 0.25,
+    "methods": {
+      "flat": {
+        "cross_repo": {
+          "recall@1": 0.375,
+          "recall@3": 0.547,
+          "recall@5": 0.672,
+          "mrr": 0.477,
+          "latency_ms_p50": 52.0
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.5,
+          "recall@3": 0.656,
+          "recall@5": 0.734,
+          "mrr": 0.589,
+          "latency_ms_p50": 49.3
+        }
+      },
+      "graph": {
+        "cross_repo": {
+          "recall@1": 0.453,
+          "recall@3": 0.688,
+          "recall@5": 0.734,
+          "mrr": 0.556,
+          "latency_ms_p50": 42.2
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.594,
+          "recall@3": 0.688,
+          "recall@5": 0.766,
+          "mrr": 0.648,
+          "latency_ms_p50": 9.4
+        }
+      },
+      "graph_multihop": {
+        "cross_repo": {
+          "recall@1": 0.328,
+          "recall@3": 0.484,
+          "recall@5": 0.594,
+          "mrr": 0.419,
+          "latency_ms_p50": 20.0
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.422,
+          "recall@3": 0.516,
+          "recall@5": 0.656,
+          "mrr": 0.49,
+          "latency_ms_p50": 16.2
+        }
+      },
+      "hybrid_rrf": {
+        "cross_repo": {
+          "recall@1": 0.453,
+          "recall@3": 0.625,
+          "recall@5": 0.719,
+          "mrr": 0.552,
+          "latency_ms_p50": 77.7
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.531,
+          "recall@3": 0.703,
+          "recall@5": 0.766,
+          "mrr": 0.623,
+          "latency_ms_p50": 74.6
+        }
+      },
+      "hybrid": {
+        "cross_repo": {
+          "recall@1": 0.375,
+          "recall@3": 0.672,
+          "recall@5": 0.703,
+          "mrr": 0.504,
+          "latency_ms_p50": 83.8
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.656,
+          "recall@3": 0.75,
+          "recall@5": 0.797,
+          "mrr": 0.709,
+          "latency_ms_p50": 80.7
+        }
+      },
+      "hybrid_multihop": {
+        "cross_repo": {
+          "recall@1": 0.328,
+          "recall@3": 0.484,
+          "recall@5": 0.594,
+          "mrr": 0.419,
+          "latency_ms_p50": 114.0
+        },
+        "same_repo_allowed": {
+          "recall@1": 0.422,
+          "recall@3": 0.516,
+          "recall@5": 0.656,
+          "mrr": 0.49,
+          "latency_ms_p50": 101.3
+        }
+      }
+    }
+  },
+  "test_mrr_difference_vs_flat_cross_repo": {
+    "graph": {
+      "mean_difference": 0.079,
+      "ci95_low": -0.064,
+      "ci95_high": 0.219,
+      "queries_better": 23,
+      "queries_worse": 21,
+      "queries_equal": 20
+    },
+    "graph_multihop": {
+      "mean_difference": -0.058,
+      "ci95_low": -0.187,
+      "ci95_high": 0.067,
+      "queries_better": 17,
+      "queries_worse": 22,
+      "queries_equal": 25
+    },
+    "hybrid_rrf": {
+      "mean_difference": 0.076,
+      "ci95_low": -0.023,
+      "ci95_high": 0.172,
+      "queries_better": 21,
+      "queries_worse": 11,
+      "queries_equal": 32
+    },
+    "hybrid": {
+      "mean_difference": 0.028,
+      "ci95_low": -0.088,
+      "ci95_high": 0.146,
+      "queries_better": 17,
+      "queries_worse": 18,
+      "queries_equal": 29
+    },
+    "hybrid_multihop": {
+      "mean_difference": -0.058,
+      "ci95_low": -0.187,
+      "ci95_high": 0.067,
+      "queries_better": 17,
+      "queries_worse": 22,
+      "queries_equal": 25
     }
   }
 }

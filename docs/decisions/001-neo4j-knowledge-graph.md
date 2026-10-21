@@ -52,3 +52,11 @@ committed before any of those logs were read.
   logs. The ability to ask multi-hop questions is still the reason for using
   a graph database, but the evidence does not support using it for this
   retrieval task.
+
+## Outcome (measured)
+
+On the held-out logs the selected hybrid improved cross-repo MRR over flat
+RAG by +0.028, with a 95% interval of -0.088 to +0.146: no proven gain (see
+`experiments/002_graphrag_vs_flat.md`). Flat vector search therefore stays the
+default retriever. The graph stays in the repo, with its tests and CI, for
+the relationship queries planned in v0.3 and v0.4.

@@ -1,0 +1,22 @@
+# Local services for Pipeline Medic. Start with: docker compose up -d
+services:
+  neo4j:
+    image: neo4j:5.26-community
+    container_name: pipeline-medic-neo4j
+    ports:
+      - "7474:7474"  # browser UI: http://localhost:7474
+      - "7687:7687"  # bolt, used by rag/graph.py
+    environment:
+      NEO4J_AUTH: "${NEO4J_USER:-neo4j}/${NEO4J_PASSWORD:?set NEO4J_PASSWORD in .env}"
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 256m
+    volumes:
+      - neo4j_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO /dev/null http://localhost:7474 || exit 1"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  neo4j_data:

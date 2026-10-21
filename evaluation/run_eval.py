@@ -16,6 +16,7 @@ failures from the same repo often share boilerplate and inflate the score.
 Usage:
     python -m evaluation.run_eval                 # all labelled logs
     python -m evaluation.run_eval --reviewed-only # only human-reviewed labels
+    python -m evaluation.run_eval --split dev     # the 51 logs v0.2 was measured on
 """
 
 import argparse
@@ -87,6 +88,8 @@ def evaluate(retriever: Retriever, queries, cross_repo: bool) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run the v0.2 retrieval baseline eval.")
     parser.add_argument("--reviewed-only", action="store_true")
+    parser.add_argument("--split", choices=["dev", "test"], default=None,
+                        help="only logs from this split (default: all)")
     parser.add_argument("--window", type=int, default=15)
     parser.add_argument("--overlap", type=int, default=5)
     args = parser.parse_args()
@@ -95,7 +98,8 @@ def main() -> None:
         status = {r["log_id"]: r["label_status"] for r in csv.DictReader(f)}
     records = [r for r in load_records(labelled_only=True)
                if r.label not in EXCLUDED_LABELS
-               and (not args.reviewed_only or status[r.log_id] == "reviewed")]
+               and (not args.reviewed_only or status[r.log_id] == "reviewed")
+               and (args.split is None or r.split == args.split)]
     labels = [r.label for r in records]
     counts = Counter(labels)
     # A log whose category has no other member can never be matched, so it

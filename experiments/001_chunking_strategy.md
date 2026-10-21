@@ -2,7 +2,8 @@
 
 **Status:** final for v0.2. Labels reviewed (accepted as drafted, no changes).
 **Result file:** `evaluation/results/v0.2_flat_rag_baseline.json`
-**Reproduce:** `python -m evaluation.run_eval --reviewed-only`
+**Reproduce:** `python -m evaluation.run_eval --reviewed-only --split dev`
+(the 51 logs that existed at v0.2; v0.2.5 added 72 more as a held-out set)
 
 ## Question
 

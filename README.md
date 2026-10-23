@@ -1,6 +1,6 @@
 # Pipeline Medic
 
-**Status: 🚧 Building — v0.3–v0.8 shipped (some measured on draft labels); open decisions in [`NEEDS_DECISION.md`](NEEDS_DECISION.md)**
+**Status: ✅ v0.1–v0.9 shipped and measured on human-reviewed labels; v1.0 (handbook, demo) not started**
 
 An agentic CI/CD reliability copilot. It takes a failed pipeline run,
 diagnoses *why* it failed, judges how risky the failure is, and proposes a
@@ -23,15 +23,16 @@ repo and reproducible, including the negative results.
 | One JSON error shape with a request ID; size limit; validated settings | ✅ Shipped (v0.2.6) |
 | `POST /diagnose`: the original v0.1 endpoint, kept for compatibility | ✅ Shipped, deprecated |
 | Retrieval of similar past failures (flat vector search) | ✅ Shipped, measured (v0.2) |
-| Neo4j knowledge graph and hybrid retrieval | 🚧 Built and measured, not adopted (v0.2.5) |
+| Neo4j knowledge graph and hybrid retrieval | ✅ Built and measured; not adopted (v0.2.5) |
 | MCP server: `create_ticket`, `notify`, read-only `lookup_log`; dry-run by default, every call audited | ✅ Shipped (v0.3), local file backends only |
 | Action Agent: fixed ticket/notify policy from risk level; tool choice never taken from log text | ✅ Shipped (v0.3) |
-| LangGraph agent graph: parse → diagnose → risk → propose → ⏸ human approval → execute; checkpointed | ✅ Shipped (v0.4), draft risk rubric |
-| LoRA risk classifier (MiniLM + LoRA) vs prompted LLM, measured on held-out logs | 🚧 Built and measured, not adopted (v0.5, draft labels) |
-| Trajectory evaluation of the whole graph, stage by stage, with first-error attribution | ✅ Shipped (v0.6), draft labels |
+| LangGraph agent graph: parse → diagnose → risk → propose → ⏸ human approval → execute; checkpointed | ✅ Shipped (v0.4) |
+| Rule-based risk classifier (rubric v1 on the retrieved category) as the graph default | ✅ Shipped, chosen on measured results ([ADR 004](docs/decisions/004-resolve-open-decisions.md)) |
+| LoRA risk classifier (MiniLM + LoRA) vs prompted LLM, measured on held-out logs | ✅ Built and measured; not adopted (v0.5) |
+| Trajectory evaluation of the whole graph, stage by stage, with first-error attribution | ✅ Shipped (v0.6) |
 | Tracing: span per graph stage and per tool call (`var/traces.jsonl`), latency and tool success-rate summary | ✅ Shipped (v0.7) |
 | Security suite (80 tests, `pytest -m security`) and threat model ([`docs/security.md`](docs/security.md)) | ✅ Shipped (v0.8) |
-| Real ticket / notification backends (GitHub Issues, Slack, ...) | 📋 Undecided ([`NEEDS_DECISION.md`](NEEDS_DECISION.md) #1) |
+| External ticket / notification backends (GitHub Issues, Slack, ...) | ❌ Out of scope by decision: local files only ([ADR 004](docs/decisions/004-resolve-open-decisions.md)) |
 
 ## Architecture
 
@@ -40,14 +41,15 @@ What runs today (`app/graph_orchestrator.py`):
 ```
 Log Parser Agent     redact secrets, parse, extract line-referenced evidence (deterministic)
   → Diagnosis Agent  flat-RAG retrieval over reviewed past failures, category by weighted vote
-  → Risk Classifier  prompted llama3.2 with a rubric; rubric fallback if the model fails
+  → Risk Classifier  rubric v1 on the retrieved category (no model); llama3.2 is opt-in
   → Action Agent     fixed policy → proposed create_ticket / notify (MCP tools)
   → ⏸ human approval (LangGraph interrupt, checkpointed)
   → execute          dry-run unless approved AND ACTIONS_ENABLED; audited and traced
 ```
 
-GraphRAG (v0.2.5) and the LoRA classifier (v0.5) are built and measured but
-not in the default path: neither proved a gain on held-out logs. Safety
+GraphRAG (v0.2.5), the LoRA classifier (v0.5) and the prompted-LLM risk
+classifier are built and measured but not in the default path: none beat the
+simpler option on held-out logs. By default the graph needs no LLM at all. Safety
 rules: logs, retrieved text and model output are untrusted; the model never
 chooses a tool, channel or file; secrets are redacted before any model call;
 nothing runs without a human's approval.
@@ -60,9 +62,9 @@ Chroma + sentence-transformers · Neo4j/Cypher (evaluated) · PEFT/LoRA
 
 ## Results
 
-All held-out numbers below use labels that are still **drafts**: the 72
-held-out failure categories await review, and risk levels come from a draft
-rubric (`NEEDS_DECISION.md` #2).
+All held-out numbers below use human-reviewed failure-category labels (123
+real logs from 21 repos); risk levels come from rubric v1 applied to those
+categories.
 
 ### Retrieval
 
@@ -105,7 +107,7 @@ against. Flat search stays the default. Details: [`experiments/002`](experiments
 
 LoRA minus prompted LLM: +0.047 accuracy (95% interval -0.125 to +0.214),
 not proven, so LoRA is not adopted. The prompted LLM missed every high-risk
-failure. Details: [`experiments/003`](experiments/003_lora_risk_classifier.md).
+failure. The rule-based classifier is now the default (ADR 004). Details: [`experiments/003`](experiments/003_lora_risk_classifier.md).
 
 ### Whole-graph trajectories (v0.6)
 

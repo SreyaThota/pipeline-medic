@@ -23,7 +23,7 @@ built; the full roadmap is in `ROADMAP.md`.
 |---|---|---|---|
 | v0.1 | Ollama + FastAPI `/diagnose` | Shipped | — |
 | v0.2 | Flat retrieval baseline | Shipped | `experiments/001_chunking_strategy.md` |
-| v0.2.5 | Neo4j GraphRAG, evaluated not adopted | Building (labels in review) | `experiments/002_graphrag_vs_flat.md` |
+| v0.2.5 | Neo4j GraphRAG, evaluated not adopted | Shipped | `experiments/002_graphrag_vs_flat.md` |
 | v0.2.6 | API foundation | Shipped | [10 – API, FastAPI and Pydantic](10-api-fastapi-pydantic.md) |
 | v0.2.6 | Log parsing and redaction | Shipped | [04 – Log parsing and redaction](04-log-parsing-and-redaction.md) |
 | v0.3 | MCP Action Agent: ticket + notify | Shipped | `docs/security.md` |

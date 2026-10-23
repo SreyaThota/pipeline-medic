@@ -1,7 +1,8 @@
 # 003: LoRA risk classifier vs prompted LLM (v0.5)
 
-**Status:** measured on draft labels (risk rubric is a draft, NEEDS_DECISION.md
-#2; test category labels are unreviewed). Not adopted: see Decision.
+**Status:** final. Category labels reviewed on 2026-10-23 (accepted as drafted,
+no changes); risk labels use rubric v1. Re-scored on the final labels with
+identical results. LoRA not adopted: see Decision.
 **Result files:** `evaluation/results/v0.5_risk_classifier.json` (metrics,
 versions), `evaluation/results/v0.5_risk_predictions.json` (every prediction).
 **Reproduce:** `python -m evaluation.run_risk_eval --stage lora`, then
@@ -16,7 +17,8 @@ repositories it never saw?
 ## Setup
 
 - **Labels.** Frozen in commit `bcad6d1` before any training or scoring:
-  the draft rubric applied to each log's failure category and workflow name.
+  rubric v1 (`agents/risk_rubric.py`) applied to each log's reviewed failure
+  category and workflow name.
 - **Train:** 47 dev logs (reviewed categories) + 30 synthetic examples
   (training only, labelled synthetic).
 - **Test:** 64 held-out logs. 52 of them come from repos that never appear in
@@ -88,8 +90,9 @@ repositories it never saw?
 
 ## Caveats
 
-- **Draft labels.** Risk labels come from a draft rubric, and the test
-  categories are unreviewed. A different rubric changes every number.
+- **Rubric-derived labels.** Risk labels come from rubric v1 applied to the
+  category labels, not from independent human risk judgements. A different
+  rubric would change every number.
 - **Small training set:** 77 examples, 30 of them synthetic.
 - **One small base model and one hyper-parameter setting.** Nothing was tuned,
   on purpose. This is not a ceiling.

@@ -217,7 +217,7 @@ def main() -> None:
     result = evaluate(args.risk, args.judge)
     summary = summarize(result)
     report = {"summary": summary, "risk_mode": args.risk,
-              "labels": "category labels: test split is draft; risk: draft rubric v1",
+              "labels": "human-reviewed category labels; risk: rubric v1",
               "versions": {p: version(p) for p in ("langgraph", "chromadb", "sentence-transformers")},
               "python": platform.python_version(), "runs": result["runs"], "judge": result["judge"]}
     RESULTS.mkdir(exist_ok=True)

@@ -1,10 +1,13 @@
 # 002: Knowledge graph (GraphRAG) vs flat RAG (v0.2.5)
 
-**Status:** measured on draft held-out labels; final after label review.
+**Status:** final. Held-out labels reviewed on 2026-10-23 (accepted as drafted,
+no changes); a re-run on the final labels gave identical numbers.
 **Result file:** `evaluation/results/v0.2.5_graphrag_vs_flat.json`
 **Reproduce:** `python -m evaluation.run_graph_eval` (needs Neo4j), or run the
-"Retrieval eval" workflow in GitHub Actions. This result comes from
-[run 39660789178](https://github.com/SreyaThota/pipeline-medic/actions/runs/39660789178).
+"Retrieval eval" workflow in GitHub Actions. First measured in
+[run 39660789178](https://github.com/SreyaThota/pipeline-medic/actions/runs/39660789178)
+and re-run on the final labels in
+[run 39942180961](https://github.com/SreyaThota/pipeline-medic/actions/runs/39942180961).
 
 ## Question
 
@@ -97,9 +100,9 @@ bootstrap, 10,000 resamples):
 
 ## Caveats
 
-- **Draft labels.** The test labels were drafted by the same person who wrote
-  the rules, after the rules were frozen but with knowledge of them. They
-  still need independent review.
+- **One labeller.** The test labels were drafted after the rules were frozen,
+  but with knowledge of them, and then accepted unchanged in review. There
+  is no second, independent labeller.
 - **Small sample.** With 64 queries, a difference smaller than about 0.1 MRR
   cannot be told apart from noise.
 - **One labelling scheme.** "Same category" is coarse. A retriever could find

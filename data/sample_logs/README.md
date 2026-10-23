@@ -8,7 +8,7 @@ collected by `data/collect_ci_logs.py`.
   Rust projects, e.g. pytest, pandas, django, react, next.js, cargo, tokio).
   Each row in `index.csv` links to the original run.
 - `index.csv`: one row per log: source, repo, workflow, run URL, `label`,
-  `label_status` (`draft` = not yet human-reviewed, `reviewed` = checked) and
+  `label_status` (all 123 are `reviewed` as of 2026-10-23) and
   `split` (`dev` = the 51 logs used to design v0.2.5's extraction rules and
   settings, `test` = collected afterwards and held out).
 

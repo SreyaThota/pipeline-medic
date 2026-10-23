@@ -1,7 +1,9 @@
 # 004: Trajectory evaluation of the full agent graph (v0.6)
 
-**Status:** measured on draft labels (test categories unreviewed; risk from
-the draft rubric).
+**Status:** final. Category labels reviewed on 2026-10-23 (accepted as drafted,
+no changes); risk from rubric v1. The rule-based run was repeated on the final
+labels with identical results; the LLM run was not repeated, because its
+inputs and labels did not change.
 **Result files:** `evaluation/results/v0.6_trajectory_rules.json`,
 `evaluation/results/v0.6_trajectory_prompted.json` (one entry per run, with
 every stage check, plus the judge verdicts).

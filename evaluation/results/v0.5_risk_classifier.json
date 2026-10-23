@@ -1,5 +1,5 @@
 {
-  "labels": "draft rubric v1 on category labels (test category labels are draft)",
+  "labels": "risk rubric v1 on human-reviewed category labels",
   "train": "dev split + 30 synthetic",
   "subsets": {
     "all_test": {

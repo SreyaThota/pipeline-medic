@@ -171,7 +171,7 @@ def stage_report() -> None:
     majority = Counter(r["risk_level"] for r in labels.values() if r["split"] == "dev").most_common(1)[0][0]
     systems["majority_class"] = {i: majority for i in test_ids}
 
-    report: dict = {"labels": "draft rubric v1 on category labels (test category labels are draft)",
+    report: dict = {"labels": "risk rubric v1 on human-reviewed category labels",
                     "train": "dev split + 30 synthetic", "subsets": {}, "versions": {
                         p: version(p) for p in ("torch", "transformers", "peft")},
                     "python": platform.python_version()}

@@ -14,6 +14,6 @@
 
 Status:
 - **Shipped:** retrieval baseline eval (v0.2).
-- **Building:** graph vs flat comparison (v0.2.5), pending label review.
-- **Designed:** golden trajectory set (`benchmark.json`), RAGAS and
-  LLM-as-judge (v0.6–v0.9).
+- **Shipped:** graph vs flat comparison (v0.2.5), risk classifier comparison
+  (v0.5, `run_risk_eval.py`), whole-graph trajectory evaluation with an
+  LLM-as-judge and negative control (v0.6, `run_trajectory_eval.py`).

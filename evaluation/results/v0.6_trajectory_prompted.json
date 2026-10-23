@@ -30,7 +30,7 @@
   }
  },
  "risk_mode": "prompted",
- "labels": "category labels: test split is draft; risk: draft rubric v1",
+ "labels": "human-reviewed category labels; risk: rubric v1",
  "versions": {
   "langgraph": "1.2.16",
   "chromadb": "1.5.9",
@@ -2971,5 +2971,6 @@
    "supported": true,
    "control_flagged": false
   }
- ]
+ ],
+ "note": "LLM run from 2026-10-22; labels were finalised unchanged on 2026-10-23, so the run was not repeated"
 }

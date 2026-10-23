@@ -36,11 +36,13 @@ def select_evidence(parsed: ParsedLog) -> list[Evidence]:
     return [Evidence(line=n, text=t) for n, t in sorted(chosen.items())]
 
 
-def build_retriever(only_reviewed: bool = True, embed: object = None) -> Retriever:
+def build_retriever(only_reviewed: bool = True, embed: object = None,
+                    split: str | None = None) -> Retriever:
     """Flat-RAG retriever over the labelled real logs.
 
     By default only human-reviewed labels go into the knowledge base, so a
-    draft label can never drive a diagnosis.
+    draft label can never drive a diagnosis. Evaluations pass split="dev" so
+    the held-out logs never sit in the knowledge base they are tested against.
     """
     import csv
 
@@ -51,7 +53,8 @@ def build_retriever(only_reviewed: bool = True, embed: object = None) -> Retriev
     with INDEX_CSV.open(newline="", encoding="utf-8") as f:
         reviewed = {row["log_id"] for row in csv.DictReader(f) if row["label_status"] == "reviewed"}
     records = [r for r in load_records(labelled_only=True)
-               if r.label not in NON_CATEGORIES and (not only_reviewed or r.log_id in reviewed)]
+               if r.label not in NON_CATEGORIES and (not only_reviewed or r.log_id in reviewed)
+               and (split is None or r.split == split)]
     embedder = embed or sentence_transformer_embedder()
     collection = build_collection(chromadb.EphemeralClient(), records, embedder, "tail",  # type: ignore[arg-type]
                                   name="knowledge_base")

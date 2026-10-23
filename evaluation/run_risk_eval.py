@@ -91,7 +91,7 @@ def stage_prompted() -> None:
 
     labels = {row["log_id"]: row for row in _label_rows()}
     test = _test_set(load_examples())
-    diagnoser = DiagnosisAgent(build_retriever(only_reviewed=True))  # dev-only knowledge base
+    diagnoser = DiagnosisAgent(build_retriever(split="dev"))  # dev-only knowledge base
     classifier = PromptedRiskClassifier(get_settings())
     data = _load_predictions()
     prompted = data.get("prompted_llm", {"predictions": {}})

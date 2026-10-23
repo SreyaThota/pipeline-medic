@@ -113,7 +113,7 @@ def evaluate(risk_mode: str, judge_n: int) -> dict:
     runtime = tempfile.mkdtemp()
     run_settings = settings.model_copy(update={"runtime_dir": runtime, "actions_enabled": False})
     classifier = RulesClassifier() if risk_mode == "rules" else PromptedRiskClassifier(run_settings)
-    graph = PipelineMedicGraph(ParserAgent(), DiagnosisAgent(build_retriever(only_reviewed=True)),
+    graph = PipelineMedicGraph(ParserAgent(), DiagnosisAgent(build_retriever(split="dev")),
                                classifier, ActionAgent(run_settings))
 
     runs = []

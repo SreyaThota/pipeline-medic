@@ -1,8 +1,8 @@
 log_id,repo,workflow,split,category_label,category_status,risk_level,risk_source
-apache__airflow__38211705554,apache/airflow,CI Notification,test,ci_config,draft,medium,draft_rubric_v1
-apache__airflow__38211937930,apache/airflow,Scheduled verify release calendar,test,policy_check,draft,high,draft_rubric_v1
-apache__airflow__38214130501,apache/airflow,Tests (AMD),test,build_compile,draft,high,draft_rubric_v1
-apache__airflow__38215063289,apache/airflow,Tests (AMD),test,test_failure,draft,medium,draft_rubric_v1
+apache__airflow__38211705554,apache/airflow,CI Notification,test,ci_config,reviewed,medium,draft_rubric_v1
+apache__airflow__38211937930,apache/airflow,Scheduled verify release calendar,test,policy_check,reviewed,high,draft_rubric_v1
+apache__airflow__38214130501,apache/airflow,Tests (AMD),test,build_compile,reviewed,high,draft_rubric_v1
+apache__airflow__38215063289,apache/airflow,Tests (AMD),test,test_failure,reviewed,medium,draft_rubric_v1
 astral-sh__ruff__33661538666,astral-sh/ruff,Run typing conformance,dev,build_compile,reviewed,high,draft_rubric_v1
 astral-sh__ruff__33661538690,astral-sh/ruff,Run memory report,dev,build_compile,reviewed,high,draft_rubric_v1
 astral-sh__ruff__33783519628,astral-sh/ruff,Build binaries,dev,dependency_install,reviewed,high,draft_rubric_v1
@@ -11,48 +11,48 @@ astral-sh__ruff__33785104533,astral-sh/ruff,Build binaries,dev,infra_network,rev
 astral-sh__ruff__33829682997,astral-sh/ruff,ty ecosystem-analyzer,dev,test_failure,reviewed,medium,draft_rubric_v1
 astral-sh__ruff__33831722570,astral-sh/ruff,CI,dev,test_failure,reviewed,medium,draft_rubric_v1
 astral-sh__ruff__33831723431,astral-sh/ruff,CI,dev,test_failure,reviewed,medium,draft_rubric_v1
-django__django__38184430933,django/django,Check commit prefix,test,policy_check,draft,low,draft_rubric_v1
-django__django__38201870021,django/django,Linters,test,lint_format,draft,low,draft_rubric_v1
-django__django__38216225588,django/django,PR Quality Checks,test,policy_check,draft,low,draft_rubric_v1
-django__django__38216259965,django/django,PR Quality Checks,test,policy_check,draft,low,draft_rubric_v1
+django__django__38184430933,django/django,Check commit prefix,test,policy_check,reviewed,low,draft_rubric_v1
+django__django__38201870021,django/django,Linters,test,lint_format,reviewed,low,draft_rubric_v1
+django__django__38216225588,django/django,PR Quality Checks,test,policy_check,reviewed,low,draft_rubric_v1
+django__django__38216259965,django/django,PR Quality Checks,test,policy_check,reviewed,low,draft_rubric_v1
 encode__httpx__35071320524,encode/httpx,Test Suite,dev,build_compile,reviewed,high,draft_rubric_v1
-encode__httpx__36918360067,encode/httpx,Test Suite,test,build_compile,draft,high,draft_rubric_v1
-encode__httpx__37009481166,encode/httpx,Test Suite,test,test_failure,draft,medium,draft_rubric_v1
-eslint__eslint__37486997319,eslint/eslint,Test Ecosystem Plugins,test,test_failure,draft,medium,draft_rubric_v1
-eslint__eslint__38171304253,eslint/eslint,CI,test,lint_format,draft,low,draft_rubric_v1
-eslint__eslint__38181363682,eslint/eslint,CI,test,lint_format,draft,low,draft_rubric_v1
-eslint__eslint__38187322244,eslint/eslint,Update Test Ecosystem Plugins,test,infra_network,draft,low,draft_rubric_v1
-facebook__react__38097296319,facebook/react,(DevTools) Regression Tests,test,test_failure,draft,medium,draft_rubric_v1
-facebook__react__38124697131,facebook/react,(Runtime) Build and Test,test,test_failure,draft,medium,draft_rubric_v1
-facebook__react__38130034916,facebook/react,(Runtime) Build and Test,test,type_check,draft,medium,draft_rubric_v1
-facebook__react__38186749956,facebook/react,(DevTools) Regression Tests,test,test_failure,draft,medium,draft_rubric_v1
+encode__httpx__36918360067,encode/httpx,Test Suite,test,build_compile,reviewed,high,draft_rubric_v1
+encode__httpx__37009481166,encode/httpx,Test Suite,test,test_failure,reviewed,medium,draft_rubric_v1
+eslint__eslint__37486997319,eslint/eslint,Test Ecosystem Plugins,test,test_failure,reviewed,medium,draft_rubric_v1
+eslint__eslint__38171304253,eslint/eslint,CI,test,lint_format,reviewed,low,draft_rubric_v1
+eslint__eslint__38181363682,eslint/eslint,CI,test,lint_format,reviewed,low,draft_rubric_v1
+eslint__eslint__38187322244,eslint/eslint,Update Test Ecosystem Plugins,test,infra_network,reviewed,low,draft_rubric_v1
+facebook__react__38097296319,facebook/react,(DevTools) Regression Tests,test,test_failure,reviewed,medium,draft_rubric_v1
+facebook__react__38124697131,facebook/react,(Runtime) Build and Test,test,test_failure,reviewed,medium,draft_rubric_v1
+facebook__react__38130034916,facebook/react,(Runtime) Build and Test,test,type_check,reviewed,medium,draft_rubric_v1
+facebook__react__38186749956,facebook/react,(DevTools) Regression Tests,test,test_failure,reviewed,medium,draft_rubric_v1
 fastapi__fastapi__34949237522,fastapi/fastapi,Guard Dependencies,dev,policy_check,reviewed,low,draft_rubric_v1
 fastapi__fastapi__35057129605,fastapi/fastapi,Guard Dependencies,dev,policy_check,reviewed,low,draft_rubric_v1
 fastapi__fastapi__35567263837,fastapi/fastapi,Test Redistribute,dev,test_failure,reviewed,medium,draft_rubric_v1
 fastapi__fastapi__35571183172,fastapi/fastapi,Test Redistribute,dev,test_failure,reviewed,medium,draft_rubric_v1
 home-assistant__core__28701780680,home-assistant/core,CI,dev,type_check,reviewed,medium,draft_rubric_v1
 home-assistant__core__28702194167,home-assistant/core,CI,dev,timeout,reviewed,medium,draft_rubric_v1
-home-assistant__core__38217484317,home-assistant/core,Check requirements (deterministic),test,ci_config,draft,medium,draft_rubric_v1
-home-assistant__core__38223769150,home-assistant/core,Check requirements (deterministic),test,ci_config,draft,medium,draft_rubric_v1
-home-assistant__core__38223769327,home-assistant/core,CI,test,lint_format,draft,low,draft_rubric_v1
-home-assistant__core__38224599068,home-assistant/core,CI,test,test_failure,draft,medium,draft_rubric_v1
-huggingface__transformers__38213953453,huggingface/transformers,Slow tests on important models (on Push - A10),test,test_failure,draft,medium,draft_rubric_v1
-huggingface__transformers__38224895155,huggingface/transformers,PR slow CI - Suggestion,test,ci_config,draft,medium,draft_rubric_v1
-langchain-ai__langchain__38054458339,langchain-ai/langchain,⏰ Integration Tests,test,test_failure,draft,medium,draft_rubric_v1
-langchain-ai__langchain__38141920609,langchain-ai/langchain,⏰ Integration Tests,test,infra_network,draft,low,draft_rubric_v1
-langchain-ai__langchain__38220504907,langchain-ai/langchain,🔧 CI,test,lint_format,draft,low,draft_rubric_v1
-langchain-ai__langchain__38220640167,langchain-ai/langchain,🔧 CI,test,type_check,draft,medium,draft_rubric_v1
-nodejs__node__38162525544,nodejs/node,Comment on PR on Nix changes,test,ci_config,draft,medium,draft_rubric_v1
-nodejs__node__38181101368,nodejs/node,Test Linux,test,test_failure,draft,medium,draft_rubric_v1
-nodejs__node__38191765240,nodejs/node,Daily WPT report,test,ci_config,draft,medium,draft_rubric_v1
-nodejs__node__38203939118,nodejs/node,Linters,test,lint_format,draft,low,draft_rubric_v1
-numpy__numpy__38197650726,numpy/numpy,stubtest,test,ci_config,draft,medium,draft_rubric_v1
-numpy__numpy__38197650734,numpy/numpy,Type-checking,test,ci_config,draft,medium,draft_rubric_v1
-numpy__numpy__38197650837,numpy/numpy,Wheel builder,test,dependency_install,draft,high,draft_rubric_v1
-numpy__numpy__38197650864,numpy/numpy,macOS tests,test,ci_config,draft,medium,draft_rubric_v1
-pandas-dev__pandas__38159153805,pandas-dev/pandas,Code Checks,test,lint_format,draft,low,draft_rubric_v1
-pandas-dev__pandas__38190363902,pandas-dev/pandas,CodeQL,test,build_compile,draft,high,draft_rubric_v1
-pandas-dev__pandas__38201489513,pandas-dev/pandas,Wheel builder,test,test_failure,draft,high,draft_rubric_v1
+home-assistant__core__38217484317,home-assistant/core,Check requirements (deterministic),test,ci_config,reviewed,medium,draft_rubric_v1
+home-assistant__core__38223769150,home-assistant/core,Check requirements (deterministic),test,ci_config,reviewed,medium,draft_rubric_v1
+home-assistant__core__38223769327,home-assistant/core,CI,test,lint_format,reviewed,low,draft_rubric_v1
+home-assistant__core__38224599068,home-assistant/core,CI,test,test_failure,reviewed,medium,draft_rubric_v1
+huggingface__transformers__38213953453,huggingface/transformers,Slow tests on important models (on Push - A10),test,test_failure,reviewed,medium,draft_rubric_v1
+huggingface__transformers__38224895155,huggingface/transformers,PR slow CI - Suggestion,test,ci_config,reviewed,medium,draft_rubric_v1
+langchain-ai__langchain__38054458339,langchain-ai/langchain,⏰ Integration Tests,test,test_failure,reviewed,medium,draft_rubric_v1
+langchain-ai__langchain__38141920609,langchain-ai/langchain,⏰ Integration Tests,test,infra_network,reviewed,low,draft_rubric_v1
+langchain-ai__langchain__38220504907,langchain-ai/langchain,🔧 CI,test,lint_format,reviewed,low,draft_rubric_v1
+langchain-ai__langchain__38220640167,langchain-ai/langchain,🔧 CI,test,type_check,reviewed,medium,draft_rubric_v1
+nodejs__node__38162525544,nodejs/node,Comment on PR on Nix changes,test,ci_config,reviewed,medium,draft_rubric_v1
+nodejs__node__38181101368,nodejs/node,Test Linux,test,test_failure,reviewed,medium,draft_rubric_v1
+nodejs__node__38191765240,nodejs/node,Daily WPT report,test,ci_config,reviewed,medium,draft_rubric_v1
+nodejs__node__38203939118,nodejs/node,Linters,test,lint_format,reviewed,low,draft_rubric_v1
+numpy__numpy__38197650726,numpy/numpy,stubtest,test,ci_config,reviewed,medium,draft_rubric_v1
+numpy__numpy__38197650734,numpy/numpy,Type-checking,test,ci_config,reviewed,medium,draft_rubric_v1
+numpy__numpy__38197650837,numpy/numpy,Wheel builder,test,dependency_install,reviewed,high,draft_rubric_v1
+numpy__numpy__38197650864,numpy/numpy,macOS tests,test,ci_config,reviewed,medium,draft_rubric_v1
+pandas-dev__pandas__38159153805,pandas-dev/pandas,Code Checks,test,lint_format,reviewed,low,draft_rubric_v1
+pandas-dev__pandas__38190363902,pandas-dev/pandas,CodeQL,test,build_compile,reviewed,high,draft_rubric_v1
+pandas-dev__pandas__38201489513,pandas-dev/pandas,Wheel builder,test,test_failure,reviewed,high,draft_rubric_v1
 prettier__prettier__35087290201,prettier/prettier,autofix.ci,dev,lint_format,reviewed,low,draft_rubric_v1
 prettier__prettier__35097774750,prettier/prettier,Prod,dev,test_failure,reviewed,medium,draft_rubric_v1
 prettier__prettier__35193227719,prettier/prettier,Check Sizes,dev,build_compile,reviewed,high,draft_rubric_v1
@@ -69,8 +69,8 @@ psf__black__34023398343,psf/black,changelog,dev,policy_check,reviewed,low,draft_
 psf__black__34072879382,psf/black,changelog,dev,policy_check,reviewed,low,draft_rubric_v1
 psf__black__34076593565,psf/black,diff-shades comment,dev,ci_config,reviewed,medium,draft_rubric_v1
 psf__black__34589296835,psf/black,diff-shades comment,dev,ci_config,reviewed,medium,draft_rubric_v1
-psf__black__38218106597,psf/black,lint and format,test,type_check,draft,medium,draft_rubric_v1
-psf__black__38218106686,psf/black,build and publish,test,build_compile,draft,high,draft_rubric_v1
+psf__black__38218106597,psf/black,lint and format,test,type_check,reviewed,medium,draft_rubric_v1
+psf__black__38218106686,psf/black,build and publish,test,build_compile,reviewed,high,draft_rubric_v1
 pydantic__pydantic__36666298158,pydantic/pydantic,Dependencies Check,dev,dependency_install,reviewed,high,draft_rubric_v1
 pydantic__pydantic__36712532115,pydantic/pydantic,Third party tests,dev,ci_config,reviewed,medium,draft_rubric_v1
 pydantic__pydantic__36779918080,pydantic/pydantic,Upload previews,dev,ci_config,reviewed,medium,draft_rubric_v1
@@ -79,34 +79,34 @@ pydantic__pydantic__36811704364,pydantic/pydantic,Pydantic Family Integration Te
 pydantic__pydantic__36859460178,pydantic/pydantic,Third party tests,dev,test_failure,reviewed,medium,draft_rubric_v1
 pydantic__pydantic__36859870036,pydantic/pydantic,Pydantic people update,dev,infra_network,reviewed,low,draft_rubric_v1
 pydantic__pydantic__36868140759,pydantic/pydantic,Upload previews,dev,ci_config,reviewed,medium,draft_rubric_v1
-pypa__pip__38203070582,pypa/pip,PR Checklist,test,policy_check,draft,low,draft_rubric_v1
-pypa__pip__38203075276,pypa/pip,PR Checklist,test,policy_check,draft,low,draft_rubric_v1
+pypa__pip__38203070582,pypa/pip,PR Checklist,test,policy_check,reviewed,low,draft_rubric_v1
+pypa__pip__38203075276,pypa/pip,PR Checklist,test,policy_check,reviewed,low,draft_rubric_v1
 pytest-dev__pytest__35479449080,pytest-dev/pytest,Doc Check Links,dev,docs_check,reviewed,low,draft_rubric_v1
 pytest-dev__pytest__36283392425,pytest-dev/pytest,Doc Check Links,dev,docs_check,reviewed,low,draft_rubric_v1
 pytest-dev__pytest__36311103335,pytest-dev/pytest,test,dev,test_failure,reviewed,medium,draft_rubric_v1
 pytest-dev__pytest__36312310362,pytest-dev/pytest,test,dev,test_failure,reviewed,medium,draft_rubric_v1
-pytest-dev__pytest__37167493424,pytest-dev/pytest,Doc Check Links,test,docs_check,draft,low,draft_rubric_v1
-pytest-dev__pytest__38099531711,pytest-dev/pytest,Doc Check Links,test,docs_check,draft,low,draft_rubric_v1
+pytest-dev__pytest__37167493424,pytest-dev/pytest,Doc Check Links,test,docs_check,reviewed,low,draft_rubric_v1
+pytest-dev__pytest__38099531711,pytest-dev/pytest,Doc Check Links,test,docs_check,reviewed,low,draft_rubric_v1
 python-poetry__poetry__34606971513,python-poetry/poetry,Documentation Preview,dev,ci_config,reviewed,medium,draft_rubric_v1
 python-poetry__poetry__36297293924,python-poetry/poetry,Documentation Preview,dev,ci_config,reviewed,medium,draft_rubric_v1
 python-poetry__poetry__36312975783,python-poetry/poetry,Tests,dev,test_failure,reviewed,medium,draft_rubric_v1
 python-poetry__poetry__36335583674,python-poetry/poetry,Tests,dev,test_failure,reviewed,medium,draft_rubric_v1
-python-poetry__poetry__38201401884,python-poetry/poetry,Tests,test,test_failure,draft,medium,draft_rubric_v1
-python-poetry__poetry__38217088589,python-poetry/poetry,Tests,test,test_failure,draft,medium,draft_rubric_v1
-rust-lang__cargo__38218098114,rust-lang/cargo,CI,test,build_compile,draft,high,draft_rubric_v1
-rust-lang__cargo__38222465819,rust-lang/cargo,CI,test,test_failure,draft,medium,draft_rubric_v1
-scikit-learn__scikit-learn__38110868593,scikit-learn/scikit-learn,Check Changelog,test,policy_check,draft,low,draft_rubric_v1
-scikit-learn__scikit-learn__38117079621,scikit-learn/scikit-learn,Unit tests,test,lint_format,draft,low,draft_rubric_v1
-scikit-learn__scikit-learn__38130261619,scikit-learn/scikit-learn,Unit tests,test,test_failure,draft,medium,draft_rubric_v1
-scikit-learn__scikit-learn__38220142959,scikit-learn/scikit-learn,Check Changelog,test,policy_check,draft,low,draft_rubric_v1
-tokio-rs__tokio__38052518006,tokio-rs/tokio,Stress Test,test,build_compile,draft,high,draft_rubric_v1
-tokio-rs__tokio__38134725610,tokio-rs/tokio,Loom,test,build_compile,draft,high,draft_rubric_v1
-tokio-rs__tokio__38179284528,tokio-rs/tokio,CI,test,test_failure,draft,medium,draft_rubric_v1
-tokio-rs__tokio__38213701855,tokio-rs/tokio,CI,test,lint_format,draft,low,draft_rubric_v1
-vercel__next.js__38217690831,vercel/next.js,Update Rspack test manifest,test,infra_network,draft,low,draft_rubric_v1
-vercel__next.js__38223914207,vercel/next.js,next-upgrade-evals,test,test_failure,draft,medium,draft_rubric_v1
-vercel__next.js__38223933479,vercel/next.js,next-upgrade-evals,test,test_failure,draft,medium,draft_rubric_v1
-vitejs__vite__38193411344,vitejs/vite,.github/workflows/copilot-setup-steps.yml,test,dependency_install,draft,high,draft_rubric_v1
-vitejs__vite__38207643579,vitejs/vite,Preview release,test,ci_config,draft,high,draft_rubric_v1
-vitejs__vite__38214414602,vitejs/vite,CI,test,test_failure,draft,medium,draft_rubric_v1
-vitejs__vite__38218454942,vitejs/vite,CI,test,test_failure,draft,medium,draft_rubric_v1
+python-poetry__poetry__38201401884,python-poetry/poetry,Tests,test,test_failure,reviewed,medium,draft_rubric_v1
+python-poetry__poetry__38217088589,python-poetry/poetry,Tests,test,test_failure,reviewed,medium,draft_rubric_v1
+rust-lang__cargo__38218098114,rust-lang/cargo,CI,test,build_compile,reviewed,high,draft_rubric_v1
+rust-lang__cargo__38222465819,rust-lang/cargo,CI,test,test_failure,reviewed,medium,draft_rubric_v1
+scikit-learn__scikit-learn__38110868593,scikit-learn/scikit-learn,Check Changelog,test,policy_check,reviewed,low,draft_rubric_v1
+scikit-learn__scikit-learn__38117079621,scikit-learn/scikit-learn,Unit tests,test,lint_format,reviewed,low,draft_rubric_v1
+scikit-learn__scikit-learn__38130261619,scikit-learn/scikit-learn,Unit tests,test,test_failure,reviewed,medium,draft_rubric_v1
+scikit-learn__scikit-learn__38220142959,scikit-learn/scikit-learn,Check Changelog,test,policy_check,reviewed,low,draft_rubric_v1
+tokio-rs__tokio__38052518006,tokio-rs/tokio,Stress Test,test,build_compile,reviewed,high,draft_rubric_v1
+tokio-rs__tokio__38134725610,tokio-rs/tokio,Loom,test,build_compile,reviewed,high,draft_rubric_v1
+tokio-rs__tokio__38179284528,tokio-rs/tokio,CI,test,test_failure,reviewed,medium,draft_rubric_v1
+tokio-rs__tokio__38213701855,tokio-rs/tokio,CI,test,lint_format,reviewed,low,draft_rubric_v1
+vercel__next.js__38217690831,vercel/next.js,Update Rspack test manifest,test,infra_network,reviewed,low,draft_rubric_v1
+vercel__next.js__38223914207,vercel/next.js,next-upgrade-evals,test,test_failure,reviewed,medium,draft_rubric_v1
+vercel__next.js__38223933479,vercel/next.js,next-upgrade-evals,test,test_failure,reviewed,medium,draft_rubric_v1
+vitejs__vite__38193411344,vitejs/vite,.github/workflows/copilot-setup-steps.yml,test,dependency_install,reviewed,high,draft_rubric_v1
+vitejs__vite__38207643579,vitejs/vite,Preview release,test,ci_config,reviewed,high,draft_rubric_v1
+vitejs__vite__38214414602,vitejs/vite,CI,test,test_failure,reviewed,medium,draft_rubric_v1
+vitejs__vite__38218454942,vitejs/vite,CI,test,test_failure,reviewed,medium,draft_rubric_v1

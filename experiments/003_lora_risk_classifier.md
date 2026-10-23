@@ -99,11 +99,11 @@ repositories it never saw?
 
 ## Decision
 
-**LoRA is not adopted.** Its gain over the current classifier is not proven,
-and a model-free rule does better on these labels.
+**LoRA is not adopted.** Its gain over the prompted LLM is not proven, and a
+model-free rule does better on these labels.
 
-The finding that matters is (2): the graph's default classifier misses every
-high-risk failure. Which classifier the graph should use (prompted LLM,
-rubric on the retrieved category, or LoRA) is recorded in NEEDS_DECISION.md
-#3. The default is not changed tonight, because the labels it would be judged
-against are still drafts.
+The rule-based classifier (rubric v1 on the retrieved category) became the
+graph's default risk stage in ADR 004: it has the best accuracy (0.609) and
+high-risk recall (0.67), needs no model, and gave 2.5 times as many fully
+correct trajectories as the prompted LLM in experiment 004. The prompted LLM
+remains available as an option.

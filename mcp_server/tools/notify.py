@@ -1,8 +1,8 @@
 """notify: tell a person or channel about a failed CI run.
 
 Channels come from an allowlist (NOTIFY_CHANNELS); anything else is refused.
-The real backend is a local outbox file (`<RUNTIME_DIR>/outbox.jsonl`); which
-messaging system to deliver to is an open decision (NEEDS_DECISION.md).
+The real backend is a local outbox file (`<RUNTIME_DIR>/outbox.jsonl`); by
+decision (ADR 004) nothing is sent to an external messaging system.
 """
 
 import json

@@ -45,8 +45,9 @@ value, the risk level, from a fixed set.
   missed (see `docs/notion_import/04-log-parsing-and-redaction.md`).
 - **No authentication on the HTTP API.** It is meant for localhost. Exposing
   it beyond that needs authentication first.
-- **Local backends only.** Tickets and notifications go to files under
-  `var/`. Choosing and securing a real backend is NEEDS_DECISION.md #1.
+- **Local backends only, by decision (ADR 004).** Tickets and notifications
+  go to files under `var/`; nothing leaves the machine. An external backend
+  would need a new decision and its own credential handling.
 - **In-memory checkpoints.** A paused run is lost if the process restarts.
   Durable checkpoints would need a storage decision.
 - **Corrupted resume.** A `None` resume payload is refused by LangGraph

@@ -1,16 +1,22 @@
-"""Risk Classifier: diagnosis → low / medium / high (prompted LLM for now).
+"""Risk Classifier: diagnosis → low / medium / high.
 
-The model sees the draft rubric, the predicted category and the evidence
-lines, and must answer with one JSON object. Its answer is parsed strictly:
-only the `risk` value from the allowed set is used, and anything else (prose,
-extra instructions, a different shape) counts as an invalid answer. After one
-retry, or if the provider is unavailable, the rubric itself decides
-(`rules_fallback`). v0.5 benchmarks a LoRA classifier against this.
+Two implementations share one interface (`RiskClassifier`):
+
+- `RubricRiskClassifier` (the default, ADR 004): rubric v1 applied to the
+  retrieved category and the workflow name. No model. On the held-out logs
+  it beat both the prompted LLM and the LoRA model (experiments/003, 004).
+- `PromptedRiskClassifier`: llama3.2 sees the rubric, the predicted category
+  and the evidence lines, and must answer with one JSON object, parsed
+  strictly (only the `risk` value from the allowed set is used). After one
+  retry, or if the provider is unavailable, the rubric decides
+  (`rules_fallback`). Kept as an option; it never predicted "high" on the
+  held-out logs.
 """
 
 import json
 import re
 from collections.abc import Callable
+from typing import Protocol
 
 from agents.risk_rubric import RUBRIC_TEXT, rubric_risk
 from app.config import Settings
@@ -19,6 +25,29 @@ from app.errors import AppError
 from app.graph import Diagnosis, RiskAssessment, RiskLevel
 
 Generate = Callable[[str, Settings], str]
+
+
+class RiskClassifier(Protocol):
+    last_error: str | None
+
+    def run(self, diagnosis: Diagnosis, workflow: str | None = None) -> RiskAssessment: ...
+
+
+class RubricRiskClassifier:
+    """Rubric v1 on the retrieved category and workflow name. Deterministic,
+    no model, about 0.2 ms per run."""
+
+    def __init__(self) -> None:
+        self.last_error: str | None = None
+
+    def run(self, diagnosis: Diagnosis, workflow: str | None = None) -> RiskAssessment:
+        level = rubric_risk(diagnosis.category, workflow)
+        return RiskAssessment(
+            level=level, method="rubric",
+            rationale=f"rubric v1: category {diagnosis.category or 'unknown'}"
+                      f"{f', workflow {workflow}' if workflow else ''} → {level}",
+        )
+
 _LEVELS: tuple[RiskLevel, ...] = ("low", "medium", "high")
 _JSON_OBJECT = re.compile(r"\{[^{}]*\}")
 

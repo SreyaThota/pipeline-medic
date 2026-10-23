@@ -83,3 +83,24 @@ def test_prompt_marks_evidence_as_untrusted():
 )
 def test_rubric(category, workflow, level):
     assert rubric_risk(category, workflow) == level
+
+
+def test_rubric_classifier_is_deterministic_and_model_free():
+    from agents.risk_classifier import RubricRiskClassifier
+
+    classifier = RubricRiskClassifier()
+    risk = classifier.run(DIAGNOSIS, workflow="CI")
+    assert (risk.level, risk.method) == ("medium", "rubric")
+    assert "test_failure" in risk.rationale
+    assert classifier.run(DIAGNOSIS, workflow="Release").level == "high"
+    assert classifier.last_error is None
+
+
+def test_graph_default_uses_the_rubric_and_prompted_is_opt_in(tmp_path):
+    from agents.risk_classifier import RubricRiskClassifier
+    from app.graph_orchestrator import PipelineMedicGraph
+
+    settings = Settings(runtime_dir=str(tmp_path))
+    assert isinstance(PipelineMedicGraph.default(settings).classifier, RubricRiskClassifier)
+    prompted = PipelineMedicGraph.default(settings, risk="prompted").classifier
+    assert isinstance(prompted, PromptedRiskClassifier)

@@ -5,8 +5,8 @@ Run over stdio (for an MCP client such as Claude Desktop or the agent):
     python -m mcp_server.server
 
 Tools default to dry-run. A real action needs ACTIONS_ENABLED=true *and* a
-call with dry_run=false; even then tickets and notifications go to local
-files until an external backend is chosen (NEEDS_DECISION.md).
+call with dry_run=false; even then tickets and notifications only go to
+local files (ADR 004).
 """
 
 from typing import Any

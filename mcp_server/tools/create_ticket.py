@@ -1,8 +1,7 @@
 """create_ticket: open an incident ticket for a failed CI run.
 
 The real backend is a local JSONL ticket store (`<RUNTIME_DIR>/tickets.jsonl`).
-Which external tracker to use (GitHub Issues, Jira, ...) is an open decision
-recorded in NEEDS_DECISION.md; this tool never contacts one.
+By decision (ADR 004) this tool never contacts an external tracker.
 """
 
 import json

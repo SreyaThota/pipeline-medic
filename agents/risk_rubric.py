@@ -1,11 +1,11 @@
 """Risk rubric: how urgent a CI failure is for the team.
 
-**DRAFT — needs Sreya's sign-off (NEEDS_DECISION.md #2).** It is used in
-three places, so changing it changes all three consistently:
+**Rubric v1**, accepted in ADR 004. It is used in three places, so changing
+it changes all of them consistently:
 
-- the prompted classifier's instructions (`agents/risk_classifier.py`),
-- the rules fallback when the model is unavailable or answers badly,
-- the labels for the v0.5 LoRA experiment (`data/risk_labels/`).
+- the default risk classifier (`RubricRiskClassifier`),
+- the prompted classifier's instructions and its fallback,
+- the labels for the v0.5 experiment (`data/risk_labels/`).
 
 Levels:
     high    the project cannot build, install or ship: compile/bundle errors,

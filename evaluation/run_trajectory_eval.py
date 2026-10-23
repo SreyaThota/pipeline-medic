@@ -38,8 +38,7 @@ from pathlib import Path
 from agents.action_agent import ActionAgent
 from agents.diagnosis_agent import DiagnosisAgent, build_retriever
 from agents.parser_agent import ParserAgent
-from agents.risk_classifier import PromptedRiskClassifier
-from agents.risk_rubric import rubric_risk
+from agents.risk_classifier import PromptedRiskClassifier, RiskClassifier, RubricRiskClassifier
 from app.config import Settings, get_settings
 from app.diagnosis import ollama
 from app.errors import AppError
@@ -78,18 +77,6 @@ def expected_tools(category: str | None, risk: str) -> list[str]:
         level=risk, rationale="label", method="labels"))]
 
 
-class RulesClassifier(PromptedRiskClassifier):
-    """The rubric on the predicted category, with no model call."""
-
-    def __init__(self) -> None:
-        super().__init__(Settings(), attempts=0)
-
-    def run(self, diagnosis: Diagnosis, workflow: str | None = None) -> RiskAssessment:
-        self.last_error = None
-        return RiskAssessment(level=rubric_risk(diagnosis.category, workflow),
-                              rationale="rubric on predicted category", method="rules")
-
-
 def judge(ticket: str, evidence: list[str], settings: Settings) -> bool | None:
     prompt = JUDGE_PROMPT.format(evidence="\n".join(evidence) or "(none)", ticket=ticket)
     try:
@@ -112,7 +99,8 @@ def evaluate(risk_mode: str, judge_n: int) -> dict:
 
     runtime = tempfile.mkdtemp()
     run_settings = settings.model_copy(update={"runtime_dir": runtime, "actions_enabled": False})
-    classifier = RulesClassifier() if risk_mode == "rules" else PromptedRiskClassifier(run_settings)
+    classifier: RiskClassifier = (RubricRiskClassifier() if risk_mode == "rules"
+                                  else PromptedRiskClassifier(run_settings))
     graph = PipelineMedicGraph(ParserAgent(), DiagnosisAgent(build_retriever(split="dev")),
                                classifier, ActionAgent(run_settings))
 

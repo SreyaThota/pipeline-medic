@@ -36,7 +36,7 @@ from langgraph.types import Command, interrupt
 from agents.action_agent import ActionAgent
 from agents.diagnosis_agent import DiagnosisAgent
 from agents.parser_agent import ParserAgent
-from agents.risk_classifier import PromptedRiskClassifier
+from agents.risk_classifier import PromptedRiskClassifier, RiskClassifier, RubricRiskClassifier
 from app.config import Settings
 from app.errors import LogTooLarge
 from app.graph import Approval, PipelineMedicState, ToolResult, TraceEntry
@@ -105,7 +105,7 @@ class PipelineMedicGraph:
         self,
         parser: ParserAgent,
         diagnoser: DiagnosisAgent,
-        classifier: PromptedRiskClassifier,
+        classifier: RiskClassifier,
         actor: ActionAgent,
         checkpointer: Any = None,
     ):
@@ -118,11 +118,16 @@ class PipelineMedicGraph:
         self.graph = self._build()
 
     @classmethod
-    def default(cls, settings: Settings, retriever: Retriever | None = None) -> PipelineMedicGraph:
-        """Production wiring. Without a retriever the diagnosis has no
-        category and the Action Agent routes the failure to human triage."""
-        return cls(ParserAgent(), DiagnosisAgent(retriever), PromptedRiskClassifier(settings),
-                   ActionAgent(settings))
+    def default(cls, settings: Settings, retriever: Retriever | None = None,
+                risk: str = "rubric") -> PipelineMedicGraph:
+        """Production wiring. The risk stage is the rubric classifier by
+        default (ADR 004); pass risk="prompted" for the llama3.2 classifier.
+        Without a retriever the diagnosis has no category and the Action
+        Agent routes the failure to human triage."""
+        classifier: RiskClassifier = (
+            PromptedRiskClassifier(settings) if risk == "prompted" else RubricRiskClassifier()
+        )
+        return cls(ParserAgent(), DiagnosisAgent(retriever), classifier, ActionAgent(settings))
 
     # --- nodes ---------------------------------------------------------------
 
@@ -141,7 +146,7 @@ class PipelineMedicGraph:
 
     def _classify(self, state: PipelineMedicState) -> tuple[dict[str, Any], str, dict[str, Any]]:
         risk = self.classifier.run(state["diagnosis"], workflow=state.get("workflow"))
-        status = "ok" if risk.method == "prompted_llm" else "fallback"
+        status = "fallback" if risk.method == "rules_fallback" else "ok"
         detail: dict[str, Any] = {"level": risk.level, "method": risk.method}
         if self.classifier.last_error:
             detail["error"] = self.classifier.last_error

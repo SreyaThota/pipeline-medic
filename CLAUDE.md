@@ -100,7 +100,7 @@ producing a pile of code to review.
 |---|---|---|
 | v0.1 | Local Ollama inference + FastAPI `/diagnose` endpoint | **Shipped** |
 | v0.2 | Flat RAG baseline, last-15-lines chunking. **Recall@1 0.413 vs 0.217 for whole-log chunking** (cross-repo), over 46 real CI/CD failure logs from 9 open-source repos | **Shipped** |
-| v0.2.5 | Neo4j GraphRAG, measured against v0.2. Dev-set gain +0.145 shrank to an unproven +0.028 on held-out cross-repo logs (123 logs from 21 repos). **Flat search stays the default** — GraphRAG did not clearly earn its place on this data; documented in `experiments/002_graphrag_vs_flat.md` with the honest verdict | **Shipped** (held-out labels reviewed 2026-10-23; re-run gave identical numbers) |
+| v0.2.5 | Neo4j GraphRAG, measured against v0.2. Dev-set gain +0.145 shrank to an unproven +0.028 on held-out cross-repo logs (123 logs from 24 repos). **Flat search stays the default** — GraphRAG did not clearly earn its place on this data; documented in `experiments/002_graphrag_vs_flat.md` with the honest verdict | **Shipped** (held-out labels reviewed 2026-10-23; re-run gave identical numbers) |
 | v0.2.6 | Foundation (built 2026-10-21 under the PipelineMedic X brief, kept): validated settings, typed `/v1/diagnose`, `/health` + `/health/ready`, one JSON error shape with request IDs, structured request logs, mypy in CI; `/v1/parse` for GitHub Actions/Jenkins/text logs with line-referenced failure regions; secret redaction before any model call | **Shipped** |
 | v0.3 | Action Agent + MCP tools — **scope is ticket-creation + notification only**, dry-run by default, human approves any real action. Patch drafting/auto-remediation was explicitly considered and declined for now (see section 4). Built: `mcp_server/` (create_ticket, notify, read-only lookup_log; audit log), `agents/action_agent.py`; backends are local files only, by decision (ADR 004) | **Shipped** |
 | v0.4 | Full LangGraph agent graph (Parser → Diagnosis → Classifier → Action), checkpointed. Built: `app/graph_orchestrator.py`, `agents/` (parser, diagnosis = flat-RAG vote, rule-based risk classifier by default (ADR 004), prompted LLM opt-in), `interrupt()` before any tool call, per-stage trace entries | **Shipped** |
@@ -182,7 +182,7 @@ pipeline-medic/
 ## 7. Datasets
 
 1. **Dogfooded CI (primary)** — this repo's own GitHub Actions run logs, plus
-   the 123-log cross-repo set from 21 open-source repos used for v0.2/v0.2.5
+   the 123-log cross-repo set from 24 open-source repos used for v0.2/v0.2.5
    (`dev` split: 51 logs used for design; `test` split: 72 held-out logs).
 2. **LogHub** — public log dataset, for broader coverage.
 3. **Synthetic** — `data/fixtures/` and any future generator. Always labeled

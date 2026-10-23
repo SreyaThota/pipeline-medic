@@ -63,7 +63,7 @@ Chroma + sentence-transformers · Neo4j/Cypher (evaluated) · PEFT/LoRA
 ## Results
 
 All held-out numbers below use human-reviewed failure-category labels (123
-real logs from 21 repos); risk levels come from rubric v1 applied to those
+real logs from 24 repos); risk levels come from rubric v1 applied to those
 categories.
 
 ### Retrieval

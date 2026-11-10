@@ -12,6 +12,16 @@ open-source projects, not a toy dataset. Every claim here is tagged ✅ Shipped,
 🚧 Building or 📋 Designed, and every number comes from a run that is in the
 repo and reproducible, including the negative results.
 
+| | |
+|---|---|
+| **Problem** | When a CI/CD pipeline fails, an engineer reads hundreds of log lines to find the cause. |
+| **What I built** | A LangGraph agent: parse and redact the log → retrieve similar past failures → classify risk → propose a ticket or notification → **wait for human approval** → execute through MCP tools |
+| **Stack** | Python · LangGraph · MCP · FastAPI · Pydantic · ChromaDB · sentence-transformers · Ollama · Docker · GitHub Actions |
+| **Key results** | Recall@1 **0.413 vs 0.217** (whole-log baseline) on real logs from open-source repos · GraphRAG and a LoRA classifier were built and measured but **not adopted** because they did not beat simpler options |
+| **Quality** | pytest suite incl. 80 security tests · tracing per graph stage · reproducible evaluation runs in the repo |
+
+**Jump to:** [Architecture](#architecture) · [Results](#results) · [Run locally](#running-it-locally) · [API examples](#api-examples)
+
 ## What works today
 
 | Capability | Status |

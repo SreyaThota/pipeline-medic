@@ -1,4 +1,4 @@
-"""Append-only audit trail for tool calls (CLAUDE.md 2F).
+"""Append-only audit trail for tool calls (docs/DESIGN.md §3).
 
 Every tool call writes a `proposed` entry *before* anything happens, then one
 outcome entry (`dry_run`, `executed`, `rejected` or `failed`). Arguments are

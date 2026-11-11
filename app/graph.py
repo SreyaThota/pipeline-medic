@@ -1,4 +1,4 @@
-"""Typed state shared by the agents (CLAUDE.md section 1).
+"""Typed state shared by the agents (docs/DESIGN.md §1).
 
 v0.3 defines what the Action Agent consumes and produces: the diagnosis and
 risk assessment it reads, and the `ProposedAction` it emits. v0.4 adds the
@@ -93,7 +93,7 @@ class Approval(BaseModel):
 
 class PipelineMedicState(TypedDict, total=False):
     """Carried between the agents. `log_text` is already redacted when it
-    enters the graph, so checkpoints never hold a secret (CLAUDE.md 2F)."""
+    enters the graph, so checkpoints never hold a secret (docs/DESIGN.md §3)."""
 
     run_id: str
     log_text: str

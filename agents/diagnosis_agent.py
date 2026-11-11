@@ -1,6 +1,6 @@
 """Diagnosis Agent: parsed log → category, evidence and similar past failures.
 
-Retrieval is flat RAG, the measured default (CLAUDE.md section 4): the query
+Retrieval is flat RAG, the measured default (docs/DESIGN.md §5): the query
 is the log's last 15 lines, exactly the v0.2 baseline. The category is a
 score-weighted vote over the top-k retrieved past failures; the confidence is
 the winning share of that vote. Evidence comes from the parser's failure

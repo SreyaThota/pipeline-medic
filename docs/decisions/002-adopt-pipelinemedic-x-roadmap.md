@@ -5,7 +5,8 @@
 
 ## Context
 
-The original plan (`CLAUDE.md`, October 2026) was a four-agent pipeline:
+The original plan (my design brief, October 2026; now `docs/DESIGN.md`) was a
+four-agent pipeline:
 LangGraph orchestration, MCP tools, a LoRA-tuned risk classifier and a Neo4j
 knowledge graph. By v0.2.5 the project had shipped a measured retrieval
 baseline and found that the knowledge graph gave no proven gain over flat
@@ -25,7 +26,7 @@ The brief's phased roadmap (`ROADMAP.md`) replaces the agent roadmap.
   requirement and an experiment note.
 - **Kept:** the v0.2 retrieval experiment and its numbers, the v0.2.5 graph
   experiment (as an optional, non-default retriever), the dataset and its
-  dev/test split, and every working rule in `CLAUDE.md`.
+  dev/test split, and every working rule in the design brief.
 - **Added:** SQLite for persistence, as it needs no server.
 
 ## Consequences
@@ -35,5 +36,5 @@ The brief's phased roadmap (`ROADMAP.md`) replaces the agent roadmap.
 - The empty placeholder folders for the dropped components (`agents/`,
   `mcp_server/`, `ml/`, `dashboard/`, `observability/`,
   `rag/knowledge_base/`) are removed.
-- The README and `CLAUDE.md` now describe PipelineMedic X, with the old
-  versions kept as history.
+- The README and the design brief now describe PipelineMedic X, with the
+  old versions kept as history.

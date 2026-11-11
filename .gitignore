@@ -35,3 +35,6 @@ var/
 
 # LoRA adapters are rebuilt by ml/lora_finetune/train.py
 ml/lora_finetune/artifacts/
+
+# Local working notes, kept out of the repository
+CLAUDE.md

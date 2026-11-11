@@ -2,7 +2,7 @@
 
 **Status:** accepted
 **Date:** 2026-10-23
-**Resolves:** NEEDS_DECISION.md #1, #2 and #3
+**Resolves:** the three questions left open by the v0.3–v0.9 build
 
 ## Context
 

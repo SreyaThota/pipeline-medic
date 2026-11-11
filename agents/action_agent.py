@@ -1,6 +1,6 @@
 """Action Agent (v0.3): turn a diagnosis and risk level into proposed tool calls.
 
-Scope is ticket + notify only (CLAUDE.md section 4). Two properties matter
+Scope is ticket + notify only (docs/DESIGN.md §5). Two properties matter
 for safety, and both are tested:
 
 1. **Tool choice never comes from log text.** Which tools are proposed, and to

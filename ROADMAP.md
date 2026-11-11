@@ -1,10 +1,12 @@
 # Pipeline Medic roadmap
 
-Mirrors section 3 of `CLAUDE.md`, which is the source of truth. Each phase
-ships with working code, a passing test, an updated README tag and, where a
-technology was adopted, an `experiments/` note with the honest verdict.
+The design and the rules each version follows are in
+[`docs/DESIGN.md`](docs/DESIGN.md); release notes are in
+[`CHANGELOG.md`](CHANGELOG.md). Each version ships with working code, tests,
+an updated README and, where a technology was considered for adoption, an
+`experiments/` note with the honest verdict.
 
-| Phase | Scope | Status |
+| Version | Scope | Status |
 |---|---|---|
 | v0.1 | Local Ollama inference + FastAPI `/diagnose` | Shipped |
 | v0.2 | Flat RAG baseline: last 15 lines beats whole log (cross-repo Recall@1 0.413 vs 0.217, 46 logs, 9 repos) | Shipped |
@@ -16,8 +18,9 @@ technology was adopted, an `experiments/` note with the honest verdict.
 | v0.6 | Trajectory evaluation of the full graph: 27.8% fully correct (rubric) vs 11.1% (LLM); LLM judge unreliable (8/20 controls) | Shipped |
 | v0.7 | Tracing: per-stage latency, tool-call outcomes linked to the audit log | Shipped |
 | v0.8 | Security suite across the whole graph, threat model | Shipped |
-| v0.9 | Polish pass on what shipped (README, docs); Streamlit console not built | Shipped |
-| v1.0+ | Polish, docs handbook, demo recording | Designed |
+| v0.9 | Final numbers on reviewed labels; decisions closed (ADR 004) | Shipped |
+| v1.0 | Interactive Streamlit demo, free live deployment (Hugging Face Space), design doc, changelog, release | In progress |
+| v1.1 | Improve diagnosis (the first error in 48 of 72 runs) on a fresh held-out set; run on real pipelines as a GitHub Action | Planned |
 
-Not in scope (decided, see `CLAUDE.md` section 4): patch drafting or
-application, sandboxed code execution, Jira/PR integrations, an incident UI.
+Out of scope by decision (`docs/DESIGN.md` §5): patch drafting or
+application, sandboxed code execution, external ticket or chat services.

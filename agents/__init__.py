@@ -1,1 +1,1 @@
-"""The four agents of the Pipeline Medic graph (CLAUDE.md section 1)."""
+"""The four agents of the Pipeline Medic graph (docs/DESIGN.md §1)."""

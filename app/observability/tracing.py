@@ -5,7 +5,7 @@ Two kinds of span, written one JSON object per line to
 
     stage   one graph node (parse, diagnose, ...); trace_id = the run id
     tool    one MCP tool call; carries the action_id, so it links to the
-            audit log entry for the same call (CLAUDE.md 2F)
+            audit log entry for the same call (docs/DESIGN.md §3)
 
 Span attributes never contain log text or tool arguments, only identifiers,
 counts and outcomes, so traces cannot leak what redaction removed.

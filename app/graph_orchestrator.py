@@ -11,7 +11,7 @@
 - Nothing executes without a human decision. `human_approval` calls
   LangGraph's `interrupt()`; `resume()` supplies the decision. A rejection is
   written to the audit log and no tool is called.
-- Secrets are redacted before the log enters the state (CLAUDE.md 2F), so no
+- Secrets are redacted before the log enters the state (docs/DESIGN.md §3), so no
   checkpoint holds one.
 - Every node appends a `TraceEntry` (stage, status, start, duration).
 

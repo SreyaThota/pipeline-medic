@@ -1,6 +1,6 @@
 """MCP server for the Action Agent's tools.
 
-Run over stdio (for an MCP client such as Claude Desktop or the agent):
+Run over stdio, for any MCP client or the Action Agent:
 
     python -m mcp_server.server
 

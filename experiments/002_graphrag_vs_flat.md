@@ -111,8 +111,9 @@ bootstrap, 10,000 resamples):
 
 ## Decision
 
-**GraphRAG does not replace flat RAG.** Per `CLAUDE.md`, an upgrade ships only
-once its gain is proven, and this one is not. Flat vector search stays the
+**GraphRAG does not replace flat RAG.** Under my adoption rule
+(`docs/DESIGN.md` §2), an upgrade ships only once its gain is proven, and
+this one is not. Flat vector search stays the
 default retriever. The graph, the extraction rules and the hybrid remain in
 the repo, tested and measured, because later phases need graph queries for
 other reasons (see the ADR).

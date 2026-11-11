@@ -1,14 +1,15 @@
 # Resume bullets: Pipeline Medic
 
 Every bullet below is backed by code in this repository and a measurement
-you can reproduce (as of version 0.9.0, 2026-10-23). Each
+you can reproduce (as of version 1.0.0, 2026-11-11). Each
 number is followed by the file it comes from, so it can be defended in an
 interview. Pick 2–3 bullets for the role; do not mix in the "Do not claim"
 list at the bottom.
 
 **Project line:** Pipeline Medic — agentic CI/CD failure-diagnosis copilot
-(Python, LangGraph, MCP, FastAPI, Chroma, sentence-transformers, Neo4j,
-PEFT/LoRA, pytest, GitHub Actions) · github.com/SreyaThota/pipeline-medic
+(Python, LangGraph, MCP, FastAPI, Streamlit, Chroma, sentence-transformers,
+Neo4j, PEFT/LoRA, Docker, pytest, GitHub Actions) ·
+github.com/SreyaThota/pipeline-medic
 
 ---
 
@@ -64,7 +65,7 @@ PEFT/LoRA, pytest, GitHub Actions) · github.com/SreyaThota/pipeline-medic
 - Built a typed FastAPI service (Pydantic schemas, validated settings,
   liveness/readiness checks, one JSON error contract with 6 error codes and
   request IDs, structured request logs that never include bodies), covered by
-  337 pytest tests and strict mypy in CI. *(app/, tests/)*
+  347 pytest tests and strict mypy in CI. *(app/, tests/)*
 - Wrote a log parser for GitHub Actions, Jenkins and plain-text logs that
   extracts stack traces, failing tests and exit codes with original line
   numbers; validated it on all 123 real logs at ~45 ms per log.
@@ -75,10 +76,19 @@ PEFT/LoRA, pytest, GitHub Actions) · github.com/SreyaThota/pipeline-medic
 
 ## Full-stack
 
-There is no frontend in this project, so it does not support a full-stack
-claim on its own. These bullets cover the parts beyond the backend that a
-full-stack role values:
+The frontend is an interactive Streamlit demo over the real agent graph, not a
+product UI, so pair these bullets with the backend ones above:
 
+- Built an interactive Streamlit frontend for the agent graph: pick a real
+  failed CI run or paste a log, and watch each stage (redaction, parsing with
+  line-referenced evidence, retrieval-based diagnosis, rubric risk, proposed
+  tool calls) with its latency, then approve or reject to resume the paused
+  LangGraph run and see the dry-run result and audit trail. *(demo/app.py,
+  demo/helpers.py, tests/unit/test_demo_helpers.py)*
+- Packaged the demo as a CPU-only Docker image for a Hugging Face Space (CPU
+  torch wheel, embedding model baked in, non-root user) with a GitHub Actions
+  workflow that syncs `main` to the Space. *(deploy/huggingface/,
+  .github/workflows/deploy-space.yml)*
 - Shipped the service with Docker Compose (Neo4j) and GitHub Actions CI
   running lint, type-checks, an 80-test security stage and the full suite
   against a Neo4j service container; an on-demand workflow reproduces the
@@ -91,12 +101,14 @@ full-stack role values:
 
 ## Do not claim (not built, or measured as not better)
 
-- A UI or incident dashboard (none exists).
+- A product UI or incident dashboard: the Streamlit app is a demo of the
+  graph, with no users, accounts or history.
 - Real ticket or Slack/Jira integrations (by decision, actions only write
   local files).
 - That GraphRAG, the LoRA model or the LLM risk classifier improved results
   (all three were measured and not adopted).
-- Production deployment, users or traffic.
+- Production deployment, users or traffic: the public demo is a free
+  Hugging Face Space that only ever dry-runs.
 - Automatic remediation, patch generation or code execution.
 - LLM-as-judge or RAGAS faithfulness scores (the judge caught only 8 of 20
   planted fabrications, so its scores are not trustworthy).

@@ -19,7 +19,7 @@ an updated README and, where a technology was considered for adoption, an
 | v0.7 | Tracing: per-stage latency, tool-call outcomes linked to the audit log | Shipped |
 | v0.8 | Security suite across the whole graph, threat model | Shipped |
 | v0.9 | Final numbers on reviewed labels; decisions closed (ADR 004) | Shipped |
-| v1.0 | Interactive Streamlit demo, free live deployment (Hugging Face Space), design doc, changelog, release | In progress |
+| v1.0 | Interactive Streamlit demo, Hugging Face Space packaging and sync, design doc, changelog, release | Shipped (Space goes live once created) |
 | v1.1 | Improve diagnosis (the first error in 48 of 72 runs) on a fresh held-out set; run on real pipelines as a GitHub Action | Planned |
 
 Out of scope by decision (`docs/DESIGN.md` §5): patch drafting or

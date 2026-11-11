@@ -1,26 +1,34 @@
 # Pipeline Medic
 
-**Status: ✅ v0.1–v0.9 shipped and measured on human-reviewed labels; v1.0 (handbook, demo) not started**
+**An AI agent that diagnoses failed CI/CD runs, rates their risk and proposes a ticket or alert, then waits for a human before anything runs.**
 
-An agentic CI/CD reliability copilot. It takes a failed pipeline run,
-diagnoses *why* it failed, judges how risky the failure is, and proposes a
-safe action (open a ticket, notify someone) that a human approves before
-anything happens, with every step traced and audited.
+[![CI](https://github.com/SreyaThota/pipeline-medic/actions/workflows/ci.yml/badge.svg)](https://github.com/SreyaThota/pipeline-medic/actions/workflows/ci.yml)
+![Python 3.14](https://img.shields.io/badge/python-3.14-blue)
+![LangGraph](https://img.shields.io/badge/agents-LangGraph-1f6feb)
+![MCP](https://img.shields.io/badge/tools-MCP-6e40c9)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-It is built and measured on real GitHub Actions failure logs from public
-open-source projects, not a toy dataset. Every claim here is tagged ✅ Shipped,
-🚧 Building or 📋 Designed, and every number comes from a run that is in the
-repo and reproducible, including the negative results.
+<!-- LIVE_DEMO: replace this line with **▶ [Live demo](https://huggingface.co/spaces/<hf-user>/pipeline-medic)** once the Space is up -->
+**Try it:** [run the demo locally](#running-it-locally) (`streamlit run demo/app.py`) · [Results](#results) · [Design](docs/DESIGN.md)
+
+<!-- DEMO_GIF: ![Demo](docs/assets/demo.gif) -->
+
+- **Agent graph with a human in the loop.** A LangGraph pipeline (parse → diagnose → risk → propose) pauses at an `interrupt()` before any tool call; MCP tools are dry-run by default and every call is audited.
+- **Measured on real failures.** 123 failed GitHub Actions runs from 24 open-source repos with human-reviewed labels; retrieving on the last 15 log lines nearly doubled Recall@1 (0.413 vs 0.217).
+- **Honest about what didn't work.** GraphRAG, a LoRA classifier and an LLM risk stage were built and measured; none beat the simpler option on held-out logs, so none ship. The rule-based risk stage gives 27.8% fully correct runs vs 11.1% with the LLM.
+- **Safe by design.** Secrets are redacted before anything sees the log, log text never chooses a tool, and an 80-test security suite runs in CI.
+
+**Status: v1.0: demo, live deployment, docs.** Earlier versions are in the [changelog](CHANGELOG.md); next steps in the [roadmap](ROADMAP.md).
+
+## At a glance
 
 | | |
 |---|---|
 | **Problem** | When a CI/CD pipeline fails, an engineer reads hundreds of log lines to find the cause. |
 | **What I built** | A LangGraph agent: parse and redact the log → retrieve similar past failures → classify risk → propose a ticket or notification → **wait for human approval** → execute through MCP tools |
-| **Stack** | Python · LangGraph · MCP · FastAPI · Pydantic · ChromaDB · sentence-transformers · Ollama · Docker · GitHub Actions |
+| **Stack** | Python · LangGraph · MCP · FastAPI · Streamlit · Pydantic · ChromaDB · sentence-transformers · Ollama · Docker · GitHub Actions |
 | **Key results** | Recall@1 **0.413 vs 0.217** (whole-log baseline) on real logs from open-source repos · GraphRAG and a LoRA classifier were built and measured but **not adopted** because they did not beat simpler options |
 | **Quality** | pytest suite incl. 80 security tests · tracing per graph stage · reproducible evaluation runs in the repo |
-
-**Jump to:** [Architecture](#architecture) · [Results](#results) · [Run locally](#running-it-locally) · [API examples](#api-examples)
 
 ## What works today
 
@@ -42,19 +50,27 @@ repo and reproducible, including the negative results.
 | Trajectory evaluation of the whole graph, stage by stage, with first-error attribution | ✅ Shipped (v0.6) |
 | Tracing: span per graph stage and per tool call (`var/traces.jsonl`), latency and tool success-rate summary | ✅ Shipped (v0.7) |
 | Security suite (80 tests, `pytest -m security`) and threat model ([`docs/security.md`](docs/security.md)) | ✅ Shipped (v0.8) |
+| Interactive Streamlit demo of the full graph, with approve / reject (`demo/app.py`) | ✅ Shipped (v1.0) |
+| Docker image and GitHub Actions sync for a Hugging Face Space (`deploy/huggingface/`) | ✅ Built (v1.0); the Space goes live once it is created |
 | External ticket / notification backends (GitHub Issues, Slack, ...) | ❌ Out of scope by decision: local files only ([ADR 004](docs/decisions/004-resolve-open-decisions.md)) |
 
 ## Architecture
 
 What runs today (`app/graph_orchestrator.py`):
 
-```
-Log Parser Agent     redact secrets, parse, extract line-referenced evidence (deterministic)
-  → Diagnosis Agent  flat-RAG retrieval over reviewed past failures, category by weighted vote
-  → Risk Classifier  rubric v1 on the retrieved category (no model); llama3.2 is opt-in
-  → Action Agent     fixed policy → proposed create_ticket / notify (MCP tools)
-  → ⏸ human approval (LangGraph interrupt, checkpointed)
-  → execute          dry-run unless approved AND ACTIONS_ENABLED; audited and traced
+```mermaid
+flowchart LR
+    L[Failed CI log] --> R[Redact secrets]
+    R --> P[Log Parser Agent<br/>line-referenced evidence]
+    P --> D[Diagnosis Agent<br/>flat RAG over reviewed failures]
+    D --> K[Risk Classifier<br/>rubric v1, no model]
+    K --> A[Action Agent<br/>fixed ticket / notify policy]
+    A -->|nothing to do| E[Done]
+    A -->|actions proposed| H{{Human approval<br/>LangGraph interrupt}}
+    H -->|approve| T[MCP tools<br/>dry-run unless enabled]
+    H -->|reject| X[Rejected, audited]
+    T --> AU[(Audit log + traces)]
+    X --> AU
 ```
 
 GraphRAG (v0.2.5), the LoRA classifier (v0.5) and the prompted-LLM risk
@@ -66,7 +82,7 @@ nothing runs without a human's approval.
 
 ## Tech stack
 
-Ollama (llama3.2) · FastAPI · Pydantic · LangGraph · MCP (Python SDK) ·
+Ollama (llama3.2) · FastAPI · Streamlit · Pydantic · LangGraph · MCP (Python SDK) ·
 Chroma + sentence-transformers · Neo4j/Cypher (evaluated) · PEFT/LoRA
 (evaluated) · Docker · pytest · mypy · GitHub Actions
 
@@ -112,7 +128,7 @@ against. Flat search stays the default. Details: [`experiments/002`](experiments
 | Classifier | Accuracy | Macro-F1 | High-risk recall |
 |---|---|---|---|
 | LoRA MiniLM (3 seeds) | 0.52–0.59 | 0.50–0.57 | 0.58 |
-| Prompted llama3.2 (graph default) | 0.500 | 0.365 | **0.00** |
+| Prompted llama3.2 (the default until ADR 004) | 0.500 | 0.365 | **0.00** |
 | Rubric on retrieved category (no model) | 0.609 | 0.544 | 0.67 |
 
 LoRA minus prompted LLM: +0.047 accuracy (95% interval -0.125 to +0.214),
@@ -136,6 +152,16 @@ faithfulness verdicts are not trusted. Details: [`experiments/004`](experiments/
 
 Design decisions are in [`docs/decisions/`](docs/decisions/) and the roadmap in
 [`ROADMAP.md`](ROADMAP.md).
+
+## What I'd do next
+
+- **Fix diagnosis first.** It is the first wrong stage in 48 of 72 runs, so
+  the biggest gain is there: better evidence selection and retrieval, measured
+  on a fresh held-out set rather than the one already used to choose methods.
+- **Run on real pipelines** as a GitHub Action that comments on failed runs,
+  still behind human approval.
+- **A trustworthy judge.** The LLM judge missed 12 of 20 planted
+  fabrications; it needs calibration before its scores mean anything.
 
 ## Running it locally
 

@@ -4,6 +4,25 @@ All notable changes to Pipeline Medic. Numbers come from runs committed in
 `evaluation/results/`; the reasoning behind each decision is in
 `docs/decisions/` and `experiments/`.
 
+## v1.0.0 — 2026-11-11
+
+Demo, deployment and documentation.
+
+- An interactive Streamlit demo (`streamlit run demo/app.py`) runs the real
+  default graph on five real failed runs from five repositories, a synthetic
+  log with fake credentials, or a pasted log. It shows every stage with its
+  latency: redaction, evidence lines with their original line numbers, the
+  diagnosis with the three most similar past failures, the rubric's risk
+  reason and the proposed tool calls. Approve or Reject resumes the paused
+  run and shows the dry-run result and the audit entries. Real actions are
+  always off in the demo. One example deliberately shows a wrong diagnosis.
+- A Docker image for a free Hugging Face Space (CPU-only torch, embedding
+  model baked in, non-root user) and a workflow that syncs `main` to the
+  Space once `HF_TOKEN` and `HF_SPACE_ID` are set.
+- `docs/DESIGN.md` (design and safety rules), this changelog, an MIT licence,
+  a rewritten README and an updated roadmap.
+- Tests: 347 (343 run locally; the 4 Neo4j tests run in CI).
+
 ## v0.9.0 — 2026-10-23
 
 Polish, final numbers and three closed decisions.

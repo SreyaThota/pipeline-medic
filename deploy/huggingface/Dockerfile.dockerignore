@@ -1,0 +1,10 @@
+# Allow-list: only what the demo image copies.
+*
+!app/
+!agents/
+!mcp_server/
+!rag/
+!demo/
+!data/sample_logs/
+**/__pycache__
+**/*.pyc

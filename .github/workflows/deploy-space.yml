@@ -1,0 +1,60 @@
+name: Deploy demo to Hugging Face
+
+# Mirrors the demo onto a Hugging Face Docker Space whenever main changes.
+# Setup (once): add the repository secret HF_TOKEN (a write token) and the
+# repository variable HF_SPACE_ID (e.g. "<hf-user>/pipeline-medic").
+# Without them the job is skipped.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "app/**"
+      - "agents/**"
+      - "mcp_server/**"
+      - "rag/**"
+      - "demo/**"
+      - "data/sample_logs/**"
+      - "deploy/huggingface/**"
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-space
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    if: vars.HF_SPACE_ID != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+      - name: Stage the Space
+        run: |
+          mkdir -p space
+          cp deploy/huggingface/Dockerfile space/Dockerfile
+          cp deploy/huggingface/Dockerfile.dockerignore space/.dockerignore
+          cp deploy/huggingface/README.md space/README.md
+          cp LICENSE space/LICENSE
+          cp -r app agents mcp_server rag demo space/
+          mkdir -p space/data && cp -r data/sample_logs space/data/
+          find space -name __pycache__ -prune -exec rm -rf {} +
+      - name: Upload to the Space
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE_ID: ${{ vars.HF_SPACE_ID }}
+        run: |
+          pip install huggingface_hub==1.33.0
+          python - <<'PY'
+          import os
+          from huggingface_hub import HfApi
+          HfApi(token=os.environ["HF_TOKEN"]).upload_folder(
+              repo_id=os.environ["HF_SPACE_ID"], repo_type="space", folder_path="space",
+              commit_message=f"Sync from GitHub {os.environ['GITHUB_SHA'][:7]}",
+              # remove files deleted on GitHub; keep the Space's own .gitattributes
+              delete_patterns=["app/**", "agents/**", "mcp_server/**", "rag/**", "demo/**",
+                               "data/**"],
+          )
+          PY

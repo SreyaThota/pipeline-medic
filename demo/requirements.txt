@@ -1,0 +1,11 @@
+# Demo only (CPU). Install the CPU-only torch wheel first to keep it small:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+#   pip install -r demo/requirements.txt
+streamlit==1.67.0
+fastapi==0.141.1
+pydantic==2.13.5
+chromadb==1.5.9
+sentence-transformers==6.1.0
+langgraph==1.2.16
+mcp==2.3.0
+requests==2.34.2

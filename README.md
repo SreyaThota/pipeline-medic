@@ -149,6 +149,13 @@ copy .env.example .env           # optional: every setting has a safe default
 uvicorn app.main:app --reload    # API docs at http://localhost:8000/docs
 ```
 
+The interactive demo (no Ollama needed; the first page load builds the
+retrieval index):
+
+```bash
+streamlit run demo/app.py         # http://localhost:8501
+```
+
 Tests and checks:
 
 ```bash

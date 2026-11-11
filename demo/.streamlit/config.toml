@@ -1,0 +1,8 @@
+[server]
+# The watcher walks every imported module, including transformers' optional
+# vision modules, and logs a traceback for each one it cannot import. The demo
+# is not edited live, so it is switched off.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false

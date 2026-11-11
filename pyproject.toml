@@ -36,7 +36,7 @@ extend-exclude = ["data/sample_logs"]
 # predates strict typing (Chroma's numpy-typed API), so its errors are not
 # reported; it is still type-checked where the app calls into it.
 python_version = "3.14"
-files = ["app", "agents", "mcp_server"]
+files = ["app", "agents", "mcp_server", "demo"]
 strict = true
 warn_unreachable = true
 

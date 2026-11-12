@@ -38,3 +38,6 @@ ml/lora_finetune/artifacts/
 
 # Local working notes, kept out of the repository
 CLAUDE.md
+
+# staged Hugging Face Space (deploy/huggingface/build_space.py)
+space/

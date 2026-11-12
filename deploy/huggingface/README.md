@@ -7,7 +7,7 @@ sdk: static
 app_file: index.html
 pinned: false
 license: mit
-short_description: Replays real agent runs on failed CI logs, dry-run only
+short_description: "CI failure triage agent with human approval. Replay of real runs."
 ---
 
 # Pipeline Medic demo

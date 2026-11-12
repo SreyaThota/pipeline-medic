@@ -18,6 +18,10 @@ PUBLIC = ROOT / "demo" / "public"
 HERE = Path(__file__).resolve().parent
 FILES = ["index.html", "runs.json", "metrics.json"]
 ANCHOR = '<div class="wrap">'
+HEAD = "<head>"
+# Hugging Face shows a Space inside its own frame; sites such as github.com
+# refuse to load in a frame, so every link on the Space opens a new tab.
+BASE = '<head>\n<base target="_blank">'
 
 BANNER = """<div class="wrap">
   <div style="border:1px solid var(--accent);border-radius:12px;padding:10px 12px;margin-bottom:16px;font-size:14px;line-height:1.45">
@@ -36,7 +40,10 @@ def build(out: Path) -> None:
     page = (out / "index.html").read_text(encoding="utf-8")
     if page.count(ANCHOR) != 1:
         raise SystemExit(f"expected one {ANCHOR!r} in demo/public/index.html")
-    (out / "index.html").write_text(page.replace(ANCHOR, BANNER, 1), encoding="utf-8")
+    if page.count(HEAD) != 1:
+        raise SystemExit("expected one <head> in demo/public/index.html")
+    page = page.replace(HEAD, BASE, 1).replace(ANCHOR, BANNER, 1)
+    (out / "index.html").write_text(page, encoding="utf-8")
     shutil.copyfile(HERE / "README.md", out / "README.md")
     shutil.copyfile(ROOT / "LICENSE", out / "LICENSE")
     print(f"staged {sorted(p.name for p in out.iterdir())} in {out}")

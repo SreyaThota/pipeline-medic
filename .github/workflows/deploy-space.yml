@@ -47,7 +47,7 @@ jobs:
               repo_id=os.environ["HF_SPACE_ID"], repo_type="space", folder_path="space",
               commit_message=f"Sync from GitHub {os.environ['GITHUB_SHA'][:7]}",
               # remove files left over from earlier uploads; keep .gitattributes
-              delete_patterns=["*.html", "*.json", "app/**", "agents/**", "mcp_server/**",
+              delete_patterns=["*.html", "*.json", "*.css", "app/**", "agents/**", "mcp_server/**",
                                "rag/**", "demo/**", "data/**", "Dockerfile", ".dockerignore"],
           )
           PY

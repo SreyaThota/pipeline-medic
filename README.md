@@ -2,6 +2,8 @@
 
 **▶ [Live demo (works on phone)](https://sreyathota.github.io/pipeline-medic/)**: replays real runs of the agent on held-out CI failures.
 
+Also on Hugging Face Spaces: [huggingface.co/spaces/SreyaThota/pipeline-medic](https://huggingface.co/spaces/SreyaThota/pipeline-medic)
+
 **An AI agent that diagnoses failed CI/CD runs, rates their risk and proposes a ticket or alert, then waits for a human before anything runs.**
 
 [![CI](https://github.com/SreyaThota/pipeline-medic/actions/workflows/ci.yml/badge.svg)](https://github.com/SreyaThota/pipeline-medic/actions/workflows/ci.yml)
@@ -10,7 +12,6 @@
 ![MCP](https://img.shields.io/badge/tools-MCP-6e40c9)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-<!-- LIVE_DEMO: replace this line with **▶ [Live demo](https://huggingface.co/spaces/<hf-user>/pipeline-medic)** once the Space is up -->
 **Try it:** [run the demo locally](#running-it-locally) (`streamlit run demo/app.py`) · [Results](#results) · [Design](docs/DESIGN.md)
 
 <img src="docs/img/mobile-demo-replay.jpg" alt="Mobile demo replaying a real tokio CI failure: diagnosis, high risk, proposed ticket and notification" width="320">
@@ -22,7 +23,7 @@
 - **Honest about what didn't work.** GraphRAG, a LoRA classifier and an LLM risk stage were built and measured; none beat the simpler option on held-out logs, so none ship. The rule-based risk stage gives 27.8% fully correct runs vs 11.1% with the LLM.
 - **Safe by design.** Secrets are redacted before anything sees the log, log text never chooses a tool, and an 80-test security suite runs in CI.
 
-**Status: v1.0 demo shipped.** The [mobile demo](https://sreyathota.github.io/pipeline-medic/) replays five real graph runs exported by `demo/build_demo_data.py`; the interactive Streamlit demo runs locally. The Hugging Face Space is packaged but not live yet. Earlier versions are in the [changelog](CHANGELOG.md); next steps in the [roadmap](ROADMAP.md).
+**Status: v1.0 demo shipped.** The [mobile demo](https://sreyathota.github.io/pipeline-medic/) replays five real graph runs exported by `demo/build_demo_data.py`; the interactive Streamlit demo runs locally. The same replay also runs on a [Hugging Face Space](https://huggingface.co/spaces/SreyaThota/pipeline-medic). Earlier versions are in the [changelog](CHANGELOG.md); next steps in the [roadmap](ROADMAP.md).
 
 ## At a glance
 

@@ -16,12 +16,17 @@ Demo, deployment and documentation.
   reason and the proposed tool calls. Approve or Reject resumes the paused
   run and shows the dry-run result and the audit entries. Real actions are
   always off in the demo. One example deliberately shows a wrong diagnosis.
+- A static, mobile-first demo on GitHub Pages that replays five real runs
+  of the graph on held-out logs (four diagnosed correctly, one not), with
+  the Results and "What didn't work" numbers read from `evaluation/results`.
+  `demo/build_demo_data.py` exports the data and fails if it finds a
+  secret or e-mail address, or a number that differs from the README.
 - A Docker image for a free Hugging Face Space (CPU-only torch, embedding
   model baked in, non-root user) and a workflow that syncs `main` to the
   Space once `HF_TOKEN` and `HF_SPACE_ID` are set.
 - `docs/DESIGN.md` (design and safety rules), this changelog, an MIT licence,
   a rewritten README and an updated roadmap.
-- Tests: 347 (343 run locally; the 4 Neo4j tests run in CI).
+- Tests: 353 (349 run locally; the 4 Neo4j tests run in CI).
 
 ## v0.9.0 — 2026-10-23
 

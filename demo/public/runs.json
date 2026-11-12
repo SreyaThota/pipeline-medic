@@ -1,0 +1,847 @@
+{
+ "meta": {
+  "knowledge_base": "dev split only (the same as the v0.6 trajectory evaluation)",
+  "risk": "rubric v1",
+  "actions": "dry run; real actions disabled"
+ },
+ "runs": [
+  {
+   "log_id": "tokio-rs__tokio__38134725610",
+   "repo": "tokio-rs/tokio",
+   "workflow": "Loom",
+   "run_url": "https://github.com/tokio-rs/tokio/actions/runs/38134725610",
+   "label": "build_compile",
+   "split": "test",
+   "format": "github_actions",
+   "line_count": 400,
+   "redactions": {},
+   "excerpt": [
+    {
+     "line": 327,
+     "text": "   Compiling tokio-util v0.7.20 (/home/runner/work/tokio/tokio/tokio-util)"
+    },
+    {
+     "line": 328,
+     "text": "   Compiling tracing-mock v0.1.0-beta.1"
+    },
+    {
+     "line": 329,
+     "text": "error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope"
+    },
+    {
+     "line": 330,
+     "text": "   --> tokio/src/runtime/io/scheduled_io.rs:635:44"
+    },
+    {
+     "line": 331,
+     "text": "    |"
+    },
+    {
+     "line": 345,
+     "text": "            candidate #1: `Default`"
+    },
+    {
+     "line": 346,
+     "text": ""
+    },
+    {
+     "line": 347,
+     "text": "error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope"
+    },
+    {
+     "line": 348,
+     "text": "   --> tokio/src/runtime/io/scheduled_io.rs:651:48"
+    },
+    {
+     "line": 349,
+     "text": "    |"
+    },
+    {
+     "line": 364,
+     "text": ""
+    },
+    {
+     "line": 365,
+     "text": "For more information about this error, try `rustc --explain E0599`."
+    },
+    {
+     "line": 366,
+     "text": "error: could not compile `tokio` (lib test) due to 2 previous errors"
+    },
+    {
+     "line": 367,
+     "text": "Process completed with exit code 101."
+    },
+    {
+     "line": 368,
+     "text": "Post job cleanup."
+    },
+    {
+     "line": 369,
+     "text": "[command]/usr/bin/git version"
+    }
+   ],
+   "evidence": [
+    {
+     "line": 329,
+     "text": "error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope"
+    },
+    {
+     "line": 347,
+     "text": "error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope"
+    },
+    {
+     "line": 366,
+     "text": "error: could not compile `tokio` (lib test) due to 2 previous errors"
+    },
+    {
+     "line": 367,
+     "text": "Process completed with exit code 101."
+    }
+   ],
+   "similar": [
+    {
+     "log_id": "astral-sh__ruff__33661538666",
+     "repo": "astral-sh/ruff",
+     "label": "build_compile",
+     "score": 0.4966
+    },
+    {
+     "log_id": "astral-sh__ruff__33661538690",
+     "repo": "astral-sh/ruff",
+     "label": "build_compile",
+     "score": 0.4966
+    },
+    {
+     "log_id": "prettier__prettier__35273463673",
+     "repo": "prettier/prettier",
+     "label": "ci_config",
+     "score": 0.3443
+    }
+   ],
+   "diagnosis": {
+    "category": "build_compile",
+    "confidence": 0.497,
+    "summary": "4 failure region(s) in 400 lines; key evidence at line 329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope. Most similar past failures suggest build_compile (50% of the retrieval vote).",
+    "method": "retrieval_vote",
+    "correct": true
+   },
+   "risk": {
+    "level": "high",
+    "method": "rubric",
+    "rationale": "rubric v1: category build_compile, workflow Loom → high"
+   },
+   "actions": [
+    {
+     "tool": "create_ticket",
+     "reason": "diagnosis is uncertain, a human must triage",
+     "arguments": {
+      "title": "[high] CI failure: build_compile (tokio-rs)",
+      "body": "Category: build_compile (confidence 0.50, retrieval_vote)\nRisk: high (rubric): rubric v1: category build_compile, workflow Loom → high\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope. Most similar past failures suggest build_compile (50% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L347: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L366: error: could not compile `tokio` (lib test) due to 2 previous errors\n> L367: Process completed with exit code 101.\n\nSimilar past failures:\n- astral-sh__ruff__33661538666 (build_compile, score 0.50)\n- astral-sh__ruff__33661538690 (build_compile, score 0.50)\n- prettier__prettier__35273463673 (ci_config, score 0.34)\n- home-assistant__core__28701780680 (type_check, score 0.34)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.32)\n\nSource log: tokio-rs__tokio__38134725610",
+      "severity": "high",
+      "labels": [
+       "ci-failure",
+       "build-compile",
+       "needs-triage"
+      ],
+      "source_log_id": "tokio-rs__tokio__38134725610"
+     }
+    },
+    {
+     "tool": "notify",
+     "reason": "high risk or uncertain diagnosis: page a human",
+     "arguments": {
+      "channel": "oncall",
+      "severity": "high",
+      "message": "[high] CI failure: build_compile (tokio-rs): ticket proposed, approval needed."
+     }
+    }
+   ],
+   "approval": {
+    "required": true,
+    "approver": "demo",
+    "approved": true,
+    "run_status": "completed",
+    "results": [
+     {
+      "tool": "create_ticket",
+      "status": "dry_run",
+      "dry_run": true,
+      "proposal": {
+       "title": "[high] CI failure: build_compile (tokio-rs)",
+       "body": "Category: build_compile (confidence 0.50, retrieval_vote)\nRisk: high (rubric): rubric v1: category build_compile, workflow Loom → high\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope. Most similar past failures suggest build_compile (50% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L347: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L366: error: could not compile `tokio` (lib test) due to 2 previous errors\n> L367: Process completed with exit code 101.\n\nSimilar past failures:\n- astral-sh__ruff__33661538666 (build_compile, score 0.50)\n- astral-sh__ruff__33661538690 (build_compile, score 0.50)\n- prettier__prettier__35273463673 (ci_config, score 0.34)\n- home-assistant__core__28701780680 (type_check, score 0.34)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.32)\n\nSource log: tokio-rs__tokio__38134725610",
+       "severity": "high",
+       "labels": [
+        "ci-failure",
+        "build-compile",
+        "needs-triage"
+       ],
+       "source_log_id": "tokio-rs__tokio__38134725610"
+      },
+      "result": {
+       "note": "real actions are disabled (ACTIONS_ENABLED)"
+      },
+      "error": null,
+      "audit": [
+       {
+        "ts": "2026-11-12T17:00:28.865375+00:00",
+        "tool": "create_ticket",
+        "phase": "proposed",
+        "action_id": "5e070c39"
+       },
+       {
+        "ts": "2026-11-12T17:00:28.867907+00:00",
+        "tool": "create_ticket",
+        "phase": "dry_run",
+        "action_id": "5e070c39"
+       }
+      ]
+     },
+     {
+      "tool": "notify",
+      "status": "dry_run",
+      "dry_run": true,
+      "proposal": {
+       "channel": "oncall",
+       "message": "[high] CI failure: build_compile (tokio-rs): ticket proposed, approval needed.",
+       "severity": "high",
+       "ticket_id": null
+      },
+      "result": {
+       "note": "real actions are disabled (ACTIONS_ENABLED)"
+      },
+      "error": null,
+      "audit": [
+       {
+        "ts": "2026-11-12T17:00:28.872755+00:00",
+        "tool": "notify",
+        "phase": "proposed",
+        "action_id": "026e3876"
+       },
+       {
+        "ts": "2026-11-12T17:00:28.874334+00:00",
+        "tool": "notify",
+        "phase": "dry_run",
+        "action_id": "026e3876"
+       }
+      ]
+     }
+    ]
+   },
+   "latency_ms": {
+    "parse": 75.7,
+    "diagnose": 166.9,
+    "classify_risk": 2.0,
+    "propose_actions": 3.6,
+    "human_approval": 2.1,
+    "execute_actions": 16.6
+   }
+  },
+  {
+   "log_id": "home-assistant__core__38223769150",
+   "repo": "home-assistant/core",
+   "workflow": "Check requirements (deterministic)",
+   "run_url": "https://github.com/home-assistant/core/actions/runs/38223769150",
+   "label": "ci_config",
+   "split": "test",
+   "format": "github_actions",
+   "line_count": 19,
+   "redactions": {},
+   "excerpt": [
+    {
+     "line": 17,
+     "text": "could not find pull request diff: HTTP 406: Sorry, the diff exceeded the maximum number of lines (20000) (https://api.github.com/repos/home-assistant/core/pulls/184065)"
+    },
+    {
+     "line": 18,
+     "text": "PullRequest.diff too_large"
+    },
+    {
+     "line": 19,
+     "text": "Process completed with exit code 1."
+    }
+   ],
+   "evidence": [
+    {
+     "line": 19,
+     "text": "Process completed with exit code 1."
+    }
+   ],
+   "similar": [
+    {
+     "log_id": "psf__black__30838063852",
+     "repo": "psf/black",
+     "label": "ci_config",
+     "score": 0.6551
+    },
+    {
+     "log_id": "pydantic__pydantic__36868140759",
+     "repo": "pydantic/pydantic",
+     "label": "ci_config",
+     "score": 0.5741
+    },
+    {
+     "log_id": "pydantic__pydantic__36779918080",
+     "repo": "pydantic/pydantic",
+     "label": "ci_config",
+     "score": 0.551
+    }
+   ],
+   "diagnosis": {
+    "category": "ci_config",
+    "confidence": 1.0,
+    "summary": "1 failure region(s) in 19 lines; key evidence at line 19: Process completed with exit code 1.. Most similar past failures suggest ci_config (100% of the retrieval vote).",
+    "method": "retrieval_vote",
+    "correct": true
+   },
+   "risk": {
+    "level": "medium",
+    "method": "rubric",
+    "rationale": "rubric v1: category ci_config, workflow Check requirements (deterministic) → medium"
+   },
+   "actions": [
+    {
+     "tool": "create_ticket",
+     "reason": "medium-risk failure",
+     "arguments": {
+      "title": "[medium] CI failure: ci_config (home-assistant)",
+      "body": "Category: ci_config (confidence 1.00, retrieval_vote)\nRisk: medium (rubric): rubric v1: category ci_config, workflow Check requirements (deterministic) → medium\n\nSummary:\n1 failure region(s) in 19 lines; key evidence at line 19: Process completed with exit code 1.. Most similar past failures suggest ci_config (100% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L19: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__30838063852 (ci_config, score 0.66)\n- pydantic__pydantic__36868140759 (ci_config, score 0.57)\n- pydantic__pydantic__36779918080 (ci_config, score 0.55)\n- psf__black__34076593565 (ci_config, score 0.51)\n- psf__black__34589296835 (ci_config, score 0.51)\n\nSource log: home-assistant__core__38223769150",
+      "severity": "medium",
+      "labels": [
+       "ci-failure",
+       "ci-config"
+      ],
+      "source_log_id": "home-assistant__core__38223769150"
+     }
+    }
+   ],
+   "approval": {
+    "required": true,
+    "approver": "demo",
+    "approved": true,
+    "run_status": "completed",
+    "results": [
+     {
+      "tool": "create_ticket",
+      "status": "dry_run",
+      "dry_run": true,
+      "proposal": {
+       "title": "[medium] CI failure: ci_config (home-assistant)",
+       "body": "Category: ci_config (confidence 1.00, retrieval_vote)\nRisk: medium (rubric): rubric v1: category ci_config, workflow Check requirements (deterministic) → medium\n\nSummary:\n1 failure region(s) in 19 lines; key evidence at line 19: Process completed with exit code 1.. Most similar past failures suggest ci_config (100% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L19: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__30838063852 (ci_config, score 0.66)\n- pydantic__pydantic__36868140759 (ci_config, score 0.57)\n- pydantic__pydantic__36779918080 (ci_config, score 0.55)\n- psf__black__34076593565 (ci_config, score 0.51)\n- psf__black__34589296835 (ci_config, score 0.51)\n\nSource log: home-assistant__core__38223769150",
+       "severity": "medium",
+       "labels": [
+        "ci-failure",
+        "ci-config"
+       ],
+       "source_log_id": "home-assistant__core__38223769150"
+      },
+      "result": {
+       "note": "real actions are disabled (ACTIONS_ENABLED)"
+      },
+      "error": null,
+      "audit": [
+       {
+        "ts": "2026-11-12T17:00:29.108104+00:00",
+        "tool": "create_ticket",
+        "phase": "proposed",
+        "action_id": "a873debd"
+       },
+       {
+        "ts": "2026-11-12T17:00:29.109879+00:00",
+        "tool": "create_ticket",
+        "phase": "dry_run",
+        "action_id": "a873debd"
+       }
+      ]
+     }
+    ]
+   },
+   "latency_ms": {
+    "parse": 6.4,
+    "diagnose": 147.3,
+    "classify_risk": 2.2,
+    "propose_actions": 2.5,
+    "human_approval": 2.2,
+    "execute_actions": 10.0
+   }
+  },
+  {
+   "log_id": "python-poetry__poetry__38201401884",
+   "repo": "python-poetry/poetry",
+   "workflow": "Tests",
+   "run_url": "https://github.com/python-poetry/poetry/actions/runs/38201401884",
+   "label": "test_failure",
+   "split": "test",
+   "format": "github_actions",
+   "line_count": 400,
+   "redactions": {},
+   "excerpt": [
+    {
+     "line": 281,
+     "text": "        exception: type[Exception]"
+    },
+    {
+     "line": 282,
+     "text": "        if hasattr(tarfile, \"data_filter\"):"
+    },
+    {
+     "line": 283,
+     "text": "            exception = tarfile.OutsideDestinationError"
+    },
+    {
+     "line": 284,
+     "text": "        else:"
+    },
+    {
+     "line": 285,
+     "text": "            # tarfile.OutsideDestinationError does not exist"
+    },
+    {
+     "line": 339,
+     "text": "XFAIL tests/puzzle/test_solver.py::test_solver_local_version_variant_is_not_wrongly_excluded_via_stale_lock - The dependencies of a plain release leak onto its local variants, because `==2.12.1` also matches `2.12.1+cpu` …"
+    },
+    {
+     "line": 340,
+     "text": "XFAIL tests/puzzle/test_solver.py::test_solver_local_version_variant_is_not_wrongly_excluded - The dependencies of a plain release leak onto its local variants, because `==2.12.1` also matches `2.12.1+cpu`. Only the resu …"
+    },
+    {
+     "line": 341,
+     "text": "FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError"
+    },
+    {
+     "line": 342,
+     "text": "= 1 failed, 3338 passed, 34 skipped, 2 xfailed, 75 warnings in 65.47s (0:01:05) ="
+    },
+    {
+     "line": 343,
+     "text": "Process completed with exit code 1."
+    },
+    {
+     "line": 344,
+     "text": "Post job cleanup."
+    },
+    {
+     "line": 345,
+     "text": "##[start-action display=Run actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9;id=__e8b28b3e-4d7b-4ca1-b7a6-83158cdf1779.cache]"
+    },
+    {
+     "line": 397,
+     "text": "shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}"
+    },
+    {
+     "line": 398,
+     "text": ""
+    },
+    {
+     "line": 399,
+     "text": "Process completed with exit code 1."
+    },
+    {
+     "line": 400,
+     "text": "Cleaning up orphan processes"
+    }
+   ],
+   "evidence": [
+    {
+     "line": 283,
+     "text": "            exception = tarfile.OutsideDestinationError"
+    },
+    {
+     "line": 341,
+     "text": "FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError"
+    },
+    {
+     "line": 342,
+     "text": "= 1 failed, 3338 passed, 34 skipped, 2 xfailed, 75 warnings in 65.47s (0:01:05) ="
+    },
+    {
+     "line": 343,
+     "text": "Process completed with exit code 1."
+    },
+    {
+     "line": 399,
+     "text": "Process completed with exit code 1."
+    }
+   ],
+   "similar": [
+    {
+     "log_id": "python-poetry__poetry__36312975783",
+     "repo": "python-poetry/poetry",
+     "label": "test_failure",
+     "score": 0.9893
+    },
+    {
+     "log_id": "python-poetry__poetry__36335583674",
+     "repo": "python-poetry/poetry",
+     "label": "test_failure",
+     "score": 0.9893
+    },
+    {
+     "log_id": "python-poetry__poetry__34606971513",
+     "repo": "python-poetry/poetry",
+     "label": "ci_config",
+     "score": 0.5928
+    }
+   ],
+   "diagnosis": {
+    "category": "test_failure",
+    "confidence": 0.842,
+    "summary": "5 failure region(s) in 400 lines; key evidence at line 283:             exception = tarfile.OutsideDestinationError. Most similar past failures suggest test_failure (84% of the retrieval vote).",
+    "method": "retrieval_vote",
+    "correct": true
+   },
+   "risk": {
+    "level": "medium",
+    "method": "rubric",
+    "rationale": "rubric v1: category test_failure, workflow Tests → medium"
+   },
+   "actions": [
+    {
+     "tool": "create_ticket",
+     "reason": "medium-risk failure",
+     "arguments": {
+      "title": "[medium] CI failure: test_failure (python-poetry)",
+      "body": "Category: test_failure (confidence 0.84, retrieval_vote)\nRisk: medium (rubric): rubric v1: category test_failure, workflow Tests → medium\n\nSummary:\n5 failure region(s) in 400 lines; key evidence at line 283:             exception = tarfile.OutsideDestinationError. Most similar past failures suggest test_failure (84% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L283:             exception = tarfile.OutsideDestinationError\n> L341: FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError\n> L342: = 1 failed, 3338 passed, 34 skipped, 2 xfailed, 75 warnings in 65.47s (0:01:05) =\n> L343: Process completed with exit code 1.\n> L399: Process completed with exit code 1.\n\nSimilar past failures:\n- python-poetry__poetry__36312975783 (test_failure, score 0.99)\n- python-poetry__poetry__36335583674 (test_failure, score 0.99)\n- python-poetry__poetry__34606971513 (ci_config, score 0.59)\n- fastapi__fastapi__35571183172 (test_failure, score 0.59)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.59)\n\nSource log: python-poetry__poetry__38201401884",
+      "severity": "medium",
+      "labels": [
+       "ci-failure",
+       "test-failure"
+      ],
+      "source_log_id": "python-poetry__poetry__38201401884"
+     }
+    }
+   ],
+   "approval": {
+    "required": true,
+    "approver": "demo",
+    "approved": true,
+    "run_status": "completed",
+    "results": [
+     {
+      "tool": "create_ticket",
+      "status": "dry_run",
+      "dry_run": true,
+      "proposal": {
+       "title": "[medium] CI failure: test_failure (python-poetry)",
+       "body": "Category: test_failure (confidence 0.84, retrieval_vote)\nRisk: medium (rubric): rubric v1: category test_failure, workflow Tests → medium\n\nSummary:\n5 failure region(s) in 400 lines; key evidence at line 283:             exception = tarfile.OutsideDestinationError. Most similar past failures suggest test_failure (84% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L283:             exception = tarfile.OutsideDestinationError\n> L341: FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError\n> L342: = 1 failed, 3338 passed, 34 skipped, 2 xfailed, 75 warnings in 65.47s (0:01:05) =\n> L343: Process completed with exit code 1.\n> L399: Process completed with exit code 1.\n\nSimilar past failures:\n- python-poetry__poetry__36312975783 (test_failure, score 0.99)\n- python-poetry__poetry__36335583674 (test_failure, score 0.99)\n- python-poetry__poetry__34606971513 (ci_config, score 0.59)\n- fastapi__fastapi__35571183172 (test_failure, score 0.59)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.59)\n\nSource log: python-poetry__poetry__38201401884",
+       "severity": "medium",
+       "labels": [
+        "ci-failure",
+        "test-failure"
+       ],
+       "source_log_id": "python-poetry__poetry__38201401884"
+      },
+      "result": {
+       "note": "real actions are disabled (ACTIONS_ENABLED)"
+      },
+      "error": null,
+      "audit": [
+       {
+        "ts": "2026-11-12T17:00:29.584617+00:00",
+        "tool": "create_ticket",
+        "phase": "proposed",
+        "action_id": "321a3033"
+       },
+       {
+        "ts": "2026-11-12T17:00:29.586748+00:00",
+        "tool": "create_ticket",
+        "phase": "dry_run",
+        "action_id": "321a3033"
+       }
+      ]
+     }
+    ]
+   },
+   "latency_ms": {
+    "parse": 117.5,
+    "diagnose": 113.9,
+    "classify_risk": 2.4,
+    "propose_actions": 3.0,
+    "human_approval": 2.6,
+    "execute_actions": 11.1
+   }
+  },
+  {
+   "log_id": "pytest-dev__pytest__38099531711",
+   "repo": "pytest-dev/pytest",
+   "workflow": "Doc Check Links",
+   "run_url": "https://github.com/pytest-dev/pytest/actions/runs/38099531711",
+   "label": "docs_check",
+   "split": "test",
+   "format": "github_actions",
+   "line_count": 400,
+   "redactions": {},
+   "excerpt": [
+    {
+     "line": 377,
+     "text": "/home/runner/work/pytest/pytest/doc/en/changelog.rst:1484: WARNING: broken link: https://github.com/sponsors/zachsnickers (404 Client Error: Not Found for url: https://github.com/sponsors/zachsnickers)"
+    },
+    {
+     "line": 378,
+     "text": "docs-checklinks: exit 1 (902.10 seconds) /home/runner/work/pytest/pytest/doc/en> sphinx-build -W -q --keep-going -b linkcheck . _build pid=2599"
+    },
+    {
+     "line": 379,
+     "text": "  docs-checklinks: FAIL code 1 (905.32=setup[3.22]+cmd[902.10] seconds)"
+    },
+    {
+     "line": 380,
+     "text": "  evaluation failed :( (905.42 seconds)"
+    },
+    {
+     "line": 381,
+     "text": "Process completed with exit code 1."
+    }
+   ],
+   "evidence": [
+    {
+     "line": 379,
+     "text": "  docs-checklinks: FAIL code 1 (905.32=setup[3.22]+cmd[902.10] seconds)"
+    }
+   ],
+   "similar": [
+    {
+     "log_id": "pytest-dev__pytest__36283392425",
+     "repo": "pytest-dev/pytest",
+     "label": "docs_check",
+     "score": 0.8467
+    },
+    {
+     "log_id": "pytest-dev__pytest__35479449080",
+     "repo": "pytest-dev/pytest",
+     "label": "docs_check",
+     "score": 0.8179
+    },
+    {
+     "log_id": "pydantic__pydantic__36666298158",
+     "repo": "pydantic/pydantic",
+     "label": "dependency_install",
+     "score": 0.5855
+    }
+   ],
+   "diagnosis": {
+    "category": "docs_check",
+    "confidence": 0.505,
+    "summary": "1 failure region(s) in 400 lines; key evidence at line 379:   docs-checklinks: FAIL code 1 (905.32=setup[3.22]+cmd[902.10] seconds). Most similar past failures suggest docs_check (50% of the retrieval vote).",
+    "method": "retrieval_vote",
+    "correct": true
+   },
+   "risk": {
+    "level": "low",
+    "method": "rubric",
+    "rationale": "rubric v1: category docs_check, workflow Doc Check Links → low"
+   },
+   "actions": [],
+   "approval": {
+    "required": false,
+    "run_status": "resolved_no_action"
+   },
+   "latency_ms": {
+    "parse": 100.8,
+    "diagnose": 146.2,
+    "classify_risk": 2.1,
+    "propose_actions": 2.1
+   }
+  },
+  {
+   "log_id": "numpy__numpy__38197650837",
+   "repo": "numpy/numpy",
+   "workflow": "Wheel builder",
+   "run_url": "https://github.com/numpy/numpy/actions/runs/38197650837",
+   "label": "dependency_install",
+   "split": "test",
+   "format": "github_actions",
+   "line_count": 400,
+   "redactions": {},
+   "excerpt": [
+    {
+     "line": 328,
+     "text": "Waiting for app to start - this may take several minutes"
+    },
+    {
+     "line": 329,
+     "text": "Preparing \"Install CMake 3.22.1 v.3.22.1\"."
+    },
+    {
+     "line": 330,
+     "text": "error: closed"
+    },
+    {
+     "line": 331,
+     "text": "Command \"/usr/local/lib/android/sdk/platform-tools/adb -s emulator-5554 shell pidof -s org.python.testbed\" returned exit status 1"
+    },
+    {
+     "line": 332,
+     "text": "This may be transient, so continuing to wait"
+    },
+    {
+     "line": 336,
+     "text": ""
+    },
+    {
+     "line": 337,
+     "text": "                                                            ✕ 207.18s"
+    },
+    {
+     "line": 338,
+     "text": "cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-andro …"
+    },
+    {
+     "line": 339,
+     "text": ""
+    },
+    {
+     "line": 340,
+     "text": "Process completed with exit code 1."
+    }
+   ],
+   "evidence": [
+    {
+     "line": 330,
+     "text": "error: closed"
+    },
+    {
+     "line": 338,
+     "text": "cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-andro …"
+    }
+   ],
+   "similar": [
+    {
+     "log_id": "pydantic__pydantic__36666298158",
+     "repo": "pydantic/pydantic",
+     "label": "dependency_install",
+     "score": 0.4874
+    },
+    {
+     "log_id": "pytest-dev__pytest__36283392425",
+     "repo": "pytest-dev/pytest",
+     "label": "docs_check",
+     "score": 0.4408
+    },
+    {
+     "log_id": "pydantic__pydantic__36868140759",
+     "repo": "pydantic/pydantic",
+     "label": "ci_config",
+     "score": 0.4169
+    }
+   ],
+   "diagnosis": {
+    "category": "ci_config",
+    "confidence": 0.379,
+    "summary": "2 failure region(s) in 400 lines; key evidence at line 330: error: closed. Most similar past failures suggest ci_config (38% of the retrieval vote).",
+    "method": "retrieval_vote",
+    "correct": false
+   },
+   "risk": {
+    "level": "high",
+    "method": "rubric",
+    "rationale": "rubric v1: category ci_config, workflow Wheel builder → high"
+   },
+   "actions": [
+    {
+     "tool": "create_ticket",
+     "reason": "diagnosis is uncertain, a human must triage",
+     "arguments": {
+      "title": "[high] CI failure: ci_config (numpy)",
+      "body": "Category: ci_config (confidence 0.38, retrieval_vote)\nRisk: high (rubric): rubric v1: category ci_config, workflow Wheel builder → high\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 330: error: closed. Most similar past failures suggest ci_config (38% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L330: error: closed\n> L338: cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd', '--managed', 'maxVersion', '--', '-m', 'pytest', '--pyargs', 'nu\n\nSimilar past failures:\n- pydantic__pydantic__36666298158 (dependency_install, score 0.49)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.44)\n- pydantic__pydantic__36868140759 (ci_config, score 0.42)\n- psf__black__31071707016 (lint_format, score 0.41)\n- pydantic__pydantic__36712532115 (ci_config, score 0.40)\n\nSource log: numpy__numpy__38197650837",
+      "severity": "high",
+      "labels": [
+       "ci-failure",
+       "ci-config",
+       "needs-triage"
+      ],
+      "source_log_id": "numpy__numpy__38197650837"
+     }
+    },
+    {
+     "tool": "notify",
+     "reason": "high risk or uncertain diagnosis: page a human",
+     "arguments": {
+      "channel": "oncall",
+      "severity": "high",
+      "message": "[high] CI failure: ci_config (numpy): ticket proposed, approval needed."
+     }
+    }
+   ],
+   "approval": {
+    "required": true,
+    "approver": "demo",
+    "approved": true,
+    "run_status": "completed",
+    "results": [
+     {
+      "tool": "create_ticket",
+      "status": "dry_run",
+      "dry_run": true,
+      "proposal": {
+       "title": "[high] CI failure: ci_config (numpy)",
+       "body": "Category: ci_config (confidence 0.38, retrieval_vote)\nRisk: high (rubric): rubric v1: category ci_config, workflow Wheel builder → high\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 330: error: closed. Most similar past failures suggest ci_config (38% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L330: error: closed\n> L338: cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd', '--managed', 'maxVersion', '--', '-m', 'pytest', '--pyargs', 'nu\n\nSimilar past failures:\n- pydantic__pydantic__36666298158 (dependency_install, score 0.49)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.44)\n- pydantic__pydantic__36868140759 (ci_config, score 0.42)\n- psf__black__31071707016 (lint_format, score 0.41)\n- pydantic__pydantic__36712532115 (ci_config, score 0.40)\n\nSource log: numpy__numpy__38197650837",
+       "severity": "high",
+       "labels": [
+        "ci-failure",
+        "ci-config",
+        "needs-triage"
+       ],
+       "source_log_id": "numpy__numpy__38197650837"
+      },
+      "result": {
+       "note": "real actions are disabled (ACTIONS_ENABLED)"
+      },
+      "error": null,
+      "audit": [
+       {
+        "ts": "2026-11-12T17:00:30.458231+00:00",
+        "tool": "create_ticket",
+        "phase": "proposed",
+        "action_id": "23600f36"
+       },
+       {
+        "ts": "2026-11-12T17:00:30.460171+00:00",
+        "tool": "create_ticket",
+        "phase": "dry_run",
+        "action_id": "23600f36"
+       }
+      ]
+     },
+     {
+      "tool": "notify",
+      "status": "dry_run",
+      "dry_run": true,
+      "proposal": {
+       "channel": "oncall",
+       "message": "[high] CI failure: ci_config (numpy): ticket proposed, approval needed.",
+       "severity": "high",
+       "ticket_id": null
+      },
+      "result": {
+       "note": "real actions are disabled (ACTIONS_ENABLED)"
+      },
+      "error": null,
+      "audit": [
+       {
+        "ts": "2026-11-12T17:00:30.465041+00:00",
+        "tool": "notify",
+        "phase": "proposed",
+        "action_id": "13654ebf"
+       },
+       {
+        "ts": "2026-11-12T17:00:30.466704+00:00",
+        "tool": "notify",
+        "phase": "dry_run",
+        "action_id": "13654ebf"
+       }
+      ]
+     }
+    ]
+   },
+   "latency_ms": {
+    "parse": 103.8,
+    "diagnose": 151.6,
+    "classify_risk": 2.3,
+    "propose_actions": 3.3,
+    "human_approval": 2.9,
+    "execute_actions": 16.9
+   }
+  }
+ ]
+}

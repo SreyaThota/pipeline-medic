@@ -1,0 +1,38 @@
+name: Deploy mobile demo to GitHub Pages
+
+# The demo is static: demo/public holds the page plus runs.json and
+# metrics.json, which are exported locally by `python demo/build_demo_data.py`
+# from real graph runs and evaluation/results. No backend, no API key.
+
+on:
+  push:
+    branches: [main]
+    paths: ["demo/public/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the demo data is present and valid JSON
+        run: |
+          python3 -c "import json; [json.load(open(f'demo/public/{f}')) for f in ('runs.json', 'metrics.json')]"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: demo/public
+      - id: deployment
+        uses: actions/deploy-pages@v4

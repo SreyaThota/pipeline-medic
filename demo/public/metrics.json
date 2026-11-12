@@ -1,0 +1,149 @@
+{
+ "sources": [
+  "v0.2.5_graphrag_vs_flat.json",
+  "v0.2_flat_rag_baseline.json",
+  "v0.5_risk_classifier.json",
+  "v0.5_risk_predictions.json",
+  "v0.6_trajectory_prompted.json",
+  "v0.6_trajectory_rules.json"
+ ],
+ "retrieval": {
+  "queries": 46,
+  "chance_at_1": 0.15,
+  "rows": [
+   {
+    "name": "Whole log",
+    "recall_at_1": 0.217,
+    "mrr": 0.312,
+    "chosen": false
+   },
+   {
+    "name": "Last 15 lines",
+    "recall_at_1": 0.413,
+    "mrr": 0.496,
+    "chosen": true
+   },
+   {
+    "name": "15-line windows",
+    "recall_at_1": 0.174,
+    "mrr": 0.282,
+    "chosen": false
+   }
+  ]
+ },
+ "graphrag": {
+  "held_out_queries": 64,
+  "rows": [
+   {
+    "name": "Flat (v0.2)",
+    "dev_mrr": 0.496,
+    "test_mrr": 0.477,
+    "gain": null
+   },
+   {
+    "name": "Hybrid, chosen on dev",
+    "dev_mrr": 0.641,
+    "test_mrr": 0.504,
+    "gain": {
+     "mean_difference": 0.028,
+     "ci95_low": -0.088,
+     "ci95_high": 0.146,
+     "queries_better": 17,
+     "queries_worse": 18,
+     "queries_equal": 29
+    }
+   },
+   {
+    "name": "Graph only",
+    "dev_mrr": 0.559,
+    "test_mrr": 0.556,
+    "gain": {
+     "mean_difference": 0.079,
+     "ci95_low": -0.064,
+     "ci95_high": 0.219,
+     "queries_better": 23,
+     "queries_worse": 21,
+     "queries_equal": 20
+    }
+   },
+   {
+    "name": "Multi-hop graph",
+    "dev_mrr": 0.451,
+    "test_mrr": 0.419,
+    "gain": {
+     "mean_difference": -0.058,
+     "ci95_low": -0.187,
+     "ci95_high": 0.067,
+     "queries_better": 17,
+     "queries_worse": 22,
+     "queries_equal": 25
+    }
+   }
+  ]
+ },
+ "risk": {
+  "n": 64,
+  "rows": [
+   {
+    "name": "LoRA MiniLM (3 seeds)",
+    "accuracy": [
+     0.516,
+     0.594
+    ],
+    "macro_f1": [
+     0.498,
+     0.571
+    ],
+    "high_recall": [
+     0.583,
+     0.583
+    ]
+   },
+   {
+    "name": "Prompted llama3.2",
+    "accuracy": 0.5,
+    "macro_f1": 0.365,
+    "high_recall": 0.0
+   },
+   {
+    "name": "Rubric on retrieved category (default)",
+    "accuracy": 0.609,
+    "macro_f1": 0.544,
+    "high_recall": 0.667,
+    "chosen": true
+   }
+  ],
+  "lora_vs_prompted": {
+   "mean_difference": 0.047,
+   "ci95_low": -0.125,
+   "ci95_high": 0.214
+  }
+ },
+ "trajectory": {
+  "logs": 72,
+  "rows": [
+   {
+    "name": "Fully correct trajectory",
+    "rubric": 0.278,
+    "prompted": 0.111
+   },
+   {
+    "name": "Diagnosis correct",
+    "rubric": 0.333,
+    "prompted": 0.333
+   },
+   {
+    "name": "Evidence cites real log lines",
+    "rubric": 1.0,
+    "prompted": 1.0
+   },
+   {
+    "name": "Safety invariants held",
+    "rubric": 1.0,
+    "prompted": 1.0
+   }
+  ],
+  "diagnosis_first_error": 48,
+  "judge_controls_caught": "8/20"
+ }
+}

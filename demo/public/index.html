@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pipeline Medic demo</title>
+<meta name="description" content="Replays real Pipeline Medic runs on failed GitHub Actions logs: parse, retrieve, diagnose, risk, propose, then wait for human approval.">
+<meta property="og:title" content="Pipeline Medic: live demo">
+<meta property="og:description" content="Diagnoses failed CI runs on real GitHub Actions logs, with human approval before any action.">
+<meta name="theme-color" content="#0d1117">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2322d3a6'/%3E%3Cpath d='M13 7h6v6h6v6h-6v6h-6v-6H7v-6h6z' fill='%230d1117'/%3E%3C/svg%3E">
+<style>
+:root {
+  --bg: #0d1117; --panel: #161b22; --panel2: #1c232c; --line: #2a323d;
+  --text: #e6edf3; --muted: #9aa6b2; --accent: #22d3a6; --accent-ink: #062a21;
+  --ok: #3fb950; --bad: #f85149; --high: #f85149; --medium: #d29922; --low: #3fb950;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+.wrap { max-width: 680px; margin: 0 auto; padding: 20px 16px 40px; }
+h1 { font-size: 28px; margin: 0; letter-spacing: -0.02em; }
+h1 span { color: var(--accent); }
+.sub { color: var(--muted); margin: 6px 0 12px; font-size: 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font-size: 13px; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line);
+  background: var(--panel); color: var(--text); }
+nav { position: sticky; top: 0; z-index: 5; background: var(--bg); display: flex; gap: 4px;
+  margin: 16px -16px 12px; padding: 8px 16px; border-bottom: 1px solid var(--line); }
+nav button { flex: 1 1 auto; font: inherit; font-size: 14.5px; font-weight: 600; padding: 10px 6px; white-space: nowrap;
+  border-radius: 10px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+nav button[aria-selected="true"] { background: var(--panel2); color: var(--accent); }
+h2 { font-size: 20px; margin: 8px 0 10px; }
+h3 { font-size: 16px; margin: 0 0 8px; display: flex; align-items: center; gap: 8px; }
+.picker { display: grid; gap: 8px; }
+.pick { text-align: left; font: inherit; color: var(--text); background: var(--panel);
+  border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; cursor: pointer; }
+.pick[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+.pick b { display: block; font-size: 16px; }
+.pick small { color: var(--muted); font-size: 14px; display: block; overflow-wrap: anywhere; }
+.progress { display: flex; gap: 4px; margin: 16px 0 10px; }
+.progress i { flex: 1; height: 4px; border-radius: 2px; background: var(--line); transition: background .3s; }
+.progress i.on { background: var(--accent); }
+.stage { background: var(--panel); border: 1px solid var(--line); border-radius: 14px;
+  padding: 14px; margin-bottom: 10px; animation: in .35s ease both; scroll-margin-top: 72px; }
+@keyframes in { from { opacity: 0; transform: translateY(8px); } }
+@media (prefers-reduced-motion: reduce) { .stage { animation: none; } }
+.num { display: inline-grid; place-items: center; width: 24px; height: 24px; border-radius: 50%;
+  background: var(--panel2); color: var(--accent); font-size: 13px; flex: none; }
+.ms { margin-left: auto; color: var(--muted); font-size: 12px; font-weight: 400; font-family: var(--mono); }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 8px; overflow-wrap: anywhere; }
+.log { font: 12.5px/1.45 var(--mono); background: #0a0e13; border: 1px solid var(--line);
+  border-radius: 10px; padding: 8px 0; margin: 0; }
+.log div { display: grid; grid-template-columns: 3.2em 1fr; padding: 0 10px 0 0; }
+.log .n { color: #5c6773; text-align: right; padding-right: 8px; user-select: none; }
+.log .t { white-space: pre-wrap; overflow-wrap: anywhere; min-width: 0; }
+.log .ev { background: rgba(34, 211, 166, .13); box-shadow: 3px 0 0 var(--accent) inset; }
+.log .gap { color: #5c6773; padding-left: 3.2em; }
+.badge { display: inline-block; font-size: 13px; font-weight: 700; padding: 2px 9px; border-radius: 6px;
+  font-family: var(--mono); }
+.redact { background: #3a2a10; color: #f0b44c; }
+.risk-high { background: rgba(248, 81, 73, .18); color: var(--high); }
+.risk-medium { background: rgba(210, 153, 34, .2); color: var(--medium); }
+.risk-low { background: rgba(63, 185, 80, .18); color: var(--low); }
+.match { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; padding: 8px 0;
+  border-top: 1px solid var(--line); font-size: 15px; }
+.match:first-of-type { border-top: 0; }
+.match .r { overflow-wrap: anywhere; }
+.match .s { font-family: var(--mono); color: var(--accent); }
+.match .c { color: var(--muted); font-size: 13px; grid-column: 1 / -1; }
+.bar { height: 4px; background: var(--line); border-radius: 2px; grid-column: 1 / -1; }
+.bar i { display: block; height: 100%; background: var(--accent); border-radius: 2px; }
+.big { font-size: 22px; font-weight: 700; font-family: var(--mono); overflow-wrap: anywhere; }
+.verdict { margin-top: 6px; font-size: 15px; }
+.verdict.ok { color: var(--ok); } .verdict.bad { color: var(--bad); }
+.kv { font-size: 14px; margin: 4px 0; overflow-wrap: anywhere; }
+.kv span { color: var(--muted); }
+details { margin-top: 6px; }
+summary { cursor: pointer; color: var(--accent); font-size: 14px; }
+pre.body { font: 12px/1.45 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; background: #0a0e13;
+  border: 1px solid var(--line); border-radius: 10px; padding: 10px; margin: 6px 0 0; }
+.tool { border-top: 1px solid var(--line); padding-top: 10px; margin-top: 10px; }
+.tool:first-of-type { border-top: 0; margin-top: 0; padding-top: 0; }
+.approve { width: 100%; font: inherit; font-size: 19px; font-weight: 700; padding: 16px; margin-top: 8px;
+  border-radius: 12px; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+.approve:active { transform: scale(.99); }
+.paused { color: var(--medium); font-weight: 600; }
+.done { margin-top: 10px; padding: 12px; border-radius: 10px; background: rgba(34, 211, 166, .1);
+  border: 1px solid rgba(34, 211, 166, .4); font-weight: 600; }
+.audit { font: 12px/1.6 var(--mono); color: var(--muted); margin-top: 8px; overflow-wrap: anywhere; }
+.trace { font: 12px/1.6 var(--mono); color: var(--muted); margin-top: 6px; overflow-wrap: anywhere; }
+.note { color: var(--muted); font-size: 13px; margin: 6px 0 0; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; margin-bottom: 6px; }
+th, td { text-align: left; padding: 8px 4px; border-top: 1px solid var(--line); vertical-align: top;
+  overflow-wrap: anywhere; }
+th { color: var(--muted); font-weight: 600; font-size: 12px; border-top: 0; }
+td.v, th.v { text-align: right; font-family: var(--mono); }
+td.v { white-space: nowrap; font-size: 13px; overflow-wrap: normal; }
+tr.chosen td { color: var(--accent); font-weight: 600; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; margin-bottom: 12px; }
+.card p { margin: 0; font-size: 15px; }
+.card h3 { font-size: 16px; }
+.tag { font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 2px 7px;
+  border-radius: 5px; background: var(--panel2); color: var(--muted); }
+footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line); display: flex; gap: 18px;
+  flex-wrap: wrap; font-size: 15px; }
+a { color: var(--accent); }
+[hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Pipeline <span>Medic</span></h1>
+    <p class="sub">Diagnoses failed CI runs on real GitHub Actions logs, with human approval before any action</p>
+    <div class="chips">
+      <span class="chip">123 real logs · 24 repos</span>
+      <span class="chip">80 security tests</span>
+      <span class="chip">Negative results included</span>
+    </div>
+  </header>
+
+  <nav role="tablist">
+    <button role="tab" id="t-replay" aria-selected="true" aria-controls="replay">Replay</button>
+    <button role="tab" id="t-results" aria-selected="false" aria-controls="results">Results</button>
+    <button role="tab" id="t-failed" aria-selected="false" aria-controls="failed">What didn't work</button>
+  </nav>
+
+  <main>
+    <section id="replay" role="tabpanel" aria-labelledby="t-replay">
+      <h2>Replay a real failure</h2>
+      <div class="picker" id="picker"></div>
+      <div class="progress" id="progress" hidden></div>
+      <div id="stages" aria-live="polite"></div>
+      <p class="note" id="replay-note"></p>
+    </section>
+
+    <section id="results" role="tabpanel" aria-labelledby="t-results" hidden></section>
+    <section id="failed" role="tabpanel" aria-labelledby="t-failed" hidden></section>
+  </main>
+
+  <footer>
+    <a href="https://github.com/SreyaThota/pipeline-medic">GitHub</a>
+    <a href="https://www.linkedin.com/in/sreyathota5">LinkedIn</a>
+  </footer>
+</div>
+
+<script>
+"use strict";
+const $ = (sel) => document.querySelector(sel);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+  ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const f3 = (x) => x.toFixed(3);
+const f2 = (x) => x.toFixed(2);
+const pct = (x) => (x === 1 ? "100" : (x * 100).toFixed(1)) + "%";
+const signed = (x) => (x >= 0 ? "+" : "−") + Math.abs(x).toFixed(3);
+const minus = (s) => String(s).replace(/-/g, "−");
+const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const STEP_MS = reduceMotion ? 0 : 500;
+const STAGE_NAMES = ["Parse & redact", "Retrieve similar failures", "Diagnose", "Risk",
+  "Propose action", "Human approval"];
+
+let RUNS = [], META = {}, timer = null;
+
+// --- tabs ---------------------------------------------------------------
+document.querySelectorAll("nav button").forEach((btn) => btn.addEventListener("click", () => {
+  document.querySelectorAll("nav button").forEach((b) => {
+    const on = b === btn;
+    b.setAttribute("aria-selected", on);
+    document.getElementById(b.getAttribute("aria-controls")).hidden = !on;
+  });
+  window.scrollTo({ top: 0 });
+}));
+
+// --- replay -------------------------------------------------------------
+function oneLine(run) {
+  // The first evidence line, or the log line just before it when the evidence
+  // is only the generic exit-code line.
+  let text = run.evidence[0]?.text ?? run.diagnosis.summary;
+  if (/^Process completed with exit code/.test(text.trim())) {
+    const i = run.excerpt.findIndex((l) => l.line === run.evidence[0].line);
+    if (i > 0) text = run.excerpt[i - 1].text;
+  }
+  return text.trim().replace(/\s+/g, " ").slice(0, 90);
+}
+
+function renderPicker() {
+  $("#picker").innerHTML = RUNS.map((r, i) => `
+    <button class="pick" data-i="${i}" aria-pressed="false">
+      <b>${esc(r.repo)} · ${esc(r.workflow)}</b>
+      <small>${esc(oneLine(r))}</small>
+    </button>`).join("");
+  $("#picker").querySelectorAll(".pick").forEach((b) =>
+    b.addEventListener("click", () => play(+b.dataset.i)));
+}
+
+const ms = (run, ...stages) => {
+  const vals = stages.map((s) => run.latency_ms[s]).filter((v) => v !== undefined);
+  return vals.length ? `<span class="ms">${vals.reduce((a, b) => a + b, 0).toFixed(1)} ms</span>` : "";
+};
+const head = (n, title, extra = "") => `<h3><span class="num">${n}</span>${title}${extra}</h3>`;
+
+function stageParse(run) {
+  const ev = new Set(run.evidence.map((e) => e.line));
+  let prev = 0, rows = "";
+  for (const l of run.excerpt) {
+    if (prev && l.line > prev + 1) rows += `<div class="gap">⋯</div>`;
+    const text = esc(l.text).replace(/\[REDACTED:([a-z_]+)\]/g,
+      '<span class="badge redact">[REDACTED]</span>');
+    rows += `<div class="${ev.has(l.line) ? "ev" : ""}"><span class="n">${l.line}</span><span class="t">${text}</span></div>`;
+    prev = l.line;
+  }
+  const red = Object.entries(run.redactions);
+  const redLine = red.length
+    ? red.map(([k, n]) => `${n} × <span class="badge redact">[REDACTED]</span> ${esc(k)}`).join(", ")
+    : "0 secrets found in this log (redaction runs on every log before anything else sees it)";
+  return head(1, "Parse &amp; redact", ms(run, "parse")) +
+    `<p class="meta">${run.line_count} lines · ${run.evidence.length} evidence line${run.evidence.length === 1 ? "" : "s"} highlighted · ${redLine}</p>
+     <div class="log">${rows}</div>`;
+}
+
+function stageRetrieve(run) {
+  const items = run.similar.map((s) => `
+    <div class="match"><span class="r">${esc(s.repo)}</span><span class="s">${f3(s.score)}</span>
+      <span class="c">${esc(s.label)}</span>
+      <span class="bar"><i style="width:${Math.max(0, Math.min(1, s.score)) * 100}%"></i></span></div>`).join("");
+  return head(2, "Retrieve similar failures", ms(run, "diagnose")) +
+    `<p class="meta">Top 3 past failures, cosine similarity. This held-out log was never in the knowledge base.</p>${items}`;
+}
+
+function stageDiagnose(run) {
+  const d = run.diagnosis;
+  const verdict = d.correct
+    ? `<div class="verdict ok">✓ matches the human label <b>${esc(run.label)}</b></div>`
+    : `<div class="verdict bad">✗ wrong: the human label is <b>${esc(run.label)}</b>. Diagnosis is the weakest stage.</div>`;
+  return head(3, "Diagnose") +
+    `<div class="big">${esc(d.category ?? "unsure")}</div>
+     <p class="meta">${Math.round(d.confidence * 100)}% of the retrieval vote</p>${verdict}`;
+}
+
+function stageRisk(run) {
+  return head(4, "Risk", ms(run, "classify_risk")) +
+    `<span class="badge risk-${esc(run.risk.level)}" style="font-size:16px">${esc(run.risk.level.toUpperCase())}</span>
+     <p class="kv" style="margin-top:8px">${esc(run.risk.rationale)}</p>`;
+}
+
+function argsView(a) {
+  const x = a.arguments;
+  if (a.tool === "create_ticket") {
+    return `<p class="kv"><span>title</span> ${esc(x.title)}</p>
+      <p class="kv"><span>severity</span> ${esc(x.severity)} · <span>labels</span> ${esc((x.labels || []).join(", "))}</p>
+      <details><summary>Ticket body</summary><pre class="body">${esc(x.body)}</pre></details>`;
+  }
+  return Object.entries(x).map(([k, v]) => `<p class="kv"><span>${esc(k)}</span> ${esc(v)}</p>`).join("");
+}
+
+function stagePropose(run) {
+  if (!run.actions.length) {
+    return head(5, "Propose action", ms(run, "propose_actions")) +
+      `<p class="kv">Low risk and a clear diagnosis: <b>no action proposed</b>.</p>`;
+  }
+  return head(5, "Propose action", ms(run, "propose_actions")) + run.actions.map((a) => `
+    <div class="tool"><span class="badge" style="background:var(--panel2)">${esc(a.tool)}</span>
+      <p class="kv"><span>why</span> ${esc(a.reason)}</p>${argsView(a)}</div>`).join("");
+}
+
+function stageApproval(run) {
+  if (!run.approval.required) {
+    return head(6, "Human approval") +
+      `<p class="kv">Nothing to approve. Run status <code>${esc(run.approval.run_status)}</code>.</p>`;
+  }
+  return head(6, "⏸ Human approval") +
+    `<p class="paused">The graph is paused. Nothing runs until a human decides.</p>
+     <button class="approve" id="approve">Approve (dry-run)</button><div id="outcome"></div>`;
+}
+
+function showOutcome(run) {
+  const a = run.approval;
+  const rows = a.results.map((r) => `
+    <p class="kv"><b>${esc(r.tool)}</b> → <code>${esc(r.status)}</code> · ${esc(r.result?.note ?? "")}</p>
+    <div class="audit">${r.audit.map((e) => `${esc(e.ts.slice(11, 23))} ${esc(e.tool)} ${esc(e.phase)} #${esc(e.action_id)}`).join("<br>")}</div>`).join("");
+  $("#outcome").innerHTML = `<div class="stage" style="margin:10px 0 0">
+      <p class="meta">Approved by <code>${esc(a.approver)}</code> · run status <code>${esc(a.run_status)}</code> ${ms(run, "human_approval", "execute_actions")}</p>
+      ${rows}
+      <div class="done">Nothing was executed: dry-run.</div></div>`;
+  const btn = $("#approve");
+  btn.disabled = true; btn.textContent = "Approved"; btn.style.opacity = .5;
+  $(".paused").textContent = "Approved. The paused run resumed:";
+  renderTrace(run);
+  $("#outcome").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
+}
+
+function renderTrace(run) {
+  const names = { parse: "parse", diagnose: "retrieve+diagnose", classify_risk: "risk",
+    propose_actions: "propose", human_approval: "approval", execute_actions: "execute" };
+  const shown = run.approval.required && $("#approve") && !$("#approve").disabled
+    ? ["parse", "diagnose", "classify_risk", "propose_actions"]
+    : Object.keys(run.latency_ms);
+  $("#replay-note").innerHTML = `<div class="trace">Trace: ${shown.filter((s) => s in run.latency_ms)
+    .map((s) => `${names[s] || s} ${run.latency_ms[s].toFixed(1)} ms`).join(" · ")}</div>
+    <p class="note">Recorded from a real run of the graph (rubric risk, no LLM, ${esc(META.actions)}). Source run:
+    <a href="${esc(run.run_url)}">GitHub Actions</a>.</p>`;
+}
+
+function play(i) {
+  clearTimeout(timer);
+  const run = RUNS[i];
+  $("#picker").querySelectorAll(".pick").forEach((b) => b.setAttribute("aria-pressed", +b.dataset.i === i));
+  const builders = [stageParse, stageRetrieve, stageDiagnose, stageRisk, stagePropose, stageApproval];
+  const prog = $("#progress");
+  prog.hidden = false;
+  prog.innerHTML = builders.map(() => "<i></i>").join("");
+  $("#stages").innerHTML = "";
+  $("#replay-note").innerHTML = "";
+  let step = 0;
+  const next = () => {
+    const el = document.createElement("div");
+    el.className = "stage";
+    el.innerHTML = builders[step](run);
+    $("#stages").appendChild(el);
+    prog.children[step].classList.add("on");
+    if (step === 0) el.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+    step += 1;
+    if (step < builders.length) timer = setTimeout(next, STEP_MS);
+    else {
+      renderTrace(run);
+      const btn = $("#approve");
+      if (btn) btn.addEventListener("click", () => showOutcome(run));
+    }
+  };
+  next();
+}
+
+// --- results ------------------------------------------------------------
+function renderResults(m) {
+  const r = m.retrieval, g = m.graphrag, k = m.risk, t = m.trajectory;
+  const range = (v, f) => Array.isArray(v) ? (v[0] === v[1] ? f(v[0]) : `${f(v[0])}–${f(v[1])}`) : f(v);
+  $("#results").innerHTML = `
+    <h2>Results</h2>
+    <div class="card"><h3>Retrieval: find past failures of the same kind</h3>
+      <table><thead><tr><th style="width:44%">Chunking</th><th class="v">Recall@1</th><th class="v">MRR</th></tr></thead><tbody>
+      ${r.rows.map((x) => `<tr class="${x.chosen ? "chosen" : ""}"><td>${esc(x.name)}</td><td class="v">${f3(x.recall_at_1)}</td><td class="v">${f3(x.mrr)}</td></tr>`).join("")}
+      </tbody></table>
+      <p class="note">${r.queries} real logs, scored cross-repo (results from the query's own repo excluded). Chance@1 is ${f2(r.chance_at_1)}.</p></div>
+
+    <div class="card"><h3>Risk classifier</h3>
+      <table><thead><tr><th style="width:40%">Classifier</th><th class="v">Acc.</th><th class="v">Macro-F1</th><th class="v">High recall</th></tr></thead><tbody>
+      ${k.rows.map((x) => `<tr class="${x.chosen ? "chosen" : ""}"><td>${esc(x.name)}</td><td class="v">${range(x.accuracy, Array.isArray(x.accuracy) ? f2 : f3)}</td><td class="v">${range(x.macro_f1, Array.isArray(x.macro_f1) ? f2 : f3)}</td><td class="v">${range(x.high_recall, f2)}</td></tr>`).join("")}
+      </tbody></table>
+      <p class="note">${k.n} held-out logs. The rule-based rubric has the best accuracy and high-risk recall, so it is the default.</p></div>
+
+    <div class="card"><h3>Whole graph, stage by stage</h3>
+      <table><thead><tr><th style="width:44%"></th><th class="v">Rubric risk</th><th class="v">LLM risk</th></tr></thead><tbody>
+      ${t.rows.map((x, i) => `<tr class="${i === 0 ? "chosen" : ""}"><td>${esc(x.name)}</td><td class="v">${pct(x.rubric)}</td><td class="v">${pct(x.prompted)}</td></tr>`).join("")}
+      </tbody></table>
+      <p class="note">${t.logs} held-out logs through the full graph.</p></div>
+    <p class="note">Every number is read from <code>evaluation/results/*.json</code> in the repo and matches the README.</p>`;
+}
+
+function renderFailed(m) {
+  const g = m.graphrag, hy = g.rows.find((x) => x.name.startsWith("Hybrid")), flat = g.rows[0];
+  const k = m.risk, lora = k.rows[0], llm = k.rows[1], rub = k.rows[2], d = k.lora_vs_prompted;
+  const t = m.trajectory, [caught, total] = t.judge_controls_caught.split("/");
+  const ci = (x) => `95% CI ${minus(f3(x.ci95_low))} to ${signed(x.ci95_high)}`;
+  const card = (tag, title, body) =>
+    `<div class="card"><h3><span class="tag">${tag}</span>${title}</h3><p>${body}</p></div>`;
+  $("#failed").innerHTML = `<h2>What didn't work</h2>` +
+    card("not adopted", "GraphRAG (Neo4j)",
+      `MRR ${f3(hy.dev_mrr)} vs ${f3(flat.dev_mrr)} on dev, but only ${signed(hy.gain.mean_difference)} on ${g.held_out_queries} held-out logs (${ci(hy.gain)}). The dev gain came mostly from rules fitted to the dev logs; flat search stays.`) +
+    card("not adopted", "LoRA risk classifier",
+      `Accuracy ${f2(lora.accuracy[0])}–${f2(lora.accuracy[1])} vs ${f3(llm.accuracy)} for a prompted LLM: ${signed(d.mean_difference)} (${ci(d)}), not significant. A plain rubric scores ${f3(rub.accuracy)}.`) +
+    card("not trusted", "LLM-as-judge",
+      `It caught a planted fabrication in only ${caught} of ${total} controls, so its faithfulness verdicts aren't used.`) +
+    card("next", "Diagnosis is the bottleneck",
+      `It is the first wrong stage in ${t.diagnosis_first_error} of ${t.logs} runs. Next: better evidence selection and retrieval, measured on a fresh held-out set.`);
+}
+
+// --- boot ---------------------------------------------------------------
+Promise.all([fetch("runs.json").then((r) => r.json()), fetch("metrics.json").then((r) => r.json())])
+  .then(([runs, metrics]) => {
+    RUNS = runs.runs; META = runs.meta;
+    renderPicker(); renderResults(metrics); renderFailed(metrics);
+  })
+  .catch((e) => { $("#picker").innerHTML = `<p class="note">Could not load the demo data: ${esc(e.message)}</p>`; });
+</script>
+</body>
+</html>

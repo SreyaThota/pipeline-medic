@@ -13,7 +13,8 @@
 :root {
   --bg: #0d1117; --panel: #161b22; --panel2: #1c232c; --line: #2a323d;
   --text: #e6edf3; --muted: #9aa6b2; --accent: #22d3a6; --accent-ink: #062a21;
-  --ok: #3fb950; --bad: #f85149; --high: #f85149; --medium: #d29922; --low: #3fb950;
+  --ok: #3fb950; --bad: #ff7b72; --high: #ff7b72;
+  --lineno: #8b949e; --focus: #ffd33d; --medium: #d29922; --low: #3fb950;
   --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 * { box-sizing: border-box; }
@@ -54,10 +55,10 @@ h3 { font-size: 16px; margin: 0 0 8px; display: flex; align-items: center; gap: 
 .log { font: 12.5px/1.45 var(--mono); background: #0a0e13; border: 1px solid var(--line);
   border-radius: 10px; padding: 8px 0; margin: 0; }
 .log div { display: grid; grid-template-columns: 3.2em 1fr; padding: 0 10px 0 0; }
-.log .n { color: #5c6773; text-align: right; padding-right: 8px; user-select: none; }
+.log .n { color: var(--lineno); text-align: right; padding-right: 8px; user-select: none; }
 .log .t { white-space: pre-wrap; overflow-wrap: anywhere; min-width: 0; }
 .log .ev { background: rgba(34, 211, 166, .13); box-shadow: 3px 0 0 var(--accent) inset; }
-.log .gap { color: #5c6773; padding-left: 3.2em; }
+.log .gap { color: var(--lineno); padding-left: 3.2em; }
 .badge { display: inline-block; font-size: 13px; font-weight: 700; padding: 2px 9px; border-radius: 6px;
   font-family: var(--mono); }
 .redact { background: #3a2a10; color: #f0b44c; }
@@ -86,6 +87,13 @@ pre.body { font: 12px/1.45 var(--mono); white-space: pre-wrap; overflow-wrap: an
 .approve { width: 100%; font: inherit; font-size: 19px; font-weight: 700; padding: 16px; margin-top: 8px;
   border-radius: 12px; border: 0; background: var(--accent); color: var(--accent-ink); cursor: pointer; }
 .approve:active { transform: scale(.99); }
+.decide { display: flex; gap: 10px; margin-top: 8px; }
+.decide .approve { flex: 2; margin-top: 0; }
+.reject { flex: 1; font: inherit; font-size: 17px; font-weight: 700; padding: 16px 10px; border-radius: 12px;
+  border: 2px solid var(--muted); background: transparent; color: var(--text); cursor: pointer; }
+.approve:disabled, .reject:disabled { opacity: .55; cursor: default; }
+.decision:focus { outline: none; }
+.decision:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; border-radius: 4px; }
 .paused { color: var(--medium); font-weight: 600; }
 .done { margin-top: 10px; padding: 12px; border-radius: 10px; background: rgba(34, 211, 166, .1);
   border: 1px solid rgba(34, 211, 166, .4); font-weight: 600; }
@@ -107,6 +115,8 @@ tr.chosen td { color: var(--accent); font-weight: 600; }
 footer { margin-top: 28px; padding-top: 14px; border-top: 1px solid var(--line); display: flex; gap: 18px;
   flex-wrap: wrap; font-size: 15px; }
 a { color: var(--accent); }
+/* one visible focus style for every control (WCAG 2.4.7) */
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 [hidden] { display: none !important; }
 </style>
 </head>
@@ -132,7 +142,7 @@ a { color: var(--accent); }
     <section id="replay" role="tabpanel" aria-labelledby="t-replay">
       <h2>Replay a real failure</h2>
       <div class="picker" id="picker"></div>
-      <div class="progress" id="progress" hidden></div>
+      <div class="progress" id="progress" aria-hidden="true" hidden></div>
       <div id="stages" aria-live="polite"></div>
       <p class="note" id="replay-note"></p>
     </section>
@@ -273,29 +283,39 @@ function stageApproval(run) {
   }
   return head(6, "⏸ Human approval") +
     `<p class="paused">The graph is paused. Nothing runs until a human decides.</p>
-     <button class="approve" id="approve">Approve (dry-run)</button><div id="outcome"></div>`;
+     <div class="decide" role="group" aria-label="Human decision">
+       <button class="approve" id="approve" type="button">Approve (dry-run)</button>
+       <button class="reject" id="reject" type="button">Reject</button>
+     </div><div id="outcome"></div>`;
 }
 
-function showOutcome(run) {
-  const a = run.approval;
+let decision = null; // "approved" | "rejected" | null for the run on screen
+
+function showOutcome(run, approved) {
+  decision = approved ? "approved" : "rejected";
+  const a = approved ? run.approval : run.approval.rejection;
   const rows = a.results.map((r) => `
-    <p class="kv"><b>${esc(r.tool)}</b> → <code>${esc(r.status)}</code> · ${esc(r.result?.note ?? "")}</p>
+    <p class="kv"><b>${esc(r.tool)}</b> → <code>${esc(r.status)}</code> · ${esc(r.result?.note ?? r.error ?? "")}</p>
     <div class="audit">${r.audit.map((e) => `${esc(e.ts.slice(11, 23))} ${esc(e.tool)} ${esc(e.phase)} #${esc(e.action_id)}`).join("<br>")}</div>`).join("");
+  const timing = approved ? ms(run, "human_approval", "execute_actions") : "";
   $("#outcome").innerHTML = `<div class="stage" style="margin:10px 0 0">
-      <p class="meta">Approved by <code>${esc(a.approver)}</code> · run status <code>${esc(a.run_status)}</code> ${ms(run, "human_approval", "execute_actions")}</p>
+      <p class="meta decision" tabindex="-1">${approved ? "Approved" : "Rejected"} by <code>${esc(a.approver)}</code> · run status <code>${esc(a.run_status)}</code> ${timing}</p>
       ${rows}
-      <div class="done">Nothing was executed: dry-run.</div></div>`;
-  const btn = $("#approve");
-  btn.disabled = true; btn.textContent = "Approved"; btn.style.opacity = .5;
-  $(".paused").textContent = "Approved. The paused run resumed:";
+      <div class="done">${approved ? "Nothing was executed: dry-run." : "Rejected: nothing was executed."}</div></div>`;
+  for (const id of ["approve", "reject"]) $("#" + id).disabled = true;
+  $(approved ? "#approve" : "#reject").textContent = approved ? "Approved" : "Rejected";
+  $(".paused").textContent = approved ? "Approved. The paused run resumed:" : "Rejected. The paused run ended without running any tool:";
   renderTrace(run);
+  // move focus to the result, so keyboard and screen-reader users land on it
+  $("#outcome .decision").focus({ preventScroll: true });
   $("#outcome").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "center" });
 }
 
 function renderTrace(run) {
   const names = { parse: "parse", diagnose: "retrieve+diagnose", classify_risk: "risk",
     propose_actions: "propose", human_approval: "approval", execute_actions: "execute" };
-  const shown = run.approval.required && $("#approve") && !$("#approve").disabled
+  // timings after the decision were recorded on the approved run only
+  const shown = run.approval.required && decision !== "approved"
     ? ["parse", "diagnose", "classify_risk", "propose_actions"]
     : Object.keys(run.latency_ms);
   $("#replay-note").innerHTML = `<div class="trace">Trace: ${shown.filter((s) => s in run.latency_ms)
@@ -306,6 +326,7 @@ function renderTrace(run) {
 
 function play(i) {
   clearTimeout(timer);
+  decision = null;
   const run = RUNS[i];
   $("#picker").querySelectorAll(".pick").forEach((b) => b.setAttribute("aria-pressed", +b.dataset.i === i));
   const builders = [stageParse, stageRetrieve, stageDiagnose, stageRisk, stagePropose, stageApproval];
@@ -326,8 +347,8 @@ function play(i) {
     if (step < builders.length) timer = setTimeout(next, STEP_MS);
     else {
       renderTrace(run);
-      const btn = $("#approve");
-      if (btn) btn.addEventListener("click", () => showOutcome(run));
+      $("#approve")?.addEventListener("click", () => showOutcome(run, true));
+      $("#reject")?.addEventListener("click", () => showOutcome(run, false));
     }
   };
   next();

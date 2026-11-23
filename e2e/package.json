@@ -1,0 +1,20 @@
+{
+  "name": "pipeline-medic-e2e",
+  "private": true,
+  "description": "End-to-end, visual and accessibility tests for the static demo page (demo/public).",
+  "type": "module",
+  "scripts": {
+    "serve": "node serve.mjs",
+    "test": "playwright test",
+    "test:update": "playwright test --update-snapshots",
+    "test:docker": "docker run --rm --ipc=host -v \"$PWD/..:/work\" -w /work/e2e mcr.microsoft.com/playwright:v1.65.0-noble /bin/bash -c \"npm ci && npx playwright test\"",
+    "test:docker:update": "docker run --rm --ipc=host -v \"$PWD/..:/work\" -w /work/e2e mcr.microsoft.com/playwright:v1.65.0-noble /bin/bash -c \"npm ci && npx playwright test --update-snapshots\"",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@types/node": "22.20.5",
+    "typescript": "6.0.3"
+  }
+}

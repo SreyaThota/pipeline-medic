@@ -184,16 +184,16 @@
       "error": null,
       "audit": [
        {
-        "ts": "2026-11-12T17:00:28.865375+00:00",
+        "ts": "2026-11-23T15:17:56.826523+00:00",
         "tool": "create_ticket",
         "phase": "proposed",
-        "action_id": "5e070c39"
+        "action_id": "efb416f3"
        },
        {
-        "ts": "2026-11-12T17:00:28.867907+00:00",
+        "ts": "2026-11-23T15:17:56.829243+00:00",
         "tool": "create_ticket",
         "phase": "dry_run",
-        "action_id": "5e070c39"
+        "action_id": "efb416f3"
        }
       ]
      },
@@ -213,28 +213,81 @@
       "error": null,
       "audit": [
        {
-        "ts": "2026-11-12T17:00:28.872755+00:00",
+        "ts": "2026-11-23T15:17:56.837216+00:00",
         "tool": "notify",
         "phase": "proposed",
-        "action_id": "026e3876"
+        "action_id": "e33b5cad"
        },
        {
-        "ts": "2026-11-12T17:00:28.874334+00:00",
+        "ts": "2026-11-23T15:17:56.838741+00:00",
         "tool": "notify",
         "phase": "dry_run",
-        "action_id": "026e3876"
+        "action_id": "e33b5cad"
        }
       ]
      }
-    ]
+    ],
+    "rejection": {
+     "approver": "demo",
+     "approved": false,
+     "run_status": "rejected",
+     "results": [
+      {
+       "tool": "create_ticket",
+       "status": "rejected",
+       "dry_run": true,
+       "proposal": {
+        "title": "[high] CI failure: build_compile (tokio-rs)",
+        "body": "Category: build_compile (confidence 0.50, retrieval_vote)\nRisk: high (rubric): rubric v1: category build_compile, workflow Loom → high\n\nSummary:\n4 failure region(s) in 400 lines; key evidence at line 329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope. Most similar past failures suggest build_compile (50% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L329: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L347: error[E0599]: no associated function or constant named `default` found for struct `scheduled_io::ScheduledIo` in the current scope\n> L366: error: could not compile `tokio` (lib test) due to 2 previous errors\n> L367: Process completed with exit code 101.\n\nSimilar past failures:\n- astral-sh__ruff__33661538666 (build_compile, score 0.50)\n- astral-sh__ruff__33661538690 (build_compile, score 0.50)\n- prettier__prettier__35273463673 (ci_config, score 0.34)\n- home-assistant__core__28701780680 (type_check, score 0.34)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.32)\n\nSource log: tokio-rs__tokio__38134725610",
+        "severity": "high",
+        "labels": [
+         "ci-failure",
+         "build-compile",
+         "needs-triage"
+        ],
+        "source_log_id": "tokio-rs__tokio__38134725610"
+       },
+       "result": null,
+       "error": "rejected by demo",
+       "audit": [
+        {
+         "ts": "2026-11-23T15:17:57.167500+00:00",
+         "tool": "create_ticket",
+         "phase": "rejected_by_human",
+         "action_id": "52f624b8"
+        }
+       ]
+      },
+      {
+       "tool": "notify",
+       "status": "rejected",
+       "dry_run": true,
+       "proposal": {
+        "channel": "oncall",
+        "severity": "high",
+        "message": "[high] CI failure: build_compile (tokio-rs): ticket proposed, approval needed."
+       },
+       "result": null,
+       "error": "rejected by demo",
+       "audit": [
+        {
+         "ts": "2026-11-23T15:17:57.169438+00:00",
+         "tool": "notify",
+         "phase": "rejected_by_human",
+         "action_id": "30733959"
+        }
+       ]
+      }
+     ]
+    }
    },
    "latency_ms": {
-    "parse": 75.7,
-    "diagnose": 166.9,
-    "classify_risk": 2.0,
-    "propose_actions": 3.6,
-    "human_approval": 2.1,
-    "execute_actions": 16.6
+    "parse": 73.4,
+    "diagnose": 198.9,
+    "classify_risk": 2.2,
+    "propose_actions": 3.0,
+    "human_approval": 2.5,
+    "execute_actions": 24.1
    }
   },
   {
@@ -341,28 +394,60 @@
       "error": null,
       "audit": [
        {
-        "ts": "2026-11-12T17:00:29.108104+00:00",
+        "ts": "2026-11-23T15:17:57.372530+00:00",
         "tool": "create_ticket",
         "phase": "proposed",
-        "action_id": "a873debd"
+        "action_id": "8ea76068"
        },
        {
-        "ts": "2026-11-12T17:00:29.109879+00:00",
+        "ts": "2026-11-23T15:17:57.374272+00:00",
         "tool": "create_ticket",
         "phase": "dry_run",
-        "action_id": "a873debd"
+        "action_id": "8ea76068"
        }
       ]
      }
-    ]
+    ],
+    "rejection": {
+     "approver": "demo",
+     "approved": false,
+     "run_status": "rejected",
+     "results": [
+      {
+       "tool": "create_ticket",
+       "status": "rejected",
+       "dry_run": true,
+       "proposal": {
+        "title": "[medium] CI failure: ci_config (home-assistant)",
+        "body": "Category: ci_config (confidence 1.00, retrieval_vote)\nRisk: medium (rubric): rubric v1: category ci_config, workflow Check requirements (deterministic) → medium\n\nSummary:\n1 failure region(s) in 19 lines; key evidence at line 19: Process completed with exit code 1.. Most similar past failures suggest ci_config (100% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L19: Process completed with exit code 1.\n\nSimilar past failures:\n- psf__black__30838063852 (ci_config, score 0.66)\n- pydantic__pydantic__36868140759 (ci_config, score 0.57)\n- pydantic__pydantic__36779918080 (ci_config, score 0.55)\n- psf__black__34076593565 (ci_config, score 0.51)\n- psf__black__34589296835 (ci_config, score 0.51)\n\nSource log: home-assistant__core__38223769150",
+        "severity": "medium",
+        "labels": [
+         "ci-failure",
+         "ci-config"
+        ],
+        "source_log_id": "home-assistant__core__38223769150"
+       },
+       "result": null,
+       "error": "rejected by demo",
+       "audit": [
+        {
+         "ts": "2026-11-23T15:17:57.589792+00:00",
+         "tool": "create_ticket",
+         "phase": "rejected_by_human",
+         "action_id": "0e670b06"
+        }
+       ]
+      }
+     ]
+    }
    },
    "latency_ms": {
-    "parse": 6.4,
-    "diagnose": 147.3,
-    "classify_risk": 2.2,
-    "propose_actions": 2.5,
-    "human_approval": 2.2,
-    "execute_actions": 10.0
+    "parse": 6.5,
+    "diagnose": 128.8,
+    "classify_risk": 1.9,
+    "propose_actions": 2.3,
+    "human_approval": 1.5,
+    "execute_actions": 9.6
    }
   },
   {
@@ -537,28 +622,60 @@
       "error": null,
       "audit": [
        {
-        "ts": "2026-11-12T17:00:29.584617+00:00",
+        "ts": "2026-11-23T15:17:58.042652+00:00",
         "tool": "create_ticket",
         "phase": "proposed",
-        "action_id": "321a3033"
+        "action_id": "b1d5dafa"
        },
        {
-        "ts": "2026-11-12T17:00:29.586748+00:00",
+        "ts": "2026-11-23T15:17:58.044260+00:00",
         "tool": "create_ticket",
         "phase": "dry_run",
-        "action_id": "321a3033"
+        "action_id": "b1d5dafa"
        }
       ]
      }
-    ]
+    ],
+    "rejection": {
+     "approver": "demo",
+     "approved": false,
+     "run_status": "rejected",
+     "results": [
+      {
+       "tool": "create_ticket",
+       "status": "rejected",
+       "dry_run": true,
+       "proposal": {
+        "title": "[medium] CI failure: test_failure (python-poetry)",
+        "body": "Category: test_failure (confidence 0.84, retrieval_vote)\nRisk: medium (rubric): rubric v1: category test_failure, workflow Tests → medium\n\nSummary:\n5 failure region(s) in 400 lines; key evidence at line 283:             exception = tarfile.OutsideDestinationError. Most similar past failures suggest test_failure (84% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L283:             exception = tarfile.OutsideDestinationError\n> L341: FAILED tests/utils/test_helpers.py::test_extractall_sdist_no_symlink_path_traversal_via_directory_symlink - Failed: DID NOT RAISE OutsideDestinationError\n> L342: = 1 failed, 3338 passed, 34 skipped, 2 xfailed, 75 warnings in 65.47s (0:01:05) =\n> L343: Process completed with exit code 1.\n> L399: Process completed with exit code 1.\n\nSimilar past failures:\n- python-poetry__poetry__36312975783 (test_failure, score 0.99)\n- python-poetry__poetry__36335583674 (test_failure, score 0.99)\n- python-poetry__poetry__34606971513 (ci_config, score 0.59)\n- fastapi__fastapi__35571183172 (test_failure, score 0.59)\n- pytest-dev__pytest__36311103335 (test_failure, score 0.59)\n\nSource log: python-poetry__poetry__38201401884",
+        "severity": "medium",
+        "labels": [
+         "ci-failure",
+         "test-failure"
+        ],
+        "source_log_id": "python-poetry__poetry__38201401884"
+       },
+       "result": null,
+       "error": "rejected by demo",
+       "audit": [
+        {
+         "ts": "2026-11-23T15:17:58.407320+00:00",
+         "tool": "create_ticket",
+         "phase": "rejected_by_human",
+         "action_id": "6d2ce5fd"
+        }
+       ]
+      }
+     ]
+    }
    },
    "latency_ms": {
-    "parse": 117.5,
-    "diagnose": 113.9,
-    "classify_risk": 2.4,
-    "propose_actions": 3.0,
-    "human_approval": 2.6,
-    "execute_actions": 11.1
+    "parse": 109.7,
+    "diagnose": 109.7,
+    "classify_risk": 2.3,
+    "propose_actions": 3.2,
+    "human_approval": 2.2,
+    "execute_actions": 10.4
    }
   },
   {
@@ -637,10 +754,10 @@
     "run_status": "resolved_no_action"
    },
    "latency_ms": {
-    "parse": 100.8,
-    "diagnose": 146.2,
-    "classify_risk": 2.1,
-    "propose_actions": 2.1
+    "parse": 91.4,
+    "diagnose": 145.5,
+    "classify_risk": 2.4,
+    "propose_actions": 1.6
    }
   },
   {
@@ -790,16 +907,16 @@
       "error": null,
       "audit": [
        {
-        "ts": "2026-11-12T17:00:30.458231+00:00",
+        "ts": "2026-11-23T15:17:59.257433+00:00",
         "tool": "create_ticket",
         "phase": "proposed",
-        "action_id": "23600f36"
+        "action_id": "46b2b1c5"
        },
        {
-        "ts": "2026-11-12T17:00:30.460171+00:00",
+        "ts": "2026-11-23T15:17:59.262625+00:00",
         "tool": "create_ticket",
         "phase": "dry_run",
-        "action_id": "23600f36"
+        "action_id": "46b2b1c5"
        }
       ]
      },
@@ -819,28 +936,81 @@
       "error": null,
       "audit": [
        {
-        "ts": "2026-11-12T17:00:30.465041+00:00",
+        "ts": "2026-11-23T15:17:59.268083+00:00",
         "tool": "notify",
         "phase": "proposed",
-        "action_id": "13654ebf"
+        "action_id": "69872cb9"
        },
        {
-        "ts": "2026-11-12T17:00:30.466704+00:00",
+        "ts": "2026-11-23T15:17:59.270068+00:00",
         "tool": "notify",
         "phase": "dry_run",
-        "action_id": "13654ebf"
+        "action_id": "69872cb9"
        }
       ]
      }
-    ]
+    ],
+    "rejection": {
+     "approver": "demo",
+     "approved": false,
+     "run_status": "rejected",
+     "results": [
+      {
+       "tool": "create_ticket",
+       "status": "rejected",
+       "dry_run": true,
+       "proposal": {
+        "title": "[high] CI failure: ci_config (numpy)",
+        "body": "Category: ci_config (confidence 0.38, retrieval_vote)\nRisk: high (rubric): rubric v1: category ci_config, workflow Wheel builder → high\n\nSummary:\n2 failure region(s) in 400 lines; key evidence at line 330: error: closed. Most similar past failures suggest ci_config (38% of the retrieval vote).\n\nEvidence (quoted from the log, untrusted):\n> L330: error: closed\n> L338: cibuildwheel: Command ['/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/python/android.py', 'test', '--site-packages', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/site-packages', '--cwd', '/tmp/cibw-run-hqp25ngb/cp313-android_x86_64/cwd', '--managed', 'maxVersion', '--', '-m', 'pytest', '--pyargs', 'nu\n\nSimilar past failures:\n- pydantic__pydantic__36666298158 (dependency_install, score 0.49)\n- pytest-dev__pytest__36283392425 (docs_check, score 0.44)\n- pydantic__pydantic__36868140759 (ci_config, score 0.42)\n- psf__black__31071707016 (lint_format, score 0.41)\n- pydantic__pydantic__36712532115 (ci_config, score 0.40)\n\nSource log: numpy__numpy__38197650837",
+        "severity": "high",
+        "labels": [
+         "ci-failure",
+         "ci-config",
+         "needs-triage"
+        ],
+        "source_log_id": "numpy__numpy__38197650837"
+       },
+       "result": null,
+       "error": "rejected by demo",
+       "audit": [
+        {
+         "ts": "2026-11-23T15:17:59.675852+00:00",
+         "tool": "create_ticket",
+         "phase": "rejected_by_human",
+         "action_id": "bbdbcc4a"
+        }
+       ]
+      },
+      {
+       "tool": "notify",
+       "status": "rejected",
+       "dry_run": true,
+       "proposal": {
+        "channel": "oncall",
+        "severity": "high",
+        "message": "[high] CI failure: ci_config (numpy): ticket proposed, approval needed."
+       },
+       "result": null,
+       "error": "rejected by demo",
+       "audit": [
+        {
+         "ts": "2026-11-23T15:17:59.677566+00:00",
+         "tool": "notify",
+         "phase": "rejected_by_human",
+         "action_id": "f9cfd5f0"
+        }
+       ]
+      }
+     ]
+    }
    },
    "latency_ms": {
-    "parse": 103.8,
-    "diagnose": 151.6,
-    "classify_risk": 2.3,
-    "propose_actions": 3.3,
-    "human_approval": 2.9,
-    "execute_actions": 16.9
+    "parse": 96.2,
+    "diagnose": 146.8,
+    "classify_risk": 2.5,
+    "propose_actions": 3.1,
+    "human_approval": 2.4,
+    "execute_actions": 23.0
    }
   }
  ]

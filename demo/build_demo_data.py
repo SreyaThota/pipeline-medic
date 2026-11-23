@@ -73,6 +73,17 @@ def excerpt_lines(total: int, evidence: list[int]) -> list[int]:
     return sorted(evidence)[:EXCERPT_LINES]
 
 
+def tool_results(graph: PipelineMedicGraph, final: Any) -> list[dict[str, Any]]:
+    """Each tool's outcome after the human decision, with its audit entries."""
+    return [
+        {"tool": r.tool, "status": r.status, "dry_run": r.dry_run, "proposal": r.proposal,
+         "result": r.result, "error": r.error,
+         "audit": [{"ts": e["ts"], "tool": e["tool"], "phase": e["phase"],
+                    "action_id": e["action_id"][:8]}
+                   for e in graph.actor.audit.entries(r.action_id)]}
+        for r in final["action_results"]]
+
+
 def export_run(graph: PipelineMedicGraph, row: dict[str, str]) -> dict[str, Any]:
     path = INDEX_CSV.parent / row["source"] / f"{row['log_id']}.log"
     original = path.read_text(encoding="utf-8", errors="replace")
@@ -90,13 +101,14 @@ def export_run(graph: PipelineMedicGraph, row: dict[str, str]) -> dict[str, Any]
         final = graph.resume(state["run_id"], Approval(approved=True, approver="demo",
                                                          note="dry-run approval for the static demo"))
         approval.update(approver="demo", approved=True, run_status=final["status"])
-        approval["results"] = [
-            {"tool": r.tool, "status": r.status, "dry_run": r.dry_run, "proposal": r.proposal,
-             "result": r.result, "error": r.error,
-             "audit": [{"ts": e["ts"], "tool": e["tool"], "phase": e["phase"],
-                        "action_id": e["action_id"][:8]}
-                       for e in graph.actor.audit.entries(r.action_id)]}
-            for r in final["action_results"]]
+        approval["results"] = tool_results(graph, final)
+        # The same log run again and rejected, so the page can show both outcomes.
+        again = graph.start(original, source_log_id=row["log_id"], workflow=row["workflow"])
+        rejected = graph.resume(again["run_id"], Approval(approved=False, approver="demo",
+                                                          note="rejection for the static demo"))
+        approval["rejection"] = {"approver": "demo", "approved": False,
+                                 "run_status": rejected["status"],
+                                 "results": tool_results(graph, rejected)}
     else:
         approval["run_status"] = final["status"]
 

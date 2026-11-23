@@ -34,6 +34,18 @@ def test_approved_actions_were_dry_runs_only(runs: list[dict]) -> None:
             assert result["dry_run"] is True and result["status"] == "dry_run"
 
 
+def test_rejected_runs_executed_nothing(runs: list[dict]) -> None:
+    paused = [run for run in runs if run["approval"]["required"]]
+    assert paused, "expected at least one run that waits for approval"
+    for run in paused:
+        rejection = run["approval"]["rejection"]
+        assert rejection["run_status"] == "rejected"
+        assert [r["tool"] for r in rejection["results"]] == [a["tool"] for a in run["actions"]]
+        for result in rejection["results"]:
+            assert result["status"] == "rejected" and result["result"] is None
+            assert [e["phase"] for e in result["audit"]] == ["rejected_by_human"]
+
+
 def test_evidence_lines_are_in_the_excerpt(runs: list[dict]) -> None:
     for run in runs:
         shown = {line["line"] for line in run["excerpt"]}

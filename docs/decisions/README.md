@@ -9,3 +9,4 @@ decision and consequences.
 | `002-adopt-pipelinemedic-x-roadmap.md` | *Superseded by 003.* The PipelineMedic X roadmap replaces the agent plan |
 | `003-return-to-agentic-roadmap.md` | Back to the agentic roadmap; keep the brief's security and evaluation rules; Phases 1–2 kept as v0.2.6 |
 | `004-resolve-open-decisions.md` | Local-file backends; rubric v1 kept; the rule-based classifier is the graph's default risk stage |
+| `005-browser-tests-with-playwright.md` | Playwright browser tests for the demo page; screenshot baselines rendered in the CI image |

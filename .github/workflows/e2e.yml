@@ -1,0 +1,63 @@
+name: E2E
+
+# Functional, visual-regression and accessibility tests of the static demo page
+# (demo/public), served locally by Playwright's webServer. Runs inside the
+# official Playwright image, which ships the browsers pre-installed, so the
+# rendering (and therefore every screenshot baseline) is identical between
+# runs. Baselines are created with the manual "update_snapshots" run below.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      update_snapshots:
+        description: "Regenerate the screenshot baselines and upload them as an artifact"
+        type: boolean
+        default: false
+
+concurrency:
+  group: e2e-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    container:
+      image: mcr.microsoft.com/playwright:v1.65.0-noble
+      options: --user 1001
+    defaults:
+      run:
+        working-directory: e2e
+    steps:
+      - uses: actions/checkout@v5
+      - name: Cache npm downloads
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: npm-e2e-${{ hashFiles('e2e/package-lock.json') }}
+      - name: Install test dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Type-check the tests
+        run: npx tsc --noEmit
+      - name: Run end-to-end tests
+        if: ${{ !inputs.update_snapshots }}
+        run: npx playwright test
+      - name: Regenerate screenshot baselines
+        if: ${{ inputs.update_snapshots }}
+        run: npx playwright test --update-snapshots
+      - name: Upload new baselines
+        if: ${{ inputs.update_snapshots }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshot-baselines
+          path: e2e/tests/__screenshots__/
+      - name: Upload HTML report and diff images
+        if: ${{ failure() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            e2e/playwright-report/
+            e2e/test-results/
+          retention-days: 14

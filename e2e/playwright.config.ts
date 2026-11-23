@@ -4,10 +4,13 @@ const PORT = 4173;
 
 export default defineConfig({
   testDir: "./tests",
+  // accessibility scans are merged into a11y-report.json / .md after the run
+  globalSetup: "./a11y/global-setup.ts",
+  globalTeardown: "./a11y/global-teardown.ts",
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
-  workers: process.env.CI ? 2 : 4,
+  workers: 2,
   // html for people; json is machine-readable input for failure triage
   reporter: [
     ["list"],
